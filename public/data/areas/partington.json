@@ -707,46 +707,46 @@
      "near": "Flixton"
     },
     {
-     "title": "Knifeman guilty of attempted murder after random attacks in Altrincham",
+     "title": "Costco Manchester hit by 'absolute carnage' as huge queues of shoppers swarm on store's emergency items",
      "excerpt": "",
-     "date": "23 Oct 2026",
+     "date": "27 Oct 2026",
      "tag": "Nearby news",
      "tone": "neutral",
      "source": "Manchester Evening News – Trafford",
      "domain": "manchestereveningnews.co.uk",
-     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/knifeman-guilty-attempted-murder-after-34805171",
-     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34805189.ece/ALTERNATES/s615/0_JRP_MEN_301125_police_011JPG.jpg",
+     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/costco-manchester-hit-absolute-carnage-34822237",
+     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34822369.ece/ALTERNATES/s615/1_Screenshot-2026-10-27-092932.png",
      "image_external": true,
      "scope": "nearby"
     },
     {
-     "title": "M60 long queues build up after lane closed",
+     "title": "New rule coming to Greater Manchester tips sparks fear of ‘passport-style’ queues",
      "excerpt": "",
-     "date": "23 Oct 2026",
+     "date": "26 Oct 2026",
      "tag": "Nearby news",
      "tone": "neutral",
      "source": "Manchester Evening News – Trafford",
      "domain": "manchestereveningnews.co.uk",
-     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/m60-traffic-live-long-queues-34805000",
-     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34805052.ece/ALTERNATES/s615/0_3449.jpg",
+     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/new-rule-coming-greater-manchester-34821002",
+     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34821015.ece/ALTERNATES/s615/0_JS399694320.jpg",
      "image_external": true,
      "scope": "nearby"
     },
     {
-     "title": "Trafford doesn't want help to balance its books, but might need it",
+     "title": "Greater Manchester Bonfire Night 2026 firework displays and events in full - including Heaton Park and Wythenshawe Park",
      "excerpt": "",
-     "date": "23 Oct 2026",
+     "date": "26 Oct 2026",
      "tag": "Nearby news",
      "tone": "neutral",
      "source": "Manchester Evening News – Trafford",
      "domain": "manchestereveningnews.co.uk",
-     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/trafford-doesnt-want-help-balance-34804045",
-     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article33434124.ece/ALTERNATES/s615/0_Trafford-Town-Hall.jpg",
+     "url": "https://www.manchestereveningnews.co.uk/whats-on/whats-on-news/greater-manchester-bonfire-night-2026-34818012",
+     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article15449381.ece/ALTERNATES/s615/0_VCP_MEN_051118_heaton_park_fireworks_031JPG.jpg",
      "image_external": true,
      "scope": "nearby"
     }
    ],
-   "period": "Publisher feeds checked 2026-10-23",
+   "period": "Publisher feeds checked 2026-10-27",
    "geography": "Partington",
    "source": {
     "name": "Local publisher RSS feeds",
@@ -1272,7 +1272,7 @@
     "tram_map": "https://tfgm.com/ways-to-travel/tram/network-map",
     "rail_reviewed": "2026-10-12"
    },
-   "period": "Timetable downloaded 2026-10-23",
+   "period": "Timetable downloaded 2026-10-27",
    "geography": "Stops within 1 km of the centre of Partington",
    "source": {
     "name": "TfGM bus and Metrolink timetables (GTFS)",
@@ -1416,5 +1416,5 @@
    "note": "Access to jobs, education, healthcare, shops and leisure by walking, cycling, public transport and driving."
   }
  },
- "updated": "2026-10-23"
+ "updated": "2026-10-27"
 }

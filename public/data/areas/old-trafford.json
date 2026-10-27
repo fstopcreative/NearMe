@@ -903,19 +903,6 @@
   "news": {
    "value": [
     {
-     "title": "Tram services suspended for Manchester United v Bournemouth match",
-     "excerpt": "",
-     "date": "22 Oct 2026",
-     "tag": "Transport",
-     "tone": "info",
-     "source": "Messenger Newspapers",
-     "domain": "messengernewspapers.co.uk",
-     "url": "https://www.messengernewspapers.co.uk/news/26657613.old-trafford-tram-services-suspended-next-home-game/?ref=rss",
-     "image": "https://www.messengernewspapers.co.uk/resources/images/21612852/",
-     "image_external": true,
-     "scope": "local"
-    },
-    {
      "title": "Manchester United fans warned 'leave an hour early' as travel chaos expected ahead of Bournemouth game",
      "excerpt": "",
      "date": "21 Oct 2026",
@@ -927,6 +914,20 @@
      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34795611.ece/ALTERNATES/s615/1_Manchester-United-v-Ipswich-Town-Premier-League-202627.jpg",
      "image_external": true,
      "scope": "local"
+    },
+    {
+     "title": "Everything heard in second week in the trial of a man accused of murdering Stretford Grammar headteacher Michael Mullins",
+     "excerpt": "",
+     "date": "25 Oct 2026",
+     "tag": "Nearby · Stretford",
+     "tone": "neutral",
+     "source": "Manchester Evening News – Trafford",
+     "domain": "manchestereveningnews.co.uk",
+     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/everything-heard-second-week-trial-34809304",
+     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34791556.ece/ALTERNATES/s615/0_Court2222.jpg",
+     "image_external": true,
+     "scope": "nearby",
+     "near": "Stretford"
     },
     {
      "title": "Luxury car brand Maserati opens new dealership in Trafford",
@@ -943,18 +944,18 @@
      "near": "Stretford"
     },
     {
-     "title": "Devoted husband to take on 113-mile charity run after wife's diagnosis",
+     "title": "Extremely rare black swan spotted in Sale Waterpark",
      "excerpt": "",
-     "date": "23 Oct 2026",
-     "tag": "Nearby · Stretford",
+     "date": "25 Oct 2026",
+     "tag": "Nearby · Sale",
      "tone": "neutral",
      "source": "Messenger Newspapers",
      "domain": "messengernewspapers.co.uk",
-     "url": "https://www.messengernewspapers.co.uk/news/26658124.stretford-man-run-113-miles-grimsby-wife/?ref=rss",
-     "image": "https://www.messengernewspapers.co.uk/resources/images/21613666/",
+     "url": "https://www.messengernewspapers.co.uk/news/26667361.ultra-rare-black-swan-spotted-sale-waterpark/?ref=rss",
+     "image": "https://www.messengernewspapers.co.uk/resources/images/21627073/",
      "image_external": true,
      "scope": "nearby",
-     "near": "Stretford"
+     "near": "Sale"
     },
     {
      "title": "Take a look inside this charming period home on the market in Sale",
@@ -969,23 +970,9 @@
      "image_external": true,
      "scope": "nearby",
      "near": "Sale"
-    },
-    {
-     "title": "Job: Experienced Sales Negotiator – Full Time at Watersons Estate Agents",
-     "excerpt": "",
-     "date": "22 Oct 2026",
-     "tag": "Nearby · Sale",
-     "tone": "neutral",
-     "source": "Altrincham Today",
-     "domain": "altrincham.todaynews.co.uk",
-     "url": "https://altrincham.todaynews.co.uk/jobs/2026/10/22/job-experienced-sales-negotiator-full-time-at-watersons-estate-agents/",
-     "image": "https://storage.ghost.io/c/09/ce/09cee984-fa22-44f2-a16f-e4d816e662de/content/images/2025/10/High-resolution-logo-edit.jpg",
-     "image_external": true,
-     "scope": "nearby",
-     "near": "Sale"
     }
    ],
-   "period": "Publisher feeds checked 2026-10-23",
+   "period": "Publisher feeds checked 2026-10-27",
    "geography": "Old Trafford",
    "source": {
     "name": "Local publisher RSS feeds",
@@ -996,7 +983,6 @@
    "feeds": [
     "Manchester Evening News – Trafford",
     "Messenger Newspapers",
-    "Manchester Evening News – Sale",
     "Altrincham Today"
    ],
    "feed_links": [
@@ -1009,16 +995,12 @@
      "url": "https://www.messengernewspapers.co.uk/news/rss/"
     },
     {
-     "name": "Manchester Evening News – Sale",
-     "url": "https://www.manchestereveningnews.co.uk/all-about/sale?service=rss"
-    },
-    {
      "name": "Altrincham Today",
      "url": "https://altrincham.todaynews.co.uk/feed/"
     }
    ],
    "scope": "local",
-   "local_count": 2,
+   "local_count": 1,
    "nearby_count": 4,
    "note": "Headlines and links only; RSS images are referenced from the publisher when supplied and are not copied."
   },
@@ -1686,7 +1668,7 @@
     "tram_map": "https://tfgm.com/ways-to-travel/tram/network-map",
     "rail_reviewed": "2026-10-12"
    },
-   "period": "Timetable downloaded 2026-10-23",
+   "period": "Timetable downloaded 2026-10-27",
    "geography": "Stops within 1 km of the centre of Old Trafford",
    "source": {
     "name": "TfGM bus and Metrolink timetables (GTFS)",
@@ -1835,5 +1817,5 @@
    "note": "Access to jobs, education, healthcare, shops and leisure by walking, cycling, public transport and driving."
   }
  },
- "updated": "2026-10-23"
+ "updated": "2026-10-27"
 }

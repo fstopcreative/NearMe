@@ -766,6 +766,45 @@
   "news": {
    "value": [
     {
+     "title": "Free careers fair in Altrincham to bring together more than 35 employers and education providers",
+     "excerpt": "",
+     "date": "26 Oct 2026",
+     "tag": "Schools",
+     "tone": "success",
+     "source": "Altrincham Today",
+     "domain": "altrincham.todaynews.co.uk",
+     "url": "https://altrincham.todaynews.co.uk/news/2026/10/26/free-careers-fair-in-altrincham-to-bring-together-more-than-35-employers-and-education-providers/",
+     "image": "https://storage.ghost.io/c/09/ce/09cee984-fa22-44f2-a16f-e4d816e662de/content/images/2026/10/554712898_24818020754504707_7581052702833179533_n--1-.jpg",
+     "image_external": true,
+     "scope": "local"
+    },
+    {
+     "title": "Concern over major admissions change at Altrincham Grammar for Girls",
+     "excerpt": "",
+     "date": "26 Oct 2026",
+     "tag": "Schools",
+     "tone": "success",
+     "source": "Messenger Newspapers",
+     "domain": "messengernewspapers.co.uk",
+     "url": "https://www.messengernewspapers.co.uk/news/26668352.parents-raise-concerns-altrincham-grammar-admissions-plans/?ref=rss",
+     "image": "https://www.messengernewspapers.co.uk/resources/images/21628704/",
+     "image_external": true,
+     "scope": "local"
+    },
+    {
+     "title": "Two men in their 30s charged with burglary and theft offences in Trafford, police say",
+     "excerpt": "",
+     "date": "23 Oct 2026",
+     "tag": "Local news",
+     "tone": "neutral",
+     "source": "Messenger Newspapers",
+     "domain": "messengernewspapers.co.uk",
+     "url": "https://www.messengernewspapers.co.uk/news/26665166.two-men-charged-burglary-theft-offences-trafford/?ref=rss",
+     "image": "https://www.messengernewspapers.co.uk/resources/images/12648945/",
+     "image_external": true,
+     "scope": "local"
+    },
+    {
      "title": "Man guilty of attempted murder after random attacks in Altrincham town centre",
      "excerpt": "",
      "date": "23 Oct 2026",
@@ -775,45 +814,6 @@
      "domain": "altrincham.todaynews.co.uk",
      "url": "https://altrincham.todaynews.co.uk/news/2026/10/23/man-guilty-of-attempted-murder-after-random-attacks-in-altrincham-town-centre/",
      "image": "https://storage.ghost.io/c/09/ce/09cee984-fa22-44f2-a16f-e4d816e662de/content/images/2026/10/593423732_1508122891314050_8413678741589851537_n--1-.jpg",
-     "image_external": true,
-     "scope": "local"
-    },
-    {
-     "title": "Knifeman guilty of attempted murder after random attacks in Altrincham",
-     "excerpt": "",
-     "date": "23 Oct 2026",
-     "tag": "Local news",
-     "tone": "neutral",
-     "source": "Manchester Evening News – Trafford",
-     "domain": "manchestereveningnews.co.uk",
-     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/knifeman-guilty-attempted-murder-after-34805171",
-     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34805189.ece/ALTERNATES/s615/0_JRP_MEN_301125_police_011JPG.jpg",
-     "image_external": true,
-     "scope": "local"
-    },
-    {
-     "title": "No trams to Old Trafford for United v Bournemouth: how to get there from Altrincham",
-     "excerpt": "",
-     "date": "22 Oct 2026",
-     "tag": "Transport",
-     "tone": "info",
-     "source": "Altrincham Today",
-     "domain": "altrincham.todaynews.co.uk",
-     "url": "https://altrincham.todaynews.co.uk/news/2026/10/22/no-trams-to-old-trafford-for-united-v-bournemouth-how-to-get-there-from-altrincham/",
-     "image": "https://storage.ghost.io/c/09/ce/09cee984-fa22-44f2-a16f-e4d816e662de/content/images/2026/10/Two-Metrolink-Trams-at-Altrincham-Station.jpg",
-     "image_external": true,
-     "scope": "local"
-    },
-    {
-     "title": "New vinyl, craft beer and coffee caravan Owl Town to officially open in Altrincham this weekend",
-     "excerpt": "",
-     "date": "22 Oct 2026",
-     "tag": "Local news",
-     "tone": "neutral",
-     "source": "Altrincham Today",
-     "domain": "altrincham.todaynews.co.uk",
-     "url": "https://altrincham.todaynews.co.uk/news/2026/10/22/new-vinyl-craft-beer-and-coffee-caravan-owl-town-to-officially-open-in-altrincham-this-weekend/",
-     "image": "https://storage.ghost.io/c/09/ce/09cee984-fa22-44f2-a16f-e4d816e662de/content/images/2026/10/Owl-Town-Coffee-and-Vinyl-Stall.jpg",
      "image_external": true,
      "scope": "local"
     },
@@ -832,18 +832,18 @@
      "near": "Hale"
     },
     {
-     "title": "Popular Chorlton Indian restaurant Sai Spice opens at Charlie Brown's in Hale",
+     "title": "Police target drivers on busy Timperley road as part of borough-wide \"crime-smashing\" crackdown",
      "excerpt": "",
-     "date": "17 Oct 2026",
-     "tag": "Nearby · Hale",
+     "date": "23 Oct 2026",
+     "tag": "Nearby · Timperley",
      "tone": "neutral",
      "source": "Altrincham Today",
      "domain": "altrincham.todaynews.co.uk",
-     "url": "https://altrincham.todaynews.co.uk/news/2026/10/17/popular-chorlton-indian-restaurant-sai-spice-opens-at-charlie-browns-in-hale/",
-     "image": "https://storage.ghost.io/c/09/ce/09cee984-fa22-44f2-a16f-e4d816e662de/content/images/2026/10/saispice.jpg",
+     "url": "https://altrincham.todaynews.co.uk/news/2026/10/23/police-target-drivers-on-busy-timperley-road-as-part-of-borough-wide-crime-smashing-crackdown/",
+     "image": "https://storage.ghost.io/c/09/ce/09cee984-fa22-44f2-a16f-e4d816e662de/content/images/2026/10/Operation-AVRO---Trafford-4--1-.jpg",
      "image_external": true,
      "scope": "nearby",
-     "near": "Hale"
+     "near": "Timperley"
     },
     {
      "title": "Councillors warn of threat to Timperley businesses over parking charges",
@@ -860,20 +860,20 @@
      "near": "Timperley"
     },
     {
-     "title": "Currys to play together for first time in 16 months",
+     "title": "Oldham shooting LIVE as street cordoned off with police on the scene",
      "excerpt": "",
-     "date": "23 Oct 2026",
+     "date": "27 Oct 2026",
      "tag": "Greater Manchester",
      "tone": "neutral",
-     "source": "BBC News – Manchester",
-     "domain": "bbc.co.uk",
-     "url": "https://www.bbc.co.uk/sport/rugby-union/articles/ck5yn319ryngo?at_medium=RSS&at_campaign=rss",
-     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/850f/live/67620900-ce11-11f1-9f55-cdc56e9c248c.jpg",
+     "source": "Manchester Evening News – Greater Manchester",
+     "domain": "manchestereveningnews.co.uk",
+     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/oldham-shooting-live-street-cordoned-34822129",
+     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34822154.ece/ALTERNATES/s615/0_RJ1_8686.jpg",
      "image_external": true,
      "scope": "nearby"
     }
    ],
-   "period": "Publisher feeds checked 2026-10-23",
+   "period": "Publisher feeds checked 2026-10-27",
    "geography": "Altrincham",
    "source": {
     "name": "Local publisher RSS feeds",
@@ -1623,7 +1623,7 @@
     "tram_map": "https://tfgm.com/ways-to-travel/tram/network-map",
     "rail_reviewed": "2026-10-12"
    },
-   "period": "Timetable downloaded 2026-10-23",
+   "period": "Timetable downloaded 2026-10-27",
    "geography": "Stops within 1 km of the centre of Altrincham",
    "source": {
     "name": "TfGM bus and Metrolink timetables (GTFS)",
@@ -1770,5 +1770,5 @@
    "note": "Access to jobs, education, healthcare, shops and leisure by walking, cycling, public transport and driving."
   }
  },
- "updated": "2026-10-23"
+ "updated": "2026-10-27"
 }

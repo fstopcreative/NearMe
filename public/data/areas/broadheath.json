@@ -744,29 +744,29 @@
   "news": {
    "value": [
     {
-     "title": "Man guilty of attempted murder after random attacks in Altrincham town centre",
+     "title": "Free careers fair in Altrincham to bring together more than 35 employers and education providers",
      "excerpt": "",
-     "date": "23 Oct 2026",
+     "date": "26 Oct 2026",
      "tag": "Nearby · Altrincham",
      "tone": "neutral",
      "source": "Altrincham Today",
      "domain": "altrincham.todaynews.co.uk",
-     "url": "https://altrincham.todaynews.co.uk/news/2026/10/23/man-guilty-of-attempted-murder-after-random-attacks-in-altrincham-town-centre/",
-     "image": "https://storage.ghost.io/c/09/ce/09cee984-fa22-44f2-a16f-e4d816e662de/content/images/2026/10/593423732_1508122891314050_8413678741589851537_n--1-.jpg",
+     "url": "https://altrincham.todaynews.co.uk/news/2026/10/26/free-careers-fair-in-altrincham-to-bring-together-more-than-35-employers-and-education-providers/",
+     "image": "https://storage.ghost.io/c/09/ce/09cee984-fa22-44f2-a16f-e4d816e662de/content/images/2026/10/554712898_24818020754504707_7581052702833179533_n--1-.jpg",
      "image_external": true,
      "scope": "nearby",
      "near": "Altrincham"
     },
     {
-     "title": "Knifeman guilty of attempted murder after random attacks in Altrincham",
+     "title": "Concern over major admissions change at Altrincham Grammar for Girls",
      "excerpt": "",
-     "date": "23 Oct 2026",
+     "date": "26 Oct 2026",
      "tag": "Nearby · Altrincham",
      "tone": "neutral",
-     "source": "Manchester Evening News – Trafford",
-     "domain": "manchestereveningnews.co.uk",
-     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/knifeman-guilty-attempted-murder-after-34805171",
-     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34805189.ece/ALTERNATES/s615/0_JRP_MEN_301125_police_011JPG.jpg",
+     "source": "Messenger Newspapers",
+     "domain": "messengernewspapers.co.uk",
+     "url": "https://www.messengernewspapers.co.uk/news/26668352.parents-raise-concerns-altrincham-grammar-admissions-plans/?ref=rss",
+     "image": "https://www.messengernewspapers.co.uk/resources/images/21628704/",
      "image_external": true,
      "scope": "nearby",
      "near": "Altrincham"
@@ -786,21 +786,21 @@
      "near": "Hale"
     },
     {
-     "title": "Popular Chorlton Indian restaurant Sai Spice opens at Charlie Brown's in Hale",
+     "title": "Police target drivers on busy Timperley road as part of borough-wide \"crime-smashing\" crackdown",
      "excerpt": "",
-     "date": "17 Oct 2026",
-     "tag": "Nearby · Hale",
+     "date": "23 Oct 2026",
+     "tag": "Nearby · Timperley",
      "tone": "neutral",
      "source": "Altrincham Today",
      "domain": "altrincham.todaynews.co.uk",
-     "url": "https://altrincham.todaynews.co.uk/news/2026/10/17/popular-chorlton-indian-restaurant-sai-spice-opens-at-charlie-browns-in-hale/",
-     "image": "https://storage.ghost.io/c/09/ce/09cee984-fa22-44f2-a16f-e4d816e662de/content/images/2026/10/saispice.jpg",
+     "url": "https://altrincham.todaynews.co.uk/news/2026/10/23/police-target-drivers-on-busy-timperley-road-as-part-of-borough-wide-crime-smashing-crackdown/",
+     "image": "https://storage.ghost.io/c/09/ce/09cee984-fa22-44f2-a16f-e4d816e662de/content/images/2026/10/Operation-AVRO---Trafford-4--1-.jpg",
      "image_external": true,
      "scope": "nearby",
-     "near": "Hale"
+     "near": "Timperley"
     }
    ],
-   "period": "Publisher feeds checked 2026-10-23",
+   "period": "Publisher feeds checked 2026-10-27",
    "geography": "Broadheath",
    "source": {
     "name": "Local publisher RSS feeds",
@@ -1513,7 +1513,7 @@
     "tram_map": "https://tfgm.com/ways-to-travel/tram/network-map",
     "rail_reviewed": "2026-10-12"
    },
-   "period": "Timetable downloaded 2026-10-23",
+   "period": "Timetable downloaded 2026-10-27",
    "geography": "Stops within 1 km of the centre of Broadheath",
    "source": {
     "name": "TfGM bus and Metrolink timetables (GTFS)",
@@ -1661,5 +1661,5 @@
    "note": "Access to jobs, education, healthcare, shops and leisure by walking, cycling, public transport and driving."
   }
  },
- "updated": "2026-10-23"
+ "updated": "2026-10-27"
 }

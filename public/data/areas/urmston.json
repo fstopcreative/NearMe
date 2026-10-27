@@ -686,30 +686,18 @@
      "scope": "local"
     },
     {
-     "title": "Pedestrian, 82, dies following crash in Trafford as police appeal for witnesses",
+     "title": "Everything heard in second week in the trial of a man accused of murdering Stretford Grammar headteacher Michael Mullins",
      "excerpt": "",
-     "date": "20 Oct 2026",
-     "tag": "Local news",
+     "date": "25 Oct 2026",
+     "tag": "Nearby · Stretford",
      "tone": "neutral",
      "source": "Manchester Evening News – Trafford",
      "domain": "manchestereveningnews.co.uk",
-     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/police-issue-urgent-appeal-after-34792495",
-     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34792558.ece/ALTERNATES/s615/0_Screenshot-2026-10-20-160159.png",
+     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/everything-heard-second-week-trial-34809304",
+     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34791556.ece/ALTERNATES/s615/0_Court2222.jpg",
      "image_external": true,
-     "scope": "local"
-    },
-    {
-     "title": "Urmston traveller pitches ruled on as resident argues ‘we shouldn’t be judged by a stereotype’",
-     "excerpt": "",
-     "date": "20 Oct 2026",
-     "tag": "Transport",
-     "tone": "info",
-     "source": "Manchester Evening News – Trafford",
-     "domain": "manchestereveningnews.co.uk",
-     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/urmston-traveller-pitches-ruled-resident-34787490",
-     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34765812.ece/ALTERNATES/s615/0_Philomenas-Court.jpg",
-     "image_external": true,
-     "scope": "local"
+     "scope": "nearby",
+     "near": "Stretford"
     },
     {
      "title": "Luxury car brand Maserati opens new dealership in Trafford",
@@ -726,47 +714,33 @@
      "near": "Stretford"
     },
     {
-     "title": "Devoted husband to take on 113-mile charity run after wife's diagnosis",
+     "title": "Oldham shooting LIVE as street cordoned off with police on the scene",
      "excerpt": "",
-     "date": "23 Oct 2026",
-     "tag": "Nearby · Stretford",
-     "tone": "neutral",
-     "source": "Messenger Newspapers",
-     "domain": "messengernewspapers.co.uk",
-     "url": "https://www.messengernewspapers.co.uk/news/26658124.stretford-man-run-113-miles-grimsby-wife/?ref=rss",
-     "image": "https://www.messengernewspapers.co.uk/resources/images/21613666/",
-     "image_external": true,
-     "scope": "nearby",
-     "near": "Stretford"
-    },
-    {
-     "title": "Currys to play together for first time in 16 months",
-     "excerpt": "",
-     "date": "23 Oct 2026",
-     "tag": "Greater Manchester",
-     "tone": "neutral",
-     "source": "BBC News – Manchester",
-     "domain": "bbc.co.uk",
-     "url": "https://www.bbc.co.uk/sport/rugby-union/articles/ck5yn319ryngo?at_medium=RSS&at_campaign=rss",
-     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/850f/live/67620900-ce11-11f1-9f55-cdc56e9c248c.jpg",
-     "image_external": true,
-     "scope": "nearby"
-    },
-    {
-     "title": "Plans to demolish Bolton’s iconic Tavern On The Hill pub",
-     "excerpt": "",
-     "date": "23 Oct 2026",
+     "date": "27 Oct 2026",
      "tag": "Greater Manchester",
      "tone": "neutral",
      "source": "Manchester Evening News – Greater Manchester",
      "domain": "manchestereveningnews.co.uk",
-     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/plans-demolish-boltons-iconic-tavern-34807178",
-     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34807175.ece/ALTERNATES/s615/0_tavern1.jpg",
+     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/oldham-shooting-live-street-cordoned-34822129",
+     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34822154.ece/ALTERNATES/s615/0_RJ1_8686.jpg",
+     "image_external": true,
+     "scope": "nearby"
+    },
+    {
+     "title": "New Bury school plans branded 'unsafe' as scheme is rejected",
+     "excerpt": "",
+     "date": "27 Oct 2026",
+     "tag": "Greater Manchester",
+     "tone": "neutral",
+     "source": "Manchester Evening News – Greater Manchester",
+     "domain": "manchestereveningnews.co.uk",
+     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/new-bury-school-plans-branded-34822430",
+     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34822482.ece/ALTERNATES/s615/0_Bury-Defence-Academy.jpg",
      "image_external": true,
      "scope": "nearby"
     }
    ],
-   "period": "Publisher feeds checked 2026-10-23",
+   "period": "Publisher feeds checked 2026-10-27",
    "geography": "Urmston",
    "source": {
     "name": "Local publisher RSS feeds",
@@ -778,7 +752,6 @@
     "Messenger Newspapers",
     "Manchester Evening News – Trafford",
     "Manchester Evening News – Urmston",
-    "Manchester Evening News – Sale",
     "Altrincham Today",
     "Manchester Evening News – Greater Manchester",
     "BBC News – Manchester"
@@ -797,10 +770,6 @@
      "url": "https://www.manchestereveningnews.co.uk/all-about/urmston?service=rss"
     },
     {
-     "name": "Manchester Evening News – Sale",
-     "url": "https://www.manchestereveningnews.co.uk/all-about/sale?service=rss"
-    },
-    {
      "name": "Altrincham Today",
      "url": "https://altrincham.todaynews.co.uk/feed/"
     },
@@ -814,7 +783,7 @@
     }
    ],
    "scope": "local",
-   "local_count": 3,
+   "local_count": 1,
    "nearby_count": 4,
    "note": "Headlines and links only; RSS images are referenced from the publisher when supplied and are not copied."
   },
@@ -1445,7 +1414,7 @@
     "tram_map": "https://tfgm.com/ways-to-travel/tram/network-map",
     "rail_reviewed": "2026-10-12"
    },
-   "period": "Timetable downloaded 2026-10-23",
+   "period": "Timetable downloaded 2026-10-27",
    "geography": "Stops within 1 km of the centre of Urmston",
    "source": {
     "name": "TfGM bus and Metrolink timetables (GTFS)",
@@ -1595,5 +1564,5 @@
    "note": "Access to jobs, education, healthcare, shops and leisure by walking, cycling, public transport and driving."
   }
  },
- "updated": "2026-10-23"
+ "updated": "2026-10-27"
 }
