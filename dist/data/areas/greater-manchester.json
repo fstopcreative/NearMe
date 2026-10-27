@@ -591,111 +591,111 @@
   "news": {
    "value": [
     {
-     "title": "Currys to play together for first time in 16 months",
+     "title": "Oldham shooting LIVE as street cordoned off with police on the scene",
      "excerpt": "",
-     "date": "23 Oct 2026",
+     "date": "27 Oct 2026",
+     "tag": "Local news",
+     "tone": "neutral",
+     "source": "Manchester Evening News – Greater Manchester",
+     "domain": "manchestereveningnews.co.uk",
+     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/oldham-shooting-live-street-cordoned-34822129",
+     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34822154.ece/ALTERNATES/s615/0_RJ1_8686.jpg",
+     "image_external": true,
+     "scope": "local"
+    },
+    {
+     "title": "New Bury school plans branded 'unsafe' as scheme is rejected",
+     "excerpt": "",
+     "date": "27 Oct 2026",
+     "tag": "Schools",
+     "tone": "success",
+     "source": "Manchester Evening News – Greater Manchester",
+     "domain": "manchestereveningnews.co.uk",
+     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/new-bury-school-plans-branded-34822430",
+     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34822482.ece/ALTERNATES/s615/0_Bury-Defence-Academy.jpg",
+     "image_external": true,
+     "scope": "local"
+    },
+    {
+     "title": "Three taken to hospital as M6 motorway shut for hours",
+     "excerpt": "",
+     "date": "27 Oct 2026",
+     "tag": "Transport",
+     "tone": "info",
+     "source": "Manchester Evening News – Greater Manchester",
+     "domain": "manchestereveningnews.co.uk",
+     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/three-taken-hospital-m6-motorway-34822601",
+     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34822590.ece/ALTERNATES/s615/0_m6-36943-j20a-19-1.jpg",
+     "image_external": true,
+     "scope": "local"
+    },
+    {
+     "title": "M6 crash LIVE as motorway fully shut after serious incident with 90 minute delays and 8 mile queues",
+     "excerpt": "",
+     "date": "27 Oct 2026",
+     "tag": "Transport",
+     "tone": "info",
+     "source": "Manchester Evening News – Greater Manchester",
+     "domain": "manchestereveningnews.co.uk",
+     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/m6-closed-live-m56-manchester-34821734",
+     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34822583.ece/ALTERNATES/s615/0_m6-37107-j23-j22.jpg",
+     "image_external": true,
+     "scope": "local"
+    },
+    {
+     "title": "Worker killed in horror crash between tractor, van and lorry in Edenfield roadworks",
+     "excerpt": "",
+     "date": "27 Oct 2026",
+     "tag": "Local news",
+     "tone": "neutral",
+     "source": "Manchester Evening News – Greater Manchester",
+     "domain": "manchestereveningnews.co.uk",
+     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/worker-killed-horror-crash-between-34822442",
+     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34819681.ece/ALTERNATES/s615/1_Image_014A7DF5-357D-4FC5-974F-48D010B609E1jpeg.jpg",
+     "image_external": true,
+     "scope": "local"
+    },
+    {
+     "title": "Three injured in M6 van and car crash",
+     "excerpt": "",
+     "date": "27 Oct 2026",
+     "tag": "Transport",
+     "tone": "info",
+     "source": "BBC News – Manchester",
+     "domain": "bbc.co.uk",
+     "url": "https://www.bbc.co.uk/news/articles/c9ly02zg810go?at_medium=RSS&at_campaign=rss",
+     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a469/live/745a1620-d1db-11f1-8e07-c79267b33d55.jpg",
+     "image_external": true,
+     "scope": "local"
+    },
+    {
+     "title": "Costco Manchester hit by 'absolute carnage' as huge queues of shoppers swarm on store's emergency items",
+     "excerpt": "",
+     "date": "27 Oct 2026",
+     "tag": "Local news",
+     "tone": "neutral",
+     "source": "Manchester Evening News – Greater Manchester",
+     "domain": "manchestereveningnews.co.uk",
+     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/costco-manchester-hit-absolute-carnage-34822237",
+     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34822369.ece/ALTERNATES/s615/1_Screenshot-2026-10-27-092932.png",
+     "image_external": true,
+     "scope": "local"
+    },
+    {
+     "title": "New ID rules at tips spark fly-tipping fears",
+     "excerpt": "",
+     "date": "27 Oct 2026",
      "tag": "Local news",
      "tone": "neutral",
      "source": "BBC News – Manchester",
      "domain": "bbc.co.uk",
-     "url": "https://www.bbc.co.uk/sport/rugby-union/articles/ck5yn319ryngo?at_medium=RSS&at_campaign=rss",
-     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/850f/live/67620900-ce11-11f1-9f55-cdc56e9c248c.jpg",
-     "image_external": true,
-     "scope": "local"
-    },
-    {
-     "title": "Plans to demolish Bolton’s iconic Tavern On The Hill pub",
-     "excerpt": "",
-     "date": "23 Oct 2026",
-     "tag": "Planning",
-     "tone": "accent",
-     "source": "Manchester Evening News – Greater Manchester",
-     "domain": "manchestereveningnews.co.uk",
-     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/plans-demolish-boltons-iconic-tavern-34807178",
-     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34807175.ece/ALTERNATES/s615/0_tavern1.jpg",
-     "image_external": true,
-     "scope": "local"
-    },
-    {
-     "title": "Manchester Airport announces new route to the home of Lego with returns from £62",
-     "excerpt": "",
-     "date": "23 Oct 2026",
-     "tag": "Local news",
-     "tone": "neutral",
-     "source": "Manchester Evening News – Greater Manchester",
-     "domain": "manchestereveningnews.co.uk",
-     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/manchester-airport-announces-new-route-34807202",
-     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34807249.ece/ALTERNATES/s615/0_Manchester-Airport-announces-new-direct-route-to-Billund-in-Denmark-the-home-of-Lego.jpg",
-     "image_external": true,
-     "scope": "local"
-    },
-    {
-     "title": "Manchester trains cancelled LIVE updates as airport services hit by disruption",
-     "excerpt": "",
-     "date": "23 Oct 2026",
-     "tag": "Local news",
-     "tone": "neutral",
-     "source": "Manchester Evening News – Greater Manchester",
-     "domain": "manchestereveningnews.co.uk",
-     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/manchester-trains-cancelled-live-updates-34805048",
-     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34756964.ece/ALTERNATES/s615/1_The-train-station-at-Manchester-Airport-Northern-and-TransPennine-Express-have-announced-a-rule-cha.jpg",
-     "image_external": true,
-     "scope": "local"
-    },
-    {
-     "title": "Pensioner fighting for life after being struck by cyclist on Northenden road",
-     "excerpt": "",
-     "date": "23 Oct 2026",
-     "tag": "Local news",
-     "tone": "neutral",
-     "source": "Manchester Evening News – Greater Manchester",
-     "domain": "manchestereveningnews.co.uk",
-     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/pensioner-fighting-life-after-being-34806126",
-     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34806200.ece/ALTERNATES/s615/0_IMGL2381jpgjpeg.jpg",
-     "image_external": true,
-     "scope": "local"
-    },
-    {
-     "title": "Tragedy as man dies in north Manchester street",
-     "excerpt": "",
-     "date": "23 Oct 2026",
-     "tag": "Local news",
-     "tone": "neutral",
-     "source": "Manchester Evening News – Greater Manchester",
-     "domain": "manchestereveningnews.co.uk",
-     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/tragedy-man-dies-north-manchester-34805948",
-     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34806072.ece/ALTERNATES/s615/20261023_180151.jpg",
-     "image_external": true,
-     "scope": "local"
-    },
-    {
-     "title": "Met Office issues new 33-hour weather warning for Greater Manchester as 65mph winds to hit during Storm Boelo",
-     "excerpt": "",
-     "date": "23 Oct 2026",
-     "tag": "Local news",
-     "tone": "neutral",
-     "source": "Manchester Evening News – Greater Manchester",
-     "domain": "manchestereveningnews.co.uk",
-     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/met-office-issues-new-33-34805850",
-     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34805931.ece/ALTERNATES/s615/0_WWmanchetser.png",
-     "image_external": true,
-     "scope": "local"
-    },
-    {
-     "title": "Manchester Airport makes major announcement for multimillion-pound new look Terminal 3 in huge expansion",
-     "excerpt": "",
-     "date": "23 Oct 2026",
-     "tag": "Local news",
-     "tone": "neutral",
-     "source": "Manchester Evening News – Greater Manchester",
-     "domain": "manchestereveningnews.co.uk",
-     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/lift-multimillion-pound-new-34805317",
-     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34805585.ece/ALTERNATES/s615/0_T3-Manchester-Airport.jpg",
+     "url": "https://www.bbc.co.uk/news/articles/cr89zk8l1qlqo?at_medium=RSS&at_campaign=rss",
+     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7bf8/live/12ae8010-1e57-11f1-be1b-3f7622e5cadb.png",
      "image_external": true,
      "scope": "local"
     }
    ],
-   "period": "Publisher feeds checked 2026-10-23",
+   "period": "Publisher feeds checked 2026-10-27",
    "geography": "Greater Manchester",
    "source": {
     "name": "Local publisher RSS feeds",
@@ -1484,7 +1484,7 @@
     "tram_map": "https://tfgm.com/ways-to-travel/tram/network-map",
     "rail_reviewed": "2026-10-12"
    },
-   "period": "Timetable downloaded 2026-10-23",
+   "period": "Timetable downloaded 2026-10-27",
    "geography": "Whole Greater Manchester network",
    "source": {
     "name": "TfGM bus and Metrolink timetables (GTFS)",
@@ -1574,5 +1574,5 @@
    "note": "Access to jobs, education, healthcare, shops and leisure by walking, cycling, public transport and driving."
   }
  },
- "updated": "2026-10-23"
+ "updated": "2026-10-27"
 }

@@ -631,59 +631,59 @@
   "news": {
    "value": [
     {
-     "title": "Currys to play together for first time in 16 months",
+     "title": "Oldham shooting LIVE as street cordoned off with police on the scene",
      "excerpt": "",
-     "date": "23 Oct 2026",
-     "tag": "Greater Manchester",
-     "tone": "neutral",
-     "source": "BBC News – Manchester",
-     "domain": "bbc.co.uk",
-     "url": "https://www.bbc.co.uk/sport/rugby-union/articles/ck5yn319ryngo?at_medium=RSS&at_campaign=rss",
-     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/850f/live/67620900-ce11-11f1-9f55-cdc56e9c248c.jpg",
-     "image_external": true,
-     "scope": "nearby"
-    },
-    {
-     "title": "Plans to demolish Bolton’s iconic Tavern On The Hill pub",
-     "excerpt": "",
-     "date": "23 Oct 2026",
+     "date": "27 Oct 2026",
      "tag": "Greater Manchester",
      "tone": "neutral",
      "source": "Manchester Evening News – Greater Manchester",
      "domain": "manchestereveningnews.co.uk",
-     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/plans-demolish-boltons-iconic-tavern-34807178",
-     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34807175.ece/ALTERNATES/s615/0_tavern1.jpg",
+     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/oldham-shooting-live-street-cordoned-34822129",
+     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34822154.ece/ALTERNATES/s615/0_RJ1_8686.jpg",
      "image_external": true,
      "scope": "nearby"
     },
     {
-     "title": "Manchester Airport announces new route to the home of Lego with returns from £62",
+     "title": "New Bury school plans branded 'unsafe' as scheme is rejected",
      "excerpt": "",
-     "date": "23 Oct 2026",
+     "date": "27 Oct 2026",
      "tag": "Greater Manchester",
      "tone": "neutral",
      "source": "Manchester Evening News – Greater Manchester",
      "domain": "manchestereveningnews.co.uk",
-     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/manchester-airport-announces-new-route-34807202",
-     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34807249.ece/ALTERNATES/s615/0_Manchester-Airport-announces-new-direct-route-to-Billund-in-Denmark-the-home-of-Lego.jpg",
+     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/new-bury-school-plans-branded-34822430",
+     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34822482.ece/ALTERNATES/s615/0_Bury-Defence-Academy.jpg",
      "image_external": true,
      "scope": "nearby"
     },
     {
-     "title": "Manchester trains cancelled LIVE updates as airport services hit by disruption",
+     "title": "Three taken to hospital as M6 motorway shut for hours",
      "excerpt": "",
-     "date": "23 Oct 2026",
+     "date": "27 Oct 2026",
      "tag": "Greater Manchester",
      "tone": "neutral",
      "source": "Manchester Evening News – Greater Manchester",
      "domain": "manchestereveningnews.co.uk",
-     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/manchester-trains-cancelled-live-updates-34805048",
-     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34756964.ece/ALTERNATES/s615/1_The-train-station-at-Manchester-Airport-Northern-and-TransPennine-Express-have-announced-a-rule-cha.jpg",
+     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/three-taken-hospital-m6-motorway-34822601",
+     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34822590.ece/ALTERNATES/s615/0_m6-36943-j20a-19-1.jpg",
+     "image_external": true,
+     "scope": "nearby"
+    },
+    {
+     "title": "M6 crash LIVE as motorway fully shut after serious incident with 90 minute delays and 8 mile queues",
+     "excerpt": "",
+     "date": "27 Oct 2026",
+     "tag": "Greater Manchester",
+     "tone": "neutral",
+     "source": "Manchester Evening News – Greater Manchester",
+     "domain": "manchestereveningnews.co.uk",
+     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/m6-closed-live-m56-manchester-34821734",
+     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34822583.ece/ALTERNATES/s615/0_m6-37107-j23-j22.jpg",
      "image_external": true,
      "scope": "nearby"
     }
    ],
-   "period": "Publisher feeds checked 2026-10-23",
+   "period": "Publisher feeds checked 2026-10-27",
    "geography": "Warburton",
    "source": {
     "name": "Local publisher RSS feeds",
@@ -1042,7 +1042,7 @@
     "tram_map": "https://tfgm.com/ways-to-travel/tram/network-map",
     "rail_reviewed": "2026-10-12"
    },
-   "period": "Timetable downloaded 2026-10-23",
+   "period": "Timetable downloaded 2026-10-27",
    "geography": "Stops within 1 km of the centre of Warburton",
    "source": {
     "name": "TfGM bus and Metrolink timetables (GTFS)",
@@ -1182,5 +1182,5 @@
    "note": "Access to jobs, education, healthcare, shops and leisure by walking, cycling, public transport and driving."
   }
  },
- "updated": "2026-10-23"
+ "updated": "2026-10-27"
 }

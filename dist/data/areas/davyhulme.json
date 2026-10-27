@@ -606,19 +606,6 @@
   "news": {
    "value": [
     {
-     "title": "Pedestrian, 82, dies following crash in Trafford as police appeal for witnesses",
-     "excerpt": "",
-     "date": "20 Oct 2026",
-     "tag": "Local news",
-     "tone": "neutral",
-     "source": "Manchester Evening News – Trafford",
-     "domain": "manchestereveningnews.co.uk",
-     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/police-issue-urgent-appeal-after-34792495",
-     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34792558.ece/ALTERNATES/s615/0_Screenshot-2026-10-20-160159.png",
-     "image_external": true,
-     "scope": "local"
-    },
-    {
      "title": "It was a tiny takeaway spot, now it's one of Trafford's best burger and gaming joints",
      "excerpt": "",
      "date": "20 Oct 2026",
@@ -633,47 +620,46 @@
      "near": "Urmston"
     },
     {
-     "title": "Urmston traveller pitches ruled on as resident argues ‘we shouldn’t be judged by a stereotype’",
+     "title": "Oldham shooting LIVE as street cordoned off with police on the scene",
      "excerpt": "",
-     "date": "20 Oct 2026",
-     "tag": "Nearby · Urmston",
-     "tone": "neutral",
-     "source": "Manchester Evening News – Trafford",
-     "domain": "manchestereveningnews.co.uk",
-     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/urmston-traveller-pitches-ruled-resident-34787490",
-     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34765812.ece/ALTERNATES/s615/0_Philomenas-Court.jpg",
-     "image_external": true,
-     "scope": "nearby",
-     "near": "Urmston"
-    },
-    {
-     "title": "Currys to play together for first time in 16 months",
-     "excerpt": "",
-     "date": "23 Oct 2026",
-     "tag": "Greater Manchester",
-     "tone": "neutral",
-     "source": "BBC News – Manchester",
-     "domain": "bbc.co.uk",
-     "url": "https://www.bbc.co.uk/sport/rugby-union/articles/ck5yn319ryngo?at_medium=RSS&at_campaign=rss",
-     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/850f/live/67620900-ce11-11f1-9f55-cdc56e9c248c.jpg",
-     "image_external": true,
-     "scope": "nearby"
-    },
-    {
-     "title": "Plans to demolish Bolton’s iconic Tavern On The Hill pub",
-     "excerpt": "",
-     "date": "23 Oct 2026",
+     "date": "27 Oct 2026",
      "tag": "Greater Manchester",
      "tone": "neutral",
      "source": "Manchester Evening News – Greater Manchester",
      "domain": "manchestereveningnews.co.uk",
-     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/plans-demolish-boltons-iconic-tavern-34807178",
-     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34807175.ece/ALTERNATES/s615/0_tavern1.jpg",
+     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/oldham-shooting-live-street-cordoned-34822129",
+     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34822154.ece/ALTERNATES/s615/0_RJ1_8686.jpg",
+     "image_external": true,
+     "scope": "nearby"
+    },
+    {
+     "title": "New Bury school plans branded 'unsafe' as scheme is rejected",
+     "excerpt": "",
+     "date": "27 Oct 2026",
+     "tag": "Greater Manchester",
+     "tone": "neutral",
+     "source": "Manchester Evening News – Greater Manchester",
+     "domain": "manchestereveningnews.co.uk",
+     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/new-bury-school-plans-branded-34822430",
+     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34822482.ece/ALTERNATES/s615/0_Bury-Defence-Academy.jpg",
+     "image_external": true,
+     "scope": "nearby"
+    },
+    {
+     "title": "Three taken to hospital as M6 motorway shut for hours",
+     "excerpt": "",
+     "date": "27 Oct 2026",
+     "tag": "Greater Manchester",
+     "tone": "neutral",
+     "source": "Manchester Evening News – Greater Manchester",
+     "domain": "manchestereveningnews.co.uk",
+     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/three-taken-hospital-m6-motorway-34822601",
+     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34822590.ece/ALTERNATES/s615/0_m6-36943-j20a-19-1.jpg",
      "image_external": true,
      "scope": "nearby"
     }
    ],
-   "period": "Publisher feeds checked 2026-10-23",
+   "period": "Publisher feeds checked 2026-10-27",
    "geography": "Davyhulme",
    "source": {
     "name": "Local publisher RSS feeds",
@@ -685,7 +671,6 @@
     "Messenger Newspapers",
     "Manchester Evening News – Trafford",
     "Manchester Evening News – Urmston",
-    "Manchester Evening News – Sale",
     "Altrincham Today",
     "Manchester Evening News – Greater Manchester",
     "BBC News – Manchester"
@@ -704,10 +689,6 @@
      "url": "https://www.manchestereveningnews.co.uk/all-about/urmston?service=rss"
     },
     {
-     "name": "Manchester Evening News – Sale",
-     "url": "https://www.manchestereveningnews.co.uk/all-about/sale?service=rss"
-    },
-    {
      "name": "Altrincham Today",
      "url": "https://altrincham.todaynews.co.uk/feed/"
     },
@@ -720,8 +701,8 @@
      "url": "https://feeds.bbci.co.uk/news/england/manchester/rss.xml"
     }
    ],
-   "scope": "local",
-   "local_count": 1,
+   "scope": "nearby",
+   "local_count": 0,
    "nearby_count": 4,
    "note": "Headlines and links only; RSS images are referenced from the publisher when supplied and are not copied."
   },
@@ -1325,7 +1306,7 @@
     "tram_map": "https://tfgm.com/ways-to-travel/tram/network-map",
     "rail_reviewed": "2026-10-12"
    },
-   "period": "Timetable downloaded 2026-10-23",
+   "period": "Timetable downloaded 2026-10-27",
    "geography": "Stops within 1 km of the centre of Davyhulme",
    "source": {
     "name": "TfGM bus and Metrolink timetables (GTFS)",
@@ -1474,5 +1455,5 @@
    "note": "Access to jobs, education, healthcare, shops and leisure by walking, cycling, public transport and driving."
   }
  },
- "updated": "2026-10-23"
+ "updated": "2026-10-27"
 }

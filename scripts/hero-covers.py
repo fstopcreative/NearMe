@@ -41,6 +41,11 @@ SLOTS = {                       # folder → (ratio, filename suffix, widths)
 # looked up in that slot's own folder first, then desktop/, so a single wide
 # master can cover both. None → per-area covers from the masters instead.
 SHARED = {'desktop': 'banner9', 'mobile': 'banner-134'}
+# Areas that get their own cover instead of that default. Each id needs a master
+# in BOTH desktop/ and mobile/, and lands in the manifest, which is what makes
+# crCover() serve it. [] = every area falls back to SHARED; None = every master
+# found in the folders. Removing an id (or its masters) returns it to SHARED.
+COVERS = []
 # The site-wide ladder the head partial preloads: slot → (ratio, name, widths).
 SITE_SLOTS = {
     'desktop': (16 / 7, 'hero-{w}', [1280, 1920]),
@@ -95,9 +100,7 @@ def shared(tmp):
         line, kb = ladder(master, ratio, OUT.parent, pattern, widths, tmp)
         total += kb
         print(f'  {slot:<10} ({ratio:.2f}:1)  {line}')
-    MANIFEST.write_text('[]\n')
-    print('\nhero for every area: ' + ' · '.join(used) + f' · {total / 1024:.1f} MB'
-          f'\nmanifest → {MANIFEST.relative_to(ROOT)} (empty: every area falls back to it)')
+    print('\ndefault hero: ' + ' · '.join(used) + f' · {total / 1024:.1f} MB')
 
 
 def main():
@@ -106,11 +109,9 @@ def main():
         f.unlink()
     tmp = OUT / '.tmp.jpg'
     if SHARED:
-        print('── shared hero ' + '─' * 50)
+        print('── default hero (every area without its own cover) ' + '─' * 15)
         shared(tmp)
-        tmp.unlink(missing_ok=True)
-        return
-    areas, total, skipped = set(), 0.0, []
+    areas, total, skipped, unlisted = set(), 0.0, [], set()
 
     for folder, (ratio, pattern, widths) in SLOTS.items():
         src = MASTERS / folder
@@ -121,6 +122,9 @@ def main():
             area = m.stem
             if area.endswith('-alt') or (SHARED and area in SHARED.values()):
                 skipped.append(f'{folder}/{m.name}')
+                continue
+            if COVERS is not None and area not in COVERS:
+                unlisted.add(area)
                 continue
             areas.add(area)
             line, kb = ladder(m, ratio, OUT, area + '-' + pattern, widths, tmp)
@@ -135,6 +139,9 @@ def main():
           f'\nmanifest → {MANIFEST.relative_to(ROOT)}')
     if skipped:
         print('skipped (spare takes): ' + ', '.join(skipped))
+    if unlisted:
+        print(f'{len(unlisted)} masters are not in COVERS, so those areas use the default: '
+              + ', '.join(sorted(unlisted)))
     # A cover is only used when BOTH ladders exist, so flag any half-pair.
     for folder in SLOTS:
         have = {p.stem for p in (MASTERS / folder).iterdir() if p.suffix.lower() in ('.png', '.jpg', '.jpeg')}
