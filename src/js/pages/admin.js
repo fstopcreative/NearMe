@@ -198,7 +198,14 @@ function saveBar(onSave, hint = '') {
   return bar;
 }
 function guard(panel, fn) {
-  return fn().catch((e) => { panel.innerHTML = `<div class="adm-card"><p class="adm-error">${esc(e.message)}</p></div>`; });
+  // A tab added to SECTIONS without its <section data-panel="…"> in the HTML used
+  // to leave the body silently blank: the renderer threw on a null panel, and the
+  // handler below could not write the message anywhere either.
+  if (!panel) return Promise.reject(new Error('No panel element for this tab.'));
+  try {
+    return Promise.resolve(fn()).catch(show);
+  } catch (e) { show(e); return Promise.resolve(); }
+  function show(e) { panel.innerHTML = `<div class="adm-card"><p class="adm-error">${esc(e.message)}</p></div>`; }
 }
 
 // ══════════════════ DATA FRESHNESS ══════════════════
@@ -812,7 +819,7 @@ function openTab(name) {
   const panel = $(`[data-panel="${name}"]`);
   history.replaceState(null, '', `#${name}`);
   setDirty(false);
-  guard(panel, () => RENDER[name](panel));
+  guard(panel, () => RENDER[name](panel)).catch((e) => toast(e.message, 'error'));
 }
 
 function showLogin() {
