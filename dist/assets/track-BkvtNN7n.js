@@ -23,4 +23,4 @@ focus-trap/dist/focus-trap.esm.js:
     <div class="cr-consent__btns">
       <button type="button" class="ax-btn ax-btn--ghost ax-btn--sm" data-v="denied">Decline</button>
       <button type="button" class="ax-btn ax-btn--primary ax-btn--sm" data-v="granted">Accept</button>
-    </div>`,t.addEventListener("click",n=>{var a;const r=(a=n.target.closest("button"))==null?void 0:a.dataset.v;if(r){try{localStorage.setItem("cr:consent",r)}catch{}window.gtag("consent","update",{analytics_storage:r}),t.remove()}}),document.body.appendChild(t)}function td(e){Jf(e),Yf(e),Qf()}export{rr as A,qo as a,Zf as b,Xf as c,td as i,ed as p,Po as r};
+    </div>`,t.addEventListener("click",n=>{var a;const r=(a=n.target.closest("button"))==null?void 0:a.dataset.v;if(r){try{localStorage.setItem("cr:consent",r)}catch{}window.gtag("consent","update",{analytics_storage:r}),r==="granted"&&typeof window.crLoadClarity=="function"&&window.crLoadClarity(),t.remove()}}),document.body.appendChild(t)}function td(e){Jf(e),Yf(e),Qf()}export{rr as A,qo as a,Zf as b,Xf as c,td as i,ed as p,Po as r};

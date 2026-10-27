@@ -52,6 +52,8 @@ const BUILD_DATE = new Date().toISOString().slice(0, 10)
 // The measurement id is public — it is visible in the page source — so it is
 // kept here rather than as an environment variable. GA4_ID='' turns it off.
 const GA4_ID = (process.env.GA4_ID ?? fileEnv.GA4_ID ?? 'G-R2Z2VETGY8').trim()
+// Microsoft Clarity (heatmaps and session replay). Also public, also ''-to-disable.
+const CLARITY_ID = (process.env.CLARITY_ID ?? fileEnv.CLARITY_ID ?? 'z4b4y37tuk').trim()
 const VERCEL_ANALYTICS = /^(1|true|yes)$/i.test(process.env.VERCEL_ANALYTICS || fileEnv.VERCEL_ANALYTICS || '')
 
 // ── Area data (public/data/areas/*.json, written by scripts/data/run.py) ──
@@ -172,7 +174,7 @@ function pageContext(pagePath) {
   const route = routeFor(pagePath)
   // index.html is the app entry and renders the default Sales dashboard.
   const slug = route === 'index' ? 'dashboards/area-radar' : route
-  return { title: titleBySlug.get(slug) || humanize(basename(route)), route: slug, siteUrl: SITE_URL, buildDate: BUILD_DATE, gaId: GA4_ID, vercelAnalytics: VERCEL_ANALYTICS, content: siteContent(),
+  return { title: titleBySlug.get(slug) || humanize(basename(route)), route: slug, siteUrl: SITE_URL, buildDate: BUILD_DATE, gaId: GA4_ID, clarityId: CLARITY_ID, vercelAnalytics: VERCEL_ANALYTICS, content: siteContent(),
     // Area ids that have a cover photo (scripts/hero-covers.py). Inlined so the
     // head can retarget the LCP preload before the <picture> is parsed.
     heroCovers: JSON.stringify(readJson('src/data/hero-covers.json')) }

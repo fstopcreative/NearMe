@@ -68,6 +68,8 @@ function consentBanner() {
     if (!v) return;
     try { localStorage.setItem('cr:consent', v); } catch {}
     window.gtag('consent', 'update', { analytics_storage: v });
+    // Clarity is held back until this moment; on a later visit the head loads it.
+    if (v === 'granted' && typeof window.crLoadClarity === 'function') window.crLoadClarity();
     box.remove();
   });
   document.body.appendChild(box);
