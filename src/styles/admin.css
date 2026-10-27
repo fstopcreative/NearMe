@@ -276,3 +276,17 @@ textarea.adm-input { resize: vertical; line-height: 1.5; }
   .adm-list .adm-empty { display: block; border: 1px dashed var(--ax-border); border-radius: 12px; }
   .adm-list > .adm-btn { inline-size: 100%; }
 }
+
+/* ── Cover photos tab ── */
+.adm-covers { display: flex; flex-wrap: wrap; gap: 12px; margin-block: 14px; }
+.adm-cover { margin: 0; inline-size: 150px; }
+.adm-cover img {
+  display: block; inline-size: 100%; block-size: auto;
+  border: 1px solid var(--adm-line, #d9dee6); border-radius: 8px; background: #11200f;
+}
+.adm-cover figcaption {
+  margin-block-start: 4px; font-size: var(--ax-text-xs); color: var(--adm-muted, #5a6472);
+  font-variant-numeric: tabular-nums;
+}
+.adm-btn--danger { border-color: #c0392b; color: #c0392b; }
+.adm-btn--danger:hover:not(:disabled) { background: #c0392b; border-color: #c0392b; color: #fff; }

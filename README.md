@@ -1,4 +1,4 @@
-# Corelain Area Radar
+# NearMe by Corelain
 
 A static UK area dashboard for Greater Manchester, Trafford and its towns, from Corelain's surveyors. It shows property prices, rents, renting vs owning, population, pay, crime, schools, transport routes, flood (with live warnings) and mining risk, air quality, conservation areas and planning, the UK's top mortgage lenders, plus Party Wall pages.
 
@@ -104,7 +104,7 @@ These are the FINAL sources from `Feature_List1_Source4-5.xlsx`.
 
 The browser makes two live third-party requests, both free and keyless, at the area centre: the European AQI gauge (Open-Meteo) and Environment Agency flood warnings.
 
-**Greater Manchester overview** (`/?area=greater-manchester`, `kind: "region"` in `areas.json`): prices come from the UK HPI county series (`ukhpi.py`), crime adds up the ten CSPs, schools / air quality / Census use all ten boroughs, the transport score is the mean of the ten DfT borough figures. Conservation, planning, developments, estate agents and Facebook groups are not compiled for the region, and their cards are hidden on that view.
+**Greater Manchester overview** (`/?area=greater-manchester`, `kind: "region"` in `areas.json`): prices come from the UK HPI county series (`ukhpi.py`), crime adds up the ten CSPs, schools / air quality / Census use all ten boroughs, the transport score is the mean of the ten DfT borough figures. Conservation, planning and developments are not compiled for the region, and their cards are hidden on that view.
 
 **Top mortgage lenders** is a static card in the page (the UK "Big Six" by share of gross lending, from Pauzible's guide). Check the shares when Pauzible updates its article.
 
@@ -118,10 +118,11 @@ These live in `scripts/data/manual/<area-id>.json`. Each block becomes a metric 
 | `aqma_roadside` (optional) | Roadside NO₂ from council monitoring; the AQMA itself is automatic | Council air quality report | Yearly |
 | `journey` (optional) | Door-to-city-centre time; nearest stops are automatic | TfGM timetables | Every 6 months |
 | `developments` (optional) | Headline schemes such as the stadium; brownfield sites are automatic | Trafford Council planning search, news | Monthly |
-| `facebook_groups` | Facebook has no API for group search; a search link is generated automatically | Facebook | Every 6 months |
-| `places`, `estate_agents` (optional) | A curated list here replaces the OpenStreetMap list for that area | Public pages | Every 6 months |
+| `places` (optional) | A curated list here replaces the OpenStreetMap list for that area | Public pages | Every 6 months |
 
-Today only `trafford.json` and `old-trafford.json` have manual files. The automatic sources fill radon screening, generalised ground-movement screening, flood zones, AQMA, brownfield developments, planning constraints, places, agents, stops and matching local RSS headlines for every area. Facebook groups stay empty until a manual file adds them. To add one, copy `old-trafford.json`, rename it to the area id and run `python3 scripts/data/run.py --only none`.
+Today only `trafford.json` and `old-trafford.json` have manual files. The automatic sources fill radon screening, generalised ground-movement screening, flood zones, AQMA, brownfield developments, planning constraints, places, stops and matching local RSS headlines for every area. To add one, copy `old-trafford.json`, rename it to the area id and run `python3 scripts/data/run.py --only none`.
+
+Only the keys in `MANUAL_KEYS` (`scripts/data/run.py`) are read. Anything else sits in the file unused, and the admin panel marks it "Ignored by the site".
 
 RSS matching rules live in `scripts/data/config/rss-feeds.json`, based on the v1.2 `rss-feeds.json`, `rss2.json` and `RSS_Haber_Kaynaklari.xlsx` catalogues. Bing News fallback feeds are not used in production. Article text is not copied. When an RSS item supplies a secure media/enclosure URL, its publisher-hosted image is referenced directly; otherwise the card falls back to a local Corelain category image.
 
@@ -138,9 +139,9 @@ A small panel for the people who run the site. There is no database: everything 
 | Data freshness | Age and status of every data source, failed metrics, the latest GitHub Actions refresh runs, a "Refresh now" button, and review dates for the hand-entered items | reads `public/data/areas/*.json` |
 | Services & lenders | The services strip at the top of the page and the Top Mortgage Lenders card | `src/data/site-content.json` |
 | Train lines | Lines calling at each station (TfGM's GTFS has no National Rail) | `scripts/data/config/rail-lines.json` |
-| Facebook groups | Curated groups per area | `scripts/data/config/facebook-groups.json` |
 | Reviews | "What our clients say" (hidden while empty) | `src/data/reviews.json` |
-| Area hand-entered data | Developments, journey, flood detail, curated places/agents per area | `scripts/data/manual/<area>.json` |
+| Area hand-entered data | Developments, journey, flood detail, curated places per area | `scripts/data/manual/<area>.json` |
+| Cover photos | The picture behind an area page's title. One upload is cut into the six sizes in the browser and saved in a single commit; an area without one uses the default. | `public/images/hero/<area>-*.jpg` + `src/data/hero-covers.json` |
 
 **Set-up on Vercel** (Project Settings → Environment Variables), then redeploy:
 
@@ -149,28 +150,108 @@ A small panel for the people who run the site. There is no database: everything 
 | `ADMIN_USER` / `ADMIN_PASSWORD` | The panel login |
 | `SESSION_SECRET` | A long random string (`openssl rand -hex 32`) |
 | `GITHUB_TOKEN` | Fine-grained token for this repository: **Contents: Read and write**, **Actions: Read and write** |
-| `GITHUB_REPO` | `orhan929292/CRADAR-v4` — the repository this deployment is built from. A wrong value, or a token without access to it, makes every admin form report its file as missing. |
+| `GITHUB_REPO` | `fstopcreative/NearMe` — the repository this deployment is built from. A wrong value, or a token without access to it, makes every admin form report its file as missing. |
 | `GITHUB_BRANCH` / `GITHUB_WORKFLOW` | Optional; default `main` / `refresh-area-data.yml` |
 
 **When the panel refuses to load or save.** Everything it edits goes through the GitHub API, so its errors are the token's:
 
 | What the panel says | What it means |
 | --- | --- |
-| *… is not in the repository* | The file is missing on that branch, or `GITHUB_REPO` points at another repository (the old `Cradarv2`, say). |
+| *… is not in the repository* | The file is missing on that branch, or `GITHUB_REPO` points at another repository (the old `CRADAR-v4`, say). |
 | *Resource not accessible by personal access token* | The token reaches the repository but lacks the permission for that call: **Contents: Read and write** to save, **Actions: Read and write** for the refresh button. Fine-grained tokens on an organisation repository also need the owner to approve them. |
 | *GitHub rejected the token* | `GITHUB_TOKEN` is wrong or expired. |
 
 Check a token before putting it in Vercel:
 
 ```bash
-GITHUB_REPO=orhan929292/CRADAR-v4 GITHUB_TOKEN=github_pat_… node scripts/check-github-token.mjs
+GITHUB_REPO=fstopcreative/NearMe GITHUB_TOKEN=github_pat_… node scripts/check-github-token.mjs
 ```
 
 Environment variables take effect on the next deployment: change them, then redeploy.
 
-**Locally**, put `ADMIN_USER`, `ADMIN_PASSWORD` and `SESSION_SECRET` in `.env.local` (git-ignored; see `.env.example`) and open `http://localhost:5179/admin`. Without `GITHUB_TOKEN` the panel saves straight to your working copy, and the refresh buttons are disabled.
+**Locally**, put `ADMIN_USER`, `ADMIN_PASSWORD` and `SESSION_SECRET` in `.env` or `.env.local` (both git-ignored) and open `http://localhost:5179/admin`. Without `GITHUB_TOKEN` the panel saves straight to your working copy, and the refresh buttons are disabled.
 
 The session is a signed, HttpOnly cookie valid for 12 hours. The API only reads or writes the files listed above, checks that links start with `https://`, and refuses state-changing requests that do not come from the panel. `/admin` and `/api/` are kept out of search engines.
+
+## Adding an area
+
+There is no admin form for this: an area has to exist in the collector config
+*and* in the browser's list, and the two are different languages. It is four
+steps, and the first one is the only one that needs care.
+
+**1 · Tell the collectors about it** — `scripts/data/config/areas.json`:
+
+```json
+{
+  "id": "chorlton",
+  "name": "Chorlton",
+  "borough": "Manchester",
+  "lad": "E08000003",
+  "csp": "Manchester",
+  "county": "Greater Manchester",
+  "postcode": "M21",
+  "match": { "wards": ["Chorlton", "Chorlton Park"] },
+  "centre": { "lat": 53.4426, "lng": -2.2795 }
+}
+```
+
+`match` decides which statistics the area is built from, and is the one field
+that fails quietly. Pick the form that fits:
+
+| `match` | Use it when | Source |
+| --- | --- | --- |
+| `{"wards": ["…"]}` | Normal case — a town or suburb | ONS Wards (Dec 2024), within `lad` |
+| `{"localities": ["…"], "districts": ["…"]}` | Villages with no ward of their own | Parishes, matched by name |
+| `{"lad": "E08000009"}` | A whole borough | Local Authority Districts |
+| `{"region": …}` | A multi-borough view | The ten GM districts together |
+
+Ward names must match ONS **exactly**, including `&` and spelling. A name that
+does not match produces no error: the area simply gets no population, tenure or
+price data, and `census.py` falls back to the single LSOA at `centre`. If an
+area's population looks suspiciously round or small, this is why. Put `centre`
+inside the area, since several metrics use a radius around it.
+
+**2 · Put it in the browser's list** — `src/js/data/areas.js`. One line; the
+`id` is derived from `name`, so it must match the config id:
+
+```js
+{ name: 'Chorlton', county: 'Greater Manchester', borough: 'Manchester', postcode: 'M21' },
+```
+
+Add `focus: true` only if the area is also to get a Party Wall page (step 5).
+
+**3 · Collect the data:**
+
+```sh
+python3 scripts/data/run.py            # or run the workflow from the admin panel
+```
+
+Check the new `public/data/areas/<id>.json`: `population.geography` should read
+"*N* census LSOAs", not "1 census LSOA", unless the area really is that small.
+
+**4 · Fit the map to it:**
+
+```sh
+python3 scripts/area-bounds.py         # ONS extents → src/data/area-bounds.json
+```
+
+Without this the map opens at a default zoom and the area may sit off-frame.
+If the boundary Google draws is wider than the statistical one (a suburb that
+shares a ward), widen just the map with `MAP_EXTRA_WARDS` in that script —
+it does not affect any figure.
+
+**5 · Optional, a Party Wall page.** Add a `dict(...)` entry to
+`src/seo/townships.py` (intro, conservation areas, notes), set `focus: true` in
+step 2, then regenerate:
+
+```sh
+python3 src/seo/townships.py           # pages + pw-areas strip + sitemap + llms.txt
+```
+
+**6 · Optional, a cover photo.** Upload one in the admin panel's *Cover photos*
+tab. Without it the area uses the default picture, which is fine.
+
+Finally `npm run build`, confirm the area loads at `/?area=<id>`, and commit.
 
 ## Update schedule
 
@@ -185,7 +266,7 @@ Each run commits only the `public/data/areas/*.json` files that actually changed
 
 ## Deploying to Vercel
 
-The project is ready for Vercel: Node 22, `npm ci`, `npm run build` and the
+The project is ready for Vercel: Node (`engines: >=22`), `npm ci`, `npm run build` and the
 `dist` output directory are declared in the repository. The clean production
 URL is `/`; area selection uses `/?area=sale`, and Party Wall pages use
 `/party-wall-surveyors/sale`.
@@ -214,8 +295,8 @@ npm run build
 npm run preview
 ```
 
-Open `http://localhost:4173/`. Copy `.env.example` to `.env.local` for local
-settings (admin login, tokens); every `.env*` file is excluded from Git.
+Open `http://localhost:4173/`. Put local settings (admin login, tokens) in
+`.env` or `.env.local`; every `.env*` file is excluded from Git.
 
 ## Where things live (front end)
 

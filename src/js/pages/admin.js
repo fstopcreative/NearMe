@@ -456,6 +456,169 @@ async function renderReviews(panel) {
   }));
 }
 
+// ── Cover photos ──
+// The six files are cut here, in the browser, from one picture: a Vercel
+// function has no image tools and a read-only disk, so resizing server-side is
+// not an option, and asking for six correctly-sized files by hand would be a
+// chore. Ratios and widths mirror SLOTS in scripts/hero-covers.py, so a cover
+// made here and one built by the script are the same shape.
+const COVER_SLOTS = [
+  { key: '800', w: 800, ratio: 16 / 7 }, { key: '1200', w: 1200, ratio: 16 / 7 }, { key: '1440', w: 1440, ratio: 16 / 7 },
+  { key: 'm640', w: 640, ratio: 4 / 3 }, { key: 'm960', w: 960, ratio: 4 / 3 }, { key: 'm1200', w: 1200, ratio: 4 / 3 },
+];
+const COVER_QUALITY = 0.68;                       // matches QUALITY in hero-covers.py
+const COVER_MIN_W = 1440;                         // below this the widest size would be upscaled
+
+const loadImage = (file) => new Promise((ok, fail) => {
+  const img = new Image();
+  img.onload = () => { URL.revokeObjectURL(img.src); ok(img); };
+  img.onerror = () => { URL.revokeObjectURL(img.src); fail(new Error('That file is not an image the browser can read.')); };
+  img.src = URL.createObjectURL(file);
+});
+
+// Centre-crop to `ratio`, then scale to `w` — the same two steps as sips -c / --resampleWidth.
+function coverSlot(img, { w, ratio }) {
+  const sw = Math.min(img.naturalWidth, Math.round(img.naturalHeight * ratio));
+  const sh = Math.round(sw / ratio);
+  const c = document.createElement('canvas');
+  c.width = w;
+  c.height = Math.round(w / ratio);
+  const g = c.getContext('2d');
+  g.imageSmoothingQuality = 'high';
+  g.drawImage(img, Math.round((img.naturalWidth - sw) / 2), Math.round((img.naturalHeight - sh) / 2), sw, sh, 0, 0, c.width, c.height);
+  return new Promise((ok) => c.toBlob((b) => ok(b), 'image/jpeg', COVER_QUALITY));
+}
+const toBase64 = (blob) => new Promise((ok) => {
+  const r = new FileReader();
+  r.onload = () => ok(String(r.result).split(',')[1]);
+  r.readAsDataURL(blob);
+});
+
+let COVER_AREA = store.get('cover-area', 'trafford');
+async function renderCovers(panel) {
+  const areas = await areaList();
+  panel.innerHTML = '';
+  const [s1, b1] = card('Cover photos', 'The picture behind the title on an area page. Areas without one use the default.');
+  b1.append(note([
+    ['One picture, six files', 'Pick a single wide photo and the panel cuts the six sizes the page needs — three for desktop (16:7) and three for phones (4:3), centre-cropped. You do not need to resize anything first.'],
+    ['Use a wide one', `At least ${COVER_MIN_W}px across, landscape. A narrow or small picture gets stretched, and the phone crop keeps only the middle, so put the subject in the centre.`],
+    ['Removing it', 'Delete the cover and that area falls back to the default picture straight away. Nothing else breaks.'],
+    ['When it appears', 'On the live site 1–2 minutes after you save, once the site has rebuilt itself.'],
+  ]));
+
+  const pick = document.createElement('label');
+  pick.className = 'adm-field adm-field--inline';
+  pick.innerHTML = `<span>Area</span><select class="adm-input">${areas.map((a) => `<option value="${a.id}" ${a.id === COVER_AREA ? 'selected' : ''}>${esc(a.name)}</option>`).join('')}</select>`;
+  const host = document.createElement('div');
+  b1.append(pick, host);
+  panel.append(s1);
+
+  const state = { areas: [], file: null, img: null };
+
+  const load = async () => {
+    host.innerHTML = '<p class="adm-muted">Loading…</p>';
+    state.areas = (await api('covers')).areas;
+    state.file = null;
+    state.img = null;
+    draw();
+  };
+
+  function draw() {
+    const has = state.areas.includes(COVER_AREA);
+    const name = (areas.find((a) => a.id === COVER_AREA) || {}).name || COVER_AREA;
+    host.innerHTML = '';
+
+    const status = document.createElement('p');
+    status.className = 'adm-banner';
+    status.textContent = has
+      ? `${name} has its own cover photo. Choosing a picture below replaces it.`
+      : `${name} has no cover photo, so it uses the default. Choosing a picture below gives it one.`;
+    host.append(status);
+
+    const preview = document.createElement('div');
+    preview.className = 'adm-covers';
+    preview.innerHTML = has
+      ? COVER_SLOTS.map((sl) => `<figure class="adm-cover"><img src="/images/hero/${esc(COVER_AREA)}-${sl.key}.jpg?v=${Date.now()}" alt=""><figcaption>${sl.key}</figcaption></figure>`).join('')
+      : `<figure class="adm-cover"><img src="/images/hero-1280.jpg" alt=""><figcaption>default · desktop</figcaption></figure>
+         <figure class="adm-cover"><img src="/images/hero-m640.jpg" alt=""><figcaption>default · phone</figcaption></figure>`;
+    host.append(preview);
+
+    const file = document.createElement('label');
+    file.className = 'adm-field';
+    file.innerHTML = '<span>Choose a picture</span>';
+    const input = document.createElement('input');
+    input.type = 'file';
+    input.accept = 'image/*';
+    input.className = 'adm-input';
+    file.append(input);
+    const chosen = document.createElement('small');
+    file.append(chosen);
+    host.append(file);
+
+    input.addEventListener('change', async () => {
+      const f = input.files && input.files[0];
+      state.file = null;
+      state.img = null;
+      chosen.textContent = '';
+      if (!f) { setDirty(false); return; }
+      try {
+        const img = await loadImage(f);
+        if (img.naturalWidth < COVER_MIN_W) {
+          chosen.textContent = `${img.naturalWidth}×${img.naturalHeight} — too small; the widest size needs ${COVER_MIN_W}px across.`;
+          input.value = '';
+          setDirty(false);
+          return;
+        }
+        state.file = f;
+        state.img = img;
+        chosen.textContent = `${img.naturalWidth}×${img.naturalHeight} · ${(f.size / 1024 / 1024).toFixed(1)} MB — six sizes will be cut from this.`;
+        setDirty(true);
+      } catch (e) {
+        chosen.textContent = e.message;
+        input.value = '';
+        setDirty(false);
+      }
+    });
+
+    host.append(saveBar(async () => {
+      if (!state.img) throw new Error('Choose a picture first.');
+      const images = {};
+      for (const sl of COVER_SLOTS) images[sl.key] = await toBase64(await coverSlot(state.img, sl));
+      const r = await api('cover', { method: 'PUT', body: { area: COVER_AREA, images } });
+      state.areas = r.areas;
+      setTimeout(() => { state.file = null; state.img = null; draw(); }, 0);
+      return r;
+    }, 'The six sizes are cut in your browser, then saved together in one commit.'));
+
+    if (has) {
+      const del = document.createElement('button');
+      del.type = 'button';
+      del.className = 'adm-btn adm-btn--danger';
+      del.textContent = 'Remove this cover photo';
+      del.addEventListener('click', async () => {
+        if (!confirm(`Remove the cover photo for ${name}? It will go back to the default picture.`)) return;
+        del.disabled = true;
+        try {
+          const r = await api('cover', { method: 'DELETE', body: { area: COVER_AREA } });
+          state.areas = r.areas;
+          toast(savedMessage(r), 'ok', true);
+          setDirty(false);
+          draw();
+        } catch (e) { toast(e.message, 'error'); del.disabled = false; }
+      });
+      host.append(del);
+    }
+  }
+
+  $('select', pick).addEventListener('change', (e) => {
+    COVER_AREA = e.target.value;
+    store.set('cover-area', COVER_AREA);
+    setDirty(false);
+    load().catch((err) => toast(err.message, 'error'));
+  });
+  await load();
+}
+
 let MANUAL_AREA = store.get('manual-area', 'trafford');
 const MANUAL_KEYS = ['flood_risk', 'aqma_roadside', 'journey', 'developments', 'places'];
 async function renderManual(panel) {
@@ -513,6 +676,7 @@ const ICON = {
   users: '<path d="M9 7m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0"/><path d="M3 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/>',
   star: '<path d="M12 17.75l-6.172 3.245l1.179 -6.873l-5 -4.867l6.9 -1l3.086 -6.253l3.086 6.253l6.9 1l-5 4.867l1.179 6.873z"/>',
   file: '<path d="M14 3v4a1 1 0 0 0 1 1h4"/><path d="M17 21h-10a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h7l5 5v11a2 2 0 0 1 -2 2z"/><path d="M9 13l-1 2l1 2"/><path d="M13 13l1 2l-1 2"/>',
+  image: '<path d="M15 8h.01"/><path d="M3 6a3 3 0 0 1 3 -3h12a3 3 0 0 1 3 3v12a3 3 0 0 1 -3 3h-12a3 3 0 0 1 -3 -3z"/><path d="M3 16l5 -5c.928 -.893 2.072 -.893 3 0l5 5"/><path d="M14 14l1 -1c.928 -.893 2.072 -.893 3 0l3 3"/>',
 };
 const SECTIONS = [
   ['overview', 'Data freshness', 'gauge', 'How current every figure on the site is, and which hand-entered items are due a check.'],
@@ -520,8 +684,9 @@ const SECTIONS = [
   ['rail-lines', 'Train lines', 'train', 'Which train lines call at each station, for the Public Transport card.'],
   ['reviews', 'Reviews', 'star', 'What our clients say. The section stays hidden while this is empty.'],
   ['manual', 'Area data by hand', 'file', 'Extra values for a single area that no open source publishes.'],
+  ['covers', 'Cover photos', 'image', 'The picture behind the title on an area page; areas without one use the default.'],
 ];
-const RENDER = { overview: renderOverview, 'site-content': renderSiteContent, 'rail-lines': renderRail, reviews: renderReviews, manual: renderManual };
+const RENDER = { overview: renderOverview, 'site-content': renderSiteContent, 'rail-lines': renderRail, reviews: renderReviews, manual: renderManual, covers: renderCovers };
 
 function buildNav() {
   $('[data-adm-nav]').innerHTML = SECTIONS.map(([id, label, icon]) => `

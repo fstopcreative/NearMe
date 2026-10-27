@@ -105,8 +105,14 @@ def shared(tmp):
 
 def main():
     OUT.mkdir(parents=True, exist_ok=True)
+    # Covers also arrive from the admin panel, which writes the same folder and
+    # manifest. Only the ones this script builds are cleared, so a panel upload
+    # survives a run here (and vice versa: re-adding an id to COVERS overwrites
+    # whatever the panel put there).
+    mine = set(COVERS or ())
     for f in OUT.glob('*.jpg'):
-        f.unlink()
+        if COVERS is None or f.stem.rsplit('-', 1)[0] in mine:
+            f.unlink()
     tmp = OUT / '.tmp.jpg'
     if SHARED:
         print('── default hero (every area without its own cover) ' + '─' * 15)
@@ -134,7 +140,16 @@ def main():
 
     # Single source of truth for "which areas have a cover", read by
     # vite.config.js (head preload) and src/js/data/areas.js (runtime swap).
-    MANIFEST.write_text(json.dumps(sorted(areas), indent=2) + '\n')
+    kept = set()
+    if COVERS is not None and MANIFEST.exists():
+        try:
+            kept = {a for a in json.loads(MANIFEST.read_text())
+                    if a not in mine and (OUT / f'{a}-800.jpg').exists()}
+        except ValueError:
+            kept = set()
+    MANIFEST.write_text(json.dumps(sorted(areas | kept), indent=2) + '\n')
+    if kept:
+        print(f'kept {len(kept)} cover(s) uploaded in the admin panel: ' + ', '.join(sorted(kept)))
     print(f'\n{len(areas)} areas · {len(list(OUT.glob("*.jpg")))} files · {total / 1024:.1f} MB'
           f'\nmanifest → {MANIFEST.relative_to(ROOT)}')
     if skipped:
