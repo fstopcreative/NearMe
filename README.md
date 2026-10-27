@@ -147,7 +147,7 @@ A small panel for the people who run the site. There is no database: everything 
 
 | Variable | Value |
 | --- | --- |
-| `ADMIN_USER` / `ADMIN_PASSWORD` | The panel login |
+| `ADMIN_USER` / `ADMIN_PASSWORD` | The panel login. `ADMIN_USER` defaults to `corelainadmin`, so only the password has to be set. |
 | `SESSION_SECRET` | A long random string (`openssl rand -hex 32`) |
 | `GITHUB_TOKEN` | Fine-grained token for this repository: **Contents: Read and write**, **Actions: Read and write** |
 | `GITHUB_REPO` | `fstopcreative/NearMe` — the repository this deployment is built from. A wrong value, or a token without access to it, makes every admin form report its file as missing. |

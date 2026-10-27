@@ -16,7 +16,7 @@
  * ADMIN_LOCAL_ROOT).
  *
  * Environment (Vercel → Project Settings → Environment Variables):
- *   ADMIN_USER (default "admin"), ADMIN_PASSWORD, SESSION_SECRET (long random string),
+ *   ADMIN_USER (default "corelainadmin"), ADMIN_PASSWORD, SESSION_SECRET (long random string),
  *   GITHUB_TOKEN (fine-grained: Contents read/write + Actions read/write on the repo),
  *   GITHUB_REPO ("owner/name"), GITHUB_BRANCH (default "main"),
  *   GITHUB_WORKFLOW (default "refresh-area-data.yml").
@@ -275,7 +275,7 @@ export default async function handler(req, res) {
     if (action === 'login' && req.method === 'POST') {
       if (!env('ADMIN_PASSWORD') || !env('SESSION_SECRET')) return send(res, 503, { error: 'Admin login is not configured: set ADMIN_PASSWORD and SESSION_SECRET.' });
       const { username = '', password = '' } = await readBody(req);
-      const ok = same(username, env('ADMIN_USER', 'admin')) & same(password, env('ADMIN_PASSWORD'));
+      const ok = same(username, env('ADMIN_USER', 'corelainadmin')) & same(password, env('ADMIN_PASSWORD'));
       if (!ok) {
         await new Promise((r) => setTimeout(r, 700));          // slow down guessing
         return send(res, 401, { error: 'Wrong username or password.' });
