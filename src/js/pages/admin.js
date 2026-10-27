@@ -783,16 +783,25 @@ const SECTIONS = [
 ];
 const RENDER = { overview: renderOverview, 'site-content': renderSiteContent, 'rail-lines': renderRail, reviews: renderReviews, manual: renderManual, covers: renderCovers, guide: renderGuide };
 
-function buildNav() {
-  $('[data-adm-nav]').innerHTML = SECTIONS.map(([id, label, icon]) => `
+// Help sits at the foot of the sidebar, by the theme switch, rather than among
+// the things you edit. openTab() finds either one, since it marks every [data-tab].
+const FOOT_TABS = ['guide'];
+const navButton = ([id, label, icon]) => `
     <button type="button" role="tab" class="adm-nav__item" data-tab="${id}" aria-selected="false" title="${esc(label)}">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${ICON[icon]}</svg>
       <span>${esc(label)}</span>
-    </button>`).join('');
-  $('[data-adm-nav]').addEventListener('click', (e) => {
-    const t = e.target.closest('[data-tab]');
-    if (t) openTab(t.dataset.tab);
-  });
+    </button>`;
+function buildNav() {
+  const where = (sel, keep) => {
+    const host = $(sel);
+    host.innerHTML = SECTIONS.filter(([id]) => FOOT_TABS.includes(id) === keep).map(navButton).join('');
+    host.addEventListener('click', (e) => {
+      const t = e.target.closest('[data-tab]');
+      if (t) openTab(t.dataset.tab);
+    });
+  };
+  where('[data-adm-nav]', false);
+  where('[data-adm-nav-foot]', true);
 }
 
 // ── mobile drawer ──

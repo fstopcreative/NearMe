@@ -300,3 +300,8 @@ textarea.adm-input { resize: vertical; line-height: 1.5; }
   .adm-dl dd { margin: 0; }
 }
 .adm-table td small.adm-muted { display: block; margin-block-start: 2px; line-height: 1.45; }
+
+/* Help nav at the foot of the sidebar — the item style of .adm-nav, without
+   its flex: 1 or the mobile drawer behaviour. */
+.adm-side__nav { display: flex; flex-direction: column; gap: 2px; }
+@media (max-width: 900px) { .adm-side__nav .adm-nav__item span { display: none; } }
