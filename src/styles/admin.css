@@ -290,3 +290,13 @@ textarea.adm-input { resize: vertical; line-height: 1.5; }
 }
 .adm-btn--danger { border-color: #c0392b; color: #c0392b; }
 .adm-btn--danger:hover:not(:disabled) { background: #c0392b; border-color: #c0392b; color: #fff; }
+
+/* ── Guide tab ── */
+.adm-dl { margin: 14px 0 0; padding: 0; display: flex; flex-direction: column; gap: 11px; }
+.adm-dl dt { font-size: var(--ax-text-sm); font-weight: 600; color: var(--ax-text-strong); }
+.adm-dl dd { margin: 2px 0 0; font-size: var(--ax-text-sm); line-height: 1.55; color: var(--ax-text-muted); }
+@media (min-width: 720px) {
+  .adm-dl > div { display: grid; grid-template-columns: 230px 1fr; gap: var(--ax-space-4); align-items: baseline; }
+  .adm-dl dd { margin: 0; }
+}
+.adm-table td small.adm-muted { display: block; margin-block-start: 2px; line-height: 1.45; }

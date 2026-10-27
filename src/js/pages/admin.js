@@ -668,6 +668,92 @@ async function renderManual(panel) {
 }
 
 // ══════════════════ SHELL ══════════════════
+// ── Guide ──
+// Every tab already explains itself in its own "How this works". This is the
+// part none of them can say on their own: what the panel is, how the tabs
+// differ from one another, and what to do when a save goes wrong.
+const GUIDE_TABS = [
+  ['Data freshness', 'Nothing — it only shows you things', 'Nothing to save',
+   'How old every figure on the site is, which sources failed, and when the last refresh ran. "Refresh now" starts a data refresh; it works on the live site only.'],
+  ['Services & lenders', 'The services bar at the top of every area page, and the Top Mortgage Lenders card',
+   'one', 'Edit the rows, save. Links must start with https://.'],
+  ['Train lines', 'The Trains column of the Public Transport card, and the "checked …" date under it',
+   'two', 'Trains are typed by hand because TfGM’s open data covers buses and Metrolink only. Station positions come from NaPTAN — you only say which line calls where. Timetables change in May and December.'],
+  ['Reviews', '"What our clients say". The section stays hidden while the list is empty',
+   'one', 'Only real reviews the client agreed to publish.'],
+  ['Area data by hand', 'A few cards on one area: developments, journey time, flood detail, nearby places',
+   'two', 'Raw JSON, because each block has a different shape. Only the listed keys are read — anything else is marked "Ignored by the site".'],
+  ['Cover photos', 'The picture behind the title on one area page',
+   'one', 'Pick one wide photo; the six sizes are cut here in your browser. An area without one uses the default picture.'],
+];
+
+function renderGuide(panel) {
+  panel.innerHTML = '';
+
+  const [s1, b1] = card('How the panel works', 'Worth reading once.');
+  b1.innerHTML = `
+    <p class="adm-banner">There is no database. Every save writes a file into the site’s own
+    repository on GitHub, and the site rebuilds itself from those files. That is why a change
+    takes a minute or two to appear, and why you can always see exactly what was changed and
+    by whom.</p>
+    <dl class="adm-dl">
+      <div><dt>You cannot break the site by mistyping</dt><dd>Anything that is not valid is
+      refused before it is saved — in your browser first, then again on the server.</dd></div>
+      <div><dt>You cannot overwrite someone else’s change</dt><dd>If the file changed while
+      your form was open, the save is refused and you are asked to reload. Nothing is lost.</dd></div>
+      <div><dt>Missing is not broken</dt><dd>An empty reviews list hides that section; an area with
+      no cover photo uses the default; a figure with no data shows “—”. None of these are errors.</dd></div>
+    </dl>`;
+  panel.append(s1);
+
+  const [s2, b2] = card('What each tab changes', 'And how long it takes to show up.');
+  b2.innerHTML = `
+    <div class="adm-table-wrap"><table class="adm-table">
+      <thead><tr><th>Tab</th><th>What it changes on the site</th><th>Live after</th></tr></thead>
+      <tbody>${GUIDE_TABS.map(([tab, where, deploys, how]) => `<tr>
+        <td><b>${esc(tab)}</b><br><small class="adm-muted">${esc(how)}</small></td>
+        <td>${esc(where)}</td>
+        <td>${deploys === 'two' ? '<b>2–5 min</b>' : deploys === 'one' ? '1–2 min' : '—'}</td>
+      </tr>`).join('')}</tbody>
+    </table></div>
+    <p class="adm-muted" style="margin-block-start:12px">Two tabs take longer because they feed the
+    data pipeline: saving <b>Train lines</b> or <b>Area data by hand</b> also re-runs the figures,
+    so the site rebuilds twice. Nothing is wrong if the page still shows the old value a minute
+    after you saved — give it another couple of minutes.</p>`;
+  panel.append(s2);
+
+  const [s3, b3] = card('If a save goes wrong', 'What the message means.');
+  b3.innerHTML = `
+    <div class="adm-table-wrap"><table class="adm-table">
+      <thead><tr><th>What you see</th><th>What to do</th></tr></thead>
+      <tbody>
+        <tr><td><i>The file changed since you opened it</i></td>
+            <td>Somebody — or the automatic refresh — saved first. Reload the page and make your change again.</td></tr>
+        <tr><td><i>… is not in the repository</i></td>
+            <td>The panel is pointed at the wrong repository, or the file has not been created yet. Saving the form creates it.</td></tr>
+        <tr><td><i>Resource not accessible…</i> / <i>GitHub rejected the token</i></td>
+            <td>The access token has expired or lacks a permission. It is replaced in the hosting settings, not here.</td></tr>
+        <tr><td><i>The JSON is not valid</i></td>
+            <td>A quote or comma is missing in the box. The message says where. Nothing was saved.</td></tr>
+        <tr><td>Saved, but the site still looks the same</td>
+            <td>Wait for the rebuild — up to 2 minutes, or 5 for the two pipeline tabs — then reload with a hard refresh.</td></tr>
+      </tbody>
+    </table></div>`;
+  panel.append(s3);
+
+  const [s4, b4] = card('Keeping it honest', '');
+  b4.innerHTML = `
+    <dl class="adm-dl">
+      <div><dt>Check dates matter</dt><dd>Hand-entered blocks carry a “last reviewed” date that
+      is shown to visitors. Update it whenever you check a block, even if nothing changed.</dd></div>
+      <div><dt>Hand-entered beats automatic</dt><dd>Where you type a value, it replaces the one the
+      site collected. Delete it and the automatic value comes straight back.</dd></div>
+      <div><dt>Everything else looks after itself</dt><dd>Prices, population, crime, schools,
+      transport, air quality and news all refresh on their own every week.</dd></div>
+    </dl>`;
+  panel.append(s4);
+}
+
 const ICON = {
   gauge: '<path d="M3 12h4l3 8l4 -16l3 8h4"/>',
   briefcase: '<path d="M3 9a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v9a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z"/><path d="M8 7v-2a2 2 0 0 1 2 -2h4a2 2 0 0 1 2 2v2"/><path d="M3 13a20 20 0 0 0 18 0"/>',
@@ -676,6 +762,7 @@ const ICON = {
   users: '<path d="M9 7m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0"/><path d="M3 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/>',
   star: '<path d="M12 17.75l-6.172 3.245l1.179 -6.873l-5 -4.867l6.9 -1l3.086 -6.253l3.086 6.253l6.9 1l-5 4.867l1.179 6.873z"/>',
   file: '<path d="M14 3v4a1 1 0 0 0 1 1h4"/><path d="M17 21h-10a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h7l5 5v11a2 2 0 0 1 -2 2z"/><path d="M9 13l-1 2l1 2"/><path d="M13 13l1 2l-1 2"/>',
+  help: '<path d="M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0"/><path d="M12 16v.01"/><path d="M12 13a2 2 0 0 0 .914 -3.782a1.98 1.98 0 0 0 -2.414 .483"/>',
   image: '<path d="M15 8h.01"/><path d="M3 6a3 3 0 0 1 3 -3h12a3 3 0 0 1 3 3v12a3 3 0 0 1 -3 3h-12a3 3 0 0 1 -3 -3z"/><path d="M3 16l5 -5c.928 -.893 2.072 -.893 3 0l5 5"/><path d="M14 14l1 -1c.928 -.893 2.072 -.893 3 0l3 3"/>',
 };
 const SECTIONS = [
@@ -685,8 +772,9 @@ const SECTIONS = [
   ['reviews', 'Reviews', 'star', 'What our clients say. The section stays hidden while this is empty.'],
   ['manual', 'Area data by hand', 'file', 'Extra values for a single area that no open source publishes.'],
   ['covers', 'Cover photos', 'image', 'The picture behind the title on an area page; areas without one use the default.'],
+  ['guide', 'Guide', 'help', 'What each tab changes, how long it takes to show up, and what the error messages mean.'],
 ];
-const RENDER = { overview: renderOverview, 'site-content': renderSiteContent, 'rail-lines': renderRail, reviews: renderReviews, manual: renderManual, covers: renderCovers };
+const RENDER = { overview: renderOverview, 'site-content': renderSiteContent, 'rail-lines': renderRail, reviews: renderReviews, manual: renderManual, covers: renderCovers, guide: renderGuide };
 
 function buildNav() {
   $('[data-adm-nav]').innerHTML = SECTIONS.map(([id, label, icon]) => `
@@ -768,7 +856,8 @@ const themeStore = {
   set(v) { try { localStorage.setItem('cr-adm:theme', v); } catch {} },
 };
 function applyTheme(t) {
-  const resolved = t === 'system' || !t ? (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : t;
+  // Mirrors the bootstrap in admin/index.html: dark unless something else is stored.
+  const resolved = !t ? 'dark' : t === 'system' ? (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : t;
   document.documentElement.setAttribute('data-ax-theme', resolved);
   $('[data-adm-theme-label]').textContent = resolved === 'dark' ? 'Light mode' : 'Dark mode';
 }

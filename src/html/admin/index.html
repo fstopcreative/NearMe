@@ -10,7 +10,9 @@
     /* theme before first paint, so the panel never flashes the wrong one */
     (function () {
       var t; try { t = localStorage.getItem('cr-adm:theme'); } catch (e) {}
-      if (!t || t === 'system') { try { t = matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'; } catch (e) { t = 'light'; } }
+      /* Dark by default, as on the site itself; 'system' only once it is chosen here. */
+      if (!t) { t = 'dark'; }
+      if (t === 'system') { try { t = matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'; } catch (e) { t = 'dark'; } }
       document.documentElement.setAttribute('data-ax-theme', t);
     })();
   </script>
