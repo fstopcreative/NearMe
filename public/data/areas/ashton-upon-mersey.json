@@ -636,6 +636,20 @@
   "news": {
    "value": [
     {
+     "title": "Extremely rare black swan spotted in Sale Waterpark",
+     "excerpt": "",
+     "date": "25 Oct 2026",
+     "tag": "Nearby · Sale",
+     "tone": "neutral",
+     "source": "Messenger Newspapers",
+     "domain": "messengernewspapers.co.uk",
+     "url": "https://www.messengernewspapers.co.uk/news/26667361.ultra-rare-black-swan-spotted-sale-waterpark/?ref=rss",
+     "image": "https://www.messengernewspapers.co.uk/resources/images/21627073/",
+     "image_external": true,
+     "scope": "nearby",
+     "near": "Sale"
+    },
+    {
      "title": "Take a look inside this charming period home on the market in Sale",
      "excerpt": "",
      "date": "23 Oct 2026",
@@ -645,20 +659,6 @@
      "domain": "messengernewspapers.co.uk",
      "url": "https://www.messengernewspapers.co.uk/news/26657822.three-bedroom-period-property-sale-listed-420-000/?ref=rss",
      "image": "https://www.messengernewspapers.co.uk/resources/images/21613178/",
-     "image_external": true,
-     "scope": "nearby",
-     "near": "Sale"
-    },
-    {
-     "title": "Job: Experienced Sales Negotiator – Full Time at Watersons Estate Agents",
-     "excerpt": "",
-     "date": "22 Oct 2026",
-     "tag": "Nearby · Sale",
-     "tone": "neutral",
-     "source": "Altrincham Today",
-     "domain": "altrincham.todaynews.co.uk",
-     "url": "https://altrincham.todaynews.co.uk/jobs/2026/10/22/job-experienced-sales-negotiator-full-time-at-watersons-estate-agents/",
-     "image": "https://storage.ghost.io/c/09/ce/09cee984-fa22-44f2-a16f-e4d816e662de/content/images/2025/10/High-resolution-logo-edit.jpg",
      "image_external": true,
      "scope": "nearby",
      "near": "Sale"
@@ -678,21 +678,21 @@
      "near": "Urmston"
     },
     {
-     "title": "Pedestrian, 82, dies following crash in Trafford as police appeal for witnesses",
+     "title": "Everything heard in second week in the trial of a man accused of murdering Stretford Grammar headteacher Michael Mullins",
      "excerpt": "",
-     "date": "20 Oct 2026",
-     "tag": "Nearby · Urmston",
+     "date": "25 Oct 2026",
+     "tag": "Nearby · Stretford",
      "tone": "neutral",
      "source": "Manchester Evening News – Trafford",
      "domain": "manchestereveningnews.co.uk",
-     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/police-issue-urgent-appeal-after-34792495",
-     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34792558.ece/ALTERNATES/s615/0_Screenshot-2026-10-20-160159.png",
+     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/everything-heard-second-week-trial-34809304",
+     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34791556.ece/ALTERNATES/s615/0_Court2222.jpg",
      "image_external": true,
      "scope": "nearby",
-     "near": "Urmston"
+     "near": "Stretford"
     }
    ],
-   "period": "Publisher feeds checked 2026-10-23",
+   "period": "Publisher feeds checked 2026-10-27",
    "geography": "Ashton upon Mersey",
    "source": {
     "name": "Local publisher RSS feeds",
@@ -703,7 +703,6 @@
    "feeds": [
     "Messenger Newspapers",
     "Manchester Evening News – Trafford",
-    "Manchester Evening News – Sale",
     "Altrincham Today",
     "Manchester Evening News – Urmston"
    ],
@@ -715,10 +714,6 @@
     {
      "name": "Manchester Evening News – Trafford",
      "url": "https://www.manchestereveningnews.co.uk/all-about/trafford?service=rss"
-    },
-    {
-     "name": "Manchester Evening News – Sale",
-     "url": "https://www.manchestereveningnews.co.uk/all-about/sale?service=rss"
     },
     {
      "name": "Altrincham Today",
@@ -1258,7 +1253,7 @@
     "tram_map": "https://tfgm.com/ways-to-travel/tram/network-map",
     "rail_reviewed": "2026-10-12"
    },
-   "period": "Timetable downloaded 2026-10-23",
+   "period": "Timetable downloaded 2026-10-27",
    "geography": "Stops within 1 km of the centre of Ashton upon Mersey",
    "source": {
     "name": "TfGM bus and Metrolink timetables (GTFS)",
@@ -1405,5 +1400,5 @@
    "note": "Access to jobs, education, healthcare, shops and leisure by walking, cycling, public transport and driving."
   }
  },
- "updated": "2026-10-23"
+ "updated": "2026-10-27"
 }
