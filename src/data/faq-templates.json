@@ -1,6 +1,6 @@
 {
   "_comment": [
-    "FAQ for Area Radar. {tokens} are filled from public/data/areas/<id>.json (see tokens() in src/js/radar/format.js).",
+    "FAQ for Near Me. {tokens} are filled from public/data/areas/<id>.json (see tokens() in src/js/radar/format.js).",
     "A question is left out when one of its tokens has no data, and a topic with no questions is hidden.",
     "Used by: the page (browser), the build-time prerender and JSON-LD (vite.config.js), llms.txt,",
     "and the Party Wall area pages (src/seo/townships.py reads the partywall and notice topics)."

@@ -1,6 +1,6 @@
 {
-  "name": "Corelain Area Radar",
-  "short_name": "Area Radar",
+  "name": "Corelain Near Me",
+  "short_name": "Near Me",
   "description": "UK area guide: house prices, crime, schools, transport and risk.",
   "start_url": "/",
   "display": "standalone",

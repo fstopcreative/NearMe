@@ -37,7 +37,7 @@
     },
     {
       "id": "dashboards.area-radar",
-      "title": "Area Radar",
+      "title": "Near Me",
       "slug": "dashboards/area-radar",
       "icon": "radar",
       "parent": "grp.dashboards",

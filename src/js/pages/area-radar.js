@@ -1,5 +1,5 @@
 /*
- * Corelain — Area Radar dashboard (dashboards/area-radar).
+ * Corelain — Near Me dashboard (dashboards/area-radar).
  *
  * Loads /data/areas/<area>.json (built by scripts/data/run.py from official
  * sources), fills the page through src/js/radar/apply.js and draws the charts

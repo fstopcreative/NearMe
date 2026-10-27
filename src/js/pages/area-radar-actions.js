@@ -1,5 +1,5 @@
 /*
- * Corelain — Area Radar hero actions (search, Compare) and the map component.
+ * Corelain — Near Me hero actions (search, Compare) and the map component.
  * Compare reads the real figures of both areas from /data/areas/<id>.json;
  * a metric without data shows "—" and never wins.
  */

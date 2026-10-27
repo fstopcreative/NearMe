@@ -1,6 +1,6 @@
 /*
- * Corelain — searchable areas (command palette "Areas" group + Area Radar).
- * `id` is the ?area= value Area Radar reads to pick the area to show.
+ * Corelain — searchable areas (command palette "Areas" group + Near Me).
+ * `id` is the ?area= value Near Me reads to pick the area to show.
  * `focus: true` = Trafford pilot focus area (MKT-01 Define Target Audiences);
  * focus areas are listed first and each has a Party Wall page.
  */
@@ -35,7 +35,7 @@ export const AREAS = LIST.map((a) => ({
 
 export const findArea = (id) => AREAS.find((a) => a.id === id) || null;
 
-// Area Radar opens on the Trafford borough view when no ?area= is given.
+// Near Me opens on the Trafford borough view when no ?area= is given.
 // The figures on the page are Old Trafford (M16), the only fully sourced area.
 export const DEFAULT_AREA_ID = 'trafford';
 export const currentArea = () =>
