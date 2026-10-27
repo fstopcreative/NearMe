@@ -1,0 +1,53 @@
+<!doctype html>
+<!--
+  Vireo — entry point. This is NOT a page.
+
+  index.html and dashboards/area-radar.html were two files rendering the SAME route:
+  both carried data-ax-route="dashboards/sales", both were titled "Sales", and
+  vite.config.js already resolved the `index` route to the `dashboards/sales`
+  slug. Two copies of one dashboard is how they drift apart — and they had, into
+  two different layouts. dashboards/area-radar.html is the survivor: it is the slug in
+  nav-manifest.json, nav.js's HOME_SLUG (so the breadcrumb root "Home" and the
+  sidebar logo both point at it), and the target every sibling dashboard is
+  addressed like. So the entry point forwards there instead of duplicating it.
+
+  Both mechanisms are deliberate. location.replace() runs first and leaves no
+  history entry, so Back from the dashboard returns where the visitor came from
+  rather than bouncing through here; the meta refresh is the no-JS fallback.
+  The target is RELATIVE so this works unchanged in dev, in dist/, and off the
+  filesystem in a buyer's unzipped folder.
+-->
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Corelain Dashboard</title>
+  <link rel="icon" type="image/png" href="/favicon.png" />
+  <meta name="robots" content="noindex" />
+  <!-- No <link rel="canonical"> here: Vite resolves link[href] as an asset, so it
+       copied the whole 186 kB sales page into dist/assets/ under a hashed name and
+       pointed the tag at that dead copy. The redirect is the canonical signal. -->
+  <meta http-equiv="refresh" content="0; url=dashboards/area-radar.html" />
+  <script>
+    /* Carry any ?query / #hash across so deep links to the dashboard survive. */
+    window.location.replace('dashboards/area-radar.html' + window.location.search + window.location.hash);
+  </script>
+  <style>
+    /* Canvas/CanvasText follow the OS scheme, so the ~1 frame this is visible
+       does not flash white over a dark dashboard (or vice versa). */
+    :root { color-scheme: light dark; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      background: Canvas;
+      color: CanvasText;
+      font: 400 14px/1.5 ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+    }
+  </style>
+</head>
+<body>
+  <p>Redirecting to the <a href="dashboards/area-radar.html">Sales dashboard</a>…</p>
+</body>
+</html>

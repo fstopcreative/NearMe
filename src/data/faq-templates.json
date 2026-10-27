@@ -1,0 +1,318 @@
+{
+  "_comment": [
+    "FAQ for Area Radar. {tokens} are filled from public/data/areas/<id>.json (see tokens() in src/js/radar/format.js).",
+    "A question is left out when one of its tokens has no data, and a topic with no questions is hidden.",
+    "Used by: the page (browser), the build-time prerender and JSON-LD (vite.config.js), llms.txt,",
+    "and the Party Wall area pages (src/seo/townships.py reads the partywall and notice topics)."
+  ],
+  "topics": [
+    {
+      "key": "prices",
+      "label": "House prices",
+      "icon": "house",
+      "tone": "--ax-accent",
+      "items": [
+        {
+          "q": "What is the average house price in {area}?",
+          "a": "The average sold price in {area} was {average_price} in {average_price_period}, based on {sales_12m} sales (HM Land Registry Price Paid Data)."
+        },
+        {
+          "q": "Are house prices in {area} going up?",
+          "a": "The average sold price {growth_word} {growth_abs} on the previous 12 months. Across the UK, prices changed by {uk_growth} in the year to {uk_period} (UK House Price Index)."
+        },
+        {
+          "q": "How have prices in {area} changed over the last ten years?",
+          "a": "The yearly average sold price moved from {trend_from} to {trend_to} over {trend_years}, a change of about {trend_change}."
+        },
+        {
+          "q": "How much do flats and houses cost in {area}?",
+          "a": "Over the last three years, {type_list}. Types with few sales are less reliable."
+        },
+        {
+          "q": "How much does it cost to rent in {area}?",
+          "a": "The average private rent in {rent_geo} was {rent} a month in {rent_period} ({rent_change} on a year earlier), from the ONS Price Index of Private Rents. By size: {rent_beds}."
+        },
+        {
+          "q": "Do more people rent or own in {area}?",
+          "a": "At the 2021 Census, {own_pct} of the {households} households in {area} owned their home (including shared ownership) and {rent_pct} rented: {private_pct} from a private landlord and {social_pct} from a council or housing association."
+        },
+        {
+          "q": "What is the average salary in {area}?",
+          "a": "Full-time employees living in {area} earned a median {pay} a year in {pay_year} (ONS Annual Survey of Hours and Earnings), against {pay_england} for England. The average sold price is about {price_to_pay} times that salary."
+        },
+        {
+          "q": "How many people live in {area}?",
+          "a": "{residents} people lived in {area} at the 2021 Census, in {households} households (about {household_size} people per home). {under15_pct} were under 15 and {over65_pct} were 65 or over."
+        }
+      ]
+    },
+    {
+      "key": "crime",
+      "label": "Crime & safety",
+      "icon": "shield",
+      "tone": "--ax-viz-violet",
+      "items": [
+        {
+          "q": "Is {area} a safe area?",
+          "a": "{crime_geo} recorded {crime_rate} crimes per 1,000 residents in the {crime_period}, {crime_vs_ew} than the England and Wales average of {crime_ew} (Home Office). The figure is borough-wide, so individual streets can differ."
+        },
+        {
+          "q": "How does crime in {borough} compare with Manchester?",
+          "a": "{borough} recorded {crime_rate} crimes per 1,000 residents in the {crime_period}, compared with {crime_manchester} in Manchester (Home Office police recorded crime, excluding fraud)."
+        },
+        {
+          "q": "How common is violent crime around {area}?",
+          "a": "Violence and sexual offences ran at {violence_rate} per 1,000 residents in {borough} in the {crime_period}, against {violence_ew} across England and Wales."
+        },
+        {
+          "q": "Why is there no street-level crime data for {area}?",
+          "a": "Greater Manchester Police has not published street-level crime records to police.uk since 2019, so neighbourhood rates are not available. The Home Office borough figures are the most reliable published measure."
+        }
+      ]
+    },
+    {
+      "key": "schools",
+      "label": "Schools",
+      "icon": "school",
+      "tone": "--ax-viz-amber",
+      "items": [
+        {
+          "q": "Which schools are nearest to {area}?",
+          "a": "The nearest state schools to the centre of {area} include {school_list} (Ofsted)."
+        },
+        {
+          "q": "How are schools in {area} rated by Ofsted?",
+          "a": "Of the {schools_count} schools counted, {school_mix}. Corelain's indicative school score is {school_score} out of 10 ({schools_period})."
+        },
+        {
+          "q": "Why do some schools have no Ofsted grade?",
+          "a": "Ofsted stopped giving a one-word overall grade in September 2024. Since November 2025 inspections produce a report card that grades each area separately, from Exceptional to Urgent improvement."
+        }
+      ]
+    },
+    {
+      "key": "transport",
+      "label": "Transport",
+      "icon": "tram",
+      "tone": "--ax-viz-cyan",
+      "items": [
+        {
+          "q": "How well connected is {area}?",
+          "a": "{area} scores {transport_score} out of 100 on the Department for Transport connectivity metric ({transport_period}), with {transport_pt} for public transport and {transport_walk} for walking."
+        },
+        {
+          "q": "What is the nearest Metrolink stop to {area}?",
+          "a": "The nearest Metrolink stop to the centre of {area} is {metro_stop}. There are {bus_stops} bus stops within 400 metres (NaPTAN)."
+        },
+        {
+          "q": "What is the nearest train station to {area}?",
+          "a": "The nearest rail station is {rail_station}. Manchester city centre is about {city_centre_mi} miles away in a straight line."
+        },
+        {
+          "q": "How do you get from {area} to Manchester city centre?",
+          "a": "Typically {journey_text} — roughly {journey_total} minutes door to door. {journey_note}"
+        },
+        {
+          "q": "Which trams serve {area}?",
+          "a": "Metrolink stops within 1 km of {area} are served by {tram_lines}. See the Bee Network tram map for the full network."
+        },
+        {
+          "q": "Which buses run through {area}?",
+          "a": "The busiest bus services stopping within 1 km of {area} include {bus_list}, from the TfGM timetable."
+        },
+        {
+          "q": "Which train lines serve {area}?",
+          "a": "Stations near {area}: {rail_lines}."
+        }
+      ]
+    },
+    {
+      "key": "flood",
+      "label": "Flood risk",
+      "icon": "waves",
+      "tone": "--ax-info-500",
+      "items": [
+        {
+          "q": "Is {area} at risk of flooding?",
+          "a": "Long-term flood risk is {flood_overall} overall: {flood_detail} (Environment Agency)."
+        },
+        {
+          "q": "Is {area} in a flood zone?",
+          "a": "{flood_zone_text} (Environment Agency flood map for planning). Surface water risk is mapped separately and varies by street."
+        },
+        {
+          "q": "How can I check the flood risk for a specific property?",
+          "a": "Risk, especially from surface water, varies from street to street, so check the exact address on the Environment Agency's long-term flood risk service (check-long-term-flood-risk.service.gov.uk) before you buy."
+        }
+      ]
+    },
+    {
+      "key": "ground",
+      "label": "Ground & radon",
+      "icon": "layers",
+      "tone": "--ax-viz-emerald",
+      "items": [
+        {
+          "q": "Is {area} in a coal mining area?",
+          "a": "{area} {coal_text} (Mining Remediation Authority). A coal mining report on the specific property is still advisable before buying."
+        },
+        {
+          "q": "Is radon a concern in {area}?",
+          "a": "{area} is in radon potential class {radon_class}, where {radon_share}."
+        }
+      ]
+    },
+    {
+      "key": "air",
+      "label": "Air quality",
+      "icon": "wind",
+      "tone": "--ax-viz-amber",
+      "items": [
+        {
+          "q": "What is the air quality like in {area}?",
+          "a": "Modelled background levels are about {no2} µg/m³ of nitrogen dioxide, {pm25} µg/m³ of PM2.5 and {pm10} µg/m³ of PM10 ({air_period}, Defra). The UK annual limits are 40, 20 and 40 µg/m³; roadside levels can be higher."
+        },
+        {
+          "q": "Is {area} in an Air Quality Management Area?",
+          "a": "{aqma_status} (Defra). Councils declare these where a national air quality objective may not be met."
+        },
+        {
+          "q": "How high is roadside pollution in {area}?",
+          "a": "In the {aqma_name}, roadside nitrogen dioxide averages about {aqma_no2} µg/m³ a year, against a legal limit of 40."
+        },
+        {
+          "q": "Where do the live air quality readings come from?",
+          "a": "The live European AQI gauge uses the Open-Meteo air quality model. It is a modelled value for the area, not a reading from a single roadside monitor."
+        }
+      ]
+    },
+    {
+      "key": "development",
+      "label": "Developments",
+      "icon": "crane",
+      "tone": "--ax-viz-violet",
+      "items": [
+        {
+          "q": "What major developments are planned near {area}?",
+          "a": "Major schemes include {dev_list}. Check Trafford Council's planning search for individual applications."
+        },
+        {
+          "q": "How many homes could be built on brownfield land near {area}?",
+          "a": "The council brownfield land registers list {brownfield_count} sites near {area} with room for about {brownfield_homes} homes; {brownfield_permissioned} already have planning permission."
+        }
+      ]
+    },
+    {
+      "key": "conservation",
+      "label": "Conservation",
+      "icon": "columns",
+      "tone": "--ax-text-muted",
+      "items": [
+        {
+          "q": "Is {area} in a conservation area?",
+          "a": "{ca_status}. Conservation areas nearby include {ca_nearby} (planning.data.gov.uk)."
+        },
+        {
+          "q": "How many conservation areas are there around {area}?",
+          "a": "There are {ca_count} conservation areas in the search area for {area}. Extra planning controls apply inside them."
+        },
+        {
+          "q": "Are there listed buildings in {area}?",
+          "a": "There are {listed_total} listed buildings {planning_scope}: {listed_grades}. Notable ones include {listed_notable} (Historic England)."
+        },
+        {
+          "q": "Is {area} in the Green Belt?",
+          "a": "{green_belt} (planning.data.gov.uk)."
+        }
+      ]
+    },
+    {
+      "key": "local",
+      "label": "Local services",
+      "icon": "users",
+      "tone": "--ax-accent",
+      "items": [
+        {
+          "q": "What are the main landmarks near {area}?",
+          "a": "Places near the centre of {area} include {place_list} (OpenStreetMap)."
+        }
+      ]
+    },
+    {
+      "key": "partywall",
+      "label": "Party Wall: homeowners",
+      "icon": "wall",
+      "tone": "--ax-accent",
+      "items": [
+        {
+          "q": "Do I need a party wall agreement for an extension in {area}?",
+          "a": "Often, yes. Under the Party Wall etc. Act 1996 you must serve notice before building a new wall on or astride the boundary (section 1), doing work to an existing party wall such as cutting in steel beams for a loft conversion (section 2), or excavating within 3 metres of a neighbour's building and deeper than its foundations, or within 6 metres for deeper excavations (section 6). The Act applies across England and Wales, including {area}."
+        },
+        {
+          "q": "How much notice do I need to give my neighbour?",
+          "a": "One month for a new wall at the boundary or for excavation, and two months for work to an existing party wall. A notice lapses if the work has not started within 12 months."
+        },
+        {
+          "q": "What happens if my neighbour does not reply to a party wall notice?",
+          "a": "If an adjoining owner does not reply within 14 days, a dispute is treated as having arisen. Surveyors are then appointed to agree a party wall award that sets out how and when the work can be done."
+        },
+        {
+          "q": "Who pays for the party wall surveyor?",
+          "a": "The building owner, the person doing the work, normally pays the reasonable fees of both their own surveyor and the adjoining owner's surveyor."
+        },
+        {
+          "q": "Can I start building before the party wall award is agreed?",
+          "a": "Not for notifiable work. You need your neighbour's written consent or an agreed award first. Starting early can lead to an injunction and delay."
+        },
+        {
+          "q": "Does planning permission cover party wall matters?",
+          "a": "No. Planning permission, Building Regulations approval and the Party Wall Act are separate. The same extension may need all three."
+        }
+      ]
+    },
+    {
+      "key": "notice",
+      "label": "Party Wall: neighbours",
+      "icon": "mail",
+      "tone": "--ax-viz-violet",
+      "items": [
+        {
+          "q": "I have received a party wall notice in {area}. What should I do?",
+          "a": "Read it carefully and reply in writing within 14 days. You can consent, or dissent and either share one impartial surveyor (an agreed surveyor) or appoint your own."
+        },
+        {
+          "q": "Do I have to pay for my own party wall surveyor?",
+          "a": "Usually not. The building owner normally pays the reasonable costs of the adjoining owner's surveyor."
+        },
+        {
+          "q": "What if my neighbour's building work damages my property?",
+          "a": "A party wall award normally includes a schedule of condition recording your property before work starts. The building owner must make good any damage the work causes, or pay compensation."
+        },
+        {
+          "q": "Can I stop my neighbour's extension with the Party Wall Act?",
+          "a": "No. The Act does not let you block work that is otherwise allowed. It controls how the work is done and protects your property while it happens."
+        }
+      ]
+    },
+    {
+      "key": "pros",
+      "label": "For architects",
+      "icon": "ruler",
+      "tone": "--ax-viz-amber",
+      "items": [
+        {
+          "q": "When should an architect involve a party wall surveyor?",
+          "a": "At design stage, before tender. Notice periods of one to two months, plus time to agree an award, can affect the build programme, and early advice can reduce notifiable work through design."
+        },
+        {
+          "q": "Can an architect serve party wall notices?",
+          "a": "Notices can be served on the building owner's behalf, but a notice that is drafted or served incorrectly can be invalid. Many architects refer clients to a party wall surveyor so notices and awards are handled correctly."
+        },
+        {
+          "q": "How do builders and other professionals refer a project to Corelain?",
+          "a": "Through corelain.com/contact or by phone on 0161 820 1121. Corelain handles notices, schedules of condition and awards so the project stays on programme."
+        }
+      ]
+    }
+  ]
+}

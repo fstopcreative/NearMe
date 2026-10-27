@@ -1,0 +1,150 @@
+# Corelain Near Me — Trafford, Greater Manchester
+
+> Area guide for Trafford (Greater Manchester, UK) and its towns and villages: house prices, price growth, crime, schools, transport connectivity, flood and mining risk, air quality, conservation areas and regeneration. Built by Corelain (https://www.corelain.com/), a Manchester building surveying practice. Figures come from official open data and are refreshed automatically; this file was generated 2026-10-27.
+
+Page: https://nearme.corelain.com/ (Trafford) · any area: https://nearme.corelain.com/?area=<id>
+
+## Key facts — Trafford
+
+- Average sold price: £454,016 in the 12 months to 31 Jul 2026, from 2,693 sales (HM Land Registry Price Paid Data · 12 months to 31 Jul 2026).
+- Annual change in average sold price: +4.4%; UK +0.9% in the year to August 2026 (HM Land Registry Price Paid Data · 12 months to 31 Jul 2026 vs previous 12 months).
+- Price trend: £296,543 to £445,186 over 2016–2025 (HM Land Registry Price Paid Data · 2016–2025, calendar years).
+- Crime: 54.6 police recorded crimes per 1,000 residents in the 12 months to June 2026; England and Wales 83.1; Manchester 104.1 (Home Office police recorded crime, Community Safety Partnership open data tables · 12 months to June 2026).
+- Schools: 11 Outstanding, 43 Good, 10 with a new report card, 3 below Good and 15 with no overall grade; indicative score 7.9/10 (Ofsted management information: state-funded schools, latest inspections · Latest inspections as at 30 September 2026).
+- Transport connectivity: 73/100 overall, 75/100 by public transport (DfT Transport Connectivity Metric · Connectivity metric 2025).
+- Air quality (background): NO₂ 11.2, PM2.5 6.7, PM10 11.7 µg/m³ (Defra LAQM background maps (1 km grid) · 2026 annual mean (projection from the 2021 base year)).
+- Coal mining: Trafford is partly within the coal mining reporting area (development low risk) (Mining Remediation Authority (Coal Authority) Data Mine · Current layers).
+- Conservation areas: 22 in Trafford (Planning Data — conservation areas (MHCLG) · Current designations).
+- Data files (JSON, one per area): https://nearme.corelain.com/data/areas/<id>.json — index at https://nearme.corelain.com/data/areas/index.json.
+
+<!-- AREAS:START -->
+## Corelain Party Wall surveying
+
+Corelain (https://www.corelain.com/) is a Manchester building surveying practice (Cardinal House, 20 St Mary's Parsonage, Manchester M3 2LY; 0161 820 1121; office@corelain.com). Its Party Wall surveyors serve notices, prepare schedules of condition and agree awards under the Party Wall etc. Act 1996, for:
+
+- Homeowners planning rear or side extensions, loft conversions, basements, excavation or structural alterations.
+- Adjoining owners who have received a party wall notice.
+- Architects, architectural technologists, designers, planning consultants and structural engineers (preliminary assessments, early risk identification, CPD).
+- Builders, extension and loft specialists, surveyors, solicitors and project managers who refer clients.
+
+Party Wall service page: https://www.corelain.com/party-wall-surveyor-manchester
+
+### Party Wall pages by area (Trafford pilot)
+
+- Trafford (all areas): https://nearme.corelain.com/party-wall-surveyors/trafford
+- Old Trafford (M16, Trafford): https://nearme.corelain.com/party-wall-surveyors/old-trafford — Old Trafford is one of Trafford's most densely built neighbourhoods, with long Victorian and Edwardian terraces either side of Chester Road. Almost every house shares a party wall, so loft conversions, rear extensions and flat conversions here nearly always need a notice.; conservation areas: Empress Conservation Area (Chester Road / Empress Street)
+- Stretford (M32, Trafford): https://nearme.corelain.com/party-wall-surveyors/stretford — Stretford's Victorian and Edwardian terraces and interwar semi-detached streets share party walls almost everywhere, so rear extensions and loft conversions here usually involve the Party Wall Act.; conservation areas: Longford Park Conservation Area
+- Sale (M33, Trafford): https://nearme.corelain.com/party-wall-surveyors/sale — Sale combines Victorian villas and terraces near the Bridgewater Canal with large interwar semi-detached estates, so loft conversions and two-storey extensions here often need a party wall notice.; conservation areas: Brogden Grove Conservation Area, Ashton-on-Mersey Village Conservation Area
+- Hale Barns (WA15, Trafford): https://nearme.corelain.com/party-wall-surveyors/hale-barns — Hale Barns is mostly large detached homes on generous plots. Even with no shared wall, deep foundations, basements and replacement houses near the boundary often fall under section 6 of the Party Wall Act.
+- Hale (WA15, Trafford): https://nearme.corelain.com/party-wall-surveyors/hale — Hale's Victorian and Edwardian villas, many inside conservation areas, are often extended with basements and large rear extensions that need careful party wall planning.; conservation areas: Hale Station Conservation Area, South Hale Conservation Area, Ashley Heath Conservation Area
+- Timperley (WA15, Trafford): https://nearme.corelain.com/party-wall-surveyors/timperley — Timperley is a large interwar and post-war suburb of semi-detached houses. Side extensions, rear extensions and loft conversions on a semi almost always involve the party wall itself or excavation close to the neighbour's foundations.
+- Carrington (M31, Trafford): https://nearme.corelain.com/party-wall-surveyors/carrington — Carrington is changing fast, with new housing planned around the village. Building next to existing homes, and extending older houses in the village, can both bring in the Party Wall Act.
+- Partington (M31, Trafford): https://nearme.corelain.com/party-wall-surveyors/partington — Partington grew rapidly in the 1960s and 1970s as an overspill town, so most homes are semi-detached or terraced and share a party wall with at least one neighbour.
+- Dunham Massey (WA14, Trafford): https://nearme.corelain.com/party-wall-surveyors/dunham-massey — Around the National Trust's Dunham Massey estate, historic cottages and farm buildings sit in conservation areas and the Green Belt, so extensions need planning, heritage and party wall advice together.; conservation areas: Dunham Town Conservation Area, Dunham Woodhouses Conservation Area
+- Warburton (WA13, Trafford): https://nearme.corelain.com/party-wall-surveyors/warburton — Warburton is a small rural village in the Green Belt with a historic core. Attached cottages and old boundary walls mean that even modest works can involve the Party Wall Act.; conservation areas: Warburton Village Conservation Area
+- Urmston (M41, Trafford): https://nearme.corelain.com/party-wall-surveyors/urmston — Urmston's Edwardian terraces and interwar semis share party walls street after street, making loft conversions and rear extensions the most common reasons for a party wall notice here.
+<!-- AREAS:END -->
+
+## Frequently asked questions
+
+### House prices
+
+- **What is the average house price in Trafford?** The average sold price in Trafford was £454,016 in the 12 months to 31 Jul 2026, based on 2,693 sales (HM Land Registry Price Paid Data).
+- **Are house prices in Trafford going up?** The average sold price rose 4.4% on the previous 12 months. Across the UK, prices changed by +0.9% in the year to August 2026 (UK House Price Index).
+- **How have prices in Trafford changed over the last ten years?** The yearly average sold price moved from £296,543 to £445,186 over 2016–2025, a change of about 50%.
+- **How much do flats and houses cost in Trafford?** Over the last three years, detached homes £796,332 (1,302 sales), semi-detached homes £439,055 (3,705 sales), terraced homes £367,301 (2,266 sales) and flats £233,905 (1,781 sales). Types with few sales are less reliable.
+- **How much does it cost to rent in Trafford?** The average private rent in Trafford was £1,373 a month in September 2026 (+3.0% on a year earlier), from the ONS Price Index of Private Rents. By size: one-bed £946, two-bed £1,205, three-bed £1,488 and four-plus-bed £2,113.
+- **Do more people rent or own in Trafford?** At the 2021 Census, 70% of the 96,269 households in Trafford owned their home (including shared ownership) and 30% rented: 15% from a private landlord and 15% from a council or housing association.
+- **What is the average salary in Trafford?** Full-time employees living in Trafford earned a median £42,973 a year in 2025 (ONS Annual Survey of Hours and Earnings), against £39,243 for England. The average sold price is about 10.6 times that salary.
+- **How many people live in Trafford?** 235,052 people lived in Trafford at the 2021 Census, in 96,269 households (about 2.44 people per home). 20% were under 15 and 18% were 65 or over.
+
+### Crime & safety
+
+- **Is Trafford a safe area?** Trafford Community Safety Partnership recorded 54.6 crimes per 1,000 residents in the 12 months to June 2026, 34% lower than the England and Wales average of 83.1 (Home Office). The figure is borough-wide, so individual streets can differ.
+- **How does crime in Trafford compare with Manchester?** Trafford recorded 54.6 crimes per 1,000 residents in the 12 months to June 2026, compared with 104.1 in Manchester (Home Office police recorded crime, excluding fraud).
+- **How common is violent crime around Trafford?** Violence and sexual offences ran at 21.0 per 1,000 residents in Trafford in the 12 months to June 2026, against 34.9 across England and Wales.
+- **Why is there no street-level crime data for Trafford?** Greater Manchester Police has not published street-level crime records to police.uk since 2019, so neighbourhood rates are not available. The Home Office borough figures are the most reliable published measure.
+
+### Schools
+
+- **How are schools in Trafford rated by Ofsted?** Of the 82 schools counted, 11 Outstanding, 43 Good, 10 with a new report card, 3 below Good and 15 with no overall grade. Corelain's indicative school score is 7.9 out of 10 (Latest inspections as at 30 September 2026).
+- **Why do some schools have no Ofsted grade?** Ofsted stopped giving a one-word overall grade in September 2024. Since November 2025 inspections produce a report card that grades each area separately, from Exceptional to Urgent improvement.
+
+### Transport
+
+- **How well connected is Trafford?** Trafford scores 73 out of 100 on the Department for Transport connectivity metric (Connectivity metric 2025), with 75 for public transport and 69 for walking.
+- **What is the nearest Metrolink stop to Trafford?** The nearest Metrolink stop to the centre of Trafford is Brooklands Metrolink (1.1 miles, about 28 minutes on foot). There are 12 bus stops within 400 metres (NaPTAN).
+- **What is the nearest train station to Trafford?** The nearest rail station is Navigation Road station (1.8 miles). Manchester city centre is about 5.9 miles away in a straight line.
+- **Which trams serve Trafford?** Metrolink stops within 1 km of Trafford are served by the Pink Line (East Didsbury – Rochdale Town Centre), the Navy Line (Manchester Airport – Victoria), the Yellow Line (Eccles – Piccadilly), the Red Line (Trafford Centre – Crumpsall), the Purple Line (Altrincham – Etihad Campus) and the Green Line (Altrincham – Bury). See the Bee Network tram map for the full network.
+- **Which buses run through Trafford?** The busiest bus services stopping within 1 km of Trafford include the 263 (Altrincham – Manchester), the 250 (Manchester – Trafford Centre), the 256 (Manchester – Flixton) and the 67 (Manchester – Cadishead), from the TfGM timetable.
+- **Which train lines serve Trafford?** Stations near Trafford: Navigation Road (Manchester Piccadilly – Chester) and Chassen Road (Liverpool Lime Street – Manchester Oxford Road).
+
+### Flood risk
+
+- **Is Trafford in a flood zone?** Parts of Trafford, mainly along its rivers and canals, are in Flood Zone 3 (high probability of flooding from rivers and the sea); most of the borough is in Flood Zone 1 (Environment Agency flood map for planning). Surface water risk is mapped separately and varies by street.
+- **How can I check the flood risk for a specific property?** Risk, especially from surface water, varies from street to street, so check the exact address on the Environment Agency's long-term flood risk service (check-long-term-flood-risk.service.gov.uk) before you buy.
+
+### Ground & radon
+
+- **Is Trafford in a coal mining area?** Trafford is partly within the coal mining reporting area (development low risk) (Mining Remediation Authority). A coal mining report on the specific property is still advisable before buying.
+- **Is radon a concern in Trafford?** Trafford is in radon potential class 1 of 6, where <1% of homes above the action level.
+
+### Air quality
+
+- **What is the air quality like in Trafford?** Modelled background levels are about 11.2 µg/m³ of nitrogen dioxide, 6.7 µg/m³ of PM2.5 and 11.7 µg/m³ of PM10 (2026 annual mean (projection from the 2021 base year), Defra). The UK annual limits are 40, 20 and 40 µg/m³; roadside levels can be higher.
+- **Is Trafford in an Air Quality Management Area?** Trafford is near the Manchester AQMA, Salford AQMA, Trafford AQMA and Warrington AQMA No.1 (Defra). Councils declare these where a national air quality objective may not be met.
+- **Where do the live air quality readings come from?** The live European AQI gauge uses the Open-Meteo air quality model. It is a modelled value for the area, not a reading from a single roadside monitor.
+
+### Developments
+
+- **What major developments are planned near Trafford?** Major schemes include New Manchester United Stadium (100,000 seats), Old Trafford Regeneration (OTR MDC) and Trafford Wharfside Masterplan. Check Trafford Council's planning search for individual applications.
+- **How many homes could be built on brownfield land near Trafford?** The council brownfield land registers list 62 sites near Trafford with room for about 1,840 homes; 37 already have planning permission.
+
+### Conservation
+
+- **Is Trafford in a conservation area?** The centre of Trafford is outside a conservation area. Conservation areas nearby include Ashton Upon Mersey (designated 1976), Brogden Grove (designated 1976) and Linotype (designated 1985) (planning.data.gov.uk).
+- **How many conservation areas are there around Trafford?** There are 22 conservation areas in the search area for Trafford. Extra planning controls apply inside them.
+- **Are there listed buildings in Trafford?** There are 434 listed buildings Trafford (borough): 12 Grade I, 20 Grade II* and 402 Grade II. Notable ones include Church Of St Martin (Grade II*), Church Of St John The Divine (Grade II*) and Church Of St Michael (Grade II*) (Historic England).
+- **Is Trafford in the Green Belt?** Yes — parts of the borough are Green Belt (planning.data.gov.uk).
+
+### Local services
+
+- **What are the main landmarks near Trafford?** Places near the centre of Trafford include Old Trafford Stadium (stadium), Trafford Centre (shopping centre), IWM North (museum) and Dunham Massey (park) (OpenStreetMap).
+
+### Party Wall: homeowners
+
+- **Do I need a party wall agreement for an extension in Trafford?** Often, yes. Under the Party Wall etc. Act 1996 you must serve notice before building a new wall on or astride the boundary (section 1), doing work to an existing party wall such as cutting in steel beams for a loft conversion (section 2), or excavating within 3 metres of a neighbour's building and deeper than its foundations, or within 6 metres for deeper excavations (section 6). The Act applies across England and Wales, including Trafford.
+- **How much notice do I need to give my neighbour?** One month for a new wall at the boundary or for excavation, and two months for work to an existing party wall. A notice lapses if the work has not started within 12 months.
+- **What happens if my neighbour does not reply to a party wall notice?** If an adjoining owner does not reply within 14 days, a dispute is treated as having arisen. Surveyors are then appointed to agree a party wall award that sets out how and when the work can be done.
+- **Who pays for the party wall surveyor?** The building owner, the person doing the work, normally pays the reasonable fees of both their own surveyor and the adjoining owner's surveyor.
+- **Can I start building before the party wall award is agreed?** Not for notifiable work. You need your neighbour's written consent or an agreed award first. Starting early can lead to an injunction and delay.
+- **Does planning permission cover party wall matters?** No. Planning permission, Building Regulations approval and the Party Wall Act are separate. The same extension may need all three.
+
+### Party Wall: neighbours
+
+- **I have received a party wall notice in Trafford. What should I do?** Read it carefully and reply in writing within 14 days. You can consent, or dissent and either share one impartial surveyor (an agreed surveyor) or appoint your own.
+- **Do I have to pay for my own party wall surveyor?** Usually not. The building owner normally pays the reasonable costs of the adjoining owner's surveyor.
+- **What if my neighbour's building work damages my property?** A party wall award normally includes a schedule of condition recording your property before work starts. The building owner must make good any damage the work causes, or pay compensation.
+- **Can I stop my neighbour's extension with the Party Wall Act?** No. The Act does not let you block work that is otherwise allowed. It controls how the work is done and protects your property while it happens.
+
+### For architects
+
+- **When should an architect involve a party wall surveyor?** At design stage, before tender. Notice periods of one to two months, plus time to agree an award, can affect the build programme, and early advice can reduce notifiable work through design.
+- **Can an architect serve party wall notices?** Notices can be served on the building owner's behalf, but a notice that is drafted or served incorrectly can be invalid. Many architects refer clients to a party wall surveyor so notices and awards are handled correctly.
+- **How do builders and other professionals refer a project to Corelain?** Through corelain.com/contact or by phone on 0161 820 1121. Corelain handles notices, schedules of condition and awards so the project stays on programme.
+
+
+## Sources
+
+- HM Land Registry price paid data (via https://propertyinsightsuk.co.uk/postcodes/m16/)
+- ONS house prices, Trafford: https://www.ons.gov.uk/visualisations/housingpriceslocal/E08000009/
+- Price per m²: https://housemetric.co.uk/analysis/sector/M16-7/Old-Trafford
+- Ofsted reports: https://reports.ofsted.gov.uk/
+- Environment Agency flood risk: https://check-long-term-flood-risk.service.gov.uk/postcode
+- Coal mining check: https://www.gov.uk/check-if-property-is-affected-by-coal-mining
+- Old Trafford Regeneration MDC: https://www.trafford.gov.uk/news/2026/old-trafford-regeneration-mayoral-development-corporation-officially-launched
+
+## Corelain
+
+- Party Wall surveyors in Manchester: https://www.corelain.com/party-wall-surveyor-manchester
+- Services: https://www.corelain.com/our-services

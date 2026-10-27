@@ -1,0 +1,1499 @@
+{
+ "schema": 1,
+ "id": "hale-barns",
+ "name": "Hale Barns",
+ "kind": "area",
+ "borough": "Trafford",
+ "county": "Greater Manchester",
+ "postcode": "WA15",
+ "centre": {
+  "lat": 53.37,
+  "lng": -2.306
+ },
+ "metrics": {
+  "air_quality": {
+   "value": {
+    "no2": 10.9,
+    "pm25": 6.4,
+    "pm10": 11.1,
+    "limits": {
+     "no2": 40,
+     "pm25": 20,
+     "pm10": 40
+    }
+   },
+   "period": "2026 annual mean (projection from the 2021 base year)",
+   "geography": "Hale Barns — 1 km squares within 1.5 km of the centre",
+   "source": {
+    "name": "Defra LAQM background maps (1 km grid)",
+    "url": "https://uk-air.defra.gov.uk/data/laqm-background-home",
+    "licence": "Open Government Licence v3.0"
+   },
+   "status": "ok",
+   "unit": "µg/m³",
+   "note": "Modelled background concentrations; roadside levels can be higher."
+  },
+  "annual_growth": {
+   "value": 9.8,
+   "period": "12 months to 31 Jul 2026 vs previous 12 months",
+   "geography": "Hale Barns — wards: Hale Barns & Timperley South",
+   "source": {
+    "name": "HM Land Registry Price Paid Data",
+    "url": "https://landregistry.data.gov.uk/app/ppd",
+    "licence": "Open Government Licence v3.0"
+   },
+   "status": "ok",
+   "unit": "%",
+   "sample": 113,
+   "previous": 828964,
+   "note": "Change in the average sold price; it moves with the mix of homes sold."
+  },
+  "aqma": {
+   "value": {
+    "inside": [],
+    "nearby": [
+     {
+      "name": "Manchester AQMA",
+      "url": "https://uk-air.defra.gov.uk/aqma/details?aqma_ref=36"
+     },
+     {
+      "name": "Trafford AQMA",
+      "url": "https://uk-air.defra.gov.uk/aqma/details?aqma_ref=84"
+     }
+    ]
+   },
+   "period": "Current declarations",
+   "geography": "within 1.5 km of the centre of Hale Barns",
+   "source": {
+    "name": "Defra air quality management areas (via Planning Data)",
+    "url": "https://www.planning.data.gov.uk/dataset/air-quality-management-area",
+    "licence": "Open Government Licence v3.0"
+   },
+   "status": "ok"
+  },
+  "average_price": {
+   "value": 910112,
+   "period": "12 months to 31 Jul 2026",
+   "geography": "Hale Barns — wards: Hale Barns & Timperley South",
+   "source": {
+    "name": "HM Land Registry Price Paid Data",
+    "url": "https://landregistry.data.gov.uk/app/ppd",
+    "licence": "Open Government Licence v3.0"
+   },
+   "status": "ok",
+   "unit": "GBP",
+   "sample": 113,
+   "median": 650000
+  },
+  "average_rent": {
+   "value": {
+    "month": "2026-09",
+    "monthly": 1373,
+    "change_12m": 3,
+    "by_beds": {
+     "one": 946,
+     "two": 1205,
+     "three": 1488,
+     "four_plus": 2113
+    },
+    "by_type": {
+     "detached": 2051,
+     "semi": 1526,
+     "terraced": 1361,
+     "flat": 1122
+    },
+    "trend": [
+     {
+      "month": "2021-10",
+      "rent": 962
+     },
+     {
+      "month": "2021-11",
+      "rent": 972
+     },
+     {
+      "month": "2021-12",
+      "rent": 983
+     },
+     {
+      "month": "2022-01",
+      "rent": 990
+     },
+     {
+      "month": "2022-02",
+      "rent": 998
+     },
+     {
+      "month": "2022-03",
+      "rent": 1004
+     },
+     {
+      "month": "2022-04",
+      "rent": 1011
+     },
+     {
+      "month": "2022-05",
+      "rent": 1019
+     },
+     {
+      "month": "2022-06",
+      "rent": 1025
+     },
+     {
+      "month": "2022-07",
+      "rent": 1031
+     },
+     {
+      "month": "2022-08",
+      "rent": 1036
+     },
+     {
+      "month": "2022-09",
+      "rent": 1042
+     },
+     {
+      "month": "2022-10",
+      "rent": 1046
+     },
+     {
+      "month": "2022-11",
+      "rent": 1051
+     },
+     {
+      "month": "2022-12",
+      "rent": 1055
+     },
+     {
+      "month": "2023-01",
+      "rent": 1061
+     },
+     {
+      "month": "2023-02",
+      "rent": 1068
+     },
+     {
+      "month": "2023-03",
+      "rent": 1077
+     },
+     {
+      "month": "2023-04",
+      "rent": 1084
+     },
+     {
+      "month": "2023-05",
+      "rent": 1089
+     },
+     {
+      "month": "2023-06",
+      "rent": 1094
+     },
+     {
+      "month": "2023-07",
+      "rent": 1102
+     },
+     {
+      "month": "2023-08",
+      "rent": 1110
+     },
+     {
+      "month": "2023-09",
+      "rent": 1121
+     },
+     {
+      "month": "2023-10",
+      "rent": 1128
+     },
+     {
+      "month": "2023-11",
+      "rent": 1134
+     },
+     {
+      "month": "2023-12",
+      "rent": 1137
+     },
+     {
+      "month": "2024-01",
+      "rent": 1141
+     },
+     {
+      "month": "2024-02",
+      "rent": 1147
+     },
+     {
+      "month": "2024-03",
+      "rent": 1150
+     },
+     {
+      "month": "2024-04",
+      "rent": 1162
+     },
+     {
+      "month": "2024-05",
+      "rent": 1178
+     },
+     {
+      "month": "2024-06",
+      "rent": 1205
+     },
+     {
+      "month": "2024-07",
+      "rent": 1232
+     },
+     {
+      "month": "2024-08",
+      "rent": 1254
+     },
+     {
+      "month": "2024-09",
+      "rent": 1269
+     },
+     {
+      "month": "2024-10",
+      "rent": 1277
+     },
+     {
+      "month": "2024-11",
+      "rent": 1289
+     },
+     {
+      "month": "2024-12",
+      "rent": 1300
+     },
+     {
+      "month": "2025-01",
+      "rent": 1310
+     },
+     {
+      "month": "2025-02",
+      "rent": 1317
+     },
+     {
+      "month": "2025-03",
+      "rent": 1322
+     },
+     {
+      "month": "2025-04",
+      "rent": 1325
+     },
+     {
+      "month": "2025-05",
+      "rent": 1327
+     },
+     {
+      "month": "2025-06",
+      "rent": 1332
+     },
+     {
+      "month": "2025-07",
+      "rent": 1334
+     },
+     {
+      "month": "2025-08",
+      "rent": 1336
+     },
+     {
+      "month": "2025-09",
+      "rent": 1333
+     },
+     {
+      "month": "2025-10",
+      "rent": 1334
+     },
+     {
+      "month": "2025-11",
+      "rent": 1340
+     },
+     {
+      "month": "2025-12",
+      "rent": 1350
+     },
+     {
+      "month": "2026-01",
+      "rent": 1358
+     },
+     {
+      "month": "2026-02",
+      "rent": 1360
+     },
+     {
+      "month": "2026-03",
+      "rent": 1358
+     },
+     {
+      "month": "2026-04",
+      "rent": 1359
+     },
+     {
+      "month": "2026-05",
+      "rent": 1362
+     },
+     {
+      "month": "2026-06",
+      "rent": 1365
+     },
+     {
+      "month": "2026-07",
+      "rent": 1367
+     },
+     {
+      "month": "2026-08",
+      "rent": 1369
+     },
+     {
+      "month": "2026-09",
+      "rent": 1373
+     }
+    ],
+    "compare": {
+     "North West": 975,
+     "England": 1466
+    }
+   },
+   "period": "September 2026 (provisional)",
+   "geography": "Trafford (local authority)",
+   "source": {
+    "name": "ONS Price Index of Private Rents — Housing prices in your area",
+    "url": "https://www.ons.gov.uk/visualisations/housingpriceslocal/E08000009/",
+    "licence": "Open Government Licence v3.0"
+   },
+   "status": "ok",
+   "unit": "GBP a month",
+   "note": "Average monthly private rent paid by tenants (ONS PIPR); the latest two months are provisional."
+  },
+  "coal_mining": {
+   "value": {
+    "reporting_area": false,
+    "development_high_risk": false,
+    "level": "none",
+    "partial": false
+   },
+   "period": "Current layers",
+   "geography": "Hale Barns — area centre",
+   "source": {
+    "name": "Mining Remediation Authority (Coal Authority) Data Mine",
+    "url": "https://datamine-cauk.hub.arcgis.com/",
+    "licence": "Open Government Licence v3.0"
+   },
+   "status": "ok",
+   "note": "Check a specific property with a coal mining report before buying."
+  },
+  "conservation_areas": {
+   "value": {
+    "centre_inside": [],
+    "nearby": [
+     {
+      "name": "South Hale",
+      "designated": "1986-02-25",
+      "distance_mi": 1.1,
+      "url": "https://www.planning.data.gov.uk/entity/44010414"
+     }
+    ],
+    "count": 1
+   },
+   "period": "Current designations",
+   "geography": "Hale Barns — within 1.5 km of the centre",
+   "source": {
+    "name": "Planning Data — conservation areas (MHCLG)",
+    "url": "https://www.planning.data.gov.uk/dataset/conservation-area",
+    "licence": "Open Government Licence v3.0"
+   },
+   "status": "ok"
+  },
+  "crime_groups": {
+   "value": [
+    {
+     "key": "violence",
+     "label": "Violence & sexual offences",
+     "count": 5051,
+     "rate": 21.0,
+     "england_wales": 34.9,
+     "Manchester": 40.0
+    },
+    {
+     "key": "burglary",
+     "label": "Burglary",
+     "count": 543,
+     "rate": 2.3,
+     "england_wales": 3.6,
+     "Manchester": 3.5
+    },
+    {
+     "key": "vehicle",
+     "label": "Vehicle offences",
+     "count": 815,
+     "rate": 3.4,
+     "england_wales": 5.0,
+     "Manchester": 5.9
+    },
+    {
+     "key": "damage",
+     "label": "Criminal damage & arson",
+     "count": 1009,
+     "rate": 4.2,
+     "england_wales": 7.2,
+     "Manchester": 7.8
+    }
+   ],
+   "period": "12 months to June 2026",
+   "geography": "Trafford Community Safety Partnership (borough-wide)",
+   "source": {
+    "name": "Home Office police recorded crime, Community Safety Partnership open data tables",
+    "url": "https://www.gov.uk/government/statistics/police-recorded-crime-open-data-tables",
+    "licence": "Open Government Licence v3.0",
+    "file": "https://assets.publishing.service.gov.uk/media/6ad230f3a89985bb970267f2/prc-csp-mar21-jun26-tables-221026.ods"
+   },
+   "status": "ok",
+   "unit": "crimes per 1,000 residents",
+   "population_year": "2025"
+  },
+  "crime_rate": {
+   "value": 54.6,
+   "period": "12 months to June 2026",
+   "geography": "Trafford Community Safety Partnership (borough-wide)",
+   "source": {
+    "name": "Home Office police recorded crime, Community Safety Partnership open data tables",
+    "url": "https://www.gov.uk/government/statistics/police-recorded-crime-open-data-tables",
+    "licence": "Open Government Licence v3.0",
+    "file": "https://assets.publishing.service.gov.uk/media/6ad230f3a89985bb970267f2/prc-csp-mar21-jun26-tables-221026.ods"
+   },
+   "status": "ok",
+   "unit": "crimes per 1,000 residents",
+   "count": 13165,
+   "population": 240981,
+   "population_year": "2025",
+   "comparison": {
+    "England and Wales": 83.1,
+    "Greater Manchester": 74.6,
+    "Manchester": 104.1
+   },
+   "note": "Police recorded crime excluding fraud. Greater Manchester Police does not publish street-level data to police.uk, so this is a borough-wide figure."
+  },
+  "development_sites": {
+   "value": {
+    "count": 1,
+    "homes": 31,
+    "hectares": 0.9,
+    "permissioned": 0,
+    "sites": [
+     {
+      "name": "289 Hale Road, Halebarns",
+      "ref": "1623",
+      "homes": 31,
+      "hectares": 0.87,
+      "status": "No permission yet",
+      "permission_date": null,
+      "distance_mi": 0.5,
+      "url": "https://mappinggm.org.uk/gmodin"
+     }
+    ]
+   },
+   "period": "Council brownfield land registers (entries up to 2017-12)",
+   "geography": "within 1.5 km of the centre of Hale Barns",
+   "source": {
+    "name": "Planning Data — brownfield land registers (MHCLG)",
+    "url": "https://www.planning.data.gov.uk/dataset/brownfield-land",
+    "licence": "Open Government Licence v3.0"
+   },
+   "status": "ok",
+   "note": "Sites councils consider suitable for housing; capacity is the maximum net number of homes where stated."
+  },
+  "earnings": {
+   "value": {
+    "annual": 42973,
+    "previous": 39369,
+    "change_pct": 9.2,
+    "comparison": {
+     "Greater Manchester": 36497,
+     "England": 39243
+    }
+   },
+   "period": "2025 (ASHE, April; provisional)",
+   "geography": "Trafford residents (borough-wide)",
+   "source": {
+    "name": "ONS Annual Survey of Hours and Earnings (Nomis)",
+    "url": "https://www.nomisweb.co.uk/datasets/asher",
+    "licence": "Open Government Licence v3.0"
+   },
+   "status": "ok",
+   "unit": "GBP a year",
+   "note": "Median gross annual pay of full-time employees living in the area (ONS ASHE, resident analysis)."
+  },
+  "flood_zones": {
+   "value": {
+    "centre_zone": 1,
+    "zone2_nearby": 4,
+    "zone3_nearby": 4,
+    "radius_km": 1.0,
+    "borough": false
+   },
+   "period": "Current flood map for planning",
+   "geography": "Centre of Hale Barns and land within 1 km",
+   "source": {
+    "name": "Environment Agency Flood Zones 2 and 3 (via Planning Data)",
+    "url": "https://www.planning.data.gov.uk/dataset/flood-risk-zone",
+    "licence": "Open Government Licence v3.0"
+   },
+   "status": "ok",
+   "note": "Flood Zone 1 = low probability, 2 = medium, 3 = high (rivers and the sea). Surface water risk is not included."
+  },
+  "ground": {
+   "value": {
+    "natural_subsidence": "Low",
+    "hazards": {
+     "collapsible_deposits": {
+      "label": "Collapsible deposits",
+      "rating": "Low"
+     },
+     "compressible_ground": {
+      "label": "Compressible ground",
+      "rating": "Low"
+     },
+     "landslides": {
+      "label": "Landslides",
+      "rating": "Low"
+     },
+     "running_sand": {
+      "label": "Running sand",
+      "rating": "Low"
+     },
+     "shrink_swell": {
+      "label": "Shrink–swell",
+      "rating": "Low"
+     },
+     "soluble_rocks": {
+      "label": "Soluble rocks",
+      "rating": "Low"
+     }
+    }
+   },
+   "period": "GeoSure v8 5 km hex grid",
+   "geography": "5 km generalised hexagon containing the centre of Hale Barns",
+   "source": {
+    "name": "BGS GeoSure 5 km hex grid",
+    "url": "https://www.bgs.ac.uk/datasets/bgs-geosure-5-km-hex-grid/",
+    "licence": "Open Government Licence v3.0 · Contains BGS materials © UKRI"
+   },
+   "status": "low-confidence",
+   "note": "Regional screening only: the highest of six natural ground-movement themes. Not suitable for site-specific analysis."
+  },
+  "hpi_borough": {
+   "value": {
+    "average": 393897,
+    "growth": 6.4
+   },
+   "period": "August 2026",
+   "geography": "Trafford (local authority)",
+   "source": {
+    "name": "UK House Price Index (HM Land Registry / ONS)",
+    "url": "https://landregistry.data.gov.uk/app/ukhpi",
+    "licence": "Open Government Licence v3.0"
+   },
+   "status": "ok",
+   "unit": "GBP / %"
+  },
+  "hpi_uk": {
+   "value": {
+    "average": 273037,
+    "growth": 0.9
+   },
+   "period": "August 2026",
+   "geography": "United Kingdom",
+   "source": {
+    "name": "UK House Price Index (HM Land Registry / ONS)",
+    "url": "https://landregistry.data.gov.uk/app/ukhpi",
+    "licence": "Open Government Licence v3.0"
+   },
+   "status": "ok",
+   "unit": "GBP / %"
+  },
+  "nearest_stops": {
+   "value": {
+    "metro": {
+     "name": "Manchester Airport Metrolink",
+     "distance_mi": 1.4,
+     "walk_min": 37
+    },
+    "rail": {
+     "name": "Manchester Airport station",
+     "distance_mi": 1.4,
+     "walk_min": 37
+    },
+    "bus_stops_400m": 2,
+    "city_centre_mi": 7.9
+   },
+   "period": "Current stop register",
+   "geography": "From the centre of Hale Barns",
+   "source": {
+    "name": "NaPTAN — national public transport stops (DfT)",
+    "url": "https://beta-naptan.dft.gov.uk/download",
+    "licence": "Open Government Licence v3.0"
+   },
+   "status": "ok",
+   "note": "Straight-line distances; walking times are estimates."
+  },
+  "news": {
+   "value": [
+    {
+     "title": "Ask the Smile Experts: My child's teeth are crooked – when should I start to worry?",
+     "excerpt": "",
+     "date": "19 Oct 2026",
+     "tag": "Local news",
+     "tone": "neutral",
+     "source": "Altrincham Today",
+     "domain": "altrincham.todaynews.co.uk",
+     "url": "https://altrincham.todaynews.co.uk/news/2026/10/19/ask-the-smile-experts-my-childs-teeth-are-crooked-when-should-i-start-to-worry/",
+     "image": "https://storage.ghost.io/c/09/ce/09cee984-fa22-44f2-a16f-e4d816e662de/content/images/2026/10/Smile-Stylis_Nov2025-18--1-.jpg",
+     "image_external": true,
+     "scope": "local"
+    },
+    {
+     "title": "ProSpinal: a new chapter for Hale’s spinal clinic",
+     "excerpt": "",
+     "date": "21 Oct 2026",
+     "tag": "Nearby · Hale",
+     "tone": "neutral",
+     "source": "Altrincham Today",
+     "domain": "altrincham.todaynews.co.uk",
+     "url": "https://altrincham.todaynews.co.uk/news/2026/10/21/prospinal-a-new-chapter-for-hales-spinal-clinic/",
+     "image": "https://storage.ghost.io/c/09/ce/09cee984-fa22-44f2-a16f-e4d816e662de/content/images/2026/10/ProSpinal-2.jpg",
+     "image_external": true,
+     "scope": "nearby",
+     "near": "Hale"
+    },
+    {
+     "title": "Popular Chorlton Indian restaurant Sai Spice opens at Charlie Brown's in Hale",
+     "excerpt": "",
+     "date": "17 Oct 2026",
+     "tag": "Nearby · Hale",
+     "tone": "neutral",
+     "source": "Altrincham Today",
+     "domain": "altrincham.todaynews.co.uk",
+     "url": "https://altrincham.todaynews.co.uk/news/2026/10/17/popular-chorlton-indian-restaurant-sai-spice-opens-at-charlie-browns-in-hale/",
+     "image": "https://storage.ghost.io/c/09/ce/09cee984-fa22-44f2-a16f-e4d816e662de/content/images/2026/10/saispice.jpg",
+     "image_external": true,
+     "scope": "nearby",
+     "near": "Hale"
+    },
+    {
+     "title": "Councillors warn of threat to Timperley businesses over parking charges",
+     "excerpt": "",
+     "date": "21 Oct 2026",
+     "tag": "Nearby · Timperley",
+     "tone": "neutral",
+     "source": "Altrincham Today",
+     "domain": "altrincham.todaynews.co.uk",
+     "url": "https://altrincham.todaynews.co.uk/news/2026/10/21/councillors-warn-of-threat-to-timperley-businesses-over-parking-charges/",
+     "image": "https://storage.ghost.io/c/09/ce/09cee984-fa22-44f2-a16f-e4d816e662de/content/images/2026/10/thorley.jpg",
+     "image_external": true,
+     "scope": "nearby",
+     "near": "Timperley"
+    },
+    {
+     "title": "Man guilty of attempted murder after random attacks in Altrincham town centre",
+     "excerpt": "",
+     "date": "23 Oct 2026",
+     "tag": "Nearby · Altrincham",
+     "tone": "neutral",
+     "source": "Altrincham Today",
+     "domain": "altrincham.todaynews.co.uk",
+     "url": "https://altrincham.todaynews.co.uk/news/2026/10/23/man-guilty-of-attempted-murder-after-random-attacks-in-altrincham-town-centre/",
+     "image": "https://storage.ghost.io/c/09/ce/09cee984-fa22-44f2-a16f-e4d816e662de/content/images/2026/10/593423732_1508122891314050_8413678741589851537_n--1-.jpg",
+     "image_external": true,
+     "scope": "nearby",
+     "near": "Altrincham"
+    }
+   ],
+   "period": "Publisher feeds checked 2026-10-23",
+   "geography": "Hale Barns",
+   "source": {
+    "name": "Local publisher RSS feeds",
+    "url": "https://altrincham.todaynews.co.uk/feed/",
+    "licence": "Publisher feeds; headlines and links only"
+   },
+   "status": "ok",
+   "feeds": [
+    "Altrincham Today",
+    "Manchester Evening News – Trafford",
+    "Manchester Evening News – Altrincham",
+    "Messenger Newspapers"
+   ],
+   "feed_links": [
+    {
+     "name": "Altrincham Today",
+     "url": "https://altrincham.todaynews.co.uk/feed/"
+    },
+    {
+     "name": "Manchester Evening News – Trafford",
+     "url": "https://www.manchestereveningnews.co.uk/all-about/trafford?service=rss"
+    },
+    {
+     "name": "Manchester Evening News – Altrincham",
+     "url": "https://www.manchestereveningnews.co.uk/all-about/altrincham?service=rss"
+    },
+    {
+     "name": "Messenger Newspapers",
+     "url": "https://www.messengernewspapers.co.uk/news/rss/"
+    }
+   ],
+   "scope": "local",
+   "local_count": 1,
+   "nearby_count": 4,
+   "note": "Headlines and links only; RSS images are referenced from the publisher when supplied and are not copied."
+  },
+  "places": {
+   "value": [
+    {
+     "name": "Halecroft Park",
+     "addr": "Hale Barns",
+     "type": "Park",
+     "dist_mi": 0.6,
+     "tone": "--ax-viz-emerald",
+     "ll": "53.37272,-2.31913",
+     "dist": "0.6 mi"
+    },
+    {
+     "name": "Wellfield Lane Park",
+     "addr": "Hale Barns",
+     "type": "Park",
+     "dist_mi": 0.9,
+     "tone": "--ax-viz-emerald",
+     "ll": "53.38259,-2.31382",
+     "dist": "0.9 mi"
+    },
+    {
+     "name": "The Priory Hospital Altrincham",
+     "addr": "Rappax Road, Altrincham, WA15 0NU",
+     "type": "Hospital",
+     "dist_mi": 0.9,
+     "tone": "--ax-danger-500",
+     "ll": "53.36617,-2.32703",
+     "dist": "0.9 mi"
+    },
+    {
+     "name": "Biza Tax & Duty Free",
+     "addr": "Hale Barns",
+     "type": "Shopping centre",
+     "dist_mi": 1.1,
+     "tone": "--ax-viz-cyan",
+     "ll": "53.36697,-2.28004",
+     "dist": "1.1 mi"
+    },
+    {
+     "name": "Manchester Airport",
+     "addr": "Manchester, M90 3RR",
+     "type": "Train station",
+     "dist_mi": 1.4,
+     "tone": "--ax-viz-violet",
+     "ll": "53.36518,-2.27204",
+     "dist": "1.4 mi"
+    },
+    {
+     "name": "Manchester Airport",
+     "addr": "Hale Barns",
+     "type": "Tram stop",
+     "dist_mi": 1.4,
+     "tone": "--ax-viz-violet",
+     "ll": "53.36534,-2.27233",
+     "dist": "1.4 mi"
+    },
+    {
+     "name": "Moss Lane",
+     "addr": "Moss Lane, WA15 8AP",
+     "type": "Stadium",
+     "dist_mi": 1.5,
+     "tone": "--ax-accent",
+     "ll": "53.38339,-2.33522",
+     "dist": "1.5 mi"
+    }
+   ],
+   "period": "Current map data",
+   "geography": "Within 2.5 km of the centre of Hale Barns",
+   "source": {
+    "name": "OpenStreetMap (© OpenStreetMap contributors)",
+    "url": "https://www.openstreetmap.org/copyright",
+    "licence": "Open Database Licence (ODbL)"
+   },
+   "status": "ok"
+  },
+  "planning_constraints": {
+   "value": [
+    {
+     "label": "Listed buildings",
+     "meta": "Grade II*: 2 · Grade II: 14",
+     "value": "16"
+    },
+    {
+     "label": "Green Belt",
+     "meta": "Centre of the area",
+     "value": "Yes"
+    },
+    {
+     "label": "Article 4 directions",
+     "meta": null,
+     "value": "0"
+    },
+    {
+     "label": "Tree preservation zones",
+     "meta": null,
+     "value": "0"
+    },
+    {
+     "label": "Scheduled monuments",
+     "meta": null,
+     "value": "0"
+    }
+   ],
+   "period": "Current designations",
+   "geography": "within 1.5 km of the centre of Hale Barns",
+   "source": {
+    "name": "Planning Data — listed buildings, Article 4, Green Belt, TPO, scheduled monuments (MHCLG / Historic England)",
+    "url": "https://www.planning.data.gov.uk/",
+    "licence": "Open Government Licence v3.0"
+   },
+   "status": "ok",
+   "listed": {
+    "total": 16,
+    "I": 0,
+    "II*": 2,
+    "II": 14,
+    "notable": [
+     {
+      "name": "Hale Chapel",
+      "grade": "II*",
+      "url": "https://historicengland.org.uk/listing/the-list/list-entry/1356500"
+     },
+     {
+      "name": "Halecroft",
+      "grade": "II*",
+      "url": "https://historicengland.org.uk/listing/the-list/list-entry/1356501"
+     }
+    ]
+   },
+   "green_belt": true,
+   "article4": 0,
+   "tpo": 0,
+   "scheduled_monuments": 0
+  },
+  "population": {
+   "value": {
+    "residents": 14510,
+    "households": 5497,
+    "household_size": 2.64,
+    "age": [
+     {
+      "key": "0_14",
+      "label": "Under 15",
+      "n": 2917,
+      "pct": 20.1
+     },
+     {
+      "key": "15_24",
+      "label": "15–24",
+      "n": 1480,
+      "pct": 10.2
+     },
+     {
+      "key": "25_44",
+      "label": "25–44",
+      "n": 2849,
+      "pct": 19.6
+     },
+     {
+      "key": "45_64",
+      "label": "45–64",
+      "n": 3947,
+      "pct": 27.2
+     },
+     {
+      "key": "65",
+      "label": "65 and over",
+      "n": 3330,
+      "pct": 22.9
+     }
+    ]
+   },
+   "period": "Census 2021 (21 March 2021)",
+   "geography": "Hale Barns — 9 census LSOAs (2021)",
+   "source": {
+    "name": "ONS Census 2021 (Nomis) — Trafford Data Lab: Population & Households",
+    "url": "https://www.trafforddatalab.io/accessible_graphics/census_2021_population_and_households_infographic.html",
+    "licence": "Open Government Licence v3.0"
+   },
+   "status": "ok",
+   "lsoas": [
+    "E01006134",
+    "E01006135",
+    "E01006136",
+    "E01006137",
+    "E01006138",
+    "E01006140",
+    "E01006205",
+    "E01006208",
+    "E01006209"
+   ],
+   "comparison": {
+    "England": {
+     "0_14": 17.4,
+     "15_24": 11.7,
+     "25_44": 26.6,
+     "45_64": 25.8,
+     "65": 18.4
+    },
+    "Trafford": {
+     "0_14": 19.5,
+     "15_24": 10.1,
+     "25_44": 26.5,
+     "45_64": 26.3,
+     "65": 17.6
+    }
+   },
+   "note": "Usual residents and households on Census day; age groups from TS007A."
+  },
+  "price_by_type": {
+   "value": {
+    "detached": {
+     "average_3y": 1082906,
+     "sales_3y": 223,
+     "median_12m": 775000,
+     "sales_12m": 67,
+     "low_confidence": false
+    },
+    "semi": {
+     "average_3y": 508682,
+     "sales_3y": 111,
+     "median_12m": 475000,
+     "sales_12m": 33,
+     "low_confidence": false
+    },
+    "terraced": {
+     "average_3y": 399409,
+     "sales_3y": 22,
+     "median_12m": 320000,
+     "sales_12m": 9,
+     "low_confidence": true
+    },
+    "flat": {
+     "average_3y": 423060,
+     "sales_3y": 24,
+     "median_12m": null,
+     "sales_12m": 4,
+     "low_confidence": true
+    }
+   },
+   "period": "3 years and 12 months to 31 Jul 2026",
+   "geography": "Hale Barns — wards: Hale Barns & Timperley South",
+   "source": {
+    "name": "HM Land Registry Price Paid Data",
+    "url": "https://landregistry.data.gov.uk/app/ppd",
+    "licence": "Open Government Licence v3.0"
+   },
+   "status": "ok",
+   "unit": "GBP"
+  },
+  "price_trend": {
+   "value": [
+    {
+     "year": 2016,
+     "average": 638004,
+     "sales": 156
+    },
+    {
+     "year": 2017,
+     "average": 687748,
+     "sales": 166
+    },
+    {
+     "year": 2018,
+     "average": 631085,
+     "sales": 152
+    },
+    {
+     "year": 2019,
+     "average": 797253,
+     "sales": 131
+    },
+    {
+     "year": 2020,
+     "average": 735601,
+     "sales": 124
+    },
+    {
+     "year": 2021,
+     "average": 856605,
+     "sales": 199
+    },
+    {
+     "year": 2022,
+     "average": 881138,
+     "sales": 114
+    },
+    {
+     "year": 2023,
+     "average": 874145,
+     "sales": 104
+    },
+    {
+     "year": 2024,
+     "average": 794222,
+     "sales": 146
+    },
+    {
+     "year": 2025,
+     "average": 895934,
+     "sales": 145
+    }
+   ],
+   "period": "2016–2025, calendar years",
+   "geography": "Hale Barns — wards: Hale Barns & Timperley South",
+   "source": {
+    "name": "HM Land Registry Price Paid Data",
+    "url": "https://landregistry.data.gov.uk/app/ppd",
+    "licence": "Open Government Licence v3.0"
+   },
+   "status": "ok",
+   "unit": "GBP"
+  },
+  "radon": {
+   "value": {
+    "class": 1,
+    "of": 6,
+    "share": "<1% of homes above the action level"
+   },
+   "period": "Indicative Atlas version 3 (2022)",
+   "geography": "1 km grid square at the centre of Hale Barns",
+   "source": {
+    "name": "UKHSA / BGS Indicative Atlas of Radon (1 km)",
+    "url": "https://www.bgs.ac.uk/datasets/radon-data-indicative-atlas-of-radon/",
+    "licence": "Open Government Licence v3.0 · Radon Potential classification © UKHSA · BGS materials © UKRI"
+   },
+   "status": "ok",
+   "note": "Indicative 1 km screening value; use an official address search or property test for a definitive result."
+  },
+  "routes": {
+   "value": {
+    "trams": [],
+    "buses": [
+     {
+      "number": "288",
+      "from": "Manchester Airport",
+      "to": "Altrincham",
+      "via": [],
+      "operators": [
+       "Bee Network"
+      ],
+      "trips": 74,
+      "school": false
+     },
+     {
+      "number": "88",
+      "from": "Altrincham",
+      "to": "Knutsford",
+      "via": [
+       "Wilmslow"
+      ],
+      "operators": [
+       "D&G Bus"
+      ],
+      "trips": 47,
+      "school": false
+     },
+     {
+      "number": "283",
+      "from": "Altrincham",
+      "to": "Warburton Green circular",
+      "via": [
+       "Hale"
+      ],
+      "operators": [
+       "Bee Network"
+      ],
+      "trips": 35,
+      "school": false
+     },
+     {
+      "number": "284",
+      "from": "Altrincham",
+      "to": "Warburton Green circular",
+      "via": [
+       "Well Green"
+      ],
+      "operators": [
+       "Bee Network"
+      ],
+      "trips": 33,
+      "school": false
+     },
+     {
+      "number": "764",
+      "from": "Sale",
+      "to": "St Ambrose Collge",
+      "via": [],
+      "operators": [
+       "Bee Network"
+      ],
+      "trips": 4,
+      "school": false
+     },
+     {
+      "number": "761",
+      "from": "Heaton Mersey",
+      "to": "St Ambrose",
+      "via": [],
+      "operators": [
+       "Bee Network"
+      ],
+      "trips": 3,
+      "school": false
+     },
+     {
+      "number": "280",
+      "from": "Altrincham",
+      "to": "Lymm",
+      "via": [
+       "Dunham Massey"
+      ],
+      "operators": [
+       "Bee Network"
+      ],
+      "trips": 2,
+      "school": false
+     },
+     {
+      "number": "741",
+      "from": "King David HS",
+      "to": "Bowdon",
+      "via": [],
+      "operators": [
+       "Bee Network"
+      ],
+      "trips": 2,
+      "school": false
+     },
+     {
+      "number": "5",
+      "from": "Broomedge",
+      "to": "Altrincham",
+      "via": [],
+      "operators": [
+       "Warrington's Own Buses"
+      ],
+      "trips": 2,
+      "school": false
+     },
+     {
+      "number": "287",
+      "from": "Altrincham",
+      "to": "Bowdon Vale circular",
+      "via": [],
+      "operators": [
+       "Bee Network"
+      ],
+      "trips": 1,
+      "school": false
+     },
+     {
+      "number": "763",
+      "from": "Burnage Academy",
+      "to": "St Ambrose College",
+      "via": [],
+      "operators": [
+       "Bee Network"
+      ],
+      "trips": 4,
+      "school": true
+     },
+     {
+      "number": "765",
+      "from": "Oldfield Brow",
+      "to": "St Ambrose College",
+      "via": [],
+      "operators": [
+       "Bee Network"
+      ],
+      "trips": 4,
+      "school": true
+     },
+     {
+      "number": "766",
+      "from": "Davyhulme",
+      "to": "St Ambrose College",
+      "via": [],
+      "operators": [
+       "Bee Network"
+      ],
+      "trips": 4,
+      "school": true
+     },
+     {
+      "number": "782",
+      "from": "Hale Barns",
+      "to": "Sale Grammar School",
+      "via": [],
+      "operators": [
+       "Bee Network"
+      ],
+      "trips": 4,
+      "school": true
+     },
+     {
+      "number": "760",
+      "from": "Altrincham Grammar School for Boys",
+      "to": "Loreto Gramma",
+      "via": [],
+      "operators": [
+       "Bee Network"
+      ],
+      "trips": 2,
+      "school": true
+     },
+     {
+      "number": "762",
+      "from": "St Ambrose College",
+      "to": "Chorlton",
+      "via": [],
+      "operators": [
+       "Bee Network"
+      ],
+      "trips": 2,
+      "school": true
+     },
+     {
+      "number": "767",
+      "from": "St Ambrose College",
+      "to": "Didsbury",
+      "via": [],
+      "operators": [
+       "Bee Network"
+      ],
+      "trips": 2,
+      "school": true
+     },
+     {
+      "number": "769",
+      "from": "St Ambrose College",
+      "to": "Didsbury",
+      "via": [],
+      "operators": [
+       "Bee Network"
+      ],
+      "trips": 2,
+      "school": true
+     },
+     {
+      "number": "768",
+      "from": "St Ambrose College",
+      "to": "Hazel Grove",
+      "via": [],
+      "operators": [
+       "Bee Network"
+      ],
+      "trips": 2,
+      "school": true
+     },
+     {
+      "number": "780",
+      "from": "Sale Grammar School",
+      "to": "Hale Barns",
+      "via": [],
+      "operators": [
+       "Bee Network"
+      ],
+      "trips": 1,
+      "school": true
+     }
+    ],
+    "bus_total": 20,
+    "rail": [
+     {
+      "name": "Manchester Airport",
+      "distance_mi": 1.4,
+      "url": "https://www.nationalrail.co.uk/stations/manchester-airport/",
+      "lines": [],
+      "operators": [
+       {
+        "operator": "TransPennine Express",
+        "to": "Leeds, the North East and Scotland"
+       },
+       {
+        "operator": "Northern",
+        "to": "Manchester Piccadilly and the North West"
+       },
+       {
+        "operator": "Transport for Wales",
+        "to": "Chester and North Wales"
+       }
+      ]
+     },
+     {
+      "name": "Hale",
+      "distance_mi": 1.8,
+      "url": "https://www.nationalrail.co.uk/stations/hale/",
+      "lines": [
+       {
+        "name": "Mid-Cheshire line",
+        "from": "Manchester Piccadilly",
+        "to": "Chester",
+        "via": [
+         "Stockport",
+         "Altrincham",
+         "Northwich"
+        ],
+        "operator": "Northern"
+       }
+      ],
+      "operators": []
+     }
+    ],
+    "tram_map": "https://tfgm.com/ways-to-travel/tram/network-map",
+    "rail_reviewed": "2026-10-12"
+   },
+   "period": "Timetable downloaded 2026-10-23",
+   "geography": "Stops within 1 km of the centre of Hale Barns",
+   "source": {
+    "name": "TfGM bus and Metrolink timetables (GTFS)",
+    "url": "https://odata.tfgm.com/opendata/downloads/TfGMgtfsnew.zip",
+    "licence": "Open Government Licence v3.0 · Contains Transport for Greater Manchester data"
+   },
+   "status": "ok",
+   "note": "Buses and trams from the TfGM timetable; trains from National Rail (lines checked by hand). Ranked by timetabled journeys; school-day services are listed last."
+  },
+  "schools": {
+   "value": {
+    "score": 7.6,
+    "schools": 5,
+    "mix": {
+     "outstanding": 0,
+     "good": 1,
+     "report": 4,
+     "below": 0,
+     "none": 0
+    },
+    "nearest": [
+     {
+      "name": "Elmridge Primary School",
+      "phase": "Primary",
+      "distance_mi": 0.3,
+      "grade": "Good",
+      "date": "2024-01-18",
+      "url": ""
+     },
+     {
+      "name": "Saint Ambrose College",
+      "phase": "Secondary",
+      "distance_mi": 0.6,
+      "grade": "Strong standard",
+      "date": "2026-03-01",
+      "url": ""
+     },
+     {
+      "name": "Well Green Primary School",
+      "phase": "Primary",
+      "distance_mi": 0.6,
+      "grade": "Expected standard",
+      "date": "2026-07-26",
+      "url": ""
+     },
+     {
+      "name": "Dixons Newall Green Academy ",
+      "phase": "Secondary",
+      "distance_mi": 1.1,
+      "grade": "Strong standard",
+      "date": "2026-09-09",
+      "url": ""
+     },
+     {
+      "name": "Altrincham College",
+      "phase": "Secondary",
+      "distance_mi": 1.2,
+      "grade": "Expected standard",
+      "date": "2026-06-23",
+      "url": ""
+     }
+    ]
+   },
+   "period": "Latest inspections as at 30 September 2026",
+   "geography": "5 nearest state primary and secondary schools to the centre of Hale Barns",
+   "source": {
+    "name": "Ofsted management information: state-funded schools, latest inspections",
+    "url": "https://www.gov.uk/government/statistical-data-sets/monthly-management-information-ofsteds-school-inspections-outcomes",
+    "licence": "Open Government Licence v3.0",
+    "file": "https://assets.publishing.service.gov.uk/media/6ad095a72de3184ccf8b818d/Management_information_-_state-funded_schools_-_latest_inspections_as_at_30_Sep_2026.csv"
+   },
+   "status": "ok",
+   "method": "Indicative 0–10 score: Outstanding 10, Good 7.5, Requires improvement 5, Inadequate 2.5; report cards: Exceptional 10, Strong 8.5, Expected 7, Needs attention 4.5, Urgent improvement 2 (mean of the evaluation areas); inspections with no overall grade use the mean of their key judgements."
+  },
+  "tenure": {
+   "value": {
+    "households": 5497,
+    "owned": 4555,
+    "shared": 7,
+    "social": 455,
+    "private": 474,
+    "rent_free": 6,
+    "own_pct": 83.0,
+    "rent_pct": 16.9,
+    "owned_pct": 82.9,
+    "shared_pct": 0.1,
+    "social_pct": 8.3,
+    "private_pct": 8.6,
+    "rent_free_pct": 0.1,
+    "renters_per_100_owners": 20
+   },
+   "period": "Census 2021 (21 March 2021)",
+   "geography": "Hale Barns — 9 census LSOAs (2021)",
+   "source": {
+    "name": "ONS Census 2021, tenure (TS054) — How life has changed: Census 2021",
+    "url": "https://www.ons.gov.uk/visualisations/censusareachanges/E08000009/",
+    "licence": "Open Government Licence v3.0"
+   },
+   "status": "ok",
+   "comparison": {
+    "England": {
+     "own_pct": 62.3,
+     "rent_pct": 37.6,
+     "social_pct": 17.1,
+     "private_pct": 20.5
+    },
+    "Trafford": {
+     "own_pct": 69.6,
+     "rent_pct": 30.3,
+     "social_pct": 15.0,
+     "private_pct": 15.3
+    }
+   },
+   "note": "Households by tenure (TS054). \"Own\" includes shared ownership; \"rent\" is social plus private rented."
+  },
+  "transport_score": {
+   "value": {
+    "overall": 63.9,
+    "public_transport": 66.0,
+    "walking": 58.7,
+    "cycling": 74.1,
+    "driving": 88.5
+   },
+   "period": "Connectivity metric 2025",
+   "geography": "Hale Barns — mean of 9 LSOAs",
+   "source": {
+    "name": "DfT Transport Connectivity Metric",
+    "url": "https://www.gov.uk/government/publications/transport-connectivity-metric",
+    "licence": "Open Government Licence v3.0",
+    "file": "https://assets.publishing.service.gov.uk/media/68c966fc07d9e92bc5517b80/connectivity_metrics_2025.ods"
+   },
+   "status": "ok",
+   "unit": "score out of 100",
+   "lsoas": [
+    "E01006134",
+    "E01006135",
+    "E01006136",
+    "E01006137",
+    "E01006138",
+    "E01006140",
+    "E01006205",
+    "E01006208",
+    "E01006209"
+   ],
+   "note": "Access to jobs, education, healthcare, shops and leisure by walking, cycling, public transport and driving."
+  }
+ },
+ "updated": "2026-10-23"
+}

@@ -1,0 +1,27 @@
+# Corelain Near Me
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /api/
+# Other areas (?area=…) show sample figures; they are kept out of the index with
+# an X-Robots-Tag: noindex header (vercel.json), so they stay crawlable here.
+
+# AI / answer-engine crawlers are welcome (GEO). See /llms.txt for a summary.
+User-agent: GPTBot
+Allow: /
+User-agent: OAI-SearchBot
+Allow: /
+User-agent: ChatGPT-User
+Allow: /
+User-agent: ClaudeBot
+Allow: /
+User-agent: Claude-SearchBot
+Allow: /
+User-agent: PerplexityBot
+Allow: /
+User-agent: Google-Extended
+Allow: /
+User-agent: Applebot-Extended
+Allow: /
+
+Sitemap: %SITE_URL%/sitemap.xml

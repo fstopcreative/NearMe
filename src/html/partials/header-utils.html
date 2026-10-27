@@ -1,0 +1,17 @@
+  <!-- 5 · FULLSCREEN -->
+  <button type="button" class="ax-fullscreen ax-icon-btn" @click="toggleFullscreen()" :aria-pressed="full" aria-label="Toggle fullscreen">
+    <svg class="ax-icon" x-show="!full" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" width="24" height="24" aria-hidden="true"><path d="M4 8v-2a2 2 0 0 1 2 -2h2" /><path d="M4 16v2a2 2 0 0 0 2 2h2" /><path d="M16 4h2a2 2 0 0 1 2 2v2" /><path d="M16 20h2a2 2 0 0 0 2 -2v-2" /></svg>
+    <svg class="ax-icon" x-show="full" x-cloak viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" width="24" height="24" aria-hidden="true"><path d="M15 19v-2a2 2 0 0 1 2 -2h2" /><path d="M15 5v2a2 2 0 0 0 2 2h2" /><path d="M5 15h2a2 2 0 0 1 2 2v2" /><path d="M5 9h2a2 2 0 0 0 2 -2v-2" /></svg>
+  </button>
+
+  <!-- 6 · LIGHT/DARK QUICK-TOGGLE -->
+  <button type="button" class="ax-theme-toggle ax-icon-btn" data-ax-toggle="theme" @click="toggleTheme()" :aria-pressed="theme==='dark'" aria-label="Toggle dark mode">
+    <svg class="ax-icon" x-show="theme==='dark'" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" width="24" height="24" aria-hidden="true"><path d="M8 12a4 4 0 1 0 8 0a4 4 0 1 0 -8 0" /><path d="M3 12h1m8 -9v1m8 8h1m-9 8v1m-6.4 -15.4l.7 .7m12.1 -.7l-.7 .7m0 11.4l.7 .7m-12.1 -.7l-.7 .7" /></svg>
+    <svg class="ax-icon" x-show="theme!=='dark'" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" width="24" height="24" aria-hidden="true"><path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454l0 .008" /></svg>
+  </button>
+
+  <!-- 10 · CORELAIN SITE -->
+  <a class="cr-site-btn" href="https://www.corelain.com/" target="_blank" rel="noopener" data-cr-cta="header-visit" aria-label="Visit Corelain (opens in a new tab)">
+    <span class="cr-site-btn__label">Visit Corelain</span>
+    <svg class="ax-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" width="24" height="24" aria-hidden="true"><path d="M12 6h-6a2 2 0 0 0 -2 2v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-6" /><path d="M11 13l9 -9" /><path d="M15 4h5v5" /></svg>
+  </a>

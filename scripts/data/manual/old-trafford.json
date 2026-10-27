@@ -1,0 +1,220 @@
+{
+  "_comment": "Hand-entered values for Old Trafford. Each block becomes a metric with status \"manual\". Update `reviewed` whenever you check a block again.",
+  "reviewed": "2026-10-13",
+  "metrics": {
+    "flood_risk": {
+      "source": "flood",
+      "period": "Checked 2026-10-07",
+      "geography": "Old Trafford (M16) — sample postcodes",
+      "value": {
+        "overall": "Low",
+        "levels": [
+          {
+            "key": "rivers_sea",
+            "label": "Rivers & sea",
+            "level": 1,
+            "meta": "Mostly outside EA risk areas"
+          },
+          {
+            "key": "surface_water",
+            "label": "Surface water",
+            "level": 2,
+            "meta": "Varies by street; check property"
+          },
+          {
+            "key": "groundwater",
+            "label": "Groundwater",
+            "level": 2,
+            "meta": "Unlikely in this area"
+          },
+          {
+            "key": "reservoirs",
+            "label": "Reservoirs",
+            "level": null,
+            "meta": "Verify on the EA map"
+          }
+        ],
+        "note": "Manchester Ship Canal is nearby; canal flooding is modelled in the Manchester–Salford–Trafford SFRA."
+      }
+    },
+    "journey": {
+      "source": "tfgm",
+      "period": "Timetable checked 2026-10-07",
+      "geography": "Old Trafford Metrolink → St Peter's Square",
+      "value": {
+        "legs": [
+          {
+            "label": "Walk",
+            "detail": "Walk to Old Trafford Metrolink",
+            "minutes": 10
+          },
+          {
+            "label": "Tram",
+            "detail": "Tram to St Peter's Square",
+            "minutes": 10
+          }
+        ],
+        "note": "Altrincham line, trams every 6–12 min; Trafford Bar stop is also nearby. Manchester United Football Ground station opens on matchdays only."
+      }
+    },
+    "developments": {
+      "source": "planning",
+      "period": "Checked 2026-10-07",
+      "geography": "Schemes within 2 miles",
+      "value": {
+        "schemes": [
+          {
+            "name": "New Manchester United Stadium (100,000 seats)",
+            "meta": "Land secured Jun 2026",
+            "type": "Stadium",
+            "units": null,
+            "distance": "≈0.2 mi",
+            "status": "Consultation",
+            "tone": "warning"
+          },
+          {
+            "name": "Old Trafford Regeneration (OTR MDC)",
+            "meta": "370-acre district · Chair Lord Coe",
+            "type": "Mixed use",
+            "units": "~15,000",
+            "distance": "0 mi",
+            "status": "MDC launched Jan 2026",
+            "tone": "info"
+          },
+          {
+            "name": "Trafford Wharfside Masterplan",
+            "meta": "Published Jul 2026",
+            "type": "Mixed use",
+            "units": null,
+            "distance": "≈0.3 mi",
+            "status": "Published",
+            "tone": "info"
+          }
+        ],
+        "stats": [
+          {
+            "value": "100,000",
+            "label": "stadium seats",
+            "icon": "stadium",
+            "tone": "--ax-viz-violet"
+          },
+          {
+            "value": "~15,000",
+            "label": "new homes",
+            "icon": "home",
+            "tone": "--ax-accent"
+          },
+          {
+            "value": "48,000",
+            "label": "local jobs",
+            "icon": "briefcase",
+            "tone": "--ax-viz-cyan"
+          },
+          {
+            "value": "370",
+            "label": "acre district",
+            "icon": "map",
+            "tone": "--ax-viz-amber"
+          }
+        ],
+        "timeline_title": "2026 milestones",
+        "timeline_hint": "Old Trafford Regeneration",
+        "timeline": [
+          {
+            "date": "Jan",
+            "title": "MDC launched",
+            "meta": "Chair Lord Coe",
+            "state": "done",
+            "tone": "--ax-info-500"
+          },
+          {
+            "date": "Jun",
+            "title": "Stadium land secured",
+            "meta": "100,000 seats",
+            "state": "done",
+            "tone": "--ax-accent"
+          },
+          {
+            "date": "Jul",
+            "title": "Wharfside masterplan",
+            "meta": "Published",
+            "state": "done",
+            "tone": "--ax-viz-violet"
+          },
+          {
+            "date": "Sep",
+            "title": "Timescale \"uncertain\"",
+            "meta": "No opening date yet",
+            "state": "now",
+            "tone": "--ax-viz-amber"
+          }
+        ]
+      }
+    },
+    "places": {
+      "source": "editorial",
+      "period": "Checked 2026-10-07",
+      "geography": "Within 3 miles",
+      "value": [
+        {
+          "name": "Old Trafford Stadium",
+          "addr": "Sir Matt Busby Way, Old Trafford M16 0RA",
+          "type": "Stadium",
+          "dist": "0.3 mi",
+          "tone": "--ax-accent",
+          "ll": "53.4631,-2.2913"
+        },
+        {
+          "name": "Old Trafford Metrolink",
+          "addr": "Warwick Rd, Old Trafford, Manchester",
+          "type": "Tram stop",
+          "dist": "0.5 mi",
+          "tone": "--ax-viz-violet",
+          "ll": "53.4568,-2.2848"
+        },
+        {
+          "name": "Emirates Old Trafford",
+          "addr": "Talbot Rd, Old Trafford M16 0PX",
+          "type": "Cricket ground",
+          "dist": "0.6 mi",
+          "tone": "--ax-viz-pink",
+          "ll": "53.4563,-2.2873"
+        },
+        {
+          "name": "IWM North",
+          "addr": "Trafford Wharf Rd, Salford Quays M17 1TZ",
+          "type": "Museum",
+          "dist": "0.9 mi",
+          "tone": "--ax-viz-amber",
+          "ll": "53.4697,-2.2995"
+        },
+        {
+          "name": "Longford Park",
+          "addr": "Edge Ln, Stretford, Manchester",
+          "type": "Park",
+          "dist": "1.6 mi",
+          "tone": "--ax-viz-emerald",
+          "ll": "53.4440,-2.2940"
+        },
+        {
+          "name": "Trafford Centre",
+          "addr": "Trafford Centre, Manchester M17 8AA",
+          "type": "Shopping centre",
+          "dist": "2.7 mi",
+          "tone": "--ax-viz-cyan",
+          "ll": "53.4667,-2.3480"
+        }
+      ]
+    },
+    "aqma_roadside": {
+      "source": "aqma",
+      "period": "Annual mean, latest council report",
+      "geography": "A56 Chester Road",
+      "value": {
+        "name": "A56 Chester Road AQMA",
+        "roadside_no2": 30,
+        "note": "A Clean Air GM tube by the stadium (CAP_TRAF_021) missed its 2022 target."
+      }
+    }
+  }
+}

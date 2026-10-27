@@ -1,0 +1,90 @@
+# Area Radar data refresh — rebuilds public/data/areas/<area-id>.json and commits
+# only the files whose contents actually changed. Each commit triggers a Vercel
+# deployment, so a successful run is what puts new figures on the site.
+#
+# Needs: Settings → Actions → General → Workflow permissions → "Read and write
+# permissions", otherwise the push at the end is rejected.
+name: Refresh area data
+
+on:
+  schedule:
+    # Mondays 05:30 UTC — Ofsted, crime, UK HPI, conservation and coal releases.
+    - cron: '30 5 * * 1'
+    # 23rd 06:30 UTC — after HM Land Registry's monthly Price Paid release.
+    - cron: '30 6 23 * *'
+  # A save in the admin panel commits here; those files feed the collectors.
+  # The run's own commits land in public/data/areas/, which is not listed, so a
+  # refresh can never retrigger itself.
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/data/config/**'
+      - 'scripts/data/manual/**'
+  # "Refresh now" in the admin panel posts here (api/admin.js → dispatch()).
+  # Both inputs are strings because that is what the REST dispatch sends.
+  workflow_dispatch:
+    inputs:
+      only:
+        description: 'Collectors to run, comma-separated (blank = all)'
+        type: string
+        default: ''
+      force:
+        description: 'Ignore the "file unchanged" shortcuts ("true" / "false")'
+        type: string
+        default: 'false'
+
+permissions:
+  contents: write
+
+# Two refreshes writing the same files would race on the push.
+concurrency:
+  group: refresh-area-data
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'   # run.py is standard library only (3.9+)
+
+      - name: Refresh area JSON
+        env:
+          # Via env, never inlined into the script: a dispatch input is
+          # untrusted text and ${{ }} inside run: would execute it.
+          ONLY: ${{ inputs.only }}
+          FORCE: ${{ inputs.force }}
+        run: |
+          args=()
+          if [ -n "$ONLY" ]; then args+=(--only "$ONLY"); fi
+          if [ "$FORCE" = "true" ]; then args+=(--force); fi
+          echo "run.py ${args[*]}"
+          python3 scripts/data/run.py "${args[@]}"
+
+      - name: Commit changed area JSON
+        run: |
+          git config user.name  'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          # Only the area data: collectors also write to scripts/data/.cache,
+          # which must not be committed.
+          git add -- public/data/areas
+          if git diff --cached --quiet; then
+            echo 'No area data changed — nothing to commit.'
+            echo 'No area data changed.' >> "$GITHUB_STEP_SUMMARY"
+            exit 0
+          fi
+          git commit -m "data: refresh area JSON ($(date -u +%Y-%m-%d))"
+          # Another commit may have landed while the collectors were running.
+          for attempt in 1 2 3; do
+            if git push; then
+              exit 0
+            fi
+            echo "push rejected (attempt $attempt) — rebasing on origin/main"
+            git pull --rebase --autostash origin main
+          done
+          echo 'Could not push the refreshed data.' >&2
+          exit 1

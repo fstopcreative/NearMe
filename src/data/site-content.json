@@ -1,0 +1,90 @@
+{
+  "_comment": "Site content edited in the admin panel (/admin). Rendered into the page at build time (vite.config.js → handlebars context).",
+  "updated": "2026-10-16",
+  "services": {
+    "brand": "{area} Surveyors",
+    "tagline": "Independent property surveyors · Manchester",
+    "url": "https://www.corelain.com/our-services",
+    "phone": "0161 820 1121",
+    "items": [
+      {
+        "label": "Party Wall Surveys",
+        "url": "https://www.corelain.com/party-wall-surveyor-manchester"
+      },
+      {
+        "label": "Pre-Purchase Home Surveys",
+        "url": "https://www.corelain.com/pre-purchase-home-surveys"
+      },
+      {
+        "label": "Property Valuations",
+        "url": "https://www.corelain.com/our-services"
+      },
+      {
+        "label": "Building Surveying",
+        "url": "https://www.corelain.com/our-services"
+      },
+      {
+        "label": "Drone Surveys",
+        "url": "https://www.corelain.com/drone-surveys"
+      },
+      {
+        "label": "Dispute Resolution & Expert Witness",
+        "url": "https://www.corelain.com/legal-surveying-dispute-resolution"
+      }
+    ]
+  },
+  "lenders": {
+    "title": "Top Mortgage Lenders",
+    "subtitle": "The UK “Big Six” · share of gross lending",
+    "note": "Together about 72% of UK mortgage lending. Compare rates, fees and early repayment charges before you choose; Corelain does not give mortgage advice.",
+    "source": {
+      "name": "Pauzible: Big Six UK mortgage lenders",
+      "url": "https://www.pauzible.com/knowledge-hub/uk-mortgages-top-lenders"
+    },
+    "checked": "2026-10-12",
+    "items": [
+      {
+        "name": "Lloyds Banking Group",
+        "brands": "Lloyds Bank, Halifax, Bank of Scotland",
+        "share": 16.8,
+        "amount": "£52.7bn",
+        "url": "https://www.lloydsbankinggroup.com/"
+      },
+      {
+        "name": "NatWest Group",
+        "brands": "NatWest, Royal Bank of Scotland",
+        "share": 13.2,
+        "amount": "£41.5bn",
+        "url": "https://www.natwest.com/mortgages.html"
+      },
+      {
+        "name": "Nationwide Building Society",
+        "brands": "Building society",
+        "share": 12.1,
+        "amount": "£37.8bn",
+        "url": "https://www.nationwide.co.uk/mortgages/"
+      },
+      {
+        "name": "Santander UK",
+        "brands": "Bank",
+        "share": 11.4,
+        "amount": "£35.7bn",
+        "url": "https://www.santander.co.uk/personal/mortgages"
+      },
+      {
+        "name": "Barclays",
+        "brands": "Bank",
+        "share": 9.5,
+        "amount": "£29.7bn",
+        "url": "https://www.barclays.co.uk/mortgages/"
+      },
+      {
+        "name": "HSBC UK",
+        "brands": "Bank",
+        "share": 8.8,
+        "amount": "£27.5bn",
+        "url": "https://www.hsbc.co.uk/mortgages/"
+      }
+    ]
+  }
+}

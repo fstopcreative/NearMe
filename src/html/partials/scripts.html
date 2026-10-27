@@ -1,0 +1,14 @@
+<!-- ============================================================ -->
+<!-- VIREO RUNTIME — single ES module entry.                      -->
+<!-- Boots Alpine + plugins, registers shell components           -->
+<!-- (axShell, axSidebar, axHeader, axDropdown, axCommand,        -->
+<!-- axCustomizer), fetches /src/data/nav-manifest.json, and      -->
+<!-- wires active-trail, breadcrumb, command palette, theme.      -->
+<!-- ============================================================ -->
+<script type="module" src="/src/js/vireo.js"></script>
+
+<!-- Per-page hook (optional):
+     Pages that need extra behavior (charts, datatables, editors) add a
+     deferred module AFTER this line, e.g.:
+     <script type="module" src="/src/js/pages/dashboards-sales.js"></script>
+     Keep page scripts deferred/module so they run after vireo.js boots. -->

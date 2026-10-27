@@ -1,0 +1,66 @@
+{
+  "$schema": "vireo-nav-manifest/v1",
+  "meta": {
+    "spec": "specs/02-INFORMATION-ARCHITECTURE.md",
+    "registryRoutes": 1,
+    "deliverableHtmlFiles": 1,
+    "aliasNodes": 2,
+    "comment": "Single ordered data source for sidebar, breadcrumbs, sidebar filter, and command palette. Node field contract per spec 02 §15: {id,title,slug,icon,parent,section,order,badge,keywords,inMenu,alias,external}. section is null for non-top-level nodes (inherited from L1 ancestor). 'parent' is null at top level. 'badge' is {type,value?} or null. 'alias' is the canonical node id this node points at (alias nodes share a slug with their canonical and are excluded from the registry count). icon = Tabler icon name (outline, 24x24, currentColor). Groups (L1 / sub-groups) carry their own node with a slug pointing at their landing leaf per spec §11 (module group click -> primary list or aliased dashboard).",
+    "sections": [
+      "MAIN",
+      "APPLICATIONS",
+      "MODULES",
+      "PAGES",
+      "UI & FORMS",
+      "DOCS"
+    ]
+  },
+  "nodes": [
+    {
+      "id": "grp.dashboards",
+      "title": "Dashboards",
+      "slug": "dashboards/area-radar",
+      "icon": "layout-dashboard",
+      "parent": null,
+      "section": "MAIN",
+      "order": 1,
+      "badge": null,
+      "keywords": [
+        "dashboard",
+        "home",
+        "overview",
+        "kpi",
+        "stats"
+      ],
+      "inMenu": true,
+      "alias": null
+    },
+    {
+      "id": "dashboards.area-radar",
+      "title": "Area Radar",
+      "slug": "dashboards/area-radar",
+      "icon": "radar",
+      "parent": "grp.dashboards",
+      "section": null,
+      "order": 1,
+      "badge": {
+        "type": "new"
+      },
+      "keywords": [
+        "area",
+        "radar",
+        "property",
+        "crime",
+        "school",
+        "flood",
+        "transport",
+        "mining",
+        "air quality",
+        "conservation",
+        "postcode"
+      ],
+      "inMenu": true,
+      "alias": null
+    }
+  ]
+}

@@ -1,0 +1,946 @@
+<!doctype html>
+<html lang="en-GB" data-ax-route="dashboards/area-radar" data-radar-page data-cr-shell="topbar" data-cr-title>
+<head>{{> head
+  seoTitle="Trafford: House Prices, Crime, Schools & Party Wall | Corelain"
+  seoDescription="Trafford, Greater Manchester: house prices, price growth, crime, Ofsted schools, transport, flood and mining risk, air quality and party wall advice, from official open data."
+  ogTitle="Trafford area guide — prices, crime, schools, risk & party wall"
+  ogImageAlt="Street in central Manchester — Corelain Near Me for Trafford"
+  heroPreload=true
+  geoRegion="GB-TRF" geoPlace="Trafford, Greater Manchester" geoPosition="53.4631;-2.2913" geoIcbm="53.4631, -2.2913"
+}}</head>
+<body>
+  <script>
+    /* Another area than the default: hide the prerendered Trafford figures and start loading its data now */
+    (function () {
+      var id = (location.search.match(/[?&]area=([a-z0-9-]+)/) || [])[1];
+      if (!id || id === 'trafford') return;
+      document.documentElement.classList.add('cr-pending');
+      var l = document.createElement('link');
+      l.rel = 'preload'; l.as = 'fetch'; l.crossOrigin = 'anonymous'; l.href = '/data/areas/' + id + '.json';
+      document.head.appendChild(l);
+    })();
+  </script>
+  <div class="ax-ambient" aria-hidden="true"><i></i></div>
+  <div class="ax-layout">
+    <div class="ax-shell">
+      {{> header}}
+      <main class="ax-main" id="ax-main">
+        <!-- ════════════════ COVER HERO (full-bleed, under the header) ════════════════ -->
+        <section class="cr-hero" role="region" aria-label="Area overview">
+          <!-- Default/no-JS cover: central Manchester. ?area=<id> swaps in that
+               area's photo below, before the browser picks a candidate. -->
+          <picture>
+            <source data-cr-hero-source media="(max-width: 640px)" srcset="/images/hero-m640.jpg 640w, /images/hero-m960.jpg 960w, /images/hero-m1200.jpg 1200w" sizes="100vw">
+            <img class="cr-hero__img" data-cr-hero-img src="/images/hero-1280.jpg" srcset="/images/hero-1280.jpg 1280w, /images/hero-1920.jpg 1920w" sizes="(max-width: 1440px) 100vw, 1440px" width="1920" height="840" alt="" fetchpriority="high" decoding="async">
+          </picture>
+          <script>
+            (function () {
+              try {
+                var c = window.crCover && window.crCover(new URLSearchParams(location.search).get('area'));
+                if (!c) return;
+                document.querySelector('[data-cr-hero-source]').srcset = c.narrow;
+                var i = document.querySelector('[data-cr-hero-img]');
+                i.srcset = c.wide;
+                i.src = c.wideSrc;
+              } catch (e) {}
+            })();
+          </script>
+          <!-- ── Corelain surveying services — a ticker across the top of the cover, so visitors
+               know we are surveyors before anything else. The list is repeated three times so the
+               scroll loops seamlessly; the copies are hidden from screen readers. ── -->
+          <div class="cr-services" role="region" aria-label="Corelain surveying services">
+            <a class="cr-services__brand" href="{{content.services.url}}" target="_blank" rel="noopener" data-cr-cta="services-strip">
+              <span><b data-cr-area-brand="{{content.services.brand}}">Trafford Surveyors</b><small>{{content.services.tagline}}</small></span>
+            </a>
+            <div class="cr-services__marquee">
+              <div class="cr-services__track">
+                <ul class="cr-services__list">
+                  {{#each content.services.items}}<li><a href="{{this.url}}" target="_blank" rel="noopener" data-cr-cta="service-{{@index}}">{{this.label}}</a></li>
+                  {{/each}}
+                </ul>
+                <ul class="cr-services__list" aria-hidden="true">
+                  {{#each content.services.items}}<li><a href="{{this.url}}" target="_blank" rel="noopener" tabindex="-1">{{this.label}}</a></li>
+                  {{/each}}
+                </ul>
+                <ul class="cr-services__list" aria-hidden="true">
+                  {{#each content.services.items}}<li><a href="{{this.url}}" target="_blank" rel="noopener" tabindex="-1">{{this.label}}</a></li>
+                  {{/each}}
+                </ul>
+              </div>
+            </div>
+            {{#if content.services.phone}}<a class="cr-services__cta" href="tel:{{content.services.phoneHref}}" data-cr-cta="services-call">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2"/></svg>
+              {{content.services.phone}}
+            </a>{{/if}}
+          </div>
+          <div class="cr-hero__inner">
+            <nav class="ax-breadcrumb cr-hero__crumbs" data-cr-static aria-label="Breadcrumb">
+              <ol class="ax-breadcrumb__list" data-cr-crumbs>
+                <li class="ax-breadcrumb__item"><span>UK</span></li>
+                <li class="ax-breadcrumb__sep" aria-hidden="true"><svg class="ax-icon ax-icon--directional" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6l6 6l-6 6"/></svg></li>
+                <li class="ax-breadcrumb__item"><span>Greater Manchester</span></li>
+                <li class="ax-breadcrumb__sep" aria-hidden="true"><svg class="ax-icon ax-icon--directional" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6l6 6l-6 6"/></svg></li>
+                <li class="ax-breadcrumb__item" aria-current="page"><span>Trafford</span></li>
+              </ol>
+            </nav>
+            <div class="cr-hero__body">
+              <span class="cr-hero__eyebrow">Corelain Surveyors · Area stats</span>
+              <h1 class="cr-hero__title" data-cr-area-name>Trafford</h1>
+              <p class="cr-hero__subtitle">Property Prices, Crime Rates, Area &amp; Demographic Insights · <span data-cr-area-place>Trafford, Greater Manchester</span></p>
+              <div class="cr-hero__bar" x-data="crHeroActions()">
+                <!-- ── postcode search · compare ── -->
+                <div class="cr-hero__actions">
+                  <form class="cr-hero__search" role="search" @submit.prevent="search()">
+                    <label class="ax-visually-hidden" for="cr-postcode">Search area or postcode</label>
+                    <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10 10m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0"/><path d="M21 21l-6 -6"/></svg>
+                    <input id="cr-postcode" type="search" list="cr-area-options" placeholder="Area or postcode" autocomplete="off" x-model="query" enterkeyhint="search">
+                    <datalist id="cr-area-options">
+                      <template x-for="a in areas" :key="a.id"><option :value="a.name" x-text="a.postcode"></option></template>
+                    </datalist>
+                  </form>
+                  <button type="button" class="cr-hero__cta cr-hero__cta--ghost" @click="compareOpen = true" aria-haspopup="dialog">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 18a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"/><path d="M15 6a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"/><path d="M7 16v-11h6"/><path d="M17 8v11h-6"/><path d="M10 2l3 3l-3 3"/><path d="M14 16l-3 3l3 3"/></svg>
+                    <span>Compare</span>
+                  </button>
+                </div>
+
+                <!-- ── COMPARE modal (template modal, lg) ── -->
+                <template x-teleport="body">
+                  <div class="ax-modal ax-modal--centered" x-show="compareOpen" x-cloak @keydown.escape.window="compareOpen = false" role="dialog" aria-modal="true" aria-labelledby="cr-compare-title">
+                    <div class="ax-modal__backdrop" x-show="compareOpen" x-transition.opacity @click="compareOpen = false"></div>
+                    <div class="ax-modal__dialog ax-modal__dialog--lg" x-show="compareOpen" x-transition x-trap.inert.noscroll="compareOpen">
+                      <div class="ax-modal__header">
+                        <h2 class="ax-modal__title" id="cr-compare-title">Compare areas</h2>
+                        <button type="button" class="ax-modal__close" @click="compareOpen = false" aria-label="Close compare"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6l-12 12"/><path d="M6 6l12 12"/></svg></button>
+                      </div>
+                      <div class="ax-modal__body">
+                        <div class="cr-compare__pick">
+                          <div class="cr-compare__field">
+                            <label class="cr-compare__label" for="cr-area-select">This area</label>
+                            <select id="cr-area-select" class="ax-input" x-model="areaId">
+                              <template x-for="a in areas" :key="a.id">
+                                <option :value="a.id" x-text="`${a.name} · ${a.postcode}`"></option>
+                              </template>
+                            </select>
+                          </div>
+                          <span class="cr-compare__vs" aria-hidden="true">vs</span>
+                          <div class="cr-compare__field">
+                            <label class="cr-compare__label" for="cr-compare-select">Compare with</label>
+                            <select id="cr-compare-select" class="ax-input" x-model="compareId">
+                              <template x-for="a in areas.filter(a => a.id !== areaId)" :key="a.id">
+                                <option :value="a.id" x-text="`${a.name} · ${a.postcode}`"></option>
+                              </template>
+                            </select>
+                          </div>
+                        </div>
+                        <div class="ax-table-wrap">
+                          <table class="ax-table">
+                            <thead class="ax-table__head"><tr>
+                              <th class="ax-table__th" scope="col">Metric</th>
+                              <th class="ax-table__th ax-table__th--num" scope="col" x-text="areaName"></th>
+                              <th class="ax-table__th ax-table__th--num" scope="col" x-text="compareArea && compareArea.name"></th>
+                            </tr></thead>
+                            <tbody>
+                              <template x-for="row in compareRows" :key="row.label">
+                                <tr class="ax-table__row">
+                                  <td class="ax-table__td" x-text="row.label"></td>
+                                  <td class="ax-table__td ax-table__td--num" :class="{ 'cr-win': row.win === 'a' }" x-text="row.a"></td>
+                                  <td class="ax-table__td ax-table__td--num" :class="{ 'cr-win': row.win === 'b' }" x-text="row.b"></td>
+                                </tr>
+                              </template>
+                            </tbody>
+                          </table>
+                        </div>
+                        <p style="margin:var(--ax-space-3) 0 0;font-size:var(--ax-text-xs);color:var(--ax-text-subtle);">Highlighted = better value; “—” = no data for that area. <span x-text="compareNote"></span></p>
+                      </div>
+                      <div class="ax-modal__footer">
+                        <button type="button" class="ax-btn ax-btn--ghost" @click="compareOpen = false">Close</button>
+                        <a class="ax-btn ax-btn--primary" :href="compareArea ? compareHref : '#'">Open <span x-text="compareArea && compareArea.name"></span></a>
+                      </div>
+                    </div>
+                  </div>
+                </template>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- ════════════════ DASHBOARD GRID ════════════════
+             Every figure below comes from public/data/areas/<area>.json (scripts/data/run.py).
+             data-m = text value, data-r = rendered block (src/js/radar/render.js). The default
+             (Trafford) view is filled in at build time; other areas are filled in the browser. -->
+        <div class="ax-dash-grid" x-data="crMap()">
+
+          <!-- ───── LIVE FLOOD ALERT — Environment Agency real-time warnings; shown only when one is in force ───── -->
+          <section class="ax-card ax-col--12 cr-flood-alert" role="alert" aria-label="Flood warnings in force" data-cr-flood-alert hidden></section>
+
+          <!-- ───── MAP CANVAS ───── -->
+          <section class="ax-card ax-card--chart ax-col--8" role="region" aria-label="Map of the selected area" style="overflow:hidden;">
+            <div class="ax-card__header">
+              <div class="ax-card__titles">
+                <span class="ax-card__eyebrow">Live map</span>
+                <h2 class="ax-card__title" data-m="map.label">—</h2>
+                <p class="ax-card__subtitle">Selected area · local landmarks</p>
+              </div>
+              <div class="ax-card__actions">
+                <div class="ax-segment" role="group" aria-label="Map type">
+                  <button type="button" class="ax-segment__option" :class="{ 'is-active': mapType==='map' }" :aria-pressed="mapType==='map'" @click="mapType='map'">Map</button>
+                  <button type="button" class="ax-segment__option" :class="{ 'is-active': mapType==='satellite' }" :aria-pressed="mapType==='satellite'" @click="mapType='satellite'">Satellite</button>
+                  <button type="button" class="ax-segment__option" :class="{ 'is-active': mapType==='terrain' }" :aria-pressed="mapType==='terrain'" @click="mapType='terrain'">Terrain</button>
+                </div>
+              </div>
+            </div>
+            <div class="ax-card__body" style="padding-top:0;">
+              <!-- Google Maps embed (no API key) — centres on the selected place or the area centre -->
+              <div x-ref="mapbox" style="position:relative;height:440px;border-radius:var(--ax-radius-lg);overflow:hidden;border:1px solid var(--ax-border);background:var(--ax-surface-subtle);">
+                <iframe x-show="embedSrc" :src="embedSrc" title="Google map of the selected area"
+                        loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                        style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
+                <div x-show="active" x-cloak x-transition.opacity
+                     style="position:absolute;left:var(--ax-space-4);top:var(--ax-space-4);min-width:240px;max-width:280px;
+                            background:var(--ax-surface-overlay);border:1px solid var(--ax-border);border-radius:var(--ax-radius-md);
+                            box-shadow:var(--ax-shadow-md);padding:var(--ax-space-4);z-index:6;pointer-events:none;">
+                  <div class="ax-cluster" style="gap:var(--ax-space-2);margin-bottom:var(--ax-space-1);flex-wrap:nowrap;">
+                    <span :style="`width:8px;height:8px;border-radius:50%;background:var(${active && active.tone});flex:none;`"></span>
+                    <b style="color:var(--ax-text-strong);font-size:var(--ax-text-sm);" x-text="active && active.name"></b>
+                  </div>
+                  <p style="margin:0;font-size:var(--ax-text-xs);color:var(--ax-text-muted);" x-text="active && active.addr"></p>
+                  <div class="ax-cluster" style="gap:var(--ax-space-2);margin-top:var(--ax-space-3);" x-show="active && active.dist">
+                    <span class="ax-badge ax-badge--soft ax-badge--pill ax-num" x-text="active && active.dist"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- ───── LOCATIONS RAIL (search + list) ───── -->
+          <section class="ax-card ax-col--4" role="region" aria-label="Searchable list of local places">
+            <div class="ax-card__header">
+              <div class="ax-card__titles">
+                <h2 class="ax-card__title">Nearby Locations</h2>
+                <p class="ax-card__subtitle"><span class="ax-num" x-text="filtered.length">0</span> shown · click to focus the map</p>
+              </div>
+            </div>
+            <div class="ax-card__body" style="padding-top:0;display:flex;flex-direction:column;gap:var(--ax-space-3);">
+              <div class="ax-field__control">
+                <span class="ax-field__affix ax-field__affix--leading" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M3 10a7 7 0 1 0 14 0a7 7 0 1 0 -14 0"/><path d="M21 21l-6 -6"/></svg>
+                </span>
+                <input type="search" class="ax-input ax-input--with-leading-icon" placeholder="Search nearby…" aria-label="Search local places" x-model.debounce.150ms="q">
+              </div>
+              <p class="cr-empty" x-show="!places.length" x-cloak>No places listed for this area yet.</p>
+              <ul class="ax-list ax-list--compact" style="max-height:392px;overflow:auto;" x-show="places.length">
+                <template x-for="p in filtered" :key="p.id">
+                  <li class="ax-list__row cr-place" :class="{ 'is-selected': activeId === p.id }" style="border-radius:var(--ax-radius-sm);">
+                    <button type="button" class="cr-place__btn" @click="activeId = p.id" :aria-pressed="activeId === p.id" :aria-label="`Show ${p.name} on the map`"></button>
+                    <span class="ax-list__leading">
+                      <span class="ax-avatar ax-avatar--sm ax-avatar--squircle" :style="`background:color-mix(in oklab, var(${p.tone}) 18%, transparent); color:var(${p.tone});`">
+                        <svg class="ax-avatar__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" x-html="crPlaceIcons[p.type]"></svg>
+                      </span>
+                    </span>
+                    <span class="ax-list__content" style="min-width:0;">
+                      <span class="ax-list__title ax-truncate" style="font-weight:var(--ax-weight-medium);" x-text="p.name"></span>
+                      <span class="ax-truncate" style="display:block;font-size:var(--ax-text-xs);color:var(--ax-text-subtle);" x-text="p.type + ' · ' + p.addr"></span>
+                    </span>
+                  </li>
+                </template>
+              </ul>
+            </div>
+          </section>
+
+          <!-- ───── MARKET KPI ROW ───── (HM Land Registry · UK HPI · PropertyData · GetAgent) -->
+          <div class="ax-card ax-kpi cr-kpi ax-col--3" role="region" aria-label="Average property value">
+            <div class="cr-kpi__body">
+              <div class="cr-kpi__head">
+                <span class="ax-kpi__icon ax-kpi__icon--c1">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l-2 0l9 -9l9 9l-2 0"/><path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7"/><path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6"/></svg>
+                </span>
+                <span class="cr-kpi__label">Average property value</span>
+              </div>
+              <div class="cr-kpi__value ax-num" data-m="average_price">—</div>
+              <div class="cr-kpi__change" data-r="kpi.price.change"><!--r--><!--/r--></div>
+              <p class="cr-kpi__src" data-m="cap.average_price">—</p>
+              <div class="cr-kpi__spark" id="cr-spark-price" style="min-height:48px" aria-hidden="true"></div>
+            </div>
+          </div>
+          <div class="ax-card ax-kpi cr-kpi ax-col--3" role="region" aria-label="Annual growth">
+            <div class="cr-kpi__body">
+              <div class="cr-kpi__head">
+                <span class="ax-kpi__icon ax-kpi__icon--c2">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 17l6 -6l4 4l8 -8"/><path d="M14 7l7 0l0 7"/></svg>
+                </span>
+                <span class="cr-kpi__label">Annual growth</span>
+              </div>
+              <div class="cr-kpi__value ax-num" data-m="annual_growth">—</div>
+              <div class="cr-kpi__change" data-r="kpi.growth.change"><!--r--><!--/r--></div>
+              <p class="cr-kpi__src" data-m="cap.annual_growth">—</p>
+              <div class="cr-kpi__spark" id="cr-spark-growth" style="min-height:48px" aria-hidden="true"></div>
+            </div>
+          </div>
+          <div class="ax-card ax-kpi cr-kpi ax-col--3" role="region" aria-label="Average rent">
+            <div class="cr-kpi__body">
+              <div class="cr-kpi__head">
+                <span class="ax-kpi__icon ax-kpi__icon--c3">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16.555 3.843l3.602 3.602a2.877 2.877 0 0 1 0 4.069l-2.643 2.643a2.877 2.877 0 0 1 -4.069 0l-.301 -.301l-6.558 6.558a2 2 0 0 1 -1.239 .578l-.175 .008h-1.172a1 1 0 0 1 -.993 -.883l-.007 -.117v-1.172a2 2 0 0 1 .467 -1.284l.119 -.13l.414 -.414h2v-2h2v-2l2.144 -2.144l-.301 -.301a2.877 2.877 0 0 1 0 -4.069l2.643 -2.643a2.877 2.877 0 0 1 4.069 0z"/><path d="M15 9h.01"/></svg>
+                </span>
+                <span class="cr-kpi__label">Average rent</span>
+              </div>
+              <div class="cr-kpi__value ax-num"><span data-m="average_rent">—</span> <span class="cr-kpi__unit">pcm</span></div>
+              <div class="cr-kpi__change" data-r="kpi.rent.change"><!--r--><!--/r--></div>
+              <p class="cr-kpi__src" data-m="cap.average_rent">—</p>
+              <div class="cr-kpi__spark" id="cr-spark-rent" style="min-height:48px" aria-hidden="true"></div>
+            </div>
+          </div>
+          <div class="ax-card ax-kpi cr-kpi ax-col--3" role="region" aria-label="Renting compared with owning">
+            <div class="cr-kpi__body">
+              <div class="cr-kpi__head">
+                <span class="ax-kpi__icon ax-kpi__icon--c4">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0"/><path d="M12 3v9h9"/></svg>
+                </span>
+                <span class="cr-kpi__label">Rent vs ownership</span>
+              </div>
+              <div class="cr-kpi__value ax-num"><span data-m="tenure.rent">—</span> <span class="cr-kpi__unit">rent</span></div>
+              <div class="cr-kpi__change"><span class="cr-kpi__cmp" data-m="tenure.own">—</span></div>
+              <p class="cr-kpi__src" data-m="cap.tenure">—</p>
+              <div class="cr-tenure-bar" data-r="kpi.tenure.bar" aria-hidden="true"><!--r--><!--/r--></div>
+            </div>
+          </div>
+
+          <!-- ───── AREA CHARTS (8): every chart on the page in one card, with a filter ─────
+               Views are drawn by area-radar.js from the area JSON; a view with no data is hidden. -->
+          <section class="ax-card ax-card--chart ax-col--8 cr-charts" role="region" aria-label="Area charts" data-cr-charts>
+            <div class="ax-card__header">
+              <div class="ax-card__titles">
+                <span class="ax-card__eyebrow">Charts</span>
+                <h2 class="ax-card__title" data-cr-chart-title>Property Value Trend</h2>
+                <p class="ax-card__subtitle" data-cr-chart-sub data-m="trend.subtitle">—</p>
+              </div>
+            </div>
+            <div class="ax-card__body" style="padding-top:0;">
+              <div class="cr-chart-filter" role="radiogroup" aria-label="Choose what the chart shows">
+                <span class="cr-chart-filter__group">Market</span>
+                <button type="button" class="cr-chip is-active" role="radio" aria-checked="true" data-chart="value">Property value</button>
+                <button type="button" class="cr-chip" role="radio" aria-checked="false" data-chart="types">By property type</button>
+                <button type="button" class="cr-chip" role="radio" aria-checked="false" data-chart="rent">Rent trend</button>
+                <button type="button" class="cr-chip" role="radio" aria-checked="false" data-chart="rent-beds">Rent by bedrooms</button>
+                <span class="cr-chart-filter__group">People</span>
+                <button type="button" class="cr-chip" role="radio" aria-checked="false" data-chart="tenure">Rent vs ownership</button>
+                <button type="button" class="cr-chip" role="radio" aria-checked="false" data-chart="age">Age profile</button>
+                <button type="button" class="cr-chip" role="radio" aria-checked="false" data-chart="pay">Average pay</button>
+                <span class="cr-chart-filter__group">Neighbourhood</span>
+                <button type="button" class="cr-chip" role="radio" aria-checked="false" data-chart="crime">Crime</button>
+                <button type="button" class="cr-chip" role="radio" aria-checked="false" data-chart="schools">Schools</button>
+                <button type="button" class="cr-chip" role="radio" aria-checked="false" data-chart="flood">Flood risk</button>
+                <button type="button" class="cr-chip" role="radio" aria-checked="false" data-chart="journey">Journey</button>
+                <button type="button" class="cr-chip" role="radio" aria-checked="false" data-chart="scorecard">Scorecard</button>
+              </div>
+              <div id="cr-chart-main" role="img" aria-label="Line chart of the yearly average sold price with annual growth columns" style="min-height:330px"></div>
+              <p class="cr-card-note" data-cr-chart-note>Raw average; it moves with the mix of homes sold. <span data-m="trend.geo">—</span> · Source: HM Land Registry Price Paid Data.</p>
+            </div>
+          </section>
+
+          <section class="ax-card ax-col--4" role="region" aria-label="Area scorecard">
+            <div class="ax-card__header">
+              <div class="ax-card__titles">
+                <span class="ax-card__eyebrow">Neighbourhood</span>
+                <h2 class="ax-card__title">Area Scorecard</h2>
+                <p class="ax-card__subtitle"><span class="ax-badge ax-badge--soft ax-badge--neutral ax-badge--pill ax-badge--sm">Indicative</span></p>
+              </div>
+              <span class="ax-badge ax-badge--soft ax-badge--success ax-badge--pill"><span class="ax-badge__dot"></span><span data-m="score.overall">—</span></span>
+            </div>
+            <div class="ax-card__body" style="padding-top:0;">
+              <div class="cr-score" data-r="score.bars"><!--r--><!--/r--></div>
+              <p style="font-size:var(--ax-text-sm);color:var(--ax-text-muted);margin:0;">Derived from the data on this page, not an official score. Higher is better on every axis; an axis is left out when its source has no data.</p>
+            </div>
+          </section>
+
+          <!-- ───── PEOPLE & MONEY ROW: Census 2021 demographics · ASHE pay · Big Six mortgage lenders ───── -->
+          <section class="ax-card ax-col--4" role="region" aria-label="Population and households">
+            <div class="ax-card__header">
+              <div class="ax-card__titles">
+                <span class="ax-card__eyebrow">Demographics</span>
+                <h2 class="ax-card__title">Population &amp; Households</h2>
+                <p class="ax-card__subtitle" data-m="pop.geo">—</p>
+              </div>
+              <span class="ax-badge ax-badge--soft ax-badge--neutral ax-badge--pill ax-badge--sm">Census 2021</span>
+            </div>
+            <div class="ax-card__body cr-flex-body" style="padding-top:0;">
+              <div class="cr-stats3" data-r="pop.stats"><!--r--><!--/r--></div>
+              <div class="cr-bars" data-r="pop.age"><!--r--><!--/r--></div>
+              <a class="cr-radon__link cr-card-foot" href="https://www.trafforddatalab.io/accessible_graphics/census_2021_population_and_households_infographic.html" target="_blank" rel="noopener">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 7m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0"/><path d="M3 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/><path d="M21 21v-2a4 4 0 0 0 -3 -3.85"/></svg>
+                Trafford Data Lab: Population &amp; Households
+                <svg class="cr-radon__ext" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 6h-6a2 2 0 0 0 -2 2v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-6"/><path d="M11 13l9 -9"/><path d="M15 4h5v5"/></svg>
+              </a>
+            </div>
+          </section>
+
+          <section class="ax-card ax-col--4" role="region" aria-label="Average pay">
+            <div class="ax-card__header">
+              <div class="ax-card__titles">
+                <span class="ax-card__eyebrow">Income</span>
+                <h2 class="ax-card__title">Average Pay</h2>
+                <p class="ax-card__subtitle" data-m="pay.geo">—</p>
+              </div>
+              <span class="ax-badge ax-badge--soft ax-badge--neutral ax-badge--pill ax-badge--sm">ONS ASHE</span>
+            </div>
+            <div class="ax-card__body cr-flex-body" style="padding-top:0;">
+              <div class="cr-big">
+                <div class="cr-big__value ax-num" data-m="pay.annual">—</div>
+                <small class="cr-big__sub" data-m="pay.sub">—</small>
+              </div>
+              <div class="cr-bars" data-r="pay.bars"><!--r--><!--/r--></div>
+              <div class="cr-afford" data-r="pay.afford"><!--r--><!--/r--></div>
+              <p class="cr-card-note" data-m="pay.cap">—</p>
+            </div>
+          </section>
+
+          <section class="ax-card ax-col--4" role="region" aria-label="Top mortgage lenders">
+            <div class="ax-card__header">
+              <div class="ax-card__titles">
+                <span class="ax-card__eyebrow">Finance</span>
+                <h2 class="ax-card__title">{{content.lenders.title}}</h2>
+                <p class="ax-card__subtitle">{{content.lenders.subtitle}}</p>
+              </div>
+            </div>
+            <div class="ax-card__body cr-flex-body" style="padding-top:0;">
+              <ol class="cr-lenders">
+                {{#each content.lenders.items}}<li class="cr-lender" style="--c:var({{this.tone}});--w:{{this.width}}%">
+                  <span class="cr-lender__rank">{{this.rank}}</span>
+                  <span class="cr-lender__body"><a class="cr-link-title" href="{{this.url}}" target="_blank" rel="noopener">{{this.name}}</a><small>{{this.brands}}{{#if this.amount}} · {{this.amount}} lent{{/if}}</small><span class="cr-lender__bar" aria-hidden="true"><i></i></span></span>
+                  <b class="ax-num">{{this.shareText}}</b>
+                </li>
+                {{/each}}
+              </ol>
+              <p class="cr-card-note">{{content.lenders.note}}</p>
+              <a class="cr-radon__link cr-card-foot" href="{{content.lenders.source.url}}" target="_blank" rel="noopener">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 21l18 0"/><path d="M3 10l18 0"/><path d="M5 6l7 -3l7 3"/><path d="M4 10l0 11"/><path d="M20 10l0 11"/><path d="M8 14l0 3"/><path d="M12 14l0 3"/><path d="M16 14l0 3"/></svg>
+                {{content.lenders.source.name}}
+                <svg class="cr-radon__ext" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 6h-6a2 2 0 0 0 -2 2v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-6"/><path d="M11 13l9 -9"/><path d="M15 4h5v5"/></svg>
+              </a>
+            </div>
+          </section>
+
+          <!-- ───── RATINGS ROW: crime · schools · transport ───── -->
+          <!-- Crime — Home Office CSP tables (borough-wide: GMP publishes no street-level data) -->
+          <section class="ax-card ax-col--4" role="region" aria-label="Crime rating">
+            <div class="ax-card__header">
+              <div class="ax-card__titles">
+                <h2 class="ax-card__title">Crime Rating</h2>
+                <p class="ax-card__subtitle" data-m="crime.geo">—</p>
+              </div>
+              <span data-r="crime.badge"><!--r--><!--/r--></span>
+            </div>
+            <div class="ax-card__body" style="padding-top:0;">
+              <div class="ax-cluster" style="justify-content:space-between;align-items:flex-end;margin-bottom:var(--ax-space-4);">
+                <div>
+                  <div class="ax-num" style="font-family:var(--ax-font-display);font-size:var(--ax-text-3xl);font-weight:700;line-height:1;color:var(--ax-text-strong);" data-m="crime_rate">—</div>
+                  <small style="color:var(--ax-text-muted);font-size:var(--ax-text-sm);" data-m="crime.sub">—</small>
+                </div>
+                <span class="ax-badge ax-badge--soft ax-badge--neutral ax-badge--pill ax-badge--sm">Home Office</span>
+              </div>
+              <div style="display:flex;flex-direction:column;gap:var(--ax-space-3);" data-r="crime.rows"><!--r--><!--/r--></div>
+              <p class="cr-card-note">Rates per 1,000 residents. Greater Manchester Police does not publish street-level data, so these are borough-wide.</p>
+              <p class="cr-crime-delta" data-r="crime.delta"><!--r--><!--/r--></p>
+            </div>
+          </section>
+
+          <!-- Schools — Ofsted latest inspections (indicative score, method in the JSON) -->
+          <section class="ax-card ax-col--4" role="region" aria-label="School rating">
+            <div class="ax-card__header">
+              <div class="ax-card__titles">
+                <h2 class="ax-card__title">School Rating</h2>
+                <p class="ax-card__subtitle">Ofsted · state primary &amp; secondary</p>
+              </div>
+              <span class="ax-badge ax-badge--soft ax-badge--success ax-badge--pill" data-m="school.score">—</span>
+            </div>
+            <div class="ax-card__body" style="padding-top:0;">
+              <div data-r="school.list"><!--r--><!--/r--></div>
+              <p class="cr-card-note"><span data-m="school.sub">—</span>. Inspections since Sep 2024 have no one-word grade; since Nov 2025 they use report cards.</p>
+              <div class="cr-school-mix">
+                <span class="cr-radon__label">Ofsted mix · <span data-m="school.count">—</span></span>
+                <ul class="cr-school-chart__legend" data-r="school.legend"><!--r--><!--/r--></ul>
+              </div>
+            </div>
+          </section>
+
+          <!-- Sponsored — Corelain Party Wall surveying -->
+          <a class="ax-card ax-col--4 cr-ad" href="https://www.corelain.com/party-wall-surveyor-manchester#partywall-enquiry" target="_blank" rel="sponsored noopener" data-cr-cta="sponsored-card">
+            <span class="cr-ad__rings" aria-hidden="true"></span>
+            <span class="cr-ad__top">
+              <img class="cr-ad__logo" src="/images/logo-mark-dark.png" alt="" width="502" height="390">
+              <span class="cr-ad__tag">Near me</span>
+            </span>
+            <span class="cr-ad__eyebrow">Planning an extension or loft conversion?</span>
+            <span class="cr-ad__title">Party Wall Surveyors in <span data-cr-area-name>Trafford</span></span>
+            <span class="cr-ad__text">Find out early whether the Party Wall etc. Act 1996 applies. Notices, schedules of condition and awards, handled by a Manchester-based team.</span>
+            <span class="cr-ad__points">
+              <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5l10 -10"/></svg>Clear</span><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5l10 -10"/></svg>Efficient</span><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5l10 -10"/></svg>Compliant</span><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5l10 -10"/></svg>Fair</span>
+            </span>
+            <span class="cr-ad__cta">Request a free consultation
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l14 0"/><path d="M13 18l6 -6"/><path d="M13 6l6 6"/></svg>
+            </span>
+          </a>
+
+          <!-- ───── PUBLIC TRANSPORT — trams & buses from the TfGM timetable (GTFS), trains from National Rail ───── -->
+          <section class="ax-card ax-col--12" role="region" aria-label="Transport score and public transport routes" x-data="{ q: '' }">
+            <div class="ax-card__header">
+              <div class="ax-card__titles">
+                <span class="ax-card__eyebrow">Getting around</span>
+                <h2 class="ax-card__title">Public Transport: Trams, Trains &amp; Buses</h2>
+                <p class="ax-card__subtitle" data-m="routes.geo">—</p>
+              </div>
+              <a class="ax-btn ax-btn--link" href="https://tfgm.com/ways-to-travel/tram/network-map" target="_blank" rel="noopener">Bee Network tram map</a>
+            </div>
+            <div class="ax-card__body" style="padding-top:0;">
+              <div class="cr-routes">
+                <div class="cr-routes__col cr-routes__col--score">
+                  <h3 class="cr-routes__head"><span class="cr-row-ico" style="--c:var(--ax-viz-cyan)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0"/><path d="M13.41 10.59l2.59 -2.59"/><path d="M7 12a5 5 0 0 1 5 -5"/></svg></span>Transport score</h3>
+                  <div class="ax-gauge">
+                    <div class="ax-gauge__chart" id="cr-transport-gauge" role="img" aria-label="Radial gauge: transport connectivity score out of 100"></div>
+                    <div class="ax-gauge__rows" data-r="transport.rows"><!--r--><!--/r--></div>
+                  </div>
+                  <p class="cr-card-note" data-m="transport.cap">—</p>
+                </div>
+                <div class="cr-routes__col">
+                  <h3 class="cr-routes__head"><span class="cr-row-ico" style="--c:var(--ax-viz-amber)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 4h12"/><path d="M12 4v3"/><path d="M5 9a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2v7a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2z"/><path d="M5 13h14"/><path d="M8 18l-2 3"/><path d="M16 18l2 3"/></svg></span>Metrolink trams</h3>
+                  <div class="cr-routes__scroll" data-r="routes.trams"><!--r--><!--/r--></div>
+                </div>
+                <div class="cr-routes__col">
+                  <h3 class="cr-routes__head"><span class="cr-row-ico" style="--c:var(--ax-viz-violet)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 15h14"/><path d="M5 5a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2v10a3 3 0 0 1 -3 3h-8a3 3 0 0 1 -3 -3z"/><path d="M5 10h14"/><path d="M8 18l-2 3"/><path d="M16 18l2 3"/><path d="M9 14h.01"/><path d="M15 14h.01"/></svg></span>Trains</h3>
+                  <div class="cr-routes__scroll" data-r="routes.rail"><!--r--><!--/r--></div>
+                </div>
+                <div class="cr-routes__col cr-routes__col--bus">
+                  <h3 class="cr-routes__head"><span class="cr-row-ico" style="--c:var(--ax-accent)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 17a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"/><path d="M16 17a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"/><path d="M4 17h-2v-11a1 1 0 0 1 1 -1h14a5 7 0 0 1 5 7v5h-2m-4 0h-8"/><path d="M16 5l1.5 7l4.5 0"/><path d="M2 10l15 0"/><path d="M7 5l0 5"/><path d="M12 5l0 5"/></svg></span>Buses <small data-m="routes.bus_count">—</small></h3>
+                  <input type="search" class="ax-input ax-input--sm cr-routes__search" placeholder="Find a bus number or place…" aria-label="Filter bus services" x-model.debounce.120ms="q">
+                  <div class="cr-routes__buses" data-r="routes.buses" x-effect="const t = q.trim().toLowerCase(); $el.querySelectorAll('[data-bus]').forEach((li) => li.hidden = !!t && !li.dataset.bus.includes(t))"><!--r--><!--/r--></div>
+                </div>
+              </div>
+              <p class="cr-card-note" data-m="routes.cap">—</p>
+            </div>
+          </section>
+
+          <!-- ───── ENVIRONMENTAL RISK ROW: flood · mining · air quality ───── -->
+          <!-- Flood — EA "Check long term flood risk" is per address with no API: entered by hand -->
+          <section class="ax-card ax-col--4" role="region" aria-label="Flood risk">
+            <div class="ax-card__header">
+              <div class="ax-card__titles">
+                <h2 class="ax-card__title">Flood Risk</h2>
+                <p class="ax-card__subtitle">Environment Agency long-term risk</p>
+              </div>
+              <span data-r="flood.badge"><!--r--><!--/r--></span>
+            </div>
+            <div class="ax-card__body" style="padding-top:0;">
+              <div data-r="flood.list"><!--r--><!--/r--></div>
+              <a class="cr-radon__link cr-flood__link" href="https://check-long-term-flood-risk.service.gov.uk/postcode" target="_blank" rel="noopener">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 7l6 -3l6 3l6 -3v13l-6 3l-6 -3l-6 3v-13"/><path d="M9 4v13"/><path d="M15 7v13"/></svg>
+                Check long-term flood risk for a postcode
+                <svg class="cr-radon__ext" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 6h-6a2 2 0 0 0 -2 2v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-6"/><path d="M11 13l9 -9"/><path d="M15 4h5v5"/></svg>
+              </a>
+              <a class="cr-radon__link cr-flood__link" href="https://check-for-flooding.service.gov.uk/" target="_blank" rel="noopener">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 9v4"/><path d="M10.363 3.591l-8.106 13.534a1.914 1.914 0 0 0 1.636 2.871h16.214a1.914 1.914 0 0 0 1.636 -2.87l-8.106 -13.536a1.914 1.914 0 0 0 -3.274 0z"/><path d="M12 16h.01"/></svg>
+                Check for flooding now (GOV.UK)
+                <svg class="cr-radon__ext" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 6h-6a2 2 0 0 0 -2 2v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-6"/><path d="M11 13l9 -9"/><path d="M15 4h5v5"/></svg>
+              </a>
+            </div>
+          </section>
+
+          <!-- Mining — Coal Authority plus automated OGL radon and GeoSure screening from BGS -->
+          <section class="ax-card ax-col--4" role="region" aria-label="Mining risk">
+            <div class="ax-card__header">
+              <div class="ax-card__titles">
+                <h2 class="ax-card__title">Mining Risk</h2>
+                <p class="ax-card__subtitle">Coal Authority &amp; ground stability</p>
+              </div>
+              <span data-r="mining.badge"><!--r--><!--/r--></span>
+            </div>
+            <div class="ax-card__body" style="padding-top:0;">
+              <div class="ax-alert ax-alert--info ax-alert--inline" role="status" style="margin-bottom:var(--ax-space-4);">
+                <span class="ax-alert__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0"/><path d="M12 9h.01"/><path d="M11 12h1v4h1"/></svg></span>
+                <div class="ax-alert__content"><p class="ax-alert__message" data-r="mining.alert"><!--r--><!--/r--></p></div>
+              </div>
+              <div data-r="mining.list"><!--r--><!--/r--></div>
+              <div class="cr-radon" role="img" aria-label="Radon potential class">
+                <div class="cr-radon__head">
+                  <span class="cr-radon__label">Radon potential</span>
+                  <span class="cr-radon__value" data-r="radon.value"><!--r--><!--/r--></span>
+                </div>
+                <div class="cr-radon__scale" aria-hidden="true" data-r="radon.scale"><!--r--><!--/r--></div>
+                <div class="cr-radon__ends" aria-hidden="true"><span>&lt;1% homes</span><span>30%+ homes</span></div>
+                <a class="cr-radon__link" href="https://www.gov.uk/check-if-property-is-affected-by-coal-mining" target="_blank" rel="noopener">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 7l6 -3l6 3l6 -3v13l-6 3l-6 -3l-6 3v-13"/><path d="M9 4v13"/><path d="M15 7v13"/></svg>
+                  Check coal mining for a property
+                  <svg class="cr-radon__ext" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 6h-6a2 2 0 0 0 -2 2v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-6"/><path d="M11 13l9 -9"/><path d="M15 4h5v5"/></svg>
+                </a>
+              </div>
+            </div>
+          </section>
+
+          <!-- Air quality — Defra LAQM background maps (annual); live EAQI gauge from Open-Meteo -->
+          <section class="ax-card ax-col--4" role="region" aria-label="Air quality" data-cr-air>
+            <div class="ax-card__header">
+              <div class="ax-card__titles">
+                <h2 class="ax-card__title">Air Quality</h2>
+                <p class="ax-card__subtitle">Defra background maps · live index</p>
+              </div>
+              <span class="ax-badge ax-badge--soft ax-badge--neutral ax-badge--pill" data-cr-air-badge><span class="ax-badge__dot"></span><span data-cr-air-badge-text>Annual</span></span>
+            </div>
+            <div class="ax-card__body" style="padding-top:0;">
+              <div class="ax-cluster" style="justify-content:space-between;align-items:flex-end;margin-bottom:var(--ax-space-4);" data-r="air.head"><!--r--><!--/r--></div>
+              <p class="cr-air__head" data-m="air.period">—</p>
+              <div style="display:flex;flex-direction:column;gap:var(--ax-space-3);" data-r="air.bars"><!--r--><!--/r--></div>
+              <div class="cr-aqi">
+                <div class="cr-aqi__chart" id="cr-air-gauge" role="img" aria-label="European air quality index gauge"></div>
+                <div class="cr-aqi__meta">
+                  <span class="cr-aqi__label">European AQI <span data-cr-air-time></span></span>
+                  <b class="cr-aqi__band" data-cr-aqi-band>—</b>
+                  <ol class="cr-aqi__scale" aria-label="Scale">
+                    <li style="--c:var(--ax-viz-emerald)">Good</li>
+                    <li style="--c:var(--ax-viz-cyan)">Fair</li>
+                    <li style="--c:var(--ax-viz-amber)">Moderate</li>
+                    <li style="--c:var(--ax-danger-500)">Poor+</li>
+                  </ol>
+                </div>
+              </div>
+              <p class="cr-card-note" data-r="air.note"><!--r--><!--/r--></p>
+            </div>
+          </section>
+
+          <!-- ───── PLANNING ROW: developments (8, entered by hand) + conservation (4, planning.data.gov.uk) ───── -->
+          <section class="ax-card ax-col--8" role="region" aria-label="Major developments in the area" data-hide-region>
+            <div class="ax-card__header">
+              <div class="ax-card__titles">
+                <span class="ax-card__eyebrow">Planning</span>
+                <h2 class="ax-card__title">Major Developments in the Area</h2>
+                <p class="ax-card__subtitle" data-m="dev.cap">—</p>
+              </div>
+              <a class="ax-btn ax-btn--link" href="https://www.trafford.gov.uk/planning-and-building-control/step-by-step/search-and-comment-planning-applications/search-planning-application" target="_blank" rel="noopener">View all</a>
+            </div>
+            <div class="ax-table-wrap">
+              <table class="ax-table ax-table--hover">
+                <thead class="ax-table__head">
+                  <tr>
+                    <th class="ax-table__th" scope="col">Scheme</th>
+                    <th class="ax-table__th" scope="col">Type</th>
+                    <th class="ax-table__th ax-table__th--num" scope="col">Units</th>
+                    <th class="ax-table__th ax-table__th--num" scope="col" data-r="dev.col"><!--r--><!--/r--></th>
+                    <th class="ax-table__th" scope="col">Status</th>
+                  </tr>
+                </thead>
+                <tbody data-r="dev.table"><!--r--><!--/r--></tbody>
+              </table>
+            </div>
+            <div class="ax-card__body cr-dev">
+              <div class="cr-dev__stats" data-r="dev.stats"><!--r--><!--/r--></div>
+              <div class="cr-dev__timeline" data-r="dev.timeline"><!--r--><!--/r--></div>
+
+              <!-- planning intelligence → Party Wall (MKT-01): neighbours' plans and your own -->
+              <div class="cr-plan-intel">
+                <a class="cr-plan-intel__item" href="#party-wall-notice">
+                  <span class="cr-row-ico" style="--c:var(--ax-viz-violet)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l-2 0l9 -9l9 9l-2 0"/><path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7"/><path d="M10 12h4v4h-4z"/></svg></span>
+                  <span><b>Neighbour's plans approved?</b><small>Work on or near a shared wall needs a Party Wall notice first.</small></span>
+                </a>
+                <a class="cr-plan-intel__item" href="#party-wall">
+                  <span class="cr-row-ico" style="--c:var(--ax-accent)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 12h2l-9 -9l-9 9h2v7a2 2 0 0 0 2 2h5.5"/><path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2"/><path d="M16 19h6"/><path d="M19 16v6"/></svg></span>
+                  <span><b>Planning your own extension?</b><small>Check which works are notifiable before you build.</small></span>
+                </a>
+                <a class="cr-plan-intel__item" href="https://pa.trafford.gov.uk/online-applications/" target="_blank" rel="noopener">
+                  <span class="cr-row-ico" style="--c:var(--ax-viz-cyan)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 10a7 7 0 1 0 14 0a7 7 0 1 0 -14 0"/><path d="M21 21l-6 -6"/></svg></span>
+                  <span><b>Search planning applications</b><small>Trafford Council public access</small></span>
+                </a>
+              </div>
+            </div>
+          </section>
+
+          <section class="ax-card ax-col--4" role="region" aria-label="Conservation area status" data-hide-region>
+            <div class="ax-card__header">
+              <div class="ax-card__titles">
+                <h2 class="ax-card__title">Conservation Area Status</h2>
+                <p class="ax-card__subtitle">Heritage &amp; planning constraints</p>
+              </div>
+            </div>
+            <div class="ax-card__body" style="padding-top:0;">
+              <div class="ax-alert ax-alert--info" role="status" style="margin-bottom:var(--ax-space-4);">
+                <span class="ax-alert__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 21l18 0"/><path d="M3 10l18 0"/><path d="M5 6l7 -3l7 3"/><path d="M4 10l0 11"/><path d="M20 10l0 11"/><path d="M8 14l0 3"/><path d="M12 14l0 3"/><path d="M16 14l0 3"/></svg></span>
+                <div class="ax-alert__content" data-r="conservation.alert"><!--r--><!--/r--></div>
+              </div>
+              <div data-r="conservation.list"><!--r--><!--/r--></div>
+              <p class="cr-card-note" data-m="conservation.cap">—</p>
+            </div>
+          </section>
+
+          <!-- ───── PARTY WALL ROWS (MKT-01 target audiences) ─────
+               homeowners (12) · architects & referrers (8) + adjoining owners (4) · areas we cover (12) -->
+          {{> pw-projects areaHtml='<span data-cr-area-name>Trafford</span>' guideHref='/party-wall-surveyors/trafford'}}
+          {{> pw-pros}}
+          {{> pw-notice areaHtml='<span data-cr-area-name>Trafford</span>'}}
+
+          <!-- ───── LOCAL NEWSPAPER (entered by hand: headlines + links only) ───── -->
+          <section class="ax-card ax-col--12" role="region" aria-label="Local newspaper">
+            <div class="ax-card__header">
+              <div class="ax-card__titles">
+                <span class="ax-card__eyebrow">Local press</span>
+                <h2 class="ax-card__title">Local &amp; Surrounding News</h2>
+                <p class="ax-card__subtitle" data-m="news.cap">—</p>
+              </div>
+              <span data-r="news.more"><!--r--><!--/r--></span>
+            </div>
+            <div class="ax-card__body" style="padding-top:0;" data-cr-news>
+              <div class="cr-chart-filter" role="radiogroup" aria-label="Which headlines to show" data-r="news.filter"><!--r--><!--/r--></div>
+              <div data-r="news.list"><!--r--><!--/r--></div>
+            </div>
+          </section>
+
+          <!-- ───── CLIENT REVIEWS — rendered by area-radar.js from src/js/data/reviews.js;
+               the section stays hidden while that list is empty (no placeholder reviews). -->
+          <section class="ax-card ax-col--12 cr-reviews" role="region" aria-labelledby="cr-reviews-title" data-cr-reviews hidden>
+            <div class="ax-card__header">
+              <div class="ax-card__titles">
+                <span class="ax-card__eyebrow">Corelain clients</span>
+                <h2 class="ax-card__title" id="cr-reviews-title">What our clients say</h2>
+                <p class="ax-card__subtitle">Party Wall and building surveying reviews</p>
+              </div>
+            </div>
+            <div class="ax-card__body" style="padding-top:0;"><div class="cr-reviews__grid" data-cr-reviews-list></div></div>
+          </section>
+
+          <!-- ───── FAQ — topics + answers from src/data/faq-templates.json filled with the area JSON.
+               The default view is rendered at build time (crawlers see every answer); the browser
+               re-renders it for ?area=. A question whose figures are missing is left out. -->
+          <section class="ax-card ax-col--12" role="region" aria-labelledby="cr-faq-title" data-faq>
+            <div class="ax-card__header">
+              <div class="ax-card__titles">
+                <span class="ax-card__eyebrow">Quick answers</span>
+                <h2 class="ax-card__title" id="cr-faq-title"><span data-cr-area-name>Trafford</span>: Frequently Asked Questions</h2>
+                <p class="ax-card__subtitle"><span data-m="faq.total">—</span> answers from the sourced figures on this page and the Party Wall etc. Act 1996 · data updated <span data-m="updated">—</span></p>
+              </div>
+            </div>
+            <div class="ax-card__body" style="padding-top:0;">
+              <div class="cr-faq" data-r="faq"><!--r--><!--/r--></div>
+            </div>
+          </section>
+
+        </div>
+      </main>
+      {{> footer}}
+    </div>
+  </div>
+  <!-- Toasts for page actions (shared $store.toasts queue) -->
+  <div class="ax-toast-region ax-toast-region--bottom-end" x-data aria-live="polite" aria-atomic="false">
+    <template x-for="t in $store.toasts.items" :key="t.id">
+      <div class="ax-toast" :class="'ax-toast--' + (t.tone || 'info')" role="status" x-transition.opacity.duration.200ms>
+        <svg class="ax-toast__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0"/><path d="M9 12l2 2l4 -4"/></svg>
+        <div class="ax-toast__content">
+          <p class="ax-toast__title" x-text="t.title || 'Done'"></p>
+          <p class="ax-toast__message" x-text="t.msg" x-show="t.msg"></p>
+        </div>
+        <button type="button" class="ax-toast__dismiss" @click="$store.toasts.dismiss(t.id)" aria-label="Dismiss notification">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6l-12 12"/><path d="M6 6l12 12"/></svg>
+        </button>
+      </div>
+    </template>
+  </div>
+  <!-- Structured data (schema.org) — static: Organization, WebSite, Service, WebPage, Place -->
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "{{siteUrl}}/#org",
+      "name": "Corelain",
+      "url": "https://www.corelain.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "{{siteUrl}}/images/logo-light.png",
+        "width": 579,
+        "height": 108
+      },
+      "sameAs": [
+        "https://www.corelain.com/",
+        "https://www.linkedin.com/company/corelain-ltd/",
+        "https://www.instagram.com/corelainltd/"
+      ],
+      "areaServed": [
+        {
+          "@type": "AdministrativeArea",
+          "name": "Trafford"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Greater Manchester"
+        }
+      ],
+      "telephone": "+44 161 820 1121",
+      "email": "office@corelain.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Cardinal House, 20 St Mary's Parsonage",
+        "addressLocality": "Manchester",
+        "postalCode": "M3 2LY",
+        "addressCountry": "GB"
+      },
+      "knowsAbout": [
+        "Party Wall etc. Act 1996",
+        "Party wall surveying",
+        "Building surveying",
+        "Schedules of condition"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "{{siteUrl}}/#website",
+      "url": "{{siteUrl}}/",
+      "name": "Corelain Near Me",
+      "inLanguage": "en-GB",
+      "publisher": {
+        "@id": "{{siteUrl}}/#org"
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "{{siteUrl}}/#service",
+      "name": "Party Wall surveying",
+      "serviceType": "Party Wall surveying",
+      "provider": {
+        "@id": "{{siteUrl}}/#org"
+      },
+      "areaServed": [
+        {
+          "@type": "AdministrativeArea",
+          "name": "Trafford"
+        },
+        {
+          "@type": "Place",
+          "name": "Old Trafford, Trafford",
+          "url": "{{siteUrl}}/party-wall-surveyors/old-trafford"
+        },
+        {
+          "@type": "Place",
+          "name": "Stretford, Trafford",
+          "url": "{{siteUrl}}/party-wall-surveyors/stretford"
+        },
+        {
+          "@type": "Place",
+          "name": "Sale, Trafford",
+          "url": "{{siteUrl}}/party-wall-surveyors/sale"
+        },
+        {
+          "@type": "Place",
+          "name": "Hale Barns, Trafford",
+          "url": "{{siteUrl}}/party-wall-surveyors/hale-barns"
+        },
+        {
+          "@type": "Place",
+          "name": "Hale, Trafford",
+          "url": "{{siteUrl}}/party-wall-surveyors/hale"
+        },
+        {
+          "@type": "Place",
+          "name": "Timperley, Trafford",
+          "url": "{{siteUrl}}/party-wall-surveyors/timperley"
+        },
+        {
+          "@type": "Place",
+          "name": "Carrington, Trafford",
+          "url": "{{siteUrl}}/party-wall-surveyors/carrington"
+        },
+        {
+          "@type": "Place",
+          "name": "Partington, Trafford",
+          "url": "{{siteUrl}}/party-wall-surveyors/partington"
+        },
+        {
+          "@type": "Place",
+          "name": "Dunham Massey, Trafford",
+          "url": "{{siteUrl}}/party-wall-surveyors/dunham-massey"
+        },
+        {
+          "@type": "Place",
+          "name": "Warburton, Trafford",
+          "url": "{{siteUrl}}/party-wall-surveyors/warburton"
+        },
+        {
+          "@type": "Place",
+          "name": "Urmston, Trafford",
+          "url": "{{siteUrl}}/party-wall-surveyors/urmston"
+        }
+      ],
+      "audience": [
+        {
+          "@type": "Audience",
+          "audienceType": "Homeowners"
+        },
+        {
+          "@type": "Audience",
+          "audienceType": "Adjoining owners"
+        },
+        {
+          "@type": "Audience",
+          "audienceType": "Architects and design professionals"
+        },
+        {
+          "@type": "Audience",
+          "audienceType": "Builders and professional referrers"
+        }
+      ],
+      "url": "https://www.corelain.com/party-wall-surveyor-manchester"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "{{siteUrl}}/#webpage",
+      "url": "{{siteUrl}}/",
+      "name": "Trafford: House Prices, Crime, Schools & Party Wall | Corelain",
+      "description": "Trafford, Greater Manchester: house prices, crime, Ofsted schools, transport, flood risk, regeneration and party wall advice, with sourced figures for Old Trafford (M16).",
+      "inLanguage": "en-GB",
+      "isPartOf": {
+        "@id": "{{siteUrl}}/#website"
+      },
+      "about": {
+        "@id": "{{siteUrl}}/#place"
+      },
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "url": "{{siteUrl}}/images/og-old-trafford.jpg",
+        "width": 1200,
+        "height": 630
+      },
+      "dateModified": "{{buildDate}}",
+      "publisher": {
+        "@id": "{{siteUrl}}/#org"
+      },
+      "hasPart": {
+        "@id": "{{siteUrl}}/#faq"
+      }
+    },
+    {
+      "@type": "Place",
+      "@id": "{{siteUrl}}/#place",
+      "name": "Trafford",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Trafford",
+        "addressRegion": "Greater Manchester",
+        "addressCountry": "GB"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 53.421,
+        "longitude": -2.351
+      },
+      "containedInPlace": {
+        "@type": "AdministrativeArea",
+        "name": "Greater Manchester"
+      }
+    }
+  ]
+}
+  </script>
+  <!-- Dataset + FAQPage, generated from public/data/areas/trafford.json at build time -->
+  <!--jsonld--><!--/jsonld-->
+  {{> command}}
+  <script type="module" src="/src/js/pages/area-radar-actions.js"></script>
+  {{> scripts}}
+  <script type="module" src="/src/js/pages/area-radar.js"></script>
+</body>
+</html>

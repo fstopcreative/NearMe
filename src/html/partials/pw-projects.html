@@ -1,0 +1,66 @@
+<!-- Party Wall — homeowners (MKT-01 priority 2): which projects need a notice.
+     Params: areaHtml (area name, may be a live <span data-cr-area-name>),
+             guideHref (optional link to the area's Party Wall page). -->
+<section class="ax-card ax-col--12 cr-pw" role="region" aria-labelledby="cr-pw-title" id="party-wall">
+  <div class="ax-card__header">
+    <div class="ax-card__titles">
+      <span class="ax-card__eyebrow">Party Wall · for homeowners</span>
+      <h2 class="ax-card__title" id="cr-pw-title">Planning a project in {{{areaHtml}}}?</h2>
+      <p class="ax-card__subtitle">Which home improvements need a notice under the Party Wall etc. Act 1996</p>
+    </div>
+    {{#if guideHref}}
+    <a class="ax-btn ax-btn--link" href="{{guideHref}}" data-cr-pw-link>Party Wall guide</a>
+    {{/if}}
+  </div>
+  <div class="ax-card__body" style="padding-top:0;">
+    <div class="cr-pw__grid">
+      <article class="cr-pw__item" style="--c:var(--ax-accent)">
+        <span class="cr-row-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 12h2l-9 -9l-9 9h2v7a2 2 0 0 0 2 2h5.5"/><path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2"/><path d="M16 19h6"/><path d="M19 16v6"/></svg></span>
+        <h3 class="cr-pw__title">Rear extension</h3>
+        <p class="cr-pw__text">Needs notice if you build a new wall on or astride the boundary, or dig foundations within 3&nbsp;m of a neighbour's building and deeper than theirs.</p>
+        <span class="cr-pw__meta"><span class="cr-pw__sec">Sections 1 &amp; 6</span><span class="cr-pw__odds">Often</span></span>
+      </article>
+      <article class="cr-pw__item" style="--c:var(--ax-viz-cyan)">
+        <span class="cr-row-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 21h18"/><path d="M4 21v-11l6 -5l6 5v11"/><path d="M16 21v-6h5v6"/><path d="M8 21v-4h4v4"/></svg></span>
+        <h3 class="cr-pw__title">Side extension</h3>
+        <p class="cr-pw__text">Side returns and wrap-arounds usually sit on the boundary line and need new foundations right next to the neighbour's.</p>
+        <span class="cr-pw__meta"><span class="cr-pw__sec">Sections 1 &amp; 6</span><span class="cr-pw__odds">Usually</span></span>
+      </article>
+      <article class="cr-pw__item" style="--c:var(--ax-viz-violet)">
+        <span class="cr-row-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 6h-5v5h-5v5h-5v5h-5"/><path d="M6 10v-7"/><path d="M3 6l3 -3l3 3"/></svg></span>
+        <h3 class="cr-pw__title">Loft conversion</h3>
+        <p class="cr-pw__text">Cutting steel beams into the party wall, raising it or removing a shared chimney breast is work to a party wall.</p>
+        <span class="cr-pw__meta"><span class="cr-pw__sec">Section 2</span><span class="cr-pw__odds">Usually</span></span>
+      </article>
+      <article class="cr-pw__item" style="--c:var(--ax-viz-amber)">
+        <span class="cr-row-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 21h-5v-5h-5v-5h-5v-5h-5"/><path d="M18 3v7"/><path d="M15 7l3 3l3 -3"/></svg></span>
+        <h3 class="cr-pw__title">Basement</h3>
+        <p class="cr-pw__text">Digging below your neighbour's foundations, and underpinning a shared wall, are both notifiable.</p>
+        <span class="cr-pw__meta"><span class="cr-pw__sec">Sections 2 &amp; 6</span><span class="cr-pw__odds">Almost always</span></span>
+      </article>
+      <article class="cr-pw__item" style="--c:var(--ax-viz-emerald)">
+        <span class="cr-row-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17 4l3 3"/><path d="M18.5 5.5l-8 8"/><path d="M8.276 11.284l4.44 4.44a.968 .968 0 0 1 0 1.369l-2.704 2.704a4.108 4.108 0 0 1 -5.809 -5.81l2.704 -2.703a.968 .968 0 0 1 1.37 0z"/></svg></span>
+        <h3 class="cr-pw__title">Excavation</h3>
+        <p class="cr-pw__text">Foundations, piling or deep drainage within 3&nbsp;m of a neighbour's building, or within 6&nbsp;m for deeper digs, can need notice.</p>
+        <span class="cr-pw__meta"><span class="cr-pw__sec">Section 6</span><span class="cr-pw__odds">Depends on depth</span></span>
+      </article>
+      <article class="cr-pw__item" style="--c:var(--ax-info-500)">
+        <span class="cr-row-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 6a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z"/><path d="M4 8h16"/><path d="M20 12h-16"/><path d="M4 16h16"/><path d="M9 4v4"/><path d="M14 8v4"/><path d="M8 12v4"/><path d="M16 12v4"/><path d="M11 16v4"/></svg></span>
+        <h3 class="cr-pw__title">Structural alterations</h3>
+        <p class="cr-pw__text">Inserting beams into a shared wall, cutting in flashings or taking out a chimney breast on the party wall.</p>
+        <span class="cr-pw__meta"><span class="cr-pw__sec">Section 2</span><span class="cr-pw__odds">Usually</span></span>
+      </article>
+    </div>
+    <div class="cr-pw__foot">
+      <ul class="cr-pw__facts">
+        <li><b>1 month</b> notice for new walls at the boundary and excavation</li>
+        <li><b>2 months</b> notice for work to an existing party wall</li>
+        <li><b>14 days</b> for the neighbour to reply</li>
+      </ul>
+      <div class="cr-pw__ctas">
+        <a class="ax-btn ax-btn--primary" href="https://www.corelain.com/party-wall-surveyor-manchester#partywall-enquiry" target="_blank" rel="noopener" data-cr-cta="homeowner-projects">Request a free consultation</a>
+        <a class="ax-btn ax-btn--ghost" href="tel:01618201121" data-cr-cta="homeowner-call">Call 0161 820 1121</a>
+      </div>
+    </div>
+  </div>
+</section>

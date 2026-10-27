@@ -1,0 +1,255 @@
+{
+ "schema": 1,
+ "areas": [
+  {
+   "id": "greater-manchester",
+   "name": "Greater Manchester",
+   "kind": "region",
+   "postcode": "M · BL · OL · SK · WN",
+   "updated": "2026-10-23"
+  },
+  {
+   "id": "trafford",
+   "name": "Trafford",
+   "kind": "borough",
+   "postcode": "M16–WA15",
+   "updated": "2026-10-23"
+  },
+  {
+   "id": "old-trafford",
+   "name": "Old Trafford",
+   "kind": "area",
+   "postcode": "M16",
+   "updated": "2026-10-23"
+  },
+  {
+   "id": "stretford",
+   "name": "Stretford",
+   "kind": "area",
+   "postcode": "M32",
+   "updated": "2026-10-23"
+  },
+  {
+   "id": "sale",
+   "name": "Sale",
+   "kind": "area",
+   "postcode": "M33",
+   "updated": "2026-10-23"
+  },
+  {
+   "id": "ashton-upon-mersey",
+   "name": "Ashton upon Mersey",
+   "kind": "area",
+   "postcode": "M33",
+   "updated": "2026-10-23"
+  },
+  {
+   "id": "urmston",
+   "name": "Urmston",
+   "kind": "area",
+   "postcode": "M41",
+   "updated": "2026-10-23"
+  },
+  {
+   "id": "flixton",
+   "name": "Flixton",
+   "kind": "area",
+   "postcode": "M41",
+   "updated": "2026-10-23"
+  },
+  {
+   "id": "davyhulme",
+   "name": "Davyhulme",
+   "kind": "area",
+   "postcode": "M41",
+   "updated": "2026-10-23"
+  },
+  {
+   "id": "altrincham",
+   "name": "Altrincham",
+   "kind": "area",
+   "postcode": "WA14-WA15",
+   "updated": "2026-10-23"
+  },
+  {
+   "id": "bowdon",
+   "name": "Bowdon",
+   "kind": "area",
+   "postcode": "WA14",
+   "updated": "2026-10-23"
+  },
+  {
+   "id": "broadheath",
+   "name": "Broadheath",
+   "kind": "area",
+   "postcode": "WA14",
+   "updated": "2026-10-23"
+  },
+  {
+   "id": "timperley",
+   "name": "Timperley",
+   "kind": "area",
+   "postcode": "WA15",
+   "updated": "2026-10-23"
+  },
+  {
+   "id": "hale",
+   "name": "Hale",
+   "kind": "area",
+   "postcode": "WA15",
+   "updated": "2026-10-23"
+  },
+  {
+   "id": "hale-barns",
+   "name": "Hale Barns",
+   "kind": "area",
+   "postcode": "WA15",
+   "updated": "2026-10-23"
+  },
+  {
+   "id": "partington",
+   "name": "Partington",
+   "kind": "area",
+   "postcode": "M31",
+   "updated": "2026-10-23"
+  },
+  {
+   "id": "carrington",
+   "name": "Carrington",
+   "kind": "area",
+   "postcode": "M31",
+   "updated": "2026-10-23"
+  },
+  {
+   "id": "dunham-massey",
+   "name": "Dunham Massey",
+   "kind": "area",
+   "postcode": "WA14",
+   "updated": "2026-10-23"
+  },
+  {
+   "id": "warburton",
+   "name": "Warburton",
+   "kind": "area",
+   "postcode": "WA13",
+   "updated": "2026-10-23"
+  }
+ ],
+ "sources": {
+  "ppd": {
+   "name": "HM Land Registry Price Paid Data",
+   "url": "https://landregistry.data.gov.uk/app/ppd",
+   "licence": "Open Government Licence v3.0"
+  },
+  "ukhpi": {
+   "name": "UK House Price Index (HM Land Registry / ONS)",
+   "url": "https://landregistry.data.gov.uk/app/ukhpi",
+   "licence": "Open Government Licence v3.0"
+  },
+  "crime": {
+   "name": "Home Office police recorded crime, Community Safety Partnership open data tables",
+   "url": "https://www.gov.uk/government/statistics/police-recorded-crime-open-data-tables",
+   "licence": "Open Government Licence v3.0"
+  },
+  "population": {
+   "name": "ONS mid-year population estimates (Nomis)",
+   "url": "https://www.nomisweb.co.uk/",
+   "licence": "Open Government Licence v3.0"
+  },
+  "ofsted": {
+   "name": "Ofsted management information: state-funded schools, latest inspections",
+   "url": "https://www.gov.uk/government/statistical-data-sets/monthly-management-information-ofsteds-school-inspections-outcomes",
+   "licence": "Open Government Licence v3.0"
+  },
+  "tcm": {
+   "name": "DfT Transport Connectivity Metric",
+   "url": "https://www.gov.uk/government/publications/transport-connectivity-metric",
+   "licence": "Open Government Licence v3.0"
+  },
+  "defra": {
+   "name": "Defra LAQM background maps (1 km grid)",
+   "url": "https://uk-air.defra.gov.uk/data/laqm-background-home",
+   "licence": "Open Government Licence v3.0"
+  },
+  "conservation": {
+   "name": "Planning Data — conservation areas (MHCLG)",
+   "url": "https://www.planning.data.gov.uk/dataset/conservation-area",
+   "licence": "Open Government Licence v3.0"
+  },
+  "coal": {
+   "name": "Mining Remediation Authority (Coal Authority) Data Mine",
+   "url": "https://datamine-cauk.hub.arcgis.com/",
+   "licence": "Open Government Licence v3.0"
+  },
+  "flood": {
+   "name": "Environment Agency — Check long term flood risk",
+   "url": "https://check-long-term-flood-risk.service.gov.uk/",
+   "licence": "Open Government Licence v3.0"
+  },
+  "planning": {
+   "name": "Trafford Council planning applications",
+   "url": "https://www.trafford.gov.uk/planning-and-building-control/step-by-step/search-and-comment-planning-applications/search-planning-application",
+   "licence": "Council website — entered by hand"
+  },
+  "news": {
+   "name": "Local news (edited list)",
+   "url": "https://altrincham.todaynews.co.uk/",
+   "licence": "Headlines and links only"
+  },
+  "news_rss": {
+   "name": "Local publisher RSS feeds",
+   "url": "https://altrincham.todaynews.co.uk/feed/",
+   "licence": "Publisher feeds; headlines and links only"
+  },
+  "radon_open": {
+   "name": "UKHSA / BGS Indicative Atlas of Radon (1 km)",
+   "url": "https://www.bgs.ac.uk/datasets/radon-data-indicative-atlas-of-radon/",
+   "licence": "Open Government Licence v3.0 · Radon Potential classification © UKHSA · BGS materials © UKRI"
+  },
+  "geosure_open": {
+   "name": "BGS GeoSure 5 km hex grid",
+   "url": "https://www.bgs.ac.uk/datasets/bgs-geosure-5-km-hex-grid/",
+   "licence": "Open Government Licence v3.0 · Contains BGS materials © UKRI"
+  },
+  "aqma": {
+   "name": "Trafford Council air quality management areas",
+   "url": "https://uk-air.defra.gov.uk/aqma/",
+   "licence": "Open Government Licence v3.0"
+  },
+  "tfgm": {
+   "name": "Transport for Greater Manchester timetables",
+   "url": "https://tfgm.com/",
+   "licence": "Entered by hand"
+  },
+  "editorial": {
+   "name": "Corelain editorial list",
+   "url": "https://www.corelain.com/",
+   "licence": "Links to public pages"
+  },
+  "census": {
+   "name": "ONS Census 2021 (Nomis) — Trafford Data Lab: Population & Households",
+   "url": "https://www.trafforddatalab.io/accessible_graphics/census_2021_population_and_households_infographic.html",
+   "licence": "Open Government Licence v3.0"
+  },
+  "tenure": {
+   "name": "ONS Census 2021, tenure (TS054) — How life has changed: Census 2021",
+   "url": "https://www.ons.gov.uk/visualisations/censusareachanges/E08000009/",
+   "licence": "Open Government Licence v3.0"
+  },
+  "ashe": {
+   "name": "ONS Annual Survey of Hours and Earnings (Nomis)",
+   "url": "https://www.nomisweb.co.uk/datasets/asher",
+   "licence": "Open Government Licence v3.0"
+  },
+  "pipr": {
+   "name": "ONS Price Index of Private Rents — Housing prices in your area",
+   "url": "https://www.ons.gov.uk/visualisations/housingpriceslocal/E08000009/",
+   "licence": "Open Government Licence v3.0"
+  },
+  "gtfs": {
+   "name": "TfGM bus and Metrolink timetables (GTFS)",
+   "url": "https://odata.tfgm.com/opendata/downloads/TfGMgtfsnew.zip",
+   "licence": "Open Government Licence v3.0 · Contains Transport for Greater Manchester data"
+  }
+ }
+}

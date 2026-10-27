@@ -1,0 +1,148 @@
+{
+  "_comment": "Hand-entered values for the Trafford borough view (the default screen). Only borough-wide items belong here.",
+  "reviewed": "2026-10-07",
+  "metrics": {
+    "developments": {
+      "source": "planning",
+      "period": "Checked 2026-10-07",
+      "geography": "Major schemes in Trafford",
+      "value": {
+        "schemes": [
+          {
+            "name": "New Manchester United Stadium (100,000 seats)",
+            "meta": "Land secured Jun 2026",
+            "type": "Stadium",
+            "units": null,
+            "distance": "Old Trafford",
+            "status": "Consultation",
+            "tone": "warning"
+          },
+          {
+            "name": "Old Trafford Regeneration (OTR MDC)",
+            "meta": "370-acre district · Chair Lord Coe",
+            "type": "Mixed use",
+            "units": "~15,000",
+            "distance": "Old Trafford",
+            "status": "MDC launched Jan 2026",
+            "tone": "info"
+          },
+          {
+            "name": "Trafford Wharfside Masterplan",
+            "meta": "Published Jul 2026",
+            "type": "Mixed use",
+            "units": null,
+            "distance": "Trafford Wharfside",
+            "status": "Published",
+            "tone": "info"
+          }
+        ],
+        "distance_label": "Location",
+        "stats": [
+          {
+            "value": "100,000",
+            "label": "stadium seats",
+            "icon": "stadium",
+            "tone": "--ax-viz-violet"
+          },
+          {
+            "value": "~15,000",
+            "label": "new homes",
+            "icon": "home",
+            "tone": "--ax-accent"
+          },
+          {
+            "value": "48,000",
+            "label": "local jobs",
+            "icon": "briefcase",
+            "tone": "--ax-viz-cyan"
+          },
+          {
+            "value": "370",
+            "label": "acre district",
+            "icon": "map",
+            "tone": "--ax-viz-amber"
+          }
+        ],
+        "timeline_title": "2026 milestones",
+        "timeline_hint": "Old Trafford Regeneration",
+        "timeline": [
+          {
+            "date": "Jan",
+            "title": "MDC launched",
+            "meta": "Chair Lord Coe",
+            "state": "done",
+            "tone": "--ax-info-500"
+          },
+          {
+            "date": "Jun",
+            "title": "Stadium land secured",
+            "meta": "100,000 seats",
+            "state": "done",
+            "tone": "--ax-accent"
+          },
+          {
+            "date": "Jul",
+            "title": "Wharfside masterplan",
+            "meta": "Published",
+            "state": "done",
+            "tone": "--ax-viz-violet"
+          },
+          {
+            "date": "Sep",
+            "title": "Timescale \"uncertain\"",
+            "meta": "No opening date yet",
+            "state": "now",
+            "tone": "--ax-viz-amber"
+          }
+        ]
+      }
+    },
+    "places": {
+      "source": "editorial",
+      "period": "Checked 2026-10-07",
+      "geography": "Trafford landmarks",
+      "value": [
+        {
+          "name": "Old Trafford Stadium",
+          "addr": "Sir Matt Busby Way, Old Trafford M16 0RA",
+          "type": "Stadium",
+          "dist": "",
+          "tone": "--ax-accent",
+          "ll": "53.4631,-2.2913"
+        },
+        {
+          "name": "Trafford Centre",
+          "addr": "Trafford Centre, Manchester M17 8AA",
+          "type": "Shopping centre",
+          "dist": "",
+          "tone": "--ax-viz-cyan",
+          "ll": "53.4667,-2.3480"
+        },
+        {
+          "name": "IWM North",
+          "addr": "Trafford Wharf Rd, Salford Quays M17 1TZ",
+          "type": "Museum",
+          "dist": "",
+          "tone": "--ax-viz-amber",
+          "ll": "53.4697,-2.2995"
+        },
+        {
+          "name": "Dunham Massey",
+          "addr": "Altrincham WA14 4SJ",
+          "type": "Park",
+          "dist": "",
+          "tone": "--ax-viz-emerald",
+          "ll": "53.3820,-2.3970"
+        },
+        {
+          "name": "Longford Park",
+          "addr": "Edge Ln, Stretford, Manchester",
+          "type": "Park",
+          "dist": "",
+          "tone": "--ax-viz-emerald",
+          "ll": "53.4440,-2.2940"
+        }
+      ]
+    }
+  }
+}

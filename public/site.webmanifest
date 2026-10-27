@@ -1,0 +1,13 @@
+{
+  "name": "Corelain Area Radar",
+  "short_name": "Area Radar",
+  "description": "UK area guide: house prices, crime, schools, transport and risk.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FFFFFF",
+  "theme_color": "#005603",
+  "icons": [
+    { "src": "/apple-touch-icon.png", "sizes": "180x180", "type": "image/png" },
+    { "src": "/favicon.png", "sizes": "64x64", "type": "image/png" }
+  ]
+}

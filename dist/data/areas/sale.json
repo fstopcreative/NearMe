@@ -1,0 +1,1634 @@
+{
+ "schema": 1,
+ "id": "sale",
+ "name": "Sale",
+ "kind": "area",
+ "borough": "Trafford",
+ "county": "Greater Manchester",
+ "postcode": "M33",
+ "centre": {
+  "lat": 53.4246,
+  "lng": -2.3226
+ },
+ "metrics": {
+  "air_quality": {
+   "value": {
+    "no2": 12.3,
+    "pm25": 7.0,
+    "pm10": 12.0,
+    "limits": {
+     "no2": 40,
+     "pm25": 20,
+     "pm10": 40
+    }
+   },
+   "period": "2026 annual mean (projection from the 2021 base year)",
+   "geography": "Sale — 1 km squares within 1.5 km of the centre",
+   "source": {
+    "name": "Defra LAQM background maps (1 km grid)",
+    "url": "https://uk-air.defra.gov.uk/data/laqm-background-home",
+    "licence": "Open Government Licence v3.0"
+   },
+   "status": "ok",
+   "unit": "µg/m³",
+   "note": "Modelled background concentrations; roadside levels can be higher."
+  },
+  "annual_growth": {
+   "value": 5.9,
+   "period": "12 months to 31 Jul 2026 vs previous 12 months",
+   "geography": "Sale — wards: Sale Central, Sale Moor, Brooklands, Manor",
+   "source": {
+    "name": "HM Land Registry Price Paid Data",
+    "url": "https://landregistry.data.gov.uk/app/ppd",
+    "licence": "Open Government Licence v3.0"
+   },
+   "status": "ok",
+   "unit": "%",
+   "sample": 527,
+   "previous": 396935,
+   "note": "Change in the average sold price; it moves with the mix of homes sold."
+  },
+  "aqma": {
+   "value": {
+    "inside": [],
+    "nearby": [
+     {
+      "name": "Manchester AQMA",
+      "url": "https://uk-air.defra.gov.uk/aqma/details?aqma_ref=36"
+     },
+     {
+      "name": "Trafford AQMA",
+      "url": "https://uk-air.defra.gov.uk/aqma/details?aqma_ref=84"
+     }
+    ]
+   },
+   "period": "Current declarations",
+   "geography": "within 1.5 km of the centre of Sale",
+   "source": {
+    "name": "Defra air quality management areas (via Planning Data)",
+    "url": "https://www.planning.data.gov.uk/dataset/air-quality-management-area",
+    "licence": "Open Government Licence v3.0"
+   },
+   "status": "ok"
+  },
+  "average_price": {
+   "value": 420183,
+   "period": "12 months to 31 Jul 2026",
+   "geography": "Sale — wards: Sale Central, Sale Moor, Brooklands, Manor",
+   "source": {
+    "name": "HM Land Registry Price Paid Data",
+    "url": "https://landregistry.data.gov.uk/app/ppd",
+    "licence": "Open Government Licence v3.0"
+   },
+   "status": "ok",
+   "unit": "GBP",
+   "sample": 527,
+   "median": 380000
+  },
+  "average_rent": {
+   "value": {
+    "month": "2026-09",
+    "monthly": 1373,
+    "change_12m": 3,
+    "by_beds": {
+     "one": 946,
+     "two": 1205,
+     "three": 1488,
+     "four_plus": 2113
+    },
+    "by_type": {
+     "detached": 2051,
+     "semi": 1526,
+     "terraced": 1361,
+     "flat": 1122
+    },
+    "trend": [
+     {
+      "month": "2021-10",
+      "rent": 962
+     },
+     {
+      "month": "2021-11",
+      "rent": 972
+     },
+     {
+      "month": "2021-12",
+      "rent": 983
+     },
+     {
+      "month": "2022-01",
+      "rent": 990
+     },
+     {
+      "month": "2022-02",
+      "rent": 998
+     },
+     {
+      "month": "2022-03",
+      "rent": 1004
+     },
+     {
+      "month": "2022-04",
+      "rent": 1011
+     },
+     {
+      "month": "2022-05",
+      "rent": 1019
+     },
+     {
+      "month": "2022-06",
+      "rent": 1025
+     },
+     {
+      "month": "2022-07",
+      "rent": 1031
+     },
+     {
+      "month": "2022-08",
+      "rent": 1036
+     },
+     {
+      "month": "2022-09",
+      "rent": 1042
+     },
+     {
+      "month": "2022-10",
+      "rent": 1046
+     },
+     {
+      "month": "2022-11",
+      "rent": 1051
+     },
+     {
+      "month": "2022-12",
+      "rent": 1055
+     },
+     {
+      "month": "2023-01",
+      "rent": 1061
+     },
+     {
+      "month": "2023-02",
+      "rent": 1068
+     },
+     {
+      "month": "2023-03",
+      "rent": 1077
+     },
+     {
+      "month": "2023-04",
+      "rent": 1084
+     },
+     {
+      "month": "2023-05",
+      "rent": 1089
+     },
+     {
+      "month": "2023-06",
+      "rent": 1094
+     },
+     {
+      "month": "2023-07",
+      "rent": 1102
+     },
+     {
+      "month": "2023-08",
+      "rent": 1110
+     },
+     {
+      "month": "2023-09",
+      "rent": 1121
+     },
+     {
+      "month": "2023-10",
+      "rent": 1128
+     },
+     {
+      "month": "2023-11",
+      "rent": 1134
+     },
+     {
+      "month": "2023-12",
+      "rent": 1137
+     },
+     {
+      "month": "2024-01",
+      "rent": 1141
+     },
+     {
+      "month": "2024-02",
+      "rent": 1147
+     },
+     {
+      "month": "2024-03",
+      "rent": 1150
+     },
+     {
+      "month": "2024-04",
+      "rent": 1162
+     },
+     {
+      "month": "2024-05",
+      "rent": 1178
+     },
+     {
+      "month": "2024-06",
+      "rent": 1205
+     },
+     {
+      "month": "2024-07",
+      "rent": 1232
+     },
+     {
+      "month": "2024-08",
+      "rent": 1254
+     },
+     {
+      "month": "2024-09",
+      "rent": 1269
+     },
+     {
+      "month": "2024-10",
+      "rent": 1277
+     },
+     {
+      "month": "2024-11",
+      "rent": 1289
+     },
+     {
+      "month": "2024-12",
+      "rent": 1300
+     },
+     {
+      "month": "2025-01",
+      "rent": 1310
+     },
+     {
+      "month": "2025-02",
+      "rent": 1317
+     },
+     {
+      "month": "2025-03",
+      "rent": 1322
+     },
+     {
+      "month": "2025-04",
+      "rent": 1325
+     },
+     {
+      "month": "2025-05",
+      "rent": 1327
+     },
+     {
+      "month": "2025-06",
+      "rent": 1332
+     },
+     {
+      "month": "2025-07",
+      "rent": 1334
+     },
+     {
+      "month": "2025-08",
+      "rent": 1336
+     },
+     {
+      "month": "2025-09",
+      "rent": 1333
+     },
+     {
+      "month": "2025-10",
+      "rent": 1334
+     },
+     {
+      "month": "2025-11",
+      "rent": 1340
+     },
+     {
+      "month": "2025-12",
+      "rent": 1350
+     },
+     {
+      "month": "2026-01",
+      "rent": 1358
+     },
+     {
+      "month": "2026-02",
+      "rent": 1360
+     },
+     {
+      "month": "2026-03",
+      "rent": 1358
+     },
+     {
+      "month": "2026-04",
+      "rent": 1359
+     },
+     {
+      "month": "2026-05",
+      "rent": 1362
+     },
+     {
+      "month": "2026-06",
+      "rent": 1365
+     },
+     {
+      "month": "2026-07",
+      "rent": 1367
+     },
+     {
+      "month": "2026-08",
+      "rent": 1369
+     },
+     {
+      "month": "2026-09",
+      "rent": 1373
+     }
+    ],
+    "compare": {
+     "North West": 975,
+     "England": 1466
+    }
+   },
+   "period": "September 2026 (provisional)",
+   "geography": "Trafford (local authority)",
+   "source": {
+    "name": "ONS Price Index of Private Rents — Housing prices in your area",
+    "url": "https://www.ons.gov.uk/visualisations/housingpriceslocal/E08000009/",
+    "licence": "Open Government Licence v3.0"
+   },
+   "status": "ok",
+   "unit": "GBP a month",
+   "note": "Average monthly private rent paid by tenants (ONS PIPR); the latest two months are provisional."
+  },
+  "coal_mining": {
+   "value": {
+    "reporting_area": false,
+    "development_high_risk": false,
+    "level": "none",
+    "partial": false
+   },
+   "period": "Current layers",
+   "geography": "Sale — area centre",
+   "source": {
+    "name": "Mining Remediation Authority (Coal Authority) Data Mine",
+    "url": "https://datamine-cauk.hub.arcgis.com/",
+    "licence": "Open Government Licence v3.0"
+   },
+   "status": "ok",
+   "note": "Check a specific property with a coal mining report before buying."
+  },
+  "conservation_areas": {
+   "value": {
+    "centre_inside": [],
+    "nearby": [
+     {
+      "name": "Brogden Grove",
+      "designated": "1976-05-04",
+      "distance_mi": 0.5,
+      "url": "https://www.planning.data.gov.uk/entity/44006500"
+     },
+     {
+      "name": "Brooklands",
+      "designated": "2004-03-12",
+      "distance_mi": 1.1,
+      "url": "https://www.planning.data.gov.uk/entity/44004012"
+     }
+    ],
+    "count": 2
+   },
+   "period": "Current designations",
+   "geography": "Sale — within 1.5 km of the centre",
+   "source": {
+    "name": "Planning Data — conservation areas (MHCLG)",
+    "url": "https://www.planning.data.gov.uk/dataset/conservation-area",
+    "licence": "Open Government Licence v3.0"
+   },
+   "status": "ok"
+  },
+  "crime_groups": {
+   "value": [
+    {
+     "key": "violence",
+     "label": "Violence & sexual offences",
+     "count": 5051,
+     "rate": 21.0,
+     "england_wales": 34.9,
+     "Manchester": 40.0
+    },
+    {
+     "key": "burglary",
+     "label": "Burglary",
+     "count": 543,
+     "rate": 2.3,
+     "england_wales": 3.6,
+     "Manchester": 3.5
+    },
+    {
+     "key": "vehicle",
+     "label": "Vehicle offences",
+     "count": 815,
+     "rate": 3.4,
+     "england_wales": 5.0,
+     "Manchester": 5.9
+    },
+    {
+     "key": "damage",
+     "label": "Criminal damage & arson",
+     "count": 1009,
+     "rate": 4.2,
+     "england_wales": 7.2,
+     "Manchester": 7.8
+    }
+   ],
+   "period": "12 months to June 2026",
+   "geography": "Trafford Community Safety Partnership (borough-wide)",
+   "source": {
+    "name": "Home Office police recorded crime, Community Safety Partnership open data tables",
+    "url": "https://www.gov.uk/government/statistics/police-recorded-crime-open-data-tables",
+    "licence": "Open Government Licence v3.0",
+    "file": "https://assets.publishing.service.gov.uk/media/6ad230f3a89985bb970267f2/prc-csp-mar21-jun26-tables-221026.ods"
+   },
+   "status": "ok",
+   "unit": "crimes per 1,000 residents",
+   "population_year": "2025"
+  },
+  "crime_rate": {
+   "value": 54.6,
+   "period": "12 months to June 2026",
+   "geography": "Trafford Community Safety Partnership (borough-wide)",
+   "source": {
+    "name": "Home Office police recorded crime, Community Safety Partnership open data tables",
+    "url": "https://www.gov.uk/government/statistics/police-recorded-crime-open-data-tables",
+    "licence": "Open Government Licence v3.0",
+    "file": "https://assets.publishing.service.gov.uk/media/6ad230f3a89985bb970267f2/prc-csp-mar21-jun26-tables-221026.ods"
+   },
+   "status": "ok",
+   "unit": "crimes per 1,000 residents",
+   "count": 13165,
+   "population": 240981,
+   "population_year": "2025",
+   "comparison": {
+    "England and Wales": 83.1,
+    "Greater Manchester": 74.6,
+    "Manchester": 104.1
+   },
+   "note": "Police recorded crime excluding fraud. Greater Manchester Police does not publish street-level data to police.uk, so this is a borough-wide figure."
+  },
+  "development_sites": {
+   "value": {
+    "count": 3,
+    "homes": 93,
+    "hectares": 5.0,
+    "permissioned": 1,
+    "sites": [
+     {
+      "name": "Trafford Magistrates' Court, Ashton Lane, Sale, M33 7NR",
+      "ref": "2369",
+      "homes": 50,
+      "hectares": 1.03,
+      "status": "No permission yet",
+      "permission_date": null,
+      "distance_mi": 0.2,
+      "url": "https://mappinggm.org.uk/gmodin"
+     },
+     {
+      "name": "Britannia Road, Industrial Estate, Sale",
+      "ref": "2086",
+      "homes": 43,
+      "hectares": 0.86,
+      "status": "No permission yet",
+      "permission_date": null,
+      "distance_mi": 0.4,
+      "url": "https://mappinggm.org.uk/gmodin"
+     },
+     {
+      "name": "Crossford Court, Dane Road, Sale, M33 7BZ",
+      "ref": "2605",
+      "homes": null,
+      "hectares": 3.08,
+      "status": "Permission granted",
+      "permission_date": "2019-01-16",
+      "distance_mi": 0.5,
+      "url": "https://mappinggm.org.uk/gmodin/?lyrs=brownfield_2019_gm#os_maps_light/17/53.431453/-2.3180011"
+     }
+    ]
+   },
+   "period": "Council brownfield land registers (entries up to 2019-10)",
+   "geography": "within 1.5 km of the centre of Sale",
+   "source": {
+    "name": "Planning Data — brownfield land registers (MHCLG)",
+    "url": "https://www.planning.data.gov.uk/dataset/brownfield-land",
+    "licence": "Open Government Licence v3.0"
+   },
+   "status": "ok",
+   "note": "Sites councils consider suitable for housing; capacity is the maximum net number of homes where stated."
+  },
+  "earnings": {
+   "value": {
+    "annual": 42973,
+    "previous": 39369,
+    "change_pct": 9.2,
+    "comparison": {
+     "Greater Manchester": 36497,
+     "England": 39243
+    }
+   },
+   "period": "2025 (ASHE, April; provisional)",
+   "geography": "Trafford residents (borough-wide)",
+   "source": {
+    "name": "ONS Annual Survey of Hours and Earnings (Nomis)",
+    "url": "https://www.nomisweb.co.uk/datasets/asher",
+    "licence": "Open Government Licence v3.0"
+   },
+   "status": "ok",
+   "unit": "GBP a year",
+   "note": "Median gross annual pay of full-time employees living in the area (ONS ASHE, resident analysis)."
+  },
+  "flood_zones": {
+   "value": {
+    "centre_zone": 1,
+    "zone2_nearby": 1,
+    "zone3_nearby": 1,
+    "radius_km": 1.0,
+    "borough": false
+   },
+   "period": "Current flood map for planning",
+   "geography": "Centre of Sale and land within 1 km",
+   "source": {
+    "name": "Environment Agency Flood Zones 2 and 3 (via Planning Data)",
+    "url": "https://www.planning.data.gov.uk/dataset/flood-risk-zone",
+    "licence": "Open Government Licence v3.0"
+   },
+   "status": "ok",
+   "note": "Flood Zone 1 = low probability, 2 = medium, 3 = high (rivers and the sea). Surface water risk is not included."
+  },
+  "ground": {
+   "value": {
+    "natural_subsidence": "Moderate",
+    "hazards": {
+     "collapsible_deposits": {
+      "label": "Collapsible deposits",
+      "rating": "Low"
+     },
+     "compressible_ground": {
+      "label": "Compressible ground",
+      "rating": "Low"
+     },
+     "landslides": {
+      "label": "Landslides",
+      "rating": "Low"
+     },
+     "running_sand": {
+      "label": "Running sand",
+      "rating": "Moderate"
+     },
+     "shrink_swell": {
+      "label": "Shrink–swell",
+      "rating": "Low"
+     },
+     "soluble_rocks": {
+      "label": "Soluble rocks",
+      "rating": "Low"
+     }
+    }
+   },
+   "period": "GeoSure v8 5 km hex grid",
+   "geography": "5 km generalised hexagon containing the centre of Sale",
+   "source": {
+    "name": "BGS GeoSure 5 km hex grid",
+    "url": "https://www.bgs.ac.uk/datasets/bgs-geosure-5-km-hex-grid/",
+    "licence": "Open Government Licence v3.0 · Contains BGS materials © UKRI"
+   },
+   "status": "low-confidence",
+   "note": "Regional screening only: the highest of six natural ground-movement themes. Not suitable for site-specific analysis."
+  },
+  "hpi_borough": {
+   "value": {
+    "average": 393897,
+    "growth": 6.4
+   },
+   "period": "August 2026",
+   "geography": "Trafford (local authority)",
+   "source": {
+    "name": "UK House Price Index (HM Land Registry / ONS)",
+    "url": "https://landregistry.data.gov.uk/app/ukhpi",
+    "licence": "Open Government Licence v3.0"
+   },
+   "status": "ok",
+   "unit": "GBP / %"
+  },
+  "hpi_uk": {
+   "value": {
+    "average": 273037,
+    "growth": 0.9
+   },
+   "period": "August 2026",
+   "geography": "United Kingdom",
+   "source": {
+    "name": "UK House Price Index (HM Land Registry / ONS)",
+    "url": "https://landregistry.data.gov.uk/app/ukhpi",
+    "licence": "Open Government Licence v3.0"
+   },
+   "status": "ok",
+   "unit": "GBP / %"
+  },
+  "nearest_stops": {
+   "value": {
+    "metro": {
+     "name": "Sale Metrolink",
+     "distance_mi": 0.2,
+     "walk_min": 4
+    },
+    "rail": {
+     "name": "Humphrey Park station",
+     "distance_mi": 1.9,
+     "walk_min": 50
+    },
+    "bus_stops_400m": 21,
+    "city_centre_mi": 4.9
+   },
+   "period": "Current stop register",
+   "geography": "From the centre of Sale",
+   "source": {
+    "name": "NaPTAN — national public transport stops (DfT)",
+    "url": "https://beta-naptan.dft.gov.uk/download",
+    "licence": "Open Government Licence v3.0"
+   },
+   "status": "ok",
+   "note": "Straight-line distances; walking times are estimates."
+  },
+  "news": {
+   "value": [
+    {
+     "title": "Take a look inside this charming period home on the market in Sale",
+     "excerpt": "",
+     "date": "23 Oct 2026",
+     "tag": "Local news",
+     "tone": "neutral",
+     "source": "Messenger Newspapers",
+     "domain": "messengernewspapers.co.uk",
+     "url": "https://www.messengernewspapers.co.uk/news/26657822.three-bedroom-period-property-sale-listed-420-000/?ref=rss",
+     "image": "https://www.messengernewspapers.co.uk/resources/images/21613178/",
+     "image_external": true,
+     "scope": "local"
+    },
+    {
+     "title": "Job: Experienced Sales Negotiator – Full Time at Watersons Estate Agents",
+     "excerpt": "",
+     "date": "22 Oct 2026",
+     "tag": "Local news",
+     "tone": "neutral",
+     "source": "Altrincham Today",
+     "domain": "altrincham.todaynews.co.uk",
+     "url": "https://altrincham.todaynews.co.uk/jobs/2026/10/22/job-experienced-sales-negotiator-full-time-at-watersons-estate-agents/",
+     "image": "https://storage.ghost.io/c/09/ce/09cee984-fa22-44f2-a16f-e4d816e662de/content/images/2025/10/High-resolution-logo-edit.jpg",
+     "image_external": true,
+     "scope": "local"
+    },
+    {
+     "title": "Former Sale Sharks player Hyron Andrews, 31, dies after fall at hotel before game",
+     "excerpt": "",
+     "date": "16 Oct 2026",
+     "tag": "Local news",
+     "tone": "neutral",
+     "source": "Manchester Evening News – Sale",
+     "domain": "manchestereveningnews.co.uk",
+     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/former-sale-sharks-player-hyron-34777801",
+     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34777831.ece/ALTERNATES/s615/0_Hyron-Andrews-file-photo.jpg",
+     "image_external": true,
+     "scope": "local"
+    },
+    {
+     "title": "Luxury car brand Maserati opens new dealership in Trafford",
+     "excerpt": "",
+     "date": "23 Oct 2026",
+     "tag": "Nearby · Stretford",
+     "tone": "neutral",
+     "source": "Messenger Newspapers",
+     "domain": "messengernewspapers.co.uk",
+     "url": "https://www.messengernewspapers.co.uk/news/26657704.arnold-clark-opens-new-maserati-dealership-stretford/?ref=rss",
+     "image": "https://www.messengernewspapers.co.uk/resources/images/21612969/",
+     "image_external": true,
+     "scope": "nearby",
+     "near": "Stretford"
+    },
+    {
+     "title": "Devoted husband to take on 113-mile charity run after wife's diagnosis",
+     "excerpt": "",
+     "date": "23 Oct 2026",
+     "tag": "Nearby · Stretford",
+     "tone": "neutral",
+     "source": "Messenger Newspapers",
+     "domain": "messengernewspapers.co.uk",
+     "url": "https://www.messengernewspapers.co.uk/news/26658124.stretford-man-run-113-miles-grimsby-wife/?ref=rss",
+     "image": "https://www.messengernewspapers.co.uk/resources/images/21613666/",
+     "image_external": true,
+     "scope": "nearby",
+     "near": "Stretford"
+    },
+    {
+     "title": "Councillors warn of threat to Timperley businesses over parking charges",
+     "excerpt": "",
+     "date": "21 Oct 2026",
+     "tag": "Nearby · Timperley",
+     "tone": "neutral",
+     "source": "Altrincham Today",
+     "domain": "altrincham.todaynews.co.uk",
+     "url": "https://altrincham.todaynews.co.uk/news/2026/10/21/councillors-warn-of-threat-to-timperley-businesses-over-parking-charges/",
+     "image": "https://storage.ghost.io/c/09/ce/09cee984-fa22-44f2-a16f-e4d816e662de/content/images/2026/10/thorley.jpg",
+     "image_external": true,
+     "scope": "nearby",
+     "near": "Timperley"
+    },
+    {
+     "title": "It was a tiny takeaway spot, now it's one of Trafford's best burger and gaming joints",
+     "excerpt": "",
+     "date": "20 Oct 2026",
+     "tag": "Nearby · Urmston",
+     "tone": "neutral",
+     "source": "Manchester Evening News – Trafford",
+     "domain": "manchestereveningnews.co.uk",
+     "url": "https://www.manchestereveningnews.co.uk/whats-on/food-drink-news/tiny-takeaway-spot-now-its-34789829",
+     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34790112.ece/ALTERNATES/s615/1_Hach-burgers.jpg",
+     "image_external": true,
+     "scope": "nearby",
+     "near": "Urmston"
+    }
+   ],
+   "period": "Publisher feeds checked 2026-10-23",
+   "geography": "Sale",
+   "source": {
+    "name": "Local publisher RSS feeds",
+    "url": "https://altrincham.todaynews.co.uk/feed/",
+    "licence": "Publisher feeds; headlines and links only"
+   },
+   "status": "ok",
+   "feeds": [
+    "Messenger Newspapers",
+    "Manchester Evening News – Trafford",
+    "Manchester Evening News – Sale",
+    "Altrincham Today"
+   ],
+   "feed_links": [
+    {
+     "name": "Messenger Newspapers",
+     "url": "https://www.messengernewspapers.co.uk/news/rss/"
+    },
+    {
+     "name": "Manchester Evening News – Trafford",
+     "url": "https://www.manchestereveningnews.co.uk/all-about/trafford?service=rss"
+    },
+    {
+     "name": "Manchester Evening News – Sale",
+     "url": "https://www.manchestereveningnews.co.uk/all-about/sale?service=rss"
+    },
+    {
+     "name": "Altrincham Today",
+     "url": "https://altrincham.todaynews.co.uk/feed/"
+    }
+   ],
+   "scope": "local",
+   "local_count": 3,
+   "nearby_count": 4,
+   "note": "Headlines and links only; RSS images are referenced from the publisher when supplied and are not copied."
+  },
+  "places": {
+   "value": [
+    {
+     "name": "The Square Shopping Centre",
+     "addr": "Sale",
+     "type": "Shopping centre",
+     "dist_mi": 0.0,
+     "tone": "--ax-viz-cyan",
+     "ll": "53.42422,-2.32230",
+     "dist": "0.0 mi"
+    },
+    {
+     "name": "Sale",
+     "addr": "Sale",
+     "type": "Tram stop",
+     "dist_mi": 0.1,
+     "tone": "--ax-viz-violet",
+     "ll": "53.42415,-2.31914",
+     "dist": "0.1 mi"
+    },
+    {
+     "name": "Sale Library",
+     "addr": "Sale",
+     "type": "Library",
+     "dist_mi": 0.1,
+     "tone": "--ax-viz-pink",
+     "ll": "53.42532,-2.31965",
+     "dist": "0.1 mi"
+    },
+    {
+     "name": "Kelsall Street Park",
+     "addr": "Sale",
+     "type": "Park",
+     "dist_mi": 0.2,
+     "tone": "--ax-viz-emerald",
+     "ll": "53.42170,-2.32512",
+     "dist": "0.2 mi"
+    },
+    {
+     "name": "Brooklands",
+     "addr": "Sale",
+     "type": "Tram stop",
+     "dist_mi": 0.5,
+     "tone": "--ax-viz-violet",
+     "ll": "53.41706,-2.32605",
+     "dist": "0.5 mi"
+    },
+    {
+     "name": "Worthington Park",
+     "addr": "Sale",
+     "type": "Park",
+     "dist_mi": 0.5,
+     "tone": "--ax-viz-emerald",
+     "ll": "53.42409,-2.30976",
+     "dist": "0.5 mi"
+    },
+    {
+     "name": "Heywood Road",
+     "addr": "Sale",
+     "type": "Stadium",
+     "dist_mi": 0.6,
+     "tone": "--ax-accent",
+     "ll": "53.41610,-2.32131",
+     "dist": "0.6 mi"
+    }
+   ],
+   "period": "Current map data",
+   "geography": "Within 2.5 km of the centre of Sale",
+   "source": {
+    "name": "OpenStreetMap (© OpenStreetMap contributors)",
+    "url": "https://www.openstreetmap.org/copyright",
+    "licence": "Open Database Licence (ODbL)"
+   },
+   "status": "ok"
+  },
+  "planning_constraints": {
+   "value": [
+    {
+     "label": "Listed buildings",
+     "meta": "Grade II: 18",
+     "value": "18"
+    },
+    {
+     "label": "Green Belt",
+     "meta": "Centre of the area",
+     "value": "No"
+    },
+    {
+     "label": "Article 4 directions",
+     "meta": null,
+     "value": "0"
+    },
+    {
+     "label": "Tree preservation zones",
+     "meta": null,
+     "value": "0"
+    },
+    {
+     "label": "Scheduled monuments",
+     "meta": null,
+     "value": "0"
+    }
+   ],
+   "period": "Current designations",
+   "geography": "within 1.5 km of the centre of Sale",
+   "source": {
+    "name": "Planning Data — listed buildings, Article 4, Green Belt, TPO, scheduled monuments (MHCLG / Historic England)",
+    "url": "https://www.planning.data.gov.uk/",
+    "licence": "Open Government Licence v3.0"
+   },
+   "status": "ok",
+   "listed": {
+    "total": 18,
+    "I": 0,
+    "II*": 0,
+    "II": 18,
+    "notable": []
+   },
+   "green_belt": false,
+   "article4": 0,
+   "tpo": 0,
+   "scheduled_monuments": 0
+  },
+  "population": {
+   "value": {
+    "residents": 52114,
+    "households": 21700,
+    "household_size": 2.4,
+    "age": [
+     {
+      "key": "0_14",
+      "label": "Under 15",
+      "n": 10401,
+      "pct": 20.0
+     },
+     {
+      "key": "15_24",
+      "label": "15–24",
+      "n": 4706,
+      "pct": 9.0
+     },
+     {
+      "key": "25_44",
+      "label": "25–44",
+      "n": 13771,
+      "pct": 26.4
+     },
+     {
+      "key": "45_64",
+      "label": "45–64",
+      "n": 13718,
+      "pct": 26.3
+     },
+     {
+      "key": "65",
+      "label": "65 and over",
+      "n": 9506,
+      "pct": 18.2
+     }
+    ]
+   },
+   "period": "Census 2021 (21 March 2021)",
+   "geography": "Sale — 31 census LSOAs (2021)",
+   "source": {
+    "name": "ONS Census 2021 (Nomis) — Trafford Data Lab: Population & Households",
+    "url": "https://www.trafforddatalab.io/accessible_graphics/census_2021_population_and_households_infographic.html",
+    "licence": "Open Government Licence v3.0"
+   },
+   "status": "ok",
+   "lsoas": [
+    "E01006095",
+    "E01006097",
+    "E01006098",
+    "E01006099",
+    "E01006100",
+    "E01006101",
+    "E01006102",
+    "E01006103",
+    "E01006148",
+    "E01006151",
+    "E01006152",
+    "E01006153",
+    "E01006160",
+    "E01006161",
+    "E01006162",
+    "E01006163",
+    "E01006164",
+    "E01006165",
+    "E01006166",
+    "E01006167",
+    "E01006168",
+    "E01006169",
+    "E01006170",
+    "E01006171",
+    "E01006172",
+    "E01006173",
+    "E01006174",
+    "E01006175",
+    "E01006176",
+    "E01006177",
+    "E01006178"
+   ],
+   "comparison": {
+    "England": {
+     "0_14": 17.4,
+     "15_24": 11.7,
+     "25_44": 26.6,
+     "45_64": 25.8,
+     "65": 18.4
+    },
+    "Trafford": {
+     "0_14": 19.5,
+     "15_24": 10.1,
+     "25_44": 26.5,
+     "45_64": 26.3,
+     "65": 17.6
+    }
+   },
+   "note": "Usual residents and households on Census day; age groups from TS007A."
+  },
+  "price_by_type": {
+   "value": {
+    "detached": {
+     "average_3y": 678348,
+     "sales_3y": 220,
+     "median_12m": 710000,
+     "sales_12m": 69,
+     "low_confidence": false
+    },
+    "semi": {
+     "average_3y": 460803,
+     "sales_3y": 646,
+     "median_12m": 445000,
+     "sales_12m": 209,
+     "low_confidence": false
+    },
+    "terraced": {
+     "average_3y": 344973,
+     "sales_3y": 454,
+     "median_12m": 340000,
+     "sales_12m": 129,
+     "low_confidence": false
+    },
+    "flat": {
+     "average_3y": 205916,
+     "sales_3y": 346,
+     "median_12m": 193250,
+     "sales_12m": 120,
+     "low_confidence": false
+    }
+   },
+   "period": "3 years and 12 months to 31 Jul 2026",
+   "geography": "Sale — wards: Sale Central, Sale Moor, Brooklands, Manor",
+   "source": {
+    "name": "HM Land Registry Price Paid Data",
+    "url": "https://landregistry.data.gov.uk/app/ppd",
+    "licence": "Open Government Licence v3.0"
+   },
+   "status": "ok",
+   "unit": "GBP"
+  },
+  "price_trend": {
+   "value": [
+    {
+     "year": 2016,
+     "average": 277140,
+     "sales": 778
+    },
+    {
+     "year": 2017,
+     "average": 283226,
+     "sales": 723
+    },
+    {
+     "year": 2018,
+     "average": 303386,
+     "sales": 666
+    },
+    {
+     "year": 2019,
+     "average": 319384,
+     "sales": 642
+    },
+    {
+     "year": 2020,
+     "average": 340646,
+     "sales": 574
+    },
+    {
+     "year": 2021,
+     "average": 347162,
+     "sales": 856
+    },
+    {
+     "year": 2022,
+     "average": 385676,
+     "sales": 666
+    },
+    {
+     "year": 2023,
+     "average": 399701,
+     "sales": 522
+    },
+    {
+     "year": 2024,
+     "average": 402065,
+     "sales": 565
+    },
+    {
+     "year": 2025,
+     "average": 396338,
+     "sales": 595
+    }
+   ],
+   "period": "2016–2025, calendar years",
+   "geography": "Sale — wards: Sale Central, Sale Moor, Brooklands, Manor",
+   "source": {
+    "name": "HM Land Registry Price Paid Data",
+    "url": "https://landregistry.data.gov.uk/app/ppd",
+    "licence": "Open Government Licence v3.0"
+   },
+   "status": "ok",
+   "unit": "GBP"
+  },
+  "radon": {
+   "value": {
+    "class": 1,
+    "of": 6,
+    "share": "<1% of homes above the action level"
+   },
+   "period": "Indicative Atlas version 3 (2022)",
+   "geography": "1 km grid square at the centre of Sale",
+   "source": {
+    "name": "UKHSA / BGS Indicative Atlas of Radon (1 km)",
+    "url": "https://www.bgs.ac.uk/datasets/radon-data-indicative-atlas-of-radon/",
+    "licence": "Open Government Licence v3.0 · Radon Potential classification © UKHSA · BGS materials © UKRI"
+   },
+   "status": "ok",
+   "note": "Indicative 1 km screening value; use an official address search or property test for a definitive result."
+  },
+  "routes": {
+   "value": {
+    "trams": [
+     {
+      "line": "Purple Line",
+      "from": "Altrincham",
+      "to": "Etihad Campus",
+      "trips": 1062,
+      "colour": "#7b2d8e"
+     },
+     {
+      "line": "Green Line",
+      "from": "Altrincham",
+      "to": "Bury",
+      "trips": 692,
+      "colour": "#6cbe45"
+     }
+    ],
+    "buses": [
+     {
+      "number": "263",
+      "from": "Altrincham",
+      "to": "Manchester",
+      "via": [],
+      "operators": [
+       "Bee Network"
+      ],
+      "trips": 694,
+      "school": false
+     },
+     {
+      "number": "41",
+      "from": "Middleton",
+      "to": "Sale",
+      "via": [
+       "Manchester",
+       "Northenden"
+      ],
+      "operators": [
+       "Bee Network"
+      ],
+      "trips": 258,
+      "school": false
+     },
+     {
+      "number": "249",
+      "from": "Wythenshawe",
+      "to": "Altrincham",
+      "via": [],
+      "operators": [
+       "Bee Network"
+      ],
+      "trips": 159,
+      "school": false
+     },
+     {
+      "number": "245",
+      "from": "Trafford Centre",
+      "to": "Altrincham",
+      "via": [],
+      "operators": [
+       "Bee Network"
+      ],
+      "trips": 113,
+      "school": false
+     },
+     {
+      "number": "248",
+      "from": "Eccles",
+      "to": "Manchester Airport",
+      "via": [],
+      "operators": [
+       "Bee Network"
+      ],
+      "trips": 79,
+      "school": false
+     },
+     {
+      "number": "5A",
+      "from": "Warrington",
+      "to": "Sale",
+      "via": [
+       "Latchford",
+       "Partington"
+      ],
+      "operators": [
+       "Warrington's Own Buses"
+      ],
+      "trips": 53,
+      "school": false
+     },
+     {
+      "number": "281",
+      "from": "Altrincham",
+      "to": "Sale",
+      "via": [],
+      "operators": [
+       "Bee Network"
+      ],
+      "trips": 47,
+      "school": false
+     },
+     {
+      "number": "86",
+      "from": "Chorlton",
+      "to": "Manchester",
+      "via": [],
+      "operators": [
+       "Bee Network"
+      ],
+      "trips": 36,
+      "school": false
+     },
+     {
+      "number": "5B",
+      "from": "Warrington",
+      "to": "Sale",
+      "via": [
+       "Stockton Heath",
+       "Partington"
+      ],
+      "operators": [
+       "Warrington's Own Buses"
+      ],
+      "trips": 10,
+      "school": false
+     },
+     {
+      "number": "734",
+      "from": "Moss Side",
+      "to": "Altrincham Schools",
+      "via": [],
+      "operators": [
+       "Bee Network"
+      ],
+      "trips": 4,
+      "school": false
+     },
+     {
+      "number": "756",
+      "from": "Woodsend Circle",
+      "to": "Altrincham Schools",
+      "via": [],
+      "operators": [
+       "Bee Network"
+      ],
+      "trips": 4,
+      "school": false
+     },
+     {
+      "number": "764",
+      "from": "Sale",
+      "to": "St Ambrose Collge",
+      "via": [],
+      "operators": [
+       "Bee Network"
+      ],
+      "trips": 4,
+      "school": false
+     },
+     {
+      "number": "789",
+      "from": "Lostock",
+      "to": "Blessed Thomas Holford College",
+      "via": [],
+      "operators": [
+       "Bee Network"
+      ],
+      "trips": 6,
+      "school": true
+     },
+     {
+      "number": "737",
+      "from": "Sale",
+      "to": "Altrincham College of Arts",
+      "via": [],
+      "operators": [
+       "Bee Network"
+      ],
+      "trips": 4,
+      "school": true
+     },
+     {
+      "number": "738",
+      "from": "Sale",
+      "to": "Altrincham College",
+      "via": [],
+      "operators": [
+       "Bee Network"
+      ],
+      "trips": 4,
+      "school": true
+     },
+     {
+      "number": "757",
+      "from": "Eccles",
+      "to": "Loreto Grammar School",
+      "via": [],
+      "operators": [
+       "Bee Network"
+      ],
+      "trips": 4,
+      "school": true
+     },
+     {
+      "number": "776",
+      "from": "Sale",
+      "to": "Altrincham College",
+      "via": [],
+      "operators": [
+       "Bee Network"
+      ],
+      "trips": 4,
+      "school": true
+     },
+     {
+      "number": "782",
+      "from": "Hale Barns",
+      "to": "Sale Grammar School",
+      "via": [],
+      "operators": [
+       "Bee Network"
+      ],
+      "trips": 4,
+      "school": true
+     },
+     {
+      "number": "783",
+      "from": "Sale Grammar School",
+      "to": "Bowdon Vale",
+      "via": [],
+      "operators": [
+       "Bee Network"
+      ],
+      "trips": 4,
+      "school": true
+     },
+     {
+      "number": "796",
+      "from": "Moss Side",
+      "to": "Sale Grammar School",
+      "via": [],
+      "operators": [
+       "Bee Network"
+      ],
+      "trips": 4,
+      "school": true
+     },
+     {
+      "number": "746",
+      "from": "Altrincham Grammar School",
+      "to": "Brooklands",
+      "via": [],
+      "operators": [
+       "Bee Network"
+      ],
+      "trips": 2,
+      "school": true
+     },
+     {
+      "number": "759",
+      "from": "Altrincham Girls Grammar",
+      "to": "Loreto Gramma",
+      "via": [],
+      "operators": [
+       "Bee Network"
+      ],
+      "trips": 2,
+      "school": true
+     },
+     {
+      "number": "762",
+      "from": "St Ambrose College",
+      "to": "Chorlton",
+      "via": [],
+      "operators": [
+       "Bee Network"
+      ],
+      "trips": 2,
+      "school": true
+     },
+     {
+      "number": "778",
+      "from": "Hulme",
+      "to": "Sale High School",
+      "via": [],
+      "operators": [
+       "Bee Network"
+      ],
+      "trips": 2,
+      "school": true
+     },
+     {
+      "number": "780",
+      "from": "Sale Grammar School",
+      "to": "Hale Barns",
+      "via": [],
+      "operators": [
+       "Bee Network"
+      ],
+      "trips": 1,
+      "school": true
+     }
+    ],
+    "bus_total": 25,
+    "rail": [
+     {
+      "name": "Humphrey Park",
+      "distance_mi": 1.9,
+      "url": "https://www.nationalrail.co.uk/stations/humphrey-park/",
+      "lines": [
+       {
+        "name": "Liverpool – Manchester line",
+        "from": "Liverpool Lime Street",
+        "to": "Manchester Oxford Road",
+        "via": [
+         "Warrington Central",
+         "Urmston"
+        ],
+        "operator": "Northern"
+       }
+      ],
+      "operators": []
+     }
+    ],
+    "tram_map": "https://tfgm.com/ways-to-travel/tram/network-map",
+    "rail_reviewed": "2026-10-12"
+   },
+   "period": "Timetable downloaded 2026-10-23",
+   "geography": "Stops within 1 km of the centre of Sale",
+   "source": {
+    "name": "TfGM bus and Metrolink timetables (GTFS)",
+    "url": "https://odata.tfgm.com/opendata/downloads/TfGMgtfsnew.zip",
+    "licence": "Open Government Licence v3.0 · Contains Transport for Greater Manchester data"
+   },
+   "status": "ok",
+   "note": "Buses and trams from the TfGM timetable; trains from National Rail (lines checked by hand). Ranked by timetabled journeys; school-day services are listed last."
+  },
+  "schools": {
+   "value": {
+    "score": 9.2,
+    "schools": 5,
+    "mix": {
+     "outstanding": 2,
+     "good": 1,
+     "report": 1,
+     "below": 0,
+     "none": 1
+    },
+    "nearest": [
+     {
+      "name": "Springfield Primary School",
+      "phase": "Primary",
+      "distance_mi": 0.1,
+      "grade": "Strong standard",
+      "date": "2026-04-26",
+      "url": ""
+     },
+     {
+      "name": "St Joseph's Catholic Primary School, a Voluntary Academy",
+      "phase": "Primary",
+      "distance_mi": 0.3,
+      "grade": "No overall grade",
+      "date": "2025-06-17",
+      "url": ""
+     },
+     {
+      "name": "St Mary's CofE Primary School",
+      "phase": "Primary",
+      "distance_mi": 0.4,
+      "grade": "Good",
+      "date": "2023-05-18",
+      "url": ""
+     },
+     {
+      "name": "Park Road Sale Primary School",
+      "phase": "Primary",
+      "distance_mi": 0.4,
+      "grade": "Outstanding",
+      "date": "2024-05-02",
+      "url": ""
+     },
+     {
+      "name": "Sale Grammar School",
+      "phase": "Secondary",
+      "distance_mi": 0.5,
+      "grade": "Outstanding",
+      "date": "2022-09-27",
+      "url": ""
+     }
+    ]
+   },
+   "period": "Latest inspections as at 30 September 2026",
+   "geography": "5 nearest state primary and secondary schools to the centre of Sale",
+   "source": {
+    "name": "Ofsted management information: state-funded schools, latest inspections",
+    "url": "https://www.gov.uk/government/statistical-data-sets/monthly-management-information-ofsteds-school-inspections-outcomes",
+    "licence": "Open Government Licence v3.0",
+    "file": "https://assets.publishing.service.gov.uk/media/6ad095a72de3184ccf8b818d/Management_information_-_state-funded_schools_-_latest_inspections_as_at_30_Sep_2026.csv"
+   },
+   "status": "ok",
+   "method": "Indicative 0–10 score: Outstanding 10, Good 7.5, Requires improvement 5, Inadequate 2.5; report cards: Exceptional 10, Strong 8.5, Expected 7, Needs attention 4.5, Urgent improvement 2 (mean of the evaluation areas); inspections with no overall grade use the mean of their key judgements."
+  },
+  "tenure": {
+   "value": {
+    "households": 21700,
+    "owned": 15076,
+    "shared": 97,
+    "social": 3138,
+    "private": 3377,
+    "rent_free": 12,
+    "own_pct": 69.9,
+    "rent_pct": 30.0,
+    "owned_pct": 69.5,
+    "shared_pct": 0.4,
+    "social_pct": 14.5,
+    "private_pct": 15.6,
+    "rent_free_pct": 0.1,
+    "renters_per_100_owners": 43
+   },
+   "period": "Census 2021 (21 March 2021)",
+   "geography": "Sale — 31 census LSOAs (2021)",
+   "source": {
+    "name": "ONS Census 2021, tenure (TS054) — How life has changed: Census 2021",
+    "url": "https://www.ons.gov.uk/visualisations/censusareachanges/E08000009/",
+    "licence": "Open Government Licence v3.0"
+   },
+   "status": "ok",
+   "comparison": {
+    "England": {
+     "own_pct": 62.3,
+     "rent_pct": 37.6,
+     "social_pct": 17.1,
+     "private_pct": 20.5
+    },
+    "Trafford": {
+     "own_pct": 69.6,
+     "rent_pct": 30.3,
+     "social_pct": 15.0,
+     "private_pct": 15.3
+    }
+   },
+   "note": "Households by tenure (TS054). \"Own\" includes shared ownership; \"rent\" is social plus private rented."
+  },
+  "transport_score": {
+   "value": {
+    "overall": 72.8,
+    "public_transport": 75.1,
+    "walking": 68.4,
+    "cycling": 77.8,
+    "driving": 91.0
+   },
+   "period": "Connectivity metric 2025",
+   "geography": "Sale — mean of 31 LSOAs",
+   "source": {
+    "name": "DfT Transport Connectivity Metric",
+    "url": "https://www.gov.uk/government/publications/transport-connectivity-metric",
+    "licence": "Open Government Licence v3.0",
+    "file": "https://assets.publishing.service.gov.uk/media/68c966fc07d9e92bc5517b80/connectivity_metrics_2025.ods"
+   },
+   "status": "ok",
+   "unit": "score out of 100",
+   "lsoas": [
+    "E01006095",
+    "E01006097",
+    "E01006098",
+    "E01006099",
+    "E01006100",
+    "E01006101",
+    "E01006102",
+    "E01006103",
+    "E01006148",
+    "E01006151",
+    "E01006152",
+    "E01006153",
+    "E01006160",
+    "E01006161",
+    "E01006162",
+    "E01006163",
+    "E01006164",
+    "E01006165",
+    "E01006166",
+    "E01006167",
+    "E01006168",
+    "E01006169",
+    "E01006170",
+    "E01006171",
+    "E01006172",
+    "E01006173",
+    "E01006174",
+    "E01006175",
+    "E01006176",
+    "E01006177",
+    "E01006178"
+   ],
+   "note": "Access to jobs, education, healthcare, shops and leisure by walking, cycling, public transport and driving."
+  }
+ },
+ "updated": "2026-10-23"
+}

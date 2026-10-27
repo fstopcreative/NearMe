@@ -1,0 +1,52 @@
+{
+  "_comment": [
+    "Train lines calling at stations in and around Trafford, plus the main Greater Manchester hubs.",
+    "TfGM's open GTFS covers buses and Metrolink only, so rail is entered by hand. Keys are NaPTAN station",
+    "names (without 'Rail Station'); station positions come from NaPTAN. hub: true = listed on the Greater",
+    "Manchester overview. Check against National Rail timetables when the timetable changes (May / December)."
+  ],
+  "reviewed": "2026-10-12",
+  "lines": {
+    "mid-cheshire": { "name": "Mid-Cheshire line", "from": "Manchester Piccadilly", "to": "Chester", "via": ["Stockport", "Altrincham", "Northwich"], "operator": "Northern" },
+    "clc": { "name": "Liverpool – Manchester line", "from": "Liverpool Lime Street", "to": "Manchester Oxford Road", "via": ["Warrington Central", "Urmston"], "operator": "Northern" }
+  },
+  "stations": {
+    "Navigation Road": { "lines": ["mid-cheshire"] },
+    "Altrincham": { "lines": ["mid-cheshire"] },
+    "Hale": { "lines": ["mid-cheshire"] },
+    "Ashley": { "lines": ["mid-cheshire"] },
+    "Trafford Park": { "lines": ["clc"] },
+    "Humphrey Park": { "lines": ["clc"] },
+    "Urmston": { "lines": ["clc"] },
+    "Chassen Road": { "lines": ["clc"] },
+    "Flixton": { "lines": ["clc"] },
+    "Irlam": { "lines": ["clc"] },
+    "Glazebrook": { "lines": ["clc"] },
+    "Birchwood": { "lines": ["clc"] },
+    "Padgate": { "lines": ["clc"] },
+    "Deansgate": { "lines": ["clc"] },
+    "Manchester Piccadilly": { "hub": true, "operators": [
+      { "operator": "Avanti West Coast", "to": "London Euston" },
+      { "operator": "CrossCountry", "to": "Birmingham and the South West" },
+      { "operator": "TransPennine Express", "to": "Leeds, York and the North East" },
+      { "operator": "East Midlands Railway", "to": "Sheffield, Nottingham and Norwich" },
+      { "operator": "Transport for Wales", "to": "Chester, North Wales and Cardiff" },
+      { "operator": "Northern", "to": "Local and regional services" }
+    ] },
+    "Manchester Victoria": { "hub": true, "operators": [
+      { "operator": "TransPennine Express", "to": "Liverpool, Leeds and Newcastle" },
+      { "operator": "Northern", "to": "Bolton, Wigan, Rochdale, Leeds and Blackburn" }
+    ] },
+    "Manchester Oxford Road": { "hub": true, "operators": [
+      { "operator": "Northern", "to": "Liverpool, Blackpool and local services" },
+      { "operator": "TransPennine Express", "to": "Manchester Airport and Scotland" },
+      { "operator": "East Midlands Railway", "to": "Liverpool and Norwich" },
+      { "operator": "Transport for Wales", "to": "Chester and North Wales" }
+    ] },
+    "Manchester Airport": { "hub": true, "operators": [
+      { "operator": "TransPennine Express", "to": "Leeds, the North East and Scotland" },
+      { "operator": "Northern", "to": "Manchester Piccadilly and the North West" },
+      { "operator": "Transport for Wales", "to": "Chester and North Wales" }
+    ] }
+  }
+}

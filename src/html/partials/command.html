@@ -1,0 +1,50 @@
+<!--
+  Vireo — COMMAND PALETTE  ·  #ax-command
+  ────────────────────────────────────────────────────────────────────────────
+  The panel behind the header's ⌘K search trigger, and behind its 38px icon
+  twin on phones. Opened by:
+    · the .ax-search button in partials/header.html / partials/app-bar.html,
+      which raises `ax-command-open`,
+    · ⌘K / Ctrl-K anywhere on the page,
+    · any element carrying [data-ax-command-open].
+
+  Everything below the input is EMITTED BY js/core/command-palette.js into
+  .ax-command__results — it fuzzy-searches the same nav manifest the sidebar
+  filter uses, groups the hits (Dashboards / Apps / Pages / Actions) and drives
+  ↑↓/↵/esc. This file is only the shell it fills; the module toggles `.is-open`
+  plus the `hidden` attribute on the root, so the resting state here is hidden.
+  Body scroll-lock and the focus trap are the module's job too.
+
+  Placed at BODY level (next to the customizer), never inside .ax-header — the
+  header's `backdrop-filter` makes it a containing block for fixed descendants,
+  which would pin this overlay inside the bar.
+-->
+<div id="ax-command" class="ax-command" role="dialog" aria-modal="true" aria-labelledby="ax-command-title" aria-hidden="true" hidden>
+
+  <!-- Click-catch scrim, painted behind the panel. -->
+  <button type="button" class="ax-command__backdrop" data-ax-command-backdrop aria-label="Close search" tabindex="-1"></button>
+
+  <div class="ax-command__panel">
+    <h2 id="ax-command-title" class="ax-visually-hidden">Search or jump to</h2>
+
+    <!-- ===== QUERY ROW ===== -->
+    <div class="ax-command__input">
+      <svg class="ax-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" width="24" height="24" aria-hidden="true"><path d="M3 10a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" /><path d="M21 21l-6 -6" /></svg>
+      <input type="text" data-ax-command-input placeholder="Search areas and postcodes…" aria-label="Search areas and postcodes" aria-controls="ax-command-results" autocomplete="off" autocapitalize="off" autocorrect="off" spellcheck="false" />
+      <kbd class="ax-command__keycap ax-command__keycap--esc">esc</kbd>
+      <button type="button" class="ax-icon-btn ax-command__close" data-ax-command-close aria-label="Close search">
+        <svg class="ax-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" width="24" height="24" aria-hidden="true"><path d="M18 6l-12 12" /><path d="M6 6l12 12" /></svg>
+      </button>
+    </div>
+
+    <!-- ===== RESULTS (filled by command-palette.js) ===== -->
+    <div id="ax-command-results" class="ax-command__results" data-ax-command-results role="listbox" aria-label="Search results"></div>
+
+    <!-- ===== KEY HINTS (pointer/keyboard only — hidden on phones) ===== -->
+    <div class="ax-command__foot" aria-hidden="true">
+      <span class="ax-command__hint"><kbd class="ax-command__keycap">↑</kbd><kbd class="ax-command__keycap">↓</kbd>navigate</span>
+      <span class="ax-command__hint"><kbd class="ax-command__keycap">↵</kbd>open</span>
+      <span class="ax-command__hint"><kbd class="ax-command__keycap">esc</kbd>close</span>
+    </div>
+  </div>
+</div>

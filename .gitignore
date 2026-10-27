@@ -1,0 +1,21 @@
+# Dependencies — Vercel runs `npm ci`, so these must never be committed.
+node_modules/
+
+# Downloaded source files for scripts/data/run.py. Hundreds of MB, and every
+# collector re-fetches what it needs, so there is nothing to preserve here.
+scripts/data/.cache/
+
+# Local environment (SITE_URL, GA4_ID, admin credentials…).
+.env
+.env.*
+!.env.example
+
+# OS and editor droppings
+.DS_Store
+._*
+Thumbs.db
+~$*
+
+# Python
+__pycache__/
+*.py[cod]

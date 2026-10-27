@@ -1,0 +1,346 @@
+{
+  "_about": "Publisher RSS feeds for local headlines. Bing fallback URLs from the source workbook are intentionally excluded from production. Each area shows its own matching headlines plus headlines from the neighbouring areas (their rules) and the regional feeds.",
+  "checkedAt": "2026-10-09",
+  "feeds": {
+    "altrincham-today": {
+      "name": "Altrincham Today",
+      "url": "https://altrincham.todaynews.co.uk/feed/",
+      "verified": true
+    },
+    "men-trafford": {
+      "name": "Manchester Evening News – Trafford",
+      "url": "https://www.manchestereveningnews.co.uk/all-about/trafford?service=rss",
+      "verified": true
+    },
+    "men-sale": {
+      "name": "Manchester Evening News – Sale",
+      "url": "https://www.manchestereveningnews.co.uk/all-about/sale?service=rss"
+    },
+    "men-altrincham": {
+      "name": "Manchester Evening News – Altrincham",
+      "url": "https://www.manchestereveningnews.co.uk/all-about/altrincham?service=rss"
+    },
+    "men-urmston": {
+      "name": "Manchester Evening News – Urmston",
+      "url": "https://www.manchestereveningnews.co.uk/all-about/urmston?service=rss"
+    },
+    "messenger": {
+      "name": "Messenger Newspapers",
+      "url": "https://www.messengernewspapers.co.uk/news/rss/",
+      "verified": true
+    },
+    "messenger-local": {
+      "name": "Messenger Newspapers – Local News",
+      "url": "https://www.messengernewspapers.co.uk/local-news/rss/"
+    },
+    "warrington-guardian": {
+      "name": "Warrington Guardian",
+      "url": "https://www.warringtonguardian.co.uk/news/rss/",
+      "verified": true
+    },
+    "bbc-manchester": {
+      "name": "BBC News – Manchester",
+      "url": "https://feeds.bbci.co.uk/news/england/manchester/rss.xml"
+    },
+    "men-gm": {
+      "name": "Manchester Evening News – Greater Manchester",
+      "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/?service=rss",
+      "verified": true
+    }
+  },
+  "generalFallbackFeeds": [
+    "men-trafford",
+    "messenger",
+    "men-gm",
+    "bbc-manchester"
+  ],
+  "areas": [
+    {
+      "id": "greater-manchester",
+      "feeds": [
+        "men-gm",
+        "bbc-manchester"
+      ],
+      "all": true
+    },
+    {
+      "id": "trafford",
+      "feeds": [
+        "altrincham-today",
+        "men-trafford",
+        "messenger"
+      ],
+      "match": [
+        "Trafford",
+        "Altrincham",
+        "Stretford",
+        "Sale",
+        "Urmston",
+        "Timperley",
+        "Hale",
+        "Bowdon",
+        "Carrington",
+        "Partington"
+      ]
+    },
+    {
+      "id": "old-trafford",
+      "feeds": [
+        "men-trafford",
+        "messenger"
+      ],
+      "match": [
+        "Old Trafford",
+        "M16"
+      ]
+    },
+    {
+      "id": "stretford",
+      "feeds": [
+        "messenger",
+        "men-trafford"
+      ],
+      "match": [
+        "Stretford"
+      ]
+    },
+    {
+      "id": "sale",
+      "feeds": [
+        "messenger",
+        "men-trafford",
+        "men-sale",
+        "messenger-local",
+        "altrincham-today"
+      ],
+      "fallback_feeds": [
+        "men-sale",
+        "messenger-local"
+      ],
+      "match": [
+        "Sale town centre",
+        "Sale Moor",
+        "Sale, Trafford",
+        "in Sale",
+        "Sale Water Park",
+        "Sale Sharks",
+        "M33"
+      ]
+    },
+    {
+      "id": "ashton-upon-mersey",
+      "feeds": [
+        "messenger",
+        "men-trafford",
+        "men-sale",
+        "messenger-local",
+        "altrincham-today"
+      ],
+      "fallback_feeds": [
+        "men-sale",
+        "messenger-local"
+      ],
+      "match": [
+        "Ashton upon Mersey",
+        "Ashton-upon-Mersey",
+        "Ashton on Mersey"
+      ],
+      "exclude": [
+        "Ashton-under-Lyne"
+      ]
+    },
+    {
+      "id": "urmston",
+      "feeds": [
+        "messenger",
+        "men-trafford"
+      ],
+      "match": [
+        "Urmston",
+        "Flixton",
+        "Davyhulme"
+      ]
+    },
+    {
+      "id": "flixton",
+      "feeds": [
+        "messenger",
+        "men-trafford",
+        "men-urmston",
+        "messenger-local"
+      ],
+      "fallback_feeds": [
+        "men-urmston",
+        "messenger-local"
+      ],
+      "match": [
+        "Flixton"
+      ]
+    },
+    {
+      "id": "davyhulme",
+      "feeds": [
+        "messenger",
+        "men-trafford"
+      ],
+      "match": [
+        "Davyhulme"
+      ]
+    },
+    {
+      "id": "altrincham",
+      "feeds": [
+        "altrincham-today",
+        "messenger",
+        "men-trafford"
+      ],
+      "match": [
+        "Altrincham",
+        "WA14",
+        "WA15"
+      ]
+    },
+    {
+      "id": "bowdon",
+      "feeds": [
+        "altrincham-today",
+        "men-trafford",
+        "men-altrincham"
+      ],
+      "fallback_feeds": [
+        "altrincham-today",
+        "men-altrincham"
+      ],
+      "match": [
+        "Bowdon"
+      ],
+      "exclude": [
+        "Bowdon Rugby"
+      ]
+    },
+    {
+      "id": "broadheath",
+      "feeds": [
+        "altrincham-today",
+        "messenger",
+        "men-trafford",
+        "men-altrincham"
+      ],
+      "fallback_feeds": [
+        "altrincham-today",
+        "men-altrincham"
+      ],
+      "match": [
+        "Broadheath",
+        "Altrincham Retail Park"
+      ]
+    },
+    {
+      "id": "timperley",
+      "feeds": [
+        "altrincham-today",
+        "messenger",
+        "men-trafford"
+      ],
+      "match": [
+        "Timperley"
+      ]
+    },
+    {
+      "id": "hale-barns",
+      "feeds": [
+        "altrincham-today",
+        "men-trafford",
+        "men-altrincham"
+      ],
+      "fallback_feeds": [
+        "altrincham-today",
+        "men-altrincham"
+      ],
+      "match": [
+        "Hale Barns"
+      ]
+    },
+    {
+      "id": "hale",
+      "feeds": [
+        "altrincham-today",
+        "men-trafford",
+        "men-altrincham"
+      ],
+      "fallback_feeds": [
+        "altrincham-today",
+        "men-altrincham"
+      ],
+      "match": [
+        "Hale village",
+        "in Hale",
+        "Hale, Altrincham",
+        "Hale station",
+        "Ashley Road"
+      ],
+      "exclude": [
+        "Hale Barns"
+      ]
+    },
+    {
+      "id": "partington",
+      "feeds": [
+        "messenger",
+        "men-trafford",
+        "messenger-local"
+      ],
+      "fallback_feeds": [
+        "messenger-local",
+        "men-trafford"
+      ],
+      "match": [
+        "Partington"
+      ]
+    },
+    {
+      "id": "carrington",
+      "feeds": [
+        "messenger",
+        "men-trafford"
+      ],
+      "match": [
+        "Carrington"
+      ],
+      "exclude": [
+        "Carrington Way"
+      ]
+    },
+    {
+      "id": "dunham-massey",
+      "feeds": [
+        "altrincham-today",
+        "men-trafford",
+        "men-altrincham"
+      ],
+      "fallback_feeds": [
+        "altrincham-today",
+        "men-altrincham"
+      ],
+      "match": [
+        "Dunham Massey",
+        "Dunham Town",
+        "Dunham Woodhouses"
+      ]
+    },
+    {
+      "id": "warburton",
+      "feeds": [
+        "warrington-guardian",
+        "men-trafford"
+      ],
+      "match": [
+        "Warburton Bridge",
+        "Warburton toll",
+        "Warburton village",
+        "Warburton, Lymm",
+        "WA13"
+      ]
+    }
+  ]
+}
