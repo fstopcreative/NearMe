@@ -49,7 +49,9 @@ const vercelHost = process.env.VERCEL_PROJECT_PRODUCTION_URL || process.env.VERC
 const SITE_URL = (process.env.SITE_URL || (vercelHost ? `https://${vercelHost}` : '') || fileEnv.SITE_URL || 'https://nearme.corelain.com').replace(/\/+$/, '')
 const BUILD_DATE = new Date().toISOString().slice(0, 10)
 // Analytics switches (see the head partial): GA4_ID=G-XXXX, VERCEL_ANALYTICS=true
-const GA4_ID = (process.env.GA4_ID || fileEnv.GA4_ID || '').trim()
+// The measurement id is public — it is visible in the page source — so it is
+// kept here rather than as an environment variable. GA4_ID='' turns it off.
+const GA4_ID = (process.env.GA4_ID ?? fileEnv.GA4_ID ?? 'G-R2Z2VETGY8').trim()
 const VERCEL_ANALYTICS = /^(1|true|yes)$/i.test(process.env.VERCEL_ANALYTICS || fileEnv.VERCEL_ANALYTICS || '')
 
 // ── Area data (public/data/areas/*.json, written by scripts/data/run.py) ──

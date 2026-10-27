@@ -156,6 +156,26 @@
      VERCEL_ANALYTICS=true → Vercel Web Analytics (cookieless; enable it in the Vercel project first).
      GA4_ID=G-XXXX → Google Analytics 4 with Consent Mode: no analytics cookies until the visitor
      accepts the banner (src/js/pages/track.js). CTA clicks are sent as events by track.js. -->
+<script>
+  (function () {
+    /* Skip local development, which would otherwise report into the same
+       property as the live site. track.js checks window.gtag / window.crGaId,
+       so it simply does nothing here, banner included. */
+    if (/^(localhost|127\.|0\.0\.0\.0|10\.|192\.168\.|\[?::1\]?$)/.test(location.hostname)) return;
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){ dataLayer.push(arguments); }
+    window.gtag = gtag;
+    var crConsent = null; try { crConsent = localStorage.getItem('cr:consent'); } catch (e) {}
+    gtag('consent', 'default', { analytics_storage: crConsent === 'granted' ? 'granted' : 'denied', ad_storage: 'denied', ad_user_data: 'denied', ad_personalization: 'denied' });
+    gtag('js', new Date());
+    gtag('config', 'G-R2Z2VETGY8');
+    window.crGaId = 'G-R2Z2VETGY8';
+    var s = document.createElement('script');
+    s.async = true;
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-R2Z2VETGY8';
+    document.head.appendChild(s);
+  })();
+</script>
 
 <!-- Compiled application stylesheet (token chain + Tailwind v4 @theme bridge + shell/components) -->
   <script type="module" crossorigin src="/assets/app-DukjOcJ3.js"></script>
