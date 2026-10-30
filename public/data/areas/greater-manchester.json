@@ -591,111 +591,111 @@
   "news": {
    "value": [
     {
-     "title": "Oldham shooting LIVE as street cordoned off with police on the scene",
+     "title": "Items stolen from Man Utd Munich air disaster memorial",
      "excerpt": "",
-     "date": "27 Oct 2026",
+     "date": "30 Oct 2026",
      "tag": "Local news",
      "tone": "neutral",
-     "source": "Manchester Evening News – Greater Manchester",
-     "domain": "manchestereveningnews.co.uk",
-     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/oldham-shooting-live-street-cordoned-34822129",
-     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34822154.ece/ALTERNATES/s615/0_RJ1_8686.jpg",
+     "source": "BBC News – Manchester",
+     "domain": "bbc.co.uk",
+     "url": "https://www.bbc.co.uk/news/articles/cxly4pqndz57o?at_medium=RSS&at_campaign=rss",
+     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6596/live/bb5877a0-d452-11f1-8780-edcbf4859104.jpg",
      "image_external": true,
      "scope": "local"
     },
     {
-     "title": "New Bury school plans branded 'unsafe' as scheme is rejected",
+     "title": "Urgent CCTV appeal after girl, 16, sexually attacked on Manchester city centre bus",
      "excerpt": "",
-     "date": "27 Oct 2026",
+     "date": "30 Oct 2026",
+     "tag": "Transport",
+     "tone": "info",
+     "source": "Manchester Evening News – Greater Manchester",
+     "domain": "manchestereveningnews.co.uk",
+     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/girl-16-sexually-assaulted-bus-34838125",
+     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34838164.ece/ALTERNATES/s615/2_Bus-sex-attack-appeal.jpg",
+     "image_external": true,
+     "scope": "local"
+    },
+    {
+     "title": "Student saves life of runner, 35, who collapsed at Manchester Half Marathon finish line",
+     "excerpt": "",
+     "date": "30 Oct 2026",
      "tag": "Schools",
      "tone": "success",
      "source": "Manchester Evening News – Greater Manchester",
      "domain": "manchestereveningnews.co.uk",
-     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/new-bury-school-plans-branded-34822430",
-     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34822482.ece/ALTERNATES/s615/0_Bury-Defence-Academy.jpg",
+     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/manchester-half-marathon-finish-student-34837949",
+     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34837999.ece/ALTERNATES/s615/0_Megan-McGillin.jpg",
      "image_external": true,
      "scope": "local"
     },
     {
-     "title": "Three taken to hospital as M6 motorway shut for hours",
+     "title": "Police close M61 motorway in Greater Manchester for hours as man rushed to hospital",
      "excerpt": "",
-     "date": "27 Oct 2026",
+     "date": "30 Oct 2026",
      "tag": "Transport",
      "tone": "info",
      "source": "Manchester Evening News – Greater Manchester",
      "domain": "manchestereveningnews.co.uk",
-     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/three-taken-hospital-m6-motorway-34822601",
-     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34822590.ece/ALTERNATES/s615/0_m6-36943-j20a-19-1.jpg",
+     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/m61-closed-police-incident-34837299",
+     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34837413.ece/ALTERNATES/s615/0_image-9.png",
      "image_external": true,
      "scope": "local"
     },
     {
-     "title": "M6 crash LIVE as motorway fully shut after serious incident with 90 minute delays and 8 mile queues",
+     "title": "Heartbroken bride visited Dad in hospital on wedding day",
      "excerpt": "",
-     "date": "27 Oct 2026",
-     "tag": "Transport",
-     "tone": "info",
-     "source": "Manchester Evening News – Greater Manchester",
-     "domain": "manchestereveningnews.co.uk",
-     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/m6-closed-live-m56-manchester-34821734",
-     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34822583.ece/ALTERNATES/s615/0_m6-37107-j23-j22.jpg",
-     "image_external": true,
-     "scope": "local"
-    },
-    {
-     "title": "Worker killed in horror crash between tractor, van and lorry in Edenfield roadworks",
-     "excerpt": "",
-     "date": "27 Oct 2026",
-     "tag": "Local news",
-     "tone": "neutral",
-     "source": "Manchester Evening News – Greater Manchester",
-     "domain": "manchestereveningnews.co.uk",
-     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/worker-killed-horror-crash-between-34822442",
-     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34819681.ece/ALTERNATES/s615/1_Image_014A7DF5-357D-4FC5-974F-48D010B609E1jpeg.jpg",
-     "image_external": true,
-     "scope": "local"
-    },
-    {
-     "title": "Three injured in M6 van and car crash",
-     "excerpt": "",
-     "date": "27 Oct 2026",
-     "tag": "Transport",
-     "tone": "info",
-     "source": "BBC News – Manchester",
-     "domain": "bbc.co.uk",
-     "url": "https://www.bbc.co.uk/news/articles/c9ly02zg810go?at_medium=RSS&at_campaign=rss",
-     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a469/live/745a1620-d1db-11f1-8e07-c79267b33d55.jpg",
-     "image_external": true,
-     "scope": "local"
-    },
-    {
-     "title": "Costco Manchester hit by 'absolute carnage' as huge queues of shoppers swarm on store's emergency items",
-     "excerpt": "",
-     "date": "27 Oct 2026",
-     "tag": "Local news",
-     "tone": "neutral",
-     "source": "Manchester Evening News – Greater Manchester",
-     "domain": "manchestereveningnews.co.uk",
-     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/costco-manchester-hit-absolute-carnage-34822237",
-     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34822369.ece/ALTERNATES/s615/1_Screenshot-2026-10-27-092932.png",
-     "image_external": true,
-     "scope": "local"
-    },
-    {
-     "title": "New ID rules at tips spark fly-tipping fears",
-     "excerpt": "",
-     "date": "27 Oct 2026",
+     "date": "30 Oct 2026",
      "tag": "Local news",
      "tone": "neutral",
      "source": "BBC News – Manchester",
      "domain": "bbc.co.uk",
-     "url": "https://www.bbc.co.uk/news/articles/cr89zk8l1qlqo?at_medium=RSS&at_campaign=rss",
-     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7bf8/live/12ae8010-1e57-11f1-be1b-3f7622e5cadb.png",
+     "url": "https://www.bbc.co.uk/news/articles/c9dr8mrxy4n5o?at_medium=RSS&at_campaign=rss",
+     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7a5b/live/ba2b7fe0-d3cf-11f1-9c32-1532a6164171.jpg",
+     "image_external": true,
+     "scope": "local"
+    },
+    {
+     "title": "The dangerous Ashton paedophile who poses a 'significant threat to children'",
+     "excerpt": "",
+     "date": "30 Oct 2026",
+     "tag": "Local news",
+     "tone": "neutral",
+     "source": "Manchester Evening News – Greater Manchester",
+     "domain": "manchestereveningnews.co.uk",
+     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/sex-offender-ashton-who-poses-34837391",
+     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34837459.ece/ALTERNATES/s615/0_Thomas-Reeds.jpg",
+     "image_external": true,
+     "scope": "local"
+    },
+    {
+     "title": "Prince William building new town ‘modelled’ on Greater Manchester suburb",
+     "excerpt": "",
+     "date": "30 Oct 2026",
+     "tag": "Planning",
+     "tone": "accent",
+     "source": "Manchester Evening News – Greater Manchester",
+     "domain": "manchestereveningnews.co.uk",
+     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/prince-william-new-town-manchester-34837353",
+     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34837341.ece/ALTERNATES/s615/0_Market-Street-courtyard.jpg",
+     "image_external": true,
+     "scope": "local"
+    },
+    {
+     "title": "Pumpkin carver's 'terrifying' Trump portrait goes viral",
+     "excerpt": "",
+     "date": "30 Oct 2026",
+     "tag": "Local news",
+     "tone": "neutral",
+     "source": "BBC News – Manchester",
+     "domain": "bbc.co.uk",
+     "url": "https://www.bbc.co.uk/news/articles/cw77pm50zm3po?at_medium=RSS&at_campaign=rss",
+     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0deb/live/eb731920-d396-11f1-b490-07d78ce4b8e5.jpg",
      "image_external": true,
      "scope": "local"
     }
    ],
-   "period": "Publisher feeds checked 2026-10-27",
+   "period": "Publisher feeds checked 2026-10-30",
    "geography": "Greater Manchester",
    "source": {
     "name": "Local publisher RSS feeds",
@@ -1134,6 +1134,17 @@
       "school": false
      },
      {
+      "number": "59",
+      "from": "Manchester",
+      "to": "Oldham",
+      "via": [],
+      "operators": [
+       "Bee Network"
+      ],
+      "trips": 840,
+      "school": false
+     },
+     {
       "number": "85",
       "from": "Chorlton",
       "to": "Piccadilly",
@@ -1190,7 +1201,7 @@
       "operators": [
        "Bee Network"
       ],
-      "trips": 694,
+      "trips": 684,
       "school": false
      },
      {
@@ -1255,6 +1266,17 @@
       "school": false
      },
      {
+      "number": "199",
+      "from": "Buxton",
+      "to": "Manchester Airport",
+      "via": [],
+      "operators": [
+       "High Peak"
+      ],
+      "trips": 561,
+      "school": false
+     },
+     {
       "number": "17",
       "from": "Manchester",
       "to": "Rochdale",
@@ -1263,6 +1285,19 @@
        "Bee Network"
       ],
       "trips": 548,
+      "school": false
+     },
+     {
+      "number": "237",
+      "from": "Glossop",
+      "to": "Ashton",
+      "via": [
+       "Stalybridge"
+      ],
+      "operators": [
+       "Bee Network"
+      ],
+      "trips": 540,
       "school": false
      },
      {
@@ -1349,40 +1384,6 @@
        "Bee Network"
       ],
       "trips": 462,
-      "school": false
-     },
-     {
-      "number": "409",
-      "from": "Rochdale",
-      "to": "Ashton",
-      "via": [],
-      "operators": [
-       "Bee Network"
-      ],
-      "trips": 458,
-      "school": false
-     },
-     {
-      "number": "84",
-      "from": "Manchester",
-      "to": "Uppermill",
-      "via": [],
-      "operators": [
-       "Bee Network"
-      ],
-      "trips": 450,
-      "school": false
-     },
-     {
-      "number": "156",
-      "from": "Manchester",
-      "to": "Middleton",
-      "via": [],
-      "operators": [
-       "Bee Network",
-       "Metro Network"
-      ],
-      "trips": 424,
       "school": false
      }
     ],
@@ -1484,7 +1485,7 @@
     "tram_map": "https://tfgm.com/ways-to-travel/tram/network-map",
     "rail_reviewed": "2026-10-12"
    },
-   "period": "Timetable downloaded 2026-10-27",
+   "period": "Timetable downloaded 2026-10-30",
    "geography": "Whole Greater Manchester network",
    "source": {
     "name": "TfGM bus and Metrolink timetables (GTFS)",
@@ -1574,5 +1575,5 @@
    "note": "Access to jobs, education, healthcare, shops and leisure by walking, cycling, public transport and driving."
   }
  },
- "updated": "2026-10-27"
+ "updated": "2026-10-30"
 }

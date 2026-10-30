@@ -34,8 +34,8 @@
    "note": "Modelled background concentrations; roadside levels can be higher."
   },
   "annual_growth": {
-   "value": 5.3,
-   "period": "12 months to 31 Jul 2026 vs previous 12 months",
+   "value": 5.6,
+   "period": "12 months to 31 Aug 2026 vs previous 12 months",
    "geography": "Timperley — wards: Timperley Central, Timperley North",
    "source": {
     "name": "HM Land Registry Price Paid Data",
@@ -44,8 +44,8 @@
    },
    "status": "ok",
    "unit": "%",
-   "sample": 259,
-   "previous": 429264,
+   "sample": 263,
+   "previous": 431117,
    "note": "Change in the average sold price; it moves with the mix of homes sold."
   },
   "aqma": {
@@ -54,11 +54,11 @@
     "nearby": [
      {
       "name": "Manchester AQMA",
-      "url": "https://uk-air.defra.gov.uk/aqma/details?aqma_ref=36"
+      "url": "https://uk-air.defra.gov.uk/aqma/details?aqma_ref="
      },
      {
       "name": "Trafford AQMA",
-      "url": "https://uk-air.defra.gov.uk/aqma/details?aqma_ref=84"
+      "url": "https://uk-air.defra.gov.uk/aqma/details?aqma_ref="
      }
     ]
    },
@@ -72,8 +72,8 @@
    "status": "ok"
   },
   "average_price": {
-   "value": 452179,
-   "period": "12 months to 31 Jul 2026",
+   "value": 455471,
+   "period": "12 months to 31 Aug 2026",
    "geography": "Timperley — wards: Timperley Central, Timperley North",
    "source": {
     "name": "HM Land Registry Price Paid Data",
@@ -82,8 +82,8 @@
    },
    "status": "ok",
    "unit": "GBP",
-   "sample": 259,
-   "median": 440000
+   "sample": 263,
+   "median": 437500
   },
   "average_rent": {
    "value": {
@@ -664,6 +664,19 @@
   "news": {
    "value": [
     {
+     "title": "Timperley plans its biggest Christmas lights celebration yet as switch-on date confirmed",
+     "excerpt": "",
+     "date": "30 Oct 2026",
+     "tag": "Planning",
+     "tone": "accent",
+     "source": "Altrincham Today",
+     "domain": "altrincham.todaynews.co.uk",
+     "url": "https://altrincham.todaynews.co.uk/news/2026/10/30/timperley-plans-its-biggest-christmas-lights-celebration-yet-as-switch-on-date-confirmed/",
+     "image": "https://storage.ghost.io/c/09/ce/09cee984-fa22-44f2-a16f-e4d816e662de/content/images/2026/10/timpxmas.jpg",
+     "image_external": true,
+     "scope": "local"
+    },
+    {
      "title": "Police target drivers on busy Timperley road as part of borough-wide \"crime-smashing\" crackdown",
      "excerpt": "",
      "date": "23 Oct 2026",
@@ -677,76 +690,63 @@
      "scope": "local"
     },
     {
-     "title": "Councillors warn of threat to Timperley businesses over parking charges",
+     "title": "FatFace becomes latest big-name retailer to open in Altrincham's Stamford Quarter",
      "excerpt": "",
-     "date": "21 Oct 2026",
-     "tag": "Local news",
-     "tone": "neutral",
-     "source": "Altrincham Today",
-     "domain": "altrincham.todaynews.co.uk",
-     "url": "https://altrincham.todaynews.co.uk/news/2026/10/21/councillors-warn-of-threat-to-timperley-businesses-over-parking-charges/",
-     "image": "https://storage.ghost.io/c/09/ce/09cee984-fa22-44f2-a16f-e4d816e662de/content/images/2026/10/thorley.jpg",
-     "image_external": true,
-     "scope": "local"
-    },
-    {
-     "title": "Free careers fair in Altrincham to bring together more than 35 employers and education providers",
-     "excerpt": "",
-     "date": "26 Oct 2026",
+     "date": "29 Oct 2026",
      "tag": "Nearby · Altrincham",
      "tone": "neutral",
      "source": "Altrincham Today",
      "domain": "altrincham.todaynews.co.uk",
-     "url": "https://altrincham.todaynews.co.uk/news/2026/10/26/free-careers-fair-in-altrincham-to-bring-together-more-than-35-employers-and-education-providers/",
-     "image": "https://storage.ghost.io/c/09/ce/09cee984-fa22-44f2-a16f-e4d816e662de/content/images/2026/10/554712898_24818020754504707_7581052702833179533_n--1-.jpg",
+     "url": "https://altrincham.todaynews.co.uk/news/2026/10/29/fatface-becomes-latest-big-name-retailer-to-open-in-altrinchams-stamford-quarter/",
+     "image": "https://storage.ghost.io/c/09/ce/09cee984-fa22-44f2-a16f-e4d816e662de/content/images/2026/10/fatface.jpg",
      "image_external": true,
      "scope": "nearby",
      "near": "Altrincham"
     },
     {
-     "title": "Concern over major admissions change at Altrincham Grammar for Girls",
+     "title": "CONNOR RAND: Why I’m campaigning for more services at Altrincham Hospital",
      "excerpt": "",
-     "date": "26 Oct 2026",
+     "date": "29 Oct 2026",
      "tag": "Nearby · Altrincham",
      "tone": "neutral",
      "source": "Messenger Newspapers",
      "domain": "messengernewspapers.co.uk",
-     "url": "https://www.messengernewspapers.co.uk/news/26668352.parents-raise-concerns-altrincham-grammar-admissions-plans/?ref=rss",
-     "image": "https://www.messengernewspapers.co.uk/resources/images/21628704/",
+     "url": "https://www.messengernewspapers.co.uk/news/26676612.campaigning-services-altrincham-hospital/?ref=rss",
+     "image": "https://www.messengernewspapers.co.uk/resources/images/18156895/",
      "image_external": true,
      "scope": "nearby",
      "near": "Altrincham"
     },
     {
-     "title": "ProSpinal: a new chapter for Hale’s spinal clinic",
+     "title": "Volunteers praised for transforming breastfeeding support in Trafford",
      "excerpt": "",
-     "date": "21 Oct 2026",
-     "tag": "Nearby · Hale",
-     "tone": "neutral",
-     "source": "Altrincham Today",
-     "domain": "altrincham.todaynews.co.uk",
-     "url": "https://altrincham.todaynews.co.uk/news/2026/10/21/prospinal-a-new-chapter-for-hales-spinal-clinic/",
-     "image": "https://storage.ghost.io/c/09/ce/09cee984-fa22-44f2-a16f-e4d816e662de/content/images/2026/10/ProSpinal-2.jpg",
-     "image_external": true,
-     "scope": "nearby",
-     "near": "Hale"
-    },
-    {
-     "title": "Extremely rare black swan spotted in Sale Waterpark",
-     "excerpt": "",
-     "date": "25 Oct 2026",
+     "date": "30 Oct 2026",
      "tag": "Nearby · Sale",
      "tone": "neutral",
      "source": "Messenger Newspapers",
      "domain": "messengernewspapers.co.uk",
-     "url": "https://www.messengernewspapers.co.uk/news/26667361.ultra-rare-black-swan-spotted-sale-waterpark/?ref=rss",
-     "image": "https://www.messengernewspapers.co.uk/resources/images/21627073/",
+     "url": "https://www.messengernewspapers.co.uk/news/26676622.trafford-volunteers-transform-breastfeeding-support-mums/?ref=rss",
+     "image": "https://www.messengernewspapers.co.uk/resources/images/21640258/",
+     "image_external": true,
+     "scope": "nearby",
+     "near": "Sale"
+    },
+    {
+     "title": "Job: Experienced Sales Negotiator – Full Time at Watersons Estate Agents",
+     "excerpt": "",
+     "date": "22 Oct 2026",
+     "tag": "Nearby · Sale",
+     "tone": "neutral",
+     "source": "Altrincham Today",
+     "domain": "altrincham.todaynews.co.uk",
+     "url": "https://altrincham.todaynews.co.uk/jobs/2026/10/22/job-experienced-sales-negotiator-full-time-at-watersons-estate-agents/",
+     "image": "https://storage.ghost.io/c/09/ce/09cee984-fa22-44f2-a16f-e4d816e662de/content/images/2025/10/High-resolution-logo-edit.jpg",
      "image_external": true,
      "scope": "nearby",
      "near": "Sale"
     }
    ],
-   "period": "Publisher feeds checked 2026-10-27",
+   "period": "Publisher feeds checked 2026-10-30",
    "geography": "Timperley",
    "source": {
     "name": "Local publisher RSS feeds",
@@ -758,7 +758,8 @@
     "Altrincham Today",
     "Messenger Newspapers",
     "Manchester Evening News – Trafford",
-    "Manchester Evening News – Altrincham"
+    "Manchester Evening News – Altrincham",
+    "Manchester Evening News – Sale"
    ],
    "feed_links": [
     {
@@ -776,6 +777,10 @@
     {
      "name": "Manchester Evening News – Altrincham",
      "url": "https://www.manchestereveningnews.co.uk/all-about/altrincham?service=rss"
+    },
+    {
+     "name": "Manchester Evening News – Sale",
+     "url": "https://www.manchestereveningnews.co.uk/all-about/sale?service=rss"
     }
    ],
    "scope": "local",
@@ -1005,35 +1010,35 @@
   "price_by_type": {
    "value": {
     "detached": {
-     "average_3y": 630379,
+     "average_3y": 628171,
      "sales_3y": 113,
-     "median_12m": 673500,
-     "sales_12m": 30,
+     "median_12m": 670000,
+     "sales_12m": 31,
      "low_confidence": false
     },
     "semi": {
-     "average_3y": 473806,
-     "sales_3y": 536,
-     "median_12m": 469975,
-     "sales_12m": 156,
+     "average_3y": 475706,
+     "sales_3y": 539,
+     "median_12m": 470000,
+     "sales_12m": 157,
      "low_confidence": false
     },
     "terraced": {
-     "average_3y": 356023,
-     "sales_3y": 132,
-     "median_12m": 341000,
+     "average_3y": 362004,
+     "sales_3y": 137,
+     "median_12m": 350000,
      "sales_12m": 37,
      "low_confidence": false
     },
     "flat": {
-     "average_3y": 199463,
-     "sales_3y": 129,
-     "median_12m": 184000,
-     "sales_12m": 36,
+     "average_3y": 197070,
+     "sales_3y": 126,
+     "median_12m": 182500,
+     "sales_12m": 38,
      "low_confidence": false
     }
    },
-   "period": "3 years and 12 months to 31 Jul 2026",
+   "period": "3 years and 12 months to 31 Aug 2026",
    "geography": "Timperley — wards: Timperley Central, Timperley North",
    "source": {
     "name": "HM Land Registry Price Paid Data",
@@ -1092,8 +1097,8 @@
     },
     {
      "year": 2025,
-     "average": 451032,
-     "sales": 351
+     "average": 452336,
+     "sales": 353
     }
    ],
    "period": "2016–2025, calendar years",
@@ -1145,7 +1150,7 @@
       "operators": [
        "Bee Network"
       ],
-      "trips": 95,
+      "trips": 190,
       "school": false
      },
      {
@@ -1454,7 +1459,7 @@
     "tram_map": "https://tfgm.com/ways-to-travel/tram/network-map",
     "rail_reviewed": "2026-10-12"
    },
-   "period": "Timetable downloaded 2026-10-27",
+   "period": "Timetable downloaded 2026-10-30",
    "geography": "Stops within 1 km of the centre of Timperley",
    "source": {
     "name": "TfGM bus and Metrolink timetables (GTFS)",
@@ -1608,5 +1613,5 @@
    "note": "Access to jobs, education, healthcare, shops and leisure by walking, cycling, public transport and driving."
   }
  },
- "updated": "2026-10-27"
+ "updated": "2026-10-30"
 }

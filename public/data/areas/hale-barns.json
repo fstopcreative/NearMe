@@ -34,8 +34,8 @@
    "note": "Modelled background concentrations; roadside levels can be higher."
   },
   "annual_growth": {
-   "value": 9.8,
-   "period": "12 months to 31 Jul 2026 vs previous 12 months",
+   "value": 11.3,
+   "period": "12 months to 31 Aug 2026 vs previous 12 months",
    "geography": "Hale Barns — wards: Hale Barns & Timperley South",
    "source": {
     "name": "HM Land Registry Price Paid Data",
@@ -44,8 +44,8 @@
    },
    "status": "ok",
    "unit": "%",
-   "sample": 113,
-   "previous": 828964,
+   "sample": 119,
+   "previous": 828535,
    "note": "Change in the average sold price; it moves with the mix of homes sold."
   },
   "aqma": {
@@ -54,11 +54,11 @@
     "nearby": [
      {
       "name": "Manchester AQMA",
-      "url": "https://uk-air.defra.gov.uk/aqma/details?aqma_ref=36"
+      "url": "https://uk-air.defra.gov.uk/aqma/details?aqma_ref="
      },
      {
       "name": "Trafford AQMA",
-      "url": "https://uk-air.defra.gov.uk/aqma/details?aqma_ref=84"
+      "url": "https://uk-air.defra.gov.uk/aqma/details?aqma_ref="
      }
     ]
    },
@@ -72,8 +72,8 @@
    "status": "ok"
   },
   "average_price": {
-   "value": 910112,
-   "period": "12 months to 31 Jul 2026",
+   "value": 922571,
+   "period": "12 months to 31 Aug 2026",
    "geography": "Hale Barns — wards: Hale Barns & Timperley South",
    "source": {
     "name": "HM Land Registry Price Paid Data",
@@ -82,8 +82,8 @@
    },
    "status": "ok",
    "unit": "GBP",
-   "sample": 113,
-   "median": 650000
+   "sample": 119,
+   "median": 655000
   },
   "average_rent": {
    "value": {
@@ -634,31 +634,31 @@
   "news": {
    "value": [
     {
-     "title": "Ask the Smile Experts: My child's teeth are crooked – when should I start to worry?",
+     "title": "Opening date update for new Hale Barns Waitrose as refurbishment continues",
      "excerpt": "",
-     "date": "19 Oct 2026",
+     "date": "27 Oct 2026",
      "tag": "Local news",
      "tone": "neutral",
      "source": "Altrincham Today",
      "domain": "altrincham.todaynews.co.uk",
-     "url": "https://altrincham.todaynews.co.uk/news/2026/10/19/ask-the-smile-experts-my-childs-teeth-are-crooked-when-should-i-start-to-worry/",
-     "image": "https://storage.ghost.io/c/09/ce/09cee984-fa22-44f2-a16f-e4d816e662de/content/images/2026/10/Smile-Stylis_Nov2025-18--1-.jpg",
+     "url": "https://altrincham.todaynews.co.uk/news/2026/10/27/opening-date-update-for-new-hale-barns-waitrose-as-refurbishment-continues/",
+     "image": "https://storage.ghost.io/c/09/ce/09cee984-fa22-44f2-a16f-e4d816e662de/content/images/2026/10/hb1.webp",
      "image_external": true,
      "scope": "local"
     },
     {
-     "title": "ProSpinal: a new chapter for Hale’s spinal clinic",
+     "title": "Timperley plans its biggest Christmas lights celebration yet as switch-on date confirmed",
      "excerpt": "",
-     "date": "21 Oct 2026",
-     "tag": "Nearby · Hale",
+     "date": "30 Oct 2026",
+     "tag": "Nearby · Timperley",
      "tone": "neutral",
      "source": "Altrincham Today",
      "domain": "altrincham.todaynews.co.uk",
-     "url": "https://altrincham.todaynews.co.uk/news/2026/10/21/prospinal-a-new-chapter-for-hales-spinal-clinic/",
-     "image": "https://storage.ghost.io/c/09/ce/09cee984-fa22-44f2-a16f-e4d816e662de/content/images/2026/10/ProSpinal-2.jpg",
+     "url": "https://altrincham.todaynews.co.uk/news/2026/10/30/timperley-plans-its-biggest-christmas-lights-celebration-yet-as-switch-on-date-confirmed/",
+     "image": "https://storage.ghost.io/c/09/ce/09cee984-fa22-44f2-a16f-e4d816e662de/content/images/2026/10/timpxmas.jpg",
      "image_external": true,
      "scope": "nearby",
-     "near": "Hale"
+     "near": "Timperley"
     },
     {
      "title": "Police target drivers on busy Timperley road as part of borough-wide \"crime-smashing\" crackdown",
@@ -675,35 +675,35 @@
      "near": "Timperley"
     },
     {
-     "title": "Councillors warn of threat to Timperley businesses over parking charges",
+     "title": "FatFace becomes latest big-name retailer to open in Altrincham's Stamford Quarter",
      "excerpt": "",
-     "date": "21 Oct 2026",
-     "tag": "Nearby · Timperley",
-     "tone": "neutral",
-     "source": "Altrincham Today",
-     "domain": "altrincham.todaynews.co.uk",
-     "url": "https://altrincham.todaynews.co.uk/news/2026/10/21/councillors-warn-of-threat-to-timperley-businesses-over-parking-charges/",
-     "image": "https://storage.ghost.io/c/09/ce/09cee984-fa22-44f2-a16f-e4d816e662de/content/images/2026/10/thorley.jpg",
-     "image_external": true,
-     "scope": "nearby",
-     "near": "Timperley"
-    },
-    {
-     "title": "Free careers fair in Altrincham to bring together more than 35 employers and education providers",
-     "excerpt": "",
-     "date": "26 Oct 2026",
+     "date": "29 Oct 2026",
      "tag": "Nearby · Altrincham",
      "tone": "neutral",
      "source": "Altrincham Today",
      "domain": "altrincham.todaynews.co.uk",
-     "url": "https://altrincham.todaynews.co.uk/news/2026/10/26/free-careers-fair-in-altrincham-to-bring-together-more-than-35-employers-and-education-providers/",
-     "image": "https://storage.ghost.io/c/09/ce/09cee984-fa22-44f2-a16f-e4d816e662de/content/images/2026/10/554712898_24818020754504707_7581052702833179533_n--1-.jpg",
+     "url": "https://altrincham.todaynews.co.uk/news/2026/10/29/fatface-becomes-latest-big-name-retailer-to-open-in-altrinchams-stamford-quarter/",
+     "image": "https://storage.ghost.io/c/09/ce/09cee984-fa22-44f2-a16f-e4d816e662de/content/images/2026/10/fatface.jpg",
+     "image_external": true,
+     "scope": "nearby",
+     "near": "Altrincham"
+    },
+    {
+     "title": "CONNOR RAND: Why I’m campaigning for more services at Altrincham Hospital",
+     "excerpt": "",
+     "date": "29 Oct 2026",
+     "tag": "Nearby · Altrincham",
+     "tone": "neutral",
+     "source": "Messenger Newspapers",
+     "domain": "messengernewspapers.co.uk",
+     "url": "https://www.messengernewspapers.co.uk/news/26676612.campaigning-services-altrincham-hospital/?ref=rss",
+     "image": "https://www.messengernewspapers.co.uk/resources/images/18156895/",
      "image_external": true,
      "scope": "nearby",
      "near": "Altrincham"
     }
    ],
-   "period": "Publisher feeds checked 2026-10-27",
+   "period": "Publisher feeds checked 2026-10-30",
    "geography": "Hale Barns",
    "source": {
     "name": "Local publisher RSS feeds",
@@ -952,35 +952,35 @@
   "price_by_type": {
    "value": {
     "detached": {
-     "average_3y": 1082906,
-     "sales_3y": 223,
-     "median_12m": 775000,
-     "sales_12m": 67,
+     "average_3y": 1100342,
+     "sales_3y": 235,
+     "median_12m": 822500,
+     "sales_12m": 74,
      "low_confidence": false
     },
     "semi": {
-     "average_3y": 508682,
-     "sales_3y": 111,
-     "median_12m": 475000,
+     "average_3y": 509133,
+     "sales_3y": 114,
+     "median_12m": 472500,
      "sales_12m": 33,
      "low_confidence": false
     },
     "terraced": {
-     "average_3y": 399409,
-     "sales_3y": 22,
-     "median_12m": 320000,
-     "sales_12m": 9,
+     "average_3y": 400000,
+     "sales_3y": 23,
+     "median_12m": 337500,
+     "sales_12m": 10,
      "low_confidence": true
     },
     "flat": {
      "average_3y": 423060,
      "sales_3y": 24,
      "median_12m": null,
-     "sales_12m": 4,
+     "sales_12m": 2,
      "low_confidence": true
     }
    },
-   "period": "3 years and 12 months to 31 Jul 2026",
+   "period": "3 years and 12 months to 31 Aug 2026",
    "geography": "Hale Barns — wards: Hale Barns & Timperley South",
    "source": {
     "name": "HM Land Registry Price Paid Data",
@@ -1039,8 +1039,8 @@
     },
     {
      "year": 2025,
-     "average": 895934,
-     "sales": 145
+     "average": 899453,
+     "sales": 149
     }
    ],
    "period": "2016–2025, calendar years",
@@ -1074,17 +1074,6 @@
     "trams": [],
     "buses": [
      {
-      "number": "288",
-      "from": "Manchester Airport",
-      "to": "Altrincham",
-      "via": [],
-      "operators": [
-       "Bee Network"
-      ],
-      "trips": 74,
-      "school": false
-     },
-     {
       "number": "88",
       "from": "Altrincham",
       "to": "Knutsford",
@@ -1094,7 +1083,18 @@
       "operators": [
        "D&G Bus"
       ],
-      "trips": 47,
+      "trips": 140,
+      "school": false
+     },
+     {
+      "number": "288",
+      "from": "Manchester Airport",
+      "to": "Altrincham",
+      "via": [],
+      "operators": [
+       "Bee Network"
+      ],
+      "trips": 74,
       "school": false
      },
      {
@@ -1170,23 +1170,26 @@
       "school": false
      },
      {
-      "number": "5",
-      "from": "Broomedge",
-      "to": "Altrincham",
-      "via": [],
-      "operators": [
-       "Warrington's Own Buses"
-      ],
-      "trips": 2,
-      "school": false
-     },
-     {
       "number": "287",
       "from": "Altrincham",
       "to": "Bowdon Vale circular",
       "via": [],
       "operators": [
        "Bee Network"
+      ],
+      "trips": 1,
+      "school": false
+     },
+     {
+      "number": "5",
+      "from": "Warrington",
+      "to": "Altrinch",
+      "via": [
+       "Stockton Heath",
+       "Broomedge"
+      ],
+      "operators": [
+       "Warrington's Own Buses"
       ],
       "trips": 1,
       "school": false
@@ -1347,7 +1350,7 @@
     "tram_map": "https://tfgm.com/ways-to-travel/tram/network-map",
     "rail_reviewed": "2026-10-12"
    },
-   "period": "Timetable downloaded 2026-10-27",
+   "period": "Timetable downloaded 2026-10-30",
    "geography": "Stops within 1 km of the centre of Hale Barns",
    "source": {
     "name": "TfGM bus and Metrolink timetables (GTFS)",
@@ -1495,5 +1498,5 @@
    "note": "Access to jobs, education, healthcare, shops and leisure by walking, cycling, public transport and driving."
   }
  },
- "updated": "2026-10-27"
+ "updated": "2026-10-30"
 }

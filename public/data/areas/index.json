@@ -6,133 +6,133 @@
    "name": "Greater Manchester",
    "kind": "region",
    "postcode": "M · BL · OL · SK · WN",
-   "updated": "2026-10-27"
+   "updated": "2026-10-30"
   },
   {
    "id": "trafford",
    "name": "Trafford",
    "kind": "borough",
    "postcode": "M16–WA15",
-   "updated": "2026-10-27"
+   "updated": "2026-10-30"
   },
   {
    "id": "old-trafford",
    "name": "Old Trafford",
    "kind": "area",
    "postcode": "M16",
-   "updated": "2026-10-27"
+   "updated": "2026-10-30"
   },
   {
    "id": "stretford",
    "name": "Stretford",
    "kind": "area",
    "postcode": "M32",
-   "updated": "2026-10-27"
+   "updated": "2026-10-30"
   },
   {
    "id": "sale",
    "name": "Sale",
    "kind": "area",
    "postcode": "M33",
-   "updated": "2026-10-27"
+   "updated": "2026-10-30"
   },
   {
    "id": "ashton-upon-mersey",
    "name": "Ashton upon Mersey",
    "kind": "area",
    "postcode": "M33",
-   "updated": "2026-10-27"
+   "updated": "2026-10-30"
   },
   {
    "id": "urmston",
    "name": "Urmston",
    "kind": "area",
    "postcode": "M41",
-   "updated": "2026-10-27"
+   "updated": "2026-10-30"
   },
   {
    "id": "flixton",
    "name": "Flixton",
    "kind": "area",
    "postcode": "M41",
-   "updated": "2026-10-27"
+   "updated": "2026-10-30"
   },
   {
    "id": "davyhulme",
    "name": "Davyhulme",
    "kind": "area",
    "postcode": "M41",
-   "updated": "2026-10-27"
+   "updated": "2026-10-30"
   },
   {
    "id": "altrincham",
    "name": "Altrincham",
    "kind": "area",
    "postcode": "WA14-WA15",
-   "updated": "2026-10-27"
+   "updated": "2026-10-30"
   },
   {
    "id": "bowdon",
    "name": "Bowdon",
    "kind": "area",
    "postcode": "WA14",
-   "updated": "2026-10-27"
+   "updated": "2026-10-30"
   },
   {
    "id": "broadheath",
    "name": "Broadheath",
    "kind": "area",
    "postcode": "WA14",
-   "updated": "2026-10-27"
+   "updated": "2026-10-30"
   },
   {
    "id": "timperley",
    "name": "Timperley",
    "kind": "area",
    "postcode": "WA15",
-   "updated": "2026-10-27"
+   "updated": "2026-10-30"
   },
   {
    "id": "hale",
    "name": "Hale",
    "kind": "area",
    "postcode": "WA15",
-   "updated": "2026-10-27"
+   "updated": "2026-10-30"
   },
   {
    "id": "hale-barns",
    "name": "Hale Barns",
    "kind": "area",
    "postcode": "WA15",
-   "updated": "2026-10-27"
+   "updated": "2026-10-30"
   },
   {
    "id": "partington",
    "name": "Partington",
    "kind": "area",
    "postcode": "M31",
-   "updated": "2026-10-27"
+   "updated": "2026-10-30"
   },
   {
    "id": "carrington",
    "name": "Carrington",
    "kind": "area",
    "postcode": "M31",
-   "updated": "2026-10-27"
+   "updated": "2026-10-30"
   },
   {
    "id": "dunham-massey",
    "name": "Dunham Massey",
    "kind": "area",
    "postcode": "WA14",
-   "updated": "2026-10-27"
+   "updated": "2026-10-30"
   },
   {
    "id": "warburton",
    "name": "Warburton",
    "kind": "area",
    "postcode": "WA13",
-   "updated": "2026-10-27"
+   "updated": "2026-10-30"
   }
  ],
  "sources": {

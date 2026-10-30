@@ -34,8 +34,8 @@
    "note": "Modelled background concentrations; roadside levels can be higher."
   },
   "annual_growth": {
-   "value": -9.5,
-   "period": "12 months to 31 Jul 2026 vs previous 12 months",
+   "value": -4.1,
+   "period": "12 months to 31 Aug 2026 vs previous 12 months",
    "geography": "Partington — Land Registry address locality",
    "source": {
     "name": "HM Land Registry Price Paid Data",
@@ -44,8 +44,8 @@
    },
    "status": "ok",
    "unit": "%",
-   "sample": 69,
-   "previous": 262428,
+   "sample": 78,
+   "previous": 260359,
    "note": "Change in the average sold price; it moves with the mix of homes sold."
   },
   "aqma": {
@@ -54,7 +54,7 @@
     "nearby": [
      {
       "name": "Salford AQMA",
-      "url": "https://uk-air.defra.gov.uk/aqma/details?aqma_ref=134"
+      "url": "https://uk-air.defra.gov.uk/aqma/details?aqma_ref="
      }
     ]
    },
@@ -68,8 +68,8 @@
    "status": "ok"
   },
   "average_price": {
-   "value": 237599,
-   "period": "12 months to 31 Jul 2026",
+   "value": 249614,
+   "period": "12 months to 31 Aug 2026",
    "geography": "Partington — Land Registry address locality",
    "source": {
     "name": "HM Land Registry Price Paid Data",
@@ -78,8 +78,8 @@
    },
    "status": "ok",
    "unit": "GBP",
-   "sample": 69,
-   "median": 245000
+   "sample": 78,
+   "median": 252500
   },
   "average_rent": {
    "value": {
@@ -693,60 +693,111 @@
   "news": {
    "value": [
     {
-     "title": "It was a tiny takeaway spot, now it's one of Trafford's best burger and gaming joints",
+     "title": "Volunteers praised for transforming breastfeeding support in Trafford",
      "excerpt": "",
-     "date": "20 Oct 2026",
-     "tag": "Nearby · Flixton",
+     "date": "30 Oct 2026",
+     "tag": "Local news",
      "tone": "neutral",
-     "source": "Manchester Evening News – Trafford",
-     "domain": "manchestereveningnews.co.uk",
-     "url": "https://www.manchestereveningnews.co.uk/whats-on/food-drink-news/tiny-takeaway-spot-now-its-34789829",
-     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34790112.ece/ALTERNATES/s615/1_Hach-burgers.jpg",
+     "source": "Messenger Newspapers",
+     "domain": "messengernewspapers.co.uk",
+     "url": "https://www.messengernewspapers.co.uk/news/26676622.trafford-volunteers-transform-breastfeeding-support-mums/?ref=rss",
+     "image": "https://www.messengernewspapers.co.uk/resources/images/21640258/",
      "image_external": true,
-     "scope": "nearby",
-     "near": "Flixton"
+     "scope": "local"
     },
     {
-     "title": "Costco Manchester hit by 'absolute carnage' as huge queues of shoppers swarm on store's emergency items",
+     "title": "Couple from Partington celebrate 65th wedding anniversary",
      "excerpt": "",
-     "date": "27 Oct 2026",
+     "date": "30 Oct 2026",
+     "tag": "Local news",
+     "tone": "neutral",
+     "source": "Messenger Newspapers",
+     "domain": "messengernewspapers.co.uk",
+     "url": "https://www.messengernewspapers.co.uk/news/26674783.couple-partington-celebrate-65th-wedding-anniversary/?ref=rss",
+     "image": "https://www.messengernewspapers.co.uk/resources/images/21637707/",
+     "image_external": true,
+     "scope": "local"
+    },
+    {
+     "title": "The decision on the hugely controversial Carrington Relief Road will soon be known",
+     "excerpt": "",
+     "date": "29 Oct 2026",
+     "tag": "Transport",
+     "tone": "info",
+     "source": "Manchester Evening News – Trafford",
+     "domain": "manchestereveningnews.co.uk",
+     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/decision-hugely-controversial-carrington-relief-34835999",
+     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34740674.ece/ALTERNATES/s615/0_Carrington-Moss-1.jpg",
+     "image_external": true,
+     "scope": "local"
+    },
+    {
+     "title": "Connecting Partington scheme progresses with crossings and cycle links",
+     "excerpt": "",
+     "date": "29 Oct 2026",
+     "tag": "Transport",
+     "tone": "info",
+     "source": "Messenger Newspapers",
+     "domain": "messengernewspapers.co.uk",
+     "url": "https://www.messengernewspapers.co.uk/news/26676877.partington-transport-improvement-scheme-moves-forward/?ref=rss",
+     "image": "https://www.messengernewspapers.co.uk/resources/images/21640578/",
+     "image_external": true,
+     "scope": "local"
+    },
+    {
+     "title": "P.Louise to open Trafford Palazzo restaurant with pink pony party booths and the 'best' Sunday dinner",
+     "excerpt": "",
+     "date": "29 Oct 2026",
      "tag": "Nearby news",
      "tone": "neutral",
      "source": "Manchester Evening News – Trafford",
      "domain": "manchestereveningnews.co.uk",
-     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/costco-manchester-hit-absolute-carnage-34822237",
-     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34822369.ece/ALTERNATES/s615/1_Screenshot-2026-10-27-092932.png",
+     "url": "https://www.manchestereveningnews.co.uk/whats-on/food-drink-news/plouise-open-trafford-palazzo-restaurant-34835044",
+     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34835170.ece/ALTERNATES/s615/0_AMR_MEN_291026_PL_03.jpg",
      "image_external": true,
      "scope": "nearby"
     },
     {
-     "title": "New rule coming to Greater Manchester tips sparks fear of ‘passport-style’ queues",
+     "title": "Therme Manchester bosses issue fresh CGIs as new opening date for £500m project confirmed",
      "excerpt": "",
-     "date": "26 Oct 2026",
+     "date": "29 Oct 2026",
      "tag": "Nearby news",
      "tone": "neutral",
      "source": "Manchester Evening News – Trafford",
      "domain": "manchestereveningnews.co.uk",
-     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/new-rule-coming-greater-manchester-34821002",
-     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34821015.ece/ALTERNATES/s615/0_JS399694320.jpg",
+     "url": "https://www.manchestereveningnews.co.uk/whats-on/whats-on-news/therme-manchester-bosses-issue-fresh-34834044",
+     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34834080.ece/ALTERNATES/s615/0_New-CGIs-have-been-issued-which-show-how-Therme-Manchester-will-look-when-its-completed.jpg",
      "image_external": true,
      "scope": "nearby"
     },
     {
-     "title": "Greater Manchester Bonfire Night 2026 firework displays and events in full - including Heaton Park and Wythenshawe Park",
+     "title": "‘No indication’ of who carried out cyber attack impacting thousands of Greater Manchester residents",
      "excerpt": "",
-     "date": "26 Oct 2026",
+     "date": "28 Oct 2026",
      "tag": "Nearby news",
      "tone": "neutral",
      "source": "Manchester Evening News – Trafford",
      "domain": "manchestereveningnews.co.uk",
-     "url": "https://www.manchestereveningnews.co.uk/whats-on/whats-on-news/greater-manchester-bonfire-night-2026-34818012",
-     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article15449381.ece/ALTERNATES/s615/0_VCP_MEN_051118_heaton_park_fireworks_031JPG.jpg",
+     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/no-indication-who-carried-out-34830146",
+     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34435175.ece/ALTERNATES/s615/0_Aerial-view-of-the-suburbs-of-Manchester.jpg",
+     "image_external": true,
+     "scope": "nearby"
+    },
+    {
+     "title": "Wendy's gives update on first-ever Greater Manchester restaurant, as another site confirmed",
+     "excerpt": "",
+     "date": "28 Oct 2026",
+     "tag": "Nearby news",
+     "tone": "neutral",
+     "source": "Manchester Evening News – Trafford",
+     "domain": "manchestereveningnews.co.uk",
+     "url": "https://www.manchestereveningnews.co.uk/whats-on/whats-on-news/wendys-gives-update-first-ever-34828067",
+     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34828100.ece/ALTERNATES/s615/0_Wendys-Sale.jpg",
      "image_external": true,
      "scope": "nearby"
     }
    ],
-   "period": "Publisher feeds checked 2026-10-27",
+   "period": "Publisher feeds checked 2026-10-30",
    "geography": "Partington",
    "source": {
     "name": "Local publisher RSS feeds",
@@ -758,7 +809,6 @@
     "Messenger Newspapers",
     "Manchester Evening News – Trafford",
     "Warrington Guardian",
-    "Manchester Evening News – Urmston",
     "Altrincham Today",
     "Manchester Evening News – Altrincham"
    ],
@@ -776,10 +826,6 @@
      "url": "https://www.warringtonguardian.co.uk/news/rss/"
     },
     {
-     "name": "Manchester Evening News – Urmston",
-     "url": "https://www.manchestereveningnews.co.uk/all-about/urmston?service=rss"
-    },
-    {
      "name": "Altrincham Today",
      "url": "https://altrincham.todaynews.co.uk/feed/"
     },
@@ -788,8 +834,8 @@
      "url": "https://www.manchestereveningnews.co.uk/all-about/altrincham?service=rss"
     }
    ],
-   "scope": "nearby",
-   "local_count": 0,
+   "scope": "local",
+   "local_count": 4,
    "nearby_count": 4,
    "note": "Headlines and links only; RSS images are referenced from the publisher when supplied and are not copied."
   },
@@ -972,24 +1018,24 @@
   "price_by_type": {
    "value": {
     "detached": {
-     "average_3y": 346845,
-     "sales_3y": 64,
-     "median_12m": null,
-     "sales_12m": 3,
+     "average_3y": 346210,
+     "sales_3y": 67,
+     "median_12m": 349995,
+     "sales_12m": 7,
      "low_confidence": false
     },
     "semi": {
-     "average_3y": 248957,
-     "sales_3y": 193,
-     "median_12m": 270000,
-     "sales_12m": 38,
+     "average_3y": 251938,
+     "sales_3y": 198,
+     "median_12m": 280000,
+     "sales_12m": 42,
      "low_confidence": false
     },
     "terraced": {
-     "average_3y": 197356,
-     "sales_3y": 79,
-     "median_12m": 202500,
-     "sales_12m": 26,
+     "average_3y": 198940,
+     "sales_3y": 81,
+     "median_12m": 196000,
+     "sales_12m": 27,
      "low_confidence": false
     },
     "flat": {
@@ -1000,7 +1046,7 @@
      "low_confidence": true
     }
    },
-   "period": "3 years and 12 months to 31 Jul 2026",
+   "period": "3 years and 12 months to 31 Aug 2026",
    "geography": "Partington — Land Registry address locality",
    "source": {
     "name": "HM Land Registry Price Paid Data",
@@ -1059,8 +1105,8 @@
     },
     {
      "year": 2025,
-     "average": 254572,
-     "sales": 144
+     "average": 259067,
+     "sales": 155
     }
    ],
    "period": "2016–2025, calendar years",
@@ -1272,7 +1318,7 @@
     "tram_map": "https://tfgm.com/ways-to-travel/tram/network-map",
     "rail_reviewed": "2026-10-12"
    },
-   "period": "Timetable downloaded 2026-10-27",
+   "period": "Timetable downloaded 2026-10-30",
    "geography": "Stops within 1 km of the centre of Partington",
    "source": {
     "name": "TfGM bus and Metrolink timetables (GTFS)",
@@ -1416,5 +1462,5 @@
    "note": "Access to jobs, education, healthcare, shops and leisure by walking, cycling, public transport and driving."
   }
  },
- "updated": "2026-10-27"
+ "updated": "2026-10-30"
 }

@@ -35,7 +35,7 @@
   },
   "annual_growth": {
    "value": null,
-   "period": "12 months to 31 Jul 2026 vs previous 12 months",
+   "period": "12 months to 31 Aug 2026 vs previous 12 months",
    "geography": "Warburton — Land Registry address locality",
    "source": {
     "name": "HM Land Registry Price Paid Data",
@@ -61,7 +61,7 @@
   },
   "average_price": {
    "value": null,
-   "period": "12 months to 31 Jul 2026",
+   "period": "12 months to 31 Aug 2026",
    "geography": "Warburton — Land Registry address locality",
    "source": {
     "name": "HM Land Registry Price Paid Data",
@@ -69,7 +69,7 @@
     "licence": "Open Government Licence v3.0"
    },
    "status": "no-data",
-   "sample": 2,
+   "sample": 3,
    "note": "Fewer than 5 sales in the period"
   },
   "average_rent": {
@@ -631,59 +631,62 @@
   "news": {
    "value": [
     {
-     "title": "Oldham shooting LIVE as street cordoned off with police on the scene",
+     "title": "Volunteers praised for transforming breastfeeding support in Trafford",
      "excerpt": "",
-     "date": "27 Oct 2026",
-     "tag": "Greater Manchester",
+     "date": "30 Oct 2026",
+     "tag": "Nearby · Partington",
      "tone": "neutral",
-     "source": "Manchester Evening News – Greater Manchester",
-     "domain": "manchestereveningnews.co.uk",
-     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/oldham-shooting-live-street-cordoned-34822129",
-     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34822154.ece/ALTERNATES/s615/0_RJ1_8686.jpg",
+     "source": "Messenger Newspapers",
+     "domain": "messengernewspapers.co.uk",
+     "url": "https://www.messengernewspapers.co.uk/news/26676622.trafford-volunteers-transform-breastfeeding-support-mums/?ref=rss",
+     "image": "https://www.messengernewspapers.co.uk/resources/images/21640258/",
      "image_external": true,
-     "scope": "nearby"
+     "scope": "nearby",
+     "near": "Partington"
     },
     {
-     "title": "New Bury school plans branded 'unsafe' as scheme is rejected",
+     "title": "Couple from Partington celebrate 65th wedding anniversary",
      "excerpt": "",
-     "date": "27 Oct 2026",
-     "tag": "Greater Manchester",
+     "date": "30 Oct 2026",
+     "tag": "Nearby · Partington",
      "tone": "neutral",
-     "source": "Manchester Evening News – Greater Manchester",
-     "domain": "manchestereveningnews.co.uk",
-     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/new-bury-school-plans-branded-34822430",
-     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34822482.ece/ALTERNATES/s615/0_Bury-Defence-Academy.jpg",
+     "source": "Messenger Newspapers",
+     "domain": "messengernewspapers.co.uk",
+     "url": "https://www.messengernewspapers.co.uk/news/26674783.couple-partington-celebrate-65th-wedding-anniversary/?ref=rss",
+     "image": "https://www.messengernewspapers.co.uk/resources/images/21637707/",
      "image_external": true,
-     "scope": "nearby"
+     "scope": "nearby",
+     "near": "Partington"
     },
     {
-     "title": "Three taken to hospital as M6 motorway shut for hours",
+     "title": "The decision on the hugely controversial Carrington Relief Road will soon be known",
      "excerpt": "",
-     "date": "27 Oct 2026",
-     "tag": "Greater Manchester",
+     "date": "29 Oct 2026",
+     "tag": "Nearby · Carrington",
      "tone": "neutral",
-     "source": "Manchester Evening News – Greater Manchester",
+     "source": "Manchester Evening News – Trafford",
      "domain": "manchestereveningnews.co.uk",
-     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/three-taken-hospital-m6-motorway-34822601",
-     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34822590.ece/ALTERNATES/s615/0_m6-36943-j20a-19-1.jpg",
+     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/decision-hugely-controversial-carrington-relief-34835999",
+     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34740674.ece/ALTERNATES/s615/0_Carrington-Moss-1.jpg",
      "image_external": true,
-     "scope": "nearby"
+     "scope": "nearby",
+     "near": "Carrington"
     },
     {
-     "title": "M6 crash LIVE as motorway fully shut after serious incident with 90 minute delays and 8 mile queues",
+     "title": "Items stolen from Man Utd Munich air disaster memorial",
      "excerpt": "",
-     "date": "27 Oct 2026",
+     "date": "30 Oct 2026",
      "tag": "Greater Manchester",
      "tone": "neutral",
-     "source": "Manchester Evening News – Greater Manchester",
-     "domain": "manchestereveningnews.co.uk",
-     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/m6-closed-live-m56-manchester-34821734",
-     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34822583.ece/ALTERNATES/s615/0_m6-37107-j23-j22.jpg",
+     "source": "BBC News – Manchester",
+     "domain": "bbc.co.uk",
+     "url": "https://www.bbc.co.uk/news/articles/cxly4pqndz57o?at_medium=RSS&at_campaign=rss",
+     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6596/live/bb5877a0-d452-11f1-8780-edcbf4859104.jpg",
      "image_external": true,
      "scope": "nearby"
     }
    ],
-   "period": "Publisher feeds checked 2026-10-27",
+   "period": "Publisher feeds checked 2026-10-30",
    "geography": "Warburton",
    "source": {
     "name": "Local publisher RSS feeds",
@@ -880,10 +883,10 @@
   "price_by_type": {
    "value": {
     "detached": {
-     "average_3y": 825836,
-     "sales_3y": 12,
+     "average_3y": 855772,
+     "sales_3y": 13,
      "median_12m": null,
-     "sales_12m": 1,
+     "sales_12m": 2,
      "low_confidence": true
     },
     "semi": {
@@ -908,7 +911,7 @@
      "low_confidence": true
     }
    },
-   "period": "3 years and 12 months to 31 Jul 2026",
+   "period": "3 years and 12 months to 31 Aug 2026",
    "geography": "Warburton — Land Registry address locality",
    "source": {
     "name": "HM Land Registry Price Paid Data",
@@ -942,8 +945,8 @@
     },
     {
      "year": 2025,
-     "average": 732719,
-     "sales": 7
+     "average": 793004,
+     "sales": 8
     }
    ],
    "period": "2016–2025, calendar years",
@@ -1042,7 +1045,7 @@
     "tram_map": "https://tfgm.com/ways-to-travel/tram/network-map",
     "rail_reviewed": "2026-10-12"
    },
-   "period": "Timetable downloaded 2026-10-27",
+   "period": "Timetable downloaded 2026-10-30",
    "geography": "Stops within 1 km of the centre of Warburton",
    "source": {
     "name": "TfGM bus and Metrolink timetables (GTFS)",
@@ -1182,5 +1185,5 @@
    "note": "Access to jobs, education, healthcare, shops and leisure by walking, cycling, public transport and driving."
   }
  },
- "updated": "2026-10-27"
+ "updated": "2026-10-30"
 }

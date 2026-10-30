@@ -34,8 +34,8 @@
    "note": "Modelled background concentrations; roadside levels can be higher."
   },
   "annual_growth": {
-   "value": 0.4,
-   "period": "12 months to 31 Jul 2026 vs previous 12 months",
+   "value": 4.9,
+   "period": "12 months to 31 Aug 2026 vs previous 12 months",
    "geography": "Ashton upon Mersey — wards: Ashton upon Mersey",
    "source": {
     "name": "HM Land Registry Price Paid Data",
@@ -44,8 +44,8 @@
    },
    "status": "ok",
    "unit": "%",
-   "sample": 148,
-   "previous": 427004,
+   "sample": 150,
+   "previous": 413711,
    "note": "Change in the average sold price; it moves with the mix of homes sold."
   },
   "aqma": {
@@ -54,7 +54,7 @@
     "nearby": [
      {
       "name": "Trafford AQMA",
-      "url": "https://uk-air.defra.gov.uk/aqma/details?aqma_ref=84"
+      "url": "https://uk-air.defra.gov.uk/aqma/details?aqma_ref="
      }
     ]
    },
@@ -68,8 +68,8 @@
    "status": "ok"
   },
   "average_price": {
-   "value": 428874,
-   "period": "12 months to 31 Jul 2026",
+   "value": 433922,
+   "period": "12 months to 31 Aug 2026",
    "geography": "Ashton upon Mersey — wards: Ashton upon Mersey",
    "source": {
     "name": "HM Land Registry Price Paid Data",
@@ -78,7 +78,7 @@
    },
    "status": "ok",
    "unit": "GBP",
-   "sample": 148,
+   "sample": 150,
    "median": 412500
   },
   "average_rent": {
@@ -636,63 +636,63 @@
   "news": {
    "value": [
     {
-     "title": "Extremely rare black swan spotted in Sale Waterpark",
+     "title": "Volunteers praised for transforming breastfeeding support in Trafford",
      "excerpt": "",
-     "date": "25 Oct 2026",
+     "date": "30 Oct 2026",
      "tag": "Nearby · Sale",
      "tone": "neutral",
      "source": "Messenger Newspapers",
      "domain": "messengernewspapers.co.uk",
-     "url": "https://www.messengernewspapers.co.uk/news/26667361.ultra-rare-black-swan-spotted-sale-waterpark/?ref=rss",
-     "image": "https://www.messengernewspapers.co.uk/resources/images/21627073/",
+     "url": "https://www.messengernewspapers.co.uk/news/26676622.trafford-volunteers-transform-breastfeeding-support-mums/?ref=rss",
+     "image": "https://www.messengernewspapers.co.uk/resources/images/21640258/",
      "image_external": true,
      "scope": "nearby",
      "near": "Sale"
     },
     {
-     "title": "Take a look inside this charming period home on the market in Sale",
+     "title": "Job: Experienced Sales Negotiator – Full Time at Watersons Estate Agents",
      "excerpt": "",
-     "date": "23 Oct 2026",
+     "date": "22 Oct 2026",
      "tag": "Nearby · Sale",
      "tone": "neutral",
-     "source": "Messenger Newspapers",
-     "domain": "messengernewspapers.co.uk",
-     "url": "https://www.messengernewspapers.co.uk/news/26657822.three-bedroom-period-property-sale-listed-420-000/?ref=rss",
-     "image": "https://www.messengernewspapers.co.uk/resources/images/21613178/",
+     "source": "Altrincham Today",
+     "domain": "altrincham.todaynews.co.uk",
+     "url": "https://altrincham.todaynews.co.uk/jobs/2026/10/22/job-experienced-sales-negotiator-full-time-at-watersons-estate-agents/",
+     "image": "https://storage.ghost.io/c/09/ce/09cee984-fa22-44f2-a16f-e4d816e662de/content/images/2025/10/High-resolution-logo-edit.jpg",
      "image_external": true,
      "scope": "nearby",
      "near": "Sale"
     },
     {
-     "title": "It was a tiny takeaway spot, now it's one of Trafford's best burger and gaming joints",
+     "title": "Debut Urmston author fulfils dream with first children’s book",
      "excerpt": "",
-     "date": "20 Oct 2026",
+     "date": "28 Oct 2026",
      "tag": "Nearby · Urmston",
      "tone": "neutral",
-     "source": "Manchester Evening News – Trafford",
-     "domain": "manchestereveningnews.co.uk",
-     "url": "https://www.manchestereveningnews.co.uk/whats-on/food-drink-news/tiny-takeaway-spot-now-its-34789829",
-     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34790112.ece/ALTERNATES/s615/1_Hach-burgers.jpg",
+     "source": "Messenger Newspapers",
+     "domain": "messengernewspapers.co.uk",
+     "url": "https://www.messengernewspapers.co.uk/news/26671194.urmston-debut-author-releases-first-childrens-book/?ref=rss",
+     "image": "https://www.messengernewspapers.co.uk/resources/images/21632632/",
      "image_external": true,
      "scope": "nearby",
      "near": "Urmston"
     },
     {
-     "title": "Everything heard in second week in the trial of a man accused of murdering Stretford Grammar headteacher Michael Mullins",
+     "title": "Two arrested on suspicion of car crimes in Stretford, but there may be more victims",
      "excerpt": "",
-     "date": "25 Oct 2026",
+     "date": "27 Oct 2026",
      "tag": "Nearby · Stretford",
      "tone": "neutral",
-     "source": "Manchester Evening News – Trafford",
-     "domain": "manchestereveningnews.co.uk",
-     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/everything-heard-second-week-trial-34809304",
-     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34791556.ece/ALTERNATES/s615/0_Court2222.jpg",
+     "source": "Messenger Newspapers",
+     "domain": "messengernewspapers.co.uk",
+     "url": "https://www.messengernewspapers.co.uk/news/26673264.two-arrested-suspicion-vehicle-crimes-stretford/?ref=rss",
+     "image": "https://www.messengernewspapers.co.uk/resources/images/21635647/",
      "image_external": true,
      "scope": "nearby",
      "near": "Stretford"
     }
    ],
-   "period": "Publisher feeds checked 2026-10-27",
+   "period": "Publisher feeds checked 2026-10-30",
    "geography": "Ashton upon Mersey",
    "source": {
     "name": "Local publisher RSS feeds",
@@ -703,8 +703,8 @@
    "feeds": [
     "Messenger Newspapers",
     "Manchester Evening News – Trafford",
-    "Altrincham Today",
-    "Manchester Evening News – Urmston"
+    "Manchester Evening News – Sale",
+    "Altrincham Today"
    ],
    "feed_links": [
     {
@@ -716,12 +716,12 @@
      "url": "https://www.manchestereveningnews.co.uk/all-about/trafford?service=rss"
     },
     {
-     "name": "Altrincham Today",
-     "url": "https://altrincham.todaynews.co.uk/feed/"
+     "name": "Manchester Evening News – Sale",
+     "url": "https://www.manchestereveningnews.co.uk/all-about/sale?service=rss"
     },
     {
-     "name": "Manchester Evening News – Urmston",
-     "url": "https://www.manchestereveningnews.co.uk/all-about/urmston?service=rss"
+     "name": "Altrincham Today",
+     "url": "https://altrincham.todaynews.co.uk/feed/"
     }
    ],
    "scope": "nearby",
@@ -944,35 +944,35 @@
   "price_by_type": {
    "value": {
     "detached": {
-     "average_3y": 661592,
-     "sales_3y": 59,
-     "median_12m": 625000,
-     "sales_12m": 22,
+     "average_3y": 658555,
+     "sales_3y": 63,
+     "median_12m": 599975,
+     "sales_12m": 24,
      "low_confidence": false
     },
     "semi": {
-     "average_3y": 490595,
+     "average_3y": 495789,
      "sales_3y": 186,
-     "median_12m": 475000,
+     "median_12m": 477500,
      "sales_12m": 56,
      "low_confidence": false
     },
     "terraced": {
-     "average_3y": 368202,
-     "sales_3y": 122,
+     "average_3y": 365364,
+     "sales_3y": 127,
      "median_12m": 365000,
-     "sales_12m": 47,
+     "sales_12m": 48,
      "low_confidence": false
     },
     "flat": {
-     "average_3y": 205230,
-     "sales_3y": 90,
-     "median_12m": 231500,
-     "sales_12m": 23,
+     "average_3y": 206181,
+     "sales_3y": 87,
+     "median_12m": 230750,
+     "sales_12m": 22,
      "low_confidence": false
     }
    },
-   "period": "3 years and 12 months to 31 Jul 2026",
+   "period": "3 years and 12 months to 31 Aug 2026",
    "geography": "Ashton upon Mersey — wards: Ashton upon Mersey",
    "source": {
     "name": "HM Land Registry Price Paid Data",
@@ -1021,8 +1021,8 @@
     },
     {
      "year": 2023,
-     "average": 395862,
-     "sales": 128
+     "average": 396848,
+     "sales": 129
     },
     {
      "year": 2024,
@@ -1031,8 +1031,8 @@
     },
     {
      "year": 2025,
-     "average": 419431,
-     "sales": 152
+     "average": 416564,
+     "sales": 155
     }
    ],
    "period": "2016–2025, calendar years",
@@ -1253,7 +1253,7 @@
     "tram_map": "https://tfgm.com/ways-to-travel/tram/network-map",
     "rail_reviewed": "2026-10-12"
    },
-   "period": "Timetable downloaded 2026-10-27",
+   "period": "Timetable downloaded 2026-10-30",
    "geography": "Stops within 1 km of the centre of Ashton upon Mersey",
    "source": {
     "name": "TfGM bus and Metrolink timetables (GTFS)",
@@ -1400,5 +1400,5 @@
    "note": "Access to jobs, education, healthcare, shops and leisure by walking, cycling, public transport and driving."
   }
  },
- "updated": "2026-10-27"
+ "updated": "2026-10-30"
 }

@@ -34,8 +34,8 @@
    "note": "Modelled background concentrations; roadside levels can be higher."
   },
   "annual_growth": {
-   "value": 4.4,
-   "period": "12 months to 31 Jul 2026 vs previous 12 months",
+   "value": 5.4,
+   "period": "12 months to 31 Aug 2026 vs previous 12 months",
    "geography": "Trafford (local authority)",
    "source": {
     "name": "HM Land Registry Price Paid Data",
@@ -44,8 +44,8 @@
    },
    "status": "ok",
    "unit": "%",
-   "sample": 2693,
-   "previous": 434776,
+   "sample": 2698,
+   "previous": 435788,
    "note": "Change in the average sold price; it moves with the mix of homes sold."
   },
   "aqma": {
@@ -54,15 +54,15 @@
     "nearby": [
      {
       "name": "Manchester AQMA",
-      "url": "https://uk-air.defra.gov.uk/aqma/details?aqma_ref=36"
+      "url": "https://uk-air.defra.gov.uk/aqma/details?aqma_ref="
      },
      {
       "name": "Salford AQMA",
-      "url": "https://uk-air.defra.gov.uk/aqma/details?aqma_ref=134"
+      "url": "https://uk-air.defra.gov.uk/aqma/details?aqma_ref="
      },
      {
       "name": "Trafford AQMA",
-      "url": "https://uk-air.defra.gov.uk/aqma/details?aqma_ref=84"
+      "url": "https://uk-air.defra.gov.uk/aqma/details?aqma_ref="
      },
      {
       "name": "Warrington AQMA No.1",
@@ -80,8 +80,8 @@
    "status": "ok"
   },
   "average_price": {
-   "value": 454016,
-   "period": "12 months to 31 Jul 2026",
+   "value": 459437,
+   "period": "12 months to 31 Aug 2026",
    "geography": "Trafford (local authority)",
    "source": {
     "name": "HM Land Registry Price Paid Data",
@@ -90,8 +90,8 @@
    },
    "status": "ok",
    "unit": "GBP",
-   "sample": 2693,
-   "median": 380000
+   "sample": 2698,
+   "median": 381200
   },
   "average_rent": {
    "value": {
@@ -939,111 +939,111 @@
   "news": {
    "value": [
     {
-     "title": "Train fault causes disruption as railway lines blocked in Trafford Park",
+     "title": "Timperley plans its biggest Christmas lights celebration yet as switch-on date confirmed",
      "excerpt": "",
-     "date": "26 Oct 2026",
-     "tag": "Transport",
-     "tone": "info",
-     "source": "Messenger Newspapers",
-     "domain": "messengernewspapers.co.uk",
-     "url": "https://www.messengernewspapers.co.uk/news/26672124.train-fault-causes-delays-cancellations-trafford-park/?ref=rss",
-     "image": "https://www.messengernewspapers.co.uk/resources/images/21385175/",
-     "image_external": true,
-     "scope": "local"
-    },
-    {
-     "title": "Free careers fair in Altrincham to bring together more than 35 employers and education providers",
-     "excerpt": "",
-     "date": "26 Oct 2026",
-     "tag": "Schools",
-     "tone": "success",
+     "date": "30 Oct 2026",
+     "tag": "Planning",
+     "tone": "accent",
      "source": "Altrincham Today",
      "domain": "altrincham.todaynews.co.uk",
-     "url": "https://altrincham.todaynews.co.uk/news/2026/10/26/free-careers-fair-in-altrincham-to-bring-together-more-than-35-employers-and-education-providers/",
-     "image": "https://storage.ghost.io/c/09/ce/09cee984-fa22-44f2-a16f-e4d816e662de/content/images/2026/10/554712898_24818020754504707_7581052702833179533_n--1-.jpg",
+     "url": "https://altrincham.todaynews.co.uk/news/2026/10/30/timperley-plans-its-biggest-christmas-lights-celebration-yet-as-switch-on-date-confirmed/",
+     "image": "https://storage.ghost.io/c/09/ce/09cee984-fa22-44f2-a16f-e4d816e662de/content/images/2026/10/timpxmas.jpg",
      "image_external": true,
      "scope": "local"
     },
     {
-     "title": "Concern over major admissions change at Altrincham Grammar for Girls",
+     "title": "Volunteers praised for transforming breastfeeding support in Trafford",
      "excerpt": "",
-     "date": "26 Oct 2026",
-     "tag": "Schools",
-     "tone": "success",
-     "source": "Messenger Newspapers",
-     "domain": "messengernewspapers.co.uk",
-     "url": "https://www.messengernewspapers.co.uk/news/26668352.parents-raise-concerns-altrincham-grammar-admissions-plans/?ref=rss",
-     "image": "https://www.messengernewspapers.co.uk/resources/images/21628704/",
-     "image_external": true,
-     "scope": "local"
-    },
-    {
-     "title": "Everything heard in second week in the trial of a man accused of murdering Stretford Grammar headteacher Michael Mullins",
-     "excerpt": "",
-     "date": "25 Oct 2026",
+     "date": "30 Oct 2026",
      "tag": "Local news",
      "tone": "neutral",
-     "source": "Manchester Evening News – Trafford",
-     "domain": "manchestereveningnews.co.uk",
-     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/everything-heard-second-week-trial-34809304",
-     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34791556.ece/ALTERNATES/s615/0_Court2222.jpg",
+     "source": "Messenger Newspapers",
+     "domain": "messengernewspapers.co.uk",
+     "url": "https://www.messengernewspapers.co.uk/news/26676622.trafford-volunteers-transform-breastfeeding-support-mums/?ref=rss",
+     "image": "https://www.messengernewspapers.co.uk/resources/images/21640258/",
      "image_external": true,
      "scope": "local"
     },
     {
-     "title": "Oldham shooting LIVE as street cordoned off with police on the scene",
+     "title": "Couple from Partington celebrate 65th wedding anniversary",
      "excerpt": "",
-     "date": "27 Oct 2026",
+     "date": "30 Oct 2026",
+     "tag": "Local news",
+     "tone": "neutral",
+     "source": "Messenger Newspapers",
+     "domain": "messengernewspapers.co.uk",
+     "url": "https://www.messengernewspapers.co.uk/news/26674783.couple-partington-celebrate-65th-wedding-anniversary/?ref=rss",
+     "image": "https://www.messengernewspapers.co.uk/resources/images/21637707/",
+     "image_external": true,
+     "scope": "local"
+    },
+    {
+     "title": "Buried brook to be uncovered after 90 years in £6m Longford Park revamp",
+     "excerpt": "",
+     "date": "30 Oct 2026",
+     "tag": "Local news",
+     "tone": "neutral",
+     "source": "Messenger Newspapers",
+     "domain": "messengernewspapers.co.uk",
+     "url": "https://www.messengernewspapers.co.uk/news/26681222.longford-park-brook-uncovered-almost-90-years/?ref=rss",
+     "image": "https://www.messengernewspapers.co.uk/resources/images/21646207/",
+     "image_external": true,
+     "scope": "local"
+    },
+    {
+     "title": "Items stolen from Man Utd Munich air disaster memorial",
+     "excerpt": "",
+     "date": "30 Oct 2026",
      "tag": "Greater Manchester",
      "tone": "neutral",
-     "source": "Manchester Evening News – Greater Manchester",
-     "domain": "manchestereveningnews.co.uk",
-     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/oldham-shooting-live-street-cordoned-34822129",
-     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34822154.ece/ALTERNATES/s615/0_RJ1_8686.jpg",
+     "source": "BBC News – Manchester",
+     "domain": "bbc.co.uk",
+     "url": "https://www.bbc.co.uk/news/articles/cxly4pqndz57o?at_medium=RSS&at_campaign=rss",
+     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6596/live/bb5877a0-d452-11f1-8780-edcbf4859104.jpg",
      "image_external": true,
      "scope": "nearby"
     },
     {
-     "title": "New Bury school plans branded 'unsafe' as scheme is rejected",
+     "title": "Paddy McGuinness to go back on tour in 2027 - how you can get tickets",
      "excerpt": "",
-     "date": "27 Oct 2026",
+     "date": "30 Oct 2026",
      "tag": "Greater Manchester",
      "tone": "neutral",
-     "source": "Manchester Evening News – Greater Manchester",
-     "domain": "manchestereveningnews.co.uk",
-     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/new-bury-school-plans-branded-34822430",
-     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34822482.ece/ALTERNATES/s615/0_Bury-Defence-Academy.jpg",
+     "source": "Messenger Newspapers",
+     "domain": "messengernewspapers.co.uk",
+     "url": "https://www.messengernewspapers.co.uk/news/26683851.paddy-mcguinness-announces-new-blast-past-tour/?ref=rss",
+     "image": "https://www.messengernewspapers.co.uk/resources/images/21171663/",
      "image_external": true,
      "scope": "nearby"
     },
     {
-     "title": "Three taken to hospital as M6 motorway shut for hours",
+     "title": "Urgent CCTV appeal after girl, 16, sexually attacked on Manchester city centre bus",
      "excerpt": "",
-     "date": "27 Oct 2026",
+     "date": "30 Oct 2026",
      "tag": "Greater Manchester",
      "tone": "neutral",
      "source": "Manchester Evening News – Greater Manchester",
      "domain": "manchestereveningnews.co.uk",
-     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/three-taken-hospital-m6-motorway-34822601",
-     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34822590.ece/ALTERNATES/s615/0_m6-36943-j20a-19-1.jpg",
+     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/girl-16-sexually-assaulted-bus-34838125",
+     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34838164.ece/ALTERNATES/s615/2_Bus-sex-attack-appeal.jpg",
      "image_external": true,
      "scope": "nearby"
     },
     {
-     "title": "M6 crash LIVE as motorway fully shut after serious incident with 90 minute delays and 8 mile queues",
+     "title": "3 lucky North West postcode wins in today's Postcode Lottery draw",
      "excerpt": "",
-     "date": "27 Oct 2026",
+     "date": "30 Oct 2026",
      "tag": "Greater Manchester",
      "tone": "neutral",
-     "source": "Manchester Evening News – Greater Manchester",
-     "domain": "manchestereveningnews.co.uk",
-     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/m6-closed-live-m56-manchester-34821734",
-     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34822583.ece/ALTERNATES/s615/0_m6-37107-j23-j22.jpg",
+     "source": "Messenger Newspapers",
+     "domain": "messengernewspapers.co.uk",
+     "url": "https://www.messengernewspapers.co.uk/news/26683543.3-lucky-north-west-postcode-wins-todays-postcode-lottery-draw/?ref=rss",
+     "image": "https://www.messengernewspapers.co.uk/resources/images/20458364/",
      "image_external": true,
      "scope": "nearby"
     }
    ],
-   "period": "Publisher feeds checked 2026-10-27",
+   "period": "Publisher feeds checked 2026-10-30",
    "geography": "Trafford",
    "source": {
     "name": "Local publisher RSS feeds",
@@ -1346,35 +1346,35 @@
   "price_by_type": {
    "value": {
     "detached": {
-     "average_3y": 796332,
-     "sales_3y": 1302,
-     "median_12m": 688000,
-     "sales_12m": 381,
+     "average_3y": 802060,
+     "sales_3y": 1326,
+     "median_12m": 690000,
+     "sales_12m": 398,
      "low_confidence": false
     },
     "semi": {
-     "average_3y": 439055,
-     "sales_3y": 3705,
-     "median_12m": 410000,
-     "sales_12m": 1137,
+     "average_3y": 439806,
+     "sales_3y": 3728,
+     "median_12m": 408750,
+     "sales_12m": 1150,
      "low_confidence": false
     },
     "terraced": {
-     "average_3y": 367301,
-     "sales_3y": 2266,
-     "median_12m": 342000,
-     "sales_12m": 737,
+     "average_3y": 368529,
+     "sales_3y": 2261,
+     "median_12m": 345000,
+     "sales_12m": 703,
      "low_confidence": false
     },
     "flat": {
-     "average_3y": 233905,
-     "sales_3y": 1781,
+     "average_3y": 234742,
+     "sales_3y": 1777,
      "median_12m": 195000,
-     "sales_12m": 438,
+     "sales_12m": 447,
      "low_confidence": false
     }
    },
-   "period": "3 years and 12 months to 31 Jul 2026",
+   "period": "3 years and 12 months to 31 Aug 2026",
    "geography": "Trafford (local authority)",
    "source": {
     "name": "HM Land Registry Price Paid Data",
@@ -1403,38 +1403,38 @@
     },
     {
      "year": 2019,
-     "average": 331237,
-     "sales": 3482
+     "average": 331180,
+     "sales": 3483
     },
     {
      "year": 2020,
-     "average": 360099,
-     "sales": 3055
+     "average": 360066,
+     "sales": 3056
     },
     {
      "year": 2021,
-     "average": 376480,
-     "sales": 4818
+     "average": 376403,
+     "sales": 4820
     },
     {
      "year": 2022,
-     "average": 422676,
-     "sales": 3343
+     "average": 422622,
+     "sales": 3344
     },
     {
      "year": 2023,
-     "average": 415184,
-     "sales": 2886
+     "average": 415221,
+     "sales": 2887
     },
     {
      "year": 2024,
-     "average": 425116,
-     "sales": 3109
+     "average": 425805,
+     "sales": 3111
     },
     {
      "year": 2025,
-     "average": 445186,
-     "sales": 3207
+     "average": 446520,
+     "sales": 3258
     }
    ],
    "period": "2016–2025, calendar years",
@@ -1518,7 +1518,7 @@
       "operators": [
        "Bee Network"
       ],
-      "trips": 694,
+      "trips": 684,
       "school": false
      },
      {
@@ -1643,6 +1643,17 @@
       "school": false
      },
      {
+      "number": "370",
+      "from": "Stockport",
+      "to": "Altrincham",
+      "via": [],
+      "operators": [
+       "Bee Network"
+      ],
+      "trips": 190,
+      "school": false
+     },
+     {
       "number": "53",
       "from": "Cheetham Hill",
       "to": "Salford",
@@ -1668,13 +1679,16 @@
      },
      {
       "number": "5",
-      "from": "Broomedge",
-      "to": "Altrincham",
-      "via": [],
+      "from": "Warrington",
+      "to": "Altrinch",
+      "via": [
+       "Stockton Heath",
+       "Broomedge"
+      ],
       "operators": [
        "Warrington's Own Buses"
       ],
-      "trips": 164,
+      "trips": 163,
       "school": false
      },
      {
@@ -1722,14 +1736,16 @@
       "school": false
      },
      {
-      "number": "370",
-      "from": "Stockport",
-      "to": "Altrincham",
-      "via": [],
-      "operators": [
-       "Bee Network"
+      "number": "88",
+      "from": "Altrincham",
+      "to": "Knutsford",
+      "via": [
+       "Wilmslow"
       ],
-      "trips": 95,
+      "operators": [
+       "D&G Bus"
+      ],
+      "trips": 140,
       "school": false
      },
      {
@@ -1810,19 +1826,6 @@
       "via": [],
       "operators": [
        "Bee Network"
-      ],
-      "trips": 47,
-      "school": false
-     },
-     {
-      "number": "88",
-      "from": "Altrincham",
-      "to": "Knutsford",
-      "via": [
-       "Wilmslow"
-      ],
-      "operators": [
-       "D&G Bus"
       ],
       "trips": 47,
       "school": false
@@ -2156,7 +2159,7 @@
     "tram_map": "https://tfgm.com/ways-to-travel/tram/network-map",
     "rail_reviewed": "2026-10-12"
    },
-   "period": "Timetable downloaded 2026-10-27",
+   "period": "Timetable downloaded 2026-10-30",
    "geography": "Stops within 1 km of each Trafford town centre",
    "source": {
     "name": "TfGM bus and Metrolink timetables (GTFS)",
@@ -2246,5 +2249,5 @@
    "note": "Access to jobs, education, healthcare, shops and leisure by walking, cycling, public transport and driving."
   }
  },
- "updated": "2026-10-27"
+ "updated": "2026-10-30"
 }

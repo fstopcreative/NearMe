@@ -34,8 +34,8 @@
    "note": "Modelled background concentrations; roadside levels can be higher."
   },
   "annual_growth": {
-   "value": 13.9,
-   "period": "12 months to 31 Jul 2026 vs previous 12 months",
+   "value": 12.1,
+   "period": "12 months to 31 Aug 2026 vs previous 12 months",
    "geography": "Hale — wards: Hale",
    "source": {
     "name": "HM Land Registry Price Paid Data",
@@ -45,7 +45,7 @@
    "status": "ok",
    "unit": "%",
    "sample": 184,
-   "previous": 661517,
+   "previous": 673530,
    "note": "Change in the average sold price; it moves with the mix of homes sold."
   },
   "aqma": {
@@ -54,7 +54,7 @@
     "nearby": [
      {
       "name": "Trafford AQMA",
-      "url": "https://uk-air.defra.gov.uk/aqma/details?aqma_ref=84"
+      "url": "https://uk-air.defra.gov.uk/aqma/details?aqma_ref="
      }
     ]
    },
@@ -68,8 +68,8 @@
    "status": "ok"
   },
   "average_price": {
-   "value": 753657,
-   "period": "12 months to 31 Jul 2026",
+   "value": 755207,
+   "period": "12 months to 31 Aug 2026",
    "geography": "Hale — wards: Hale",
    "source": {
     "name": "HM Land Registry Price Paid Data",
@@ -79,7 +79,7 @@
    "status": "ok",
    "unit": "GBP",
    "sample": 184,
-   "median": 622500
+   "median": 618000
   },
   "average_rent": {
    "value": {
@@ -756,45 +756,46 @@
   "news": {
    "value": [
     {
-     "title": "ProSpinal: a new chapter for Hale’s spinal clinic",
+     "title": "FatFace becomes latest big-name retailer to open in Altrincham's Stamford Quarter",
      "excerpt": "",
-     "date": "21 Oct 2026",
-     "tag": "Local news",
-     "tone": "neutral",
-     "source": "Altrincham Today",
-     "domain": "altrincham.todaynews.co.uk",
-     "url": "https://altrincham.todaynews.co.uk/news/2026/10/21/prospinal-a-new-chapter-for-hales-spinal-clinic/",
-     "image": "https://storage.ghost.io/c/09/ce/09cee984-fa22-44f2-a16f-e4d816e662de/content/images/2026/10/ProSpinal-2.jpg",
-     "image_external": true,
-     "scope": "local"
-    },
-    {
-     "title": "Free careers fair in Altrincham to bring together more than 35 employers and education providers",
-     "excerpt": "",
-     "date": "26 Oct 2026",
+     "date": "29 Oct 2026",
      "tag": "Nearby · Altrincham",
      "tone": "neutral",
      "source": "Altrincham Today",
      "domain": "altrincham.todaynews.co.uk",
-     "url": "https://altrincham.todaynews.co.uk/news/2026/10/26/free-careers-fair-in-altrincham-to-bring-together-more-than-35-employers-and-education-providers/",
-     "image": "https://storage.ghost.io/c/09/ce/09cee984-fa22-44f2-a16f-e4d816e662de/content/images/2026/10/554712898_24818020754504707_7581052702833179533_n--1-.jpg",
+     "url": "https://altrincham.todaynews.co.uk/news/2026/10/29/fatface-becomes-latest-big-name-retailer-to-open-in-altrinchams-stamford-quarter/",
+     "image": "https://storage.ghost.io/c/09/ce/09cee984-fa22-44f2-a16f-e4d816e662de/content/images/2026/10/fatface.jpg",
      "image_external": true,
      "scope": "nearby",
      "near": "Altrincham"
     },
     {
-     "title": "Concern over major admissions change at Altrincham Grammar for Girls",
+     "title": "CONNOR RAND: Why I’m campaigning for more services at Altrincham Hospital",
      "excerpt": "",
-     "date": "26 Oct 2026",
+     "date": "29 Oct 2026",
      "tag": "Nearby · Altrincham",
      "tone": "neutral",
      "source": "Messenger Newspapers",
      "domain": "messengernewspapers.co.uk",
-     "url": "https://www.messengernewspapers.co.uk/news/26668352.parents-raise-concerns-altrincham-grammar-admissions-plans/?ref=rss",
-     "image": "https://www.messengernewspapers.co.uk/resources/images/21628704/",
+     "url": "https://www.messengernewspapers.co.uk/news/26676612.campaigning-services-altrincham-hospital/?ref=rss",
+     "image": "https://www.messengernewspapers.co.uk/resources/images/18156895/",
      "image_external": true,
      "scope": "nearby",
      "near": "Altrincham"
+    },
+    {
+     "title": "Timperley plans its biggest Christmas lights celebration yet as switch-on date confirmed",
+     "excerpt": "",
+     "date": "30 Oct 2026",
+     "tag": "Nearby · Timperley",
+     "tone": "neutral",
+     "source": "Altrincham Today",
+     "domain": "altrincham.todaynews.co.uk",
+     "url": "https://altrincham.todaynews.co.uk/news/2026/10/30/timperley-plans-its-biggest-christmas-lights-celebration-yet-as-switch-on-date-confirmed/",
+     "image": "https://storage.ghost.io/c/09/ce/09cee984-fa22-44f2-a16f-e4d816e662de/content/images/2026/10/timpxmas.jpg",
+     "image_external": true,
+     "scope": "nearby",
+     "near": "Timperley"
     },
     {
      "title": "Police target drivers on busy Timperley road as part of borough-wide \"crime-smashing\" crackdown",
@@ -809,23 +810,9 @@
      "image_external": true,
      "scope": "nearby",
      "near": "Timperley"
-    },
-    {
-     "title": "Councillors warn of threat to Timperley businesses over parking charges",
-     "excerpt": "",
-     "date": "21 Oct 2026",
-     "tag": "Nearby · Timperley",
-     "tone": "neutral",
-     "source": "Altrincham Today",
-     "domain": "altrincham.todaynews.co.uk",
-     "url": "https://altrincham.todaynews.co.uk/news/2026/10/21/councillors-warn-of-threat-to-timperley-businesses-over-parking-charges/",
-     "image": "https://storage.ghost.io/c/09/ce/09cee984-fa22-44f2-a16f-e4d816e662de/content/images/2026/10/thorley.jpg",
-     "image_external": true,
-     "scope": "nearby",
-     "near": "Timperley"
     }
    ],
-   "period": "Publisher feeds checked 2026-10-27",
+   "period": "Publisher feeds checked 2026-10-30",
    "geography": "Hale",
    "source": {
     "name": "Local publisher RSS feeds",
@@ -857,8 +844,8 @@
      "url": "https://www.messengernewspapers.co.uk/news/rss/"
     }
    ],
-   "scope": "local",
-   "local_count": 1,
+   "scope": "nearby",
+   "local_count": 0,
    "nearby_count": 4,
    "note": "Headlines and links only; RSS images are referenced from the publisher when supplied and are not copied."
   },
@@ -1090,35 +1077,35 @@
   "price_by_type": {
    "value": {
     "detached": {
-     "average_3y": 1370546,
-     "sales_3y": 91,
-     "median_12m": 1400000,
+     "average_3y": 1316843,
+     "sales_3y": 88,
+     "median_12m": 1380000,
      "sales_12m": 29,
      "low_confidence": false
     },
     "semi": {
-     "average_3y": 805632,
-     "sales_3y": 153,
+     "average_3y": 800465,
+     "sales_3y": 158,
      "median_12m": 680000,
-     "sales_12m": 47,
+     "sales_12m": 51,
      "low_confidence": false
     },
     "terraced": {
-     "average_3y": 566233,
-     "sales_3y": 244,
-     "median_12m": 559572,
-     "sales_12m": 86,
+     "average_3y": 563754,
+     "sales_3y": 242,
+     "median_12m": 533625,
+     "sales_12m": 84,
      "low_confidence": false
     },
     "flat": {
-     "average_3y": 317326,
-     "sales_3y": 82,
-     "median_12m": 252500,
-     "sales_12m": 22,
+     "average_3y": 320984,
+     "sales_3y": 80,
+     "median_12m": 312500,
+     "sales_12m": 20,
      "low_confidence": false
     }
    },
-   "period": "3 years and 12 months to 31 Jul 2026",
+   "period": "3 years and 12 months to 31 Aug 2026",
    "geography": "Hale — wards: Hale",
    "source": {
     "name": "HM Land Registry Price Paid Data",
@@ -1177,8 +1164,8 @@
     },
     {
      "year": 2025,
-     "average": 700072,
-     "sales": 214
+     "average": 706126,
+     "sales": 218
     }
    ],
    "period": "2016–2025, calendar years",
@@ -1234,18 +1221,34 @@
       "operators": [
        "Bee Network"
       ],
-      "trips": 346,
+      "trips": 341,
       "school": false
      },
      {
       "number": "5",
-      "from": "Broomedge",
-      "to": "Altrincham",
-      "via": [],
+      "from": "Warrington",
+      "to": "Altrinch",
+      "via": [
+       "Stockton Heath",
+       "Broomedge"
+      ],
       "operators": [
        "Warrington's Own Buses"
       ],
-      "trips": 164,
+      "trips": 163,
+      "school": false
+     },
+     {
+      "number": "88",
+      "from": "Altrincham",
+      "to": "Knutsford",
+      "via": [
+       "Wilmslow"
+      ],
+      "operators": [
+       "D&G Bus"
+      ],
+      "trips": 140,
       "school": false
      },
      {
@@ -1303,19 +1306,6 @@
        "Bee Network"
       ],
       "trips": 56,
-      "school": false
-     },
-     {
-      "number": "88",
-      "from": "Altrincham",
-      "to": "Knutsford",
-      "via": [
-       "Wilmslow"
-      ],
-      "operators": [
-       "D&G Bus"
-      ],
-      "trips": 47,
       "school": false
      },
      {
@@ -1444,19 +1434,19 @@
       "school": false
      },
      {
-      "number": "752",
-      "from": "Cheadle",
+      "number": "757",
+      "from": "Eccles",
       "to": "Loreto Grammar School",
       "via": [],
       "operators": [
        "Bee Network"
       ],
-      "trips": 4,
+      "trips": 6,
       "school": true
      },
      {
-      "number": "757",
-      "from": "Eccles",
+      "number": "752",
+      "from": "Cheadle",
       "to": "Loreto Grammar School",
       "via": [],
       "operators": [
@@ -1573,7 +1563,7 @@
     "tram_map": "https://tfgm.com/ways-to-travel/tram/network-map",
     "rail_reviewed": "2026-10-12"
    },
-   "period": "Timetable downloaded 2026-10-27",
+   "period": "Timetable downloaded 2026-10-30",
    "geography": "Stops within 1 km of the centre of Hale",
    "source": {
     "name": "TfGM bus and Metrolink timetables (GTFS)",
@@ -1723,5 +1713,5 @@
    "note": "Access to jobs, education, healthcare, shops and leisure by walking, cycling, public transport and driving."
   }
  },
- "updated": "2026-10-27"
+ "updated": "2026-10-30"
 }

@@ -34,8 +34,8 @@
    "note": "Modelled background concentrations; roadside levels can be higher."
   },
   "annual_growth": {
-   "value": -14.0,
-   "period": "12 months to 31 Jul 2026 vs previous 12 months",
+   "value": -9.1,
+   "period": "12 months to 31 Aug 2026 vs previous 12 months",
    "geography": "Bowdon — wards: Bowdon",
    "source": {
     "name": "HM Land Registry Price Paid Data",
@@ -44,8 +44,8 @@
    },
    "status": "ok",
    "unit": "%",
-   "sample": 131,
-   "previous": 890382,
+   "sample": 134,
+   "previous": 888295,
    "note": "Change in the average sold price; it moves with the mix of homes sold."
   },
   "aqma": {
@@ -54,7 +54,7 @@
     "nearby": [
      {
       "name": "Trafford AQMA",
-      "url": "https://uk-air.defra.gov.uk/aqma/details?aqma_ref=84"
+      "url": "https://uk-air.defra.gov.uk/aqma/details?aqma_ref="
      }
     ]
    },
@@ -68,8 +68,8 @@
    "status": "ok"
   },
   "average_price": {
-   "value": 766085,
-   "period": "12 months to 31 Jul 2026",
+   "value": 807335,
+   "period": "12 months to 31 Aug 2026",
    "geography": "Bowdon — wards: Bowdon",
    "source": {
     "name": "HM Land Registry Price Paid Data",
@@ -78,8 +78,8 @@
    },
    "status": "ok",
    "unit": "GBP",
-   "sample": 131,
-   "median": 645000
+   "sample": 134,
+   "median": 682500
   },
   "average_rent": {
    "value": {
@@ -756,62 +756,61 @@
   "news": {
    "value": [
     {
-     "title": "ProSpinal: a new chapter for Hale’s spinal clinic",
+     "title": "FatFace becomes latest big-name retailer to open in Altrincham's Stamford Quarter",
      "excerpt": "",
-     "date": "21 Oct 2026",
-     "tag": "Nearby · Hale",
-     "tone": "neutral",
-     "source": "Altrincham Today",
-     "domain": "altrincham.todaynews.co.uk",
-     "url": "https://altrincham.todaynews.co.uk/news/2026/10/21/prospinal-a-new-chapter-for-hales-spinal-clinic/",
-     "image": "https://storage.ghost.io/c/09/ce/09cee984-fa22-44f2-a16f-e4d816e662de/content/images/2026/10/ProSpinal-2.jpg",
-     "image_external": true,
-     "scope": "nearby",
-     "near": "Hale"
-    },
-    {
-     "title": "Free careers fair in Altrincham to bring together more than 35 employers and education providers",
-     "excerpt": "",
-     "date": "26 Oct 2026",
+     "date": "29 Oct 2026",
      "tag": "Nearby · Altrincham",
      "tone": "neutral",
      "source": "Altrincham Today",
      "domain": "altrincham.todaynews.co.uk",
-     "url": "https://altrincham.todaynews.co.uk/news/2026/10/26/free-careers-fair-in-altrincham-to-bring-together-more-than-35-employers-and-education-providers/",
-     "image": "https://storage.ghost.io/c/09/ce/09cee984-fa22-44f2-a16f-e4d816e662de/content/images/2026/10/554712898_24818020754504707_7581052702833179533_n--1-.jpg",
+     "url": "https://altrincham.todaynews.co.uk/news/2026/10/29/fatface-becomes-latest-big-name-retailer-to-open-in-altrinchams-stamford-quarter/",
+     "image": "https://storage.ghost.io/c/09/ce/09cee984-fa22-44f2-a16f-e4d816e662de/content/images/2026/10/fatface.jpg",
      "image_external": true,
      "scope": "nearby",
      "near": "Altrincham"
     },
     {
-     "title": "Concern over major admissions change at Altrincham Grammar for Girls",
+     "title": "CONNOR RAND: Why I’m campaigning for more services at Altrincham Hospital",
      "excerpt": "",
-     "date": "26 Oct 2026",
+     "date": "29 Oct 2026",
      "tag": "Nearby · Altrincham",
      "tone": "neutral",
      "source": "Messenger Newspapers",
      "domain": "messengernewspapers.co.uk",
-     "url": "https://www.messengernewspapers.co.uk/news/26668352.parents-raise-concerns-altrincham-grammar-admissions-plans/?ref=rss",
-     "image": "https://www.messengernewspapers.co.uk/resources/images/21628704/",
+     "url": "https://www.messengernewspapers.co.uk/news/26676612.campaigning-services-altrincham-hospital/?ref=rss",
+     "image": "https://www.messengernewspapers.co.uk/resources/images/18156895/",
      "image_external": true,
      "scope": "nearby",
      "near": "Altrincham"
     },
     {
-     "title": "Police target drivers on busy Timperley road as part of borough-wide \"crime-smashing\" crackdown",
+     "title": "Timperley plans its biggest Christmas lights celebration yet as switch-on date confirmed",
      "excerpt": "",
-     "date": "23 Oct 2026",
+     "date": "30 Oct 2026",
      "tag": "Nearby news",
      "tone": "neutral",
      "source": "Altrincham Today",
      "domain": "altrincham.todaynews.co.uk",
-     "url": "https://altrincham.todaynews.co.uk/news/2026/10/23/police-target-drivers-on-busy-timperley-road-as-part-of-borough-wide-crime-smashing-crackdown/",
-     "image": "https://storage.ghost.io/c/09/ce/09cee984-fa22-44f2-a16f-e4d816e662de/content/images/2026/10/Operation-AVRO---Trafford-4--1-.jpg",
+     "url": "https://altrincham.todaynews.co.uk/news/2026/10/30/timperley-plans-its-biggest-christmas-lights-celebration-yet-as-switch-on-date-confirmed/",
+     "image": "https://storage.ghost.io/c/09/ce/09cee984-fa22-44f2-a16f-e4d816e662de/content/images/2026/10/timpxmas.jpg",
+     "image_external": true,
+     "scope": "nearby"
+    },
+    {
+     "title": "Prince William building new town ‘modelled’ on Greater Manchester suburb",
+     "excerpt": "",
+     "date": "30 Oct 2026",
+     "tag": "Nearby news",
+     "tone": "neutral",
+     "source": "Manchester Evening News – Altrincham",
+     "domain": "manchestereveningnews.co.uk",
+     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/prince-william-new-town-manchester-34837353",
+     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34837341.ece/ALTERNATES/s615/0_Market-Street-courtyard.jpg",
      "image_external": true,
      "scope": "nearby"
     }
    ],
-   "period": "Publisher feeds checked 2026-10-27",
+   "period": "Publisher feeds checked 2026-10-30",
    "geography": "Bowdon",
    "source": {
     "name": "Local publisher RSS feeds",
@@ -1075,35 +1074,35 @@
   "price_by_type": {
    "value": {
     "detached": {
-     "average_3y": 1202358,
-     "sales_3y": 144,
-     "median_12m": 1140000,
-     "sales_12m": 41,
+     "average_3y": 1240695,
+     "sales_3y": 151,
+     "median_12m": 1157500,
+     "sales_12m": 44,
      "low_confidence": false
     },
     "semi": {
-     "average_3y": 784079,
-     "sales_3y": 97,
-     "median_12m": 640600,
-     "sales_12m": 35,
+     "average_3y": 748718,
+     "sales_3y": 95,
+     "median_12m": 640300,
+     "sales_12m": 34,
      "low_confidence": false
     },
     "terraced": {
-     "average_3y": 580531,
-     "sales_3y": 58,
-     "median_12m": 406250,
-     "sales_12m": 22,
+     "average_3y": 580301,
+     "sales_3y": 59,
+     "median_12m": 425000,
+     "sales_12m": 21,
      "low_confidence": false
     },
     "flat": {
-     "average_3y": 533082,
-     "sales_3y": 115,
-     "median_12m": 410000,
-     "sales_12m": 33,
+     "average_3y": 535704,
+     "sales_3y": 117,
+     "median_12m": 458800,
+     "sales_12m": 35,
      "low_confidence": false
     }
    },
-   "period": "3 years and 12 months to 31 Jul 2026",
+   "period": "3 years and 12 months to 31 Aug 2026",
    "geography": "Bowdon — wards: Bowdon",
    "source": {
     "name": "HM Land Registry Price Paid Data",
@@ -1157,13 +1156,13 @@
     },
     {
      "year": 2024,
-     "average": 831077,
-     "sales": 134
+     "average": 840877,
+     "sales": 136
     },
     {
      "year": 2025,
-     "average": 854617,
-     "sales": 160
+     "average": 864750,
+     "sales": 163
     }
    ],
    "period": "2016–2025, calendar years",
@@ -1198,13 +1197,16 @@
     "buses": [
      {
       "number": "5",
-      "from": "Broomedge",
-      "to": "Altrincham",
-      "via": [],
+      "from": "Warrington",
+      "to": "Altrinch",
+      "via": [
+       "Stockton Heath",
+       "Broomedge"
+      ],
       "operators": [
        "Warrington's Own Buses"
       ],
-      "trips": 164,
+      "trips": 163,
       "school": false
      },
      {
@@ -1320,19 +1322,19 @@
       "school": false
      },
      {
-      "number": "752",
-      "from": "Cheadle",
+      "number": "757",
+      "from": "Eccles",
       "to": "Loreto Grammar School",
       "via": [],
       "operators": [
        "Bee Network"
       ],
-      "trips": 4,
+      "trips": 6,
       "school": true
      },
      {
-      "number": "757",
-      "from": "Eccles",
+      "number": "752",
+      "from": "Cheadle",
       "to": "Loreto Grammar School",
       "via": [],
       "operators": [
@@ -1460,7 +1462,7 @@
     "tram_map": "https://tfgm.com/ways-to-travel/tram/network-map",
     "rail_reviewed": "2026-10-12"
    },
-   "period": "Timetable downloaded 2026-10-27",
+   "period": "Timetable downloaded 2026-10-30",
    "geography": "Stops within 1 km of the centre of Bowdon",
    "source": {
     "name": "TfGM bus and Metrolink timetables (GTFS)",
@@ -1609,5 +1611,5 @@
    "note": "Access to jobs, education, healthcare, shops and leisure by walking, cycling, public transport and driving."
   }
  },
- "updated": "2026-10-27"
+ "updated": "2026-10-30"
 }

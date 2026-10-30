@@ -34,8 +34,8 @@
    "note": "Modelled background concentrations; roadside levels can be higher."
   },
   "annual_growth": {
-   "value": 12.2,
-   "period": "12 months to 31 Jul 2026 vs previous 12 months",
+   "value": 11.1,
+   "period": "12 months to 31 Aug 2026 vs previous 12 months",
    "geography": "Broadheath — wards: Broadheath",
    "source": {
     "name": "HM Land Registry Price Paid Data",
@@ -44,8 +44,8 @@
    },
    "status": "ok",
    "unit": "%",
-   "sample": 133,
-   "previous": 380832,
+   "sample": 134,
+   "previous": 380992,
    "note": "Change in the average sold price; it moves with the mix of homes sold."
   },
   "aqma": {
@@ -54,7 +54,7 @@
     "nearby": [
      {
       "name": "Trafford AQMA",
-      "url": "https://uk-air.defra.gov.uk/aqma/details?aqma_ref=84"
+      "url": "https://uk-air.defra.gov.uk/aqma/details?aqma_ref="
      }
     ]
    },
@@ -68,8 +68,8 @@
    "status": "ok"
   },
   "average_price": {
-   "value": 427450,
-   "period": "12 months to 31 Jul 2026",
+   "value": 423403,
+   "period": "12 months to 31 Aug 2026",
    "geography": "Broadheath — wards: Broadheath",
    "source": {
     "name": "HM Land Registry Price Paid Data",
@@ -78,8 +78,8 @@
    },
    "status": "ok",
    "unit": "GBP",
-   "sample": 133,
-   "median": 412500
+   "sample": 134,
+   "median": 403750
   },
   "average_rent": {
    "value": {
@@ -744,46 +744,46 @@
   "news": {
    "value": [
     {
-     "title": "Free careers fair in Altrincham to bring together more than 35 employers and education providers",
+     "title": "FatFace becomes latest big-name retailer to open in Altrincham's Stamford Quarter",
      "excerpt": "",
-     "date": "26 Oct 2026",
+     "date": "29 Oct 2026",
      "tag": "Nearby · Altrincham",
      "tone": "neutral",
      "source": "Altrincham Today",
      "domain": "altrincham.todaynews.co.uk",
-     "url": "https://altrincham.todaynews.co.uk/news/2026/10/26/free-careers-fair-in-altrincham-to-bring-together-more-than-35-employers-and-education-providers/",
-     "image": "https://storage.ghost.io/c/09/ce/09cee984-fa22-44f2-a16f-e4d816e662de/content/images/2026/10/554712898_24818020754504707_7581052702833179533_n--1-.jpg",
+     "url": "https://altrincham.todaynews.co.uk/news/2026/10/29/fatface-becomes-latest-big-name-retailer-to-open-in-altrinchams-stamford-quarter/",
+     "image": "https://storage.ghost.io/c/09/ce/09cee984-fa22-44f2-a16f-e4d816e662de/content/images/2026/10/fatface.jpg",
      "image_external": true,
      "scope": "nearby",
      "near": "Altrincham"
     },
     {
-     "title": "Concern over major admissions change at Altrincham Grammar for Girls",
+     "title": "CONNOR RAND: Why I’m campaigning for more services at Altrincham Hospital",
      "excerpt": "",
-     "date": "26 Oct 2026",
+     "date": "29 Oct 2026",
      "tag": "Nearby · Altrincham",
      "tone": "neutral",
      "source": "Messenger Newspapers",
      "domain": "messengernewspapers.co.uk",
-     "url": "https://www.messengernewspapers.co.uk/news/26668352.parents-raise-concerns-altrincham-grammar-admissions-plans/?ref=rss",
-     "image": "https://www.messengernewspapers.co.uk/resources/images/21628704/",
+     "url": "https://www.messengernewspapers.co.uk/news/26676612.campaigning-services-altrincham-hospital/?ref=rss",
+     "image": "https://www.messengernewspapers.co.uk/resources/images/18156895/",
      "image_external": true,
      "scope": "nearby",
      "near": "Altrincham"
     },
     {
-     "title": "ProSpinal: a new chapter for Hale’s spinal clinic",
+     "title": "Timperley plans its biggest Christmas lights celebration yet as switch-on date confirmed",
      "excerpt": "",
-     "date": "21 Oct 2026",
-     "tag": "Nearby · Hale",
+     "date": "30 Oct 2026",
+     "tag": "Nearby · Timperley",
      "tone": "neutral",
      "source": "Altrincham Today",
      "domain": "altrincham.todaynews.co.uk",
-     "url": "https://altrincham.todaynews.co.uk/news/2026/10/21/prospinal-a-new-chapter-for-hales-spinal-clinic/",
-     "image": "https://storage.ghost.io/c/09/ce/09cee984-fa22-44f2-a16f-e4d816e662de/content/images/2026/10/ProSpinal-2.jpg",
+     "url": "https://altrincham.todaynews.co.uk/news/2026/10/30/timperley-plans-its-biggest-christmas-lights-celebration-yet-as-switch-on-date-confirmed/",
+     "image": "https://storage.ghost.io/c/09/ce/09cee984-fa22-44f2-a16f-e4d816e662de/content/images/2026/10/timpxmas.jpg",
      "image_external": true,
      "scope": "nearby",
-     "near": "Hale"
+     "near": "Timperley"
     },
     {
      "title": "Police target drivers on busy Timperley road as part of borough-wide \"crime-smashing\" crackdown",
@@ -800,7 +800,7 @@
      "near": "Timperley"
     }
    ],
-   "period": "Publisher feeds checked 2026-10-27",
+   "period": "Publisher feeds checked 2026-10-30",
    "geography": "Broadheath",
    "source": {
     "name": "Local publisher RSS feeds",
@@ -1053,35 +1053,35 @@
   "price_by_type": {
    "value": {
     "detached": {
-     "average_3y": 548125,
-     "sales_3y": 65,
-     "median_12m": 615000,
-     "sales_12m": 17,
+     "average_3y": 544111,
+     "sales_3y": 64,
+     "median_12m": 602500,
+     "sales_12m": 18,
      "low_confidence": false
     },
     "semi": {
-     "average_3y": 433596,
-     "sales_3y": 233,
-     "median_12m": 430000,
-     "sales_12m": 73,
+     "average_3y": 434250,
+     "sales_3y": 232,
+     "median_12m": 433000,
+     "sales_12m": 71,
      "low_confidence": false
     },
     "terraced": {
-     "average_3y": 349148,
+     "average_3y": 350599,
      "sales_3y": 83,
-     "median_12m": 326500,
-     "sales_12m": 28,
+     "median_12m": 344376,
+     "sales_12m": 26,
      "low_confidence": false
     },
     "flat": {
-     "average_3y": 198751,
-     "sales_3y": 88,
-     "median_12m": 215000,
-     "sales_12m": 15,
+     "average_3y": 199066,
+     "sales_3y": 92,
+     "median_12m": 205000,
+     "sales_12m": 19,
      "low_confidence": false
     }
    },
-   "period": "3 years and 12 months to 31 Jul 2026",
+   "period": "3 years and 12 months to 31 Aug 2026",
    "geography": "Broadheath — wards: Broadheath",
    "source": {
     "name": "HM Land Registry Price Paid Data",
@@ -1115,8 +1115,8 @@
     },
     {
      "year": 2020,
-     "average": 320676,
-     "sales": 172
+     "average": 320325,
+     "sales": 173
     },
     {
      "year": 2021,
@@ -1182,7 +1182,7 @@
       "operators": [
        "Bee Network"
       ],
-      "trips": 694,
+      "trips": 684,
       "school": false
      },
      {
@@ -1351,6 +1351,17 @@
       "school": false
      },
      {
+      "number": "757",
+      "from": "Eccles",
+      "to": "Loreto Grammar School",
+      "via": [],
+      "operators": [
+       "Bee Network"
+      ],
+      "trips": 6,
+      "school": true
+     },
+     {
       "number": "789",
       "from": "Lostock",
       "to": "Blessed Thomas Holford College",
@@ -1364,17 +1375,6 @@
      {
       "number": "752",
       "from": "Cheadle",
-      "to": "Loreto Grammar School",
-      "via": [],
-      "operators": [
-       "Bee Network"
-      ],
-      "trips": 4,
-      "school": true
-     },
-     {
-      "number": "757",
-      "from": "Eccles",
       "to": "Loreto Grammar School",
       "via": [],
       "operators": [
@@ -1513,7 +1513,7 @@
     "tram_map": "https://tfgm.com/ways-to-travel/tram/network-map",
     "rail_reviewed": "2026-10-12"
    },
-   "period": "Timetable downloaded 2026-10-27",
+   "period": "Timetable downloaded 2026-10-30",
    "geography": "Stops within 1 km of the centre of Broadheath",
    "source": {
     "name": "TfGM bus and Metrolink timetables (GTFS)",
@@ -1661,5 +1661,5 @@
    "note": "Access to jobs, education, healthcare, shops and leisure by walking, cycling, public transport and driving."
   }
  },
- "updated": "2026-10-27"
+ "updated": "2026-10-30"
 }
