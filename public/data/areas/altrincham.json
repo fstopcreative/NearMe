@@ -766,54 +766,54 @@
   "news": {
    "value": [
     {
-     "title": "FatFace becomes latest big-name retailer to open in Altrincham's Stamford Quarter",
+     "title": "Altrincham goes back to the 80s for Live Aid-inspired Christmas Lights Switch-On",
      "excerpt": "",
-     "date": "29 Oct 2026",
+     "date": "2 Nov 2026",
      "tag": "Local news",
      "tone": "neutral",
      "source": "Altrincham Today",
      "domain": "altrincham.todaynews.co.uk",
-     "url": "https://altrincham.todaynews.co.uk/news/2026/10/29/fatface-becomes-latest-big-name-retailer-to-open-in-altrinchams-stamford-quarter/",
-     "image": "https://storage.ghost.io/c/09/ce/09cee984-fa22-44f2-a16f-e4d816e662de/content/images/2026/10/fatface.jpg",
+     "url": "https://altrincham.todaynews.co.uk/news/2026/11/02/altrincham-goes-back-to-the-80s-for-live-aid-inspired-christmas-lights-switch-on/",
+     "image": "https://storage.ghost.io/c/09/ce/09cee984-fa22-44f2-a16f-e4d816e662de/content/images/2026/11/Santa-on-Christmas-Lights-Switch-on-Stage--1-.jpg",
      "image_external": true,
      "scope": "local"
     },
     {
-     "title": "CONNOR RAND: Why I’m campaigning for more services at Altrincham Hospital",
+     "title": "Remembrance Sunday 2026: Where and when services will take place in Altrincham, Bowdon, Hale and Hale Barns",
      "excerpt": "",
-     "date": "29 Oct 2026",
+     "date": "2 Nov 2026",
+     "tag": "Local news",
+     "tone": "neutral",
+     "source": "Altrincham Today",
+     "domain": "altrincham.todaynews.co.uk",
+     "url": "https://altrincham.todaynews.co.uk/news/2026/11/02/remembrance-sunday-2026-where-and-when-services-will-take-place-in-altrincham-bowdon-hale-and-hale-barns/",
+     "image": "https://storage.ghost.io/c/09/ce/09cee984-fa22-44f2-a16f-e4d816e662de/content/images/2026/11/IMG_8833.jpg",
+     "image_external": true,
+     "scope": "local"
+    },
+    {
+     "title": "Three-storey Victorian home in Altrincham with south-facing garden hits market",
+     "excerpt": "",
+     "date": "1 Nov 2026",
      "tag": "Local news",
      "tone": "neutral",
      "source": "Messenger Newspapers",
      "domain": "messengernewspapers.co.uk",
-     "url": "https://www.messengernewspapers.co.uk/news/26676612.campaigning-services-altrincham-hospital/?ref=rss",
-     "image": "https://www.messengernewspapers.co.uk/resources/images/18156895/",
+     "url": "https://www.messengernewspapers.co.uk/news/26685377.three-bedroom-victorian-home-sale-altrincham/?ref=rss",
+     "image": "https://www.messengernewspapers.co.uk/resources/images/21652167/",
      "image_external": true,
      "scope": "local"
     },
     {
-     "title": "A new chapter for academic learning at Altrincham Preparatory School",
+     "title": "Two young black cats in Altrincham searching for forever home this Halloween",
      "excerpt": "",
-     "date": "27 Oct 2026",
-     "tag": "Schools",
-     "tone": "success",
-     "source": "Altrincham Today",
-     "domain": "altrincham.todaynews.co.uk",
-     "url": "https://altrincham.todaynews.co.uk/news/2026/10/27/a-new-chapter-for-academic-learning-at-altrincham-preparatory-school/",
-     "image": "https://storage.ghost.io/c/09/ce/09cee984-fa22-44f2-a16f-e4d816e662de/content/images/2026/10/3V7A6680--4-.jpg",
-     "image_external": true,
-     "scope": "local"
-    },
-    {
-     "title": "Altrincham tip is to start asking for proof of address",
-     "excerpt": "",
-     "date": "27 Oct 2026",
+     "date": "31 Oct 2026",
      "tag": "Local news",
      "tone": "neutral",
-     "source": "Altrincham Today",
-     "domain": "altrincham.todaynews.co.uk",
-     "url": "https://altrincham.todaynews.co.uk/news/2026/10/27/altrincham-tip-is-to-start-asking-for-proof-of-address/",
-     "image": "https://storage.ghost.io/c/09/ce/09cee984-fa22-44f2-a16f-e4d816e662de/content/images/2026/10/recycle-e1589448980889.webp",
+     "source": "Messenger Newspapers",
+     "domain": "messengernewspapers.co.uk",
+     "url": "https://www.messengernewspapers.co.uk/news/26684061.altrincham-rescue-cats-sabrina-salem-need-new-home/?ref=rss",
+     "image": "https://www.messengernewspapers.co.uk/resources/images/21650286/",
      "image_external": true,
      "scope": "local"
     },
@@ -846,33 +846,33 @@
      "near": "Timperley"
     },
     {
-     "title": "Items stolen from Man Utd Munich air disaster memorial",
+     "title": "Deansgate LIVE as busy street cordoned off by police in 'serious' incident",
      "excerpt": "",
-     "date": "30 Oct 2026",
+     "date": "2 Nov 2026",
      "tag": "Greater Manchester",
      "tone": "neutral",
-     "source": "BBC News – Manchester",
-     "domain": "bbc.co.uk",
-     "url": "https://www.bbc.co.uk/news/articles/cxly4pqndz57o?at_medium=RSS&at_campaign=rss",
-     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6596/live/bb5877a0-d452-11f1-8780-edcbf4859104.jpg",
+     "source": "Manchester Evening News – Greater Manchester",
+     "domain": "manchestereveningnews.co.uk",
+     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/deansgate-live-busy-street-cordoned-34850850",
+     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34850839.ece/ALTERNATES/s615/0_Deansgate.jpg",
      "image_external": true,
      "scope": "nearby"
     },
     {
-     "title": "Paddy McGuinness to go back on tour in 2027 - how you can get tickets",
+     "title": "Downing Street defends plane that picked Andy Burnham up at Manchester Airport 34 minutes after leaving London",
      "excerpt": "",
-     "date": "30 Oct 2026",
+     "date": "2 Nov 2026",
      "tag": "Greater Manchester",
      "tone": "neutral",
-     "source": "Messenger Newspapers",
-     "domain": "messengernewspapers.co.uk",
-     "url": "https://www.messengernewspapers.co.uk/news/26683851.paddy-mcguinness-announces-new-blast-past-tour/?ref=rss",
-     "image": "https://www.messengernewspapers.co.uk/resources/images/21171663/",
+     "source": "Manchester Evening News – Greater Manchester",
+     "domain": "manchestereveningnews.co.uk",
+     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/andy-burnham-plane-manchester-airport-34850422",
+     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34850433.ece/ALTERNATES/s615/0_BESTPIX-UK-Prime-Minister-Attends-The-United-Nations-General-Assembly.jpg",
      "image_external": true,
      "scope": "nearby"
     }
    ],
-   "period": "Publisher feeds checked 2026-10-30",
+   "period": "Publisher feeds checked 2026-11-02",
    "geography": "Altrincham",
    "source": {
     "name": "Local publisher RSS feeds",
@@ -1625,7 +1625,7 @@
     "tram_map": "https://tfgm.com/ways-to-travel/tram/network-map",
     "rail_reviewed": "2026-10-12"
    },
-   "period": "Timetable downloaded 2026-10-30",
+   "period": "Timetable downloaded 2026-11-02",
    "geography": "Stops within 1 km of the centre of Altrincham",
    "source": {
     "name": "TfGM bus and Metrolink timetables (GTFS)",
@@ -1772,5 +1772,5 @@
    "note": "Access to jobs, education, healthcare, shops and leisure by walking, cycling, public transport and driving."
   }
  },
- "updated": "2026-10-30"
+ "updated": "2026-11-02"
 }

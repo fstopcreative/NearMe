@@ -631,6 +631,20 @@
   "news": {
    "value": [
     {
+     "title": "Partington care home celebrates 'good' rating after glowing CQC inspection",
+     "excerpt": "",
+     "date": "2 Nov 2026",
+     "tag": "Nearby · Partington",
+     "tone": "neutral",
+     "source": "Messenger Newspapers",
+     "domain": "messengernewspapers.co.uk",
+     "url": "https://www.messengernewspapers.co.uk/news/26684635.four-oaks-care-home-partington-rated-good-cqc/?ref=rss",
+     "image": "https://www.messengernewspapers.co.uk/resources/images/21651082/",
+     "image_external": true,
+     "scope": "nearby",
+     "near": "Partington"
+    },
+    {
      "title": "Volunteers praised for transforming breastfeeding support in Trafford",
      "excerpt": "",
      "date": "30 Oct 2026",
@@ -640,20 +654,6 @@
      "domain": "messengernewspapers.co.uk",
      "url": "https://www.messengernewspapers.co.uk/news/26676622.trafford-volunteers-transform-breastfeeding-support-mums/?ref=rss",
      "image": "https://www.messengernewspapers.co.uk/resources/images/21640258/",
-     "image_external": true,
-     "scope": "nearby",
-     "near": "Partington"
-    },
-    {
-     "title": "Couple from Partington celebrate 65th wedding anniversary",
-     "excerpt": "",
-     "date": "30 Oct 2026",
-     "tag": "Nearby · Partington",
-     "tone": "neutral",
-     "source": "Messenger Newspapers",
-     "domain": "messengernewspapers.co.uk",
-     "url": "https://www.messengernewspapers.co.uk/news/26674783.couple-partington-celebrate-65th-wedding-anniversary/?ref=rss",
-     "image": "https://www.messengernewspapers.co.uk/resources/images/21637707/",
      "image_external": true,
      "scope": "nearby",
      "near": "Partington"
@@ -673,20 +673,20 @@
      "near": "Carrington"
     },
     {
-     "title": "Items stolen from Man Utd Munich air disaster memorial",
+     "title": "Deansgate LIVE as busy street cordoned off by police in 'serious' incident",
      "excerpt": "",
-     "date": "30 Oct 2026",
+     "date": "2 Nov 2026",
      "tag": "Greater Manchester",
      "tone": "neutral",
-     "source": "BBC News – Manchester",
-     "domain": "bbc.co.uk",
-     "url": "https://www.bbc.co.uk/news/articles/cxly4pqndz57o?at_medium=RSS&at_campaign=rss",
-     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6596/live/bb5877a0-d452-11f1-8780-edcbf4859104.jpg",
+     "source": "Manchester Evening News – Greater Manchester",
+     "domain": "manchestereveningnews.co.uk",
+     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/deansgate-live-busy-street-cordoned-34850850",
+     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34850839.ece/ALTERNATES/s615/0_Deansgate.jpg",
      "image_external": true,
      "scope": "nearby"
     }
    ],
-   "period": "Publisher feeds checked 2026-10-30",
+   "period": "Publisher feeds checked 2026-11-02",
    "geography": "Warburton",
    "source": {
     "name": "Local publisher RSS feeds",
@@ -1045,7 +1045,7 @@
     "tram_map": "https://tfgm.com/ways-to-travel/tram/network-map",
     "rail_reviewed": "2026-10-12"
    },
-   "period": "Timetable downloaded 2026-10-30",
+   "period": "Timetable downloaded 2026-11-02",
    "geography": "Stops within 1 km of the centre of Warburton",
    "source": {
     "name": "TfGM bus and Metrolink timetables (GTFS)",
@@ -1185,5 +1185,5 @@
    "note": "Access to jobs, education, healthcare, shops and leisure by walking, cycling, public transport and driving."
   }
  },
- "updated": "2026-10-30"
+ "updated": "2026-11-02"
 }

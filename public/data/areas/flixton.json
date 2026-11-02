@@ -644,47 +644,47 @@
      "near": "Carrington"
     },
     {
-     "title": "Debut Urmston author fulfils dream with first children’s book",
+     "title": "This Urmston pub is known for big Halloween and Christmas displays, but doesn't stop there",
      "excerpt": "",
-     "date": "28 Oct 2026",
+     "date": "1 Nov 2026",
      "tag": "Nearby · Urmston",
      "tone": "neutral",
-     "source": "Messenger Newspapers",
-     "domain": "messengernewspapers.co.uk",
-     "url": "https://www.messengernewspapers.co.uk/news/26671194.urmston-debut-author-releases-first-childrens-book/?ref=rss",
-     "image": "https://www.messengernewspapers.co.uk/resources/images/21632632/",
+     "source": "Manchester Evening News – Trafford",
+     "domain": "manchestereveningnews.co.uk",
+     "url": "https://www.manchestereveningnews.co.uk/whats-on/food-drink-news/urmston-pub-known-big-halloween-34825674",
+     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34825998.ece/ALTERNATES/s615/0_AMR_MEN_271026_THEFX.jpg",
      "image_external": true,
      "scope": "nearby",
      "near": "Urmston"
     },
     {
-     "title": "Items stolen from Man Utd Munich air disaster memorial",
+     "title": "Deansgate LIVE as busy street cordoned off by police in 'serious' incident",
      "excerpt": "",
-     "date": "30 Oct 2026",
+     "date": "2 Nov 2026",
      "tag": "Greater Manchester",
      "tone": "neutral",
-     "source": "BBC News – Manchester",
-     "domain": "bbc.co.uk",
-     "url": "https://www.bbc.co.uk/news/articles/cxly4pqndz57o?at_medium=RSS&at_campaign=rss",
-     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6596/live/bb5877a0-d452-11f1-8780-edcbf4859104.jpg",
+     "source": "Manchester Evening News – Greater Manchester",
+     "domain": "manchestereveningnews.co.uk",
+     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/deansgate-live-busy-street-cordoned-34850850",
+     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34850839.ece/ALTERNATES/s615/0_Deansgate.jpg",
      "image_external": true,
      "scope": "nearby"
     },
     {
-     "title": "Paddy McGuinness to go back on tour in 2027 - how you can get tickets",
+     "title": "Downing Street defends plane that picked Andy Burnham up at Manchester Airport 34 minutes after leaving London",
      "excerpt": "",
-     "date": "30 Oct 2026",
+     "date": "2 Nov 2026",
      "tag": "Greater Manchester",
      "tone": "neutral",
-     "source": "Messenger Newspapers",
-     "domain": "messengernewspapers.co.uk",
-     "url": "https://www.messengernewspapers.co.uk/news/26683851.paddy-mcguinness-announces-new-blast-past-tour/?ref=rss",
-     "image": "https://www.messengernewspapers.co.uk/resources/images/21171663/",
+     "source": "Manchester Evening News – Greater Manchester",
+     "domain": "manchestereveningnews.co.uk",
+     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/andy-burnham-plane-manchester-airport-34850422",
+     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34850433.ece/ALTERNATES/s615/0_BESTPIX-UK-Prime-Minister-Attends-The-United-Nations-General-Assembly.jpg",
      "image_external": true,
      "scope": "nearby"
     }
    ],
-   "period": "Publisher feeds checked 2026-10-30",
+   "period": "Publisher feeds checked 2026-11-02",
    "geography": "Flixton",
    "source": {
     "name": "Local publisher RSS feeds",
@@ -695,6 +695,7 @@
    "feeds": [
     "Messenger Newspapers",
     "Manchester Evening News – Trafford",
+    "Manchester Evening News – Urmston",
     "Manchester Evening News – Sale",
     "Altrincham Today",
     "Manchester Evening News – Greater Manchester",
@@ -708,6 +709,10 @@
     {
      "name": "Manchester Evening News – Trafford",
      "url": "https://www.manchestereveningnews.co.uk/all-about/trafford?service=rss"
+    },
+    {
+     "name": "Manchester Evening News – Urmston",
+     "url": "https://www.manchestereveningnews.co.uk/all-about/urmston?service=rss"
     },
     {
      "name": "Manchester Evening News – Sale",
@@ -1259,7 +1264,7 @@
     "tram_map": "https://tfgm.com/ways-to-travel/tram/network-map",
     "rail_reviewed": "2026-10-12"
    },
-   "period": "Timetable downloaded 2026-10-30",
+   "period": "Timetable downloaded 2026-11-02",
    "geography": "Stops within 1 km of the centre of Flixton",
    "source": {
     "name": "TfGM bus and Metrolink timetables (GTFS)",
@@ -1407,5 +1412,5 @@
    "note": "Access to jobs, education, healthcare, shops and leisure by walking, cycling, public transport and driving."
   }
  },
- "updated": "2026-10-30"
+ "updated": "2026-11-02"
 }

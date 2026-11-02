@@ -693,6 +693,19 @@
   "news": {
    "value": [
     {
+     "title": "Partington care home celebrates 'good' rating after glowing CQC inspection",
+     "excerpt": "",
+     "date": "2 Nov 2026",
+     "tag": "Local news",
+     "tone": "neutral",
+     "source": "Messenger Newspapers",
+     "domain": "messengernewspapers.co.uk",
+     "url": "https://www.messengernewspapers.co.uk/news/26684635.four-oaks-care-home-partington-rated-good-cqc/?ref=rss",
+     "image": "https://www.messengernewspapers.co.uk/resources/images/21651082/",
+     "image_external": true,
+     "scope": "local"
+    },
+    {
      "title": "Volunteers praised for transforming breastfeeding support in Trafford",
      "excerpt": "",
      "date": "30 Oct 2026",
@@ -702,19 +715,6 @@
      "domain": "messengernewspapers.co.uk",
      "url": "https://www.messengernewspapers.co.uk/news/26676622.trafford-volunteers-transform-breastfeeding-support-mums/?ref=rss",
      "image": "https://www.messengernewspapers.co.uk/resources/images/21640258/",
-     "image_external": true,
-     "scope": "local"
-    },
-    {
-     "title": "Couple from Partington celebrate 65th wedding anniversary",
-     "excerpt": "",
-     "date": "30 Oct 2026",
-     "tag": "Local news",
-     "tone": "neutral",
-     "source": "Messenger Newspapers",
-     "domain": "messengernewspapers.co.uk",
-     "url": "https://www.messengernewspapers.co.uk/news/26674783.couple-partington-celebrate-65th-wedding-anniversary/?ref=rss",
-     "image": "https://www.messengernewspapers.co.uk/resources/images/21637707/",
      "image_external": true,
      "scope": "local"
     },
@@ -732,72 +732,59 @@
      "scope": "local"
     },
     {
-     "title": "Connecting Partington scheme progresses with crossings and cycle links",
+     "title": "LIVE: Man who murdered Stretford Grammar headteacher Michael Mullins discovers his fate - updates from court",
      "excerpt": "",
-     "date": "29 Oct 2026",
-     "tag": "Transport",
-     "tone": "info",
-     "source": "Messenger Newspapers",
-     "domain": "messengernewspapers.co.uk",
-     "url": "https://www.messengernewspapers.co.uk/news/26676877.partington-transport-improvement-scheme-moves-forward/?ref=rss",
-     "image": "https://www.messengernewspapers.co.uk/resources/images/21640578/",
-     "image_external": true,
-     "scope": "local"
-    },
-    {
-     "title": "P.Louise to open Trafford Palazzo restaurant with pink pony party booths and the 'best' Sunday dinner",
-     "excerpt": "",
-     "date": "29 Oct 2026",
+     "date": "2 Nov 2026",
      "tag": "Nearby news",
      "tone": "neutral",
      "source": "Manchester Evening News – Trafford",
      "domain": "manchestereveningnews.co.uk",
-     "url": "https://www.manchestereveningnews.co.uk/whats-on/food-drink-news/plouise-open-trafford-palazzo-restaurant-34835044",
-     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34835170.ece/ALTERNATES/s615/0_AMR_MEN_291026_PL_03.jpg",
+     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/live-man-who-murdered-stretford-34849245",
+     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34842338.ece/ALTERNATES/s615/0_Mug23.jpg",
      "image_external": true,
      "scope": "nearby"
     },
     {
-     "title": "Therme Manchester bosses issue fresh CGIs as new opening date for £500m project confirmed",
+     "title": "Transformation of two iconic Greater Manchester buildings amongst major plans",
      "excerpt": "",
-     "date": "29 Oct 2026",
+     "date": "1 Nov 2026",
      "tag": "Nearby news",
      "tone": "neutral",
      "source": "Manchester Evening News – Trafford",
      "domain": "manchestereveningnews.co.uk",
-     "url": "https://www.manchestereveningnews.co.uk/whats-on/whats-on-news/therme-manchester-bosses-issue-fresh-34834044",
-     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34834080.ece/ALTERNATES/s615/0_New-CGIs-have-been-issued-which-show-how-Therme-Manchester-will-look-when-its-completed.jpg",
+     "url": "https://www.manchestereveningnews.co.uk/news/transformation-two-iconic-greater-manchester-34842341",
+     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34818879.ece/ALTERNATES/s615/0_Former-Bury-Grammar-School.jpg",
      "image_external": true,
      "scope": "nearby"
     },
     {
-     "title": "‘No indication’ of who carried out cyber attack impacting thousands of Greater Manchester residents",
+     "title": "Greater Manchester care home last inspected in 2019 loses ‘good’ rating - this week’s healthcare inspections reveal",
      "excerpt": "",
-     "date": "28 Oct 2026",
+     "date": "1 Nov 2026",
      "tag": "Nearby news",
      "tone": "neutral",
      "source": "Manchester Evening News – Trafford",
      "domain": "manchestereveningnews.co.uk",
-     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/no-indication-who-carried-out-34830146",
-     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34435175.ece/ALTERNATES/s615/0_Aerial-view-of-the-suburbs-of-Manchester.jpg",
+     "url": "https://www.manchestereveningnews.co.uk/news/health/greater-manchester-care-home-last-34842324",
+     "image": "https://i2-prod.manchestereveningnews.co.uk/news/uk-news/article34687541.ece/ALTERNATES/s615/0_Senior-Home-Health-Care.jpg",
      "image_external": true,
      "scope": "nearby"
     },
     {
-     "title": "Wendy's gives update on first-ever Greater Manchester restaurant, as another site confirmed",
+     "title": "The full story of the murder of Stretford Grammar headteacher Michael Mullins",
      "excerpt": "",
-     "date": "28 Oct 2026",
+     "date": "1 Nov 2026",
      "tag": "Nearby news",
      "tone": "neutral",
      "source": "Manchester Evening News – Trafford",
      "domain": "manchestereveningnews.co.uk",
-     "url": "https://www.manchestereveningnews.co.uk/whats-on/whats-on-news/wendys-gives-update-first-ever-34828067",
-     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34828100.ece/ALTERNATES/s615/0_Wendys-Sale.jpg",
+     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/full-story-murder-stretford-grammar-34842419",
+     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34842376.ece/ALTERNATES/s615/2_Screenshot-2026-10-30-at-170034.png",
      "image_external": true,
      "scope": "nearby"
     }
    ],
-   "period": "Publisher feeds checked 2026-10-30",
+   "period": "Publisher feeds checked 2026-11-02",
    "geography": "Partington",
    "source": {
     "name": "Local publisher RSS feeds",
@@ -809,6 +796,7 @@
     "Messenger Newspapers",
     "Manchester Evening News – Trafford",
     "Warrington Guardian",
+    "Manchester Evening News – Urmston",
     "Altrincham Today",
     "Manchester Evening News – Altrincham"
    ],
@@ -826,6 +814,10 @@
      "url": "https://www.warringtonguardian.co.uk/news/rss/"
     },
     {
+     "name": "Manchester Evening News – Urmston",
+     "url": "https://www.manchestereveningnews.co.uk/all-about/urmston?service=rss"
+    },
+    {
      "name": "Altrincham Today",
      "url": "https://altrincham.todaynews.co.uk/feed/"
     },
@@ -835,7 +827,7 @@
     }
    ],
    "scope": "local",
-   "local_count": 4,
+   "local_count": 3,
    "nearby_count": 4,
    "note": "Headlines and links only; RSS images are referenced from the publisher when supplied and are not copied."
   },
@@ -1318,7 +1310,7 @@
     "tram_map": "https://tfgm.com/ways-to-travel/tram/network-map",
     "rail_reviewed": "2026-10-12"
    },
-   "period": "Timetable downloaded 2026-10-30",
+   "period": "Timetable downloaded 2026-11-02",
    "geography": "Stops within 1 km of the centre of Partington",
    "source": {
     "name": "TfGM bus and Metrolink timetables (GTFS)",
@@ -1462,5 +1454,5 @@
    "note": "Access to jobs, education, healthcare, shops and leisure by walking, cycling, public transport and driving."
   }
  },
- "updated": "2026-10-30"
+ "updated": "2026-11-02"
 }

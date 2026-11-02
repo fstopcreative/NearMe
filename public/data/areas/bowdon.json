@@ -756,61 +756,74 @@
   "news": {
    "value": [
     {
-     "title": "FatFace becomes latest big-name retailer to open in Altrincham's Stamford Quarter",
+     "title": "Remembrance Sunday 2026: Where and when services will take place in Altrincham, Bowdon, Hale and Hale Barns",
      "excerpt": "",
-     "date": "29 Oct 2026",
+     "date": "2 Nov 2026",
+     "tag": "Local news",
+     "tone": "neutral",
+     "source": "Altrincham Today",
+     "domain": "altrincham.todaynews.co.uk",
+     "url": "https://altrincham.todaynews.co.uk/news/2026/11/02/remembrance-sunday-2026-where-and-when-services-will-take-place-in-altrincham-bowdon-hale-and-hale-barns/",
+     "image": "https://storage.ghost.io/c/09/ce/09cee984-fa22-44f2-a16f-e4d816e662de/content/images/2026/11/IMG_8833.jpg",
+     "image_external": true,
+     "scope": "local"
+    },
+    {
+     "title": "Altrincham goes back to the 80s for Live Aid-inspired Christmas Lights Switch-On",
+     "excerpt": "",
+     "date": "2 Nov 2026",
      "tag": "Nearby · Altrincham",
      "tone": "neutral",
      "source": "Altrincham Today",
      "domain": "altrincham.todaynews.co.uk",
-     "url": "https://altrincham.todaynews.co.uk/news/2026/10/29/fatface-becomes-latest-big-name-retailer-to-open-in-altrinchams-stamford-quarter/",
-     "image": "https://storage.ghost.io/c/09/ce/09cee984-fa22-44f2-a16f-e4d816e662de/content/images/2026/10/fatface.jpg",
+     "url": "https://altrincham.todaynews.co.uk/news/2026/11/02/altrincham-goes-back-to-the-80s-for-live-aid-inspired-christmas-lights-switch-on/",
+     "image": "https://storage.ghost.io/c/09/ce/09cee984-fa22-44f2-a16f-e4d816e662de/content/images/2026/11/Santa-on-Christmas-Lights-Switch-on-Stage--1-.jpg",
      "image_external": true,
      "scope": "nearby",
      "near": "Altrincham"
     },
     {
-     "title": "CONNOR RAND: Why I’m campaigning for more services at Altrincham Hospital",
+     "title": "Three-storey Victorian home in Altrincham with south-facing garden hits market",
      "excerpt": "",
-     "date": "29 Oct 2026",
+     "date": "1 Nov 2026",
      "tag": "Nearby · Altrincham",
      "tone": "neutral",
      "source": "Messenger Newspapers",
      "domain": "messengernewspapers.co.uk",
-     "url": "https://www.messengernewspapers.co.uk/news/26676612.campaigning-services-altrincham-hospital/?ref=rss",
-     "image": "https://www.messengernewspapers.co.uk/resources/images/18156895/",
+     "url": "https://www.messengernewspapers.co.uk/news/26685377.three-bedroom-victorian-home-sale-altrincham/?ref=rss",
+     "image": "https://www.messengernewspapers.co.uk/resources/images/21652167/",
      "image_external": true,
      "scope": "nearby",
      "near": "Altrincham"
     },
     {
-     "title": "Timperley plans its biggest Christmas lights celebration yet as switch-on date confirmed",
+     "title": "New twist in Little Bollington data centre plans as landowner faces enforcement action",
      "excerpt": "",
-     "date": "30 Oct 2026",
+     "date": "2 Nov 2026",
      "tag": "Nearby news",
      "tone": "neutral",
      "source": "Altrincham Today",
      "domain": "altrincham.todaynews.co.uk",
-     "url": "https://altrincham.todaynews.co.uk/news/2026/10/30/timperley-plans-its-biggest-christmas-lights-celebration-yet-as-switch-on-date-confirmed/",
-     "image": "https://storage.ghost.io/c/09/ce/09cee984-fa22-44f2-a16f-e4d816e662de/content/images/2026/10/timpxmas.jpg",
+     "url": "https://altrincham.todaynews.co.uk/news/2026/11/02/new-twist-in-little-bollington-data-centre-plans-as-landowner-faces-enforcement-action/",
+     "image": "https://storage.ghost.io/c/09/ce/09cee984-fa22-44f2-a16f-e4d816e662de/content/images/2026/11/high-res-spodegreen-render-2.jpg",
      "image_external": true,
      "scope": "nearby"
     },
     {
-     "title": "Prince William building new town ‘modelled’ on Greater Manchester suburb",
+     "title": "Why Metrolink tracks must be 'tricked into thinking it's 27 degrees'",
      "excerpt": "",
-     "date": "30 Oct 2026",
+     "date": "1 Nov 2026",
      "tag": "Nearby news",
      "tone": "neutral",
      "source": "Manchester Evening News – Altrincham",
      "domain": "manchestereveningnews.co.uk",
-     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/prince-william-new-town-manchester-34837353",
-     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34837341.ece/ALTERNATES/s615/0_Market-Street-courtyard.jpg",
+     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/metrolink-tracks-must-tricked-thinking-34839953",
+     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34840034.ece/ALTERNATES/s615/0_Cornbrook-metrolink-works-3.jpg",
      "image_external": true,
      "scope": "nearby"
     }
    ],
-   "period": "Publisher feeds checked 2026-10-30",
+   "period": "Publisher feeds checked 2026-11-02",
    "geography": "Bowdon",
    "source": {
     "name": "Local publisher RSS feeds",
@@ -842,8 +855,8 @@
      "url": "https://www.messengernewspapers.co.uk/news/rss/"
     }
    ],
-   "scope": "nearby",
-   "local_count": 0,
+   "scope": "local",
+   "local_count": 1,
    "nearby_count": 4,
    "note": "Headlines and links only; RSS images are referenced from the publisher when supplied and are not copied."
   },
@@ -1462,7 +1475,7 @@
     "tram_map": "https://tfgm.com/ways-to-travel/tram/network-map",
     "rail_reviewed": "2026-10-12"
    },
-   "period": "Timetable downloaded 2026-10-30",
+   "period": "Timetable downloaded 2026-11-02",
    "geography": "Stops within 1 km of the centre of Bowdon",
    "source": {
     "name": "TfGM bus and Metrolink timetables (GTFS)",
@@ -1611,5 +1624,5 @@
    "note": "Access to jobs, education, healthcare, shops and leisure by walking, cycling, public transport and driving."
   }
  },
- "updated": "2026-10-30"
+ "updated": "2026-11-02"
 }

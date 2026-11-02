@@ -673,42 +673,29 @@
      "scope": "local"
     },
     {
-     "title": "Job: Experienced Sales Negotiator – Full Time at Watersons Estate Agents",
+     "title": "LIVE: Man who murdered Stretford Grammar headteacher Michael Mullins discovers his fate - updates from court",
      "excerpt": "",
-     "date": "22 Oct 2026",
-     "tag": "Local news",
-     "tone": "neutral",
-     "source": "Altrincham Today",
-     "domain": "altrincham.todaynews.co.uk",
-     "url": "https://altrincham.todaynews.co.uk/jobs/2026/10/22/job-experienced-sales-negotiator-full-time-at-watersons-estate-agents/",
-     "image": "https://storage.ghost.io/c/09/ce/09cee984-fa22-44f2-a16f-e4d816e662de/content/images/2025/10/High-resolution-logo-edit.jpg",
-     "image_external": true,
-     "scope": "local"
-    },
-    {
-     "title": "Two arrested on suspicion of car crimes in Stretford, but there may be more victims",
-     "excerpt": "",
-     "date": "27 Oct 2026",
+     "date": "2 Nov 2026",
      "tag": "Nearby · Stretford",
      "tone": "neutral",
-     "source": "Messenger Newspapers",
-     "domain": "messengernewspapers.co.uk",
-     "url": "https://www.messengernewspapers.co.uk/news/26673264.two-arrested-suspicion-vehicle-crimes-stretford/?ref=rss",
-     "image": "https://www.messengernewspapers.co.uk/resources/images/21635647/",
+     "source": "Manchester Evening News – Trafford",
+     "domain": "manchestereveningnews.co.uk",
+     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/live-man-who-murdered-stretford-34849245",
+     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34842338.ece/ALTERNATES/s615/0_Mug23.jpg",
      "image_external": true,
      "scope": "nearby",
      "near": "Stretford"
     },
     {
-     "title": "Everything heard in second week in the trial of a man accused of murdering Stretford Grammar headteacher Michael Mullins",
+     "title": "Young people in Trafford offered chance to try forestry and conservation work",
      "excerpt": "",
-     "date": "25 Oct 2026",
+     "date": "2 Nov 2026",
      "tag": "Nearby · Stretford",
      "tone": "neutral",
-     "source": "Manchester Evening News – Trafford",
-     "domain": "manchestereveningnews.co.uk",
-     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/everything-heard-second-week-trial-34809304",
-     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34791556.ece/ALTERNATES/s615/0_Court2222.jpg",
+     "source": "Messenger Newspapers",
+     "domain": "messengernewspapers.co.uk",
+     "url": "https://www.messengernewspapers.co.uk/news/26686113.trafford-young-people-offered-free-forestry-skills-sessions/?ref=rss",
+     "image": "https://www.messengernewspapers.co.uk/resources/images/21653167/",
      "image_external": true,
      "scope": "nearby",
      "near": "Stretford"
@@ -742,7 +729,7 @@
      "near": "Timperley"
     }
    ],
-   "period": "Publisher feeds checked 2026-10-30",
+   "period": "Publisher feeds checked 2026-11-02",
    "geography": "Sale",
    "source": {
     "name": "Local publisher RSS feeds",
@@ -775,7 +762,7 @@
     }
    ],
    "scope": "local",
-   "local_count": 2,
+   "local_count": 1,
    "nearby_count": 4,
    "note": "Headlines and links only; RSS images are referenced from the publisher when supplied and are not copied."
   },
@@ -1447,7 +1434,7 @@
     "tram_map": "https://tfgm.com/ways-to-travel/tram/network-map",
     "rail_reviewed": "2026-10-12"
    },
-   "period": "Timetable downloaded 2026-10-30",
+   "period": "Timetable downloaded 2026-11-02",
    "geography": "Stops within 1 km of the centre of Sale",
    "source": {
     "name": "TfGM bus and Metrolink timetables (GTFS)",
@@ -1617,5 +1604,5 @@
    "note": "Access to jobs, education, healthcare, shops and leisure by walking, cycling, public transport and driving."
   }
  },
- "updated": "2026-10-30"
+ "updated": "2026-11-02"
 }
