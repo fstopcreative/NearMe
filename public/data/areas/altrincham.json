@@ -34,8 +34,8 @@
    "note": "Modelled background concentrations; roadside levels can be higher."
   },
   "annual_growth": {
-   "value": 3.1,
-   "period": "12 months to 31 Jul 2026 vs previous 12 months",
+   "value": 8.4,
+   "period": "12 months to 31 Aug 2026 vs previous 12 months",
    "geography": "Altrincham — wards: Altrincham",
    "source": {
     "name": "HM Land Registry Price Paid Data",
@@ -44,8 +44,8 @@
    },
    "status": "ok",
    "unit": "%",
-   "sample": 193,
-   "previous": 418518,
+   "sample": 188,
+   "previous": 408898,
    "note": "Change in the average sold price; it moves with the mix of homes sold."
   },
   "aqma": {
@@ -54,7 +54,7 @@
     "nearby": [
      {
       "name": "Trafford AQMA",
-      "url": "https://uk-air.defra.gov.uk/aqma/details?aqma_ref=84"
+      "url": "https://uk-air.defra.gov.uk/aqma/details?aqma_ref="
      }
     ]
    },
@@ -68,8 +68,8 @@
    "status": "ok"
   },
   "average_price": {
-   "value": 431650,
-   "period": "12 months to 31 Jul 2026",
+   "value": 443322,
+   "period": "12 months to 31 Aug 2026",
    "geography": "Altrincham — wards: Altrincham",
    "source": {
     "name": "HM Land Registry Price Paid Data",
@@ -78,8 +78,8 @@
    },
    "status": "ok",
    "unit": "GBP",
-   "sample": 193,
-   "median": 386000
+   "sample": 188,
+   "median": 387000
   },
   "average_rent": {
    "value": {
@@ -766,70 +766,70 @@
   "news": {
    "value": [
     {
-     "title": "Free careers fair in Altrincham to bring together more than 35 employers and education providers",
+     "title": "Altrincham goes back to the 80s for Live Aid-inspired Christmas Lights Switch-On",
      "excerpt": "",
-     "date": "26 Oct 2026",
-     "tag": "Schools",
-     "tone": "success",
-     "source": "Altrincham Today",
-     "domain": "altrincham.todaynews.co.uk",
-     "url": "https://altrincham.todaynews.co.uk/news/2026/10/26/free-careers-fair-in-altrincham-to-bring-together-more-than-35-employers-and-education-providers/",
-     "image": "https://storage.ghost.io/c/09/ce/09cee984-fa22-44f2-a16f-e4d816e662de/content/images/2026/10/554712898_24818020754504707_7581052702833179533_n--1-.jpg",
-     "image_external": true,
-     "scope": "local"
-    },
-    {
-     "title": "Concern over major admissions change at Altrincham Grammar for Girls",
-     "excerpt": "",
-     "date": "26 Oct 2026",
-     "tag": "Schools",
-     "tone": "success",
-     "source": "Messenger Newspapers",
-     "domain": "messengernewspapers.co.uk",
-     "url": "https://www.messengernewspapers.co.uk/news/26668352.parents-raise-concerns-altrincham-grammar-admissions-plans/?ref=rss",
-     "image": "https://www.messengernewspapers.co.uk/resources/images/21628704/",
-     "image_external": true,
-     "scope": "local"
-    },
-    {
-     "title": "Two men in their 30s charged with burglary and theft offences in Trafford, police say",
-     "excerpt": "",
-     "date": "23 Oct 2026",
-     "tag": "Local news",
-     "tone": "neutral",
-     "source": "Messenger Newspapers",
-     "domain": "messengernewspapers.co.uk",
-     "url": "https://www.messengernewspapers.co.uk/news/26665166.two-men-charged-burglary-theft-offences-trafford/?ref=rss",
-     "image": "https://www.messengernewspapers.co.uk/resources/images/12648945/",
-     "image_external": true,
-     "scope": "local"
-    },
-    {
-     "title": "Man guilty of attempted murder after random attacks in Altrincham town centre",
-     "excerpt": "",
-     "date": "23 Oct 2026",
+     "date": "2 Nov 2026",
      "tag": "Local news",
      "tone": "neutral",
      "source": "Altrincham Today",
      "domain": "altrincham.todaynews.co.uk",
-     "url": "https://altrincham.todaynews.co.uk/news/2026/10/23/man-guilty-of-attempted-murder-after-random-attacks-in-altrincham-town-centre/",
-     "image": "https://storage.ghost.io/c/09/ce/09cee984-fa22-44f2-a16f-e4d816e662de/content/images/2026/10/593423732_1508122891314050_8413678741589851537_n--1-.jpg",
+     "url": "https://altrincham.todaynews.co.uk/news/2026/11/02/altrincham-goes-back-to-the-80s-for-live-aid-inspired-christmas-lights-switch-on/",
+     "image": "https://storage.ghost.io/c/09/ce/09cee984-fa22-44f2-a16f-e4d816e662de/content/images/2026/11/Santa-on-Christmas-Lights-Switch-on-Stage--1-.jpg",
      "image_external": true,
      "scope": "local"
     },
     {
-     "title": "ProSpinal: a new chapter for Hale’s spinal clinic",
+     "title": "Remembrance Sunday 2026: Where and when services will take place in Altrincham, Bowdon, Hale and Hale Barns",
      "excerpt": "",
-     "date": "21 Oct 2026",
-     "tag": "Nearby · Hale",
+     "date": "2 Nov 2026",
+     "tag": "Local news",
      "tone": "neutral",
      "source": "Altrincham Today",
      "domain": "altrincham.todaynews.co.uk",
-     "url": "https://altrincham.todaynews.co.uk/news/2026/10/21/prospinal-a-new-chapter-for-hales-spinal-clinic/",
-     "image": "https://storage.ghost.io/c/09/ce/09cee984-fa22-44f2-a16f-e4d816e662de/content/images/2026/10/ProSpinal-2.jpg",
+     "url": "https://altrincham.todaynews.co.uk/news/2026/11/02/remembrance-sunday-2026-where-and-when-services-will-take-place-in-altrincham-bowdon-hale-and-hale-barns/",
+     "image": "https://storage.ghost.io/c/09/ce/09cee984-fa22-44f2-a16f-e4d816e662de/content/images/2026/11/IMG_8833.jpg",
+     "image_external": true,
+     "scope": "local"
+    },
+    {
+     "title": "Three-storey Victorian home in Altrincham with south-facing garden hits market",
+     "excerpt": "",
+     "date": "1 Nov 2026",
+     "tag": "Local news",
+     "tone": "neutral",
+     "source": "Messenger Newspapers",
+     "domain": "messengernewspapers.co.uk",
+     "url": "https://www.messengernewspapers.co.uk/news/26685377.three-bedroom-victorian-home-sale-altrincham/?ref=rss",
+     "image": "https://www.messengernewspapers.co.uk/resources/images/21652167/",
+     "image_external": true,
+     "scope": "local"
+    },
+    {
+     "title": "Two young black cats in Altrincham searching for forever home this Halloween",
+     "excerpt": "",
+     "date": "31 Oct 2026",
+     "tag": "Local news",
+     "tone": "neutral",
+     "source": "Messenger Newspapers",
+     "domain": "messengernewspapers.co.uk",
+     "url": "https://www.messengernewspapers.co.uk/news/26684061.altrincham-rescue-cats-sabrina-salem-need-new-home/?ref=rss",
+     "image": "https://www.messengernewspapers.co.uk/resources/images/21650286/",
+     "image_external": true,
+     "scope": "local"
+    },
+    {
+     "title": "Timperley plans its biggest Christmas lights celebration yet as switch-on date confirmed",
+     "excerpt": "",
+     "date": "30 Oct 2026",
+     "tag": "Nearby · Timperley",
+     "tone": "neutral",
+     "source": "Altrincham Today",
+     "domain": "altrincham.todaynews.co.uk",
+     "url": "https://altrincham.todaynews.co.uk/news/2026/10/30/timperley-plans-its-biggest-christmas-lights-celebration-yet-as-switch-on-date-confirmed/",
+     "image": "https://storage.ghost.io/c/09/ce/09cee984-fa22-44f2-a16f-e4d816e662de/content/images/2026/10/timpxmas.jpg",
      "image_external": true,
      "scope": "nearby",
-     "near": "Hale"
+     "near": "Timperley"
     },
     {
      "title": "Police target drivers on busy Timperley road as part of borough-wide \"crime-smashing\" crackdown",
@@ -846,34 +846,33 @@
      "near": "Timperley"
     },
     {
-     "title": "Councillors warn of threat to Timperley businesses over parking charges",
+     "title": "Deansgate LIVE as busy street cordoned off by police in 'serious' incident",
      "excerpt": "",
-     "date": "21 Oct 2026",
-     "tag": "Nearby · Timperley",
-     "tone": "neutral",
-     "source": "Altrincham Today",
-     "domain": "altrincham.todaynews.co.uk",
-     "url": "https://altrincham.todaynews.co.uk/news/2026/10/21/councillors-warn-of-threat-to-timperley-businesses-over-parking-charges/",
-     "image": "https://storage.ghost.io/c/09/ce/09cee984-fa22-44f2-a16f-e4d816e662de/content/images/2026/10/thorley.jpg",
-     "image_external": true,
-     "scope": "nearby",
-     "near": "Timperley"
-    },
-    {
-     "title": "Oldham shooting LIVE as street cordoned off with police on the scene",
-     "excerpt": "",
-     "date": "27 Oct 2026",
+     "date": "2 Nov 2026",
      "tag": "Greater Manchester",
      "tone": "neutral",
      "source": "Manchester Evening News – Greater Manchester",
      "domain": "manchestereveningnews.co.uk",
-     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/oldham-shooting-live-street-cordoned-34822129",
-     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34822154.ece/ALTERNATES/s615/0_RJ1_8686.jpg",
+     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/deansgate-live-busy-street-cordoned-34850850",
+     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34850839.ece/ALTERNATES/s615/0_Deansgate.jpg",
+     "image_external": true,
+     "scope": "nearby"
+    },
+    {
+     "title": "Downing Street defends plane that picked Andy Burnham up at Manchester Airport 34 minutes after leaving London",
+     "excerpt": "",
+     "date": "2 Nov 2026",
+     "tag": "Greater Manchester",
+     "tone": "neutral",
+     "source": "Manchester Evening News – Greater Manchester",
+     "domain": "manchestereveningnews.co.uk",
+     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/andy-burnham-plane-manchester-airport-34850422",
+     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34850433.ece/ALTERNATES/s615/0_BESTPIX-UK-Prime-Minister-Attends-The-United-Nations-General-Assembly.jpg",
      "image_external": true,
      "scope": "nearby"
     }
    ],
-   "period": "Publisher feeds checked 2026-10-27",
+   "period": "Publisher feeds checked 2026-11-02",
    "geography": "Altrincham",
    "source": {
     "name": "Local publisher RSS feeds",
@@ -1140,35 +1139,35 @@
   "price_by_type": {
    "value": {
     "detached": {
-     "average_3y": 846939,
-     "sales_3y": 46,
-     "median_12m": 620000,
-     "sales_12m": 13,
+     "average_3y": 865089,
+     "sales_3y": 47,
+     "median_12m": 690000,
+     "sales_12m": 11,
      "low_confidence": false
     },
     "semi": {
-     "average_3y": 551750,
-     "sales_3y": 120,
-     "median_12m": 485000,
-     "sales_12m": 41,
+     "average_3y": 562161,
+     "sales_3y": 118,
+     "median_12m": 486500,
+     "sales_12m": 38,
      "low_confidence": false
     },
     "terraced": {
-     "average_3y": 464143,
-     "sales_3y": 206,
+     "average_3y": 470950,
+     "sales_3y": 209,
      "median_12m": 431800,
      "sales_12m": 72,
      "low_confidence": false
     },
     "flat": {
-     "average_3y": 250103,
-     "sales_3y": 262,
+     "average_3y": 252748,
+     "sales_3y": 260,
      "median_12m": 225000,
      "sales_12m": 67,
      "low_confidence": false
     }
    },
-   "period": "3 years and 12 months to 31 Jul 2026",
+   "period": "3 years and 12 months to 31 Aug 2026",
    "geography": "Altrincham — wards: Altrincham",
    "source": {
     "name": "HM Land Registry Price Paid Data",
@@ -1207,8 +1206,8 @@
     },
     {
      "year": 2021,
-     "average": 401799,
-     "sales": 304
+     "average": 400417,
+     "sales": 306
     },
     {
      "year": 2022,
@@ -1227,8 +1226,8 @@
     },
     {
      "year": 2025,
-     "average": 417113,
-     "sales": 230
+     "average": 416171,
+     "sales": 237
     }
    ],
    "period": "2016–2025, calendar years",
@@ -1284,7 +1283,7 @@
       "operators": [
        "Bee Network"
       ],
-      "trips": 694,
+      "trips": 684,
       "school": false
      },
      {
@@ -1299,14 +1298,28 @@
       "school": false
      },
      {
-      "number": "5",
-      "from": "Broomedge",
+      "number": "370",
+      "from": "Stockport",
       "to": "Altrincham",
       "via": [],
       "operators": [
+       "Bee Network"
+      ],
+      "trips": 190,
+      "school": false
+     },
+     {
+      "number": "5",
+      "from": "Warrington",
+      "to": "Altrinch",
+      "via": [
+       "Stockton Heath",
+       "Broomedge"
+      ],
+      "operators": [
        "Warrington's Own Buses"
       ],
-      "trips": 164,
+      "trips": 163,
       "school": false
      },
      {
@@ -1332,6 +1345,19 @@
       "school": false
      },
      {
+      "number": "88",
+      "from": "Altrincham",
+      "to": "Knutsford",
+      "via": [
+       "Wilmslow"
+      ],
+      "operators": [
+       "D&G Bus"
+      ],
+      "trips": 140,
+      "school": false
+     },
+     {
       "number": "245",
       "from": "Trafford Centre",
       "to": "Altrincham",
@@ -1340,17 +1366,6 @@
        "Bee Network"
       ],
       "trips": 113,
-      "school": false
-     },
-     {
-      "number": "370",
-      "from": "Stockport",
-      "to": "Altrincham",
-      "via": [],
-      "operators": [
-       "Bee Network"
-      ],
-      "trips": 95,
       "school": false
      },
      {
@@ -1395,19 +1410,6 @@
       "via": [],
       "operators": [
        "Bee Network"
-      ],
-      "trips": 47,
-      "school": false
-     },
-     {
-      "number": "88",
-      "from": "Altrincham",
-      "to": "Knutsford",
-      "via": [
-       "Wilmslow"
-      ],
-      "operators": [
-       "D&G Bus"
       ],
       "trips": 47,
       "school": false
@@ -1623,7 +1625,7 @@
     "tram_map": "https://tfgm.com/ways-to-travel/tram/network-map",
     "rail_reviewed": "2026-10-12"
    },
-   "period": "Timetable downloaded 2026-10-27",
+   "period": "Timetable downloaded 2026-11-02",
    "geography": "Stops within 1 km of the centre of Altrincham",
    "source": {
     "name": "TfGM bus and Metrolink timetables (GTFS)",
@@ -1770,5 +1772,5 @@
    "note": "Access to jobs, education, healthcare, shops and leisure by walking, cycling, public transport and driving."
   }
  },
- "updated": "2026-10-27"
+ "updated": "2026-11-02"
 }

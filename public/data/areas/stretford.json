@@ -34,8 +34,8 @@
    "note": "Modelled background concentrations; roadside levels can be higher."
   },
   "annual_growth": {
-   "value": 0.8,
-   "period": "12 months to 31 Jul 2026 vs previous 12 months",
+   "value": -3.0,
+   "period": "12 months to 31 Aug 2026 vs previous 12 months",
    "geography": "Stretford — wards: Stretford & Humphrey Park, Longford, Gorse Hill & Cornbrook, Lostock & Barton",
    "source": {
     "name": "HM Land Registry Price Paid Data",
@@ -44,8 +44,8 @@
    },
    "status": "ok",
    "unit": "%",
-   "sample": 419,
-   "previous": 306468,
+   "sample": 413,
+   "previous": 312757,
    "note": "Change in the average sold price; it moves with the mix of homes sold."
   },
   "aqma": {
@@ -54,11 +54,11 @@
     "nearby": [
      {
       "name": "Manchester AQMA",
-      "url": "https://uk-air.defra.gov.uk/aqma/details?aqma_ref=36"
+      "url": "https://uk-air.defra.gov.uk/aqma/details?aqma_ref="
      },
      {
       "name": "Trafford AQMA",
-      "url": "https://uk-air.defra.gov.uk/aqma/details?aqma_ref=84"
+      "url": "https://uk-air.defra.gov.uk/aqma/details?aqma_ref="
      }
     ]
    },
@@ -72,8 +72,8 @@
    "status": "ok"
   },
   "average_price": {
-   "value": 308791,
-   "period": "12 months to 31 Jul 2026",
+   "value": 303306,
+   "period": "12 months to 31 Aug 2026",
    "geography": "Stretford — wards: Stretford & Humphrey Park, Longford, Gorse Hill & Cornbrook, Lostock & Barton",
    "source": {
     "name": "HM Land Registry Price Paid Data",
@@ -82,8 +82,8 @@
    },
    "status": "ok",
    "unit": "GBP",
-   "sample": 419,
-   "median": 295000
+   "sample": 413,
+   "median": 292500
   },
   "average_rent": {
    "value": {
@@ -690,115 +690,114 @@
   "news": {
    "value": [
     {
-     "title": "Everything heard in second week in the trial of a man accused of murdering Stretford Grammar headteacher Michael Mullins",
+     "title": "LIVE: Man who murdered Stretford Grammar headteacher Michael Mullins discovers his fate - updates from court",
      "excerpt": "",
-     "date": "25 Oct 2026",
+     "date": "2 Nov 2026",
      "tag": "Local news",
      "tone": "neutral",
      "source": "Manchester Evening News – Trafford",
      "domain": "manchestereveningnews.co.uk",
-     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/everything-heard-second-week-trial-34809304",
-     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34791556.ece/ALTERNATES/s615/0_Court2222.jpg",
+     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/live-man-who-murdered-stretford-34849245",
+     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34842338.ece/ALTERNATES/s615/0_Mug23.jpg",
      "image_external": true,
      "scope": "local"
     },
     {
-     "title": "Luxury car brand Maserati opens new dealership in Trafford",
+     "title": "Young people in Trafford offered chance to try forestry and conservation work",
      "excerpt": "",
-     "date": "23 Oct 2026",
+     "date": "2 Nov 2026",
      "tag": "Local news",
      "tone": "neutral",
      "source": "Messenger Newspapers",
      "domain": "messengernewspapers.co.uk",
-     "url": "https://www.messengernewspapers.co.uk/news/26657704.arnold-clark-opens-new-maserati-dealership-stretford/?ref=rss",
-     "image": "https://www.messengernewspapers.co.uk/resources/images/21612969/",
+     "url": "https://www.messengernewspapers.co.uk/news/26686113.trafford-young-people-offered-free-forestry-skills-sessions/?ref=rss",
+     "image": "https://www.messengernewspapers.co.uk/resources/images/21653167/",
      "image_external": true,
      "scope": "local"
     },
     {
-     "title": "Devoted husband to take on 113-mile charity run after wife's diagnosis",
+     "title": "The full story of the murder of Stretford Grammar headteacher Michael Mullins",
      "excerpt": "",
-     "date": "23 Oct 2026",
-     "tag": "Local news",
-     "tone": "neutral",
-     "source": "Messenger Newspapers",
-     "domain": "messengernewspapers.co.uk",
-     "url": "https://www.messengernewspapers.co.uk/news/26658124.stretford-man-run-113-miles-grimsby-wife/?ref=rss",
-     "image": "https://www.messengernewspapers.co.uk/resources/images/21613666/",
-     "image_external": true,
-     "scope": "local"
-    },
-    {
-     "title": "Driver was 'unaware' Stretford Grammar headteacher was trapped under car after hitting him, trial hears",
-     "excerpt": "",
-     "date": "22 Oct 2026",
+     "date": "1 Nov 2026",
      "tag": "Local news",
      "tone": "neutral",
      "source": "Manchester Evening News – Trafford",
      "domain": "manchestereveningnews.co.uk",
-     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/driver-unaware-stretford-grammar-headteacher-34804063",
-     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article33816054.ece/ALTERNATES/s615/1_MFR_MEN_210426Mullin_01.jpg",
+     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/full-story-murder-stretford-grammar-34842419",
+     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34842376.ece/ALTERNATES/s615/2_Screenshot-2026-10-30-at-170034.png",
      "image_external": true,
      "scope": "local"
     },
     {
-     "title": "Manchester United fans warned 'leave an hour early' as travel chaos expected ahead of Bournemouth game",
+     "title": "Stretford welcomes three new businesses as town centre transformation continues",
      "excerpt": "",
-     "date": "21 Oct 2026",
+     "date": "1 Nov 2026",
+     "tag": "Local news",
+     "tone": "neutral",
+     "source": "Messenger Newspapers",
+     "domain": "messengernewspapers.co.uk",
+     "url": "https://www.messengernewspapers.co.uk/news/26684575.stretford-welcomes-new-tattoo-studio-cafe-restaurant/?ref=rss",
+     "image": "https://www.messengernewspapers.co.uk/resources/images/21650982/",
+     "image_external": true,
+     "scope": "local"
+    },
+    {
+     "title": "Police appeal to identify man over stolen Ford Focus in Old Trafford",
+     "excerpt": "",
+     "date": "31 Oct 2026",
      "tag": "Nearby · Old Trafford",
      "tone": "neutral",
-     "source": "Manchester Evening News – Trafford",
-     "domain": "manchestereveningnews.co.uk",
-     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/manchester-united-fans-warned-leave-34795363",
-     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34795611.ece/ALTERNATES/s615/1_Manchester-United-v-Ipswich-Town-Premier-League-202627.jpg",
+     "source": "Messenger Newspapers",
+     "domain": "messengernewspapers.co.uk",
+     "url": "https://www.messengernewspapers.co.uk/news/26687567.police-appeal-identify-man-trafford-car-theft/?ref=rss",
+     "image": "https://www.messengernewspapers.co.uk/resources/images/21655435/",
      "image_external": true,
      "scope": "nearby",
      "near": "Old Trafford"
     },
     {
-     "title": "Extremely rare black swan spotted in Sale Waterpark",
+     "title": "Volunteers praised for transforming breastfeeding support in Trafford",
      "excerpt": "",
-     "date": "25 Oct 2026",
-     "tag": "Nearby · Sale",
+     "date": "30 Oct 2026",
+     "tag": "Nearby · Old Trafford",
      "tone": "neutral",
      "source": "Messenger Newspapers",
      "domain": "messengernewspapers.co.uk",
-     "url": "https://www.messengernewspapers.co.uk/news/26667361.ultra-rare-black-swan-spotted-sale-waterpark/?ref=rss",
-     "image": "https://www.messengernewspapers.co.uk/resources/images/21627073/",
+     "url": "https://www.messengernewspapers.co.uk/news/26676622.trafford-volunteers-transform-breastfeeding-support-mums/?ref=rss",
+     "image": "https://www.messengernewspapers.co.uk/resources/images/21640258/",
      "image_external": true,
      "scope": "nearby",
-     "near": "Sale"
+     "near": "Old Trafford"
     },
     {
-     "title": "Take a look inside this charming period home on the market in Sale",
+     "title": "This Urmston pub is known for big Halloween and Christmas displays, but doesn't stop there",
      "excerpt": "",
-     "date": "23 Oct 2026",
-     "tag": "Nearby · Sale",
-     "tone": "neutral",
-     "source": "Messenger Newspapers",
-     "domain": "messengernewspapers.co.uk",
-     "url": "https://www.messengernewspapers.co.uk/news/26657822.three-bedroom-period-property-sale-listed-420-000/?ref=rss",
-     "image": "https://www.messengernewspapers.co.uk/resources/images/21613178/",
-     "image_external": true,
-     "scope": "nearby",
-     "near": "Sale"
-    },
-    {
-     "title": "It was a tiny takeaway spot, now it's one of Trafford's best burger and gaming joints",
-     "excerpt": "",
-     "date": "20 Oct 2026",
+     "date": "1 Nov 2026",
      "tag": "Nearby · Urmston",
      "tone": "neutral",
      "source": "Manchester Evening News – Trafford",
      "domain": "manchestereveningnews.co.uk",
-     "url": "https://www.manchestereveningnews.co.uk/whats-on/food-drink-news/tiny-takeaway-spot-now-its-34789829",
-     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34790112.ece/ALTERNATES/s615/1_Hach-burgers.jpg",
+     "url": "https://www.manchestereveningnews.co.uk/whats-on/food-drink-news/urmston-pub-known-big-halloween-34825674",
+     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34825998.ece/ALTERNATES/s615/0_AMR_MEN_271026_THEFX.jpg",
      "image_external": true,
      "scope": "nearby",
      "near": "Urmston"
+    },
+    {
+     "title": "Deansgate LIVE as busy street cordoned off by police in 'serious' incident",
+     "excerpt": "",
+     "date": "2 Nov 2026",
+     "tag": "Greater Manchester",
+     "tone": "neutral",
+     "source": "Manchester Evening News – Greater Manchester",
+     "domain": "manchestereveningnews.co.uk",
+     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/deansgate-live-busy-street-cordoned-34850850",
+     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34850839.ece/ALTERNATES/s615/0_Deansgate.jpg",
+     "image_external": true,
+     "scope": "nearby"
     }
    ],
-   "period": "Publisher feeds checked 2026-10-27",
+   "period": "Publisher feeds checked 2026-11-02",
    "geography": "Stretford",
    "source": {
     "name": "Local publisher RSS feeds",
@@ -809,7 +808,10 @@
    "feeds": [
     "Messenger Newspapers",
     "Manchester Evening News – Trafford",
-    "Altrincham Today"
+    "Manchester Evening News – Sale",
+    "Altrincham Today",
+    "Manchester Evening News – Greater Manchester",
+    "BBC News – Manchester"
    ],
    "feed_links": [
     {
@@ -821,8 +823,20 @@
      "url": "https://www.manchestereveningnews.co.uk/all-about/trafford?service=rss"
     },
     {
+     "name": "Manchester Evening News – Sale",
+     "url": "https://www.manchestereveningnews.co.uk/all-about/sale?service=rss"
+    },
+    {
      "name": "Altrincham Today",
      "url": "https://altrincham.todaynews.co.uk/feed/"
+    },
+    {
+     "name": "Manchester Evening News – Greater Manchester",
+     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/?service=rss"
+    },
+    {
+     "name": "BBC News – Manchester",
+     "url": "https://feeds.bbci.co.uk/news/england/manchester/rss.xml"
     }
    ],
    "scope": "local",
@@ -1060,35 +1074,35 @@
   "price_by_type": {
    "value": {
     "detached": {
-     "average_3y": 468201,
-     "sales_3y": 77,
+     "average_3y": 462391,
+     "sales_3y": 78,
      "median_12m": 465000,
-     "sales_12m": 17,
+     "sales_12m": 15,
      "low_confidence": false
     },
     "semi": {
-     "average_3y": 339695,
-     "sales_3y": 664,
-     "median_12m": 325000,
-     "sales_12m": 206,
+     "average_3y": 340621,
+     "sales_3y": 659,
+     "median_12m": 327500,
+     "sales_12m": 207,
      "low_confidence": false
     },
     "terraced": {
-     "average_3y": 293279,
-     "sales_3y": 384,
-     "median_12m": 284975,
-     "sales_12m": 122,
+     "average_3y": 293510,
+     "sales_3y": 372,
+     "median_12m": 280000,
+     "sales_12m": 111,
      "low_confidence": false
     },
     "flat": {
-     "average_3y": 183771,
-     "sales_3y": 386,
-     "median_12m": 175000,
-     "sales_12m": 74,
+     "average_3y": 184733,
+     "sales_3y": 382,
+     "median_12m": 178000,
+     "sales_12m": 80,
      "low_confidence": false
     }
    },
-   "period": "3 years and 12 months to 31 Jul 2026",
+   "period": "3 years and 12 months to 31 Aug 2026",
    "geography": "Stretford — wards: Stretford & Humphrey Park, Longford, Gorse Hill & Cornbrook, Lostock & Barton",
    "source": {
     "name": "HM Land Registry Price Paid Data",
@@ -1117,8 +1131,8 @@
     },
     {
      "year": 2019,
-     "average": 188808,
-     "sales": 770
+     "average": 188735,
+     "sales": 771
     },
     {
      "year": 2020,
@@ -1132,8 +1146,8 @@
     },
     {
      "year": 2022,
-     "average": 272849,
-     "sales": 573
+     "average": 272792,
+     "sales": 574
     },
     {
      "year": 2023,
@@ -1147,8 +1161,8 @@
     },
     {
      "year": 2025,
-     "average": 309780,
-     "sales": 464
+     "average": 309809,
+     "sales": 468
     }
    ],
    "period": "2016–2025, calendar years",
@@ -1204,7 +1218,7 @@
       "operators": [
        "Bee Network"
       ],
-      "trips": 694,
+      "trips": 684,
       "school": false
      },
      {
@@ -1374,6 +1388,17 @@
       "school": false
      },
      {
+      "number": "757",
+      "from": "Eccles",
+      "to": "Loreto Grammar School",
+      "via": [],
+      "operators": [
+       "Bee Network"
+      ],
+      "trips": 6,
+      "school": true
+     },
+     {
       "number": "789",
       "from": "Lostock",
       "to": "Blessed Thomas Holford College",
@@ -1382,17 +1407,6 @@
        "Bee Network"
       ],
       "trips": 5,
-      "school": true
-     },
-     {
-      "number": "757",
-      "from": "Eccles",
-      "to": "Loreto Grammar School",
-      "via": [],
-      "operators": [
-       "Bee Network"
-      ],
-      "trips": 4,
       "school": true
      },
      {
@@ -1526,7 +1540,7 @@
     "tram_map": "https://tfgm.com/ways-to-travel/tram/network-map",
     "rail_reviewed": "2026-10-12"
    },
-   "period": "Timetable downloaded 2026-10-27",
+   "period": "Timetable downloaded 2026-11-02",
    "geography": "Stops within 1 km of the centre of Stretford",
    "source": {
     "name": "TfGM bus and Metrolink timetables (GTFS)",
@@ -1694,5 +1708,5 @@
    "note": "Access to jobs, education, healthcare, shops and leisure by walking, cycling, public transport and driving."
   }
  },
- "updated": "2026-10-27"
+ "updated": "2026-11-02"
 }

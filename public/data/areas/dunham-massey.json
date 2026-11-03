@@ -35,7 +35,7 @@
   },
   "annual_growth": {
    "value": null,
-   "period": "12 months to 31 Jul 2026 vs previous 12 months",
+   "period": "12 months to 31 Aug 2026 vs previous 12 months",
    "geography": "Dunham Massey — Land Registry address locality",
    "source": {
     "name": "HM Land Registry Price Paid Data",
@@ -51,7 +51,7 @@
     "nearby": [
      {
       "name": "Trafford AQMA",
-      "url": "https://uk-air.defra.gov.uk/aqma/details?aqma_ref=84"
+      "url": "https://uk-air.defra.gov.uk/aqma/details?aqma_ref="
      }
     ]
    },
@@ -66,7 +66,7 @@
   },
   "average_price": {
    "value": null,
-   "period": "12 months to 31 Jul 2026",
+   "period": "12 months to 31 Aug 2026",
    "geography": "Dunham Massey — Land Registry address locality",
    "source": {
     "name": "HM Land Registry Price Paid Data",
@@ -623,62 +623,62 @@
   "news": {
    "value": [
     {
-     "title": "Free careers fair in Altrincham to bring together more than 35 employers and education providers",
+     "title": "Remembrance Sunday 2026: Where and when services will take place in Altrincham, Bowdon, Hale and Hale Barns",
      "excerpt": "",
-     "date": "26 Oct 2026",
+     "date": "2 Nov 2026",
+     "tag": "Nearby · Bowdon",
+     "tone": "neutral",
+     "source": "Altrincham Today",
+     "domain": "altrincham.todaynews.co.uk",
+     "url": "https://altrincham.todaynews.co.uk/news/2026/11/02/remembrance-sunday-2026-where-and-when-services-will-take-place-in-altrincham-bowdon-hale-and-hale-barns/",
+     "image": "https://storage.ghost.io/c/09/ce/09cee984-fa22-44f2-a16f-e4d816e662de/content/images/2026/11/IMG_8833.jpg",
+     "image_external": true,
+     "scope": "nearby",
+     "near": "Bowdon"
+    },
+    {
+     "title": "Altrincham goes back to the 80s for Live Aid-inspired Christmas Lights Switch-On",
+     "excerpt": "",
+     "date": "2 Nov 2026",
      "tag": "Nearby · Altrincham",
      "tone": "neutral",
      "source": "Altrincham Today",
      "domain": "altrincham.todaynews.co.uk",
-     "url": "https://altrincham.todaynews.co.uk/news/2026/10/26/free-careers-fair-in-altrincham-to-bring-together-more-than-35-employers-and-education-providers/",
-     "image": "https://storage.ghost.io/c/09/ce/09cee984-fa22-44f2-a16f-e4d816e662de/content/images/2026/10/554712898_24818020754504707_7581052702833179533_n--1-.jpg",
+     "url": "https://altrincham.todaynews.co.uk/news/2026/11/02/altrincham-goes-back-to-the-80s-for-live-aid-inspired-christmas-lights-switch-on/",
+     "image": "https://storage.ghost.io/c/09/ce/09cee984-fa22-44f2-a16f-e4d816e662de/content/images/2026/11/Santa-on-Christmas-Lights-Switch-on-Stage--1-.jpg",
      "image_external": true,
      "scope": "nearby",
      "near": "Altrincham"
     },
     {
-     "title": "Concern over major admissions change at Altrincham Grammar for Girls",
+     "title": "Three-storey Victorian home in Altrincham with south-facing garden hits market",
      "excerpt": "",
-     "date": "26 Oct 2026",
+     "date": "1 Nov 2026",
      "tag": "Nearby · Altrincham",
      "tone": "neutral",
      "source": "Messenger Newspapers",
      "domain": "messengernewspapers.co.uk",
-     "url": "https://www.messengernewspapers.co.uk/news/26668352.parents-raise-concerns-altrincham-grammar-admissions-plans/?ref=rss",
-     "image": "https://www.messengernewspapers.co.uk/resources/images/21628704/",
+     "url": "https://www.messengernewspapers.co.uk/news/26685377.three-bedroom-victorian-home-sale-altrincham/?ref=rss",
+     "image": "https://www.messengernewspapers.co.uk/resources/images/21652167/",
      "image_external": true,
      "scope": "nearby",
      "near": "Altrincham"
     },
     {
-     "title": "ProSpinal: a new chapter for Hale’s spinal clinic",
+     "title": "New twist in Little Bollington data centre plans as landowner faces enforcement action",
      "excerpt": "",
-     "date": "21 Oct 2026",
-     "tag": "Nearby · Hale",
-     "tone": "neutral",
-     "source": "Altrincham Today",
-     "domain": "altrincham.todaynews.co.uk",
-     "url": "https://altrincham.todaynews.co.uk/news/2026/10/21/prospinal-a-new-chapter-for-hales-spinal-clinic/",
-     "image": "https://storage.ghost.io/c/09/ce/09cee984-fa22-44f2-a16f-e4d816e662de/content/images/2026/10/ProSpinal-2.jpg",
-     "image_external": true,
-     "scope": "nearby",
-     "near": "Hale"
-    },
-    {
-     "title": "Police target drivers on busy Timperley road as part of borough-wide \"crime-smashing\" crackdown",
-     "excerpt": "",
-     "date": "23 Oct 2026",
+     "date": "2 Nov 2026",
      "tag": "Nearby news",
      "tone": "neutral",
      "source": "Altrincham Today",
      "domain": "altrincham.todaynews.co.uk",
-     "url": "https://altrincham.todaynews.co.uk/news/2026/10/23/police-target-drivers-on-busy-timperley-road-as-part-of-borough-wide-crime-smashing-crackdown/",
-     "image": "https://storage.ghost.io/c/09/ce/09cee984-fa22-44f2-a16f-e4d816e662de/content/images/2026/10/Operation-AVRO---Trafford-4--1-.jpg",
+     "url": "https://altrincham.todaynews.co.uk/news/2026/11/02/new-twist-in-little-bollington-data-centre-plans-as-landowner-faces-enforcement-action/",
+     "image": "https://storage.ghost.io/c/09/ce/09cee984-fa22-44f2-a16f-e4d816e662de/content/images/2026/11/high-res-spodegreen-render-2.jpg",
      "image_external": true,
      "scope": "nearby"
     }
    ],
-   "period": "Publisher feeds checked 2026-10-27",
+   "period": "Publisher feeds checked 2026-11-02",
    "geography": "Dunham Massey",
    "source": {
     "name": "Local publisher RSS feeds",
@@ -907,7 +907,7 @@
      "low_confidence": true
     }
    },
-   "period": "3 years and 12 months to 31 Jul 2026",
+   "period": "3 years and 12 months to 31 Aug 2026",
    "geography": "Dunham Massey — Land Registry address locality",
    "source": {
     "name": "HM Land Registry Price Paid Data",
@@ -1018,7 +1018,7 @@
     "tram_map": "https://tfgm.com/ways-to-travel/tram/network-map",
     "rail_reviewed": "2026-10-12"
    },
-   "period": "Timetable downloaded 2026-10-27",
+   "period": "Timetable downloaded 2026-11-02",
    "geography": "Stops within 1 km of the centre of Dunham Massey",
    "source": {
     "name": "TfGM bus and Metrolink timetables (GTFS)",
@@ -1158,5 +1158,5 @@
    "note": "Access to jobs, education, healthcare, shops and leisure by walking, cycling, public transport and driving."
   }
  },
- "updated": "2026-10-27"
+ "updated": "2026-11-02"
 }

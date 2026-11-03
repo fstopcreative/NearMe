@@ -34,8 +34,8 @@
    "note": "Modelled background concentrations; roadside levels can be higher."
   },
   "annual_growth": {
-   "value": 16.7,
-   "period": "12 months to 31 Jul 2026 vs previous 12 months",
+   "value": 17.9,
+   "period": "12 months to 31 Aug 2026 vs previous 12 months",
    "geography": "Carrington — Land Registry address locality",
    "source": {
     "name": "HM Land Registry Price Paid Data",
@@ -45,7 +45,7 @@
    "status": "low-confidence",
    "unit": "%",
    "sample": 5,
-   "previous": 315071,
+   "previous": 311750,
    "note": "Change in the average sold price; it moves with the mix of homes sold."
   },
   "aqma": {
@@ -54,7 +54,7 @@
     "nearby": [
      {
       "name": "Trafford AQMA",
-      "url": "https://uk-air.defra.gov.uk/aqma/details?aqma_ref=84"
+      "url": "https://uk-air.defra.gov.uk/aqma/details?aqma_ref="
      }
     ]
    },
@@ -69,7 +69,7 @@
   },
   "average_price": {
    "value": 367618,
-   "period": "12 months to 31 Jul 2026",
+   "period": "12 months to 31 Aug 2026",
    "geography": "Carrington — Land Registry address locality",
    "source": {
     "name": "HM Land Registry Price Paid Data",
@@ -650,60 +650,75 @@
   "news": {
    "value": [
     {
-     "title": "It was a tiny takeaway spot, now it's one of Trafford's best burger and gaming joints",
+     "title": "The decision on the hugely controversial Carrington Relief Road will soon be known",
      "excerpt": "",
-     "date": "20 Oct 2026",
-     "tag": "Nearby · Flixton",
+     "date": "29 Oct 2026",
+     "tag": "Transport",
+     "tone": "info",
+     "source": "Manchester Evening News – Trafford",
+     "domain": "manchestereveningnews.co.uk",
+     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/decision-hugely-controversial-carrington-relief-34835999",
+     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34740674.ece/ALTERNATES/s615/0_Carrington-Moss-1.jpg",
+     "image_external": true,
+     "scope": "local"
+    },
+    {
+     "title": "Partington care home celebrates 'good' rating after glowing CQC inspection",
+     "excerpt": "",
+     "date": "2 Nov 2026",
+     "tag": "Nearby · Partington",
+     "tone": "neutral",
+     "source": "Messenger Newspapers",
+     "domain": "messengernewspapers.co.uk",
+     "url": "https://www.messengernewspapers.co.uk/news/26684635.four-oaks-care-home-partington-rated-good-cqc/?ref=rss",
+     "image": "https://www.messengernewspapers.co.uk/resources/images/21651082/",
+     "image_external": true,
+     "scope": "nearby",
+     "near": "Partington"
+    },
+    {
+     "title": "Volunteers praised for transforming breastfeeding support in Trafford",
+     "excerpt": "",
+     "date": "30 Oct 2026",
+     "tag": "Nearby · Partington",
+     "tone": "neutral",
+     "source": "Messenger Newspapers",
+     "domain": "messengernewspapers.co.uk",
+     "url": "https://www.messengernewspapers.co.uk/news/26676622.trafford-volunteers-transform-breastfeeding-support-mums/?ref=rss",
+     "image": "https://www.messengernewspapers.co.uk/resources/images/21640258/",
+     "image_external": true,
+     "scope": "nearby",
+     "near": "Partington"
+    },
+    {
+     "title": "This Urmston pub is known for big Halloween and Christmas displays, but doesn't stop there",
+     "excerpt": "",
+     "date": "1 Nov 2026",
+     "tag": "Nearby · Urmston",
      "tone": "neutral",
      "source": "Manchester Evening News – Trafford",
      "domain": "manchestereveningnews.co.uk",
-     "url": "https://www.manchestereveningnews.co.uk/whats-on/food-drink-news/tiny-takeaway-spot-now-its-34789829",
-     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34790112.ece/ALTERNATES/s615/1_Hach-burgers.jpg",
+     "url": "https://www.manchestereveningnews.co.uk/whats-on/food-drink-news/urmston-pub-known-big-halloween-34825674",
+     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34825998.ece/ALTERNATES/s615/0_AMR_MEN_271026_THEFX.jpg",
      "image_external": true,
      "scope": "nearby",
-     "near": "Flixton"
+     "near": "Urmston"
     },
     {
-     "title": "Oldham shooting LIVE as street cordoned off with police on the scene",
+     "title": "Deansgate LIVE as busy street cordoned off by police in 'serious' incident",
      "excerpt": "",
-     "date": "27 Oct 2026",
+     "date": "2 Nov 2026",
      "tag": "Greater Manchester",
      "tone": "neutral",
      "source": "Manchester Evening News – Greater Manchester",
      "domain": "manchestereveningnews.co.uk",
-     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/oldham-shooting-live-street-cordoned-34822129",
-     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34822154.ece/ALTERNATES/s615/0_RJ1_8686.jpg",
-     "image_external": true,
-     "scope": "nearby"
-    },
-    {
-     "title": "New Bury school plans branded 'unsafe' as scheme is rejected",
-     "excerpt": "",
-     "date": "27 Oct 2026",
-     "tag": "Greater Manchester",
-     "tone": "neutral",
-     "source": "Manchester Evening News – Greater Manchester",
-     "domain": "manchestereveningnews.co.uk",
-     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/new-bury-school-plans-branded-34822430",
-     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34822482.ece/ALTERNATES/s615/0_Bury-Defence-Academy.jpg",
-     "image_external": true,
-     "scope": "nearby"
-    },
-    {
-     "title": "Three taken to hospital as M6 motorway shut for hours",
-     "excerpt": "",
-     "date": "27 Oct 2026",
-     "tag": "Greater Manchester",
-     "tone": "neutral",
-     "source": "Manchester Evening News – Greater Manchester",
-     "domain": "manchestereveningnews.co.uk",
-     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/three-taken-hospital-m6-motorway-34822601",
-     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34822590.ece/ALTERNATES/s615/0_m6-36943-j20a-19-1.jpg",
+     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/deansgate-live-busy-street-cordoned-34850850",
+     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34850839.ece/ALTERNATES/s615/0_Deansgate.jpg",
      "image_external": true,
      "scope": "nearby"
     }
    ],
-   "period": "Publisher feeds checked 2026-10-27",
+   "period": "Publisher feeds checked 2026-11-02",
    "geography": "Carrington",
    "source": {
     "name": "Local publisher RSS feeds",
@@ -740,8 +755,8 @@
      "url": "https://feeds.bbci.co.uk/news/england/manchester/rss.xml"
     }
    ],
-   "scope": "nearby",
-   "local_count": 0,
+   "scope": "local",
+   "local_count": 1,
    "nearby_count": 4,
    "note": "Headlines and links only; RSS images are referenced from the publisher when supplied and are not copied."
   },
@@ -969,7 +984,7 @@
      "low_confidence": true
     }
    },
-   "period": "3 years and 12 months to 31 Jul 2026",
+   "period": "3 years and 12 months to 31 Aug 2026",
    "geography": "Carrington — Land Registry address locality",
    "source": {
     "name": "HM Land Registry Price Paid Data",
@@ -1197,7 +1212,7 @@
     "tram_map": "https://tfgm.com/ways-to-travel/tram/network-map",
     "rail_reviewed": "2026-10-12"
    },
-   "period": "Timetable downloaded 2026-10-27",
+   "period": "Timetable downloaded 2026-11-02",
    "geography": "Stops within 1 km of the centre of Carrington",
    "source": {
     "name": "TfGM bus and Metrolink timetables (GTFS)",
@@ -1338,5 +1353,5 @@
    "note": "Access to jobs, education, healthcare, shops and leisure by walking, cycling, public transport and driving."
   }
  },
- "updated": "2026-10-27"
+ "updated": "2026-11-02"
 }
