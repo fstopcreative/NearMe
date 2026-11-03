@@ -278,7 +278,7 @@ def area_page(a):
               <p class="cr-card-note">{e(a['notes'])}</p>
               <a class="cr-radon__link cr-card-foot" href="/?area={a['id']}">
                 {svg(ICO_CHART)}
-                {e(name)} area stats on Near Me
+                {e(name)} area stats
                 <span class="cr-radon__ext">{svg(ICO_ARROW)}</span>
               </a>
             </div>
