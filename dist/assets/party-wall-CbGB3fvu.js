@@ -1,0 +1,1 @@
+import{i as e}from"./track-CWxBA9F4.js";const t=()=>e("pw-"+(location.pathname.split("/").pop().replace(/\.html$/,"")||"trafford"));document.readyState==="loading"?document.addEventListener("DOMContentLoaded",t):t();

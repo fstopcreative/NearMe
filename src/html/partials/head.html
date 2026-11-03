@@ -21,9 +21,9 @@
   } if (LS) LS.setItem('ax:schema','1'); } catch(e){}
 
   /* ---- THEME (light | dark | system) ----
-     Dark is the default for a first-time visitor: 'system' only applies once
+     Light is the default for a first-time visitor: 'system' only applies once
      the visitor picks it in the customizer. Mirrored in core/theme-restore.js. */
-  var theme = get('ax:theme') || 'dark';
+  var theme = get('ax:theme') || 'light';
   var sysDark = false;
   try { sysDark = window.matchMedia('(prefers-color-scheme: dark)').matches; } catch(e){}
   var resolved = (theme === 'system') ? (sysDark ? 'dark' : 'light') : theme;
@@ -143,7 +143,7 @@
      is the dark canvas because that is what a first-time visitor is served.
      A prefers-color-scheme media pair cannot be used here: the painted theme no
      longer follows the OS unless the visitor chooses "system". -->
-<meta name="theme-color" content="#183319" data-ax-theme-color />
+<meta name="theme-color" content="#FCFBF9" data-ax-theme-color />
 <link rel="icon" type="image/png" href="/favicon.png" />
 <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
 <link rel="manifest" href="/site.webmanifest" />

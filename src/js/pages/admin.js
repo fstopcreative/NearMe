@@ -872,8 +872,8 @@ const themeStore = {
   set(v) { try { localStorage.setItem('cr-adm:theme', v); } catch {} },
 };
 function applyTheme(t) {
-  // Mirrors the bootstrap in admin/index.html: dark unless something else is stored.
-  const resolved = !t ? 'dark' : t === 'system' ? (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : t;
+  // Mirrors the bootstrap in admin/index.html: light unless something else is stored.
+  const resolved = !t ? 'light' : t === 'system' ? (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : t;
   document.documentElement.setAttribute('data-ax-theme', resolved);
   $('[data-adm-theme-label]').textContent = resolved === 'dark' ? 'Light mode' : 'Dark mode';
 }

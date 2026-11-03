@@ -329,7 +329,7 @@ export function copyConfig() {
 
 /** Read the current resolved value of a control (registry/theme/dir aware). */
 export function currentValueOf(name) {
-  if (name === 'theme' || name === 'mode') return store.get('ax:theme') || 'dark';
+  if (name === 'theme' || name === 'mode') return store.get('ax:theme') || 'light';
   if (name === 'dir') return D.getAttribute('dir') === 'rtl' ? 'rtl' : 'ltr';
   if (name === 'accent') return D.getAttribute('data-ax-accent') || 'verdigris';
   const r = REGISTRY[name];

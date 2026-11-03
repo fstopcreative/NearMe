@@ -49,7 +49,7 @@ function systemDark() {
  * customizer. Must match the blocking copy in partials/head.html.
  */
 export function resolveTheme(theme) {
-  const t = theme || store.get(PREFIX + 'theme') || 'dark';
+  const t = theme || store.get(PREFIX + 'theme') || 'light';
   return t === 'system' ? (systemDark() ? 'dark' : 'light') : t;
 }
 
