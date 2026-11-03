@@ -358,7 +358,7 @@ def hub_page():
     trail = [('Near Me', '/'), ('Party Wall Surveyors in Trafford', None)]
     body = f'''          <section class="ax-card ax-col--12" role="region" aria-labelledby="cr-hub-areas-title">
             <div class="ax-card__header"><div class="ax-card__titles">
-              <span class="ax-card__eyebrow">Trafford pilot areas</span>
+              <span class="ax-card__eyebrow">Trafford areas</span>
               <h2 class="ax-card__title" id="cr-hub-areas-title">Party Wall advice by area</h2>
               <p class="ax-card__subtitle">Local housing, conservation areas and the projects we see most</p>
             </div></div>
@@ -413,7 +413,7 @@ def areas_partial():
 <section class="ax-card ax-col--{{{{#if col}}}}{{{{col}}}}{{{{else}}}}12{{{{/if}}}} cr-areas" role="region" aria-labelledby="cr-areas-title">
   <div class="ax-card__header">
     <div class="ax-card__titles">
-      <span class="ax-card__eyebrow">Trafford pilot</span>
+      <span class="ax-card__eyebrow">Trafford</span>
       <h2 class="ax-card__title" id="cr-areas-title" data-cr-areas-title>Party Wall surveyors across Trafford</h2>
       <p class="ax-card__subtitle">Local Party Wall guides for each focus area</p>
     </div>
@@ -453,7 +453,7 @@ def llms_block():
            '',
            f'Party Wall service page: {PW_URL}',
            '',
-           '### Party Wall pages by area (Trafford pilot)',
+           '### Party Wall pages by area (Trafford)',
            '',
            '- Trafford (all areas): %SITE_URL%/party-wall-surveyors/trafford']
     for a in AREAS:

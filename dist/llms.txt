@@ -1,6 +1,6 @@
 # Corelain Near Me — Trafford, Greater Manchester
 
-> Area guide for Trafford (Greater Manchester, UK) and its towns and villages: house prices, price growth, crime, schools, transport connectivity, flood and mining risk, air quality, conservation areas and regeneration. Built by Corelain (https://www.corelain.com/), a Manchester building surveying practice. Figures come from official open data and are refreshed automatically; this file was generated 2026-10-27.
+> Area guide for Trafford (Greater Manchester, UK) and its towns and villages: house prices, price growth, crime, schools, transport connectivity, flood and mining risk, air quality, conservation areas and regeneration. Built by Corelain (https://www.corelain.com/), a Manchester building surveying practice. Figures come from official open data and are refreshed automatically; this file was generated 2026-11-03.
 
 Page: https://nearme.corelain.com/ (Trafford) · any area: https://nearme.corelain.com/?area=<id>
 
@@ -29,7 +29,7 @@ Corelain (https://www.corelain.com/) is a Manchester building surveying practice
 
 Party Wall service page: https://www.corelain.com/party-wall-surveyor-manchester
 
-### Party Wall pages by area (Trafford pilot)
+### Party Wall pages by area (Trafford)
 
 - Trafford (all areas): https://nearme.corelain.com/party-wall-surveyors/trafford
 - Old Trafford (M16, Trafford): https://nearme.corelain.com/party-wall-surveyors/old-trafford — Old Trafford is one of Trafford's most densely built neighbourhoods, with long Victorian and Edwardian terraces either side of Chester Road. Almost every house shares a party wall, so loft conversions, rear extensions and flat conversions here nearly always need a notice.; conservation areas: Empress Conservation Area (Chester Road / Empress Street)
