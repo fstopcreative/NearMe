@@ -312,7 +312,7 @@ def area_page(a):
             <div class="ax-card__header"><div class="ax-card__titles">
               <span class="ax-card__eyebrow">Quick answers</span>
               <h2 class="ax-card__title" id="cr-twn-faq-title">Party Wall questions in {e(name)}</h2>
-              <p class="ax-card__subtitle">Based on the Party Wall etc. Act 1996 · reviewed <time datetime="{{{{buildDate}}}}">{{{{buildDate}}}}</time></p>
+              <p class="ax-card__subtitle">Based on the Party Wall etc. Act 1996</p>
             </div></div>
             <div class="ax-card__body cr-twn-faq" style="padding-top:0;">{faq_html(qa)}
             </div>
@@ -374,7 +374,7 @@ def hub_page():
             <div class="ax-card__header"><div class="ax-card__titles">
               <span class="ax-card__eyebrow">Quick answers</span>
               <h2 class="ax-card__title" id="cr-twn-faq-title">Party Wall questions in Trafford</h2>
-              <p class="ax-card__subtitle">Based on the Party Wall etc. Act 1996 · reviewed <time datetime="{{{{buildDate}}}}">{{{{buildDate}}}}</time></p>
+              <p class="ax-card__subtitle">Based on the Party Wall etc. Act 1996</p>
             </div></div>
             <div class="ax-card__body cr-twn-faq" style="padding-top:0;">{faq_html(qa)}
             </div>
