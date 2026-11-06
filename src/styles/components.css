@@ -4786,6 +4786,11 @@ html[data-cr-shell='topbar'] .ax-profile__avatar { inline-size: 40px; block-size
 .cr-radon__link svg { inline-size: 18px; block-size: 18px; flex: none; }
 .cr-radon__link .cr-radon__ext { inline-size: 14px; block-size: 14px; margin-inline-start: auto; opacity: 0.7; }
 .cr-radon__link:hover { text-decoration: underline; }
+/* "<Area> area stats" — the one card-foot link that is a call to action rather
+   than a source credit, so it is set a step up from its neighbours. */
+.cr-areastats { font-size: var(--ax-text-md); font-weight: var(--ax-weight-semibold); }
+.cr-areastats svg { inline-size: 21px; block-size: 21px; }
+.cr-areastats .cr-radon__ext { inline-size: 16px; block-size: 16px; }
 
 /* Risk rows — soft tinted icon tile (flood sources) */
 .cr-row-ico {

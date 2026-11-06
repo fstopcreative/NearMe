@@ -34,8 +34,8 @@
    "note": "Modelled background concentrations; roadside levels can be higher."
   },
   "annual_growth": {
-   "value": 9.4,
-   "period": "12 months to 31 Jul 2026 vs previous 12 months",
+   "value": 12.4,
+   "period": "12 months to 31 Aug 2026 vs previous 12 months",
    "geography": "Davyhulme — wards: Davyhulme",
    "source": {
     "name": "HM Land Registry Price Paid Data",
@@ -45,7 +45,7 @@
    "status": "ok",
    "unit": "%",
    "sample": 135,
-   "previous": 354767,
+   "previous": 350050,
    "note": "Change in the average sold price; it moves with the mix of homes sold."
   },
   "aqma": {
@@ -54,7 +54,7 @@
     "nearby": [
      {
       "name": "Trafford AQMA",
-      "url": "https://uk-air.defra.gov.uk/aqma/details?aqma_ref=84"
+      "url": "https://uk-air.defra.gov.uk/aqma/details?aqma_ref="
      }
     ]
    },
@@ -68,8 +68,8 @@
    "status": "ok"
   },
   "average_price": {
-   "value": 387973,
-   "period": "12 months to 31 Jul 2026",
+   "value": 393391,
+   "period": "12 months to 31 Aug 2026",
    "geography": "Davyhulme — wards: Davyhulme",
    "source": {
     "name": "HM Land Registry Price Paid Data",
@@ -79,7 +79,7 @@
    "status": "ok",
    "unit": "GBP",
    "sample": 135,
-   "median": 356000
+   "median": 357500
   },
   "average_rent": {
    "value": {
@@ -606,60 +606,61 @@
   "news": {
    "value": [
     {
-     "title": "It was a tiny takeaway spot, now it's one of Trafford's best burger and gaming joints",
+     "title": "This Urmston pub is known for big Halloween and Christmas displays, but doesn't stop there",
      "excerpt": "",
-     "date": "20 Oct 2026",
+     "date": "1 Nov 2026",
      "tag": "Nearby · Urmston",
      "tone": "neutral",
      "source": "Manchester Evening News – Trafford",
      "domain": "manchestereveningnews.co.uk",
-     "url": "https://www.manchestereveningnews.co.uk/whats-on/food-drink-news/tiny-takeaway-spot-now-its-34789829",
-     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34790112.ece/ALTERNATES/s615/1_Hach-burgers.jpg",
+     "url": "https://www.manchestereveningnews.co.uk/whats-on/food-drink-news/urmston-pub-known-big-halloween-34825674",
+     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34825998.ece/ALTERNATES/s615/0_AMR_MEN_271026_THEFX.jpg",
      "image_external": true,
      "scope": "nearby",
      "near": "Urmston"
     },
     {
-     "title": "Oldham shooting LIVE as street cordoned off with police on the scene",
+     "title": "The decision on the hugely controversial Carrington Relief Road will soon be known",
      "excerpt": "",
-     "date": "27 Oct 2026",
+     "date": "29 Oct 2026",
+     "tag": "Nearby · Carrington",
+     "tone": "neutral",
+     "source": "Manchester Evening News – Trafford",
+     "domain": "manchestereveningnews.co.uk",
+     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/decision-hugely-controversial-carrington-relief-34835999",
+     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34740674.ece/ALTERNATES/s615/0_Carrington-Moss-1.jpg",
+     "image_external": true,
+     "scope": "nearby",
+     "near": "Carrington"
+    },
+    {
+     "title": "Deansgate LIVE as busy street cordoned off by police in 'serious' incident",
+     "excerpt": "",
+     "date": "2 Nov 2026",
      "tag": "Greater Manchester",
      "tone": "neutral",
      "source": "Manchester Evening News – Greater Manchester",
      "domain": "manchestereveningnews.co.uk",
-     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/oldham-shooting-live-street-cordoned-34822129",
-     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34822154.ece/ALTERNATES/s615/0_RJ1_8686.jpg",
+     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/deansgate-live-busy-street-cordoned-34850850",
+     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34850839.ece/ALTERNATES/s615/0_Deansgate.jpg",
      "image_external": true,
      "scope": "nearby"
     },
     {
-     "title": "New Bury school plans branded 'unsafe' as scheme is rejected",
+     "title": "Downing Street defends plane that picked Andy Burnham up at Manchester Airport 34 minutes after leaving London",
      "excerpt": "",
-     "date": "27 Oct 2026",
+     "date": "2 Nov 2026",
      "tag": "Greater Manchester",
      "tone": "neutral",
      "source": "Manchester Evening News – Greater Manchester",
      "domain": "manchestereveningnews.co.uk",
-     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/new-bury-school-plans-branded-34822430",
-     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34822482.ece/ALTERNATES/s615/0_Bury-Defence-Academy.jpg",
-     "image_external": true,
-     "scope": "nearby"
-    },
-    {
-     "title": "Three taken to hospital as M6 motorway shut for hours",
-     "excerpt": "",
-     "date": "27 Oct 2026",
-     "tag": "Greater Manchester",
-     "tone": "neutral",
-     "source": "Manchester Evening News – Greater Manchester",
-     "domain": "manchestereveningnews.co.uk",
-     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/three-taken-hospital-m6-motorway-34822601",
-     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34822590.ece/ALTERNATES/s615/0_m6-36943-j20a-19-1.jpg",
+     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/andy-burnham-plane-manchester-airport-34850422",
+     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34850433.ece/ALTERNATES/s615/0_BESTPIX-UK-Prime-Minister-Attends-The-United-Nations-General-Assembly.jpg",
      "image_external": true,
      "scope": "nearby"
     }
    ],
-   "period": "Publisher feeds checked 2026-10-27",
+   "period": "Publisher feeds checked 2026-11-02",
    "geography": "Davyhulme",
    "source": {
     "name": "Local publisher RSS feeds",
@@ -671,6 +672,7 @@
     "Messenger Newspapers",
     "Manchester Evening News – Trafford",
     "Manchester Evening News – Urmston",
+    "Manchester Evening News – Sale",
     "Altrincham Today",
     "Manchester Evening News – Greater Manchester",
     "BBC News – Manchester"
@@ -687,6 +689,10 @@
     {
      "name": "Manchester Evening News – Urmston",
      "url": "https://www.manchestereveningnews.co.uk/all-about/urmston?service=rss"
+    },
+    {
+     "name": "Manchester Evening News – Sale",
+     "url": "https://www.manchestereveningnews.co.uk/all-about/sale?service=rss"
     },
     {
      "name": "Altrincham Today",
@@ -917,35 +923,35 @@
   "price_by_type": {
    "value": {
     "detached": {
-     "average_3y": 563480,
-     "sales_3y": 75,
-     "median_12m": 540000,
-     "sales_12m": 29,
+     "average_3y": 568448,
+     "sales_3y": 77,
+     "median_12m": 551000,
+     "sales_12m": 32,
      "low_confidence": false
     },
     "semi": {
-     "average_3y": 358182,
-     "sales_3y": 231,
-     "median_12m": 355500,
+     "average_3y": 357995,
+     "sales_3y": 240,
+     "median_12m": 351500,
      "sales_12m": 76,
      "low_confidence": false
     },
     "terraced": {
-     "average_3y": 272744,
+     "average_3y": 272231,
      "sales_3y": 78,
      "median_12m": 289000,
-     "sales_12m": 24,
+     "sales_12m": 20,
      "low_confidence": false
     },
     "flat": {
-     "average_3y": 166236,
+     "average_3y": 164645,
      "sales_3y": 22,
-     "median_12m": 160000,
-     "sales_12m": 6,
+     "median_12m": 180000,
+     "sales_12m": 7,
      "low_confidence": true
     }
    },
-   "period": "3 years and 12 months to 31 Jul 2026",
+   "period": "3 years and 12 months to 31 Aug 2026",
    "geography": "Davyhulme — wards: Davyhulme",
    "source": {
     "name": "HM Land Registry Price Paid Data",
@@ -1004,8 +1010,8 @@
     },
     {
      "year": 2025,
-     "average": 372554,
-     "sales": 148
+     "average": 374474,
+     "sales": 151
     }
    ],
    "period": "2016–2025, calendar years",
@@ -1167,9 +1173,9 @@
       "school": false
      },
      {
-      "number": "789",
-      "from": "Lostock",
-      "to": "Blessed Thomas Holford College",
+      "number": "757",
+      "from": "Eccles",
+      "to": "Loreto Grammar School",
       "via": [],
       "operators": [
        "Bee Network"
@@ -1178,14 +1184,14 @@
       "school": true
      },
      {
-      "number": "757",
-      "from": "Eccles",
-      "to": "Loreto Grammar School",
+      "number": "789",
+      "from": "Lostock",
+      "to": "Blessed Thomas Holford College",
       "via": [],
       "operators": [
        "Bee Network"
       ],
-      "trips": 4,
+      "trips": 6,
       "school": true
      },
      {
@@ -1306,7 +1312,7 @@
     "tram_map": "https://tfgm.com/ways-to-travel/tram/network-map",
     "rail_reviewed": "2026-10-12"
    },
-   "period": "Timetable downloaded 2026-10-27",
+   "period": "Timetable downloaded 2026-11-02",
    "geography": "Stops within 1 km of the centre of Davyhulme",
    "source": {
     "name": "TfGM bus and Metrolink timetables (GTFS)",
@@ -1455,5 +1461,5 @@
    "note": "Access to jobs, education, healthcare, shops and leisure by walking, cycling, public transport and driving."
   }
  },
- "updated": "2026-10-27"
+ "updated": "2026-11-02"
 }

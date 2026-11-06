@@ -276,7 +276,7 @@ def area_page(a):
               <h3 class="cr-twn-sub">Conservation areas</h3>
               <ul class="cr-twn-ca">{ca_html}</ul>
               <p class="cr-card-note">{e(a['notes'])}</p>
-              <a class="cr-radon__link cr-card-foot" href="/?area={a['id']}">
+              <a class="cr-radon__link cr-card-foot cr-areastats" href="/?area={a['id']}">
                 {svg(ICO_CHART)}
                 {e(name)} area stats
                 <span class="cr-radon__ext">{svg(ICO_ARROW)}</span>

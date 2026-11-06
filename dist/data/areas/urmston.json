@@ -34,8 +34,8 @@
    "note": "Modelled background concentrations; roadside levels can be higher."
   },
   "annual_growth": {
-   "value": 6.3,
-   "period": "12 months to 31 Jul 2026 vs previous 12 months",
+   "value": 4.9,
+   "period": "12 months to 31 Aug 2026 vs previous 12 months",
    "geography": "Urmston — wards: Urmston",
    "source": {
     "name": "HM Land Registry Price Paid Data",
@@ -44,8 +44,8 @@
    },
    "status": "ok",
    "unit": "%",
-   "sample": 141,
-   "previous": 351445,
+   "sample": 137,
+   "previous": 356472,
    "note": "Change in the average sold price; it moves with the mix of homes sold."
   },
   "aqma": {
@@ -54,7 +54,7 @@
     "nearby": [
      {
       "name": "Trafford AQMA",
-      "url": "https://uk-air.defra.gov.uk/aqma/details?aqma_ref=84"
+      "url": "https://uk-air.defra.gov.uk/aqma/details?aqma_ref="
      }
     ]
    },
@@ -68,8 +68,8 @@
    "status": "ok"
   },
   "average_price": {
-   "value": 373487,
-   "period": "12 months to 31 Jul 2026",
+   "value": 373986,
+   "period": "12 months to 31 Aug 2026",
    "geography": "Urmston — wards: Urmston",
    "source": {
     "name": "HM Land Registry Price Paid Data",
@@ -78,8 +78,8 @@
    },
    "status": "ok",
    "unit": "GBP",
-   "sample": 141,
-   "median": 367500
+   "sample": 137,
+   "median": 365000
   },
   "average_rent": {
    "value": {
@@ -673,74 +673,74 @@
   "news": {
    "value": [
     {
-     "title": "It was a tiny takeaway spot, now it's one of Trafford's best burger and gaming joints",
+     "title": "This Urmston pub is known for big Halloween and Christmas displays, but doesn't stop there",
      "excerpt": "",
-     "date": "20 Oct 2026",
+     "date": "1 Nov 2026",
      "tag": "Local news",
      "tone": "neutral",
      "source": "Manchester Evening News – Trafford",
      "domain": "manchestereveningnews.co.uk",
-     "url": "https://www.manchestereveningnews.co.uk/whats-on/food-drink-news/tiny-takeaway-spot-now-its-34789829",
-     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34790112.ece/ALTERNATES/s615/1_Hach-burgers.jpg",
+     "url": "https://www.manchestereveningnews.co.uk/whats-on/food-drink-news/urmston-pub-known-big-halloween-34825674",
+     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34825998.ece/ALTERNATES/s615/0_AMR_MEN_271026_THEFX.jpg",
      "image_external": true,
      "scope": "local"
     },
     {
-     "title": "Everything heard in second week in the trial of a man accused of murdering Stretford Grammar headteacher Michael Mullins",
+     "title": "LIVE: Man who murdered Stretford Grammar headteacher Michael Mullins discovers his fate - updates from court",
      "excerpt": "",
-     "date": "25 Oct 2026",
+     "date": "2 Nov 2026",
      "tag": "Nearby · Stretford",
      "tone": "neutral",
      "source": "Manchester Evening News – Trafford",
      "domain": "manchestereveningnews.co.uk",
-     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/everything-heard-second-week-trial-34809304",
-     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34791556.ece/ALTERNATES/s615/0_Court2222.jpg",
+     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/live-man-who-murdered-stretford-34849245",
+     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34842338.ece/ALTERNATES/s615/0_Mug23.jpg",
      "image_external": true,
      "scope": "nearby",
      "near": "Stretford"
     },
     {
-     "title": "Luxury car brand Maserati opens new dealership in Trafford",
+     "title": "Young people in Trafford offered chance to try forestry and conservation work",
      "excerpt": "",
-     "date": "23 Oct 2026",
+     "date": "2 Nov 2026",
      "tag": "Nearby · Stretford",
      "tone": "neutral",
      "source": "Messenger Newspapers",
      "domain": "messengernewspapers.co.uk",
-     "url": "https://www.messengernewspapers.co.uk/news/26657704.arnold-clark-opens-new-maserati-dealership-stretford/?ref=rss",
-     "image": "https://www.messengernewspapers.co.uk/resources/images/21612969/",
+     "url": "https://www.messengernewspapers.co.uk/news/26686113.trafford-young-people-offered-free-forestry-skills-sessions/?ref=rss",
+     "image": "https://www.messengernewspapers.co.uk/resources/images/21653167/",
      "image_external": true,
      "scope": "nearby",
      "near": "Stretford"
     },
     {
-     "title": "Oldham shooting LIVE as street cordoned off with police on the scene",
+     "title": "Deansgate LIVE as busy street cordoned off by police in 'serious' incident",
      "excerpt": "",
-     "date": "27 Oct 2026",
+     "date": "2 Nov 2026",
      "tag": "Greater Manchester",
      "tone": "neutral",
      "source": "Manchester Evening News – Greater Manchester",
      "domain": "manchestereveningnews.co.uk",
-     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/oldham-shooting-live-street-cordoned-34822129",
-     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34822154.ece/ALTERNATES/s615/0_RJ1_8686.jpg",
+     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/deansgate-live-busy-street-cordoned-34850850",
+     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34850839.ece/ALTERNATES/s615/0_Deansgate.jpg",
      "image_external": true,
      "scope": "nearby"
     },
     {
-     "title": "New Bury school plans branded 'unsafe' as scheme is rejected",
+     "title": "Downing Street defends plane that picked Andy Burnham up at Manchester Airport 34 minutes after leaving London",
      "excerpt": "",
-     "date": "27 Oct 2026",
+     "date": "2 Nov 2026",
      "tag": "Greater Manchester",
      "tone": "neutral",
      "source": "Manchester Evening News – Greater Manchester",
      "domain": "manchestereveningnews.co.uk",
-     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/new-bury-school-plans-branded-34822430",
-     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34822482.ece/ALTERNATES/s615/0_Bury-Defence-Academy.jpg",
+     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/andy-burnham-plane-manchester-airport-34850422",
+     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34850433.ece/ALTERNATES/s615/0_BESTPIX-UK-Prime-Minister-Attends-The-United-Nations-General-Assembly.jpg",
      "image_external": true,
      "scope": "nearby"
     }
    ],
-   "period": "Publisher feeds checked 2026-10-27",
+   "period": "Publisher feeds checked 2026-11-02",
    "geography": "Urmston",
    "source": {
     "name": "Local publisher RSS feeds",
@@ -752,6 +752,7 @@
     "Messenger Newspapers",
     "Manchester Evening News – Trafford",
     "Manchester Evening News – Urmston",
+    "Manchester Evening News – Sale",
     "Altrincham Today",
     "Manchester Evening News – Greater Manchester",
     "BBC News – Manchester"
@@ -768,6 +769,10 @@
     {
      "name": "Manchester Evening News – Urmston",
      "url": "https://www.manchestereveningnews.co.uk/all-about/urmston?service=rss"
+    },
+    {
+     "name": "Manchester Evening News – Sale",
+     "url": "https://www.manchestereveningnews.co.uk/all-about/sale?service=rss"
     },
     {
      "name": "Altrincham Today",
@@ -999,35 +1004,35 @@
   "price_by_type": {
    "value": {
     "detached": {
-     "average_3y": 527568,
-     "sales_3y": 49,
-     "median_12m": 507500,
-     "sales_12m": 20,
+     "average_3y": 532276,
+     "sales_3y": 51,
+     "median_12m": 515000,
+     "sales_12m": 21,
      "low_confidence": false
     },
     "semi": {
-     "average_3y": 403447,
-     "sales_3y": 157,
+     "average_3y": 410577,
+     "sales_3y": 154,
      "median_12m": 389250,
-     "sales_12m": 48,
+     "sales_12m": 46,
      "low_confidence": false
     },
     "terraced": {
-     "average_3y": 343577,
-     "sales_3y": 173,
-     "median_12m": 365000,
-     "sales_12m": 54,
+     "average_3y": 341935,
+     "sales_3y": 170,
+     "median_12m": 363000,
+     "sales_12m": 50,
      "low_confidence": false
     },
     "flat": {
-     "average_3y": 166566,
-     "sales_3y": 74,
-     "median_12m": 155000,
-     "sales_12m": 19,
+     "average_3y": 160915,
+     "sales_3y": 72,
+     "median_12m": 152500,
+     "sales_12m": 20,
      "low_confidence": false
     }
    },
-   "period": "3 years and 12 months to 31 Jul 2026",
+   "period": "3 years and 12 months to 31 Aug 2026",
    "geography": "Urmston — wards: Urmston",
    "source": {
     "name": "HM Land Registry Price Paid Data",
@@ -1086,8 +1091,8 @@
     },
     {
      "year": 2025,
-     "average": 355480,
-     "sales": 158
+     "average": 357831,
+     "sales": 161
     }
    ],
    "period": "2016–2025, calendar years",
@@ -1262,9 +1267,9 @@
       "school": false
      },
      {
-      "number": "789",
-      "from": "Lostock",
-      "to": "Blessed Thomas Holford College",
+      "number": "757",
+      "from": "Eccles",
+      "to": "Loreto Grammar School",
       "via": [],
       "operators": [
        "Bee Network"
@@ -1273,14 +1278,14 @@
       "school": true
      },
      {
-      "number": "757",
-      "from": "Eccles",
-      "to": "Loreto Grammar School",
+      "number": "789",
+      "from": "Lostock",
+      "to": "Blessed Thomas Holford College",
       "via": [],
       "operators": [
        "Bee Network"
       ],
-      "trips": 4,
+      "trips": 6,
       "school": true
      },
      {
@@ -1414,7 +1419,7 @@
     "tram_map": "https://tfgm.com/ways-to-travel/tram/network-map",
     "rail_reviewed": "2026-10-12"
    },
-   "period": "Timetable downloaded 2026-10-27",
+   "period": "Timetable downloaded 2026-11-02",
    "geography": "Stops within 1 km of the centre of Urmston",
    "source": {
     "name": "TfGM bus and Metrolink timetables (GTFS)",
@@ -1564,5 +1569,5 @@
    "note": "Access to jobs, education, healthcare, shops and leisure by walking, cycling, public transport and driving."
   }
  },
- "updated": "2026-10-27"
+ "updated": "2026-11-02"
 }

@@ -1,14 +1,14 @@
 # Corelain Near Me — Trafford, Greater Manchester
 
-> Area guide for Trafford (Greater Manchester, UK) and its towns and villages: house prices, price growth, crime, schools, transport connectivity, flood and mining risk, air quality, conservation areas and regeneration. Built by Corelain (https://www.corelain.com/), a Manchester building surveying practice. Figures come from official open data and are refreshed automatically; this file was generated 2026-11-03.
+> Area guide for Trafford (Greater Manchester, UK) and its towns and villages: house prices, price growth, crime, schools, transport connectivity, flood and mining risk, air quality, conservation areas and regeneration. Built by Corelain (https://www.corelain.com/), a Manchester building surveying practice. Figures come from official open data and are refreshed automatically; this file was generated 2026-11-06.
 
 Page: https://nearme.corelain.com/ (Trafford) · any area: https://nearme.corelain.com/?area=<id>
 
 ## Key facts — Trafford
 
-- Average sold price: £454,016 in the 12 months to 31 Jul 2026, from 2,693 sales (HM Land Registry Price Paid Data · 12 months to 31 Jul 2026).
-- Annual change in average sold price: +4.4%; UK +0.9% in the year to August 2026 (HM Land Registry Price Paid Data · 12 months to 31 Jul 2026 vs previous 12 months).
-- Price trend: £296,543 to £445,186 over 2016–2025 (HM Land Registry Price Paid Data · 2016–2025, calendar years).
+- Average sold price: £459,437 in the 12 months to 31 Aug 2026, from 2,698 sales (HM Land Registry Price Paid Data · 12 months to 31 Aug 2026).
+- Annual change in average sold price: +5.4%; UK +0.9% in the year to August 2026 (HM Land Registry Price Paid Data · 12 months to 31 Aug 2026 vs previous 12 months).
+- Price trend: £296,543 to £446,520 over 2016–2025 (HM Land Registry Price Paid Data · 2016–2025, calendar years).
 - Crime: 54.6 police recorded crimes per 1,000 residents in the 12 months to June 2026; England and Wales 83.1; Manchester 104.1 (Home Office police recorded crime, Community Safety Partnership open data tables · 12 months to June 2026).
 - Schools: 11 Outstanding, 43 Good, 10 with a new report card, 3 below Good and 15 with no overall grade; indicative score 7.9/10 (Ofsted management information: state-funded schools, latest inspections · Latest inspections as at 30 September 2026).
 - Transport connectivity: 73/100 overall, 75/100 by public transport (DfT Transport Connectivity Metric · Connectivity metric 2025).
@@ -49,13 +49,13 @@ Party Wall service page: https://www.corelain.com/party-wall-surveyor-manchester
 
 ### House prices
 
-- **What is the average house price in Trafford?** The average sold price in Trafford was £454,016 in the 12 months to 31 Jul 2026, based on 2,693 sales (HM Land Registry Price Paid Data).
-- **Are house prices in Trafford going up?** The average sold price rose 4.4% on the previous 12 months. Across the UK, prices changed by +0.9% in the year to August 2026 (UK House Price Index).
-- **How have prices in Trafford changed over the last ten years?** The yearly average sold price moved from £296,543 to £445,186 over 2016–2025, a change of about 50%.
-- **How much do flats and houses cost in Trafford?** Over the last three years, detached homes £796,332 (1,302 sales), semi-detached homes £439,055 (3,705 sales), terraced homes £367,301 (2,266 sales) and flats £233,905 (1,781 sales). Types with few sales are less reliable.
+- **What is the average house price in Trafford?** The average sold price in Trafford was £459,437 in the 12 months to 31 Aug 2026, based on 2,698 sales (HM Land Registry Price Paid Data).
+- **Are house prices in Trafford going up?** The average sold price rose 5.4% on the previous 12 months. Across the UK, prices changed by +0.9% in the year to August 2026 (UK House Price Index).
+- **How have prices in Trafford changed over the last ten years?** The yearly average sold price moved from £296,543 to £446,520 over 2016–2025, a change of about 51%.
+- **How much do flats and houses cost in Trafford?** Over the last three years, detached homes £802,060 (1,326 sales), semi-detached homes £439,806 (3,728 sales), terraced homes £368,529 (2,261 sales) and flats £234,742 (1,777 sales). Types with few sales are less reliable.
 - **How much does it cost to rent in Trafford?** The average private rent in Trafford was £1,373 a month in September 2026 (+3.0% on a year earlier), from the ONS Price Index of Private Rents. By size: one-bed £946, two-bed £1,205, three-bed £1,488 and four-plus-bed £2,113.
 - **Do more people rent or own in Trafford?** At the 2021 Census, 70% of the 96,269 households in Trafford owned their home (including shared ownership) and 30% rented: 15% from a private landlord and 15% from a council or housing association.
-- **What is the average salary in Trafford?** Full-time employees living in Trafford earned a median £42,973 a year in 2025 (ONS Annual Survey of Hours and Earnings), against £39,243 for England. The average sold price is about 10.6 times that salary.
+- **What is the average salary in Trafford?** Full-time employees living in Trafford earned a median £42,973 a year in 2025 (ONS Annual Survey of Hours and Earnings), against £39,243 for England. The average sold price is about 10.7 times that salary.
 - **How many people live in Trafford?** 235,052 people lived in Trafford at the 2021 Census, in 96,269 households (about 2.44 people per home). 20% were under 15 and 18% were 65 or over.
 
 ### Crime & safety
