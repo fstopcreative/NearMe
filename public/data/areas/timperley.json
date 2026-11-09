@@ -664,88 +664,62 @@
   "news": {
    "value": [
     {
-     "title": "Timperley plans its biggest Christmas lights celebration yet as switch-on date confirmed",
+     "title": "Altrincham care home residents enjoy games afternoon with school pupils",
      "excerpt": "",
-     "date": "30 Oct 2026",
-     "tag": "Planning",
-     "tone": "accent",
-     "source": "Altrincham Today",
-     "domain": "altrincham.todaynews.co.uk",
-     "url": "https://altrincham.todaynews.co.uk/news/2026/10/30/timperley-plans-its-biggest-christmas-lights-celebration-yet-as-switch-on-date-confirmed/",
-     "image": "https://storage.ghost.io/c/09/ce/09cee984-fa22-44f2-a16f-e4d816e662de/content/images/2026/10/timpxmas.jpg",
-     "image_external": true,
-     "scope": "local"
-    },
-    {
-     "title": "Police target drivers on busy Timperley road as part of borough-wide \"crime-smashing\" crackdown",
-     "excerpt": "",
-     "date": "23 Oct 2026",
-     "tag": "Local news",
-     "tone": "neutral",
-     "source": "Altrincham Today",
-     "domain": "altrincham.todaynews.co.uk",
-     "url": "https://altrincham.todaynews.co.uk/news/2026/10/23/police-target-drivers-on-busy-timperley-road-as-part-of-borough-wide-crime-smashing-crackdown/",
-     "image": "https://storage.ghost.io/c/09/ce/09cee984-fa22-44f2-a16f-e4d816e662de/content/images/2026/10/Operation-AVRO---Trafford-4--1-.jpg",
-     "image_external": true,
-     "scope": "local"
-    },
-    {
-     "title": "Altrincham goes back to the 80s for Live Aid-inspired Christmas Lights Switch-On",
-     "excerpt": "",
-     "date": "2 Nov 2026",
+     "date": "9 Nov 2026",
      "tag": "Nearby · Altrincham",
-     "tone": "neutral",
-     "source": "Altrincham Today",
-     "domain": "altrincham.todaynews.co.uk",
-     "url": "https://altrincham.todaynews.co.uk/news/2026/11/02/altrincham-goes-back-to-the-80s-for-live-aid-inspired-christmas-lights-switch-on/",
-     "image": "https://storage.ghost.io/c/09/ce/09cee984-fa22-44f2-a16f-e4d816e662de/content/images/2026/11/Santa-on-Christmas-Lights-Switch-on-Stage--1-.jpg",
-     "image_external": true,
-     "scope": "nearby",
-     "near": "Altrincham"
-    },
-    {
-     "title": "Remembrance Sunday 2026: Where and when services will take place in Altrincham, Bowdon, Hale and Hale Barns",
-     "excerpt": "",
-     "date": "2 Nov 2026",
-     "tag": "Nearby · Altrincham",
-     "tone": "neutral",
-     "source": "Altrincham Today",
-     "domain": "altrincham.todaynews.co.uk",
-     "url": "https://altrincham.todaynews.co.uk/news/2026/11/02/remembrance-sunday-2026-where-and-when-services-will-take-place-in-altrincham-bowdon-hale-and-hale-barns/",
-     "image": "https://storage.ghost.io/c/09/ce/09cee984-fa22-44f2-a16f-e4d816e662de/content/images/2026/11/IMG_8833.jpg",
-     "image_external": true,
-     "scope": "nearby",
-     "near": "Altrincham"
-    },
-    {
-     "title": "Volunteers praised for transforming breastfeeding support in Trafford",
-     "excerpt": "",
-     "date": "30 Oct 2026",
-     "tag": "Nearby · Sale",
      "tone": "neutral",
      "source": "Messenger Newspapers",
      "domain": "messengernewspapers.co.uk",
-     "url": "https://www.messengernewspapers.co.uk/news/26676622.trafford-volunteers-transform-breastfeeding-support-mums/?ref=rss",
-     "image": "https://www.messengernewspapers.co.uk/resources/images/21640258/",
+     "url": "https://www.messengernewspapers.co.uk/news/26700058.altrincham-care-home-welcomes-pupils-games-afternoon/?ref=rss",
+     "image": "https://www.messengernewspapers.co.uk/resources/images/21671952/",
      "image_external": true,
      "scope": "nearby",
-     "near": "Sale"
+     "near": "Altrincham"
     },
     {
-     "title": "Deansgate LIVE as busy street cordoned off by police in 'serious' incident",
+     "title": "Live Aid-inspired Christmas lights switch-on to kick off Altrincham festivities",
+     "excerpt": "",
+     "date": "7 Nov 2026",
+     "tag": "Nearby · Altrincham",
+     "tone": "neutral",
+     "source": "Messenger Newspapers",
+     "domain": "messengernewspapers.co.uk",
+     "url": "https://www.messengernewspapers.co.uk/news/26699617.altrincham-christmas-lights-switch-on-events-revealed/?ref=rss",
+     "image": "https://www.messengernewspapers.co.uk/resources/images/21671172/",
+     "image_external": true,
+     "scope": "nearby",
+     "near": "Altrincham"
+    },
+    {
+     "title": "Former Con Club and Unagi team to open new Japanese and Thai restaurant in Hale",
      "excerpt": "",
      "date": "2 Nov 2026",
+     "tag": "Nearby · Hale",
+     "tone": "neutral",
+     "source": "Altrincham Today",
+     "domain": "altrincham.todaynews.co.uk",
+     "url": "https://altrincham.todaynews.co.uk/news/2026/11/02/former-con-club-and-unagi-team-to-open-new-japanese-and-thai-restaurant-in-hale/",
+     "image": "https://storage.ghost.io/c/09/ce/09cee984-fa22-44f2-a16f-e4d816e662de/content/images/2026/11/ea23a12a-0d3f-4bda-8fe3-7dcd3a22909b.jpg",
+     "image_external": true,
+     "scope": "nearby",
+     "near": "Hale"
+    },
+    {
+     "title": "Workers over 21 given £910 cash boost confirms Andy Burnham",
+     "excerpt": "",
+     "date": "9 Nov 2026",
      "tag": "Greater Manchester",
      "tone": "neutral",
-     "source": "Manchester Evening News – Greater Manchester",
-     "domain": "manchestereveningnews.co.uk",
-     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/deansgate-live-busy-street-cordoned-34850850",
-     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34850839.ece/ALTERNATES/s615/0_Deansgate.jpg",
+     "source": "Messenger Newspapers",
+     "domain": "messengernewspapers.co.uk",
+     "url": "https://www.messengernewspapers.co.uk/news/national/uk-today/26710926.workers-21-given-910-cash-boost-andy-burnham/?ref=rss",
+     "image": "https://www.messengernewspapers.co.uk/resources/images/21688196/",
      "image_external": true,
      "scope": "nearby"
     }
    ],
-   "period": "Publisher feeds checked 2026-11-02",
+   "period": "Publisher feeds checked 2026-11-09",
    "geography": "Timperley",
    "source": {
     "name": "Local publisher RSS feeds",
@@ -792,8 +766,8 @@
      "url": "https://feeds.bbci.co.uk/news/england/manchester/rss.xml"
     }
    ],
-   "scope": "local",
-   "local_count": 2,
+   "scope": "nearby",
+   "local_count": 0,
    "nearby_count": 4,
    "note": "Headlines and links only; RSS images are referenced from the publisher when supplied and are not copied."
   },
@@ -1468,7 +1442,7 @@
     "tram_map": "https://tfgm.com/ways-to-travel/tram/network-map",
     "rail_reviewed": "2026-10-12"
    },
-   "period": "Timetable downloaded 2026-11-02",
+   "period": "Timetable downloaded 2026-11-09",
    "geography": "Stops within 1 km of the centre of Timperley",
    "source": {
     "name": "TfGM bus and Metrolink timetables (GTFS)",
@@ -1622,5 +1596,5 @@
    "note": "Access to jobs, education, healthcare, shops and leisure by walking, cycling, public transport and driving."
   }
  },
- "updated": "2026-11-02"
+ "updated": "2026-11-09"
 }

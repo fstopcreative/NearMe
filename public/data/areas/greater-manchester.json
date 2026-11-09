@@ -591,111 +591,111 @@
   "news": {
    "value": [
     {
-     "title": "Deansgate LIVE as busy street cordoned off by police in 'serious' incident",
+     "title": "Manchester trial day six LIVE as nine men on trial after husband drugged and raped wife",
      "excerpt": "",
-     "date": "2 Nov 2026",
+     "date": "9 Nov 2026",
      "tag": "Local news",
      "tone": "neutral",
      "source": "Manchester Evening News – Greater Manchester",
      "domain": "manchestereveningnews.co.uk",
-     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/deansgate-live-busy-street-cordoned-34850850",
-     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34850839.ece/ALTERNATES/s615/0_Deansgate.jpg",
+     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/manchester-trial-live-nine-men-34843691",
+     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34843737.ece/ALTERNATES/s615/3_Trial1.jpg",
      "image_external": true,
      "scope": "local"
     },
     {
-     "title": "Downing Street defends plane that picked Andy Burnham up at Manchester Airport 34 minutes after leaving London",
+     "title": "Full list of 43 UK areas affected by new 16-hour Met Office fog warning including Greater Manchester",
      "excerpt": "",
-     "date": "2 Nov 2026",
-     "tag": "Planning",
-     "tone": "accent",
+     "date": "9 Nov 2026",
+     "tag": "Local news",
+     "tone": "neutral",
      "source": "Manchester Evening News – Greater Manchester",
      "domain": "manchestereveningnews.co.uk",
-     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/andy-burnham-plane-manchester-airport-34850422",
-     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34850433.ece/ALTERNATES/s615/0_BESTPIX-UK-Prime-Minister-Attends-The-United-Nations-General-Assembly.jpg",
+     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/full-list-43-uk-areas-34883025",
+     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34883127.ece/ALTERNATES/s615/0_fog2.png",
      "image_external": true,
      "scope": "local"
     },
     {
-     "title": "M60 RECAP after all traffic stopped on motorway with long delays",
+     "title": "Full list of Manchester Airport delayed and cancelled flights on Monday, November 9",
      "excerpt": "",
-     "date": "2 Nov 2026",
+     "date": "9 Nov 2026",
+     "tag": "Local news",
+     "tone": "neutral",
+     "source": "Manchester Evening News – Greater Manchester",
+     "domain": "manchestereveningnews.co.uk",
+     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/full-list-manchester-airport-delayed-34883028",
+     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34883062.ece/ALTERNATES/s615/0_291224airportweather3.jpg",
+     "image_external": true,
+     "scope": "local"
+    },
+    {
+     "title": "Thick fog disrupts morning travel as yellow weather warnings in effect",
+     "excerpt": "",
+     "date": "9 Nov 2026",
      "tag": "Transport",
      "tone": "info",
-     "source": "Manchester Evening News – Greater Manchester",
-     "domain": "manchestereveningnews.co.uk",
-     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/m60-live-traffic-stopped-motorway-34849470",
-     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34849459.ece/ALTERNATES/s615/0_Image_F6452677-A8DF-4690-85BC-7F19E5DF3828jpeg.jpg",
+     "source": "BBC News – Manchester",
+     "domain": "bbc.co.uk",
+     "url": "https://www.bbc.co.uk/weather/articles/cj75p29nz6e6o?at_medium=RSS&at_campaign=rss",
+     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/380d/live/6f877e00-dc24-11f1-93e1-3b657b665bcf.jpg",
      "image_external": true,
      "scope": "local"
     },
     {
-     "title": "LIVE: Man who murdered Stretford Grammar headteacher Michael Mullins discovers his fate - updates from court",
+     "title": "Fog chaos to continue as Met Office issues NEW '100m' warning for Greater Manchester",
      "excerpt": "",
-     "date": "2 Nov 2026",
+     "date": "9 Nov 2026",
      "tag": "Local news",
      "tone": "neutral",
      "source": "Manchester Evening News – Greater Manchester",
      "domain": "manchestereveningnews.co.uk",
-     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/live-man-who-murdered-stretford-34849245",
-     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34842338.ece/ALTERNATES/s615/0_Mug23.jpg",
+     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/fog-chaos-continue-met-office-34882954",
+     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34882992.ece/ALTERNATES/s615/0_100119fog5.jpg",
      "image_external": true,
      "scope": "local"
     },
     {
-     "title": "Fears in Heald Green as elderly and vulnerable residents 'targeted'",
+     "title": "Huge Ukraine support concert to be held in Manchester with star names on the bill",
      "excerpt": "",
-     "date": "2 Nov 2026",
+     "date": "9 Nov 2026",
      "tag": "Local news",
      "tone": "neutral",
      "source": "Manchester Evening News – Greater Manchester",
      "domain": "manchestereveningnews.co.uk",
-     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/fears-heald-green-elderly-vulnerable-34849827",
-     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34849933.ece/ALTERNATES/s615/0_Heald-Green-2.jpg",
+     "url": "https://www.manchestereveningnews.co.uk/whats-on/whats-on-news/huge-ukraine-support-concert-to-34882702",
+     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34882717.ece/ALTERNATES/s615/1_Aftermath-Of-Massive-Russian-Missile-Attack-On-Kyiv.jpg",
      "image_external": true,
      "scope": "local"
     },
     {
-     "title": "M62 RECAP as drivers face delays on motorway after all traffic stopped",
+     "title": "Photos reveal The Smiths' 'dramatic' Manchester farewell",
      "excerpt": "",
-     "date": "2 Nov 2026",
-     "tag": "Transport",
-     "tone": "info",
-     "source": "Manchester Evening News – Greater Manchester",
-     "domain": "manchestereveningnews.co.uk",
-     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/m62-live-drivers-face-delays-34848766",
-     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34848759.ece/ALTERNATES/s615/0_m62-31642-j21-j19.jpg",
-     "image_external": true,
-     "scope": "local"
-    },
-    {
-     "title": "Multiple trains cancelled on busy Manchester route as disruption to last all day - full list of 20 services hit",
-     "excerpt": "",
-     "date": "2 Nov 2026",
+     "date": "9 Nov 2026",
      "tag": "Local news",
      "tone": "neutral",
-     "source": "Manchester Evening News – Greater Manchester",
-     "domain": "manchestereveningnews.co.uk",
-     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/multiple-trains-cancelled-busy-manchester-34848723",
-     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34848764.ece/ALTERNATES/s615/0_Image-shows-a-Northern-train-2.jpg",
+     "source": "BBC News – Manchester",
+     "domain": "bbc.co.uk",
+     "url": "https://www.bbc.co.uk/news/articles/ckjwe5wqp0jxo?at_medium=RSS&at_campaign=rss",
+     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/52b2/live/50be6b60-d9e9-11f1-bbe5-797ee05bee69.jpg",
      "image_external": true,
      "scope": "local"
     },
     {
-     "title": "Woman stabbed as police descend on Gorton street",
+     "title": "Search for buried asbestos at derelict factory site",
      "excerpt": "",
-     "date": "2 Nov 2026",
+     "date": "9 Nov 2026",
      "tag": "Local news",
      "tone": "neutral",
-     "source": "Manchester Evening News – Greater Manchester",
-     "domain": "manchestereveningnews.co.uk",
-     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/woman-stabbed-police-descend-gorton-34848647",
-     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34849555.ece/ALTERNATES/s615/0_f55dbb10-7faa-4d76-8bf4-143be42f2bed.jpg",
+     "source": "BBC News – Manchester",
+     "domain": "bbc.co.uk",
+     "url": "https://www.bbc.co.uk/news/articles/c8ly0qpwee04o?at_medium=RSS&at_campaign=rss",
+     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3e4d/live/bc6c88a0-dc06-11f1-b6f4-7b86d13131ad.jpg",
      "image_external": true,
      "scope": "local"
     }
    ],
-   "period": "Publisher feeds checked 2026-11-02",
+   "period": "Publisher feeds checked 2026-11-09",
    "geography": "Greater Manchester",
    "source": {
     "name": "Local publisher RSS feeds",
@@ -978,13 +978,6 @@
    "value": {
     "trams": [
      {
-      "line": "Pink Line",
-      "from": "East Didsbury",
-      "to": "Rochdale Town Centre",
-      "trips": 3254,
-      "colour": "#e94f8a"
-     },
-     {
       "line": "Yellow Line",
       "from": "Eccles",
       "to": "Piccadilly",
@@ -992,25 +985,18 @@
       "colour": "#f5c400"
      },
      {
+      "line": "Pink Line",
+      "from": "East Didsbury",
+      "to": "Rochdale Town Centre",
+      "trips": 1730,
+      "colour": "#e94f8a"
+     },
+     {
       "line": "Blue Line",
       "from": "Ashton-under-Lyne",
       "to": "Bury",
-      "trips": 2133,
+      "trips": 1176,
       "colour": "#0097d7"
-     },
-     {
-      "line": "Navy Line",
-      "from": "Manchester Airport",
-      "to": "Victoria",
-      "trips": 1703,
-      "colour": "#283a8a"
-     },
-     {
-      "line": "Purple Line",
-      "from": "Altrincham",
-      "to": "Etihad Campus",
-      "trips": 1454,
-      "colour": "#7b2d8e"
      },
      {
       "line": "Red Line",
@@ -1018,6 +1004,20 @@
       "to": "Crumpsall",
       "trips": 1158,
       "colour": "#e30613"
+     },
+     {
+      "line": "Purple Line",
+      "from": "Altrincham",
+      "to": "Etihad Campus",
+      "trips": 1116,
+      "colour": "#7b2d8e"
+     },
+     {
+      "line": "Navy Line",
+      "from": "Manchester Airport",
+      "to": "Victoria",
+      "trips": 1091,
+      "colour": "#283a8a"
      },
      {
       "line": "Green Line",
@@ -1156,18 +1156,6 @@
       "school": false
      },
      {
-      "number": "125",
-      "from": "Preston",
-      "to": "Bolton",
-      "via": [],
-      "operators": [
-       "Stagecoach",
-       "Bee Network"
-      ],
-      "trips": 788,
-      "school": false
-     },
-     {
       "number": "203",
       "from": "Manchester",
       "to": "Stockport",
@@ -1191,17 +1179,6 @@
        "Bee Network"
       ],
       "trips": 732,
-      "school": false
-     },
-     {
-      "number": "263",
-      "from": "Altrincham",
-      "to": "Manchester",
-      "via": [],
-      "operators": [
-       "Bee Network"
-      ],
-      "trips": 684,
       "school": false
      },
      {
@@ -1301,20 +1278,6 @@
       "school": false
      },
      {
-      "number": "X43",
-      "from": "Burnley",
-      "to": "Manchester",
-      "via": [
-       "Rawtenstall",
-       "Prestwich"
-      ],
-      "operators": [
-       "Burnley Bus Company"
-      ],
-      "trips": 527,
-      "school": false
-     },
-     {
       "number": "103",
       "from": "Manchester Airport",
       "to": "Manchester",
@@ -1385,9 +1348,43 @@
       ],
       "trips": 462,
       "school": false
+     },
+     {
+      "number": "409",
+      "from": "Rochdale",
+      "to": "Ashton",
+      "via": [],
+      "operators": [
+       "Bee Network"
+      ],
+      "trips": 458,
+      "school": false
+     },
+     {
+      "number": "84",
+      "from": "Manchester",
+      "to": "Uppermill",
+      "via": [],
+      "operators": [
+       "Bee Network"
+      ],
+      "trips": 450,
+      "school": false
+     },
+     {
+      "number": "125",
+      "from": "Preston",
+      "to": "Bolton",
+      "via": [],
+      "operators": [
+       "Stagecoach",
+       "Bee Network"
+      ],
+      "trips": 417,
+      "school": false
      }
     ],
-    "bus_total": 599,
+    "bus_total": 600,
     "rail": [
      {
       "name": "Manchester Piccadilly",
@@ -1485,7 +1482,7 @@
     "tram_map": "https://tfgm.com/ways-to-travel/tram/network-map",
     "rail_reviewed": "2026-10-12"
    },
-   "period": "Timetable downloaded 2026-11-02",
+   "period": "Timetable downloaded 2026-11-09",
    "geography": "Whole Greater Manchester network",
    "source": {
     "name": "TfGM bus and Metrolink timetables (GTFS)",
@@ -1575,5 +1572,5 @@
    "note": "Access to jobs, education, healthcare, shops and leisure by walking, cycling, public transport and driving."
   }
  },
- "updated": "2026-11-02"
+ "updated": "2026-11-09"
 }

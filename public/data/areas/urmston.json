@@ -673,20 +673,46 @@
   "news": {
    "value": [
     {
-     "title": "This Urmston pub is known for big Halloween and Christmas displays, but doesn't stop there",
+     "title": "New Urmston wellness centre opens offering range of therapies under one roof",
      "excerpt": "",
-     "date": "1 Nov 2026",
+     "date": "9 Nov 2026",
      "tag": "Local news",
      "tone": "neutral",
-     "source": "Manchester Evening News – Trafford",
-     "domain": "manchestereveningnews.co.uk",
-     "url": "https://www.manchestereveningnews.co.uk/whats-on/food-drink-news/urmston-pub-known-big-halloween-34825674",
-     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34825998.ece/ALTERNATES/s615/0_AMR_MEN_271026_THEFX.jpg",
+     "source": "Messenger Newspapers",
+     "domain": "messengernewspapers.co.uk",
+     "url": "https://www.messengernewspapers.co.uk/news/26703610.urmston-therapy-centre-opens-offering-range-treatments/?ref=rss",
+     "image": "https://www.messengernewspapers.co.uk/resources/images/21676719/",
      "image_external": true,
      "scope": "local"
     },
     {
-     "title": "LIVE: Man who murdered Stretford Grammar headteacher Michael Mullins discovers his fate - updates from court",
+     "title": "Take a look inside this Urmston home packed with period features",
+     "excerpt": "",
+     "date": "8 Nov 2026",
+     "tag": "Local news",
+     "tone": "neutral",
+     "source": "Messenger Newspapers",
+     "domain": "messengernewspapers.co.uk",
+     "url": "https://www.messengernewspapers.co.uk/news/26694515.four-storey-edwardian-home-urmston-sale-675-000/?ref=rss",
+     "image": "https://www.messengernewspapers.co.uk/resources/images/21664589/",
+     "image_external": true,
+     "scope": "local"
+    },
+    {
+     "title": "Urmston Choral Society to spread Christmas cheer with two festive concerts",
+     "excerpt": "",
+     "date": "3 Nov 2026",
+     "tag": "Local news",
+     "tone": "neutral",
+     "source": "Messenger Newspapers",
+     "domain": "messengernewspapers.co.uk",
+     "url": "https://www.messengernewspapers.co.uk/news/26692319.urmston-choral-society-perform-two-christmas-concerts/?ref=rss",
+     "image": "https://www.messengernewspapers.co.uk/resources/images/21661564/",
+     "image_external": true,
+     "scope": "local"
+    },
+    {
+     "title": "RECAP: Man who murdered Stretford Grammar headteacher Michael Mullins jailed for life",
      "excerpt": "",
      "date": "2 Nov 2026",
      "tag": "Nearby · Stretford",
@@ -700,47 +726,47 @@
      "near": "Stretford"
     },
     {
-     "title": "Young people in Trafford offered chance to try forestry and conservation work",
+     "title": "Selfish driver jailed for life for callous murder of Stretford Grammar headteacher Michael Mullins",
      "excerpt": "",
      "date": "2 Nov 2026",
      "tag": "Nearby · Stretford",
      "tone": "neutral",
-     "source": "Messenger Newspapers",
-     "domain": "messengernewspapers.co.uk",
-     "url": "https://www.messengernewspapers.co.uk/news/26686113.trafford-young-people-offered-free-forestry-skills-sessions/?ref=rss",
-     "image": "https://www.messengernewspapers.co.uk/resources/images/21653167/",
+     "source": "Manchester Evening News – Trafford",
+     "domain": "manchestereveningnews.co.uk",
+     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/selfish-driver-jailed-life-callous-34851418",
+     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34842338.ece/ALTERNATES/s615/0_Mug23.jpg",
      "image_external": true,
      "scope": "nearby",
      "near": "Stretford"
     },
     {
-     "title": "Deansgate LIVE as busy street cordoned off by police in 'serious' incident",
+     "title": "Workers over 21 given £910 cash boost confirms Andy Burnham",
      "excerpt": "",
-     "date": "2 Nov 2026",
+     "date": "9 Nov 2026",
      "tag": "Greater Manchester",
      "tone": "neutral",
-     "source": "Manchester Evening News – Greater Manchester",
-     "domain": "manchestereveningnews.co.uk",
-     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/deansgate-live-busy-street-cordoned-34850850",
-     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34850839.ece/ALTERNATES/s615/0_Deansgate.jpg",
+     "source": "Messenger Newspapers",
+     "domain": "messengernewspapers.co.uk",
+     "url": "https://www.messengernewspapers.co.uk/news/national/uk-today/26710926.workers-21-given-910-cash-boost-andy-burnham/?ref=rss",
+     "image": "https://www.messengernewspapers.co.uk/resources/images/21688196/",
      "image_external": true,
      "scope": "nearby"
     },
     {
-     "title": "Downing Street defends plane that picked Andy Burnham up at Manchester Airport 34 minutes after leaving London",
+     "title": "Manchester trial day six LIVE as nine men on trial after husband drugged and raped wife",
      "excerpt": "",
-     "date": "2 Nov 2026",
+     "date": "9 Nov 2026",
      "tag": "Greater Manchester",
      "tone": "neutral",
      "source": "Manchester Evening News – Greater Manchester",
      "domain": "manchestereveningnews.co.uk",
-     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/andy-burnham-plane-manchester-airport-34850422",
-     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34850433.ece/ALTERNATES/s615/0_BESTPIX-UK-Prime-Minister-Attends-The-United-Nations-General-Assembly.jpg",
+     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/manchester-trial-live-nine-men-34843691",
+     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34843737.ece/ALTERNATES/s615/3_Trial1.jpg",
      "image_external": true,
      "scope": "nearby"
     }
    ],
-   "period": "Publisher feeds checked 2026-11-02",
+   "period": "Publisher feeds checked 2026-11-09",
    "geography": "Urmston",
    "source": {
     "name": "Local publisher RSS feeds",
@@ -788,7 +814,7 @@
     }
    ],
    "scope": "local",
-   "local_count": 1,
+   "local_count": 3,
    "nearby_count": 4,
    "note": "Headlines and links only; RSS images are referenced from the publisher when supplied and are not copied."
   },
@@ -1419,7 +1445,7 @@
     "tram_map": "https://tfgm.com/ways-to-travel/tram/network-map",
     "rail_reviewed": "2026-10-12"
    },
-   "period": "Timetable downloaded 2026-11-02",
+   "period": "Timetable downloaded 2026-11-09",
    "geography": "Stops within 1 km of the centre of Urmston",
    "source": {
     "name": "TfGM bus and Metrolink timetables (GTFS)",
@@ -1569,5 +1595,5 @@
    "note": "Access to jobs, education, healthcare, shops and leisure by walking, cycling, public transport and driving."
   }
  },
- "updated": "2026-11-02"
+ "updated": "2026-11-09"
 }

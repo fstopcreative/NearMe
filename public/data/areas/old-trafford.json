@@ -903,33 +903,7 @@
   "news": {
    "value": [
     {
-     "title": "Police appeal to identify man over stolen Ford Focus in Old Trafford",
-     "excerpt": "",
-     "date": "31 Oct 2026",
-     "tag": "Local news",
-     "tone": "neutral",
-     "source": "Messenger Newspapers",
-     "domain": "messengernewspapers.co.uk",
-     "url": "https://www.messengernewspapers.co.uk/news/26687567.police-appeal-identify-man-trafford-car-theft/?ref=rss",
-     "image": "https://www.messengernewspapers.co.uk/resources/images/21655435/",
-     "image_external": true,
-     "scope": "local"
-    },
-    {
-     "title": "Volunteers praised for transforming breastfeeding support in Trafford",
-     "excerpt": "",
-     "date": "30 Oct 2026",
-     "tag": "Local news",
-     "tone": "neutral",
-     "source": "Messenger Newspapers",
-     "domain": "messengernewspapers.co.uk",
-     "url": "https://www.messengernewspapers.co.uk/news/26676622.trafford-volunteers-transform-breastfeeding-support-mums/?ref=rss",
-     "image": "https://www.messengernewspapers.co.uk/resources/images/21640258/",
-     "image_external": true,
-     "scope": "local"
-    },
-    {
-     "title": "LIVE: Man who murdered Stretford Grammar headteacher Michael Mullins discovers his fate - updates from court",
+     "title": "RECAP: Man who murdered Stretford Grammar headteacher Michael Mullins jailed for life",
      "excerpt": "",
      "date": "2 Nov 2026",
      "tag": "Nearby · Stretford",
@@ -943,48 +917,49 @@
      "near": "Stretford"
     },
     {
-     "title": "Young people in Trafford offered chance to try forestry and conservation work",
+     "title": "Selfish driver jailed for life for callous murder of Stretford Grammar headteacher Michael Mullins",
      "excerpt": "",
      "date": "2 Nov 2026",
      "tag": "Nearby · Stretford",
      "tone": "neutral",
-     "source": "Messenger Newspapers",
-     "domain": "messengernewspapers.co.uk",
-     "url": "https://www.messengernewspapers.co.uk/news/26686113.trafford-young-people-offered-free-forestry-skills-sessions/?ref=rss",
-     "image": "https://www.messengernewspapers.co.uk/resources/images/21653167/",
+     "source": "Manchester Evening News – Trafford",
+     "domain": "manchestereveningnews.co.uk",
+     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/selfish-driver-jailed-life-callous-34851418",
+     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34842338.ece/ALTERNATES/s615/0_Mug23.jpg",
      "image_external": true,
      "scope": "nearby",
      "near": "Stretford"
     },
     {
-     "title": "This Urmston pub is known for big Halloween and Christmas displays, but doesn't stop there",
+     "title": "New Urmston wellness centre opens offering range of therapies under one roof",
      "excerpt": "",
-     "date": "1 Nov 2026",
+     "date": "9 Nov 2026",
      "tag": "Nearby · Urmston",
      "tone": "neutral",
-     "source": "Manchester Evening News – Trafford",
-     "domain": "manchestereveningnews.co.uk",
-     "url": "https://www.manchestereveningnews.co.uk/whats-on/food-drink-news/urmston-pub-known-big-halloween-34825674",
-     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34825998.ece/ALTERNATES/s615/0_AMR_MEN_271026_THEFX.jpg",
+     "source": "Messenger Newspapers",
+     "domain": "messengernewspapers.co.uk",
+     "url": "https://www.messengernewspapers.co.uk/news/26703610.urmston-therapy-centre-opens-offering-range-treatments/?ref=rss",
+     "image": "https://www.messengernewspapers.co.uk/resources/images/21676719/",
      "image_external": true,
      "scope": "nearby",
      "near": "Urmston"
     },
     {
-     "title": "Deansgate LIVE as busy street cordoned off by police in 'serious' incident",
+     "title": "Take a look inside this Urmston home packed with period features",
      "excerpt": "",
-     "date": "2 Nov 2026",
-     "tag": "Greater Manchester",
+     "date": "8 Nov 2026",
+     "tag": "Nearby · Urmston",
      "tone": "neutral",
-     "source": "Manchester Evening News – Greater Manchester",
-     "domain": "manchestereveningnews.co.uk",
-     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/deansgate-live-busy-street-cordoned-34850850",
-     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34850839.ece/ALTERNATES/s615/0_Deansgate.jpg",
+     "source": "Messenger Newspapers",
+     "domain": "messengernewspapers.co.uk",
+     "url": "https://www.messengernewspapers.co.uk/news/26694515.four-storey-edwardian-home-urmston-sale-675-000/?ref=rss",
+     "image": "https://www.messengernewspapers.co.uk/resources/images/21664589/",
      "image_external": true,
-     "scope": "nearby"
+     "scope": "nearby",
+     "near": "Urmston"
     }
    ],
-   "period": "Publisher feeds checked 2026-11-02",
+   "period": "Publisher feeds checked 2026-11-09",
    "geography": "Old Trafford",
    "source": {
     "name": "Local publisher RSS feeds",
@@ -996,9 +971,7 @@
     "Manchester Evening News – Trafford",
     "Messenger Newspapers",
     "Manchester Evening News – Sale",
-    "Altrincham Today",
-    "Manchester Evening News – Greater Manchester",
-    "BBC News – Manchester"
+    "Altrincham Today"
    ],
    "feed_links": [
     {
@@ -1016,18 +989,10 @@
     {
      "name": "Altrincham Today",
      "url": "https://altrincham.todaynews.co.uk/feed/"
-    },
-    {
-     "name": "Manchester Evening News – Greater Manchester",
-     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/?service=rss"
-    },
-    {
-     "name": "BBC News – Manchester",
-     "url": "https://feeds.bbci.co.uk/news/england/manchester/rss.xml"
     }
    ],
-   "scope": "local",
-   "local_count": 2,
+   "scope": "nearby",
+   "local_count": 0,
    "nearby_count": 4,
    "note": "Headlines and links only; RSS images are referenced from the publisher when supplied and are not copied."
   },
@@ -1430,25 +1395,18 @@
    "value": {
     "trams": [
      {
-      "line": "Pink Line",
-      "from": "East Didsbury",
-      "to": "Rochdale Town Centre",
-      "trips": 2238,
-      "colour": "#e94f8a"
-     },
-     {
-      "line": "Navy Line",
-      "from": "Manchester Airport",
-      "to": "Victoria",
-      "trips": 1703,
-      "colour": "#283a8a"
-     },
-     {
       "line": "Yellow Line",
       "from": "Eccles",
       "to": "Piccadilly",
       "trips": 1686,
       "colour": "#f5c400"
+     },
+     {
+      "line": "Pink Line",
+      "from": "East Didsbury",
+      "to": "Rochdale Town Centre",
+      "trips": 1630,
+      "colour": "#e94f8a"
      },
      {
       "line": "Red Line",
@@ -1465,6 +1423,13 @@
       "colour": "#7b2d8e"
      },
      {
+      "line": "Navy Line",
+      "from": "Manchester Airport",
+      "to": "Victoria",
+      "trips": 1091,
+      "colour": "#283a8a"
+     },
+     {
       "line": "Green Line",
       "from": "Altrincham",
       "to": "Bury",
@@ -1473,17 +1438,6 @@
      }
     ],
     "buses": [
-     {
-      "number": "263",
-      "from": "Altrincham",
-      "to": "Manchester",
-      "via": [],
-      "operators": [
-       "Bee Network"
-      ],
-      "trips": 684,
-      "school": false
-     },
      {
       "number": "250",
       "from": "Manchester",
@@ -1495,6 +1449,17 @@
        "Bee Network"
       ],
       "trips": 663,
+      "school": false
+     },
+     {
+      "number": "263",
+      "from": "Altrincham",
+      "to": "Manchester",
+      "via": [],
+      "operators": [
+       "Bee Network"
+      ],
+      "trips": 363,
       "school": false
      },
      {
@@ -1695,7 +1660,7 @@
     "tram_map": "https://tfgm.com/ways-to-travel/tram/network-map",
     "rail_reviewed": "2026-10-12"
    },
-   "period": "Timetable downloaded 2026-11-02",
+   "period": "Timetable downloaded 2026-11-09",
    "geography": "Stops within 1 km of the centre of Old Trafford",
    "source": {
     "name": "TfGM bus and Metrolink timetables (GTFS)",
@@ -1844,5 +1809,5 @@
    "note": "Access to jobs, education, healthcare, shops and leisure by walking, cycling, public transport and driving."
   }
  },
- "updated": "2026-11-02"
+ "updated": "2026-11-09"
 }

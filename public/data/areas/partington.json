@@ -693,98 +693,74 @@
   "news": {
    "value": [
     {
-     "title": "Partington care home celebrates 'good' rating after glowing CQC inspection",
+     "title": "Carrington relief road has 1,000 against it and makes some 'ashamed to be human', but it will be happening",
      "excerpt": "",
-     "date": "2 Nov 2026",
-     "tag": "Local news",
-     "tone": "neutral",
-     "source": "Messenger Newspapers",
-     "domain": "messengernewspapers.co.uk",
-     "url": "https://www.messengernewspapers.co.uk/news/26684635.four-oaks-care-home-partington-rated-good-cqc/?ref=rss",
-     "image": "https://www.messengernewspapers.co.uk/resources/images/21651082/",
-     "image_external": true,
-     "scope": "local"
-    },
-    {
-     "title": "Volunteers praised for transforming breastfeeding support in Trafford",
-     "excerpt": "",
-     "date": "30 Oct 2026",
-     "tag": "Local news",
-     "tone": "neutral",
-     "source": "Messenger Newspapers",
-     "domain": "messengernewspapers.co.uk",
-     "url": "https://www.messengernewspapers.co.uk/news/26676622.trafford-volunteers-transform-breastfeeding-support-mums/?ref=rss",
-     "image": "https://www.messengernewspapers.co.uk/resources/images/21640258/",
-     "image_external": true,
-     "scope": "local"
-    },
-    {
-     "title": "The decision on the hugely controversial Carrington Relief Road will soon be known",
-     "excerpt": "",
-     "date": "29 Oct 2026",
+     "date": "6 Nov 2026",
      "tag": "Transport",
      "tone": "info",
      "source": "Manchester Evening News – Trafford",
      "domain": "manchestereveningnews.co.uk",
-     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/decision-hugely-controversial-carrington-relief-34835999",
-     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34740674.ece/ALTERNATES/s615/0_Carrington-Moss-1.jpg",
+     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/shouts-disgrace-carringtons-notorious-relief-34870255",
+     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article33248399.ece/ALTERNATES/s615/0_Carrington-Relief-Road-consultation-1.jpg",
      "image_external": true,
      "scope": "local"
     },
     {
-     "title": "LIVE: Man who murdered Stretford Grammar headteacher Michael Mullins discovers his fate - updates from court",
+     "title": "New Urmston wellness centre opens offering range of therapies under one roof",
      "excerpt": "",
-     "date": "2 Nov 2026",
+     "date": "9 Nov 2026",
+     "tag": "Nearby · Flixton",
+     "tone": "neutral",
+     "source": "Messenger Newspapers",
+     "domain": "messengernewspapers.co.uk",
+     "url": "https://www.messengernewspapers.co.uk/news/26703610.urmston-therapy-centre-opens-offering-range-treatments/?ref=rss",
+     "image": "https://www.messengernewspapers.co.uk/resources/images/21676719/",
+     "image_external": true,
+     "scope": "nearby",
+     "near": "Flixton"
+    },
+    {
+     "title": "Urmston Choral Society to spread Christmas cheer with two festive concerts",
+     "excerpt": "",
+     "date": "3 Nov 2026",
+     "tag": "Nearby · Flixton",
+     "tone": "neutral",
+     "source": "Messenger Newspapers",
+     "domain": "messengernewspapers.co.uk",
+     "url": "https://www.messengernewspapers.co.uk/news/26692319.urmston-choral-society-perform-two-christmas-concerts/?ref=rss",
+     "image": "https://www.messengernewspapers.co.uk/resources/images/21661564/",
+     "image_external": true,
+     "scope": "nearby",
+     "near": "Flixton"
+    },
+    {
+     "title": "'Thickest fog ever' sparks night of chaos as fireworks ruined, flights diverted and FA Cup clash turned into farce",
+     "excerpt": "",
+     "date": "8 Nov 2026",
      "tag": "Nearby news",
      "tone": "neutral",
      "source": "Manchester Evening News – Trafford",
      "domain": "manchestereveningnews.co.uk",
-     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/live-man-who-murdered-stretford-34849245",
-     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34842338.ece/ALTERNATES/s615/0_Mug23.jpg",
+     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/thickest-fog-ever-sparks-night-34880230",
+     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34880420.ece/ALTERNATES/s615/4_90721.jpg",
      "image_external": true,
      "scope": "nearby"
     },
     {
-     "title": "Transformation of two iconic Greater Manchester buildings amongst major plans",
+     "title": "Met Offices issues new fog weather warning for Greater Manchester after night of chaos",
      "excerpt": "",
-     "date": "1 Nov 2026",
+     "date": "8 Nov 2026",
      "tag": "Nearby news",
      "tone": "neutral",
      "source": "Manchester Evening News – Trafford",
      "domain": "manchestereveningnews.co.uk",
-     "url": "https://www.manchestereveningnews.co.uk/news/transformation-two-iconic-greater-manchester-34842341",
-     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34818879.ece/ALTERNATES/s615/0_Former-Bury-Grammar-School.jpg",
-     "image_external": true,
-     "scope": "nearby"
-    },
-    {
-     "title": "Greater Manchester care home last inspected in 2019 loses ‘good’ rating - this week’s healthcare inspections reveal",
-     "excerpt": "",
-     "date": "1 Nov 2026",
-     "tag": "Nearby news",
-     "tone": "neutral",
-     "source": "Manchester Evening News – Trafford",
-     "domain": "manchestereveningnews.co.uk",
-     "url": "https://www.manchestereveningnews.co.uk/news/health/greater-manchester-care-home-last-34842324",
-     "image": "https://i2-prod.manchestereveningnews.co.uk/news/uk-news/article34687541.ece/ALTERNATES/s615/0_Senior-Home-Health-Care.jpg",
-     "image_external": true,
-     "scope": "nearby"
-    },
-    {
-     "title": "The full story of the murder of Stretford Grammar headteacher Michael Mullins",
-     "excerpt": "",
-     "date": "1 Nov 2026",
-     "tag": "Nearby news",
-     "tone": "neutral",
-     "source": "Manchester Evening News – Trafford",
-     "domain": "manchestereveningnews.co.uk",
-     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/full-story-murder-stretford-grammar-34842419",
-     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34842376.ece/ALTERNATES/s615/2_Screenshot-2026-10-30-at-170034.png",
+     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/met-offices-issues-new-fog-34880337",
+     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article33070617.ece/ALTERNATES/s615/0_271224fogweather2.jpg",
      "image_external": true,
      "scope": "nearby"
     }
    ],
-   "period": "Publisher feeds checked 2026-11-02",
+   "period": "Publisher feeds checked 2026-11-09",
    "geography": "Partington",
    "source": {
     "name": "Local publisher RSS feeds",
@@ -827,7 +803,7 @@
     }
    ],
    "scope": "local",
-   "local_count": 3,
+   "local_count": 1,
    "nearby_count": 4,
    "note": "Headlines and links only; RSS images are referenced from the publisher when supplied and are not copied."
   },
@@ -1310,7 +1286,7 @@
     "tram_map": "https://tfgm.com/ways-to-travel/tram/network-map",
     "rail_reviewed": "2026-10-12"
    },
-   "period": "Timetable downloaded 2026-11-02",
+   "period": "Timetable downloaded 2026-11-09",
    "geography": "Stops within 1 km of the centre of Partington",
    "source": {
     "name": "TfGM bus and Metrolink timetables (GTFS)",
@@ -1454,5 +1430,5 @@
    "note": "Access to jobs, education, healthcare, shops and leisure by walking, cycling, public transport and driving."
   }
  },
- "updated": "2026-11-02"
+ "updated": "2026-11-09"
 }
