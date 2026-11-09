@@ -623,6 +623,20 @@
   "news": {
    "value": [
     {
+     "title": "New operator sought to revive fortunes of historic Bowdon pub",
+     "excerpt": "",
+     "date": "9 Nov 2026",
+     "tag": "Nearby · Bowdon",
+     "tone": "neutral",
+     "source": "Altrincham Today",
+     "domain": "altrincham.todaynews.co.uk",
+     "url": "https://altrincham.todaynews.co.uk/news/2026/11/09/new-operator-sought-to-revive-fortunes-of-historic-bowdon-pub/",
+     "image": "https://storage.ghost.io/c/09/ce/09cee984-fa22-44f2-a16f-e4d816e662de/content/images/2026/11/griffin.jpg",
+     "image_external": true,
+     "scope": "nearby",
+     "near": "Bowdon"
+    },
+    {
      "title": "'An exciting new chapter': Bowdon Prep head on the school's first term welcoming boys",
      "excerpt": "",
      "date": "6 Nov 2026",
@@ -632,20 +646,6 @@
      "domain": "altrincham.todaynews.co.uk",
      "url": "https://altrincham.todaynews.co.uk/news/2026/11/06/an-exciting-new-chapter-bowdon-prep-head-on-the-schools-first-term-welcoming-boys/",
      "image": "https://storage.ghost.io/c/09/ce/09cee984-fa22-44f2-a16f-e4d816e662de/content/images/2026/11/SMT-Co-Ed-Preferred--1---1-.jpg",
-     "image_external": true,
-     "scope": "nearby",
-     "near": "Bowdon"
-    },
-    {
-     "title": "Remembrance Sunday 2026: Where and when services will take place in Altrincham, Bowdon, Hale and Hale Barns",
-     "excerpt": "",
-     "date": "2 Nov 2026",
-     "tag": "Nearby · Bowdon",
-     "tone": "neutral",
-     "source": "Altrincham Today",
-     "domain": "altrincham.todaynews.co.uk",
-     "url": "https://altrincham.todaynews.co.uk/news/2026/11/02/remembrance-sunday-2026-where-and-when-services-will-take-place-in-altrincham-bowdon-hale-and-hale-barns/",
-     "image": "https://storage.ghost.io/c/09/ce/09cee984-fa22-44f2-a16f-e4d816e662de/content/images/2026/11/IMG_8833.jpg",
      "image_external": true,
      "scope": "nearby",
      "near": "Bowdon"

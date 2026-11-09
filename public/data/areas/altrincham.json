@@ -832,6 +832,20 @@
      "near": "Hale"
     },
     {
+     "title": "New operator sought to revive fortunes of historic Bowdon pub",
+     "excerpt": "",
+     "date": "9 Nov 2026",
+     "tag": "Nearby · Bowdon",
+     "tone": "neutral",
+     "source": "Altrincham Today",
+     "domain": "altrincham.todaynews.co.uk",
+     "url": "https://altrincham.todaynews.co.uk/news/2026/11/09/new-operator-sought-to-revive-fortunes-of-historic-bowdon-pub/",
+     "image": "https://storage.ghost.io/c/09/ce/09cee984-fa22-44f2-a16f-e4d816e662de/content/images/2026/11/griffin.jpg",
+     "image_external": true,
+     "scope": "nearby",
+     "near": "Bowdon"
+    },
+    {
      "title": "'An exciting new chapter': Bowdon Prep head on the school's first term welcoming boys",
      "excerpt": "",
      "date": "6 Nov 2026",
@@ -846,28 +860,15 @@
      "near": "Bowdon"
     },
     {
-     "title": "Workers over 21 given £910 cash boost confirms Andy Burnham",
-     "excerpt": "",
-     "date": "9 Nov 2026",
-     "tag": "Greater Manchester",
-     "tone": "neutral",
-     "source": "Messenger Newspapers",
-     "domain": "messengernewspapers.co.uk",
-     "url": "https://www.messengernewspapers.co.uk/news/national/uk-today/26710926.workers-21-given-910-cash-boost-andy-burnham/?ref=rss",
-     "image": "https://www.messengernewspapers.co.uk/resources/images/21688196/",
-     "image_external": true,
-     "scope": "nearby"
-    },
-    {
-     "title": "Manchester trial day six LIVE as nine men on trial after husband drugged and raped wife",
+     "title": "'Please, please, please don't do it', begs mum in plea to other parents following son's death",
      "excerpt": "",
      "date": "9 Nov 2026",
      "tag": "Greater Manchester",
      "tone": "neutral",
      "source": "Manchester Evening News – Greater Manchester",
      "domain": "manchestereveningnews.co.uk",
-     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/manchester-trial-live-nine-men-34843691",
-     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34843737.ece/ALTERNATES/s615/3_Trial1.jpg",
+     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/i-have-got-an-empty-34883236",
+     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34883526.ece/ALTERNATES/s615/0_JS376473281.jpg",
      "image_external": true,
      "scope": "nearby"
     }

@@ -756,6 +756,19 @@
   "news": {
    "value": [
     {
+     "title": "New operator sought to revive fortunes of historic Bowdon pub",
+     "excerpt": "",
+     "date": "9 Nov 2026",
+     "tag": "Local news",
+     "tone": "neutral",
+     "source": "Altrincham Today",
+     "domain": "altrincham.todaynews.co.uk",
+     "url": "https://altrincham.todaynews.co.uk/news/2026/11/09/new-operator-sought-to-revive-fortunes-of-historic-bowdon-pub/",
+     "image": "https://storage.ghost.io/c/09/ce/09cee984-fa22-44f2-a16f-e4d816e662de/content/images/2026/11/griffin.jpg",
+     "image_external": true,
+     "scope": "local"
+    },
+    {
      "title": "'An exciting new chapter': Bowdon Prep head on the school's first term welcoming boys",
      "excerpt": "",
      "date": "6 Nov 2026",
@@ -870,7 +883,7 @@
     }
    ],
    "scope": "local",
-   "local_count": 2,
+   "local_count": 3,
    "nearby_count": 4,
    "note": "Headlines and links only; RSS images are referenced from the publisher when supplied and are not copied."
   },

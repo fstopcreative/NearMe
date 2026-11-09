@@ -591,7 +591,59 @@
   "news": {
    "value": [
     {
-     "title": "Manchester trial day six LIVE as nine men on trial after husband drugged and raped wife",
+     "title": "'Please, please, please don't do it', begs mum in plea to other parents following son's death",
+     "excerpt": "",
+     "date": "9 Nov 2026",
+     "tag": "Local news",
+     "tone": "neutral",
+     "source": "Manchester Evening News – Greater Manchester",
+     "domain": "manchestereveningnews.co.uk",
+     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/i-have-got-an-empty-34883236",
+     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34883526.ece/ALTERNATES/s615/0_JS376473281.jpg",
+     "image_external": true,
+     "scope": "local"
+    },
+    {
+     "title": "'Stay vigilant' warning after spate of family gold burglaries in Rochdale, Oldham and Bury",
+     "excerpt": "",
+     "date": "9 Nov 2026",
+     "tag": "Local news",
+     "tone": "neutral",
+     "source": "Manchester Evening News – Greater Manchester",
+     "domain": "manchestereveningnews.co.uk",
+     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/t-34884746",
+     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34884842.ece/ALTERNATES/s615/0_030426rochdale1.jpg",
+     "image_external": true,
+     "scope": "local"
+    },
+    {
+     "title": "FA Cup round-up: Upsets, disrespect, and a goal in record time",
+     "excerpt": "",
+     "date": "9 Nov 2026",
+     "tag": "Local news",
+     "tone": "neutral",
+     "source": "BBC News – Manchester",
+     "domain": "bbc.co.uk",
+     "url": "https://www.bbc.co.uk/sport/football/articles/ckx2d7p3479yo?at_medium=RSS&at_campaign=rss",
+     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ffb1/live/ba169570-dc2c-11f1-958b-3f65a8ba2dc3.jpg",
+     "image_external": true,
+     "scope": "local"
+    },
+    {
+     "title": "Thick fog disrupts travel with further weather warning issued",
+     "excerpt": "",
+     "date": "9 Nov 2026",
+     "tag": "Transport",
+     "tone": "info",
+     "source": "BBC News – Manchester",
+     "domain": "bbc.co.uk",
+     "url": "https://www.bbc.co.uk/weather/articles/cj75p29nz6e6o?at_medium=RSS&at_campaign=rss",
+     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/380d/live/6f877e00-dc24-11f1-93e1-3b657b665bcf.jpg",
+     "image_external": true,
+     "scope": "local"
+    },
+    {
+     "title": "Manchester trial day six RECAP as nine men on trial after husband drugged and raped wife",
      "excerpt": "",
      "date": "9 Nov 2026",
      "tag": "Local news",
@@ -630,19 +682,6 @@
      "scope": "local"
     },
     {
-     "title": "Thick fog disrupts morning travel as yellow weather warnings in effect",
-     "excerpt": "",
-     "date": "9 Nov 2026",
-     "tag": "Transport",
-     "tone": "info",
-     "source": "BBC News – Manchester",
-     "domain": "bbc.co.uk",
-     "url": "https://www.bbc.co.uk/weather/articles/cj75p29nz6e6o?at_medium=RSS&at_campaign=rss",
-     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/380d/live/6f877e00-dc24-11f1-93e1-3b657b665bcf.jpg",
-     "image_external": true,
-     "scope": "local"
-    },
-    {
      "title": "Fog chaos to continue as Met Office issues NEW '100m' warning for Greater Manchester",
      "excerpt": "",
      "date": "9 Nov 2026",
@@ -652,45 +691,6 @@
      "domain": "manchestereveningnews.co.uk",
      "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/fog-chaos-continue-met-office-34882954",
      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34882992.ece/ALTERNATES/s615/0_100119fog5.jpg",
-     "image_external": true,
-     "scope": "local"
-    },
-    {
-     "title": "Huge Ukraine support concert to be held in Manchester with star names on the bill",
-     "excerpt": "",
-     "date": "9 Nov 2026",
-     "tag": "Local news",
-     "tone": "neutral",
-     "source": "Manchester Evening News – Greater Manchester",
-     "domain": "manchestereveningnews.co.uk",
-     "url": "https://www.manchestereveningnews.co.uk/whats-on/whats-on-news/huge-ukraine-support-concert-to-34882702",
-     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34882717.ece/ALTERNATES/s615/1_Aftermath-Of-Massive-Russian-Missile-Attack-On-Kyiv.jpg",
-     "image_external": true,
-     "scope": "local"
-    },
-    {
-     "title": "Photos reveal The Smiths' 'dramatic' Manchester farewell",
-     "excerpt": "",
-     "date": "9 Nov 2026",
-     "tag": "Local news",
-     "tone": "neutral",
-     "source": "BBC News – Manchester",
-     "domain": "bbc.co.uk",
-     "url": "https://www.bbc.co.uk/news/articles/ckjwe5wqp0jxo?at_medium=RSS&at_campaign=rss",
-     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/52b2/live/50be6b60-d9e9-11f1-bbe5-797ee05bee69.jpg",
-     "image_external": true,
-     "scope": "local"
-    },
-    {
-     "title": "Search for buried asbestos at derelict factory site",
-     "excerpt": "",
-     "date": "9 Nov 2026",
-     "tag": "Local news",
-     "tone": "neutral",
-     "source": "BBC News – Manchester",
-     "domain": "bbc.co.uk",
-     "url": "https://www.bbc.co.uk/news/articles/c8ly0qpwee04o?at_medium=RSS&at_campaign=rss",
-     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3e4d/live/bc6c88a0-dc06-11f1-b6f4-7b86d13131ad.jpg",
      "image_external": true,
      "scope": "local"
     }
