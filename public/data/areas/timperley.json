@@ -664,6 +664,33 @@
   "news": {
    "value": [
     {
+     "title": "Boy, 15, arrested on suspicion of knife possession after Timperley incident",
+     "excerpt": "",
+     "date": "10 Nov 2026",
+     "tag": "Local news",
+     "tone": "neutral",
+     "source": "Altrincham Today",
+     "domain": "altrincham.todaynews.co.uk",
+     "url": "https://altrincham.todaynews.co.uk/news/2026/11/10/boy-15-arrested-on-suspicion-of-knife-possession-after-timperley-incident/",
+     "image": "https://storage.ghost.io/c/09/ce/09cee984-fa22-44f2-a16f-e4d816e662de/content/images/2026/11/brook.png",
+     "image_external": true,
+     "scope": "local"
+    },
+    {
+     "title": "Altrincham man among 16 charged with violent disorder following football-related incident",
+     "excerpt": "",
+     "date": "10 Nov 2026",
+     "tag": "Nearby · Altrincham",
+     "tone": "neutral",
+     "source": "Altrincham Today",
+     "domain": "altrincham.todaynews.co.uk",
+     "url": "https://altrincham.todaynews.co.uk/news/2026/11/10/altrincham-man-among-16-charged-with-violent-disorder-following-football-related-incident/",
+     "image": "https://storage.ghost.io/c/09/ce/09cee984-fa22-44f2-a16f-e4d816e662de/content/images/2026/11/police-e1600072420681--1--1--1-.webp",
+     "image_external": true,
+     "scope": "nearby",
+     "near": "Altrincham"
+    },
+    {
      "title": "What are your Trafford neighbours planning? Latest applications revealed",
      "excerpt": "",
      "date": "10 Nov 2026",
@@ -673,20 +700,6 @@
      "domain": "messengernewspapers.co.uk",
      "url": "https://www.messengernewspapers.co.uk/news/26712480.trafford-planning-applications-include-plans-120-homes/?ref=rss",
      "image": "https://www.messengernewspapers.co.uk/resources/images/18954988/",
-     "image_external": true,
-     "scope": "nearby",
-     "near": "Altrincham"
-    },
-    {
-     "title": "Altrincham care home residents enjoy games afternoon with school pupils",
-     "excerpt": "",
-     "date": "9 Nov 2026",
-     "tag": "Nearby · Altrincham",
-     "tone": "neutral",
-     "source": "Messenger Newspapers",
-     "domain": "messengernewspapers.co.uk",
-     "url": "https://www.messengernewspapers.co.uk/news/26700058.altrincham-care-home-welcomes-pupils-games-afternoon/?ref=rss",
-     "image": "https://www.messengernewspapers.co.uk/resources/images/21671952/",
      "image_external": true,
      "scope": "nearby",
      "near": "Altrincham"
@@ -706,15 +719,15 @@
      "near": "Hale"
     },
     {
-     "title": "Urgent appeal over missing Bury girl, 14, last seen five days ago",
+     "title": "Manchester trial day seven LIVE as nine men on trial after husband drugged and raped wife",
      "excerpt": "",
      "date": "10 Nov 2026",
      "tag": "Greater Manchester",
      "tone": "neutral",
      "source": "Manchester Evening News – Greater Manchester",
      "domain": "manchestereveningnews.co.uk",
-     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/urgent-appeal-over-missing-bury-34888150",
-     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34888217.ece/ALTERNATES/s615/0_ABR_MEN_101126_AMELIAMISSING.jpg",
+     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/manchester-trial-live-nine-men-34843691",
+     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34843737.ece/ALTERNATES/s615/3_Trial1.jpg",
      "image_external": true,
      "scope": "nearby"
     }
@@ -766,8 +779,8 @@
      "url": "https://feeds.bbci.co.uk/news/england/manchester/rss.xml"
     }
    ],
-   "scope": "nearby",
-   "local_count": 0,
+   "scope": "local",
+   "local_count": 1,
    "nearby_count": 4,
    "note": "Headlines and links only; RSS images are referenced from the publisher when supplied and are not copied."
   },

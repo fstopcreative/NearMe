@@ -809,6 +809,20 @@
      "near": "Hale"
     },
     {
+     "title": "Altrincham man among 16 charged with violent disorder following football-related incident",
+     "excerpt": "",
+     "date": "10 Nov 2026",
+     "tag": "Nearby · Altrincham",
+     "tone": "neutral",
+     "source": "Altrincham Today",
+     "domain": "altrincham.todaynews.co.uk",
+     "url": "https://altrincham.todaynews.co.uk/news/2026/11/10/altrincham-man-among-16-charged-with-violent-disorder-following-football-related-incident/",
+     "image": "https://storage.ghost.io/c/09/ce/09cee984-fa22-44f2-a16f-e4d816e662de/content/images/2026/11/police-e1600072420681--1--1--1-.webp",
+     "image_external": true,
+     "scope": "nearby",
+     "near": "Altrincham"
+    },
+    {
      "title": "What are your Trafford neighbours planning? Latest applications revealed",
      "excerpt": "",
      "date": "10 Nov 2026",
@@ -823,29 +837,15 @@
      "near": "Altrincham"
     },
     {
-     "title": "Altrincham care home residents enjoy games afternoon with school pupils",
+     "title": "Boy, 15, arrested on suspicion of knife possession after Timperley incident",
      "excerpt": "",
-     "date": "9 Nov 2026",
-     "tag": "Nearby · Altrincham",
-     "tone": "neutral",
-     "source": "Messenger Newspapers",
-     "domain": "messengernewspapers.co.uk",
-     "url": "https://www.messengernewspapers.co.uk/news/26700058.altrincham-care-home-welcomes-pupils-games-afternoon/?ref=rss",
-     "image": "https://www.messengernewspapers.co.uk/resources/images/21671952/",
-     "image_external": true,
-     "scope": "nearby",
-     "near": "Altrincham"
-    },
-    {
-     "title": "'Thickest fog ever' sparks night of chaos as fireworks ruined, flights diverted and FA Cup clash turned into farce",
-     "excerpt": "",
-     "date": "8 Nov 2026",
+     "date": "10 Nov 2026",
      "tag": "Nearby news",
      "tone": "neutral",
-     "source": "Manchester Evening News – Altrincham",
-     "domain": "manchestereveningnews.co.uk",
-     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/thickest-fog-ever-sparks-night-34880230",
-     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34880420.ece/ALTERNATES/s615/4_90721.jpg",
+     "source": "Altrincham Today",
+     "domain": "altrincham.todaynews.co.uk",
+     "url": "https://altrincham.todaynews.co.uk/news/2026/11/10/boy-15-arrested-on-suspicion-of-knife-possession-after-timperley-incident/",
+     "image": "https://storage.ghost.io/c/09/ce/09cee984-fa22-44f2-a16f-e4d816e662de/content/images/2026/11/brook.png",
      "image_external": true,
      "scope": "nearby"
     }

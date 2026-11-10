@@ -616,15 +616,15 @@
      "near": "Hazel Grove"
     },
     {
-     "title": "Urgent appeal over missing Bury girl, 14, last seen five days ago",
+     "title": "Manchester trial day seven LIVE as nine men on trial after husband drugged and raped wife",
      "excerpt": "",
      "date": "10 Nov 2026",
      "tag": "Greater Manchester",
      "tone": "neutral",
      "source": "Manchester Evening News – Greater Manchester",
      "domain": "manchestereveningnews.co.uk",
-     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/urgent-appeal-over-missing-bury-34888150",
-     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34888217.ece/ALTERNATES/s615/0_ABR_MEN_101126_AMELIAMISSING.jpg",
+     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/manchester-trial-live-nine-men-34843691",
+     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34843737.ece/ALTERNATES/s615/3_Trial1.jpg",
      "image_external": true,
      "scope": "nearby"
     }
@@ -682,12 +682,88 @@
    "note": "Headlines and links only; RSS images are referenced from the publisher when supplied and are not copied."
   },
   "places": {
-   "value": null,
-   "period": null,
-   "geography": null,
-   "source": null,
-   "status": "error",
-   "note": "osm failed: Overpass unavailable: GET https://overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%5Btimeout%3A90%5D%3B%28nwr%5B%22railway%22%3D%22station%22%5D%5B%22name%"
+   "value": [
+    {
+     "name": "Diamond Jubilee Park",
+     "addr": "Cheadle",
+     "type": "Park",
+     "dist_mi": 0.3,
+     "tone": "--ax-viz-emerald",
+     "ll": "53.39409,-2.20617",
+     "dist": "0.3 mi"
+    },
+    {
+     "name": "Carrs Road Park",
+     "addr": "Cheadle",
+     "type": "Park",
+     "dist_mi": 0.4,
+     "tone": "--ax-viz-emerald",
+     "ll": "53.39690,-2.19420",
+     "dist": "0.4 mi"
+    },
+    {
+     "name": "Cheadle Library",
+     "addr": "Ashfield Road",
+     "type": "Library",
+     "dist_mi": 0.5,
+     "tone": "--ax-viz-pink",
+     "ll": "53.39349,-2.21259",
+     "dist": "0.5 mi"
+    },
+    {
+     "name": "Alexandra Hospital",
+     "addr": "Cheadle",
+     "type": "Hospital",
+     "dist_mi": 0.7,
+     "tone": "--ax-danger-500",
+     "ll": "53.39700,-2.21606",
+     "dist": "0.7 mi"
+    },
+    {
+     "name": "Cheadle Hulme Shopping Centre",
+     "addr": "Station Road, SK8 5BB",
+     "type": "Shopping centre",
+     "dist_mi": 1.1,
+     "tone": "--ax-viz-cyan",
+     "ll": "53.37791,-2.18908",
+     "dist": "1.1 mi"
+    },
+    {
+     "name": "Gatley",
+     "addr": "Cheadle",
+     "type": "Train station",
+     "dist_mi": 1.2,
+     "tone": "--ax-viz-violet",
+     "ll": "53.39324,-2.23066",
+     "dist": "1.2 mi"
+    },
+    {
+     "name": "Cheadle Hulme",
+     "addr": "Cheadle",
+     "type": "Train station",
+     "dist_mi": 1.2,
+     "tone": "--ax-viz-violet",
+     "ll": "53.37603,-2.18835",
+     "dist": "1.2 mi"
+    },
+    {
+     "name": "East Didsbury",
+     "addr": "Cheadle",
+     "type": "Tram stop",
+     "dist_mi": 1.5,
+     "tone": "--ax-viz-violet",
+     "ll": "53.41204,-2.21727",
+     "dist": "1.5 mi"
+    }
+   ],
+   "period": "Current map data",
+   "geography": "Within 2.5 km of the centre of Cheadle",
+   "source": {
+    "name": "OpenStreetMap (© OpenStreetMap contributors)",
+    "url": "https://www.openstreetmap.org/copyright",
+    "licence": "Open Database Licence (ODbL)"
+   },
+   "status": "ok"
   },
   "planning_constraints": {
    "value": null,

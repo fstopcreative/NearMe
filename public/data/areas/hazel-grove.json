@@ -614,41 +614,41 @@
      "near": "Bramhall"
     },
     {
-     "title": "Urgent appeal over missing Bury girl, 14, last seen five days ago",
+     "title": "Manchester trial day seven LIVE as nine men on trial after husband drugged and raped wife",
      "excerpt": "",
      "date": "10 Nov 2026",
      "tag": "Greater Manchester",
      "tone": "neutral",
      "source": "Manchester Evening News – Greater Manchester",
      "domain": "manchestereveningnews.co.uk",
-     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/urgent-appeal-over-missing-bury-34888150",
-     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34888217.ece/ALTERNATES/s615/0_ABR_MEN_101126_AMELIAMISSING.jpg",
+     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/manchester-trial-live-nine-men-34843691",
+     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34843737.ece/ALTERNATES/s615/3_Trial1.jpg",
      "image_external": true,
      "scope": "nearby"
     },
     {
-     "title": "St Helens sign hooker Forber from Wigan",
+     "title": "Three men charged after attempted burglaries in Stockport",
+     "excerpt": "",
+     "date": "10 Nov 2026",
+     "tag": "Greater Manchester",
+     "tone": "neutral",
+     "source": "Manchester Evening News – Greater Manchester",
+     "domain": "manchestereveningnews.co.uk",
+     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/three-men-charged-after-attempted-34889268",
+     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34889296.ece/ALTERNATES/s615/0_IBP_NEC_260722police_02JPG.jpg",
+     "image_external": true,
+     "scope": "nearby"
+    },
+    {
+     "title": "Carrick's Man Utd future to be decided at Wednesday meeting",
      "excerpt": "",
      "date": "10 Nov 2026",
      "tag": "Greater Manchester",
      "tone": "neutral",
      "source": "BBC News – Manchester",
      "domain": "bbc.co.uk",
-     "url": "https://www.bbc.co.uk/sport/rugby-league/articles/cjwy9y2xy5xqo?at_medium=RSS&at_campaign=rss",
-     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5768/live/a2f63190-dcde-11f1-a8e1-e3454837ffc6.jpg",
-     "image_external": true,
-     "scope": "nearby"
-    },
-    {
-     "title": "I was told I had cancer and may not survive the night - 45 years later I'm still here",
-     "excerpt": "",
-     "date": "10 Nov 2026",
-     "tag": "Greater Manchester",
-     "tone": "neutral",
-     "source": "Manchester Evening News – Trafford",
-     "domain": "manchestereveningnews.co.uk",
-     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/man-63-diagnosed-with-cancer-34888049",
-     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34888079.ece/ALTERNATES/s615/1_REAL-LIFE-Derrick-Derbyshire.jpg",
+     "url": "https://www.bbc.co.uk/sport/football/articles/cmy0r041ed0po?at_medium=RSS&at_campaign=rss",
+     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9dcf/live/306777b0-dc8e-11f1-8a0c-79d3a3fe49e0.jpg",
      "image_external": true,
      "scope": "nearby"
     }
@@ -706,12 +706,70 @@
    "note": "Headlines and links only; RSS images are referenced from the publisher when supplied and are not copied."
   },
   "places": {
-   "value": null,
-   "period": null,
-   "geography": null,
-   "source": null,
-   "status": "error",
-   "note": "osm failed: Overpass unavailable: GET https://overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%5Btimeout%3A90%5D%3B%28nwr%5B%22railway%22%3D%22station%22%5D%5B%22name%"
+   "value": [
+    {
+     "name": "Memorial Gardens",
+     "addr": "Hazel Grove",
+     "type": "Park",
+     "dist_mi": 0.1,
+     "tone": "--ax-viz-emerald",
+     "ll": "53.37905,-2.12056",
+     "dist": "0.1 mi"
+    },
+    {
+     "name": "Hazel Grove Library",
+     "addr": "Beech Avenue, SK7 4QP",
+     "type": "Library",
+     "dist_mi": 0.1,
+     "tone": "--ax-viz-pink",
+     "ll": "53.37984,-2.11801",
+     "dist": "0.1 mi"
+    },
+    {
+     "name": "Hazel Grove",
+     "addr": "Hazel Grove",
+     "type": "Train station",
+     "dist_mi": 0.2,
+     "tone": "--ax-viz-violet",
+     "ll": "53.37747,-2.12215",
+     "dist": "0.2 mi"
+    },
+    {
+     "name": "Torkington Park",
+     "addr": "Hazel Grove",
+     "type": "Park",
+     "dist_mi": 0.4,
+     "tone": "--ax-viz-emerald",
+     "ll": "53.37668,-2.11206",
+     "dist": "0.4 mi"
+    },
+    {
+     "name": "Stepping Hill Hospital",
+     "addr": "Poplar Grove, SK2 7LE",
+     "type": "Hospital",
+     "dist_mi": 0.6,
+     "tone": "--ax-danger-500",
+     "ll": "53.38451,-2.13321",
+     "dist": "0.6 mi"
+    },
+    {
+     "name": "Woodsmoor",
+     "addr": "Hazel Grove",
+     "type": "Train station",
+     "dist_mi": 0.9,
+     "tone": "--ax-viz-violet",
+     "ll": "53.38614,-2.14124",
+     "dist": "0.9 mi"
+    }
+   ],
+   "period": "Current map data",
+   "geography": "Within 2.5 km of the centre of Hazel Grove",
+   "source": {
+    "name": "OpenStreetMap (© OpenStreetMap contributors)",
+    "url": "https://www.openstreetmap.org/copyright",
+    "licence": "Open Database Licence (ODbL)"
+   },
+   "status": "ok"
   },
   "planning_constraints": {
    "value": null,

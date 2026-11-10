@@ -673,6 +673,20 @@
      "scope": "local"
     },
     {
+     "title": "Boy, 15, arrested on suspicion of knife possession after Timperley incident",
+     "excerpt": "",
+     "date": "10 Nov 2026",
+     "tag": "Nearby · Timperley",
+     "tone": "neutral",
+     "source": "Altrincham Today",
+     "domain": "altrincham.todaynews.co.uk",
+     "url": "https://altrincham.todaynews.co.uk/news/2026/11/10/boy-15-arrested-on-suspicion-of-knife-possession-after-timperley-incident/",
+     "image": "https://storage.ghost.io/c/09/ce/09cee984-fa22-44f2-a16f-e4d816e662de/content/images/2026/11/brook.png",
+     "image_external": true,
+     "scope": "nearby",
+     "near": "Timperley"
+    },
+    {
      "title": "New Urmston wellness centre opens offering range of therapies under one roof",
      "excerpt": "",
      "date": "9 Nov 2026",
@@ -712,19 +726,6 @@
      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34825494.ece/ALTERNATES/s615/0_JS421450017.jpg",
      "image_external": true,
      "scope": "nearby"
-    },
-    {
-     "title": "Urgent appeal over missing Bury girl, 14, last seen five days ago",
-     "excerpt": "",
-     "date": "10 Nov 2026",
-     "tag": "Greater Manchester",
-     "tone": "neutral",
-     "source": "Manchester Evening News – Greater Manchester",
-     "domain": "manchestereveningnews.co.uk",
-     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/urgent-appeal-over-missing-bury-34888150",
-     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34888217.ece/ALTERNATES/s615/0_ABR_MEN_101126_AMELIAMISSING.jpg",
-     "image_external": true,
-     "scope": "nearby"
     }
    ],
    "period": "Publisher feeds checked 2026-11-10",
@@ -739,9 +740,7 @@
     "Messenger Newspapers",
     "Manchester Evening News – Trafford",
     "Manchester Evening News – Sale",
-    "Altrincham Today",
-    "Manchester Evening News – Greater Manchester",
-    "BBC News – Manchester"
+    "Altrincham Today"
    ],
    "feed_links": [
     {
@@ -759,14 +758,6 @@
     {
      "name": "Altrincham Today",
      "url": "https://altrincham.todaynews.co.uk/feed/"
-    },
-    {
-     "name": "Manchester Evening News – Greater Manchester",
-     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/?service=rss"
-    },
-    {
-     "name": "BBC News – Manchester",
-     "url": "https://feeds.bbci.co.uk/news/england/manchester/rss.xml"
     }
    ],
    "scope": "local",

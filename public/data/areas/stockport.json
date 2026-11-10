@@ -626,54 +626,54 @@
      "scope": "local"
     },
     {
-     "title": "Urgent appeal over missing Bury girl, 14, last seen five days ago",
-     "excerpt": "",
-     "date": "10 Nov 2026",
-     "tag": "Greater Manchester",
-     "tone": "neutral",
-     "source": "Manchester Evening News – Greater Manchester",
-     "domain": "manchestereveningnews.co.uk",
-     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/urgent-appeal-over-missing-bury-34888150",
-     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34888217.ece/ALTERNATES/s615/0_ABR_MEN_101126_AMELIAMISSING.jpg",
-     "image_external": true,
-     "scope": "nearby"
-    },
-    {
-     "title": "St Helens sign hooker Forber from Wigan",
+     "title": "Carrick's Man Utd future to be decided at Wednesday meeting",
      "excerpt": "",
      "date": "10 Nov 2026",
      "tag": "Greater Manchester",
      "tone": "neutral",
      "source": "BBC News – Manchester",
      "domain": "bbc.co.uk",
-     "url": "https://www.bbc.co.uk/sport/rugby-league/articles/cjwy9y2xy5xqo?at_medium=RSS&at_campaign=rss",
-     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5768/live/a2f63190-dcde-11f1-a8e1-e3454837ffc6.jpg",
+     "url": "https://www.bbc.co.uk/sport/football/articles/cmy0r041ed0po?at_medium=RSS&at_campaign=rss",
+     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9dcf/live/306777b0-dc8e-11f1-8a0c-79d3a3fe49e0.jpg",
      "image_external": true,
      "scope": "nearby"
     },
     {
-     "title": "I was told I had cancer and may not survive the night - 45 years later I'm still here",
+     "title": "Never seen conditions like it, says Alty's Kosylo",
      "excerpt": "",
      "date": "10 Nov 2026",
      "tag": "Greater Manchester",
      "tone": "neutral",
-     "source": "Manchester Evening News – Trafford",
-     "domain": "manchestereveningnews.co.uk",
-     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/man-63-diagnosed-with-cancer-34888049",
-     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34888079.ece/ALTERNATES/s615/1_REAL-LIFE-Derrick-Derbyshire.jpg",
+     "source": "BBC News – Manchester",
+     "domain": "bbc.co.uk",
+     "url": "https://www.bbc.co.uk/sport/football/articles/cm3vqv272g7wo?at_medium=RSS&at_campaign=rss",
+     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1364/live/2720f990-dce5-11f1-a8e1-e3454837ffc6.jpg",
      "image_external": true,
      "scope": "nearby"
     },
     {
-     "title": "M6 and M60 traffic LIVE as drivers face long queues on motorways",
+     "title": "Man arrested after M60 closed for hours near Simister Island over welfare concern",
      "excerpt": "",
      "date": "10 Nov 2026",
      "tag": "Greater Manchester",
      "tone": "neutral",
-     "source": "Manchester Evening News – Greater Manchester",
-     "domain": "manchestereveningnews.co.uk",
-     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/m6-traffic-live-drivers-face-34888119",
-     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34888104.ece/ALTERNATES/s615/0_m6-37092-j22.jpg",
+     "source": "Messenger Newspapers",
+     "domain": "messengernewspapers.co.uk",
+     "url": "https://www.messengernewspapers.co.uk/news/26714448.man-arrested-m60-closure-simister-island/?ref=rss",
+     "image": "https://www.messengernewspapers.co.uk/resources/images/21693872/",
+     "image_external": true,
+     "scope": "nearby"
+    },
+    {
+     "title": "Nestle confirms major change to all Quality Street tubs after 2 years",
+     "excerpt": "",
+     "date": "10 Nov 2026",
+     "tag": "Greater Manchester",
+     "tone": "neutral",
+     "source": "Messenger Newspapers",
+     "domain": "messengernewspapers.co.uk",
+     "url": "https://www.messengernewspapers.co.uk/news/26714432.nestle-axes-paper-quality-street-tubs-christmas-2026/?ref=rss",
+     "image": "https://www.messengernewspapers.co.uk/resources/images/18893398/",
      "image_external": true,
      "scope": "nearby"
     }
@@ -721,12 +721,88 @@
    "note": "Headlines and links only; RSS images are referenced from the publisher when supplied and are not copied."
   },
   "places": {
-   "value": null,
-   "period": null,
-   "geography": null,
-   "source": null,
-   "status": "error",
-   "note": "osm failed: Overpass unavailable: GET https://overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%5Btimeout%3A90%5D%3B%28nwr%5B%22railway%22%3D%22station%22%5D%5B%22name%"
+   "value": [
+    {
+     "name": "Hat Works",
+     "addr": "Wellington Road South, Stockport, SK3 0EU",
+     "type": "Museum",
+     "dist_mi": 0.1,
+     "tone": "--ax-viz-amber",
+     "ll": "53.40861,-2.16202",
+     "dist": "0.1 mi"
+    },
+    {
+     "name": "Stockport Central Library",
+     "addr": "Wellington Road South, Stockport, SK1 3RS",
+     "type": "Library",
+     "dist_mi": 0.1,
+     "tone": "--ax-viz-pink",
+     "ll": "53.40815,-2.16061",
+     "dist": "0.1 mi"
+    },
+    {
+     "name": "Stockport",
+     "addr": "Stockport",
+     "type": "Train station",
+     "dist_mi": 0.2,
+     "tone": "--ax-viz-violet",
+     "ll": "53.40545,-2.16304",
+     "dist": "0.2 mi"
+    },
+    {
+     "name": "Viaduct Park",
+     "addr": "Stockport",
+     "type": "Park",
+     "dist_mi": 0.2,
+     "tone": "--ax-viz-emerald",
+     "ll": "53.40863,-2.16330",
+     "dist": "0.2 mi"
+    },
+    {
+     "name": "Merseyway Shopping Centre",
+     "addr": "52-54 Great Underbank, Stockport, SK1 1PD",
+     "type": "Shopping centre",
+     "dist_mi": 0.2,
+     "tone": "--ax-viz-cyan",
+     "ll": "53.41039,-2.16189",
+     "dist": "0.2 mi"
+    },
+    {
+     "name": "Heaton Norris Park",
+     "addr": "Love Lane, Stockport, SK4 1JA",
+     "type": "Park",
+     "dist_mi": 0.4,
+     "tone": "--ax-viz-emerald",
+     "ll": "53.41344,-2.16389",
+     "dist": "0.4 mi"
+    },
+    {
+     "name": "Edgeley Park Stadium",
+     "addr": "Hardcastle Road, Stockport, SK3 9DD",
+     "type": "Stadium",
+     "dist_mi": 0.7,
+     "tone": "--ax-accent",
+     "ll": "53.39967,-2.16645",
+     "dist": "0.7 mi"
+    },
+    {
+     "name": "Davenport",
+     "addr": "Stockport",
+     "type": "Train station",
+     "dist_mi": 1.2,
+     "tone": "--ax-viz-violet",
+     "ll": "53.39073,-2.15216",
+     "dist": "1.2 mi"
+    }
+   ],
+   "period": "Current map data",
+   "geography": "Within 6 km of the centre of Stockport",
+   "source": {
+    "name": "OpenStreetMap (© OpenStreetMap contributors)",
+    "url": "https://www.openstreetmap.org/copyright",
+    "licence": "Open Database Licence (ODbL)"
+   },
+   "status": "ok"
   },
   "planning_constraints": {
    "value": null,
