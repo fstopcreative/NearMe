@@ -17,6 +17,12 @@
     <priority>0.9</priority>
   </url>
   <url>
+    <loc>%SITE_URL%/party-wall-surveyors/stockport</loc>
+    <lastmod>%BUILD_DATE%</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
     <loc>%SITE_URL%/party-wall-surveyors/old-trafford</loc>
     <lastmod>%BUILD_DATE%</lastmod>
     <changefreq>monthly</changefreq>
@@ -78,6 +84,42 @@
   </url>
   <url>
     <loc>%SITE_URL%/party-wall-surveyors/urmston</loc>
+    <lastmod>%BUILD_DATE%</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>%SITE_URL%/party-wall-surveyors/heaton-moor</loc>
+    <lastmod>%BUILD_DATE%</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>%SITE_URL%/party-wall-surveyors/cheadle</loc>
+    <lastmod>%BUILD_DATE%</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>%SITE_URL%/party-wall-surveyors/offerton</loc>
+    <lastmod>%BUILD_DATE%</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>%SITE_URL%/party-wall-surveyors/hazel-grove</loc>
+    <lastmod>%BUILD_DATE%</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>%SITE_URL%/party-wall-surveyors/bramhall</loc>
+    <lastmod>%BUILD_DATE%</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>%SITE_URL%/party-wall-surveyors/marple</loc>
     <lastmod>%BUILD_DATE%</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>

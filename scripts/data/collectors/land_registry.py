@@ -48,6 +48,7 @@ def load_sales(years):
     sales = []
     for y in range(today.year - years, today.year + 1):
         rows = fetch(['TRAFFORD'], date(y, 1, 1), date(y + 1, 1, 1))
+        rows += fetch(['STOCKPORT'], date(y, 1, 1), date(y + 1, 1, 1))
         rows += fetch(['WARRINGTON'], date(y, 1, 1), date(y + 1, 1, 1), 'FILTER(STRSTARTS(?postcode, "WA13"))')
         log(f'price paid {y}: {len(rows)} sales')
         for r in rows:
@@ -68,7 +69,9 @@ def in_area(area, s, geo):
     if 'lad' in m:
         return geo is not None and geo['lad'] == m['lad']
     if 'wards' in m:
-        return geo is not None and geo['ward'] in m['wards']
+        # Ward names repeat between boroughs — Trafford and Stockport both have a
+        # "Manor" — so the local authority has to match as well.
+        return geo is not None and geo['ward'] in m['wards'] and geo['lad'] == area['lad']
     return s['locality'] in m['localities'] and s['district'] in m.get('districts', [s['district']])
 
 

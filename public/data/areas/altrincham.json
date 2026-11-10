@@ -766,113 +766,114 @@
   "news": {
    "value": [
     {
-     "title": "Altrincham goes back to the 80s for Live Aid-inspired Christmas Lights Switch-On",
+     "title": "What are your Trafford neighbours planning? Latest applications revealed",
      "excerpt": "",
-     "date": "2 Nov 2026",
-     "tag": "Local news",
-     "tone": "neutral",
-     "source": "Altrincham Today",
-     "domain": "altrincham.todaynews.co.uk",
-     "url": "https://altrincham.todaynews.co.uk/news/2026/11/02/altrincham-goes-back-to-the-80s-for-live-aid-inspired-christmas-lights-switch-on/",
-     "image": "https://storage.ghost.io/c/09/ce/09cee984-fa22-44f2-a16f-e4d816e662de/content/images/2026/11/Santa-on-Christmas-Lights-Switch-on-Stage--1-.jpg",
-     "image_external": true,
-     "scope": "local"
-    },
-    {
-     "title": "Remembrance Sunday 2026: Where and when services will take place in Altrincham, Bowdon, Hale and Hale Barns",
-     "excerpt": "",
-     "date": "2 Nov 2026",
-     "tag": "Local news",
-     "tone": "neutral",
-     "source": "Altrincham Today",
-     "domain": "altrincham.todaynews.co.uk",
-     "url": "https://altrincham.todaynews.co.uk/news/2026/11/02/remembrance-sunday-2026-where-and-when-services-will-take-place-in-altrincham-bowdon-hale-and-hale-barns/",
-     "image": "https://storage.ghost.io/c/09/ce/09cee984-fa22-44f2-a16f-e4d816e662de/content/images/2026/11/IMG_8833.jpg",
-     "image_external": true,
-     "scope": "local"
-    },
-    {
-     "title": "Three-storey Victorian home in Altrincham with south-facing garden hits market",
-     "excerpt": "",
-     "date": "1 Nov 2026",
-     "tag": "Local news",
-     "tone": "neutral",
+     "date": "10 Nov 2026",
+     "tag": "Planning",
+     "tone": "accent",
      "source": "Messenger Newspapers",
      "domain": "messengernewspapers.co.uk",
-     "url": "https://www.messengernewspapers.co.uk/news/26685377.three-bedroom-victorian-home-sale-altrincham/?ref=rss",
-     "image": "https://www.messengernewspapers.co.uk/resources/images/21652167/",
+     "url": "https://www.messengernewspapers.co.uk/news/26712480.trafford-planning-applications-include-plans-120-homes/?ref=rss",
+     "image": "https://www.messengernewspapers.co.uk/resources/images/18954988/",
      "image_external": true,
      "scope": "local"
     },
     {
-     "title": "Two young black cats in Altrincham searching for forever home this Halloween",
+     "title": "Altrincham care home residents enjoy games afternoon with school pupils",
      "excerpt": "",
-     "date": "31 Oct 2026",
-     "tag": "Local news",
-     "tone": "neutral",
+     "date": "9 Nov 2026",
+     "tag": "Schools",
+     "tone": "success",
      "source": "Messenger Newspapers",
      "domain": "messengernewspapers.co.uk",
-     "url": "https://www.messengernewspapers.co.uk/news/26684061.altrincham-rescue-cats-sabrina-salem-need-new-home/?ref=rss",
-     "image": "https://www.messengernewspapers.co.uk/resources/images/21650286/",
+     "url": "https://www.messengernewspapers.co.uk/news/26700058.altrincham-care-home-welcomes-pupils-games-afternoon/?ref=rss",
+     "image": "https://www.messengernewspapers.co.uk/resources/images/21671952/",
      "image_external": true,
      "scope": "local"
     },
     {
-     "title": "Timperley plans its biggest Christmas lights celebration yet as switch-on date confirmed",
+     "title": "Live Aid-inspired Christmas lights switch-on to kick off Altrincham festivities",
      "excerpt": "",
-     "date": "30 Oct 2026",
-     "tag": "Nearby · Timperley",
+     "date": "7 Nov 2026",
+     "tag": "Transport",
+     "tone": "info",
+     "source": "Messenger Newspapers",
+     "domain": "messengernewspapers.co.uk",
+     "url": "https://www.messengernewspapers.co.uk/news/26699617.altrincham-christmas-lights-switch-on-events-revealed/?ref=rss",
+     "image": "https://www.messengernewspapers.co.uk/resources/images/21671172/",
+     "image_external": true,
+     "scope": "local"
+    },
+    {
+     "title": "Altrincham FC set for national TV spotlight as they bid for FA Cup upset against Notts County",
+     "excerpt": "",
+     "date": "6 Nov 2026",
+     "tag": "Local news",
      "tone": "neutral",
      "source": "Altrincham Today",
      "domain": "altrincham.todaynews.co.uk",
-     "url": "https://altrincham.todaynews.co.uk/news/2026/10/30/timperley-plans-its-biggest-christmas-lights-celebration-yet-as-switch-on-date-confirmed/",
-     "image": "https://storage.ghost.io/c/09/ce/09cee984-fa22-44f2-a16f-e4d816e662de/content/images/2026/10/timpxmas.jpg",
+     "url": "https://altrincham.todaynews.co.uk/news/2026/11/06/altrincham-fc-set-for-national-tv-spotlight-as-they-bid-for-fa-cup-upset-against-notts-county/",
+     "image": "https://storage.ghost.io/c/09/ce/09cee984-fa22-44f2-a16f-e4d816e662de/content/images/2026/11/55597747030_65778a6b17_k--1-.jpg",
      "image_external": true,
-     "scope": "nearby",
-     "near": "Timperley"
+     "scope": "local"
     },
     {
-     "title": "Police target drivers on busy Timperley road as part of borough-wide \"crime-smashing\" crackdown",
-     "excerpt": "",
-     "date": "23 Oct 2026",
-     "tag": "Nearby · Timperley",
-     "tone": "neutral",
-     "source": "Altrincham Today",
-     "domain": "altrincham.todaynews.co.uk",
-     "url": "https://altrincham.todaynews.co.uk/news/2026/10/23/police-target-drivers-on-busy-timperley-road-as-part-of-borough-wide-crime-smashing-crackdown/",
-     "image": "https://storage.ghost.io/c/09/ce/09cee984-fa22-44f2-a16f-e4d816e662de/content/images/2026/10/Operation-AVRO---Trafford-4--1-.jpg",
-     "image_external": true,
-     "scope": "nearby",
-     "near": "Timperley"
-    },
-    {
-     "title": "Deansgate LIVE as busy street cordoned off by police in 'serious' incident",
+     "title": "Former Con Club and Unagi team to open new Japanese and Thai restaurant in Hale",
      "excerpt": "",
      "date": "2 Nov 2026",
+     "tag": "Nearby · Hale",
+     "tone": "neutral",
+     "source": "Altrincham Today",
+     "domain": "altrincham.todaynews.co.uk",
+     "url": "https://altrincham.todaynews.co.uk/news/2026/11/02/former-con-club-and-unagi-team-to-open-new-japanese-and-thai-restaurant-in-hale/",
+     "image": "https://storage.ghost.io/c/09/ce/09cee984-fa22-44f2-a16f-e4d816e662de/content/images/2026/11/ea23a12a-0d3f-4bda-8fe3-7dcd3a22909b.jpg",
+     "image_external": true,
+     "scope": "nearby",
+     "near": "Hale"
+    },
+    {
+     "title": "New operator sought to revive fortunes of historic Bowdon pub",
+     "excerpt": "",
+     "date": "9 Nov 2026",
+     "tag": "Nearby · Bowdon",
+     "tone": "neutral",
+     "source": "Altrincham Today",
+     "domain": "altrincham.todaynews.co.uk",
+     "url": "https://altrincham.todaynews.co.uk/news/2026/11/09/new-operator-sought-to-revive-fortunes-of-historic-bowdon-pub/",
+     "image": "https://storage.ghost.io/c/09/ce/09cee984-fa22-44f2-a16f-e4d816e662de/content/images/2026/11/griffin.jpg",
+     "image_external": true,
+     "scope": "nearby",
+     "near": "Bowdon"
+    },
+    {
+     "title": "'An exciting new chapter': Bowdon Prep head on the school's first term welcoming boys",
+     "excerpt": "",
+     "date": "6 Nov 2026",
+     "tag": "Nearby · Bowdon",
+     "tone": "neutral",
+     "source": "Altrincham Today",
+     "domain": "altrincham.todaynews.co.uk",
+     "url": "https://altrincham.todaynews.co.uk/news/2026/11/06/an-exciting-new-chapter-bowdon-prep-head-on-the-schools-first-term-welcoming-boys/",
+     "image": "https://storage.ghost.io/c/09/ce/09cee984-fa22-44f2-a16f-e4d816e662de/content/images/2026/11/SMT-Co-Ed-Preferred--1---1-.jpg",
+     "image_external": true,
+     "scope": "nearby",
+     "near": "Bowdon"
+    },
+    {
+     "title": "Urgent appeal over missing Bury girl, 14, last seen five days ago",
+     "excerpt": "",
+     "date": "10 Nov 2026",
      "tag": "Greater Manchester",
      "tone": "neutral",
      "source": "Manchester Evening News – Greater Manchester",
      "domain": "manchestereveningnews.co.uk",
-     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/deansgate-live-busy-street-cordoned-34850850",
-     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34850839.ece/ALTERNATES/s615/0_Deansgate.jpg",
-     "image_external": true,
-     "scope": "nearby"
-    },
-    {
-     "title": "Downing Street defends plane that picked Andy Burnham up at Manchester Airport 34 minutes after leaving London",
-     "excerpt": "",
-     "date": "2 Nov 2026",
-     "tag": "Greater Manchester",
-     "tone": "neutral",
-     "source": "Manchester Evening News – Greater Manchester",
-     "domain": "manchestereveningnews.co.uk",
-     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/andy-burnham-plane-manchester-airport-34850422",
-     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34850433.ece/ALTERNATES/s615/0_BESTPIX-UK-Prime-Minister-Attends-The-United-Nations-General-Assembly.jpg",
+     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/urgent-appeal-over-missing-bury-34888150",
+     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34888217.ece/ALTERNATES/s615/0_ABR_MEN_101126_AMELIAMISSING.jpg",
      "image_external": true,
      "scope": "nearby"
     }
    ],
-   "period": "Publisher feeds checked 2026-11-02",
+   "period": "Publisher feeds checked 2026-11-10",
    "geography": "Altrincham",
    "source": {
     "name": "Local publisher RSS feeds",
@@ -1283,7 +1284,7 @@
       "operators": [
        "Bee Network"
       ],
-      "trips": 684,
+      "trips": 363,
       "school": false
      },
      {
@@ -1306,20 +1307,6 @@
        "Bee Network"
       ],
       "trips": 190,
-      "school": false
-     },
-     {
-      "number": "5",
-      "from": "Warrington",
-      "to": "Altrinch",
-      "via": [
-       "Stockton Heath",
-       "Broomedge"
-      ],
-      "operators": [
-       "Warrington's Own Buses"
-      ],
-      "trips": 163,
       "school": false
      },
      {
@@ -1366,6 +1353,20 @@
        "Bee Network"
       ],
       "trips": 113,
+      "school": false
+     },
+     {
+      "number": "5",
+      "from": "Warrington",
+      "to": "Altrinch",
+      "via": [
+       "Stockton Heath",
+       "Broomedge"
+      ],
+      "operators": [
+       "Warrington's Own Buses"
+      ],
+      "trips": 82,
       "school": false
      },
      {
@@ -1625,7 +1626,7 @@
     "tram_map": "https://tfgm.com/ways-to-travel/tram/network-map",
     "rail_reviewed": "2026-10-12"
    },
-   "period": "Timetable downloaded 2026-11-02",
+   "period": "Timetable downloaded 2026-11-10",
    "geography": "Stops within 1 km of the centre of Altrincham",
    "source": {
     "name": "TfGM bus and Metrolink timetables (GTFS)",
@@ -1772,5 +1773,5 @@
    "note": "Access to jobs, education, healthcare, shops and leisure by walking, cycling, public transport and driving."
   }
  },
- "updated": "2026-11-02"
+ "updated": "2026-11-10"
 }

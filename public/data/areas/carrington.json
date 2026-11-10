@@ -650,75 +650,75 @@
   "news": {
    "value": [
     {
-     "title": "The decision on the hugely controversial Carrington Relief Road will soon be known",
+     "title": "Carrington relief road has 1,000 against it and makes some 'ashamed to be human', but it will be happening",
      "excerpt": "",
-     "date": "29 Oct 2026",
+     "date": "6 Nov 2026",
      "tag": "Transport",
      "tone": "info",
      "source": "Manchester Evening News – Trafford",
      "domain": "manchestereveningnews.co.uk",
-     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/decision-hugely-controversial-carrington-relief-34835999",
-     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34740674.ece/ALTERNATES/s615/0_Carrington-Moss-1.jpg",
+     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/shouts-disgrace-carringtons-notorious-relief-34870255",
+     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article33248399.ece/ALTERNATES/s615/0_Carrington-Relief-Road-consultation-1.jpg",
      "image_external": true,
      "scope": "local"
     },
     {
-     "title": "Partington care home celebrates 'good' rating after glowing CQC inspection",
+     "title": "New Urmston wellness centre opens offering range of therapies under one roof",
      "excerpt": "",
-     "date": "2 Nov 2026",
-     "tag": "Nearby · Partington",
+     "date": "9 Nov 2026",
+     "tag": "Nearby · Flixton",
      "tone": "neutral",
      "source": "Messenger Newspapers",
      "domain": "messengernewspapers.co.uk",
-     "url": "https://www.messengernewspapers.co.uk/news/26684635.four-oaks-care-home-partington-rated-good-cqc/?ref=rss",
-     "image": "https://www.messengernewspapers.co.uk/resources/images/21651082/",
+     "url": "https://www.messengernewspapers.co.uk/news/26703610.urmston-therapy-centre-opens-offering-range-treatments/?ref=rss",
+     "image": "https://www.messengernewspapers.co.uk/resources/images/21676719/",
      "image_external": true,
      "scope": "nearby",
-     "near": "Partington"
+     "near": "Flixton"
     },
     {
-     "title": "Volunteers praised for transforming breastfeeding support in Trafford",
+     "title": "Urmston Choral Society to spread Christmas cheer with two festive concerts",
      "excerpt": "",
-     "date": "30 Oct 2026",
-     "tag": "Nearby · Partington",
+     "date": "3 Nov 2026",
+     "tag": "Nearby · Flixton",
      "tone": "neutral",
      "source": "Messenger Newspapers",
      "domain": "messengernewspapers.co.uk",
-     "url": "https://www.messengernewspapers.co.uk/news/26676622.trafford-volunteers-transform-breastfeeding-support-mums/?ref=rss",
-     "image": "https://www.messengernewspapers.co.uk/resources/images/21640258/",
+     "url": "https://www.messengernewspapers.co.uk/news/26692319.urmston-choral-society-perform-two-christmas-concerts/?ref=rss",
+     "image": "https://www.messengernewspapers.co.uk/resources/images/21661564/",
      "image_external": true,
      "scope": "nearby",
-     "near": "Partington"
+     "near": "Flixton"
     },
     {
-     "title": "This Urmston pub is known for big Halloween and Christmas displays, but doesn't stop there",
+     "title": "Take a look inside this Urmston home packed with period features",
      "excerpt": "",
-     "date": "1 Nov 2026",
+     "date": "8 Nov 2026",
      "tag": "Nearby · Urmston",
      "tone": "neutral",
-     "source": "Manchester Evening News – Trafford",
-     "domain": "manchestereveningnews.co.uk",
-     "url": "https://www.manchestereveningnews.co.uk/whats-on/food-drink-news/urmston-pub-known-big-halloween-34825674",
-     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34825998.ece/ALTERNATES/s615/0_AMR_MEN_271026_THEFX.jpg",
+     "source": "Messenger Newspapers",
+     "domain": "messengernewspapers.co.uk",
+     "url": "https://www.messengernewspapers.co.uk/news/26694515.four-storey-edwardian-home-urmston-sale-675-000/?ref=rss",
+     "image": "https://www.messengernewspapers.co.uk/resources/images/21664589/",
      "image_external": true,
      "scope": "nearby",
      "near": "Urmston"
     },
     {
-     "title": "Deansgate LIVE as busy street cordoned off by police in 'serious' incident",
+     "title": "Urgent appeal over missing Bury girl, 14, last seen five days ago",
      "excerpt": "",
-     "date": "2 Nov 2026",
+     "date": "10 Nov 2026",
      "tag": "Greater Manchester",
      "tone": "neutral",
      "source": "Manchester Evening News – Greater Manchester",
      "domain": "manchestereveningnews.co.uk",
-     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/deansgate-live-busy-street-cordoned-34850850",
-     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34850839.ece/ALTERNATES/s615/0_Deansgate.jpg",
+     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/urgent-appeal-over-missing-bury-34888150",
+     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34888217.ece/ALTERNATES/s615/0_ABR_MEN_101126_AMELIAMISSING.jpg",
      "image_external": true,
      "scope": "nearby"
     }
    ],
-   "period": "Publisher feeds checked 2026-11-02",
+   "period": "Publisher feeds checked 2026-11-10",
    "geography": "Carrington",
    "source": {
     "name": "Local publisher RSS feeds",
@@ -729,7 +729,6 @@
    "feeds": [
     "Messenger Newspapers",
     "Manchester Evening News – Trafford",
-    "Manchester Evening News – Urmston",
     "Manchester Evening News – Greater Manchester",
     "BBC News – Manchester"
    ],
@@ -741,10 +740,6 @@
     {
      "name": "Manchester Evening News – Trafford",
      "url": "https://www.manchestereveningnews.co.uk/all-about/trafford?service=rss"
-    },
-    {
-     "name": "Manchester Evening News – Urmston",
-     "url": "https://www.manchestereveningnews.co.uk/all-about/urmston?service=rss"
     },
     {
      "name": "Manchester Evening News – Greater Manchester",
@@ -1212,7 +1207,7 @@
     "tram_map": "https://tfgm.com/ways-to-travel/tram/network-map",
     "rail_reviewed": "2026-10-12"
    },
-   "period": "Timetable downloaded 2026-11-02",
+   "period": "Timetable downloaded 2026-11-10",
    "geography": "Stops within 1 km of the centre of Carrington",
    "source": {
     "name": "TfGM bus and Metrolink timetables (GTFS)",
@@ -1353,5 +1348,5 @@
    "note": "Access to jobs, education, healthcare, shops and leisure by walking, cycling, public transport and driving."
   }
  },
- "updated": "2026-11-02"
+ "updated": "2026-11-10"
 }

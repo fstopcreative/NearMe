@@ -14,8 +14,8 @@ from statistics import mean
 from lib.common import http, read_csv_text, metric, is_region
 
 BASE = 'https://landregistry.data.gov.uk/app/ukhpi/download/new.csv'
-REGIONS = {'Trafford': 'trafford', 'Warrington': 'warrington', 'United Kingdom': 'united-kingdom',
-           'Greater Manchester': 'greater-manchester'}
+REGIONS = {'Trafford': 'trafford', 'Stockport': 'stockport', 'Warrington': 'warrington',
+           'United Kingdom': 'united-kingdom', 'Greater Manchester': 'greater-manchester'}
 TYPES = {'detached': 'Detached houses', 'semi': 'Semi-detached houses', 'terraced': 'Terraced houses',
          'flat': 'Flats and maisonettes'}
 

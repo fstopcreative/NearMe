@@ -1,6 +1,6 @@
 # Corelain Near Me — Trafford, Greater Manchester
 
-> Area guide for Trafford (Greater Manchester, UK) and its towns and villages: house prices, price growth, crime, schools, transport connectivity, flood and mining risk, air quality, conservation areas and regeneration. Built by Corelain (https://www.corelain.com/), a Manchester building surveying practice. Figures come from official open data and are refreshed automatically; this file was generated 2026-11-06.
+> Area guide for Trafford (Greater Manchester, UK) and its towns and villages: house prices, price growth, crime, schools, transport connectivity, flood and mining risk, air quality, conservation areas and regeneration. Built by Corelain (https://www.corelain.com/), a Manchester building surveying practice. Figures come from official open data and are refreshed automatically; this file was generated 2026-11-10.
 
 Page: https://nearme.corelain.com/ (Trafford) · any area: https://nearme.corelain.com/?area=<id>
 
@@ -29,7 +29,9 @@ Corelain (https://www.corelain.com/) is a Manchester building surveying practice
 
 Party Wall service page: https://www.corelain.com/party-wall-surveyor-manchester
 
-### Party Wall pages by area (Trafford)
+### Party Wall pages by area
+
+**Trafford**
 
 - Trafford (all areas): https://nearme.corelain.com/party-wall-surveyors/trafford
 - Old Trafford (M16, Trafford): https://nearme.corelain.com/party-wall-surveyors/old-trafford — Old Trafford is one of Trafford's most densely built neighbourhoods, with long Victorian and Edwardian terraces either side of Chester Road. Almost every house shares a party wall, so loft conversions, rear extensions and flat conversions here nearly always need a notice.; conservation areas: Empress Conservation Area (Chester Road / Empress Street)
@@ -43,6 +45,16 @@ Party Wall service page: https://www.corelain.com/party-wall-surveyor-manchester
 - Dunham Massey (WA14, Trafford): https://nearme.corelain.com/party-wall-surveyors/dunham-massey — Around the National Trust's Dunham Massey estate, historic cottages and farm buildings sit in conservation areas and the Green Belt, so extensions need planning, heritage and party wall advice together.; conservation areas: Dunham Town Conservation Area, Dunham Woodhouses Conservation Area
 - Warburton (WA13, Trafford): https://nearme.corelain.com/party-wall-surveyors/warburton — Warburton is a small rural village in the Green Belt with a historic core. Attached cottages and old boundary walls mean that even modest works can involve the Party Wall Act.; conservation areas: Warburton Village Conservation Area
 - Urmston (M41, Trafford): https://nearme.corelain.com/party-wall-surveyors/urmston — Urmston's Edwardian terraces and interwar semis share party walls street after street, making loft conversions and rear extensions the most common reasons for a party wall notice here.
+
+**Stockport**
+
+- Stockport (all areas): https://nearme.corelain.com/party-wall-surveyors/stockport
+- Heaton Moor (SK4, Stockport): https://nearme.corelain.com/party-wall-surveyors/heaton-moor — Heaton Moor is a late-Victorian suburb of large villas and semi-detached houses north of Stockport, much of it inside a conservation area. Extensions, loft conversions and flat conversions here usually need conservation-area consent as well as a party wall notice.; conservation areas: Heaton Moor Conservation Area (designated 1989), Mauldeth Road Conservation Area (designated 1989)
+- Cheadle (SK8, Stockport): https://nearme.corelain.com/party-wall-surveyors/cheadle — Cheadle runs from the old village centre out to Gatley, mixing Victorian cottages and terraces with large interwar semi-detached estates. Rear extensions and loft conversions are the common party wall jobs here.; conservation areas: Cheadle Village Conservation Area (designated 1974), Gatley Village Conservation Area (designated 1979), Brooklyn Crescent Conservation Area (designated 1979)
+- Offerton (SK2, Stockport): https://nearme.corelain.com/party-wall-surveyors/offerton — Offerton sits east of Stockport town centre and is mostly postwar estate housing and Victorian terraces, built at high density. Party wall notices here most often follow rear extensions, loft conversions and chimney breast removal.
+- Hazel Grove (SK7, Stockport): https://nearme.corelain.com/party-wall-surveyors/hazel-grove — Hazel Grove is a mixed suburb along the A6 south-east of Stockport, with Victorian terraces near the village and interwar and postwar semi-detached and detached streets around them. Extensions and loft conversions are the usual party wall work.
+- Bramhall (SK7, Stockport): https://nearme.corelain.com/party-wall-surveyors/bramhall — Bramhall is Stockport's most expensive suburb, dominated by large detached houses on generous plots, with three conservation areas covering its best streets. Here party wall duties arise more from excavation near boundaries than from shared walls.; conservation areas: Bramall Park Conservation Area (designated 2005), Bramhall Lane South Conservation Area (designated 2005), Syddal Park Conservation Area (designated 2005)
+- Marple (SK6, Stockport): https://nearme.corelain.com/party-wall-surveyors/marple — Marple sits on the edge of the Peak District where the Peak Forest and Macclesfield canals meet, and has more conservation areas than anywhere else in Stockport. Extensions and conversions here usually need conservation-area consent alongside party wall notices.; conservation areas: Marple Bridge Conservation Area (designated 1974), Compstall Conservation Area (designated 1974), Mellor/Moorend Conservation Area (designated 1978), Mill Brow Conservation Area (designated 1978), Station Road/Winnington Road Conservation Area (designated 1988), Peak Forest Canal Conservation Area (designated 2000), Macclesfield Canal Conservation Area (designated 2000), All Saints, Marple Conservation Area (designated 2005)
 <!-- AREAS:END -->
 
 ## Frequently asked questions
@@ -75,8 +87,8 @@ Party Wall service page: https://www.corelain.com/party-wall-surveyor-manchester
 - **How well connected is Trafford?** Trafford scores 73 out of 100 on the Department for Transport connectivity metric (Connectivity metric 2025), with 75 for public transport and 69 for walking.
 - **What is the nearest Metrolink stop to Trafford?** The nearest Metrolink stop to the centre of Trafford is Brooklands Metrolink (1.1 miles, about 28 minutes on foot). There are 12 bus stops within 400 metres (NaPTAN).
 - **What is the nearest train station to Trafford?** The nearest rail station is Navigation Road station (1.8 miles). Manchester city centre is about 5.9 miles away in a straight line.
-- **Which trams serve Trafford?** Metrolink stops within 1 km of Trafford are served by the Pink Line (East Didsbury – Rochdale Town Centre), the Navy Line (Manchester Airport – Victoria), the Yellow Line (Eccles – Piccadilly), the Red Line (Trafford Centre – Crumpsall), the Purple Line (Altrincham – Etihad Campus) and the Green Line (Altrincham – Bury). See the Bee Network tram map for the full network.
-- **Which buses run through Trafford?** The busiest bus services stopping within 1 km of Trafford include the 263 (Altrincham – Manchester), the 250 (Manchester – Trafford Centre), the 256 (Manchester – Flixton) and the 67 (Manchester – Cadishead), from the TfGM timetable.
+- **Which trams serve Trafford?** Metrolink stops within 1 km of Trafford are served by the Yellow Line (Eccles – Piccadilly), the Pink Line (East Didsbury – Rochdale Town Centre), the Red Line (Trafford Centre – Crumpsall), the Purple Line (Altrincham – Etihad Campus), the Navy Line (Manchester Airport – Victoria) and the Green Line (Altrincham – Bury). See the Bee Network tram map for the full network.
+- **Which buses run through Trafford?** The busiest bus services stopping within 1 km of Trafford include the 250 (Manchester – Trafford Centre), the 263 (Altrincham – Manchester), the 256 (Manchester – Flixton) and the 67 (Manchester – Cadishead), from the TfGM timetable.
 - **Which train lines serve Trafford?** Stations near Trafford: Navigation Road (Manchester Piccadilly – Chester) and Chassen Road (Liverpool Lime Street – Manchester Oxford Road).
 
 ### Flood risk

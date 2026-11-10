@@ -623,62 +623,63 @@
   "news": {
    "value": [
     {
-     "title": "Remembrance Sunday 2026: Where and when services will take place in Altrincham, Bowdon, Hale and Hale Barns",
+     "title": "New operator sought to revive fortunes of historic Bowdon pub",
      "excerpt": "",
-     "date": "2 Nov 2026",
+     "date": "9 Nov 2026",
      "tag": "Nearby · Bowdon",
      "tone": "neutral",
      "source": "Altrincham Today",
      "domain": "altrincham.todaynews.co.uk",
-     "url": "https://altrincham.todaynews.co.uk/news/2026/11/02/remembrance-sunday-2026-where-and-when-services-will-take-place-in-altrincham-bowdon-hale-and-hale-barns/",
-     "image": "https://storage.ghost.io/c/09/ce/09cee984-fa22-44f2-a16f-e4d816e662de/content/images/2026/11/IMG_8833.jpg",
+     "url": "https://altrincham.todaynews.co.uk/news/2026/11/09/new-operator-sought-to-revive-fortunes-of-historic-bowdon-pub/",
+     "image": "https://storage.ghost.io/c/09/ce/09cee984-fa22-44f2-a16f-e4d816e662de/content/images/2026/11/griffin.jpg",
      "image_external": true,
      "scope": "nearby",
      "near": "Bowdon"
     },
     {
-     "title": "Altrincham goes back to the 80s for Live Aid-inspired Christmas Lights Switch-On",
+     "title": "'An exciting new chapter': Bowdon Prep head on the school's first term welcoming boys",
      "excerpt": "",
-     "date": "2 Nov 2026",
-     "tag": "Nearby · Altrincham",
+     "date": "6 Nov 2026",
+     "tag": "Nearby · Bowdon",
      "tone": "neutral",
      "source": "Altrincham Today",
      "domain": "altrincham.todaynews.co.uk",
-     "url": "https://altrincham.todaynews.co.uk/news/2026/11/02/altrincham-goes-back-to-the-80s-for-live-aid-inspired-christmas-lights-switch-on/",
-     "image": "https://storage.ghost.io/c/09/ce/09cee984-fa22-44f2-a16f-e4d816e662de/content/images/2026/11/Santa-on-Christmas-Lights-Switch-on-Stage--1-.jpg",
+     "url": "https://altrincham.todaynews.co.uk/news/2026/11/06/an-exciting-new-chapter-bowdon-prep-head-on-the-schools-first-term-welcoming-boys/",
+     "image": "https://storage.ghost.io/c/09/ce/09cee984-fa22-44f2-a16f-e4d816e662de/content/images/2026/11/SMT-Co-Ed-Preferred--1---1-.jpg",
      "image_external": true,
      "scope": "nearby",
-     "near": "Altrincham"
+     "near": "Bowdon"
     },
     {
-     "title": "Three-storey Victorian home in Altrincham with south-facing garden hits market",
+     "title": "What are your Trafford neighbours planning? Latest applications revealed",
      "excerpt": "",
-     "date": "1 Nov 2026",
+     "date": "10 Nov 2026",
      "tag": "Nearby · Altrincham",
      "tone": "neutral",
      "source": "Messenger Newspapers",
      "domain": "messengernewspapers.co.uk",
-     "url": "https://www.messengernewspapers.co.uk/news/26685377.three-bedroom-victorian-home-sale-altrincham/?ref=rss",
-     "image": "https://www.messengernewspapers.co.uk/resources/images/21652167/",
+     "url": "https://www.messengernewspapers.co.uk/news/26712480.trafford-planning-applications-include-plans-120-homes/?ref=rss",
+     "image": "https://www.messengernewspapers.co.uk/resources/images/18954988/",
      "image_external": true,
      "scope": "nearby",
      "near": "Altrincham"
     },
     {
-     "title": "New twist in Little Bollington data centre plans as landowner faces enforcement action",
+     "title": "Altrincham care home residents enjoy games afternoon with school pupils",
      "excerpt": "",
-     "date": "2 Nov 2026",
-     "tag": "Nearby news",
+     "date": "9 Nov 2026",
+     "tag": "Nearby · Altrincham",
      "tone": "neutral",
-     "source": "Altrincham Today",
-     "domain": "altrincham.todaynews.co.uk",
-     "url": "https://altrincham.todaynews.co.uk/news/2026/11/02/new-twist-in-little-bollington-data-centre-plans-as-landowner-faces-enforcement-action/",
-     "image": "https://storage.ghost.io/c/09/ce/09cee984-fa22-44f2-a16f-e4d816e662de/content/images/2026/11/high-res-spodegreen-render-2.jpg",
+     "source": "Messenger Newspapers",
+     "domain": "messengernewspapers.co.uk",
+     "url": "https://www.messengernewspapers.co.uk/news/26700058.altrincham-care-home-welcomes-pupils-games-afternoon/?ref=rss",
+     "image": "https://www.messengernewspapers.co.uk/resources/images/21671952/",
      "image_external": true,
-     "scope": "nearby"
+     "scope": "nearby",
+     "near": "Altrincham"
     }
    ],
-   "period": "Publisher feeds checked 2026-11-02",
+   "period": "Publisher feeds checked 2026-11-10",
    "geography": "Dunham Massey",
    "source": {
     "name": "Local publisher RSS feeds",
@@ -1018,7 +1019,7 @@
     "tram_map": "https://tfgm.com/ways-to-travel/tram/network-map",
     "rail_reviewed": "2026-10-12"
    },
-   "period": "Timetable downloaded 2026-11-02",
+   "period": "Timetable downloaded 2026-11-10",
    "geography": "Stops within 1 km of the centre of Dunham Massey",
    "source": {
     "name": "TfGM bus and Metrolink timetables (GTFS)",
@@ -1158,5 +1159,5 @@
    "note": "Access to jobs, education, healthcare, shops and leisure by walking, cycling, public transport and driving."
   }
  },
- "updated": "2026-11-02"
+ "updated": "2026-11-10"
 }

@@ -46,6 +46,21 @@
       "name": "Manchester Evening News – Greater Manchester",
       "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/?service=rss",
       "verified": true
+    },
+    "men-stockport": {
+      "name": "Manchester Evening News – Stockport",
+      "url": "https://www.manchestereveningnews.co.uk/all-about/stockport?service=rss",
+      "verified": true
+    },
+    "men-bramhall": {
+      "name": "Manchester Evening News – Bramhall",
+      "url": "https://www.manchestereveningnews.co.uk/all-about/bramhall?service=rss",
+      "verified": true
+    },
+    "men-hazel-grove": {
+      "name": "Manchester Evening News – Hazel Grove",
+      "url": "https://www.manchestereveningnews.co.uk/all-about/hazel-grove?service=rss",
+      "verified": true
     }
   },
   "generalFallbackFeeds": [
@@ -340,6 +355,95 @@
         "Warburton village",
         "Warburton, Lymm",
         "WA13"
+      ]
+    },
+    {
+      "id": "stockport",
+      "feeds": [
+        "men-stockport"
+      ],
+      "match": [
+        "Stockport",
+        "Cheadle",
+        "Marple",
+        "Bramhall",
+        "Hazel Grove",
+        "Heaton",
+        "Offerton",
+        "Reddish",
+        "Romiley",
+        "Bredbury",
+        "Gatley",
+        "Edgeley"
+      ]
+    },
+    {
+      "id": "heaton-moor",
+      "feeds": [
+        "men-stockport"
+      ],
+      "match": [
+        "Heaton Moor",
+        "Heaton Mersey",
+        "Heaton Chapel",
+        "Heaton Norris",
+        "Heatons"
+      ]
+    },
+    {
+      "id": "cheadle",
+      "feeds": [
+        "men-stockport"
+      ],
+      "match": [
+        "Cheadle",
+        "Cheadle Hulme",
+        "Gatley"
+      ]
+    },
+    {
+      "id": "offerton",
+      "feeds": [
+        "men-stockport"
+      ],
+      "match": [
+        "Offerton",
+        "Great Moor"
+      ]
+    },
+    {
+      "id": "hazel-grove",
+      "feeds": [
+        "men-hazel-grove",
+        "men-stockport"
+      ],
+      "match": [
+        "Hazel Grove",
+        "Norbury",
+        "Woodsmoor"
+      ]
+    },
+    {
+      "id": "bramhall",
+      "feeds": [
+        "men-bramhall",
+        "men-stockport"
+      ],
+      "match": [
+        "Bramhall",
+        "Woodford"
+      ]
+    },
+    {
+      "id": "marple",
+      "feeds": [
+        "men-stockport"
+      ],
+      "match": [
+        "Marple",
+        "Marple Bridge",
+        "High Lane",
+        "Mellor"
       ]
     }
   ]

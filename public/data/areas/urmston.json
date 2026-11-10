@@ -673,74 +673,99 @@
   "news": {
    "value": [
     {
-     "title": "This Urmston pub is known for big Halloween and Christmas displays, but doesn't stop there",
+     "title": "New Urmston wellness centre opens offering range of therapies under one roof",
      "excerpt": "",
-     "date": "1 Nov 2026",
+     "date": "9 Nov 2026",
      "tag": "Local news",
      "tone": "neutral",
-     "source": "Manchester Evening News – Trafford",
-     "domain": "manchestereveningnews.co.uk",
-     "url": "https://www.manchestereveningnews.co.uk/whats-on/food-drink-news/urmston-pub-known-big-halloween-34825674",
-     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34825998.ece/ALTERNATES/s615/0_AMR_MEN_271026_THEFX.jpg",
+     "source": "Messenger Newspapers",
+     "domain": "messengernewspapers.co.uk",
+     "url": "https://www.messengernewspapers.co.uk/news/26703610.urmston-therapy-centre-opens-offering-range-treatments/?ref=rss",
+     "image": "https://www.messengernewspapers.co.uk/resources/images/21676719/",
      "image_external": true,
      "scope": "local"
     },
     {
-     "title": "LIVE: Man who murdered Stretford Grammar headteacher Michael Mullins discovers his fate - updates from court",
+     "title": "Take a look inside this Urmston home packed with period features",
      "excerpt": "",
-     "date": "2 Nov 2026",
-     "tag": "Nearby · Stretford",
+     "date": "8 Nov 2026",
+     "tag": "Local news",
      "tone": "neutral",
-     "source": "Manchester Evening News – Trafford",
-     "domain": "manchestereveningnews.co.uk",
-     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/live-man-who-murdered-stretford-34849245",
-     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34842338.ece/ALTERNATES/s615/0_Mug23.jpg",
+     "source": "Messenger Newspapers",
+     "domain": "messengernewspapers.co.uk",
+     "url": "https://www.messengernewspapers.co.uk/news/26694515.four-storey-edwardian-home-urmston-sale-675-000/?ref=rss",
+     "image": "https://www.messengernewspapers.co.uk/resources/images/21664589/",
      "image_external": true,
-     "scope": "nearby",
-     "near": "Stretford"
+     "scope": "local"
     },
     {
-     "title": "Young people in Trafford offered chance to try forestry and conservation work",
+     "title": "Urmston Choral Society to spread Christmas cheer with two festive concerts",
      "excerpt": "",
-     "date": "2 Nov 2026",
+     "date": "3 Nov 2026",
+     "tag": "Local news",
+     "tone": "neutral",
+     "source": "Messenger Newspapers",
+     "domain": "messengernewspapers.co.uk",
+     "url": "https://www.messengernewspapers.co.uk/news/26692319.urmston-choral-society-perform-two-christmas-concerts/?ref=rss",
+     "image": "https://www.messengernewspapers.co.uk/resources/images/21661564/",
+     "image_external": true,
+     "scope": "local"
+    },
+    {
+     "title": "What are your Trafford neighbours planning? Latest applications revealed",
+     "excerpt": "",
+     "date": "10 Nov 2026",
      "tag": "Nearby · Stretford",
      "tone": "neutral",
      "source": "Messenger Newspapers",
      "domain": "messengernewspapers.co.uk",
-     "url": "https://www.messengernewspapers.co.uk/news/26686113.trafford-young-people-offered-free-forestry-skills-sessions/?ref=rss",
-     "image": "https://www.messengernewspapers.co.uk/resources/images/21653167/",
+     "url": "https://www.messengernewspapers.co.uk/news/26712480.trafford-planning-applications-include-plans-120-homes/?ref=rss",
+     "image": "https://www.messengernewspapers.co.uk/resources/images/18954988/",
      "image_external": true,
      "scope": "nearby",
      "near": "Stretford"
     },
     {
-     "title": "Deansgate LIVE as busy street cordoned off by police in 'serious' incident",
+     "title": "Urgent appeal over missing Bury girl, 14, last seen five days ago",
      "excerpt": "",
-     "date": "2 Nov 2026",
+     "date": "10 Nov 2026",
      "tag": "Greater Manchester",
      "tone": "neutral",
      "source": "Manchester Evening News – Greater Manchester",
      "domain": "manchestereveningnews.co.uk",
-     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/deansgate-live-busy-street-cordoned-34850850",
-     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34850839.ece/ALTERNATES/s615/0_Deansgate.jpg",
+     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/urgent-appeal-over-missing-bury-34888150",
+     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34888217.ece/ALTERNATES/s615/0_ABR_MEN_101126_AMELIAMISSING.jpg",
      "image_external": true,
      "scope": "nearby"
     },
     {
-     "title": "Downing Street defends plane that picked Andy Burnham up at Manchester Airport 34 minutes after leaving London",
+     "title": "St Helens sign hooker Forber from Wigan",
      "excerpt": "",
-     "date": "2 Nov 2026",
+     "date": "10 Nov 2026",
      "tag": "Greater Manchester",
      "tone": "neutral",
-     "source": "Manchester Evening News – Greater Manchester",
+     "source": "BBC News – Manchester",
+     "domain": "bbc.co.uk",
+     "url": "https://www.bbc.co.uk/sport/rugby-league/articles/cjwy9y2xy5xqo?at_medium=RSS&at_campaign=rss",
+     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5768/live/a2f63190-dcde-11f1-a8e1-e3454837ffc6.jpg",
+     "image_external": true,
+     "scope": "nearby"
+    },
+    {
+     "title": "I was told I had cancer and may not survive the night - 45 years later I'm still here",
+     "excerpt": "",
+     "date": "10 Nov 2026",
+     "tag": "Greater Manchester",
+     "tone": "neutral",
+     "source": "Manchester Evening News – Trafford",
      "domain": "manchestereveningnews.co.uk",
-     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/andy-burnham-plane-manchester-airport-34850422",
-     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34850433.ece/ALTERNATES/s615/0_BESTPIX-UK-Prime-Minister-Attends-The-United-Nations-General-Assembly.jpg",
+     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/man-63-diagnosed-with-cancer-34888049",
+     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34888079.ece/ALTERNATES/s615/1_REAL-LIFE-Derrick-Derbyshire.jpg",
      "image_external": true,
      "scope": "nearby"
     }
    ],
-   "period": "Publisher feeds checked 2026-11-02",
+   "period": "Publisher feeds checked 2026-11-10",
    "geography": "Urmston",
    "source": {
     "name": "Local publisher RSS feeds",
@@ -751,7 +776,6 @@
    "feeds": [
     "Messenger Newspapers",
     "Manchester Evening News – Trafford",
-    "Manchester Evening News – Urmston",
     "Manchester Evening News – Sale",
     "Altrincham Today",
     "Manchester Evening News – Greater Manchester",
@@ -765,10 +789,6 @@
     {
      "name": "Manchester Evening News – Trafford",
      "url": "https://www.manchestereveningnews.co.uk/all-about/trafford?service=rss"
-    },
-    {
-     "name": "Manchester Evening News – Urmston",
-     "url": "https://www.manchestereveningnews.co.uk/all-about/urmston?service=rss"
     },
     {
      "name": "Manchester Evening News – Sale",
@@ -788,7 +808,7 @@
     }
    ],
    "scope": "local",
-   "local_count": 1,
+   "local_count": 3,
    "nearby_count": 4,
    "note": "Headlines and links only; RSS images are referenced from the publisher when supplied and are not copied."
   },
@@ -1419,7 +1439,7 @@
     "tram_map": "https://tfgm.com/ways-to-travel/tram/network-map",
     "rail_reviewed": "2026-10-12"
    },
-   "period": "Timetable downloaded 2026-11-02",
+   "period": "Timetable downloaded 2026-11-10",
    "geography": "Stops within 1 km of the centre of Urmston",
    "source": {
     "name": "TfGM bus and Metrolink timetables (GTFS)",
@@ -1569,5 +1589,5 @@
    "note": "Access to jobs, education, healthcare, shops and leisure by walking, cycling, public transport and driving."
   }
  },
- "updated": "2026-11-02"
+ "updated": "2026-11-10"
 }

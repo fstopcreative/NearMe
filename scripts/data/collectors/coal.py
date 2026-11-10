@@ -10,7 +10,8 @@ import urllib.parse
 from lib.common import http_json, metric, log
 
 BASE = 'https://services-eu1.arcgis.com/Qn4lKcPDVHNivEyr/arcgis/rest/services/{layer}/FeatureServer/0/query'
-BOROUGH_ENVELOPE = {'Trafford': (-2.478, 53.357, -2.253, 53.480), 'Greater Manchester': (-2.731, 53.327, -1.909, 53.686)}
+BOROUGH_ENVELOPE = {'Trafford': (-2.478, 53.357, -2.253, 53.480), 'Stockport': (-2.247, 53.327, -1.992, 53.455),
+                    'Greater Manchester': (-2.731, 53.327, -1.909, 53.686)}
 
 
 def hits(layer, geometry, gtype):

@@ -660,76 +660,74 @@
   "news": {
    "value": [
     {
-     "title": "Volunteers praised for transforming breastfeeding support in Trafford",
+     "title": "What are your Trafford neighbours planning? Latest applications revealed",
      "excerpt": "",
-     "date": "30 Oct 2026",
-     "tag": "Local news",
-     "tone": "neutral",
+     "date": "10 Nov 2026",
+     "tag": "Planning",
+     "tone": "accent",
      "source": "Messenger Newspapers",
      "domain": "messengernewspapers.co.uk",
-     "url": "https://www.messengernewspapers.co.uk/news/26676622.trafford-volunteers-transform-breastfeeding-support-mums/?ref=rss",
-     "image": "https://www.messengernewspapers.co.uk/resources/images/21640258/",
+     "url": "https://www.messengernewspapers.co.uk/news/26712480.trafford-planning-applications-include-plans-120-homes/?ref=rss",
+     "image": "https://www.messengernewspapers.co.uk/resources/images/18954988/",
      "image_external": true,
      "scope": "local"
     },
     {
-     "title": "LIVE: Man who murdered Stretford Grammar headteacher Michael Mullins discovers his fate - updates from court",
+     "title": "New Urmston wellness centre opens offering range of therapies under one roof",
      "excerpt": "",
-     "date": "2 Nov 2026",
-     "tag": "Nearby · Stretford",
-     "tone": "neutral",
-     "source": "Manchester Evening News – Trafford",
-     "domain": "manchestereveningnews.co.uk",
-     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/live-man-who-murdered-stretford-34849245",
-     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34842338.ece/ALTERNATES/s615/0_Mug23.jpg",
-     "image_external": true,
-     "scope": "nearby",
-     "near": "Stretford"
-    },
-    {
-     "title": "Young people in Trafford offered chance to try forestry and conservation work",
-     "excerpt": "",
-     "date": "2 Nov 2026",
-     "tag": "Nearby · Stretford",
+     "date": "9 Nov 2026",
+     "tag": "Nearby · Urmston",
      "tone": "neutral",
      "source": "Messenger Newspapers",
      "domain": "messengernewspapers.co.uk",
-     "url": "https://www.messengernewspapers.co.uk/news/26686113.trafford-young-people-offered-free-forestry-skills-sessions/?ref=rss",
-     "image": "https://www.messengernewspapers.co.uk/resources/images/21653167/",
+     "url": "https://www.messengernewspapers.co.uk/news/26703610.urmston-therapy-centre-opens-offering-range-treatments/?ref=rss",
+     "image": "https://www.messengernewspapers.co.uk/resources/images/21676719/",
      "image_external": true,
      "scope": "nearby",
-     "near": "Stretford"
+     "near": "Urmston"
     },
     {
-     "title": "Timperley plans its biggest Christmas lights celebration yet as switch-on date confirmed",
+     "title": "Take a look inside this Urmston home packed with period features",
      "excerpt": "",
-     "date": "30 Oct 2026",
-     "tag": "Nearby · Timperley",
+     "date": "8 Nov 2026",
+     "tag": "Nearby · Urmston",
      "tone": "neutral",
-     "source": "Altrincham Today",
-     "domain": "altrincham.todaynews.co.uk",
-     "url": "https://altrincham.todaynews.co.uk/news/2026/10/30/timperley-plans-its-biggest-christmas-lights-celebration-yet-as-switch-on-date-confirmed/",
-     "image": "https://storage.ghost.io/c/09/ce/09cee984-fa22-44f2-a16f-e4d816e662de/content/images/2026/10/timpxmas.jpg",
+     "source": "Messenger Newspapers",
+     "domain": "messengernewspapers.co.uk",
+     "url": "https://www.messengernewspapers.co.uk/news/26694515.four-storey-edwardian-home-urmston-sale-675-000/?ref=rss",
+     "image": "https://www.messengernewspapers.co.uk/resources/images/21664589/",
      "image_external": true,
      "scope": "nearby",
-     "near": "Timperley"
+     "near": "Urmston"
     },
     {
-     "title": "Police target drivers on busy Timperley road as part of borough-wide \"crime-smashing\" crackdown",
+     "title": "Strangers are showing up on Sale mum's doorstep after her side hustle became a burgeoning business",
      "excerpt": "",
-     "date": "23 Oct 2026",
-     "tag": "Nearby · Timperley",
+     "date": "4 Nov 2026",
+     "tag": "Nearby news",
      "tone": "neutral",
-     "source": "Altrincham Today",
-     "domain": "altrincham.todaynews.co.uk",
-     "url": "https://altrincham.todaynews.co.uk/news/2026/10/23/police-target-drivers-on-busy-timperley-road-as-part-of-borough-wide-crime-smashing-crackdown/",
-     "image": "https://storage.ghost.io/c/09/ce/09cee984-fa22-44f2-a16f-e4d816e662de/content/images/2026/10/Operation-AVRO---Trafford-4--1-.jpg",
+     "source": "Manchester Evening News – Sale",
+     "domain": "manchestereveningnews.co.uk",
+     "url": "https://www.manchestereveningnews.co.uk/whats-on/food-drink-news/strangers-showing-up-sale-mums-34809925",
+     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34825494.ece/ALTERNATES/s615/0_JS421450017.jpg",
      "image_external": true,
-     "scope": "nearby",
-     "near": "Timperley"
+     "scope": "nearby"
+    },
+    {
+     "title": "Urgent appeal over missing Bury girl, 14, last seen five days ago",
+     "excerpt": "",
+     "date": "10 Nov 2026",
+     "tag": "Greater Manchester",
+     "tone": "neutral",
+     "source": "Manchester Evening News – Greater Manchester",
+     "domain": "manchestereveningnews.co.uk",
+     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/urgent-appeal-over-missing-bury-34888150",
+     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34888217.ece/ALTERNATES/s615/0_ABR_MEN_101126_AMELIAMISSING.jpg",
+     "image_external": true,
+     "scope": "nearby"
     }
    ],
-   "period": "Publisher feeds checked 2026-11-02",
+   "period": "Publisher feeds checked 2026-11-10",
    "geography": "Sale",
    "source": {
     "name": "Local publisher RSS feeds",
@@ -741,7 +739,9 @@
     "Messenger Newspapers",
     "Manchester Evening News – Trafford",
     "Manchester Evening News – Sale",
-    "Altrincham Today"
+    "Altrincham Today",
+    "Manchester Evening News – Greater Manchester",
+    "BBC News – Manchester"
    ],
    "feed_links": [
     {
@@ -759,6 +759,14 @@
     {
      "name": "Altrincham Today",
      "url": "https://altrincham.todaynews.co.uk/feed/"
+    },
+    {
+     "name": "Manchester Evening News – Greater Manchester",
+     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/?service=rss"
+    },
+    {
+     "name": "BBC News – Manchester",
+     "url": "https://feeds.bbci.co.uk/news/england/manchester/rss.xml"
     }
    ],
    "scope": "local",
@@ -1133,7 +1141,7 @@
       "operators": [
        "Bee Network"
       ],
-      "trips": 684,
+      "trips": 363,
       "school": false
      },
      {
@@ -1434,7 +1442,7 @@
     "tram_map": "https://tfgm.com/ways-to-travel/tram/network-map",
     "rail_reviewed": "2026-10-12"
    },
-   "period": "Timetable downloaded 2026-11-02",
+   "period": "Timetable downloaded 2026-11-10",
    "geography": "Stops within 1 km of the centre of Sale",
    "source": {
     "name": "TfGM bus and Metrolink timetables (GTFS)",
@@ -1604,5 +1612,5 @@
    "note": "Access to jobs, education, healthcare, shops and leisure by walking, cycling, public transport and driving."
   }
  },
- "updated": "2026-11-02"
+ "updated": "2026-11-10"
 }

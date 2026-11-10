@@ -1,0 +1,1225 @@
+{
+ "schema": 1,
+ "id": "offerton",
+ "name": "Offerton",
+ "kind": "area",
+ "borough": "Stockport",
+ "county": "Greater Manchester",
+ "postcode": "SK2",
+ "centre": {
+  "lat": 53.4035,
+  "lng": -2.127
+ },
+ "metrics": {
+  "air_quality": {
+   "value": {
+    "no2": 11.5,
+    "pm25": 7.2,
+    "pm10": 11.8,
+    "limits": {
+     "no2": 40,
+     "pm25": 20,
+     "pm10": 40
+    }
+   },
+   "period": "2026 annual mean (projection from the 2021 base year)",
+   "geography": "Offerton — 1 km squares within 1.5 km of the centre",
+   "source": {
+    "name": "Defra LAQM background maps (1 km grid)",
+    "url": "https://uk-air.defra.gov.uk/data/laqm-background-home",
+    "licence": "Open Government Licence v3.0"
+   },
+   "status": "ok",
+   "unit": "µg/m³",
+   "note": "Modelled background concentrations; roadside levels can be higher."
+  },
+  "annual_growth": {
+   "value": 2.9,
+   "period": "12 months to 31 Aug 2026 vs previous 12 months",
+   "geography": "Offerton — wards: Offerton, Manor",
+   "source": {
+    "name": "HM Land Registry Price Paid Data",
+    "url": "https://landregistry.data.gov.uk/app/ppd",
+    "licence": "Open Government Licence v3.0"
+   },
+   "status": "ok",
+   "unit": "%",
+   "sample": 415,
+   "previous": 265917,
+   "note": "Change in the average sold price; it moves with the mix of homes sold."
+  },
+  "aqma": {
+   "value": null,
+   "period": null,
+   "geography": null,
+   "source": null,
+   "status": "error",
+   "note": "planning_data failed: GET https://www.planning.data.gov.uk/entity.json?dataset=listed-building&limit=500&offset=0&geometry=POLYGON%28%28-2.478+53.357%2C+-2.253+53.357%2C+-2.253+53.48"
+  },
+  "average_price": {
+   "value": 273512,
+   "period": "12 months to 31 Aug 2026",
+   "geography": "Offerton — wards: Offerton, Manor",
+   "source": {
+    "name": "HM Land Registry Price Paid Data",
+    "url": "https://landregistry.data.gov.uk/app/ppd",
+    "licence": "Open Government Licence v3.0"
+   },
+   "status": "ok",
+   "unit": "GBP",
+   "sample": 415,
+   "median": 267000
+  },
+  "average_rent": {
+   "value": {
+    "month": "2026-09",
+    "monthly": 1125,
+    "change_12m": 5.4,
+    "by_beds": {
+     "one": 816,
+     "two": 1042,
+     "three": 1273,
+     "four_plus": 1754
+    },
+    "by_type": {
+     "detached": 1568,
+     "semi": 1230,
+     "terraced": 1125,
+     "flat": 957
+    },
+    "trend": [
+     {
+      "month": "2021-10",
+      "rent": 778
+     },
+     {
+      "month": "2021-11",
+      "rent": 778
+     },
+     {
+      "month": "2021-12",
+      "rent": 783
+     },
+     {
+      "month": "2022-01",
+      "rent": 786
+     },
+     {
+      "month": "2022-02",
+      "rent": 790
+     },
+     {
+      "month": "2022-03",
+      "rent": 792
+     },
+     {
+      "month": "2022-04",
+      "rent": 796
+     },
+     {
+      "month": "2022-05",
+      "rent": 800
+     },
+     {
+      "month": "2022-06",
+      "rent": 805
+     },
+     {
+      "month": "2022-07",
+      "rent": 810
+     },
+     {
+      "month": "2022-08",
+      "rent": 816
+     },
+     {
+      "month": "2022-09",
+      "rent": 822
+     },
+     {
+      "month": "2022-10",
+      "rent": 827
+     },
+     {
+      "month": "2022-11",
+      "rent": 833
+     },
+     {
+      "month": "2022-12",
+      "rent": 837
+     },
+     {
+      "month": "2023-01",
+      "rent": 843
+     },
+     {
+      "month": "2023-02",
+      "rent": 847
+     },
+     {
+      "month": "2023-03",
+      "rent": 852
+     },
+     {
+      "month": "2023-04",
+      "rent": 857
+     },
+     {
+      "month": "2023-05",
+      "rent": 864
+     },
+     {
+      "month": "2023-06",
+      "rent": 868
+     },
+     {
+      "month": "2023-07",
+      "rent": 873
+     },
+     {
+      "month": "2023-08",
+      "rent": 876
+     },
+     {
+      "month": "2023-09",
+      "rent": 880
+     },
+     {
+      "month": "2023-10",
+      "rent": 885
+     },
+     {
+      "month": "2023-11",
+      "rent": 890
+     },
+     {
+      "month": "2023-12",
+      "rent": 898
+     },
+     {
+      "month": "2024-01",
+      "rent": 906
+     },
+     {
+      "month": "2024-02",
+      "rent": 916
+     },
+     {
+      "month": "2024-03",
+      "rent": 926
+     },
+     {
+      "month": "2024-04",
+      "rent": 942
+     },
+     {
+      "month": "2024-05",
+      "rent": 953
+     },
+     {
+      "month": "2024-06",
+      "rent": 969
+     },
+     {
+      "month": "2024-07",
+      "rent": 984
+     },
+     {
+      "month": "2024-08",
+      "rent": 1000
+     },
+     {
+      "month": "2024-09",
+      "rent": 1009
+     },
+     {
+      "month": "2024-10",
+      "rent": 1016
+     },
+     {
+      "month": "2024-11",
+      "rent": 1023
+     },
+     {
+      "month": "2024-12",
+      "rent": 1029
+     },
+     {
+      "month": "2025-01",
+      "rent": 1034
+     },
+     {
+      "month": "2025-02",
+      "rent": 1036
+     },
+     {
+      "month": "2025-03",
+      "rent": 1039
+     },
+     {
+      "month": "2025-04",
+      "rent": 1042
+     },
+     {
+      "month": "2025-05",
+      "rent": 1046
+     },
+     {
+      "month": "2025-06",
+      "rent": 1051
+     },
+     {
+      "month": "2025-07",
+      "rent": 1057
+     },
+     {
+      "month": "2025-08",
+      "rent": 1062
+     },
+     {
+      "month": "2025-09",
+      "rent": 1067
+     },
+     {
+      "month": "2025-10",
+      "rent": 1069
+     },
+     {
+      "month": "2025-11",
+      "rent": 1074
+     },
+     {
+      "month": "2025-12",
+      "rent": 1079
+     },
+     {
+      "month": "2026-01",
+      "rent": 1084
+     },
+     {
+      "month": "2026-02",
+      "rent": 1088
+     },
+     {
+      "month": "2026-03",
+      "rent": 1091
+     },
+     {
+      "month": "2026-04",
+      "rent": 1095
+     },
+     {
+      "month": "2026-05",
+      "rent": 1100
+     },
+     {
+      "month": "2026-06",
+      "rent": 1105
+     },
+     {
+      "month": "2026-07",
+      "rent": 1111
+     },
+     {
+      "month": "2026-08",
+      "rent": 1119
+     },
+     {
+      "month": "2026-09",
+      "rent": 1125
+     }
+    ],
+    "compare": {
+     "North West": 975,
+     "England": 1466
+    }
+   },
+   "period": "September 2026 (provisional)",
+   "geography": "Stockport (local authority)",
+   "source": {
+    "name": "ONS Price Index of Private Rents — Housing prices in your area",
+    "url": "https://www.ons.gov.uk/visualisations/housingpriceslocal/E08000007/",
+    "licence": "Open Government Licence v3.0"
+   },
+   "status": "ok",
+   "unit": "GBP a month",
+   "note": "Average monthly private rent paid by tenants (ONS PIPR); the latest two months are provisional."
+  },
+  "coal_mining": {
+   "value": {
+    "reporting_area": true,
+    "development_high_risk": false,
+    "level": "low",
+    "partial": false
+   },
+   "period": "Current layers",
+   "geography": "Offerton — area centre",
+   "source": {
+    "name": "Mining Remediation Authority (Coal Authority) Data Mine",
+    "url": "https://datamine-cauk.hub.arcgis.com/",
+    "licence": "Open Government Licence v3.0"
+   },
+   "status": "ok",
+   "note": "Check a specific property with a coal mining report before buying."
+  },
+  "conservation_areas": {
+   "value": null,
+   "period": null,
+   "geography": null,
+   "source": null,
+   "status": "error",
+   "note": "conservation failed: GET https://www.planning.data.gov.uk/entity.json?organisation_entity=347&dataset=conservation-area&limit=100 failed: HTTP Error 503: Service Temporarily Unavail"
+  },
+  "crime_groups": {
+   "value": [
+    {
+     "key": "violence",
+     "label": "Violence & sexual offences",
+     "count": 6815,
+     "rate": 22.4,
+     "england_wales": 34.9,
+     "Manchester": 40.0
+    },
+    {
+     "key": "burglary",
+     "label": "Burglary",
+     "count": 712,
+     "rate": 2.3,
+     "england_wales": 3.6,
+     "Manchester": 3.5
+    },
+    {
+     "key": "vehicle",
+     "label": "Vehicle offences",
+     "count": 868,
+     "rate": 2.8,
+     "england_wales": 5.0,
+     "Manchester": 5.9
+    },
+    {
+     "key": "damage",
+     "label": "Criminal damage & arson",
+     "count": 1462,
+     "rate": 4.8,
+     "england_wales": 7.2,
+     "Manchester": 7.8
+    }
+   ],
+   "period": "12 months to June 2026",
+   "geography": "Stockport Community Safety Partnership (borough-wide)",
+   "source": {
+    "name": "Home Office police recorded crime, Community Safety Partnership open data tables",
+    "url": "https://www.gov.uk/government/statistics/police-recorded-crime-open-data-tables",
+    "licence": "Open Government Licence v3.0",
+    "file": "https://assets.publishing.service.gov.uk/media/6ad230f3a89985bb970267f2/prc-csp-mar21-jun26-tables-221026.ods"
+   },
+   "status": "ok",
+   "unit": "crimes per 1,000 residents",
+   "population_year": "2025"
+  },
+  "crime_rate": {
+   "value": 53.5,
+   "period": "12 months to June 2026",
+   "geography": "Stockport Community Safety Partnership (borough-wide)",
+   "source": {
+    "name": "Home Office police recorded crime, Community Safety Partnership open data tables",
+    "url": "https://www.gov.uk/government/statistics/police-recorded-crime-open-data-tables",
+    "licence": "Open Government Licence v3.0",
+    "file": "https://assets.publishing.service.gov.uk/media/6ad230f3a89985bb970267f2/prc-csp-mar21-jun26-tables-221026.ods"
+   },
+   "status": "ok",
+   "unit": "crimes per 1,000 residents",
+   "count": 16301,
+   "population": 304879,
+   "population_year": "2025",
+   "comparison": {
+    "England and Wales": 83.1,
+    "Greater Manchester": 74.6,
+    "Manchester": 104.1
+   },
+   "note": "Police recorded crime excluding fraud. Greater Manchester Police does not publish street-level data to police.uk, so this is a borough-wide figure."
+  },
+  "development_sites": {
+   "value": null,
+   "period": null,
+   "geography": null,
+   "source": null,
+   "status": "error",
+   "note": "planning_data failed: GET https://www.planning.data.gov.uk/entity.json?dataset=listed-building&limit=500&offset=0&geometry=POLYGON%28%28-2.478+53.357%2C+-2.253+53.357%2C+-2.253+53.48"
+  },
+  "earnings": {
+   "value": {
+    "annual": 39318,
+    "previous": 37533,
+    "change_pct": 4.8,
+    "comparison": {
+     "Greater Manchester": 36497,
+     "England": 39243
+    }
+   },
+   "period": "2025 (ASHE, April; provisional)",
+   "geography": "Stockport residents (borough-wide)",
+   "source": {
+    "name": "ONS Annual Survey of Hours and Earnings (Nomis)",
+    "url": "https://www.nomisweb.co.uk/datasets/asher",
+    "licence": "Open Government Licence v3.0"
+   },
+   "status": "ok",
+   "unit": "GBP a year",
+   "note": "Median gross annual pay of full-time employees living in the area (ONS ASHE, resident analysis)."
+  },
+  "flood_zones": {
+   "value": null,
+   "period": null,
+   "geography": null,
+   "source": null,
+   "status": "error",
+   "note": "planning_data failed: GET https://www.planning.data.gov.uk/entity.json?dataset=listed-building&limit=500&offset=0&geometry=POLYGON%28%28-2.478+53.357%2C+-2.253+53.357%2C+-2.253+53.48"
+  },
+  "ground": {
+   "value": {
+    "natural_subsidence": "Low",
+    "hazards": {
+     "collapsible_deposits": {
+      "label": "Collapsible deposits",
+      "rating": "Low"
+     },
+     "compressible_ground": {
+      "label": "Compressible ground",
+      "rating": "Low"
+     },
+     "landslides": {
+      "label": "Landslides",
+      "rating": "Low"
+     },
+     "running_sand": {
+      "label": "Running sand",
+      "rating": "Low"
+     },
+     "shrink_swell": {
+      "label": "Shrink–swell",
+      "rating": "Low"
+     },
+     "soluble_rocks": {
+      "label": "Soluble rocks",
+      "rating": "Low"
+     }
+    }
+   },
+   "period": "GeoSure v8 5 km hex grid",
+   "geography": "5 km generalised hexagon containing the centre of Offerton",
+   "source": {
+    "name": "BGS GeoSure 5 km hex grid",
+    "url": "https://www.bgs.ac.uk/datasets/bgs-geosure-5-km-hex-grid/",
+    "licence": "Open Government Licence v3.0 · Contains BGS materials © UKRI"
+   },
+   "status": "low-confidence",
+   "note": "Regional screening only: the highest of six natural ground-movement themes. Not suitable for site-specific analysis."
+  },
+  "hpi_borough": {
+   "value": {
+    "average": 319016,
+    "growth": 3.9
+   },
+   "period": "August 2026",
+   "geography": "Stockport (local authority)",
+   "source": {
+    "name": "UK House Price Index (HM Land Registry / ONS)",
+    "url": "https://landregistry.data.gov.uk/app/ukhpi",
+    "licence": "Open Government Licence v3.0"
+   },
+   "status": "ok",
+   "unit": "GBP / %"
+  },
+  "hpi_uk": {
+   "value": {
+    "average": 273037,
+    "growth": 0.9
+   },
+   "period": "August 2026",
+   "geography": "United Kingdom",
+   "source": {
+    "name": "UK House Price Index (HM Land Registry / ONS)",
+    "url": "https://landregistry.data.gov.uk/app/ukhpi",
+    "licence": "Open Government Licence v3.0"
+   },
+   "status": "ok",
+   "unit": "GBP / %"
+  },
+  "nearest_stops": {
+   "value": {
+    "metro": {
+     "name": "East Didsbury Metrolink",
+     "distance_mi": 3.7,
+     "walk_min": 96
+    },
+    "rail": {
+     "name": "Woodsmoor station",
+     "distance_mi": 1.3,
+     "walk_min": 34
+    },
+    "bus_stops_400m": 10,
+    "city_centre_mi": 7.0
+   },
+   "period": "Current stop register",
+   "geography": "From the centre of Offerton",
+   "source": {
+    "name": "NaPTAN — national public transport stops (DfT)",
+    "url": "https://beta-naptan.dft.gov.uk/download",
+    "licence": "Open Government Licence v3.0"
+   },
+   "status": "ok",
+   "note": "Straight-line distances; walking times are estimates."
+  },
+  "news": {
+   "value": [
+    {
+     "title": "Police probe whether 'kids letting off fireworks' sparked huge fire at former Carpetright store in Stockport",
+     "excerpt": "",
+     "date": "8 Nov 2026",
+     "tag": "Nearby · Hazel Grove",
+     "tone": "neutral",
+     "source": "Manchester Evening News – Hazel Grove",
+     "domain": "manchestereveningnews.co.uk",
+     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/police-probe-whether-kids-letting-34880677",
+     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34880680.ece/ALTERNATES/s615/1_image0-1jpeg.jpg",
+     "image_external": true,
+     "scope": "nearby",
+     "near": "Hazel Grove"
+    },
+    {
+     "title": "Carpetright fire as huge blaze breaks out at Stockport store",
+     "excerpt": "",
+     "date": "6 Nov 2026",
+     "tag": "Nearby · Hazel Grove",
+     "tone": "neutral",
+     "source": "Manchester Evening News – Hazel Grove",
+     "domain": "manchestereveningnews.co.uk",
+     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/hazel-grove-fire-live-former-34876526",
+     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34876531.ece/ALTERNATES/s615/1_image0-1jpeg.jpg",
+     "image_external": true,
+     "scope": "nearby",
+     "near": "Hazel Grove"
+    },
+    {
+     "title": "Urgent appeal over missing Bury girl, 14, last seen five days ago",
+     "excerpt": "",
+     "date": "10 Nov 2026",
+     "tag": "Greater Manchester",
+     "tone": "neutral",
+     "source": "Manchester Evening News – Greater Manchester",
+     "domain": "manchestereveningnews.co.uk",
+     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/urgent-appeal-over-missing-bury-34888150",
+     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34888217.ece/ALTERNATES/s615/0_ABR_MEN_101126_AMELIAMISSING.jpg",
+     "image_external": true,
+     "scope": "nearby"
+    },
+    {
+     "title": "St Helens sign hooker Forber from Wigan",
+     "excerpt": "",
+     "date": "10 Nov 2026",
+     "tag": "Greater Manchester",
+     "tone": "neutral",
+     "source": "BBC News – Manchester",
+     "domain": "bbc.co.uk",
+     "url": "https://www.bbc.co.uk/sport/rugby-league/articles/cjwy9y2xy5xqo?at_medium=RSS&at_campaign=rss",
+     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5768/live/a2f63190-dcde-11f1-a8e1-e3454837ffc6.jpg",
+     "image_external": true,
+     "scope": "nearby"
+    }
+   ],
+   "period": "Publisher feeds checked 2026-11-10",
+   "geography": "Offerton",
+   "source": {
+    "name": "Local publisher RSS feeds",
+    "url": "https://altrincham.todaynews.co.uk/feed/",
+    "licence": "Publisher feeds; headlines and links only"
+   },
+   "status": "ok",
+   "feeds": [
+    "Manchester Evening News – Stockport",
+    "Manchester Evening News – Hazel Grove",
+    "Manchester Evening News – Trafford",
+    "Messenger Newspapers",
+    "Manchester Evening News – Greater Manchester",
+    "BBC News – Manchester"
+   ],
+   "feed_links": [
+    {
+     "name": "Manchester Evening News – Stockport",
+     "url": "https://www.manchestereveningnews.co.uk/all-about/stockport?service=rss"
+    },
+    {
+     "name": "Manchester Evening News – Hazel Grove",
+     "url": "https://www.manchestereveningnews.co.uk/all-about/hazel-grove?service=rss"
+    },
+    {
+     "name": "Manchester Evening News – Trafford",
+     "url": "https://www.manchestereveningnews.co.uk/all-about/trafford?service=rss"
+    },
+    {
+     "name": "Messenger Newspapers",
+     "url": "https://www.messengernewspapers.co.uk/news/rss/"
+    },
+    {
+     "name": "Manchester Evening News – Greater Manchester",
+     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/?service=rss"
+    },
+    {
+     "name": "BBC News – Manchester",
+     "url": "https://feeds.bbci.co.uk/news/england/manchester/rss.xml"
+    }
+   ],
+   "scope": "nearby",
+   "local_count": 0,
+   "nearby_count": 4,
+   "note": "Headlines and links only; RSS images are referenced from the publisher when supplied and are not copied."
+  },
+  "places": {
+   "value": null,
+   "period": null,
+   "geography": null,
+   "source": null,
+   "status": "error",
+   "note": "osm failed: Overpass unavailable: GET https://overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%5Btimeout%3A90%5D%3B%28nwr%5B%22railway%22%3D%22station%22%5D%5B%22name%"
+  },
+  "planning_constraints": {
+   "value": null,
+   "period": null,
+   "geography": null,
+   "source": null,
+   "status": "error",
+   "note": "planning_data failed: GET https://www.planning.data.gov.uk/entity.json?dataset=listed-building&limit=500&offset=0&geometry=POLYGON%28%28-2.478+53.357%2C+-2.253+53.357%2C+-2.253+53.48"
+  },
+  "population": {
+   "value": {
+    "residents": 34319,
+    "households": 15201,
+    "household_size": 2.26,
+    "age": [
+     {
+      "key": "0_14",
+      "label": "Under 15",
+      "n": 6267,
+      "pct": 18.3
+     },
+     {
+      "key": "15_24",
+      "label": "15–24",
+      "n": 3575,
+      "pct": 10.4
+     },
+     {
+      "key": "25_44",
+      "label": "25–44",
+      "n": 10003,
+      "pct": 29.1
+     },
+     {
+      "key": "45_64",
+      "label": "45–64",
+      "n": 8915,
+      "pct": 26.0
+     },
+     {
+      "key": "65",
+      "label": "65 and over",
+      "n": 5571,
+      "pct": 16.2
+     }
+    ]
+   },
+   "period": "Census 2021 (21 March 2021)",
+   "geography": "Offerton — 22 census LSOAs (2021)",
+   "source": {
+    "name": "ONS Census 2021 (Nomis) — Trafford Data Lab: Population & Households",
+    "url": "https://www.trafforddatalab.io/accessible_graphics/census_2021_population_and_households_infographic.html",
+    "licence": "Open Government Licence v3.0"
+   },
+   "status": "ok",
+   "lsoas": [
+    "E01005801",
+    "E01005802",
+    "E01005824",
+    "E01005825",
+    "E01005826",
+    "E01005827",
+    "E01005828",
+    "E01005829",
+    "E01005830",
+    "E01005831",
+    "E01005832",
+    "E01005833",
+    "E01005838",
+    "E01005870",
+    "E01005871",
+    "E01005872",
+    "E01005873",
+    "E01005874",
+    "E01005875",
+    "E01005876",
+    "E01005877",
+    "E01033947"
+   ],
+   "comparison": {
+    "England": {
+     "0_14": 17.4,
+     "15_24": 11.7,
+     "25_44": 26.6,
+     "45_64": 25.8,
+     "65": 18.4
+    },
+    "Stockport": {
+     "0_14": 17.8,
+     "15_24": 9.5,
+     "25_44": 26.1,
+     "45_64": 26.4,
+     "65": 20.1
+    }
+   },
+   "note": "Usual residents and households on Census day; age groups from TS007A."
+  },
+  "price_by_type": {
+   "value": {
+    "detached": {
+     "average_3y": 398544,
+     "sales_3y": 97,
+     "median_12m": 380000,
+     "sales_12m": 33,
+     "low_confidence": false
+    },
+    "semi": {
+     "average_3y": 291858,
+     "sales_3y": 616,
+     "median_12m": 290000,
+     "sales_12m": 209,
+     "low_confidence": false
+    },
+    "terraced": {
+     "average_3y": 219732,
+     "sales_3y": 437,
+     "median_12m": 225000,
+     "sales_12m": 135,
+     "low_confidence": false
+    },
+    "flat": {
+     "average_3y": 144624,
+     "sales_3y": 94,
+     "median_12m": 147500,
+     "sales_12m": 38,
+     "low_confidence": false
+    }
+   },
+   "period": "3 years and 12 months to 31 Aug 2026",
+   "geography": "Offerton — wards: Offerton, Manor",
+   "source": {
+    "name": "HM Land Registry Price Paid Data",
+    "url": "https://landregistry.data.gov.uk/app/ppd",
+    "licence": "Open Government Licence v3.0"
+   },
+   "status": "ok",
+   "unit": "GBP"
+  },
+  "price_trend": {
+   "value": [
+    {
+     "year": 2016,
+     "average": 180405,
+     "sales": 523
+    },
+    {
+     "year": 2017,
+     "average": 183391,
+     "sales": 503
+    },
+    {
+     "year": 2018,
+     "average": 187032,
+     "sales": 457
+    },
+    {
+     "year": 2019,
+     "average": 198853,
+     "sales": 437
+    },
+    {
+     "year": 2020,
+     "average": 209372,
+     "sales": 369
+    },
+    {
+     "year": 2021,
+     "average": 228454,
+     "sales": 550
+    },
+    {
+     "year": 2022,
+     "average": 242418,
+     "sales": 469
+    },
+    {
+     "year": 2023,
+     "average": 245375,
+     "sales": 354
+    },
+    {
+     "year": 2024,
+     "average": 255041,
+     "sales": 437
+    },
+    {
+     "year": 2025,
+     "average": 271088,
+     "sales": 452
+    }
+   ],
+   "period": "2016–2025, calendar years",
+   "geography": "Offerton — wards: Offerton, Manor",
+   "source": {
+    "name": "HM Land Registry Price Paid Data",
+    "url": "https://landregistry.data.gov.uk/app/ppd",
+    "licence": "Open Government Licence v3.0"
+   },
+   "status": "ok",
+   "unit": "GBP"
+  },
+  "radon": {
+   "value": {
+    "class": 1,
+    "of": 6,
+    "share": "<1% of homes above the action level"
+   },
+   "period": "Indicative Atlas version 3 (2022)",
+   "geography": "1 km grid square at the centre of Offerton",
+   "source": {
+    "name": "UKHSA / BGS Indicative Atlas of Radon (1 km)",
+    "url": "https://www.bgs.ac.uk/datasets/radon-data-indicative-atlas-of-radon/",
+    "licence": "Open Government Licence v3.0 · Radon Potential classification © UKHSA · BGS materials © UKRI"
+   },
+   "status": "ok",
+   "note": "Indicative 1 km screening value; use an official address search or property test for a definitive result."
+  },
+  "routes": {
+   "value": {
+    "trams": [],
+    "buses": [
+     {
+      "number": "314",
+      "from": "Stockport",
+      "to": "Offerton Circular",
+      "via": [],
+      "operators": [
+       "Bee Network"
+      ],
+      "trips": 143,
+      "school": false
+     },
+     {
+      "number": "384",
+      "from": "Stockport",
+      "to": "Romiley-Marple Circular",
+      "via": [],
+      "operators": [
+       "Bee Network"
+      ],
+      "trips": 113,
+      "school": false
+     },
+     {
+      "number": "383",
+      "from": "Stockport",
+      "to": "Marple-Romiley Circular",
+      "via": [],
+      "operators": [
+       "Bee Network"
+      ],
+      "trips": 110,
+      "school": false
+     },
+     {
+      "number": "358",
+      "from": "Stockport",
+      "to": "Hayfield",
+      "via": [],
+      "operators": [
+       "Bee Network"
+      ],
+      "trips": 99,
+      "school": false
+     },
+     {
+      "number": "385",
+      "from": "Stockport",
+      "to": "Marple Bridge",
+      "via": [
+       "Heaviley",
+       "Bosden Farm"
+      ],
+      "operators": [
+       "Bee Network"
+      ],
+      "trips": 64,
+      "school": false
+     },
+     {
+      "number": "364",
+      "from": "Stockport",
+      "to": "Hazel Grove circular",
+      "via": [
+       "Woodbank Park"
+      ],
+      "operators": [
+       "Bee Network"
+      ],
+      "trips": 18,
+      "school": false
+     },
+     {
+      "number": "858",
+      "from": "Hall Street",
+      "to": "Hazel Grove High School",
+      "via": [],
+      "operators": [
+       "Bee Network"
+      ],
+      "trips": 4,
+      "school": true
+     },
+     {
+      "number": "844",
+      "from": "Offerton",
+      "to": "Marple Hall School",
+      "via": [],
+      "operators": [
+       "Bee Network"
+      ],
+      "trips": 3,
+      "school": true
+     },
+     {
+      "number": "807",
+      "from": "Harrytown High School",
+      "to": "Stockport",
+      "via": [
+       "Offerton"
+      ],
+      "operators": [
+       "Bee Network"
+      ],
+      "trips": 2,
+      "school": true
+     },
+     {
+      "number": "876",
+      "from": "Bramhall High School",
+      "to": "Hazel Grove",
+      "via": [
+       "Offerton"
+      ],
+      "operators": [
+       "Bee Network"
+      ],
+      "trips": 2,
+      "school": true
+     },
+     {
+      "number": "845",
+      "from": "Stockport",
+      "to": "Harrytown High School",
+      "via": [],
+      "operators": [
+       "Bee Network"
+      ],
+      "trips": 2,
+      "school": true
+     }
+    ],
+    "bus_total": 11,
+    "rail": [
+     {
+      "name": "Manchester Airport",
+      "distance_mi": 6.6,
+      "url": "https://www.nationalrail.co.uk/stations/manchester-airport/",
+      "lines": [],
+      "operators": [
+       {
+        "operator": "TransPennine Express",
+        "to": "Leeds, the North East and Scotland"
+       },
+       {
+        "operator": "Northern",
+        "to": "Manchester Piccadilly and the North West"
+       },
+       {
+        "operator": "Transport for Wales",
+        "to": "Chester and North Wales"
+       }
+      ]
+     }
+    ],
+    "tram_map": "https://tfgm.com/ways-to-travel/tram/network-map",
+    "rail_reviewed": "2026-10-12"
+   },
+   "period": "Timetable downloaded 2026-11-10",
+   "geography": "Stops within 1 km of the centre of Offerton",
+   "source": {
+    "name": "TfGM bus and Metrolink timetables (GTFS)",
+    "url": "https://odata.tfgm.com/opendata/downloads/TfGMgtfsnew.zip",
+    "licence": "Open Government Licence v3.0 · Contains Transport for Greater Manchester data"
+   },
+   "status": "ok",
+   "note": "Buses and trams from the TfGM timetable; trains from National Rail (lines checked by hand). Ranked by timetabled journeys; school-day services are listed last."
+  },
+  "schools": {
+   "value": {
+    "score": 7.5,
+    "schools": 5,
+    "mix": {
+     "outstanding": 0,
+     "good": 5,
+     "report": 0,
+     "below": 0,
+     "none": 0
+    },
+    "nearest": [
+     {
+      "name": "Fairway Primary School",
+      "phase": "Primary",
+      "distance_mi": 0.3,
+      "grade": "Good",
+      "date": "2023-06-26",
+      "url": ""
+     },
+     {
+      "name": "Banks Lane Infant School",
+      "phase": "Primary",
+      "distance_mi": 0.6,
+      "grade": "Good",
+      "date": "2023-12-19",
+      "url": ""
+     },
+     {
+      "name": "Banks Lane Junior School",
+      "phase": "Primary",
+      "distance_mi": 0.6,
+      "grade": "Good",
+      "date": "2020-06-08",
+      "url": ""
+     },
+     {
+      "name": "St Philip's Catholic Primary School, a Voluntary Academy",
+      "phase": "Primary",
+      "distance_mi": 0.7,
+      "grade": "Good",
+      "date": "2022-09-21",
+      "url": ""
+     },
+     {
+      "name": "Dial Park Primary School",
+      "phase": "Primary",
+      "distance_mi": 0.7,
+      "grade": "Good",
+      "date": "2023-03-13",
+      "url": ""
+     }
+    ]
+   },
+   "period": "Latest inspections as at 30 September 2026",
+   "geography": "5 nearest state primary and secondary schools to the centre of Offerton",
+   "source": {
+    "name": "Ofsted management information: state-funded schools, latest inspections",
+    "url": "https://www.gov.uk/government/statistical-data-sets/monthly-management-information-ofsteds-school-inspections-outcomes",
+    "licence": "Open Government Licence v3.0",
+    "file": "https://assets.publishing.service.gov.uk/media/6ad095a72de3184ccf8b818d/Management_information_-_state-funded_schools_-_latest_inspections_as_at_30_Sep_2026.csv"
+   },
+   "status": "ok",
+   "method": "Indicative 0–10 score: Outstanding 10, Good 7.5, Requires improvement 5, Inadequate 2.5; report cards: Exceptional 10, Strong 8.5, Expected 7, Needs attention 4.5, Urgent improvement 2 (mean of the evaluation areas); inspections with no overall grade use the mean of their key judgements."
+  },
+  "tenure": {
+   "value": {
+    "households": 15201,
+    "owned": 9444,
+    "shared": 388,
+    "social": 2626,
+    "private": 2727,
+    "rent_free": 16,
+    "own_pct": 64.7,
+    "rent_pct": 35.2,
+    "owned_pct": 62.1,
+    "shared_pct": 2.6,
+    "social_pct": 17.3,
+    "private_pct": 17.9,
+    "rent_free_pct": 0.1,
+    "renters_per_100_owners": 54
+   },
+   "period": "Census 2021 (21 March 2021)",
+   "geography": "Offerton — 22 census LSOAs (2021)",
+   "source": {
+    "name": "ONS Census 2021, tenure (TS054) — How life has changed: Census 2021",
+    "url": "https://www.ons.gov.uk/visualisations/censusareachanges/E08000009/",
+    "licence": "Open Government Licence v3.0"
+   },
+   "status": "ok",
+   "comparison": {
+    "England": {
+     "own_pct": 62.3,
+     "rent_pct": 37.6,
+     "social_pct": 17.1,
+     "private_pct": 20.5
+    },
+    "Stockport": {
+     "own_pct": 72.3,
+     "rent_pct": 27.7,
+     "social_pct": 13.3,
+     "private_pct": 14.4
+    }
+   },
+   "note": "Households by tenure (TS054). \"Own\" includes shared ownership; \"rent\" is social plus private rented."
+  },
+  "transport_score": {
+   "value": {
+    "overall": 74.8,
+    "public_transport": 76.9,
+    "walking": 71.2,
+    "cycling": 78.2,
+    "driving": 90.6
+   },
+   "period": "Connectivity metric 2025",
+   "geography": "Offerton — mean of 22 LSOAs",
+   "source": {
+    "name": "DfT Transport Connectivity Metric",
+    "url": "https://www.gov.uk/government/publications/transport-connectivity-metric",
+    "licence": "Open Government Licence v3.0",
+    "file": "https://assets.publishing.service.gov.uk/media/68c966fc07d9e92bc5517b80/connectivity_metrics_2025.ods"
+   },
+   "status": "ok",
+   "unit": "score out of 100",
+   "lsoas": [
+    "E01005801",
+    "E01005802",
+    "E01005824",
+    "E01005825",
+    "E01005826",
+    "E01005827",
+    "E01005828",
+    "E01005829",
+    "E01005830",
+    "E01005831",
+    "E01005832",
+    "E01005833",
+    "E01005838",
+    "E01005870",
+    "E01005871",
+    "E01005872",
+    "E01005873",
+    "E01005874",
+    "E01005875",
+    "E01005876",
+    "E01005877",
+    "E01033947"
+   ],
+   "note": "Access to jobs, education, healthcare, shops and leisure by walking, cycling, public transport and driving."
+  }
+ },
+ "updated": "2026-11-10"
+}

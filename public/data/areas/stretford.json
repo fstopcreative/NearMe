@@ -690,114 +690,74 @@
   "news": {
    "value": [
     {
-     "title": "LIVE: Man who murdered Stretford Grammar headteacher Michael Mullins discovers his fate - updates from court",
+     "title": "What are your Trafford neighbours planning? Latest applications revealed",
      "excerpt": "",
-     "date": "2 Nov 2026",
-     "tag": "Local news",
-     "tone": "neutral",
-     "source": "Manchester Evening News – Trafford",
-     "domain": "manchestereveningnews.co.uk",
-     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/live-man-who-murdered-stretford-34849245",
-     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34842338.ece/ALTERNATES/s615/0_Mug23.jpg",
+     "date": "10 Nov 2026",
+     "tag": "Planning",
+     "tone": "accent",
+     "source": "Messenger Newspapers",
+     "domain": "messengernewspapers.co.uk",
+     "url": "https://www.messengernewspapers.co.uk/news/26712480.trafford-planning-applications-include-plans-120-homes/?ref=rss",
+     "image": "https://www.messengernewspapers.co.uk/resources/images/18954988/",
      "image_external": true,
      "scope": "local"
     },
     {
-     "title": "Young people in Trafford offered chance to try forestry and conservation work",
+     "title": "New Urmston wellness centre opens offering range of therapies under one roof",
      "excerpt": "",
-     "date": "2 Nov 2026",
-     "tag": "Local news",
-     "tone": "neutral",
-     "source": "Messenger Newspapers",
-     "domain": "messengernewspapers.co.uk",
-     "url": "https://www.messengernewspapers.co.uk/news/26686113.trafford-young-people-offered-free-forestry-skills-sessions/?ref=rss",
-     "image": "https://www.messengernewspapers.co.uk/resources/images/21653167/",
-     "image_external": true,
-     "scope": "local"
-    },
-    {
-     "title": "The full story of the murder of Stretford Grammar headteacher Michael Mullins",
-     "excerpt": "",
-     "date": "1 Nov 2026",
-     "tag": "Local news",
-     "tone": "neutral",
-     "source": "Manchester Evening News – Trafford",
-     "domain": "manchestereveningnews.co.uk",
-     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/full-story-murder-stretford-grammar-34842419",
-     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34842376.ece/ALTERNATES/s615/2_Screenshot-2026-10-30-at-170034.png",
-     "image_external": true,
-     "scope": "local"
-    },
-    {
-     "title": "Stretford welcomes three new businesses as town centre transformation continues",
-     "excerpt": "",
-     "date": "1 Nov 2026",
-     "tag": "Local news",
-     "tone": "neutral",
-     "source": "Messenger Newspapers",
-     "domain": "messengernewspapers.co.uk",
-     "url": "https://www.messengernewspapers.co.uk/news/26684575.stretford-welcomes-new-tattoo-studio-cafe-restaurant/?ref=rss",
-     "image": "https://www.messengernewspapers.co.uk/resources/images/21650982/",
-     "image_external": true,
-     "scope": "local"
-    },
-    {
-     "title": "Police appeal to identify man over stolen Ford Focus in Old Trafford",
-     "excerpt": "",
-     "date": "31 Oct 2026",
-     "tag": "Nearby · Old Trafford",
-     "tone": "neutral",
-     "source": "Messenger Newspapers",
-     "domain": "messengernewspapers.co.uk",
-     "url": "https://www.messengernewspapers.co.uk/news/26687567.police-appeal-identify-man-trafford-car-theft/?ref=rss",
-     "image": "https://www.messengernewspapers.co.uk/resources/images/21655435/",
-     "image_external": true,
-     "scope": "nearby",
-     "near": "Old Trafford"
-    },
-    {
-     "title": "Volunteers praised for transforming breastfeeding support in Trafford",
-     "excerpt": "",
-     "date": "30 Oct 2026",
-     "tag": "Nearby · Old Trafford",
-     "tone": "neutral",
-     "source": "Messenger Newspapers",
-     "domain": "messengernewspapers.co.uk",
-     "url": "https://www.messengernewspapers.co.uk/news/26676622.trafford-volunteers-transform-breastfeeding-support-mums/?ref=rss",
-     "image": "https://www.messengernewspapers.co.uk/resources/images/21640258/",
-     "image_external": true,
-     "scope": "nearby",
-     "near": "Old Trafford"
-    },
-    {
-     "title": "This Urmston pub is known for big Halloween and Christmas displays, but doesn't stop there",
-     "excerpt": "",
-     "date": "1 Nov 2026",
+     "date": "9 Nov 2026",
      "tag": "Nearby · Urmston",
      "tone": "neutral",
-     "source": "Manchester Evening News – Trafford",
-     "domain": "manchestereveningnews.co.uk",
-     "url": "https://www.manchestereveningnews.co.uk/whats-on/food-drink-news/urmston-pub-known-big-halloween-34825674",
-     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34825998.ece/ALTERNATES/s615/0_AMR_MEN_271026_THEFX.jpg",
+     "source": "Messenger Newspapers",
+     "domain": "messengernewspapers.co.uk",
+     "url": "https://www.messengernewspapers.co.uk/news/26703610.urmston-therapy-centre-opens-offering-range-treatments/?ref=rss",
+     "image": "https://www.messengernewspapers.co.uk/resources/images/21676719/",
      "image_external": true,
      "scope": "nearby",
      "near": "Urmston"
     },
     {
-     "title": "Deansgate LIVE as busy street cordoned off by police in 'serious' incident",
+     "title": "Take a look inside this Urmston home packed with period features",
      "excerpt": "",
-     "date": "2 Nov 2026",
+     "date": "8 Nov 2026",
+     "tag": "Nearby · Urmston",
+     "tone": "neutral",
+     "source": "Messenger Newspapers",
+     "domain": "messengernewspapers.co.uk",
+     "url": "https://www.messengernewspapers.co.uk/news/26694515.four-storey-edwardian-home-urmston-sale-675-000/?ref=rss",
+     "image": "https://www.messengernewspapers.co.uk/resources/images/21664589/",
+     "image_external": true,
+     "scope": "nearby",
+     "near": "Urmston"
+    },
+    {
+     "title": "Urgent appeal over missing Bury girl, 14, last seen five days ago",
+     "excerpt": "",
+     "date": "10 Nov 2026",
      "tag": "Greater Manchester",
      "tone": "neutral",
      "source": "Manchester Evening News – Greater Manchester",
      "domain": "manchestereveningnews.co.uk",
-     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/deansgate-live-busy-street-cordoned-34850850",
-     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34850839.ece/ALTERNATES/s615/0_Deansgate.jpg",
+     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/urgent-appeal-over-missing-bury-34888150",
+     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34888217.ece/ALTERNATES/s615/0_ABR_MEN_101126_AMELIAMISSING.jpg",
+     "image_external": true,
+     "scope": "nearby"
+    },
+    {
+     "title": "St Helens sign hooker Forber from Wigan",
+     "excerpt": "",
+     "date": "10 Nov 2026",
+     "tag": "Greater Manchester",
+     "tone": "neutral",
+     "source": "BBC News – Manchester",
+     "domain": "bbc.co.uk",
+     "url": "https://www.bbc.co.uk/sport/rugby-league/articles/cjwy9y2xy5xqo?at_medium=RSS&at_campaign=rss",
+     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5768/live/a2f63190-dcde-11f1-a8e1-e3454837ffc6.jpg",
      "image_external": true,
      "scope": "nearby"
     }
    ],
-   "period": "Publisher feeds checked 2026-11-02",
+   "period": "Publisher feeds checked 2026-11-10",
    "geography": "Stretford",
    "source": {
     "name": "Local publisher RSS feeds",
@@ -840,7 +800,7 @@
     }
    ],
    "scope": "local",
-   "local_count": 4,
+   "local_count": 1,
    "nearby_count": 4,
    "note": "Headlines and links only; RSS images are referenced from the publisher when supplied and are not copied."
   },
@@ -1218,7 +1178,7 @@
       "operators": [
        "Bee Network"
       ],
-      "trips": 684,
+      "trips": 363,
       "school": false
      },
      {
@@ -1540,7 +1500,7 @@
     "tram_map": "https://tfgm.com/ways-to-travel/tram/network-map",
     "rail_reviewed": "2026-10-12"
    },
-   "period": "Timetable downloaded 2026-11-02",
+   "period": "Timetable downloaded 2026-11-10",
    "geography": "Stops within 1 km of the centre of Stretford",
    "source": {
     "name": "TfGM bus and Metrolink timetables (GTFS)",
@@ -1708,5 +1668,5 @@
    "note": "Access to jobs, education, healthcare, shops and leisure by walking, cycling, public transport and driving."
   }
  },
- "updated": "2026-11-02"
+ "updated": "2026-11-10"
 }

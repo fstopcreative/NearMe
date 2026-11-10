@@ -21,7 +21,8 @@ RADIUS_M = 1500
 FLOOD_RADIUS_M = 1000
 ORG = {'Trafford': 347, 'Warrington': 385}
 # Borough extents (WGS84) for borough-wide counts
-EXTENT = {'Trafford': 'POLYGON((-2.478 53.357, -2.253 53.357, -2.253 53.480, -2.478 53.480, -2.478 53.357))'}
+EXTENT = {'Trafford': 'POLYGON((-2.478 53.357, -2.253 53.357, -2.253 53.480, -2.478 53.480, -2.478 53.357))',
+          'Stockport': 'POLYGON((-2.247 53.327, -1.992 53.327, -1.992 53.455, -2.247 53.455, -2.247 53.327))'}
 SRC = {
     'constraints': dict(SOURCES['conservation'], name='Planning Data — listed buildings, Article 4, Green Belt, TPO, scheduled monuments (MHCLG / Historic England)',
                         url='https://www.planning.data.gov.uk/'),

@@ -10,6 +10,8 @@ from lib.common import http_json, circle_wkt, miles, metric, log, is_region, reg
 
 API = 'https://www.planning.data.gov.uk/entity.json'
 RADIUS_M = 1500
+# planning.data.gov.uk organisation entities. A borough missing from here falls
+# back to the centre circle (see collect), so adding one is an improvement, not a fix.
 ORG = {'Trafford': 347, 'Warrington': 385}
 
 
@@ -41,11 +43,13 @@ def collect(ctx):
         if is_region(area):
             out[area['id']] = region_only(area, ['conservation_areas'], 'conservation')
             continue
-        if area.get('kind') == 'borough':
+        if area.get('kind') == 'borough' and area['borough'] in ORG:
             ents = query(organisation_entity=ORG[area['borough']])
             inside = []
             geo = f"{area['borough']} — all conservation areas"
         else:
+            if area.get('kind') == 'borough':
+                log(f"conservation: no organisation id for {area['borough']} — using the centre circle instead")
             ents = query(geometry=circle_wkt(c['lat'], c['lng'], RADIUS_M), geometry_relation='intersects')
             inside = [e['name'] for e in query(longitude=c['lng'], latitude=c['lat'])]
             geo = f"{area['name']} — within {RADIUS_M / 1000:g} km of the centre"

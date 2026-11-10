@@ -631,62 +631,60 @@
   "news": {
    "value": [
     {
-     "title": "Partington care home celebrates 'good' rating after glowing CQC inspection",
+     "title": "Carrington relief road has 1,000 against it and makes some 'ashamed to be human', but it will be happening",
      "excerpt": "",
-     "date": "2 Nov 2026",
+     "date": "6 Nov 2026",
      "tag": "Nearby · Partington",
-     "tone": "neutral",
-     "source": "Messenger Newspapers",
-     "domain": "messengernewspapers.co.uk",
-     "url": "https://www.messengernewspapers.co.uk/news/26684635.four-oaks-care-home-partington-rated-good-cqc/?ref=rss",
-     "image": "https://www.messengernewspapers.co.uk/resources/images/21651082/",
-     "image_external": true,
-     "scope": "nearby",
-     "near": "Partington"
-    },
-    {
-     "title": "Volunteers praised for transforming breastfeeding support in Trafford",
-     "excerpt": "",
-     "date": "30 Oct 2026",
-     "tag": "Nearby · Partington",
-     "tone": "neutral",
-     "source": "Messenger Newspapers",
-     "domain": "messengernewspapers.co.uk",
-     "url": "https://www.messengernewspapers.co.uk/news/26676622.trafford-volunteers-transform-breastfeeding-support-mums/?ref=rss",
-     "image": "https://www.messengernewspapers.co.uk/resources/images/21640258/",
-     "image_external": true,
-     "scope": "nearby",
-     "near": "Partington"
-    },
-    {
-     "title": "The decision on the hugely controversial Carrington Relief Road will soon be known",
-     "excerpt": "",
-     "date": "29 Oct 2026",
-     "tag": "Nearby · Carrington",
      "tone": "neutral",
      "source": "Manchester Evening News – Trafford",
      "domain": "manchestereveningnews.co.uk",
-     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/decision-hugely-controversial-carrington-relief-34835999",
-     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34740674.ece/ALTERNATES/s615/0_Carrington-Moss-1.jpg",
+     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/shouts-disgrace-carringtons-notorious-relief-34870255",
+     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article33248399.ece/ALTERNATES/s615/0_Carrington-Relief-Road-consultation-1.jpg",
      "image_external": true,
      "scope": "nearby",
-     "near": "Carrington"
+     "near": "Partington"
     },
     {
-     "title": "Deansgate LIVE as busy street cordoned off by police in 'serious' incident",
+     "title": "Urgent appeal over missing Bury girl, 14, last seen five days ago",
      "excerpt": "",
-     "date": "2 Nov 2026",
+     "date": "10 Nov 2026",
      "tag": "Greater Manchester",
      "tone": "neutral",
      "source": "Manchester Evening News – Greater Manchester",
      "domain": "manchestereveningnews.co.uk",
-     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/deansgate-live-busy-street-cordoned-34850850",
-     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34850839.ece/ALTERNATES/s615/0_Deansgate.jpg",
+     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/urgent-appeal-over-missing-bury-34888150",
+     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34888217.ece/ALTERNATES/s615/0_ABR_MEN_101126_AMELIAMISSING.jpg",
+     "image_external": true,
+     "scope": "nearby"
+    },
+    {
+     "title": "St Helens sign hooker Forber from Wigan",
+     "excerpt": "",
+     "date": "10 Nov 2026",
+     "tag": "Greater Manchester",
+     "tone": "neutral",
+     "source": "BBC News – Manchester",
+     "domain": "bbc.co.uk",
+     "url": "https://www.bbc.co.uk/sport/rugby-league/articles/cjwy9y2xy5xqo?at_medium=RSS&at_campaign=rss",
+     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5768/live/a2f63190-dcde-11f1-a8e1-e3454837ffc6.jpg",
+     "image_external": true,
+     "scope": "nearby"
+    },
+    {
+     "title": "I was told I had cancer and may not survive the night - 45 years later I'm still here",
+     "excerpt": "",
+     "date": "10 Nov 2026",
+     "tag": "Greater Manchester",
+     "tone": "neutral",
+     "source": "Manchester Evening News – Trafford",
+     "domain": "manchestereveningnews.co.uk",
+     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/man-63-diagnosed-with-cancer-34888049",
+     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34888079.ece/ALTERNATES/s615/1_REAL-LIFE-Derrick-Derbyshire.jpg",
      "image_external": true,
      "scope": "nearby"
     }
    ],
-   "period": "Publisher feeds checked 2026-11-02",
+   "period": "Publisher feeds checked 2026-11-10",
    "geography": "Warburton",
    "source": {
     "name": "Local publisher RSS feeds",
@@ -1045,7 +1043,7 @@
     "tram_map": "https://tfgm.com/ways-to-travel/tram/network-map",
     "rail_reviewed": "2026-10-12"
    },
-   "period": "Timetable downloaded 2026-11-02",
+   "period": "Timetable downloaded 2026-11-10",
    "geography": "Stops within 1 km of the centre of Warburton",
    "source": {
     "name": "TfGM bus and Metrolink timetables (GTFS)",
@@ -1185,5 +1183,5 @@
    "note": "Access to jobs, education, healthcare, shops and leisure by walking, cycling, public transport and driving."
   }
  },
- "updated": "2026-11-02"
+ "updated": "2026-11-10"
 }

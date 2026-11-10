@@ -939,111 +939,111 @@
   "news": {
    "value": [
     {
-     "title": "LIVE: Man who murdered Stretford Grammar headteacher Michael Mullins discovers his fate - updates from court",
+     "title": "What are your Trafford neighbours planning? Latest applications revealed",
      "excerpt": "",
-     "date": "2 Nov 2026",
+     "date": "10 Nov 2026",
+     "tag": "Planning",
+     "tone": "accent",
+     "source": "Messenger Newspapers",
+     "domain": "messengernewspapers.co.uk",
+     "url": "https://www.messengernewspapers.co.uk/news/26712480.trafford-planning-applications-include-plans-120-homes/?ref=rss",
+     "image": "https://www.messengernewspapers.co.uk/resources/images/18954988/",
+     "image_external": true,
+     "scope": "local"
+    },
+    {
+     "title": "Three women 'verbally abused on bus' travelling from Trafford Centre to Manchester",
+     "excerpt": "",
+     "date": "9 Nov 2026",
+     "tag": "Transport",
+     "tone": "info",
+     "source": "Messenger Newspapers",
+     "domain": "messengernewspapers.co.uk",
+     "url": "https://www.messengernewspapers.co.uk/news/26713395.three-women-verbally-abused-ontrafford-centre-bus/?ref=rss",
+     "image": "https://www.messengernewspapers.co.uk/resources/images/21692231/",
+     "image_external": true,
+     "scope": "local"
+    },
+    {
+     "title": "Trafford Centre confirms new flagship store from major fashion retailer as owners issue emotional update",
+     "excerpt": "",
+     "date": "9 Nov 2026",
      "tag": "Local news",
      "tone": "neutral",
      "source": "Manchester Evening News – Trafford",
      "domain": "manchestereveningnews.co.uk",
-     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/live-man-who-murdered-stretford-34849245",
-     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34842338.ece/ALTERNATES/s615/0_Mug23.jpg",
+     "url": "https://www.manchestereveningnews.co.uk/whats-on/whats-on-news/trafford-centre-confirms-new-flagship-34882167",
+     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34884723.ece/ALTERNATES/s615/0_DBR_MEN_071126Trafford_07jpeg.jpg",
      "image_external": true,
      "scope": "local"
     },
     {
-     "title": "Altrincham goes back to the 80s for Live Aid-inspired Christmas Lights Switch-On",
+     "title": "New operator sought to revive fortunes of historic Bowdon pub",
      "excerpt": "",
-     "date": "2 Nov 2026",
+     "date": "9 Nov 2026",
      "tag": "Local news",
      "tone": "neutral",
      "source": "Altrincham Today",
      "domain": "altrincham.todaynews.co.uk",
-     "url": "https://altrincham.todaynews.co.uk/news/2026/11/02/altrincham-goes-back-to-the-80s-for-live-aid-inspired-christmas-lights-switch-on/",
-     "image": "https://storage.ghost.io/c/09/ce/09cee984-fa22-44f2-a16f-e4d816e662de/content/images/2026/11/Santa-on-Christmas-Lights-Switch-on-Stage--1-.jpg",
+     "url": "https://altrincham.todaynews.co.uk/news/2026/11/09/new-operator-sought-to-revive-fortunes-of-historic-bowdon-pub/",
+     "image": "https://storage.ghost.io/c/09/ce/09cee984-fa22-44f2-a16f-e4d816e662de/content/images/2026/11/griffin.jpg",
      "image_external": true,
      "scope": "local"
     },
     {
-     "title": "Remembrance Sunday 2026: Where and when services will take place in Altrincham, Bowdon, Hale and Hale Barns",
+     "title": "Urgent appeal over missing Bury girl, 14, last seen five days ago",
      "excerpt": "",
-     "date": "2 Nov 2026",
-     "tag": "Local news",
-     "tone": "neutral",
-     "source": "Altrincham Today",
-     "domain": "altrincham.todaynews.co.uk",
-     "url": "https://altrincham.todaynews.co.uk/news/2026/11/02/remembrance-sunday-2026-where-and-when-services-will-take-place-in-altrincham-bowdon-hale-and-hale-barns/",
-     "image": "https://storage.ghost.io/c/09/ce/09cee984-fa22-44f2-a16f-e4d816e662de/content/images/2026/11/IMG_8833.jpg",
-     "image_external": true,
-     "scope": "local"
-    },
-    {
-     "title": "Young people in Trafford offered chance to try forestry and conservation work",
-     "excerpt": "",
-     "date": "2 Nov 2026",
-     "tag": "Local news",
-     "tone": "neutral",
-     "source": "Messenger Newspapers",
-     "domain": "messengernewspapers.co.uk",
-     "url": "https://www.messengernewspapers.co.uk/news/26686113.trafford-young-people-offered-free-forestry-skills-sessions/?ref=rss",
-     "image": "https://www.messengernewspapers.co.uk/resources/images/21653167/",
-     "image_external": true,
-     "scope": "local"
-    },
-    {
-     "title": "Deansgate LIVE as busy street cordoned off by police in 'serious' incident",
-     "excerpt": "",
-     "date": "2 Nov 2026",
+     "date": "10 Nov 2026",
      "tag": "Greater Manchester",
      "tone": "neutral",
      "source": "Manchester Evening News – Greater Manchester",
      "domain": "manchestereveningnews.co.uk",
-     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/deansgate-live-busy-street-cordoned-34850850",
-     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34850839.ece/ALTERNATES/s615/0_Deansgate.jpg",
+     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/urgent-appeal-over-missing-bury-34888150",
+     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34888217.ece/ALTERNATES/s615/0_ABR_MEN_101126_AMELIAMISSING.jpg",
      "image_external": true,
      "scope": "nearby"
     },
     {
-     "title": "Downing Street defends plane that picked Andy Burnham up at Manchester Airport 34 minutes after leaving London",
+     "title": "St Helens sign hooker Forber from Wigan",
      "excerpt": "",
-     "date": "2 Nov 2026",
+     "date": "10 Nov 2026",
+     "tag": "Greater Manchester",
+     "tone": "neutral",
+     "source": "BBC News – Manchester",
+     "domain": "bbc.co.uk",
+     "url": "https://www.bbc.co.uk/sport/rugby-league/articles/cjwy9y2xy5xqo?at_medium=RSS&at_campaign=rss",
+     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5768/live/a2f63190-dcde-11f1-a8e1-e3454837ffc6.jpg",
+     "image_external": true,
+     "scope": "nearby"
+    },
+    {
+     "title": "I was told I had cancer and may not survive the night - 45 years later I'm still here",
+     "excerpt": "",
+     "date": "10 Nov 2026",
+     "tag": "Greater Manchester",
+     "tone": "neutral",
+     "source": "Manchester Evening News – Trafford",
+     "domain": "manchestereveningnews.co.uk",
+     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/man-63-diagnosed-with-cancer-34888049",
+     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34888079.ece/ALTERNATES/s615/1_REAL-LIFE-Derrick-Derbyshire.jpg",
+     "image_external": true,
+     "scope": "nearby"
+    },
+    {
+     "title": "M6 and M60 traffic LIVE as drivers face long queues on motorways",
+     "excerpt": "",
+     "date": "10 Nov 2026",
      "tag": "Greater Manchester",
      "tone": "neutral",
      "source": "Manchester Evening News – Greater Manchester",
      "domain": "manchestereveningnews.co.uk",
-     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/andy-burnham-plane-manchester-airport-34850422",
-     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34850433.ece/ALTERNATES/s615/0_BESTPIX-UK-Prime-Minister-Attends-The-United-Nations-General-Assembly.jpg",
-     "image_external": true,
-     "scope": "nearby"
-    },
-    {
-     "title": "M60 RECAP after all traffic stopped on motorway with long delays",
-     "excerpt": "",
-     "date": "2 Nov 2026",
-     "tag": "Greater Manchester",
-     "tone": "neutral",
-     "source": "Manchester Evening News – Greater Manchester",
-     "domain": "manchestereveningnews.co.uk",
-     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/m60-live-traffic-stopped-motorway-34849470",
-     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34849459.ece/ALTERNATES/s615/0_Image_F6452677-A8DF-4690-85BC-7F19E5DF3828jpeg.jpg",
-     "image_external": true,
-     "scope": "nearby"
-    },
-    {
-     "title": "Rare Royal Mint 50 coin sells for more than 230 times face value on eBay",
-     "excerpt": "",
-     "date": "2 Nov 2026",
-     "tag": "Greater Manchester",
-     "tone": "neutral",
-     "source": "Messenger Newspapers",
-     "domain": "messengernewspapers.co.uk",
-     "url": "https://www.messengernewspapers.co.uk/news/26690774.rare-royal-mint-50-coin-sells-115-ebay/?ref=rss",
-     "image": "https://www.messengernewspapers.co.uk/resources/images/21031283/",
+     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/m6-traffic-live-drivers-face-34888119",
+     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34888104.ece/ALTERNATES/s615/0_m6-37092-j22.jpg",
      "image_external": true,
      "scope": "nearby"
     }
    ],
-   "period": "Publisher feeds checked 2026-11-02",
+   "period": "Publisher feeds checked 2026-11-10",
    "geography": "Trafford",
    "source": {
     "name": "Local publisher RSS feeds",
@@ -1467,25 +1467,18 @@
    "value": {
     "trams": [
      {
-      "line": "Pink Line",
-      "from": "East Didsbury",
-      "to": "Rochdale Town Centre",
-      "trips": 2238,
-      "colour": "#e94f8a"
-     },
-     {
-      "line": "Navy Line",
-      "from": "Manchester Airport",
-      "to": "Victoria",
-      "trips": 1703,
-      "colour": "#283a8a"
-     },
-     {
       "line": "Yellow Line",
       "from": "Eccles",
       "to": "Piccadilly",
       "trips": 1686,
       "colour": "#f5c400"
+     },
+     {
+      "line": "Pink Line",
+      "from": "East Didsbury",
+      "to": "Rochdale Town Centre",
+      "trips": 1630,
+      "colour": "#e94f8a"
      },
      {
       "line": "Red Line",
@@ -1502,6 +1495,13 @@
       "colour": "#7b2d8e"
      },
      {
+      "line": "Navy Line",
+      "from": "Manchester Airport",
+      "to": "Victoria",
+      "trips": 1091,
+      "colour": "#283a8a"
+     },
+     {
       "line": "Green Line",
       "from": "Altrincham",
       "to": "Bury",
@@ -1510,17 +1510,6 @@
      }
     ],
     "buses": [
-     {
-      "number": "263",
-      "from": "Altrincham",
-      "to": "Manchester",
-      "via": [],
-      "operators": [
-       "Bee Network"
-      ],
-      "trips": 684,
-      "school": false
-     },
      {
       "number": "250",
       "from": "Manchester",
@@ -1532,6 +1521,17 @@
        "Bee Network"
       ],
       "trips": 663,
+      "school": false
+     },
+     {
+      "number": "263",
+      "from": "Altrincham",
+      "to": "Manchester",
+      "via": [],
+      "operators": [
+       "Bee Network"
+      ],
+      "trips": 363,
       "school": false
      },
      {
@@ -1678,20 +1678,6 @@
       "school": false
      },
      {
-      "number": "5",
-      "from": "Warrington",
-      "to": "Altrinch",
-      "via": [
-       "Stockton Heath",
-       "Broomedge"
-      ],
-      "operators": [
-       "Warrington's Own Buses"
-      ],
-      "trips": 163,
-      "school": false
-     },
-     {
       "number": "249",
       "from": "Wythenshawe",
       "to": "Altrincham",
@@ -1746,6 +1732,20 @@
        "D&G Bus"
       ],
       "trips": 140,
+      "school": false
+     },
+     {
+      "number": "5",
+      "from": "Warrington",
+      "to": "Altrinch",
+      "via": [
+       "Stockton Heath",
+       "Broomedge"
+      ],
+      "operators": [
+       "Warrington's Own Buses"
+      ],
+      "trips": 82,
       "school": false
      },
      {
@@ -2159,7 +2159,7 @@
     "tram_map": "https://tfgm.com/ways-to-travel/tram/network-map",
     "rail_reviewed": "2026-10-12"
    },
-   "period": "Timetable downloaded 2026-11-02",
+   "period": "Timetable downloaded 2026-11-10",
    "geography": "Stops within 1 km of each Trafford town centre",
    "source": {
     "name": "TfGM bus and Metrolink timetables (GTFS)",
@@ -2249,5 +2249,5 @@
    "note": "Access to jobs, education, healthcare, shops and leisure by walking, cycling, public transport and driving."
   }
  },
- "updated": "2026-11-02"
+ "updated": "2026-11-10"
 }

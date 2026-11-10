@@ -636,63 +636,63 @@
   "news": {
    "value": [
     {
-     "title": "Volunteers praised for transforming breastfeeding support in Trafford",
+     "title": "What are your Trafford neighbours planning? Latest applications revealed",
      "excerpt": "",
-     "date": "30 Oct 2026",
+     "date": "10 Nov 2026",
      "tag": "Nearby · Sale",
      "tone": "neutral",
      "source": "Messenger Newspapers",
      "domain": "messengernewspapers.co.uk",
-     "url": "https://www.messengernewspapers.co.uk/news/26676622.trafford-volunteers-transform-breastfeeding-support-mums/?ref=rss",
-     "image": "https://www.messengernewspapers.co.uk/resources/images/21640258/",
+     "url": "https://www.messengernewspapers.co.uk/news/26712480.trafford-planning-applications-include-plans-120-homes/?ref=rss",
+     "image": "https://www.messengernewspapers.co.uk/resources/images/18954988/",
      "image_external": true,
      "scope": "nearby",
      "near": "Sale"
     },
     {
-     "title": "This Urmston pub is known for big Halloween and Christmas displays, but doesn't stop there",
+     "title": "New Urmston wellness centre opens offering range of therapies under one roof",
      "excerpt": "",
-     "date": "1 Nov 2026",
+     "date": "9 Nov 2026",
      "tag": "Nearby · Urmston",
      "tone": "neutral",
-     "source": "Manchester Evening News – Trafford",
-     "domain": "manchestereveningnews.co.uk",
-     "url": "https://www.manchestereveningnews.co.uk/whats-on/food-drink-news/urmston-pub-known-big-halloween-34825674",
-     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34825998.ece/ALTERNATES/s615/0_AMR_MEN_271026_THEFX.jpg",
+     "source": "Messenger Newspapers",
+     "domain": "messengernewspapers.co.uk",
+     "url": "https://www.messengernewspapers.co.uk/news/26703610.urmston-therapy-centre-opens-offering-range-treatments/?ref=rss",
+     "image": "https://www.messengernewspapers.co.uk/resources/images/21676719/",
      "image_external": true,
      "scope": "nearby",
      "near": "Urmston"
     },
     {
-     "title": "LIVE: Man who murdered Stretford Grammar headteacher Michael Mullins discovers his fate - updates from court",
+     "title": "Take a look inside this Urmston home packed with period features",
      "excerpt": "",
-     "date": "2 Nov 2026",
-     "tag": "Nearby · Stretford",
-     "tone": "neutral",
-     "source": "Manchester Evening News – Trafford",
-     "domain": "manchestereveningnews.co.uk",
-     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/live-man-who-murdered-stretford-34849245",
-     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34842338.ece/ALTERNATES/s615/0_Mug23.jpg",
-     "image_external": true,
-     "scope": "nearby",
-     "near": "Stretford"
-    },
-    {
-     "title": "Young people in Trafford offered chance to try forestry and conservation work",
-     "excerpt": "",
-     "date": "2 Nov 2026",
-     "tag": "Nearby · Stretford",
+     "date": "8 Nov 2026",
+     "tag": "Nearby · Urmston",
      "tone": "neutral",
      "source": "Messenger Newspapers",
      "domain": "messengernewspapers.co.uk",
-     "url": "https://www.messengernewspapers.co.uk/news/26686113.trafford-young-people-offered-free-forestry-skills-sessions/?ref=rss",
-     "image": "https://www.messengernewspapers.co.uk/resources/images/21653167/",
+     "url": "https://www.messengernewspapers.co.uk/news/26694515.four-storey-edwardian-home-urmston-sale-675-000/?ref=rss",
+     "image": "https://www.messengernewspapers.co.uk/resources/images/21664589/",
      "image_external": true,
      "scope": "nearby",
-     "near": "Stretford"
+     "near": "Urmston"
+    },
+    {
+     "title": "Urmston Choral Society to spread Christmas cheer with two festive concerts",
+     "excerpt": "",
+     "date": "3 Nov 2026",
+     "tag": "Nearby · Flixton",
+     "tone": "neutral",
+     "source": "Messenger Newspapers",
+     "domain": "messengernewspapers.co.uk",
+     "url": "https://www.messengernewspapers.co.uk/news/26692319.urmston-choral-society-perform-two-christmas-concerts/?ref=rss",
+     "image": "https://www.messengernewspapers.co.uk/resources/images/21661564/",
+     "image_external": true,
+     "scope": "nearby",
+     "near": "Flixton"
     }
    ],
-   "period": "Publisher feeds checked 2026-11-02",
+   "period": "Publisher feeds checked 2026-11-10",
    "geography": "Ashton upon Mersey",
    "source": {
     "name": "Local publisher RSS feeds",
@@ -704,8 +704,7 @@
     "Messenger Newspapers",
     "Manchester Evening News – Trafford",
     "Manchester Evening News – Sale",
-    "Altrincham Today",
-    "Manchester Evening News – Urmston"
+    "Altrincham Today"
    ],
    "feed_links": [
     {
@@ -723,10 +722,6 @@
     {
      "name": "Altrincham Today",
      "url": "https://altrincham.todaynews.co.uk/feed/"
-    },
-    {
-     "name": "Manchester Evening News – Urmston",
-     "url": "https://www.manchestereveningnews.co.uk/all-about/urmston?service=rss"
     }
    ],
    "scope": "nearby",
@@ -1258,7 +1253,7 @@
     "tram_map": "https://tfgm.com/ways-to-travel/tram/network-map",
     "rail_reviewed": "2026-10-12"
    },
-   "period": "Timetable downloaded 2026-11-02",
+   "period": "Timetable downloaded 2026-11-10",
    "geography": "Stops within 1 km of the centre of Ashton upon Mersey",
    "source": {
     "name": "TfGM bus and Metrolink timetables (GTFS)",
@@ -1405,5 +1400,5 @@
    "note": "Access to jobs, education, healthcare, shops and leisure by walking, cycling, public transport and driving."
   }
  },
- "updated": "2026-11-02"
+ "updated": "2026-11-10"
 }

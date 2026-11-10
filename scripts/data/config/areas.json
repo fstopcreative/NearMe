@@ -48,7 +48,21 @@
     { "id": "dunham-massey", "name": "Dunham Massey", "borough": "Trafford", "lad": "E08000009", "csp": "Trafford", "county": "Greater Manchester", "postcode": "WA14",
       "match": { "localities": ["DUNHAM MASSEY", "DUNHAM TOWN", "DUNHAM WOODHOUSES"], "districts": ["TRAFFORD"] }, "centre": { "lat": 53.3836, "lng": -2.3916 } },
     { "id": "warburton", "name": "Warburton", "borough": "Trafford", "lad": "E08000009", "csp": "Trafford", "county": "Greater Manchester", "postcode": "WA13",
-      "match": { "localities": ["WARBURTON"], "districts": ["TRAFFORD"] }, "centre": { "lat": 53.4005, "lng": -2.4549 } }
+      "match": { "localities": ["WARBURTON"], "districts": ["TRAFFORD"] }, "centre": { "lat": 53.4005, "lng": -2.4549 } },
+    { "id": "stockport", "name": "Stockport", "kind": "borough", "borough": "Stockport", "lad": "E08000007", "csp": "Stockport", "county": "Greater Manchester", "postcode": "SK1–SK8",
+      "match": { "lad": "E08000007" }, "centre": { "lat": 53.4080, "lng": -2.1590 } },
+    { "id": "heaton-moor", "name": "Heaton Moor", "borough": "Stockport", "lad": "E08000007", "csp": "Stockport", "county": "Greater Manchester", "postcode": "SK4",
+      "match": { "wards": ["Heatons North"] }, "centre": { "lat": 53.4227, "lng": -2.1843 } },
+    { "id": "cheadle", "name": "Cheadle", "borough": "Stockport", "lad": "E08000007", "csp": "Stockport", "county": "Greater Manchester", "postcode": "SK8",
+      "match": { "wards": ["Cheadle West & Gatley", "Cheadle East & Cheadle Hulme North"] }, "centre": { "lat": 53.3920, "lng": -2.2004 } },
+    { "id": "offerton", "name": "Offerton", "borough": "Stockport", "lad": "E08000007", "csp": "Stockport", "county": "Greater Manchester", "postcode": "SK2",
+      "match": { "wards": ["Offerton", "Manor"] }, "centre": { "lat": 53.4035, "lng": -2.1270 } },
+    { "id": "hazel-grove", "name": "Hazel Grove", "borough": "Stockport", "lad": "E08000007", "csp": "Stockport", "county": "Greater Manchester", "postcode": "SK7",
+      "match": { "wards": ["Hazel Grove"] }, "centre": { "lat": 53.3797, "lng": -2.1212 } },
+    { "id": "bramhall", "name": "Bramhall", "borough": "Stockport", "lad": "E08000007", "csp": "Stockport", "county": "Greater Manchester", "postcode": "SK7",
+      "match": { "wards": ["Bramhall North", "Bramhall South & Woodford"] }, "centre": { "lat": 53.3630, "lng": -2.1623 } },
+    { "id": "marple", "name": "Marple", "borough": "Stockport", "lad": "E08000007", "csp": "Stockport", "county": "Greater Manchester", "postcode": "SK6",
+      "match": { "wards": ["Marple North", "Marple South & High Lane"] }, "centre": { "lat": 53.3971, "lng": -2.0634 } }
   ],
   "compare": {
     "crime_csp": ["Manchester"],

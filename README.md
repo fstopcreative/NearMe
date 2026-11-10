@@ -242,7 +242,9 @@ it does not affect any figure.
 
 **5 · Optional, a Party Wall page.** Add a `dict(...)` entry to
 `src/seo/townships.py` (intro, conservation areas, notes), set `focus: true` in
-step 2, then regenerate:
+step 2, then regenerate. A borough new to the Party Wall pages also needs a
+`BOROUGHS` entry (council name, planning register, ISO region); it then gets its
+own hub page automatically:
 
 ```sh
 python3 src/seo/townships.py           # pages + pw-areas strip + sitemap + llms.txt

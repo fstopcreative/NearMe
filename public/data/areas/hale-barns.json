@@ -647,76 +647,63 @@
      "scope": "local"
     },
     {
-     "title": "Opening date update for new Hale Barns Waitrose as refurbishment continues",
-     "excerpt": "",
-     "date": "27 Oct 2026",
-     "tag": "Local news",
-     "tone": "neutral",
-     "source": "Altrincham Today",
-     "domain": "altrincham.todaynews.co.uk",
-     "url": "https://altrincham.todaynews.co.uk/news/2026/10/27/opening-date-update-for-new-hale-barns-waitrose-as-refurbishment-continues/",
-     "image": "https://storage.ghost.io/c/09/ce/09cee984-fa22-44f2-a16f-e4d816e662de/content/images/2026/10/hb1.webp",
-     "image_external": true,
-     "scope": "local"
-    },
-    {
-     "title": "Timperley plans its biggest Christmas lights celebration yet as switch-on date confirmed",
-     "excerpt": "",
-     "date": "30 Oct 2026",
-     "tag": "Nearby · Timperley",
-     "tone": "neutral",
-     "source": "Altrincham Today",
-     "domain": "altrincham.todaynews.co.uk",
-     "url": "https://altrincham.todaynews.co.uk/news/2026/10/30/timperley-plans-its-biggest-christmas-lights-celebration-yet-as-switch-on-date-confirmed/",
-     "image": "https://storage.ghost.io/c/09/ce/09cee984-fa22-44f2-a16f-e4d816e662de/content/images/2026/10/timpxmas.jpg",
-     "image_external": true,
-     "scope": "nearby",
-     "near": "Timperley"
-    },
-    {
-     "title": "Police target drivers on busy Timperley road as part of borough-wide \"crime-smashing\" crackdown",
-     "excerpt": "",
-     "date": "23 Oct 2026",
-     "tag": "Nearby · Timperley",
-     "tone": "neutral",
-     "source": "Altrincham Today",
-     "domain": "altrincham.todaynews.co.uk",
-     "url": "https://altrincham.todaynews.co.uk/news/2026/10/23/police-target-drivers-on-busy-timperley-road-as-part-of-borough-wide-crime-smashing-crackdown/",
-     "image": "https://storage.ghost.io/c/09/ce/09cee984-fa22-44f2-a16f-e4d816e662de/content/images/2026/10/Operation-AVRO---Trafford-4--1-.jpg",
-     "image_external": true,
-     "scope": "nearby",
-     "near": "Timperley"
-    },
-    {
-     "title": "Altrincham goes back to the 80s for Live Aid-inspired Christmas Lights Switch-On",
+     "title": "Former Con Club and Unagi team to open new Japanese and Thai restaurant in Hale",
      "excerpt": "",
      "date": "2 Nov 2026",
-     "tag": "Nearby · Altrincham",
+     "tag": "Nearby · Hale",
      "tone": "neutral",
      "source": "Altrincham Today",
      "domain": "altrincham.todaynews.co.uk",
-     "url": "https://altrincham.todaynews.co.uk/news/2026/11/02/altrincham-goes-back-to-the-80s-for-live-aid-inspired-christmas-lights-switch-on/",
-     "image": "https://storage.ghost.io/c/09/ce/09cee984-fa22-44f2-a16f-e4d816e662de/content/images/2026/11/Santa-on-Christmas-Lights-Switch-on-Stage--1-.jpg",
+     "url": "https://altrincham.todaynews.co.uk/news/2026/11/02/former-con-club-and-unagi-team-to-open-new-japanese-and-thai-restaurant-in-hale/",
+     "image": "https://storage.ghost.io/c/09/ce/09cee984-fa22-44f2-a16f-e4d816e662de/content/images/2026/11/ea23a12a-0d3f-4bda-8fe3-7dcd3a22909b.jpg",
      "image_external": true,
      "scope": "nearby",
-     "near": "Altrincham"
+     "near": "Hale"
     },
     {
-     "title": "Three-storey Victorian home in Altrincham with south-facing garden hits market",
+     "title": "What are your Trafford neighbours planning? Latest applications revealed",
      "excerpt": "",
-     "date": "1 Nov 2026",
+     "date": "10 Nov 2026",
      "tag": "Nearby · Altrincham",
      "tone": "neutral",
      "source": "Messenger Newspapers",
      "domain": "messengernewspapers.co.uk",
-     "url": "https://www.messengernewspapers.co.uk/news/26685377.three-bedroom-victorian-home-sale-altrincham/?ref=rss",
-     "image": "https://www.messengernewspapers.co.uk/resources/images/21652167/",
+     "url": "https://www.messengernewspapers.co.uk/news/26712480.trafford-planning-applications-include-plans-120-homes/?ref=rss",
+     "image": "https://www.messengernewspapers.co.uk/resources/images/18954988/",
      "image_external": true,
      "scope": "nearby",
      "near": "Altrincham"
+    },
+    {
+     "title": "Altrincham care home residents enjoy games afternoon with school pupils",
+     "excerpt": "",
+     "date": "9 Nov 2026",
+     "tag": "Nearby · Altrincham",
+     "tone": "neutral",
+     "source": "Messenger Newspapers",
+     "domain": "messengernewspapers.co.uk",
+     "url": "https://www.messengernewspapers.co.uk/news/26700058.altrincham-care-home-welcomes-pupils-games-afternoon/?ref=rss",
+     "image": "https://www.messengernewspapers.co.uk/resources/images/21671952/",
+     "image_external": true,
+     "scope": "nearby",
+     "near": "Altrincham"
+    },
+    {
+     "title": "New operator sought to revive fortunes of historic Bowdon pub",
+     "excerpt": "",
+     "date": "9 Nov 2026",
+     "tag": "Nearby · Bowdon",
+     "tone": "neutral",
+     "source": "Altrincham Today",
+     "domain": "altrincham.todaynews.co.uk",
+     "url": "https://altrincham.todaynews.co.uk/news/2026/11/09/new-operator-sought-to-revive-fortunes-of-historic-bowdon-pub/",
+     "image": "https://storage.ghost.io/c/09/ce/09cee984-fa22-44f2-a16f-e4d816e662de/content/images/2026/11/griffin.jpg",
+     "image_external": true,
+     "scope": "nearby",
+     "near": "Bowdon"
     }
    ],
-   "period": "Publisher feeds checked 2026-11-02",
+   "period": "Publisher feeds checked 2026-11-10",
    "geography": "Hale Barns",
    "source": {
     "name": "Local publisher RSS feeds",
@@ -749,7 +736,7 @@
     }
    ],
    "scope": "local",
-   "local_count": 2,
+   "local_count": 1,
    "nearby_count": 4,
    "note": "Headlines and links only; RSS images are referenced from the publisher when supplied and are not copied."
   },
@@ -1363,7 +1350,7 @@
     "tram_map": "https://tfgm.com/ways-to-travel/tram/network-map",
     "rail_reviewed": "2026-10-12"
    },
-   "period": "Timetable downloaded 2026-11-02",
+   "period": "Timetable downloaded 2026-11-10",
    "geography": "Stops within 1 km of the centre of Hale Barns",
    "source": {
     "name": "TfGM bus and Metrolink timetables (GTFS)",
@@ -1511,5 +1498,5 @@
    "note": "Access to jobs, education, healthcare, shops and leisure by walking, cycling, public transport and driving."
   }
  },
- "updated": "2026-11-02"
+ "updated": "2026-11-10"
 }

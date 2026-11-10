@@ -27,7 +27,7 @@ KINDS = [
     ('["amenity"="hospital"]["name"]', 'Hospital', '--ax-danger-500', 1),
 ]
 MAX_PLACES = 8
-BBOX = (53.34, -2.50, 53.53, -2.17)      # Trafford and its neighbours, plus central Manchester
+BBOX = (53.32, -2.50, 53.53, -1.98)      # Trafford and Stockport with their neighbours, plus central Manchester
 
 
 def overpass(query):

@@ -3,16 +3,18 @@ Corelain — Party Wall area pages (MKT-01 "township pages" + "local authority p
 
 Run from CRADAR/:  python3 src/seo/townships.py
 It writes:
-  src/html/party-wall-surveyors/<area>.html  one page per Trafford focus area
-  src/html/party-wall-surveyors/trafford.html the borough (local authority) hub
+  src/html/party-wall-surveyors/<area>.html  one page per focus area
+  src/html/party-wall-surveyors/<borough>.html one hub per borough with focus areas
   src/html/partials/pw-areas.html             "Areas we cover" strip (all pages)
   src/seo/sitemap.xml                         every indexable URL
   src/seo/llms.txt                            block between the AREAS markers
 
 Each page carries facts that are specific to the area (postcode, council,
 conservation areas, housing, typical projects) so the pages are not
-near-duplicates. Keep the facts checkable: designations come from Trafford
-Council's conservation area list.
+near-duplicates. Keep the facts checkable: designations come from each council's
+own conservation area list (Trafford Council; Stockport's open data CSVs).
+Everything that varies with the local authority — council name, planning register,
+ISO region — belongs in BOROUGHS, not in an `if borough ==` test.
 The area list must match FOCUS ids in src/js/data/areas.js.
 """
 import html
@@ -35,6 +37,26 @@ PW_URL = 'https://www.corelain.com/party-wall-surveyor-manchester'
 ENQUIRY = PW_URL + '#partywall-enquiry'
 TRAFFORD_PLANNING = 'https://pa.trafford.gov.uk/online-applications/'
 WARRINGTON_PLANNING = 'https://www.warrington.gov.uk/planning'
+STOCKPORT_PLANNING = 'https://planning.stockport.gov.uk/PlanningData-live/'
+
+# Everything that changes with the local authority. A borough listed here gets its
+# own hub page; areas carry the council name, planning register and ISO region from it.
+BOROUGHS = {
+    'Trafford': dict(council='Trafford Council', planning=TRAFFORD_PLANNING, region='GB-TRF',
+                     address_region='Greater Manchester',
+                     lead='Corelain\'s Party Wall surveyors cover the whole of Trafford, from Old Trafford, Stretford '
+                          'and Urmston to Timperley, Hale, Hale Barns and the villages around Dunham Massey. Choose '
+                          'your area for local advice on notices, awards and the projects we see most.'),
+    'Stockport': dict(council='Stockport Metropolitan Borough Council', planning=STOCKPORT_PLANNING, region='GB-SKP',
+                      address_region='Greater Manchester',
+                      lead='Corelain\'s Party Wall surveyors cover the whole of Stockport, from the Heatons and Cheadle '
+                           'to Offerton, Hazel Grove, Bramhall and Marple. Choose your area for local advice on notices, '
+                           'awards and the projects we see most.'),
+    'Warrington': dict(council='Warrington Borough Council', planning=WARRINGTON_PLANNING, region='GB-WRT',
+                       address_region='Cheshire',
+                       lead='Corelain\'s Party Wall surveyors cover Warrington.'),
+}
+HUB = lambda borough: '/party-wall-surveyors/' + borough.lower()
 
 # id, name, postcode, borough, geo (lat, lng), intro, housing, projects, conservation, notes, extra FAQ
 AREAS = [
@@ -126,8 +148,59 @@ AREAS = [
          notes='No conservation area in Urmston itself; Flixton Village Conservation Area is next door.',
          faq=[('Does removing a chimney breast in an Urmston terrace need a party wall notice?',
                'Usually. A chimney breast on a party wall is part of that wall, so removing it is work under section 2 and needs two months\' notice unless the neighbour agrees in writing.')]),
+    # ── Stockport ──────────────────────────────────────────────────────────────
+    # Conservation areas and Article 4 directions come from Stockport Council's own
+    # open data (Conservation_Areas_Stockport.csv, Article4_Dataset_Stockport.csv);
+    # housing mixes are the three-year sale shares collected for the area page.
+    dict(id='heaton-moor', name='Heaton Moor', pc='SK4', borough='Stockport', geo=(53.4227, -2.1843),
+         intro="Heaton Moor is a late-Victorian suburb of large villas and semi-detached houses north of Stockport, much of it inside a conservation area. Extensions, loft conversions and flat conversions here usually need conservation-area consent as well as a party wall notice.",
+         housing="Semi-detached houses are the most common sale, about four in ten over three years, and flats roughly three in ten — most of them in villas along and around Heaton Moor Road that were divided years ago. About three quarters of households own their home, and the Victorian pairs and terraces almost all share a party wall.",
+         projects=['Loft conversions', 'Rear and side extensions', 'Villa and flat conversions', 'Basement and cellar works'],
+         conservation=['Heaton Moor Conservation Area (designated 1989)', 'Mauldeth Road Conservation Area (designated 1989)'],
+         notes="Article 4 directions cover Heaton Moor Road and Mauldeth Road, so some works that would normally be permitted development need planning permission here as well as any party wall notices.",
+         faq=[('Does dividing a Heaton Moor villa into flats need a party wall notice?',
+               'Usually yes. New floors, sound insulation and steels bearing into the party wall are work under section 2 of the Act, which needs two months notice to each adjoining owner before it starts.')]),
+    dict(id='cheadle', name='Cheadle', pc='SK8', borough='Stockport', geo=(53.3920, -2.2004),
+         intro="Cheadle runs from the old village centre out to Gatley, mixing Victorian cottages and terraces with large interwar semi-detached estates. Rear extensions and loft conversions are the common party wall jobs here.",
+         housing="Semi-detached houses account for about half of sales over three years and terraces for a fifth, so most homes share at least one party wall. Around three quarters of households own their home.",
+         projects=['Single-storey rear extensions', 'Loft conversions', 'Two-storey side extensions', 'Garage conversions'],
+         conservation=['Cheadle Village Conservation Area (designated 1974)', 'Gatley Village Conservation Area (designated 1979)', 'Brooklyn Crescent Conservation Area (designated 1979)'],
+         notes="Article 4 directions apply in Cheadle Village and Brooklyn Crescent, where permitted development rights are restricted and alterations need planning permission.",
+         faq=[('Do I need a party wall notice for a rear extension in Cheadle?',
+               'If the extension involves cutting into the party wall, building astride the boundary, or excavating foundations within three metres of a neighbour deeper than theirs, yes. Most Cheadle semi-detached rear extensions meet at least one of those tests.')]),
+    dict(id='offerton', name='Offerton', pc='SK2', borough='Stockport', geo=(53.4035, -2.1270),
+         intro="Offerton sits east of Stockport town centre and is mostly postwar estate housing and Victorian terraces, built at high density. Party wall notices here most often follow rear extensions, loft conversions and chimney breast removal.",
+         housing="Semi-detached houses make up about half of sales over three years and terraces a further third, so shared walls are close to universal. About two thirds of households own their home, the lowest owner-occupied share of the Stockport areas we cover, and the rest rent privately or from a social landlord.",
+         projects=['Single-storey rear extensions', 'Loft conversions', 'Chimney breast removal', 'Structural alterations and steels'],
+         conservation=[],
+         notes="No conservation area covers Offerton, so the usual permitted development rights apply — but permitted development does not remove the duty to serve party wall notices.",
+         faq=[('My neighbour rents their Offerton house. Who gets the party wall notice?',
+               'The owner, not the tenant — though a tenant on a lease of more than a year is also an adjoining owner under the Act and must be served too. Where a house is let, serve both the landlord and any long leaseholder.')]),
+    dict(id='hazel-grove', name='Hazel Grove', pc='SK7', borough='Stockport', geo=(53.3797, -2.1212),
+         intro="Hazel Grove is a mixed suburb along the A6 south-east of Stockport, with Victorian terraces near the village and interwar and postwar semi-detached and detached streets around them. Extensions and loft conversions are the usual party wall work.",
+         housing="Semi-detached houses are about four in ten sales over three years, with detached and terraced homes close behind at roughly a quarter each. Eight in ten households own their home.",
+         projects=['Single-storey rear extensions', 'Loft conversions', 'Two-storey side extensions', 'New foundations near a boundary'],
+         conservation=[],
+         notes="Hazel Grove has no conservation area, so the Party Wall Act, not conservation consent, is usually the constraint to plan around.",
+         faq=[('Does a detached house in Hazel Grove ever need a party wall notice?',
+               'Yes. Even with no shared wall, excavating within three metres of a neighbouring building to a greater depth than its foundations needs a section 6 notice — which catches most extension and garden-room foundations near a boundary.')]),
+    dict(id='bramhall', name='Bramhall', pc='SK7', borough='Stockport', geo=(53.3630, -2.1623),
+         intro="Bramhall is Stockport's most expensive suburb, dominated by large detached houses on generous plots, with three conservation areas covering its best streets. Here party wall duties arise more from excavation near boundaries than from shared walls.",
+         housing="Detached houses are about half of all sales over three years and semi-detached houses under a third, so many homes share no party wall at all. Almost nine in ten households own their home. The usual trigger is section 6: foundations for an extension, pool or garden building dug close to a neighbouring structure.",
+         projects=['Large rear and wrap-around extensions', 'Basements and swimming pools', 'Outbuildings and garden rooms', 'Boundary excavation close to neighbours'],
+         conservation=['Bramall Park Conservation Area (designated 2005)', 'Bramhall Lane South Conservation Area (designated 2005)', 'Syddal Park Conservation Area (designated 2005)'],
+         notes="All three Bramhall conservation areas also carry Article 4 directions, so alterations that are permitted development elsewhere need planning permission here.",
+         faq=[('My Bramhall house is detached. Do I still need a party wall award?',
+               'Often yes. Section 6 of the Act applies to excavation within three metres of a neighbouring building that goes deeper than its foundations, whatever the house type, and most basement and pool projects in Bramhall are caught by it.')]),
+    dict(id='marple', name='Marple', pc='SK6', borough='Stockport', geo=(53.3971, -2.0634),
+         intro="Marple sits on the edge of the Peak District where the Peak Forest and Macclesfield canals meet, and has more conservation areas than anywhere else in Stockport. Extensions and conversions here usually need conservation-area consent alongside party wall notices.",
+         housing="Detached and semi-detached houses each make up about a third of sales over three years, with terraces a further fifth — many of them stone cottages in the older villages. Around five in six households own their home.",
+         projects=['Rear and side extensions', 'Loft conversions', 'Stone cottage alterations', 'Excavation on sloping plots'],
+         conservation=['Marple Bridge Conservation Area (designated 1974)', 'Compstall Conservation Area (designated 1974)', 'Mellor/Moorend Conservation Area (designated 1978)', 'Mill Brow Conservation Area (designated 1978)', 'Station Road/Winnington Road Conservation Area (designated 1988)', 'Peak Forest Canal Conservation Area (designated 2000)', 'Macclesfield Canal Conservation Area (designated 2000)', 'All Saints, Marple Conservation Area (designated 2005)'],
+         notes="Article 4 directions cover Marple Bridge, Compstall, Mill Brow, Station Road/Winnington Road and All Saints, so permitted development rights are restricted across much of the area.",
+         faq=[('Do the canal conservation areas affect party wall work in Marple?',
+               'They affect the planning side, not the Act itself. The Peak Forest and Macclesfield Canal conservation areas add consent requirements for what you build, while party wall notices are still decided by whether the work touches a shared wall or excavates near a neighbour.')]),
 ]
-
 ICO_PIN = '<path d="M9 11a3 3 0 1 0 6 0a3 3 0 0 0 -6 0"/><path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0"/>'
 ICO_EXT = '<path d="M12 6h-6a2 2 0 0 0 -2 2v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-6"/><path d="M11 13l9 -9"/><path d="M15 4h5v5"/>'
 ICO_ARROW = '<path d="M5 12l14 0"/><path d="M13 18l6 -6"/><path d="M13 6l6 6"/>'
@@ -250,16 +323,15 @@ def service_node(path, area_served):
 def area_page(a):
     path = f'/party-wall-surveyors/{a["id"]}'
     name, pc, borough = a['name'], a['pc'], a['borough']
-    council = f'{borough} Council' if borough == 'Trafford' else f'{borough} Borough Council'
-    planning = TRAFFORD_PLANNING if borough == 'Trafford' else WARRINGTON_PLANNING
+    b = BOROUGHS[borough]
+    council, planning = b['council'], b['planning']
     title = f'Party Wall Surveyors in {name} ({pc}) | Corelain'
     desc = (f'Party wall surveyors in {name}, {pc}: notices, schedules of condition and awards for '
             f'extensions, lofts and basements. For homeowners, neighbours and architects.')
     ca = a['conservation']
     ca_html = (''.join(f'<li>{e(c)}</li>' for c in ca) if ca else '<li class="is-none">None listed for this area</li>')
     qa = a['faq'] + pw_questions(name)
-    hub = 'Party Wall Surveyors in Trafford' if borough == 'Trafford' else 'Party Wall Surveyors'
-    trail = [('Near Me', '/'), (hub, '/party-wall-surveyors/trafford'), (name, None)]
+    trail = [('Near Me', '/'), (f'Party Wall Surveyors in {borough}', HUB(borough)), (name, None)]
 
     body = f'''          <!-- area at a glance (4) + local housing & projects (8) -->
           <section class="ax-card ax-col--4 cr-twn-facts" role="region" aria-labelledby="cr-twn-facts-title">
@@ -322,7 +394,7 @@ def area_page(a):
 
     place = {'@type': 'Place', 'name': f'{name}, {borough}',
              'address': {'@type': 'PostalAddress', 'addressLocality': name, 'postalCode': pc,
-                         'addressRegion': 'Greater Manchester' if borough == 'Trafford' else 'Cheshire', 'addressCountry': 'GB'},
+                         'addressRegion': b['address_region'], 'addressCountry': 'GB'},
              'geo': {'@type': 'GeoCoordinates', 'latitude': a['geo'][0], 'longitude': a['geo'][1]}}
     graph = [
         {'@type': 'WebPage', '@id': '{{siteUrl}}' + path + '#webpage', 'url': '{{siteUrl}}' + path,
@@ -339,26 +411,31 @@ def area_page(a):
     return path, page(path=path, title=title, desc=desc,
                       og_title=f'Party Wall Surveyors in {name} ({pc})', h1=f'Party Wall Surveyors in {name}',
                       eyebrow=f'Party Wall surveyors · {pc} · {borough}', lead=a['intro'], trail=trail, body=body,
-                      graph=graph, geo=a['geo'], region='GB-TRF' if borough == 'Trafford' else 'GB-WRT',
+                      graph=graph, geo=a['geo'], region=b['region'],
                       place=f'{name}, {borough}')
 
 
-def hub_page():
-    path = '/party-wall-surveyors/trafford'
-    title = 'Party Wall Surveyors in Trafford | Corelain'
-    desc = ('Party wall surveyors across Trafford: Old Trafford, Stretford, Sale, Hale, Hale Barns, Timperley, Urmston, '
-            'Partington, Carrington, Dunham Massey and Warburton. Notices, schedules of condition and awards.')
+def areas_in(borough):
+    return [a for a in AREAS if a['borough'] == borough]
+
+
+def hub_page(borough='Trafford'):
+    areas = areas_in(borough)
+    path = HUB(borough)
+    title = f'Party Wall Surveyors in {borough} | Corelain'
+    desc = (f'Party wall surveyors across {borough}: ' + ', '.join(a['name'] for a in areas[:-1]) +
+            f' and {areas[-1]["name"]}. Notices, schedules of condition and awards.')
     cards = ''.join(f'''
               <a class="cr-twn-card" href="/party-wall-surveyors/{a['id']}">
                 <span class="cr-twn-card__head"><b>{e(a['name'])}</b><span class="ax-badge ax-badge--soft ax-badge--neutral ax-badge--sm ax-num">{e(a['pc'])}</span></span>
                 <span class="cr-twn-card__text">{e(a['intro'])}</span>
                 <span class="cr-twn-card__more">Party Wall in {e(a['name'])} {svg(ICO_ARROW)}</span>
-              </a>''' for a in AREAS)
-    qa = pw_questions('Trafford')
-    trail = [('Near Me', '/'), ('Party Wall Surveyors in Trafford', None)]
+              </a>''' for a in areas)
+    qa = pw_questions(borough)
+    trail = [('Near Me', '/'), (f'Party Wall Surveyors in {borough}', None)]
     body = f'''          <section class="ax-card ax-col--12" role="region" aria-labelledby="cr-hub-areas-title">
             <div class="ax-card__header"><div class="ax-card__titles">
-              <span class="ax-card__eyebrow">Trafford areas</span>
+              <span class="ax-card__eyebrow">{e(borough)} areas</span>
               <h2 class="ax-card__title" id="cr-hub-areas-title">Party Wall advice by area</h2>
               <p class="ax-card__subtitle">Local housing, conservation areas and the projects we see most</p>
             </div></div>
@@ -366,14 +443,14 @@ def hub_page():
             </div></div>
           </section>
 
-          {{{{> pw-projects areaHtml='Trafford'}}}}
+          {{{{> pw-projects areaHtml='{e(borough)}'}}}}
           {{{{> pw-pros}}}}
-          {{{{> pw-notice areaHtml='Trafford'}}}}
+          {{{{> pw-notice areaHtml='{e(borough)}'}}}}
 
           <section class="ax-card ax-col--12" role="region" aria-labelledby="cr-twn-faq-title">
             <div class="ax-card__header"><div class="ax-card__titles">
               <span class="ax-card__eyebrow">Quick answers</span>
-              <h2 class="ax-card__title" id="cr-twn-faq-title">Party Wall questions in Trafford</h2>
+              <h2 class="ax-card__title" id="cr-twn-faq-title">Party Wall questions in {e(borough)}</h2>
               <p class="ax-card__subtitle">Based on the Party Wall etc. Act 1996</p>
             </div></div>
             <div class="ax-card__body cr-twn-faq" style="padding-top:0;">{faq_html(qa)}
@@ -386,24 +463,25 @@ def hub_page():
          'dateModified': '{{buildDate}}', 'publisher': org_ref()},
         {'@type': 'BreadcrumbList', 'itemListElement': [
             {'@type': 'ListItem', 'position': 1, 'name': 'Near Me', 'item': '{{siteUrl}}/'},
-            {'@type': 'ListItem', 'position': 2, 'name': 'Party Wall Surveyors in Trafford', 'item': '{{siteUrl}}' + path}]},
-        service_node(path, [{'@type': 'AdministrativeArea', 'name': 'Trafford'}] +
-                     [{'@type': 'Place', 'name': f'{a["name"]}, {a["borough"]}'} for a in AREAS]),
-        {'@type': 'ItemList', 'name': 'Party Wall surveyors by area in Trafford',
+            {'@type': 'ListItem', 'position': 2, 'name': f'Party Wall Surveyors in {borough}', 'item': '{{siteUrl}}' + path}]},
+        service_node(path, [{'@type': 'AdministrativeArea', 'name': borough}] +
+                     [{'@type': 'Place', 'name': f'{a["name"]}, {a["borough"]}'} for a in areas]),
+        {'@type': 'ItemList', 'name': f'Party Wall surveyors by area in {borough}',
          'itemListElement': [{'@type': 'ListItem', 'position': i + 1, 'name': a['name'],
-                              'url': '{{siteUrl}}/party-wall-surveyors/' + a['id']} for i, a in enumerate(AREAS)]},
+                              'url': '{{siteUrl}}/party-wall-surveyors/' + a['id']} for i, a in enumerate(areas)]},
         {'@type': 'FAQPage', '@id': '{{siteUrl}}' + path + '#faq',
          'mainEntity': [{'@type': 'Question', 'name': q, 'acceptedAnswer': {'@type': 'Answer', 'text': a_}} for q, a_ in qa]},
     ]
-    return path, page(path=path, title=title, desc=desc, og_title='Party Wall Surveyors in Trafford',
-                      h1='Party Wall Surveyors in Trafford', eyebrow='Party Wall surveyors · Trafford borough',
-                      lead=('Corelain\'s Party Wall surveyors cover the whole of Trafford, from Old Trafford, Stretford '
-                            'and Urmston to Timperley, Hale, Hale Barns and the villages around Dunham Massey. Choose '
-                            'your area for local advice on notices, awards and the projects we see most.'),
-                      trail=trail, body=body, graph=graph)
+    return path, page(path=path, title=title, desc=desc, og_title=f'Party Wall Surveyors in {borough}',
+                      h1=f'Party Wall Surveyors in {borough}', eyebrow=f'Party Wall surveyors · {borough} borough',
+                      lead=BOROUGHS[borough]['lead'], trail=trail, body=body, graph=graph)
 
 
 def areas_partial():
+    bs = hub_boroughs()
+    boroughs_label = ' and '.join([', '.join(bs[:-1]), bs[-1]]) if len(bs) > 1 else bs[0]
+    # emitted straight into .ax-card__header, which is the flex row that spaces them
+    hub_links = '\n    '.join(f'<a class="ax-btn ax-btn--link" href="{HUB(b)}">All {e(b)}</a>' for b in bs)
     links = ''.join(f'''
         <li><a class="cr-areas__chip" href="/party-wall-surveyors/{a['id']}">{svg(ICO_PIN)}<span>{e(a['name'])}</span><small class="ax-num">{e(a['pc'])}</small></a></li>'''
                     for a in AREAS)
@@ -413,11 +491,11 @@ def areas_partial():
 <section class="ax-card ax-col--{{{{#if col}}}}{{{{col}}}}{{{{else}}}}12{{{{/if}}}} cr-areas" role="region" aria-labelledby="cr-areas-title">
   <div class="ax-card__header">
     <div class="ax-card__titles">
-      <span class="ax-card__eyebrow">Trafford</span>
-      <h2 class="ax-card__title" id="cr-areas-title" data-cr-areas-title>Party Wall surveyors across Trafford</h2>
+      <span class="ax-card__eyebrow">Greater Manchester</span>
+      <h2 class="ax-card__title" id="cr-areas-title" data-cr-areas-title>Party Wall surveyors across {boroughs_label}</h2>
       <p class="ax-card__subtitle">Local Party Wall guides for each focus area</p>
     </div>
-    <a class="ax-btn ax-btn--link" href="/party-wall-surveyors/trafford">All Trafford</a>
+    {hub_links}
   </div>
   <div class="ax-card__body" style="padding-top:0;">
     <ul class="cr-areas__list" data-cr-areas-list>{links}
@@ -427,12 +505,21 @@ def areas_partial():
 '''
 
 
+def hub_boroughs():
+    """Boroughs with at least one focus area, in the order they appear in AREAS."""
+    out = []
+    for a in AREAS:
+        if a['borough'] not in out:
+            out.append(a['borough'])
+    return out
+
+
 def sitemap(paths):
     urls = ['  <url>\n    <loc>%SITE_URL%/</loc>\n    <lastmod>%BUILD_DATE%</lastmod>\n    <changefreq>weekly</changefreq>\n'
             '    <priority>1.0</priority>\n    <image:image>\n      <image:loc>%SITE_URL%/images/og-old-trafford.jpg</image:loc>\n'
             '    </image:image>\n  </url>']
     for p in paths:
-        prio = '0.9' if p.endswith('/trafford') else '0.8'
+        prio = '0.9' if p in {HUB(b) for b in hub_boroughs()} else '0.8'
         urls.append(f'  <url>\n    <loc>%SITE_URL%{p}</loc>\n    <lastmod>%BUILD_DATE%</lastmod>\n'
                     f'    <changefreq>monthly</changefreq>\n    <priority>{prio}</priority>\n  </url>')
     return ('<?xml version="1.0" encoding="UTF-8"?>\n<!-- GENERATED by src/seo/townships.py -->\n'
@@ -453,12 +540,12 @@ def llms_block():
            '',
            f'Party Wall service page: {PW_URL}',
            '',
-           '### Party Wall pages by area (Trafford)',
-           '',
-           '- Trafford (all areas): %SITE_URL%/party-wall-surveyors/trafford']
-    for a in AREAS:
-        ca = '; conservation areas: ' + ', '.join(a['conservation']) if a['conservation'] else ''
-        out.append(f'- {a["name"]} ({a["pc"]}, {a["borough"]}): %SITE_URL%/party-wall-surveyors/{a["id"]} — {a["intro"]}{ca}')
+           '### Party Wall pages by area']
+    for b in hub_boroughs():
+        out += ['', f'**{b}**', '', f'- {b} (all areas): %SITE_URL%{HUB(b)}']
+        for a in areas_in(b):
+            ca = '; conservation areas: ' + ', '.join(a['conservation']) if a['conservation'] else ''
+            out.append(f'- {a["name"]} ({a["pc"]}, {a["borough"]}): %SITE_URL%/party-wall-surveyors/{a["id"]} — {a["intro"]}{ca}')
     out += ['<!-- AREAS:END -->']
     return '\n'.join(out)
 
@@ -466,7 +553,8 @@ def llms_block():
 def main():
     OUT_DIR.mkdir(parents=True, exist_ok=True)
     paths = []
-    for builder in [hub_page] + [lambda a=a: area_page(a) for a in AREAS]:
+    builders = [lambda b=b: hub_page(b) for b in hub_boroughs()] + [lambda a=a: area_page(a) for a in AREAS]
+    for builder in builders:
         path, html_ = builder()
         (OUT_DIR / (path.rsplit('/', 1)[1] + '.html')).write_text(html_)
         paths.append(path)
