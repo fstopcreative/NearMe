@@ -574,6 +574,19 @@
   "news": {
    "value": [
     {
+     "title": "Three men charged after attempted burglaries in Stockport",
+     "excerpt": "",
+     "date": "10 Nov 2026",
+     "tag": "Local news",
+     "tone": "neutral",
+     "source": "Manchester Evening News – Stockport",
+     "domain": "manchestereveningnews.co.uk",
+     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/three-men-charged-after-attempted-34889268",
+     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34889296.ece/ALTERNATES/s615/0_IBP_NEC_260722police_02JPG.jpg",
+     "image_external": true,
+     "scope": "local"
+    },
+    {
      "title": "More than 850 homes to be built on Stockport countryside and playing fields",
      "excerpt": "",
      "date": "10 Nov 2026",
@@ -609,19 +622,6 @@
      "domain": "manchestereveningnews.co.uk",
      "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/house-near-stockport-beauty-spot-34877701",
      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34880355.ece/ALTERNATES/s615/0_JRP_MEN_071126_house_001JPG.jpg",
-     "image_external": true,
-     "scope": "local"
-    },
-    {
-     "title": "The Stockport streets where parents are afraid to take kids to the mosque",
-     "excerpt": "",
-     "date": "7 Nov 2026",
-     "tag": "Local news",
-     "tone": "neutral",
-     "source": "Manchester Evening News – Stockport",
-     "domain": "manchestereveningnews.co.uk",
-     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/stockport-streets-parents-afraid-take-34876174",
-     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34876298.ece/ALTERNATES/s615/1_Elaf-Mosque-break-in.jpg",
      "image_external": true,
      "scope": "local"
     },
