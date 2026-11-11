@@ -1,0 +1,167 @@
+STOCKPORT ALANLARINI GERİ GETİRME
+=================================
+Hazırlandı: 11 Kasım 2026
+
+Bu dosya, Stockport alanlarının siteden geçici olarak kaldırılmasıyla ilgili
+her şeyi tek yerde tutar. Geri getirmek isteyen doğrudan "3. GERİ GETİRME"
+bölümüne geçebilir.
+
+
+1. NE OLDU
+----------
+10 Kasım 2026'da Stockport'un 7 alanı siteye eklendi, ertesi gün geçici olarak
+yayından kaldırıldı. Kaldırma yalnızca SİTE tarafını kapsıyor; veri tarafına
+bilerek dokunulmadı.
+
+Kaldırılan 7 alan:
+  stockport (borough)  SK1-SK8
+  heaton-moor          SK4
+  cheadle              SK8
+  offerton             SK2
+  hazel-grove          SK7
+  bramhall             SK7
+  marple               SK6
+
+İlgili commit'ler (yeniden eskiye):
+  e42d269  build: rebuild dist after taking the Stockport areas off the site
+  e6d6872  Take the Stockport areas off the site for now   <-- revert edilecek commit
+  986056f  "99"  (Party Wall sayfaları)
+  f1d65c3  Zamanlanmış veri yenilemesinin Stockport işiyle merge'ü
+  9755478  "9"   (alanların eklenmesi)
+
+Etiket: stockport-v1  ->  4d36922
+        Kaldırmadan hemen önceki hal. Bir şey ters giderse buraya bakılabilir:
+            git show stockport-v1:src/js/data/areas.js
+
+
+2. NE KALDIRILDI, NE KORUNDU
+----------------------------
+KALDIRILAN (site tarafı, e6d6872 commit'i):
+  src/js/data/areas.js              7 alan satırı çıkarıldı (19 alan kaldı)
+  src/html/party-wall-surveyors/    7 HTML dosyası silindi (stockport hub dahil)
+  src/html/partials/pw-areas.html   "Areas we cover" şeridi Trafford'a döndü
+  src/seo/sitemap.xml               7 URL çıktı
+  src/seo/llms.txt                  Stockport bloğu çıktı
+  src/seo/townships.py              6 Stockport sayfa tanımı çıkarıldı
+
+KORUNAN (veri tarafı — bilerek dokunulmadı):
+  scripts/data/config/areas.json        26 alan (7'si Stockport)
+  scripts/data/config/rss-feeds.json    26 kural
+  public/data/areas/*.json              7 Stockport dosyası dahil
+  src/data/area-bounds.json             26 alanın harita sınırları
+  scripts/data/collectors/*.py          Stockport desteği (aşağıya bak)
+
+ÖNEMLİ SONUÇ: Alanlar areas.json'da durduğu için haftalık yenileme işi
+(.github/workflows/refresh-area-data.yml, Pazartesi 05:30 UTC ve ayın 23'ü
+06:30 UTC) Stockport verisini toplamaya DEVAM EDİYOR. Yani geri getirdiğinde
+veri güncel olacak, yeniden tur çalıştırman gerekmeyecek.
+
+Yan etkisi: public/data/areas/marple.json gibi adresler dışarıdan erişilebilir
+durumda. Siteden hiçbir yere link verilmiyor ama URL'i bilen açabilir. Bu
+bilinçli bir tercihti; istenmezse alanları areas.json'dan da çıkarmak gerekir
+(o zaman veri toplama da durur).
+
+
+3. GERİ GETİRME
+---------------
+Üç komut:
+
+    git revert e6d6872
+    python3 src/seo/townships.py
+    npm run build
+
+Birincisi areas.js, townships.py, sitemap, llms.txt ve pw-areas şeridini eski
+haline döndürür ve silinmiş 7 HTML dosyasını geri yazar. İkincisi sayfaları
+mevcut veriyle yeniden üretir (revert zaten dosyaları geri getirir, ama bu adım
+içeriğin güncel olmasını garantiler). Üçüncüsü dist'i tazeler.
+
+Sonra doğrula:
+
+    # 26 alan görünmeli
+    python3 -c "import json;print(len(json.load(open('scripts/data/config/areas.json'))['areas']))"
+    grep -c "name: '" src/js/data/areas.js          # 26 olmalı
+    ls src/html/party-wall-surveyors/ | wc -l       # 19 olmalı (2 hub + 17 alan)
+    grep -c "<url>" src/seo/sitemap.xml             # 20 olmalı
+
+    npm run dev
+    # http://localhost:5179/?area=marple                 -> Marple görünmeli
+    # http://localhost:5179/party-wall-surveyors/marple  -> 200
+    # http://localhost:5179/party-wall-surveyors/stockport -> 200 (hub)
+
+Son olarak commit + push. Push edilmeden Vercel'de hiçbir şey değişmez.
+
+
+4. BİLİNMESİ GEREKENLER
+-----------------------
+a) WARD ADI ÇAKIŞMASI — SİLİNMEMESİ GEREKEN DÜZELTME
+   Trafford'da da Stockport'ta da "Manor" adlı bir ward var. Eşleştirme kodu
+   eskiden sadece ward adına bakıyordu; bu yüzden Stockport eklenince Sale'in
+   fiyat ve nüfus verisi sessizce bozuluyordu. Düzeltme:
+       scripts/data/collectors/land_registry.py -> in_area()
+       ... and geo['lad'] == area['lad']
+   Bu satır Stockport kaldırılsa bile YERİNDE DURUYOR ve durmalı. Silinirse
+   hata geri gelir.
+
+b) DİĞER TOPLAYICI DEĞİŞİKLİKLERİ (hepsi yerinde, kaldırılmadı)
+   land_registry.py  STOCKPORT district'inin satışları çekiliyor
+   osm.py            BBOX doğuya genişletildi (-2.17 -> -1.98)
+   ukhpi.py          'Stockport': 'stockport' serisi
+   coal.py           Stockport borough zarfı (ONS LAD extent)
+   planning_data.py  Stockport borough extent polygon
+   conservation.py   Kurum id'si olmayan borough artık çökmüyor, merkez
+                     çemberine düşüyor
+
+c) EKSİK KALAN TEK ŞEY
+   conservation.py içindeki ORG tablosunda Stockport'un planning.data.gov.uk
+   kurum id'si yok (Trafford=347, Warrington=385). Eklenmesi gereken yer:
+       ORG = {'Trafford': 347, 'Warrington': 385}
+   Id'yi bulmak için (servis 10-11 Kasım'da 503 veriyordu, o yüzden alınamadı):
+       https://www.planning.data.gov.uk/entity.json?dataset=local-authority&name=Stockport
+   Eklenmezse Stockport borough görünümü, borough geneli koruma alanı listesi
+   yerine merkez etrafında 1,5 km yarıçap kullanır. Çalışır ama daha dardır.
+
+d) 404 VEREN URL'LER
+   7 Party Wall sayfası bir gün yayında kaldı ve sitemap'teydi; Google taramış
+   olabilir. Kaldırma sonrası 404 veriyorlar. İstenirse vercel.json'a GEÇİCİ
+   yönlendirme eklenebilir — kalıcı 301 DEĞİL, 302 ("permanent": false), çünkü
+   geri gelecekler. Geri getirirken o satırların silinmesi gerekir.
+
+e) KAPAK FOTOĞRAFLARI
+   7 alanın hiçbirine kapak fotoğrafı yüklenmedi; varsayılan görseli
+   kullanıyorlar. Admin panelinde "Cover photos" sekmesinden yüklenebilir.
+
+
+5. İÇERİK NEREDEN GELDİ (sayfaları düzenlemen gerekirse)
+--------------------------------------------------------
+Party Wall sayfalarındaki bilgiler uydurma değil, kaynağı var:
+
+  Koruma alanları ve tescil yılları
+      Stockport Konseyi açık verisi, 37 kayıt:
+      https://smbc-opendata.s3.eu-west-1.amazonaws.com/Conservation_Areas_Stockport.csv
+      Her alanın merkezi postcodes.io ile ward'a çevrilip doğru ilçeye atandı.
+      (Kutu/bbox ile atama yanlış sonuç veriyor — Marple'a Romiley düşüyor.)
+
+  Article 4 direktifleri (sayfalardaki "notes" satırları)
+      https://smbc-opendata.s3.eu-west-1.amazonaws.com/Article4/Article4_Dataset_Stockport.csv
+
+  Konut dokusu cümleleri
+      public/data/areas/<alan>.json içindeki price_by_type (3 yıllık satış
+      payları) ve tenure (ev sahipliği oranı).
+
+  Konsey ve planlama portalı
+      Stockport Metropolitan Borough Council
+      https://planning.stockport.gov.uk/PlanningData-live/
+
+  Koruma alanı olmayan iki alan: Offerton ve Hazel Grove. Sayfalarında
+  "None listed for this area" yazar; bu doğrudur, eksik veri değildir.
+
+
+6. YENİ BİR BOROUGH EKLENECEKSE
+-------------------------------
+townships.py artık borough'a göre genelleştirildi. Konsey adı, planlama
+portalı, ISO bölge kodu ve addressRegion tek bir yerde:
+    src/seo/townships.py -> BOROUGHS sözlüğü
+Oraya giriş yapılan her borough kendi hub sayfasını otomatik alır. Kod içine
+"if borough == 'Trafford'" tarzı kontrol EKLENMEMELİ.
+
+Alan ekleme adımlarının tamamı README.md "Adding an area" bölümünde.
