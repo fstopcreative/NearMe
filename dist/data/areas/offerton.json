@@ -602,28 +602,28 @@
      "near": "Hazel Grove"
     },
     {
-     "title": "Urgent appeal over missing Bury girl, 14, last seen five days ago",
+     "title": "Manchester trial day seven LIVE as nine men on trial after husband drugged and raped wife",
      "excerpt": "",
      "date": "10 Nov 2026",
      "tag": "Greater Manchester",
      "tone": "neutral",
      "source": "Manchester Evening News – Greater Manchester",
      "domain": "manchestereveningnews.co.uk",
-     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/urgent-appeal-over-missing-bury-34888150",
-     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34888217.ece/ALTERNATES/s615/0_ABR_MEN_101126_AMELIAMISSING.jpg",
+     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/manchester-trial-live-nine-men-34843691",
+     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34843737.ece/ALTERNATES/s615/3_Trial1.jpg",
      "image_external": true,
      "scope": "nearby"
     },
     {
-     "title": "St Helens sign hooker Forber from Wigan",
+     "title": "Three men charged after attempted burglaries in Stockport",
      "excerpt": "",
      "date": "10 Nov 2026",
      "tag": "Greater Manchester",
      "tone": "neutral",
-     "source": "BBC News – Manchester",
-     "domain": "bbc.co.uk",
-     "url": "https://www.bbc.co.uk/sport/rugby-league/articles/cjwy9y2xy5xqo?at_medium=RSS&at_campaign=rss",
-     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5768/live/a2f63190-dcde-11f1-a8e1-e3454837ffc6.jpg",
+     "source": "Manchester Evening News – Greater Manchester",
+     "domain": "manchestereveningnews.co.uk",
+     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/three-men-charged-after-attempted-34889268",
+     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34889296.ece/ALTERNATES/s615/0_IBP_NEC_260722police_02JPG.jpg",
      "image_external": true,
      "scope": "nearby"
     }
@@ -676,12 +676,88 @@
    "note": "Headlines and links only; RSS images are referenced from the publisher when supplied and are not copied."
   },
   "places": {
-   "value": null,
-   "period": null,
-   "geography": null,
-   "source": null,
-   "status": "error",
-   "note": "osm failed: Overpass unavailable: GET https://overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%5Btimeout%3A90%5D%3B%28nwr%5B%22railway%22%3D%22station%22%5D%5B%22name%"
+   "value": [
+    {
+     "name": "Woodlands Park",
+     "addr": "Offerton",
+     "type": "Park",
+     "dist_mi": 0.1,
+     "tone": "--ax-viz-emerald",
+     "ll": "53.40470,-2.12741",
+     "dist": "0.1 mi"
+    },
+    {
+     "name": "The Meadows",
+     "addr": "Offerton",
+     "type": "Hospital",
+     "dist_mi": 0.4,
+     "tone": "--ax-danger-500",
+     "ll": "53.39859,-2.12058",
+     "dist": "0.4 mi"
+    },
+    {
+     "name": "Woodbank Memorial Park",
+     "addr": "Offerton",
+     "type": "Park",
+     "dist_mi": 0.5,
+     "tone": "--ax-viz-emerald",
+     "ll": "53.41005,-2.13196",
+     "dist": "0.5 mi"
+    },
+    {
+     "name": "Bredbury Shops",
+     "addr": "Offerton",
+     "type": "Shopping centre",
+     "dist_mi": 0.9,
+     "tone": "--ax-viz-cyan",
+     "ll": "53.41672,-2.12215",
+     "dist": "0.9 mi"
+    },
+    {
+     "name": "Great Moor Library",
+     "addr": "Offerton",
+     "type": "Library",
+     "dist_mi": 1.1,
+     "tone": "--ax-viz-pink",
+     "ll": "53.38840,-2.13355",
+     "dist": "1.1 mi"
+    },
+    {
+     "name": "Woodsmoor",
+     "addr": "Offerton",
+     "type": "Train station",
+     "dist_mi": 1.3,
+     "tone": "--ax-viz-violet",
+     "ll": "53.38614,-2.14124",
+     "dist": "1.3 mi"
+    },
+    {
+     "name": "Stockport Museum",
+     "addr": "30-31 Market Place, Stockport, SK1 1ES",
+     "type": "Museum",
+     "dist_mi": 1.3,
+     "tone": "--ax-viz-amber",
+     "ll": "53.41158,-2.15624",
+     "dist": "1.3 mi"
+    },
+    {
+     "name": "Davenport",
+     "addr": "Offerton",
+     "type": "Train station",
+     "dist_mi": 1.4,
+     "tone": "--ax-viz-violet",
+     "ll": "53.39073,-2.15216",
+     "dist": "1.4 mi"
+    }
+   ],
+   "period": "Current map data",
+   "geography": "Within 2.5 km of the centre of Offerton",
+   "source": {
+    "name": "OpenStreetMap (© OpenStreetMap contributors)",
+    "url": "https://www.openstreetmap.org/copyright",
+    "licence": "Open Database Licence (ODbL)"
+   },
+   "status": "ok"
   },
   "planning_constraints": {
    "value": null,

@@ -661,6 +661,34 @@
      "near": "Hale"
     },
     {
+     "title": "Boy, 15, arrested on suspicion of knife possession after Timperley incident",
+     "excerpt": "",
+     "date": "10 Nov 2026",
+     "tag": "Nearby · Timperley",
+     "tone": "neutral",
+     "source": "Altrincham Today",
+     "domain": "altrincham.todaynews.co.uk",
+     "url": "https://altrincham.todaynews.co.uk/news/2026/11/10/boy-15-arrested-on-suspicion-of-knife-possession-after-timperley-incident/",
+     "image": "https://storage.ghost.io/c/09/ce/09cee984-fa22-44f2-a16f-e4d816e662de/content/images/2026/11/brook.png",
+     "image_external": true,
+     "scope": "nearby",
+     "near": "Timperley"
+    },
+    {
+     "title": "Altrincham man among 16 charged with violent disorder following football-related incident",
+     "excerpt": "",
+     "date": "10 Nov 2026",
+     "tag": "Nearby · Altrincham",
+     "tone": "neutral",
+     "source": "Altrincham Today",
+     "domain": "altrincham.todaynews.co.uk",
+     "url": "https://altrincham.todaynews.co.uk/news/2026/11/10/altrincham-man-among-16-charged-with-violent-disorder-following-football-related-incident/",
+     "image": "https://storage.ghost.io/c/09/ce/09cee984-fa22-44f2-a16f-e4d816e662de/content/images/2026/11/police-e1600072420681--1--1--1-.webp",
+     "image_external": true,
+     "scope": "nearby",
+     "near": "Altrincham"
+    },
+    {
      "title": "What are your Trafford neighbours planning? Latest applications revealed",
      "excerpt": "",
      "date": "10 Nov 2026",
@@ -673,34 +701,6 @@
      "image_external": true,
      "scope": "nearby",
      "near": "Altrincham"
-    },
-    {
-     "title": "Altrincham care home residents enjoy games afternoon with school pupils",
-     "excerpt": "",
-     "date": "9 Nov 2026",
-     "tag": "Nearby · Altrincham",
-     "tone": "neutral",
-     "source": "Messenger Newspapers",
-     "domain": "messengernewspapers.co.uk",
-     "url": "https://www.messengernewspapers.co.uk/news/26700058.altrincham-care-home-welcomes-pupils-games-afternoon/?ref=rss",
-     "image": "https://www.messengernewspapers.co.uk/resources/images/21671952/",
-     "image_external": true,
-     "scope": "nearby",
-     "near": "Altrincham"
-    },
-    {
-     "title": "New operator sought to revive fortunes of historic Bowdon pub",
-     "excerpt": "",
-     "date": "9 Nov 2026",
-     "tag": "Nearby · Bowdon",
-     "tone": "neutral",
-     "source": "Altrincham Today",
-     "domain": "altrincham.todaynews.co.uk",
-     "url": "https://altrincham.todaynews.co.uk/news/2026/11/09/new-operator-sought-to-revive-fortunes-of-historic-bowdon-pub/",
-     "image": "https://storage.ghost.io/c/09/ce/09cee984-fa22-44f2-a16f-e4d816e662de/content/images/2026/11/griffin.jpg",
-     "image_external": true,
-     "scope": "nearby",
-     "near": "Bowdon"
     }
    ],
    "period": "Publisher feeds checked 2026-11-10",

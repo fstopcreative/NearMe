@@ -1,1 +1,0 @@
-import{i as e}from"./track-BuDYnNOu.js";const t=()=>e("pw-"+(location.pathname.split("/").pop().replace(/\.html$/,"")||"trafford"));document.readyState==="loading"?document.addEventListener("DOMContentLoaded",t):t();
