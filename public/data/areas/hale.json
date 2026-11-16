@@ -756,42 +756,29 @@
   "news": {
    "value": [
     {
-     "title": "Former Con Club and Unagi team to open new Japanese and Thai restaurant in Hale",
+     "title": "Coronation Street and Hollyoaks stars revealed as Altrincham Christmas Lights Switch-On special guests",
      "excerpt": "",
-     "date": "2 Nov 2026",
-     "tag": "Local news",
-     "tone": "neutral",
-     "source": "Altrincham Today",
-     "domain": "altrincham.todaynews.co.uk",
-     "url": "https://altrincham.todaynews.co.uk/news/2026/11/02/former-con-club-and-unagi-team-to-open-new-japanese-and-thai-restaurant-in-hale/",
-     "image": "https://storage.ghost.io/c/09/ce/09cee984-fa22-44f2-a16f-e4d816e662de/content/images/2026/11/ea23a12a-0d3f-4bda-8fe3-7dcd3a22909b.jpg",
-     "image_external": true,
-     "scope": "local"
-    },
-    {
-     "title": "Altrincham man among 16 charged with violent disorder following football-related incident",
-     "excerpt": "",
-     "date": "10 Nov 2026",
+     "date": "16 Nov 2026",
      "tag": "Nearby · Altrincham",
      "tone": "neutral",
      "source": "Altrincham Today",
      "domain": "altrincham.todaynews.co.uk",
-     "url": "https://altrincham.todaynews.co.uk/news/2026/11/10/altrincham-man-among-16-charged-with-violent-disorder-following-football-related-incident/",
-     "image": "https://storage.ghost.io/c/09/ce/09cee984-fa22-44f2-a16f-e4d816e662de/content/images/2026/11/police-e1600072420681--1--1--1-.webp",
+     "url": "https://altrincham.todaynews.co.uk/news/2026/11/16/coronation-street-and-hollyoaks-stars-revealed-as-altrincham-christmas-lights-switch-on-special-guests/",
+     "image": "https://storage.ghost.io/c/09/ce/09cee984-fa22-44f2-a16f-e4d816e662de/content/images/2026/11/Santa-on-Christmas-Lights-Switch-on-Stage--1--1.jpg",
      "image_external": true,
      "scope": "nearby",
      "near": "Altrincham"
     },
     {
-     "title": "What are your Trafford neighbours planning? Latest applications revealed",
+     "title": "Global toy giant Lego buys Altrincham gaming studio",
      "excerpt": "",
-     "date": "10 Nov 2026",
+     "date": "16 Nov 2026",
      "tag": "Nearby · Altrincham",
      "tone": "neutral",
-     "source": "Messenger Newspapers",
-     "domain": "messengernewspapers.co.uk",
-     "url": "https://www.messengernewspapers.co.uk/news/26712480.trafford-planning-applications-include-plans-120-homes/?ref=rss",
-     "image": "https://www.messengernewspapers.co.uk/resources/images/18954988/",
+     "source": "Altrincham Today",
+     "domain": "altrincham.todaynews.co.uk",
+     "url": "https://altrincham.todaynews.co.uk/news/2026/11/16/global-toy-giant-lego-buys-altrincham-gaming-studio/",
+     "image": "https://storage.ghost.io/c/09/ce/09cee984-fa22-44f2-a16f-e4d816e662de/content/images/2026/11/forthstar.jpg",
      "image_external": true,
      "scope": "nearby",
      "near": "Altrincham"
@@ -825,7 +812,7 @@
      "near": "Bowdon"
     }
    ],
-   "period": "Publisher feeds checked 2026-11-10",
+   "period": "Publisher feeds checked 2026-11-16",
    "geography": "Hale",
    "source": {
     "name": "Local publisher RSS feeds",
@@ -857,8 +844,8 @@
      "url": "https://www.messengernewspapers.co.uk/news/rss/"
     }
    ],
-   "scope": "local",
-   "local_count": 1,
+   "scope": "nearby",
+   "local_count": 0,
    "nearby_count": 4,
    "note": "Headlines and links only; RSS images are referenced from the publisher when supplied and are not copied."
   },
@@ -1214,14 +1201,14 @@
       "line": "Purple Line",
       "from": "Altrincham",
       "to": "Etihad Campus",
-      "trips": 1062,
+      "trips": 610,
       "colour": "#7b2d8e"
      },
      {
       "line": "Green Line",
       "from": "Altrincham",
       "to": "Bury",
-      "trips": 692,
+      "trips": 302,
       "colour": "#6cbe45"
      }
     ],
@@ -1576,7 +1563,7 @@
     "tram_map": "https://tfgm.com/ways-to-travel/tram/network-map",
     "rail_reviewed": "2026-10-12"
    },
-   "period": "Timetable downloaded 2026-11-10",
+   "period": "Timetable downloaded 2026-11-16",
    "geography": "Stops within 1 km of the centre of Hale",
    "source": {
     "name": "TfGM bus and Metrolink timetables (GTFS)",
@@ -1640,13 +1627,13 @@
      }
     ]
    },
-   "period": "Latest inspections as at 30 September 2026",
+   "period": "Latest inspections as at 31 October 2026",
    "geography": "5 nearest state primary and secondary schools to the centre of Hale",
    "source": {
     "name": "Ofsted management information: state-funded schools, latest inspections",
     "url": "https://www.gov.uk/government/statistical-data-sets/monthly-management-information-ofsteds-school-inspections-outcomes",
     "licence": "Open Government Licence v3.0",
-    "file": "https://assets.publishing.service.gov.uk/media/6ad095a72de3184ccf8b818d/Management_information_-_state-funded_schools_-_latest_inspections_as_at_30_Sep_2026.csv"
+    "file": "https://assets.publishing.service.gov.uk/media/6af2dfeb8b63641b15a5c8ba/Management_information_-_state-funded_schools_-_latest_inspections_as_at_31_October_2026.csv"
    },
    "status": "ok",
    "method": "Indicative 0–10 score: Outstanding 10, Good 7.5, Requires improvement 5, Inadequate 2.5; report cards: Exceptional 10, Strong 8.5, Expected 7, Needs attention 4.5, Urgent improvement 2 (mean of the evaluation areas); inspections with no overall grade use the mean of their key judgements."
@@ -1726,5 +1713,5 @@
    "note": "Access to jobs, education, healthcare, shops and leisure by walking, cycling, public transport and driving."
   }
  },
- "updated": "2026-11-10"
+ "updated": "2026-11-16"
 }

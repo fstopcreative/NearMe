@@ -591,111 +591,111 @@
   "news": {
    "value": [
     {
-     "title": "Manchester trial day seven LIVE as nine men on trial after husband drugged and raped wife",
+     "title": "King Charles in Preston LIVE as monarch makes special visit to Lancashire - updates",
      "excerpt": "",
-     "date": "10 Nov 2026",
+     "date": "16 Nov 2026",
+     "tag": "Local news",
+     "tone": "neutral",
+     "source": "Manchester Evening News – Greater Manchester",
+     "domain": "manchestereveningnews.co.uk",
+     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/king-charles-preston-live-monarch-34916485",
+     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34917551.ece/ALTERNATES/s615/0_Royal-visit-to-LancashirejpgThe-King-meets-young-members-of-local-uniformed-services.jpg",
+     "image_external": true,
+     "scope": "local"
+    },
+    {
+     "title": "Manchester trial LIVE as court hears 'messages sent to husband who drugged and raped wife'",
+     "excerpt": "",
+     "date": "16 Nov 2026",
      "tag": "Local news",
      "tone": "neutral",
      "source": "Manchester Evening News – Greater Manchester",
      "domain": "manchestereveningnews.co.uk",
      "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/manchester-trial-live-nine-men-34843691",
-     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34843737.ece/ALTERNATES/s615/3_Trial1.jpg",
+     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34891708.ece/ALTERNATES/s615/0_Courtcomp1.jpg",
      "image_external": true,
      "scope": "local"
     },
     {
-     "title": "Three men charged after attempted burglaries in Stockport",
+     "title": "Manchester Piccadilly delays RECAP after major disruption hits passengers and trains cancelled",
      "excerpt": "",
-     "date": "10 Nov 2026",
+     "date": "16 Nov 2026",
      "tag": "Local news",
      "tone": "neutral",
      "source": "Manchester Evening News – Greater Manchester",
      "domain": "manchestereveningnews.co.uk",
-     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/three-men-charged-after-attempted-34889268",
-     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34889296.ece/ALTERNATES/s615/0_IBP_NEC_260722police_02JPG.jpg",
+     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/manchester-piccadilly-delays-live-major-34916801",
+     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34916808.ece/ALTERNATES/s615/0_JRP_MEN_070826_train_006JPG.jpg",
      "image_external": true,
      "scope": "local"
     },
     {
-     "title": "Carrick's Man Utd future to be decided at Wednesday meeting",
+     "title": "Man pleads GUILTY to murder of woman found dead in Rochdale flats",
      "excerpt": "",
-     "date": "10 Nov 2026",
-     "tag": "Local news",
-     "tone": "neutral",
-     "source": "BBC News – Manchester",
-     "domain": "bbc.co.uk",
-     "url": "https://www.bbc.co.uk/sport/football/articles/cmy0r041ed0po?at_medium=RSS&at_campaign=rss",
-     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9dcf/live/306777b0-dc8e-11f1-8a0c-79d3a3fe49e0.jpg",
-     "image_external": true,
-     "scope": "local"
-    },
-    {
-     "title": "Never seen conditions like it, says Alty's Kosylo",
-     "excerpt": "",
-     "date": "10 Nov 2026",
-     "tag": "Local news",
-     "tone": "neutral",
-     "source": "BBC News – Manchester",
-     "domain": "bbc.co.uk",
-     "url": "https://www.bbc.co.uk/sport/football/articles/cm3vqv272g7wo?at_medium=RSS&at_campaign=rss",
-     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1364/live/2720f990-dce5-11f1-a8e1-e3454837ffc6.jpg",
-     "image_external": true,
-     "scope": "local"
-    },
-    {
-     "title": "'Speeding' driver 'swerved and accelerated' to avoid hitting man's body in road, trial told",
-     "excerpt": "",
-     "date": "10 Nov 2026",
+     "date": "16 Nov 2026",
      "tag": "Local news",
      "tone": "neutral",
      "source": "Manchester Evening News – Greater Manchester",
      "domain": "manchestereveningnews.co.uk",
-     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/speeding-driver-swerved-accelerated-avoid-34887419",
-     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34888609.ece/ALTERNATES/s615/0_shah.jpg",
+     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/man-pleads-guilty-murder-woman-34918533",
+     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34013029.ece/ALTERNATES/s615/1_image-6.png",
      "image_external": true,
      "scope": "local"
     },
     {
-     "title": "Police name 16 men charged with violent disorder before Manchester United match",
+     "title": "UK airline that pledged to bring back 'golden age' at Manchester Airport goes bust",
      "excerpt": "",
-     "date": "10 Nov 2026",
-     "tag": "Local news",
-     "tone": "neutral",
-     "source": "Manchester Evening News – Greater Manchester",
-     "domain": "manchestereveningnews.co.uk",
-     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/police-name-16-men-charged-34888370",
-     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34888385.ece/ALTERNATES/s615/0_Manchester-United-v-AFC-Bournemouth-Premier-League-202627.jpg",
-     "image_external": true,
-     "scope": "local"
-    },
-    {
-     "title": "M6 and M60 traffic RECAP after drivers face long queues on motorways",
-     "excerpt": "",
-     "date": "10 Nov 2026",
+     "date": "16 Nov 2026",
      "tag": "Transport",
      "tone": "info",
      "source": "Manchester Evening News – Greater Manchester",
      "domain": "manchestereveningnews.co.uk",
-     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/m6-traffic-live-drivers-face-34888119",
-     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34888104.ece/ALTERNATES/s615/0_m6-37092-j22.jpg",
+     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/uk-airline-pledged-bring-back-34918463",
+     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34918515.ece/ALTERNATES/s615/0_Images-from-the-Global-Airlines-flight-from-Manchester-Airport-to-New-York-JFK-on-Wednesday-May-21.jpg",
      "image_external": true,
      "scope": "local"
     },
     {
-     "title": "Rush hour delays on M6 after vehicle fire",
+     "title": "GMP officer struck off after grabbing woman by neck in Manchester city centre attack",
      "excerpt": "",
-     "date": "10 Nov 2026",
+     "date": "16 Nov 2026",
+     "tag": "Local news",
+     "tone": "neutral",
+     "source": "Manchester Evening News – Greater Manchester",
+     "domain": "manchestereveningnews.co.uk",
+     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/gmp-officer-struck-after-grabbing-34918276",
+     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34918365.ece/ALTERNATES/s615/1_VCP_MEN_12062019_peter_street_011JPG.jpg",
+     "image_external": true,
+     "scope": "local"
+    },
+    {
+     "title": "The 'two-sided' estate on the edge of the M60 where a fatal fire has left locals heartbroken",
+     "excerpt": "",
+     "date": "16 Nov 2026",
      "tag": "Transport",
      "tone": "info",
-     "source": "BBC News – Manchester",
-     "domain": "bbc.co.uk",
-     "url": "https://www.bbc.co.uk/news/articles/cw05452pn025o?at_medium=RSS&at_campaign=rss",
-     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8bf3/live/93f9ab20-dcf4-11f1-9ef0-4b5930e2f80e.jpg",
+     "source": "Manchester Evening News – Greater Manchester",
+     "domain": "manchestereveningnews.co.uk",
+     "url": "https://www.manchestereveningnews.co.uk/news/two-sided-estate-edge-m60-34910443",
+     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34910454.ece/ALTERNATES/s615/0_Baguley-Crescent-street.jpg",
+     "image_external": true,
+     "scope": "local"
+    },
+    {
+     "title": "Jewish sports club slams protest against Israeli company hiring venue",
+     "excerpt": "",
+     "date": "16 Nov 2026",
+     "tag": "Local news",
+     "tone": "neutral",
+     "source": "Manchester Evening News – Greater Manchester",
+     "domain": "manchestereveningnews.co.uk",
+     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/jewish-sports-club-slams-protest-34917918",
+     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34918023.ece/ALTERNATES/s615/1_Untitled.jpg",
      "image_external": true,
      "scope": "local"
     }
    ],
-   "period": "Publisher feeds checked 2026-11-10",
+   "period": "Publisher feeds checked 2026-11-16",
    "geography": "Greater Manchester",
    "source": {
     "name": "Local publisher RSS feeds",
@@ -981,49 +981,49 @@
       "line": "Yellow Line",
       "from": "Eccles",
       "to": "Piccadilly",
-      "trips": 2199,
+      "trips": 1265,
       "colour": "#f5c400"
      },
      {
       "line": "Pink Line",
       "from": "East Didsbury",
       "to": "Rochdale Town Centre",
-      "trips": 1730,
+      "trips": 998,
       "colour": "#e94f8a"
      },
      {
       "line": "Blue Line",
       "from": "Ashton-under-Lyne",
       "to": "Bury",
-      "trips": 1176,
+      "trips": 672,
       "colour": "#0097d7"
      },
      {
       "line": "Red Line",
       "from": "Trafford Centre",
       "to": "Crumpsall",
-      "trips": 1158,
+      "trips": 662,
       "colour": "#e30613"
      },
      {
       "line": "Purple Line",
       "from": "Altrincham",
       "to": "Etihad Campus",
-      "trips": 1116,
+      "trips": 641,
       "colour": "#7b2d8e"
      },
      {
       "line": "Navy Line",
       "from": "Manchester Airport",
       "to": "Victoria",
-      "trips": 1091,
+      "trips": 627,
       "colour": "#283a8a"
      },
      {
       "line": "Green Line",
       "from": "Altrincham",
       "to": "Bury",
-      "trips": 776,
+      "trips": 329,
       "colour": "#6cbe45"
      }
     ],
@@ -1050,6 +1050,21 @@
        "Bee Network"
       ],
       "trips": 1612,
+      "school": false
+     },
+     {
+      "number": "1",
+      "from": "Blackburn",
+      "to": "Bolton",
+      "via": [
+       "Darwen",
+       "Astley Bridge"
+      ],
+      "operators": [
+       "Blackburn Bus Company",
+       "Bee Network"
+      ],
+      "trips": 1567,
       "school": false
      },
      {
@@ -1109,6 +1124,21 @@
        "Bee Network"
       ],
       "trips": 1032,
+      "school": false
+     },
+     {
+      "number": "464",
+      "from": "Accrington",
+      "to": "Ro",
+      "via": [
+       "Haslingden",
+       "Rawtenstall",
+       "Bacup"
+      ],
+      "operators": [
+       "Blackburn Bus Company"
+      ],
+      "trips": 934,
       "school": false
      },
      {
@@ -1228,21 +1258,6 @@
       "school": false
      },
      {
-      "number": "1",
-      "from": "Blackburn",
-      "to": "Bolton",
-      "via": [
-       "Darwen",
-       "Astley Bridge"
-      ],
-      "operators": [
-       "Blackburn Bus Company",
-       "Bee Network"
-      ],
-      "trips": 596,
-      "school": false
-     },
-     {
       "number": "199",
       "from": "Buxton",
       "to": "Manchester Airport",
@@ -1262,6 +1277,19 @@
        "Bee Network"
       ],
       "trips": 548,
+      "school": false
+     },
+     {
+      "number": "468",
+      "from": "Bury",
+      "to": "Rochdale",
+      "via": [
+       "Cutgate"
+      ],
+      "operators": [
+       "Bee Network"
+      ],
+      "trips": 543,
       "school": false
      },
      {
@@ -1288,6 +1316,19 @@
        "Bee Network"
       ],
       "trips": 524,
+      "school": false
+     },
+     {
+      "number": "467",
+      "from": "Bury",
+      "to": "Rochdale",
+      "via": [
+       "Daniel Fold"
+      ],
+      "operators": [
+       "Bee Network"
+      ],
+      "trips": 508,
       "school": false
      },
      {
@@ -1337,54 +1378,18 @@
       "school": false
      },
      {
-      "number": "471",
-      "from": "Bolton",
-      "to": "Rochdale",
-      "via": [
-       "Bury"
-      ],
-      "operators": [
-       "Bee Network"
-      ],
-      "trips": 462,
-      "school": false
-     },
-     {
-      "number": "409",
-      "from": "Rochdale",
-      "to": "Ashton",
+      "number": "11",
+      "from": "Stockport",
+      "to": "Altrincham",
       "via": [],
       "operators": [
        "Bee Network"
       ],
-      "trips": 458,
-      "school": false
-     },
-     {
-      "number": "84",
-      "from": "Manchester",
-      "to": "Uppermill",
-      "via": [],
-      "operators": [
-       "Bee Network"
-      ],
-      "trips": 450,
-      "school": false
-     },
-     {
-      "number": "125",
-      "from": "Preston",
-      "to": "Bolton",
-      "via": [],
-      "operators": [
-       "Stagecoach",
-       "Bee Network"
-      ],
-      "trips": 417,
+      "trips": 474,
       "school": false
      }
     ],
-    "bus_total": 600,
+    "bus_total": 601,
     "rail": [
      {
       "name": "Manchester Piccadilly",
@@ -1482,7 +1487,7 @@
     "tram_map": "https://tfgm.com/ways-to-travel/tram/network-map",
     "rail_reviewed": "2026-10-12"
    },
-   "period": "Timetable downloaded 2026-11-10",
+   "period": "Timetable downloaded 2026-11-16",
    "geography": "Whole Greater Manchester network",
    "source": {
     "name": "TfGM bus and Metrolink timetables (GTFS)",
@@ -1497,21 +1502,21 @@
     "score": 7.5,
     "schools": 1028,
     "mix": {
-     "outstanding": 66,
-     "good": 542,
-     "report": 182,
-     "below": 39,
-     "none": 199
+     "outstanding": 67,
+     "good": 518,
+     "report": 207,
+     "below": 40,
+     "none": 196
     },
     "nearest": []
    },
-   "period": "Latest inspections as at 30 September 2026",
+   "period": "Latest inspections as at 31 October 2026",
    "geography": "All state-funded primary and secondary schools in the ten Greater Manchester boroughs",
    "source": {
     "name": "Ofsted management information: state-funded schools, latest inspections",
     "url": "https://www.gov.uk/government/statistical-data-sets/monthly-management-information-ofsteds-school-inspections-outcomes",
     "licence": "Open Government Licence v3.0",
-    "file": "https://assets.publishing.service.gov.uk/media/6ad095a72de3184ccf8b818d/Management_information_-_state-funded_schools_-_latest_inspections_as_at_30_Sep_2026.csv"
+    "file": "https://assets.publishing.service.gov.uk/media/6af2dfeb8b63641b15a5c8ba/Management_information_-_state-funded_schools_-_latest_inspections_as_at_31_October_2026.csv"
    },
    "status": "ok",
    "method": "Indicative 0–10 score: Outstanding 10, Good 7.5, Requires improvement 5, Inadequate 2.5; report cards: Exceptional 10, Strong 8.5, Expected 7, Needs attention 4.5, Urgent improvement 2 (mean of the evaluation areas); inspections with no overall grade use the mean of their key judgements."
@@ -1572,5 +1577,5 @@
    "note": "Access to jobs, education, healthcare, shops and leisure by walking, cycling, public transport and driving."
   }
  },
- "updated": "2026-11-10"
+ "updated": "2026-11-16"
 }

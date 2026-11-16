@@ -744,29 +744,29 @@
   "news": {
    "value": [
     {
-     "title": "Altrincham man among 16 charged with violent disorder following football-related incident",
+     "title": "Coronation Street and Hollyoaks stars revealed as Altrincham Christmas Lights Switch-On special guests",
      "excerpt": "",
-     "date": "10 Nov 2026",
+     "date": "16 Nov 2026",
      "tag": "Nearby · Altrincham",
      "tone": "neutral",
      "source": "Altrincham Today",
      "domain": "altrincham.todaynews.co.uk",
-     "url": "https://altrincham.todaynews.co.uk/news/2026/11/10/altrincham-man-among-16-charged-with-violent-disorder-following-football-related-incident/",
-     "image": "https://storage.ghost.io/c/09/ce/09cee984-fa22-44f2-a16f-e4d816e662de/content/images/2026/11/police-e1600072420681--1--1--1-.webp",
+     "url": "https://altrincham.todaynews.co.uk/news/2026/11/16/coronation-street-and-hollyoaks-stars-revealed-as-altrincham-christmas-lights-switch-on-special-guests/",
+     "image": "https://storage.ghost.io/c/09/ce/09cee984-fa22-44f2-a16f-e4d816e662de/content/images/2026/11/Santa-on-Christmas-Lights-Switch-on-Stage--1--1.jpg",
      "image_external": true,
      "scope": "nearby",
      "near": "Altrincham"
     },
     {
-     "title": "What are your Trafford neighbours planning? Latest applications revealed",
+     "title": "Global toy giant Lego buys Altrincham gaming studio",
      "excerpt": "",
-     "date": "10 Nov 2026",
+     "date": "16 Nov 2026",
      "tag": "Nearby · Altrincham",
      "tone": "neutral",
-     "source": "Messenger Newspapers",
-     "domain": "messengernewspapers.co.uk",
-     "url": "https://www.messengernewspapers.co.uk/news/26712480.trafford-planning-applications-include-plans-120-homes/?ref=rss",
-     "image": "https://www.messengernewspapers.co.uk/resources/images/18954988/",
+     "source": "Altrincham Today",
+     "domain": "altrincham.todaynews.co.uk",
+     "url": "https://altrincham.todaynews.co.uk/news/2026/11/16/global-toy-giant-lego-buys-altrincham-gaming-studio/",
+     "image": "https://storage.ghost.io/c/09/ce/09cee984-fa22-44f2-a16f-e4d816e662de/content/images/2026/11/forthstar.jpg",
      "image_external": true,
      "scope": "nearby",
      "near": "Altrincham"
@@ -800,7 +800,7 @@
      "near": "Bowdon"
     }
    ],
-   "period": "Publisher feeds checked 2026-11-10",
+   "period": "Publisher feeds checked 2026-11-16",
    "geography": "Broadheath",
    "source": {
     "name": "Local publisher RSS feeds",
@@ -849,6 +849,15 @@
      "dist": "0.3 mi"
     },
     {
+     "name": "Woodstock Park",
+     "addr": "Broadheath",
+     "type": "Park",
+     "dist_mi": 0.5,
+     "tone": "--ax-viz-emerald",
+     "ll": "53.40257,-2.36359",
+     "dist": "0.5 mi"
+    },
+    {
      "name": "Navigation Road",
      "addr": "Broadheath",
      "type": "Train station",
@@ -864,15 +873,6 @@
      "dist_mi": 0.6,
      "tone": "--ax-viz-violet",
      "ll": "53.39577,-2.34333",
-     "dist": "0.6 mi"
-    },
-    {
-     "name": "Navigation Park",
-     "addr": "Broadheath",
-     "type": "Park",
-     "dist_mi": 0.6,
-     "tone": "--ax-viz-emerald",
-     "ll": "53.39746,-2.34535",
      "dist": "0.6 mi"
     },
     {
@@ -1513,7 +1513,7 @@
     "tram_map": "https://tfgm.com/ways-to-travel/tram/network-map",
     "rail_reviewed": "2026-10-12"
    },
-   "period": "Timetable downloaded 2026-11-10",
+   "period": "Timetable downloaded 2026-11-16",
    "geography": "Stops within 1 km of the centre of Broadheath",
    "source": {
     "name": "TfGM bus and Metrolink timetables (GTFS)",
@@ -1577,13 +1577,13 @@
      }
     ]
    },
-   "period": "Latest inspections as at 30 September 2026",
+   "period": "Latest inspections as at 31 October 2026",
    "geography": "5 nearest state primary and secondary schools to the centre of Broadheath",
    "source": {
     "name": "Ofsted management information: state-funded schools, latest inspections",
     "url": "https://www.gov.uk/government/statistical-data-sets/monthly-management-information-ofsteds-school-inspections-outcomes",
     "licence": "Open Government Licence v3.0",
-    "file": "https://assets.publishing.service.gov.uk/media/6ad095a72de3184ccf8b818d/Management_information_-_state-funded_schools_-_latest_inspections_as_at_30_Sep_2026.csv"
+    "file": "https://assets.publishing.service.gov.uk/media/6af2dfeb8b63641b15a5c8ba/Management_information_-_state-funded_schools_-_latest_inspections_as_at_31_October_2026.csv"
    },
    "status": "ok",
    "method": "Indicative 0–10 score: Outstanding 10, Good 7.5, Requires improvement 5, Inadequate 2.5; report cards: Exceptional 10, Strong 8.5, Expected 7, Needs attention 4.5, Urgent improvement 2 (mean of the evaluation areas); inspections with no overall grade use the mean of their key judgements."
@@ -1661,5 +1661,5 @@
    "note": "Access to jobs, education, healthcare, shops and leisure by walking, cycling, public transport and driving."
   }
  },
- "updated": "2026-11-10"
+ "updated": "2026-11-16"
 }

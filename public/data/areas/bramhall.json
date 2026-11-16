@@ -49,12 +49,23 @@
    "note": "Change in the average sold price; it moves with the mix of homes sold."
   },
   "aqma": {
-   "value": null,
-   "period": null,
-   "geography": null,
-   "source": null,
-   "status": "error",
-   "note": "planning_data failed: GET https://www.planning.data.gov.uk/entity.json?dataset=listed-building&limit=500&offset=0&geometry=POLYGON%28%28-2.478+53.357%2C+-2.253+53.357%2C+-2.253+53.48"
+   "value": {
+    "inside": [],
+    "nearby": [
+     {
+      "name": "Stockport AQMA",
+      "url": "https://uk-air.defra.gov.uk/aqma/details?aqma_ref="
+     }
+    ]
+   },
+   "period": "Current declarations",
+   "geography": "within 1.5 km of the centre of Bramhall",
+   "source": {
+    "name": "Defra air quality management areas (via Planning Data)",
+    "url": "https://www.planning.data.gov.uk/dataset/air-quality-management-area",
+    "licence": "Open Government Licence v3.0"
+   },
+   "status": "ok"
   },
   "average_price": {
    "value": 600562,
@@ -363,12 +374,46 @@
    "note": "Check a specific property with a coal mining report before buying."
   },
   "conservation_areas": {
-   "value": null,
-   "period": null,
-   "geography": null,
-   "source": null,
-   "status": "error",
-   "note": "conservation failed: GET https://www.planning.data.gov.uk/entity.json?organisation_entity=347&dataset=conservation-area&limit=100 failed: HTTP Error 503: Service Temporarily Unavail"
+   "value": {
+    "centre_inside": [
+     "Bramhall Lane South"
+    ],
+    "nearby": [
+     {
+      "name": "Bramhall Lane South",
+      "designated": "2005-01-01",
+      "distance_mi": 0.4,
+      "url": "https://www.planning.data.gov.uk/entity/44014584"
+     },
+     {
+      "name": "Syddal Park",
+      "designated": "2005-01-01",
+      "distance_mi": 0.6,
+      "url": "https://www.planning.data.gov.uk/entity/44014594"
+     },
+     {
+      "name": "Bramall Park",
+      "designated": "2005-01-01",
+      "distance_mi": 0.8,
+      "url": "https://www.planning.data.gov.uk/entity/44014580"
+     },
+     {
+      "name": "Swann Lane/Hulme Hall Road/Hill Top Avenue",
+      "designated": "1984-01-01",
+      "distance_mi": 1.2,
+      "url": "https://www.planning.data.gov.uk/entity/44014611"
+     }
+    ],
+    "count": 4
+   },
+   "period": "Current designations",
+   "geography": "Bramhall — within 1.5 km of the centre",
+   "source": {
+    "name": "Planning Data — conservation areas (MHCLG)",
+    "url": "https://www.planning.data.gov.uk/dataset/conservation-area",
+    "licence": "Open Government Licence v3.0"
+   },
+   "status": "ok"
   },
   "crime_groups": {
    "value": [
@@ -440,12 +485,63 @@
    "note": "Police recorded crime excluding fraud. Greater Manchester Police does not publish street-level data to police.uk, so this is a borough-wide figure."
   },
   "development_sites": {
-   "value": null,
-   "period": null,
-   "geography": null,
-   "source": null,
-   "status": "error",
-   "note": "planning_data failed: GET https://www.planning.data.gov.uk/entity.json?dataset=listed-building&limit=500&offset=0&geometry=POLYGON%28%28-2.478+53.357%2C+-2.253+53.357%2C+-2.253+53.48"
+   "value": {
+    "count": 4,
+    "homes": 31,
+    "hectares": 0.8,
+    "permissioned": 4,
+    "sites": [
+     {
+      "name": "Tudor House, First Floor 29- 31 Woodford Road, Bramhall, Stockport, SK7 1JN",
+      "ref": "SKB0106",
+      "homes": 9,
+      "hectares": 0.11,
+      "status": "Permission granted",
+      "permission_date": "2019-10-02",
+      "distance_mi": 0.5,
+      "url": "https://www.stockport.gov.uk/brownfield/brownfield-land-register"
+     },
+     {
+      "name": "Clarendon House, 38 Carrwood Road, Bramhall, Stockport, SK7 3LR",
+      "ref": "SKB0104",
+      "homes": 9,
+      "hectares": 0.29,
+      "status": "Permission granted",
+      "permission_date": "2019-12-17",
+      "distance_mi": 0.7,
+      "url": "https://www.stockport.gov.uk/brownfield/brownfield-land-register"
+     },
+     {
+      "name": "30 Manor Road, Bramhall, Stockport, SK7 3LY",
+      "ref": "SKB0085",
+      "homes": 7,
+      "hectares": 0.23,
+      "status": "Permission granted",
+      "permission_date": "2018-08-07",
+      "distance_mi": 0.8,
+      "url": "https://www.stockport.gov.uk/brownfield/brownfield-land-register"
+     },
+     {
+      "name": "Mercury Garage, 185 Moss Lane, Bramhall, Stockport, SK7 1BA",
+      "ref": "SKB0001",
+      "homes": 6,
+      "hectares": 0.14,
+      "status": "Permission granted",
+      "permission_date": "2017-03-30",
+      "distance_mi": 0.5,
+      "url": "https://www.stockport.gov.uk/brownfield/brownfield-land-register"
+     }
+    ]
+   },
+   "period": "Council brownfield land registers (entries up to 2020-12)",
+   "geography": "within 1.5 km of the centre of Bramhall",
+   "source": {
+    "name": "Planning Data — brownfield land registers (MHCLG)",
+    "url": "https://www.planning.data.gov.uk/dataset/brownfield-land",
+    "licence": "Open Government Licence v3.0"
+   },
+   "status": "ok",
+   "note": "Sites councils consider suitable for housing; capacity is the maximum net number of homes where stated."
   },
   "earnings": {
    "value": {
@@ -469,12 +565,22 @@
    "note": "Median gross annual pay of full-time employees living in the area (ONS ASHE, resident analysis)."
   },
   "flood_zones": {
-   "value": null,
-   "period": null,
-   "geography": null,
-   "source": null,
-   "status": "error",
-   "note": "planning_data failed: GET https://www.planning.data.gov.uk/entity.json?dataset=listed-building&limit=500&offset=0&geometry=POLYGON%28%28-2.478+53.357%2C+-2.253+53.357%2C+-2.253+53.48"
+   "value": {
+    "centre_zone": 1,
+    "zone2_nearby": 2,
+    "zone3_nearby": 2,
+    "radius_km": 1.0,
+    "borough": false
+   },
+   "period": "Current flood map for planning",
+   "geography": "Centre of Bramhall and land within 1 km",
+   "source": {
+    "name": "Environment Agency Flood Zones 2 and 3 (via Planning Data)",
+    "url": "https://www.planning.data.gov.uk/dataset/flood-risk-zone",
+    "licence": "Open Government Licence v3.0"
+   },
+   "status": "ok",
+   "note": "Flood Zone 1 = low probability, 2 = medium, 3 = high (rivers and the sea). Surface water risk is not included."
   },
   "ground": {
    "value": {
@@ -574,74 +680,61 @@
   "news": {
    "value": [
     {
-     "title": "Restorations at treasured Stockport manor complete after two years - and just in time for Christmas",
+     "title": "Police issue update on serious incident in Cheadle as woman left seriously hurt",
      "excerpt": "",
-     "date": "6 Nov 2026",
-     "tag": "Local news",
+     "date": "12 Nov 2026",
+     "tag": "Nearby · Cheadle",
      "tone": "neutral",
-     "source": "Manchester Evening News – Bramhall",
+     "source": "Manchester Evening News – Stockport",
      "domain": "manchestereveningnews.co.uk",
-     "url": "https://www.manchestereveningnews.co.uk/whats-on/whats-on-news/restorations-treasured-stockport-manor-complete-34868758",
-     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34869082.ece/ALTERNATES/s615/1_Bramall-HallJPG.jpg",
-     "image_external": true,
-     "scope": "local"
-    },
-    {
-     "title": "Police probe whether 'kids letting off fireworks' sparked huge fire at former Carpetright store in Stockport",
-     "excerpt": "",
-     "date": "8 Nov 2026",
-     "tag": "Nearby · Hazel Grove",
-     "tone": "neutral",
-     "source": "Manchester Evening News – Hazel Grove",
-     "domain": "manchestereveningnews.co.uk",
-     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/police-probe-whether-kids-letting-34880677",
-     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34880680.ece/ALTERNATES/s615/1_image0-1jpeg.jpg",
+     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/police-issue-update-serious-incident-34900785",
+     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34897325.ece/ALTERNATES/s615/0_WhatsApp-Image-2026-11-11-at-135152-1jpeg.jpg",
      "image_external": true,
      "scope": "nearby",
-     "near": "Hazel Grove"
+     "near": "Cheadle"
     },
     {
-     "title": "Carpetright fire as huge blaze breaks out at Stockport store",
+     "title": "Cheadle incident RECAP as High Street cordoned off amid serious police incident",
      "excerpt": "",
-     "date": "6 Nov 2026",
-     "tag": "Nearby · Hazel Grove",
+     "date": "11 Nov 2026",
+     "tag": "Nearby · Cheadle",
      "tone": "neutral",
-     "source": "Manchester Evening News – Hazel Grove",
+     "source": "Manchester Evening News – Stockport",
      "domain": "manchestereveningnews.co.uk",
-     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/hazel-grove-fire-live-former-34876526",
-     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34876531.ece/ALTERNATES/s615/1_image0-1jpeg.jpg",
+     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/cheadle-incident-live-high-street-34896762",
+     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34897059.ece/ALTERNATES/s615/1_WhatsApp-Image-2026-11-11-at-135152-2jpeg.jpg",
      "image_external": true,
      "scope": "nearby",
-     "near": "Hazel Grove"
+     "near": "Cheadle"
     },
     {
-     "title": "Manchester trial day seven LIVE as nine men on trial after husband drugged and raped wife",
+     "title": "King Charles in Preston LIVE as monarch makes special visit to Lancashire - updates",
      "excerpt": "",
-     "date": "10 Nov 2026",
+     "date": "16 Nov 2026",
      "tag": "Greater Manchester",
      "tone": "neutral",
      "source": "Manchester Evening News – Greater Manchester",
      "domain": "manchestereveningnews.co.uk",
-     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/manchester-trial-live-nine-men-34843691",
-     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34843737.ece/ALTERNATES/s615/3_Trial1.jpg",
+     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/king-charles-preston-live-monarch-34916485",
+     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34917551.ece/ALTERNATES/s615/0_Royal-visit-to-LancashirejpgThe-King-meets-young-members-of-local-uniformed-services.jpg",
      "image_external": true,
      "scope": "nearby"
     },
     {
-     "title": "Three men charged after attempted burglaries in Stockport",
+     "title": "2 lucky North West postcode wins in today's Postcode Lottery draw",
      "excerpt": "",
-     "date": "10 Nov 2026",
+     "date": "16 Nov 2026",
      "tag": "Greater Manchester",
      "tone": "neutral",
-     "source": "Manchester Evening News – Greater Manchester",
-     "domain": "manchestereveningnews.co.uk",
-     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/three-men-charged-after-attempted-34889268",
-     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34889296.ece/ALTERNATES/s615/0_IBP_NEC_260722police_02JPG.jpg",
+     "source": "Messenger Newspapers",
+     "domain": "messengernewspapers.co.uk",
+     "url": "https://www.messengernewspapers.co.uk/news/26733053.2-lucky-north-west-postcode-wins-todays-postcode-lottery-draw/?ref=rss",
+     "image": "https://www.messengernewspapers.co.uk/resources/images/20737861/",
      "image_external": true,
      "scope": "nearby"
     }
    ],
-   "period": "Publisher feeds checked 2026-11-10",
+   "period": "Publisher feeds checked 2026-11-16",
    "geography": "Bramhall",
    "source": {
     "name": "Local publisher RSS feeds",
@@ -688,8 +781,8 @@
      "url": "https://feeds.bbci.co.uk/news/england/manchester/rss.xml"
     }
    ],
-   "scope": "local",
-   "local_count": 1,
+   "scope": "nearby",
+   "local_count": 0,
    "nearby_count": 4,
    "note": "Headlines and links only; RSS images are referenced from the publisher when supplied and are not copied."
   },
@@ -760,12 +853,58 @@
    "status": "ok"
   },
   "planning_constraints": {
-   "value": null,
-   "period": null,
-   "geography": null,
-   "source": null,
-   "status": "error",
-   "note": "planning_data failed: GET https://www.planning.data.gov.uk/entity.json?dataset=listed-building&limit=500&offset=0&geometry=POLYGON%28%28-2.478+53.357%2C+-2.253+53.357%2C+-2.253+53.48"
+   "value": [
+    {
+     "label": "Listed buildings",
+     "meta": "Grade I: 1 · Grade II: 9",
+     "value": "10"
+    },
+    {
+     "label": "Green Belt",
+     "meta": "Centre of the area",
+     "value": "No"
+    },
+    {
+     "label": "Article 4 directions",
+     "meta": "Bramall Park, Bramhall Lane South, Swann Lane/Hulme Hall Rd, Syddal Park",
+     "value": "4"
+    },
+    {
+     "label": "Tree preservation zones",
+     "meta": null,
+     "value": "177"
+    },
+    {
+     "label": "Scheduled monuments",
+     "meta": null,
+     "value": "0"
+    }
+   ],
+   "period": "Current designations",
+   "geography": "within 1.5 km of the centre of Bramhall",
+   "source": {
+    "name": "Planning Data — listed buildings, Article 4, Green Belt, TPO, scheduled monuments (MHCLG / Historic England)",
+    "url": "https://www.planning.data.gov.uk/",
+    "licence": "Open Government Licence v3.0"
+   },
+   "status": "ok",
+   "listed": {
+    "total": 10,
+    "I": 1,
+    "II*": 0,
+    "II": 9,
+    "notable": [
+     {
+      "name": "Bramall Hall",
+      "grade": "I",
+      "url": "https://historicengland.org.uk/listing/the-list/list-entry/1260476"
+     }
+    ]
+   },
+   "green_belt": false,
+   "article4": 4,
+   "tpo": 177,
+   "scheduled_monuments": 0
   },
   "population": {
    "value": {
@@ -1143,7 +1282,7 @@
     "tram_map": "https://tfgm.com/ways-to-travel/tram/network-map",
     "rail_reviewed": "2026-10-12"
    },
-   "period": "Timetable downloaded 2026-11-10",
+   "period": "Timetable downloaded 2026-11-16",
    "geography": "Stops within 1 km of the centre of Bramhall",
    "source": {
     "name": "TfGM bus and Metrolink timetables (GTFS)",
@@ -1190,30 +1329,30 @@
       "url": ""
      },
      {
-      "name": "Hursthead Junior School",
-      "phase": "Primary",
-      "distance_mi": 0.8,
-      "grade": "Good",
-      "date": "2023-05-25",
-      "url": ""
-     },
-     {
       "name": "Hursthead Infant School",
       "phase": "Primary",
       "distance_mi": 0.8,
       "grade": "Good",
       "date": "2024-01-18",
       "url": ""
+     },
+     {
+      "name": "Hursthead Junior School",
+      "phase": "Primary",
+      "distance_mi": 0.8,
+      "grade": "Good",
+      "date": "2023-05-25",
+      "url": ""
      }
     ]
    },
-   "period": "Latest inspections as at 30 September 2026",
+   "period": "Latest inspections as at 31 October 2026",
    "geography": "5 nearest state primary and secondary schools to the centre of Bramhall",
    "source": {
     "name": "Ofsted management information: state-funded schools, latest inspections",
     "url": "https://www.gov.uk/government/statistical-data-sets/monthly-management-information-ofsteds-school-inspections-outcomes",
     "licence": "Open Government Licence v3.0",
-    "file": "https://assets.publishing.service.gov.uk/media/6ad095a72de3184ccf8b818d/Management_information_-_state-funded_schools_-_latest_inspections_as_at_30_Sep_2026.csv"
+    "file": "https://assets.publishing.service.gov.uk/media/6af2dfeb8b63641b15a5c8ba/Management_information_-_state-funded_schools_-_latest_inspections_as_at_31_October_2026.csv"
    },
    "status": "ok",
    "method": "Indicative 0–10 score: Outstanding 10, Good 7.5, Requires improvement 5, Inadequate 2.5; report cards: Exceptional 10, Strong 8.5, Expected 7, Needs attention 4.5, Urgent improvement 2 (mean of the evaluation areas); inspections with no overall grade use the mean of their key judgements."
@@ -1302,5 +1441,5 @@
    "note": "Access to jobs, education, healthcare, shops and leisure by walking, cycling, public transport and driving."
   }
  },
- "updated": "2026-11-10"
+ "updated": "2026-11-16"
 }

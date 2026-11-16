@@ -636,63 +636,62 @@
   "news": {
    "value": [
     {
-     "title": "What are your Trafford neighbours planning? Latest applications revealed",
+     "title": "Take a look inside this transformed three-bedroom family home in Sale",
      "excerpt": "",
-     "date": "10 Nov 2026",
+     "date": "15 Nov 2026",
      "tag": "Nearby · Sale",
      "tone": "neutral",
      "source": "Messenger Newspapers",
      "domain": "messengernewspapers.co.uk",
-     "url": "https://www.messengernewspapers.co.uk/news/26712480.trafford-planning-applications-include-plans-120-homes/?ref=rss",
-     "image": "https://www.messengernewspapers.co.uk/resources/images/18954988/",
+     "url": "https://www.messengernewspapers.co.uk/news/26726118.renovated-detached-house-sale-market-575-000/?ref=rss",
+     "image": "https://www.messengernewspapers.co.uk/resources/images/21712954/",
      "image_external": true,
      "scope": "nearby",
      "near": "Sale"
     },
     {
-     "title": "New Urmston wellness centre opens offering range of therapies under one roof",
+     "title": "Her parents were told she would never walk, now she's going down mountains at 80mph",
      "excerpt": "",
-     "date": "9 Nov 2026",
+     "date": "15 Nov 2026",
      "tag": "Nearby · Urmston",
      "tone": "neutral",
-     "source": "Messenger Newspapers",
-     "domain": "messengernewspapers.co.uk",
-     "url": "https://www.messengernewspapers.co.uk/news/26703610.urmston-therapy-centre-opens-offering-range-treatments/?ref=rss",
-     "image": "https://www.messengernewspapers.co.uk/resources/images/21676719/",
+     "source": "Manchester Evening News – Trafford",
+     "domain": "manchestereveningnews.co.uk",
+     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/parents-were-told-would-never-34904232",
+     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34904377.ece/ALTERNATES/s615/656352843_18159401728437028_5420242844939975353_n.jpg",
      "image_external": true,
      "scope": "nearby",
      "near": "Urmston"
     },
     {
-     "title": "Take a look inside this Urmston home packed with period features",
+     "title": "Stretford set for festive fun as Christmas lights switch-on returns this weekend",
      "excerpt": "",
-     "date": "8 Nov 2026",
-     "tag": "Nearby · Urmston",
+     "date": "13 Nov 2026",
+     "tag": "Nearby · Stretford",
      "tone": "neutral",
      "source": "Messenger Newspapers",
      "domain": "messengernewspapers.co.uk",
-     "url": "https://www.messengernewspapers.co.uk/news/26694515.four-storey-edwardian-home-urmston-sale-675-000/?ref=rss",
-     "image": "https://www.messengernewspapers.co.uk/resources/images/21664589/",
+     "url": "https://www.messengernewspapers.co.uk/news/26723593.stretford-christmas-lights-switch-on-set-saturday/?ref=rss",
+     "image": "https://www.messengernewspapers.co.uk/resources/images/21639835/",
      "image_external": true,
      "scope": "nearby",
-     "near": "Urmston"
+     "near": "Stretford"
     },
     {
-     "title": "Urmston Choral Society to spread Christmas cheer with two festive concerts",
+     "title": "Welcome to Altrincham's secret run club, where the sound of fireworks are a grim reminder",
      "excerpt": "",
-     "date": "3 Nov 2026",
-     "tag": "Nearby · Flixton",
+     "date": "14 Nov 2026",
+     "tag": "Nearby news",
      "tone": "neutral",
-     "source": "Messenger Newspapers",
-     "domain": "messengernewspapers.co.uk",
-     "url": "https://www.messengernewspapers.co.uk/news/26692319.urmston-choral-society-perform-two-christmas-concerts/?ref=rss",
-     "image": "https://www.messengernewspapers.co.uk/resources/images/21661564/",
+     "source": "Manchester Evening News – Sale",
+     "domain": "manchestereveningnews.co.uk",
+     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/welcome-altrinchams-secret-run-club-34875961",
+     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34876043.ece/ALTERNATES/s615/0_The-Refugee-Run-Club.jpg",
      "image_external": true,
-     "scope": "nearby",
-     "near": "Flixton"
+     "scope": "nearby"
     }
    ],
-   "period": "Publisher feeds checked 2026-11-10",
+   "period": "Publisher feeds checked 2026-11-16",
    "geography": "Ashton upon Mersey",
    "source": {
     "name": "Local publisher RSS feeds",
@@ -704,7 +703,8 @@
     "Messenger Newspapers",
     "Manchester Evening News – Trafford",
     "Manchester Evening News – Sale",
-    "Altrincham Today"
+    "Altrincham Today",
+    "Manchester Evening News – Urmston"
    ],
    "feed_links": [
     {
@@ -722,6 +722,10 @@
     {
      "name": "Altrincham Today",
      "url": "https://altrincham.todaynews.co.uk/feed/"
+    },
+    {
+     "name": "Manchester Evening News – Urmston",
+     "url": "https://www.manchestereveningnews.co.uk/all-about/urmston?service=rss"
     }
    ],
    "scope": "nearby",
@@ -1253,7 +1257,7 @@
     "tram_map": "https://tfgm.com/ways-to-travel/tram/network-map",
     "rail_reviewed": "2026-10-12"
    },
-   "period": "Timetable downloaded 2026-11-10",
+   "period": "Timetable downloaded 2026-11-16",
    "geography": "Stops within 1 km of the centre of Ashton upon Mersey",
    "source": {
     "name": "TfGM bus and Metrolink timetables (GTFS)",
@@ -1317,13 +1321,13 @@
      }
     ]
    },
-   "period": "Latest inspections as at 30 September 2026",
+   "period": "Latest inspections as at 31 October 2026",
    "geography": "5 nearest state primary and secondary schools to the centre of Ashton upon Mersey",
    "source": {
     "name": "Ofsted management information: state-funded schools, latest inspections",
     "url": "https://www.gov.uk/government/statistical-data-sets/monthly-management-information-ofsteds-school-inspections-outcomes",
     "licence": "Open Government Licence v3.0",
-    "file": "https://assets.publishing.service.gov.uk/media/6ad095a72de3184ccf8b818d/Management_information_-_state-funded_schools_-_latest_inspections_as_at_30_Sep_2026.csv"
+    "file": "https://assets.publishing.service.gov.uk/media/6af2dfeb8b63641b15a5c8ba/Management_information_-_state-funded_schools_-_latest_inspections_as_at_31_October_2026.csv"
    },
    "status": "ok",
    "method": "Indicative 0–10 score: Outstanding 10, Good 7.5, Requires improvement 5, Inadequate 2.5; report cards: Exceptional 10, Strong 8.5, Expected 7, Needs attention 4.5, Urgent improvement 2 (mean of the evaluation areas); inspections with no overall grade use the mean of their key judgements."
@@ -1400,5 +1404,5 @@
    "note": "Access to jobs, education, healthcare, shops and leisure by walking, cycling, public transport and driving."
   }
  },
- "updated": "2026-11-10"
+ "updated": "2026-11-16"
 }

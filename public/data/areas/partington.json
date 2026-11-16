@@ -693,74 +693,59 @@
   "news": {
    "value": [
     {
-     "title": "Carrington relief road has 1,000 against it and makes some 'ashamed to be human', but it will be happening",
+     "title": "Her parents were told she would never walk, now she's going down mountains at 80mph",
      "excerpt": "",
-     "date": "6 Nov 2026",
-     "tag": "Transport",
-     "tone": "info",
-     "source": "Manchester Evening News – Trafford",
-     "domain": "manchestereveningnews.co.uk",
-     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/shouts-disgrace-carringtons-notorious-relief-34870255",
-     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article33248399.ece/ALTERNATES/s615/0_Carrington-Relief-Road-consultation-1.jpg",
-     "image_external": true,
-     "scope": "local"
-    },
-    {
-     "title": "New Urmston wellness centre opens offering range of therapies under one roof",
-     "excerpt": "",
-     "date": "9 Nov 2026",
-     "tag": "Nearby · Flixton",
-     "tone": "neutral",
-     "source": "Messenger Newspapers",
-     "domain": "messengernewspapers.co.uk",
-     "url": "https://www.messengernewspapers.co.uk/news/26703610.urmston-therapy-centre-opens-offering-range-treatments/?ref=rss",
-     "image": "https://www.messengernewspapers.co.uk/resources/images/21676719/",
-     "image_external": true,
-     "scope": "nearby",
-     "near": "Flixton"
-    },
-    {
-     "title": "Urmston Choral Society to spread Christmas cheer with two festive concerts",
-     "excerpt": "",
-     "date": "3 Nov 2026",
-     "tag": "Nearby · Flixton",
-     "tone": "neutral",
-     "source": "Messenger Newspapers",
-     "domain": "messengernewspapers.co.uk",
-     "url": "https://www.messengernewspapers.co.uk/news/26692319.urmston-choral-society-perform-two-christmas-concerts/?ref=rss",
-     "image": "https://www.messengernewspapers.co.uk/resources/images/21661564/",
-     "image_external": true,
-     "scope": "nearby",
-     "near": "Flixton"
-    },
-    {
-     "title": "I was told I had cancer and may not survive the night - 45 years later I'm still here",
-     "excerpt": "",
-     "date": "10 Nov 2026",
+     "date": "15 Nov 2026",
      "tag": "Nearby news",
      "tone": "neutral",
      "source": "Manchester Evening News – Trafford",
      "domain": "manchestereveningnews.co.uk",
-     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/man-63-diagnosed-with-cancer-34888049",
-     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34888079.ece/ALTERNATES/s615/1_REAL-LIFE-Derrick-Derbyshire.jpg",
+     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/parents-were-told-would-never-34904232",
+     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34904377.ece/ALTERNATES/s615/656352843_18159401728437028_5420242844939975353_n.jpg",
      "image_external": true,
      "scope": "nearby"
     },
     {
-     "title": "Trafford Centre confirms new flagship store from major fashion retailer as owners issue emotional update",
+     "title": "Trafford Centre parking hacks - from the quietest car park to new rules and a hidden spot",
      "excerpt": "",
-     "date": "9 Nov 2026",
+     "date": "15 Nov 2026",
      "tag": "Nearby news",
      "tone": "neutral",
      "source": "Manchester Evening News – Trafford",
      "domain": "manchestereveningnews.co.uk",
-     "url": "https://www.manchestereveningnews.co.uk/whats-on/whats-on-news/trafford-centre-confirms-new-flagship-34882167",
-     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34884723.ece/ALTERNATES/s615/0_DBR_MEN_071126Trafford_07jpeg.jpg",
+     "url": "https://www.manchestereveningnews.co.uk/whats-on/whats-on-news/trafford-centre-parking-hacks-quietest-34893997",
+     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34894687.ece/ALTERNATES/s615/1_Darren-Robinson-Photography.jpg",
+     "image_external": true,
+     "scope": "nearby"
+    },
+    {
+     "title": "Every Ofsted school inspection report published this month in Greater Manchester - full details",
+     "excerpt": "",
+     "date": "14 Nov 2026",
+     "tag": "Nearby news",
+     "tone": "neutral",
+     "source": "Manchester Evening News – Trafford",
+     "domain": "manchestereveningnews.co.uk",
+     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/every-ofsted-school-inspection-report-34908905",
+     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34908931.ece/ALTERNATES/s615/0_200825grammarschools2.jpg",
+     "image_external": true,
+     "scope": "nearby"
+    },
+    {
+     "title": "Welcome to Altrincham's secret run club, where the sound of fireworks are a grim reminder",
+     "excerpt": "",
+     "date": "14 Nov 2026",
+     "tag": "Nearby news",
+     "tone": "neutral",
+     "source": "Manchester Evening News – Trafford",
+     "domain": "manchestereveningnews.co.uk",
+     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/welcome-altrinchams-secret-run-club-34875961",
+     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34876043.ece/ALTERNATES/s615/0_The-Refugee-Run-Club.jpg",
      "image_external": true,
      "scope": "nearby"
     }
    ],
-   "period": "Publisher feeds checked 2026-11-10",
+   "period": "Publisher feeds checked 2026-11-16",
    "geography": "Partington",
    "source": {
     "name": "Local publisher RSS feeds",
@@ -772,6 +757,7 @@
     "Messenger Newspapers",
     "Manchester Evening News – Trafford",
     "Warrington Guardian",
+    "Manchester Evening News – Urmston",
     "Altrincham Today",
     "Manchester Evening News – Altrincham"
    ],
@@ -789,6 +775,10 @@
      "url": "https://www.warringtonguardian.co.uk/news/rss/"
     },
     {
+     "name": "Manchester Evening News – Urmston",
+     "url": "https://www.manchestereveningnews.co.uk/all-about/urmston?service=rss"
+    },
+    {
      "name": "Altrincham Today",
      "url": "https://altrincham.todaynews.co.uk/feed/"
     },
@@ -797,8 +787,8 @@
      "url": "https://www.manchestereveningnews.co.uk/all-about/altrincham?service=rss"
     }
    ],
-   "scope": "local",
-   "local_count": 1,
+   "scope": "nearby",
+   "local_count": 0,
    "nearby_count": 4,
    "note": "Headlines and links only; RSS images are referenced from the publisher when supplied and are not copied."
   },
@@ -1281,7 +1271,7 @@
     "tram_map": "https://tfgm.com/ways-to-travel/tram/network-map",
     "rail_reviewed": "2026-10-12"
    },
-   "period": "Timetable downloaded 2026-11-10",
+   "period": "Timetable downloaded 2026-11-16",
    "geography": "Stops within 1 km of the centre of Partington",
    "source": {
     "name": "TfGM bus and Metrolink timetables (GTFS)",
@@ -1293,13 +1283,13 @@
   },
   "schools": {
    "value": {
-    "score": 5.6,
+    "score": 5.9,
     "schools": 5,
     "mix": {
      "outstanding": 0,
      "good": 2,
-     "report": 0,
-     "below": 2,
+     "report": 1,
+     "below": 1,
      "none": 1
     },
     "nearest": [
@@ -1323,8 +1313,8 @@
       "name": "Broadoak School",
       "phase": "Secondary",
       "distance_mi": 0.5,
-      "grade": "Requires improvement",
-      "date": "2024-06-09",
+      "grade": "Expected standard",
+      "date": "2026-10-13",
       "url": ""
      },
      {
@@ -1345,13 +1335,13 @@
      }
     ]
    },
-   "period": "Latest inspections as at 30 September 2026",
+   "period": "Latest inspections as at 31 October 2026",
    "geography": "5 nearest state primary and secondary schools to the centre of Partington",
    "source": {
     "name": "Ofsted management information: state-funded schools, latest inspections",
     "url": "https://www.gov.uk/government/statistical-data-sets/monthly-management-information-ofsteds-school-inspections-outcomes",
     "licence": "Open Government Licence v3.0",
-    "file": "https://assets.publishing.service.gov.uk/media/6ad095a72de3184ccf8b818d/Management_information_-_state-funded_schools_-_latest_inspections_as_at_30_Sep_2026.csv"
+    "file": "https://assets.publishing.service.gov.uk/media/6af2dfeb8b63641b15a5c8ba/Management_information_-_state-funded_schools_-_latest_inspections_as_at_31_October_2026.csv"
    },
    "status": "ok",
    "method": "Indicative 0–10 score: Outstanding 10, Good 7.5, Requires improvement 5, Inadequate 2.5; report cards: Exceptional 10, Strong 8.5, Expected 7, Needs attention 4.5, Urgent improvement 2 (mean of the evaluation areas); inspections with no overall grade use the mean of their key judgements."
@@ -1425,5 +1415,5 @@
    "note": "Access to jobs, education, healthcare, shops and leisure by walking, cycling, public transport and driving."
   }
  },
- "updated": "2026-11-10"
+ "updated": "2026-11-16"
 }

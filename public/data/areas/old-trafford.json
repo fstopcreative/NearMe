@@ -903,62 +903,88 @@
   "news": {
    "value": [
     {
-     "title": "What are your Trafford neighbours planning? Latest applications revealed",
+     "title": "Man Utd’s 100,000-seat stadium dream faces a very awkward problem",
      "excerpt": "",
-     "date": "10 Nov 2026",
+     "date": "16 Nov 2026",
+     "tag": "Planning",
+     "tone": "accent",
+     "source": "Messenger Newspapers",
+     "domain": "messengernewspapers.co.uk",
+     "url": "https://www.messengernewspapers.co.uk/news/26729091.man-utd-100-000-seat-stadium-sparks-matchday-concerns/?ref=rss",
+     "image": "https://www.messengernewspapers.co.uk/resources/images/21717893/",
+     "image_external": true,
+     "scope": "local"
+    },
+    {
+     "title": "Old Trafford's 'once-in-a-generation' plan that could be ruined by 'weeing in the garden'",
+     "excerpt": "",
+     "date": "14 Nov 2026",
+     "tag": "Planning",
+     "tone": "accent",
+     "source": "Manchester Evening News – Trafford",
+     "domain": "manchestereveningnews.co.uk",
+     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/old-traffords-once-generation-plan-34900876",
+     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34261835.ece/ALTERNATES/s615/0_Wharfside.jpg",
+     "image_external": true,
+     "scope": "local"
+    },
+    {
+     "title": "Stretford set for festive fun as Christmas lights switch-on returns this weekend",
+     "excerpt": "",
+     "date": "13 Nov 2026",
      "tag": "Nearby · Stretford",
      "tone": "neutral",
      "source": "Messenger Newspapers",
      "domain": "messengernewspapers.co.uk",
-     "url": "https://www.messengernewspapers.co.uk/news/26712480.trafford-planning-applications-include-plans-120-homes/?ref=rss",
-     "image": "https://www.messengernewspapers.co.uk/resources/images/18954988/",
+     "url": "https://www.messengernewspapers.co.uk/news/26723593.stretford-christmas-lights-switch-on-set-saturday/?ref=rss",
+     "image": "https://www.messengernewspapers.co.uk/resources/images/21639835/",
      "image_external": true,
      "scope": "nearby",
      "near": "Stretford"
     },
     {
-     "title": "New Urmston wellness centre opens offering range of therapies under one roof",
+     "title": "Take a look inside this transformed three-bedroom family home in Sale",
      "excerpt": "",
-     "date": "9 Nov 2026",
-     "tag": "Nearby · Urmston",
+     "date": "15 Nov 2026",
+     "tag": "Nearby · Sale",
      "tone": "neutral",
      "source": "Messenger Newspapers",
      "domain": "messengernewspapers.co.uk",
-     "url": "https://www.messengernewspapers.co.uk/news/26703610.urmston-therapy-centre-opens-offering-range-treatments/?ref=rss",
-     "image": "https://www.messengernewspapers.co.uk/resources/images/21676719/",
+     "url": "https://www.messengernewspapers.co.uk/news/26726118.renovated-detached-house-sale-market-575-000/?ref=rss",
+     "image": "https://www.messengernewspapers.co.uk/resources/images/21712954/",
+     "image_external": true,
+     "scope": "nearby",
+     "near": "Sale"
+    },
+    {
+     "title": "Her parents were told she would never walk, now she's going down mountains at 80mph",
+     "excerpt": "",
+     "date": "15 Nov 2026",
+     "tag": "Nearby · Urmston",
+     "tone": "neutral",
+     "source": "Manchester Evening News – Trafford",
+     "domain": "manchestereveningnews.co.uk",
+     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/parents-were-told-would-never-34904232",
+     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34904377.ece/ALTERNATES/s615/656352843_18159401728437028_5420242844939975353_n.jpg",
      "image_external": true,
      "scope": "nearby",
      "near": "Urmston"
     },
     {
-     "title": "Take a look inside this Urmston home packed with period features",
+     "title": "King Charles in Preston LIVE as monarch makes special visit to Lancashire - updates",
      "excerpt": "",
-     "date": "8 Nov 2026",
-     "tag": "Nearby · Urmston",
-     "tone": "neutral",
-     "source": "Messenger Newspapers",
-     "domain": "messengernewspapers.co.uk",
-     "url": "https://www.messengernewspapers.co.uk/news/26694515.four-storey-edwardian-home-urmston-sale-675-000/?ref=rss",
-     "image": "https://www.messengernewspapers.co.uk/resources/images/21664589/",
-     "image_external": true,
-     "scope": "nearby",
-     "near": "Urmston"
-    },
-    {
-     "title": "Manchester trial day seven LIVE as nine men on trial after husband drugged and raped wife",
-     "excerpt": "",
-     "date": "10 Nov 2026",
+     "date": "16 Nov 2026",
      "tag": "Greater Manchester",
      "tone": "neutral",
      "source": "Manchester Evening News – Greater Manchester",
      "domain": "manchestereveningnews.co.uk",
-     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/manchester-trial-live-nine-men-34843691",
-     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34843737.ece/ALTERNATES/s615/3_Trial1.jpg",
+     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/king-charles-preston-live-monarch-34916485",
+     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34917551.ece/ALTERNATES/s615/0_Royal-visit-to-LancashirejpgThe-King-meets-young-members-of-local-uniformed-services.jpg",
      "image_external": true,
      "scope": "nearby"
     }
    ],
-   "period": "Publisher feeds checked 2026-11-10",
+   "period": "Publisher feeds checked 2026-11-16",
    "geography": "Old Trafford",
    "source": {
     "name": "Local publisher RSS feeds",
@@ -1000,8 +1026,8 @@
      "url": "https://feeds.bbci.co.uk/news/england/manchester/rss.xml"
     }
    ],
-   "scope": "nearby",
-   "local_count": 0,
+   "scope": "local",
+   "local_count": 2,
    "nearby_count": 4,
    "note": "Headlines and links only; RSS images are referenced from the publisher when supplied and are not copied."
   },
@@ -1407,42 +1433,42 @@
       "line": "Yellow Line",
       "from": "Eccles",
       "to": "Piccadilly",
-      "trips": 1686,
+      "trips": 988,
       "colour": "#f5c400"
      },
      {
       "line": "Pink Line",
       "from": "East Didsbury",
       "to": "Rochdale Town Centre",
-      "trips": 1630,
+      "trips": 955,
       "colour": "#e94f8a"
      },
      {
       "line": "Red Line",
       "from": "Trafford Centre",
       "to": "Crumpsall",
-      "trips": 1152,
+      "trips": 662,
       "colour": "#e30613"
      },
      {
       "line": "Purple Line",
       "from": "Altrincham",
       "to": "Etihad Campus",
-      "trips": 1116,
+      "trips": 641,
       "colour": "#7b2d8e"
      },
      {
       "line": "Navy Line",
       "from": "Manchester Airport",
       "to": "Victoria",
-      "trips": 1091,
+      "trips": 627,
       "colour": "#283a8a"
      },
      {
       "line": "Green Line",
       "from": "Altrincham",
       "to": "Bury",
-      "trips": 747,
+      "trips": 329,
       "colour": "#6cbe45"
      }
     ],
@@ -1669,7 +1695,7 @@
     "tram_map": "https://tfgm.com/ways-to-travel/tram/network-map",
     "rail_reviewed": "2026-10-12"
    },
-   "period": "Timetable downloaded 2026-11-10",
+   "period": "Timetable downloaded 2026-11-16",
    "geography": "Stops within 1 km of the centre of Old Trafford",
    "source": {
     "name": "TfGM bus and Metrolink timetables (GTFS)",
@@ -1733,13 +1759,13 @@
      }
     ]
    },
-   "period": "Latest inspections as at 30 September 2026",
+   "period": "Latest inspections as at 31 October 2026",
    "geography": "5 nearest state primary and secondary schools to the centre of Old Trafford",
    "source": {
     "name": "Ofsted management information: state-funded schools, latest inspections",
     "url": "https://www.gov.uk/government/statistical-data-sets/monthly-management-information-ofsteds-school-inspections-outcomes",
     "licence": "Open Government Licence v3.0",
-    "file": "https://assets.publishing.service.gov.uk/media/6ad095a72de3184ccf8b818d/Management_information_-_state-funded_schools_-_latest_inspections_as_at_30_Sep_2026.csv"
+    "file": "https://assets.publishing.service.gov.uk/media/6af2dfeb8b63641b15a5c8ba/Management_information_-_state-funded_schools_-_latest_inspections_as_at_31_October_2026.csv"
    },
    "status": "ok",
    "method": "Indicative 0–10 score: Outstanding 10, Good 7.5, Requires improvement 5, Inadequate 2.5; report cards: Exceptional 10, Strong 8.5, Expected 7, Needs attention 4.5, Urgent improvement 2 (mean of the evaluation areas); inspections with no overall grade use the mean of their key judgements."
@@ -1818,5 +1844,5 @@
    "note": "Access to jobs, education, healthcare, shops and leisure by walking, cycling, public transport and driving."
   }
  },
- "updated": "2026-11-10"
+ "updated": "2026-11-16"
 }

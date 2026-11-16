@@ -660,17 +660,45 @@
   "news": {
    "value": [
     {
-     "title": "What are your Trafford neighbours planning? Latest applications revealed",
+     "title": "Take a look inside this transformed three-bedroom family home in Sale",
      "excerpt": "",
-     "date": "10 Nov 2026",
-     "tag": "Planning",
-     "tone": "accent",
+     "date": "15 Nov 2026",
+     "tag": "Local news",
+     "tone": "neutral",
      "source": "Messenger Newspapers",
      "domain": "messengernewspapers.co.uk",
-     "url": "https://www.messengernewspapers.co.uk/news/26712480.trafford-planning-applications-include-plans-120-homes/?ref=rss",
-     "image": "https://www.messengernewspapers.co.uk/resources/images/18954988/",
+     "url": "https://www.messengernewspapers.co.uk/news/26726118.renovated-detached-house-sale-market-575-000/?ref=rss",
+     "image": "https://www.messengernewspapers.co.uk/resources/images/21712954/",
      "image_external": true,
      "scope": "local"
+    },
+    {
+     "title": "Stretford set for festive fun as Christmas lights switch-on returns this weekend",
+     "excerpt": "",
+     "date": "13 Nov 2026",
+     "tag": "Nearby · Stretford",
+     "tone": "neutral",
+     "source": "Messenger Newspapers",
+     "domain": "messengernewspapers.co.uk",
+     "url": "https://www.messengernewspapers.co.uk/news/26723593.stretford-christmas-lights-switch-on-set-saturday/?ref=rss",
+     "image": "https://www.messengernewspapers.co.uk/resources/images/21639835/",
+     "image_external": true,
+     "scope": "nearby",
+     "near": "Stretford"
+    },
+    {
+     "title": "Work to begin on Timperley junction badly hit by New Year's Day floods",
+     "excerpt": "",
+     "date": "10 Nov 2026",
+     "tag": "Nearby · Timperley",
+     "tone": "neutral",
+     "source": "Altrincham Today",
+     "domain": "altrincham.todaynews.co.uk",
+     "url": "https://altrincham.todaynews.co.uk/news/2026/11/10/work-to-begin-on-timperley-junction-badly-hit-by-new-years-day-floods/",
+     "image": "https://storage.ghost.io/c/09/ce/09cee984-fa22-44f2-a16f-e4d816e662de/content/images/2026/11/timpflood.jpg",
+     "image_external": true,
+     "scope": "nearby",
+     "near": "Timperley"
     },
     {
      "title": "Boy, 15, arrested on suspicion of knife possession after Timperley incident",
@@ -687,48 +715,21 @@
      "near": "Timperley"
     },
     {
-     "title": "New Urmston wellness centre opens offering range of therapies under one roof",
+     "title": "Her parents were told she would never walk, now she's going down mountains at 80mph",
      "excerpt": "",
-     "date": "9 Nov 2026",
+     "date": "15 Nov 2026",
      "tag": "Nearby · Urmston",
      "tone": "neutral",
-     "source": "Messenger Newspapers",
-     "domain": "messengernewspapers.co.uk",
-     "url": "https://www.messengernewspapers.co.uk/news/26703610.urmston-therapy-centre-opens-offering-range-treatments/?ref=rss",
-     "image": "https://www.messengernewspapers.co.uk/resources/images/21676719/",
-     "image_external": true,
-     "scope": "nearby",
-     "near": "Urmston"
-    },
-    {
-     "title": "Take a look inside this Urmston home packed with period features",
-     "excerpt": "",
-     "date": "8 Nov 2026",
-     "tag": "Nearby · Urmston",
-     "tone": "neutral",
-     "source": "Messenger Newspapers",
-     "domain": "messengernewspapers.co.uk",
-     "url": "https://www.messengernewspapers.co.uk/news/26694515.four-storey-edwardian-home-urmston-sale-675-000/?ref=rss",
-     "image": "https://www.messengernewspapers.co.uk/resources/images/21664589/",
-     "image_external": true,
-     "scope": "nearby",
-     "near": "Urmston"
-    },
-    {
-     "title": "Strangers are showing up on Sale mum's doorstep after her side hustle became a burgeoning business",
-     "excerpt": "",
-     "date": "4 Nov 2026",
-     "tag": "Nearby news",
-     "tone": "neutral",
-     "source": "Manchester Evening News – Sale",
+     "source": "Manchester Evening News – Trafford",
      "domain": "manchestereveningnews.co.uk",
-     "url": "https://www.manchestereveningnews.co.uk/whats-on/food-drink-news/strangers-showing-up-sale-mums-34809925",
-     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34825494.ece/ALTERNATES/s615/0_JS421450017.jpg",
+     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/parents-were-told-would-never-34904232",
+     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34904377.ece/ALTERNATES/s615/656352843_18159401728437028_5420242844939975353_n.jpg",
      "image_external": true,
-     "scope": "nearby"
+     "scope": "nearby",
+     "near": "Urmston"
     }
    ],
-   "period": "Publisher feeds checked 2026-11-10",
+   "period": "Publisher feeds checked 2026-11-16",
    "geography": "Sale",
    "source": {
     "name": "Local publisher RSS feeds",
@@ -1112,14 +1113,14 @@
       "line": "Purple Line",
       "from": "Altrincham",
       "to": "Etihad Campus",
-      "trips": 1062,
+      "trips": 610,
       "colour": "#7b2d8e"
      },
      {
       "line": "Green Line",
       "from": "Altrincham",
       "to": "Bury",
-      "trips": 692,
+      "trips": 302,
       "colour": "#6cbe45"
      }
     ],
@@ -1433,7 +1434,7 @@
     "tram_map": "https://tfgm.com/ways-to-travel/tram/network-map",
     "rail_reviewed": "2026-10-12"
    },
-   "period": "Timetable downloaded 2026-11-10",
+   "period": "Timetable downloaded 2026-11-16",
    "geography": "Stops within 1 km of the centre of Sale",
    "source": {
     "name": "TfGM bus and Metrolink timetables (GTFS)",
@@ -1497,13 +1498,13 @@
      }
     ]
    },
-   "period": "Latest inspections as at 30 September 2026",
+   "period": "Latest inspections as at 31 October 2026",
    "geography": "5 nearest state primary and secondary schools to the centre of Sale",
    "source": {
     "name": "Ofsted management information: state-funded schools, latest inspections",
     "url": "https://www.gov.uk/government/statistical-data-sets/monthly-management-information-ofsteds-school-inspections-outcomes",
     "licence": "Open Government Licence v3.0",
-    "file": "https://assets.publishing.service.gov.uk/media/6ad095a72de3184ccf8b818d/Management_information_-_state-funded_schools_-_latest_inspections_as_at_30_Sep_2026.csv"
+    "file": "https://assets.publishing.service.gov.uk/media/6af2dfeb8b63641b15a5c8ba/Management_information_-_state-funded_schools_-_latest_inspections_as_at_31_October_2026.csv"
    },
    "status": "ok",
    "method": "Indicative 0–10 score: Outstanding 10, Good 7.5, Requires improvement 5, Inadequate 2.5; report cards: Exceptional 10, Strong 8.5, Expected 7, Needs attention 4.5, Urgent improvement 2 (mean of the evaluation areas); inspections with no overall grade use the mean of their key judgements."
@@ -1603,5 +1604,5 @@
    "note": "Access to jobs, education, healthcare, shops and leisure by walking, cycling, public transport and driving."
   }
  },
- "updated": "2026-11-10"
+ "updated": "2026-11-16"
 }
