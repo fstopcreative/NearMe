@@ -1071,8 +1071,8 @@
     "buses": [
      {
       "number": "249",
-      "from": "Wythenshawe",
-      "to": "Altrincham",
+      "from": "Altrincham",
+      "to": "Wythenshawe",
       "via": [],
       "operators": [
        "Bee Network"

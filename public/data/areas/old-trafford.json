@@ -903,6 +903,19 @@
   "news": {
    "value": [
     {
+     "title": "Old Trafford and Etihad Stadium could host Women's World Cup matches in 2035",
+     "excerpt": "",
+     "date": "23 Nov 2026",
+     "tag": "Local news",
+     "tone": "neutral",
+     "source": "Manchester Evening News – Trafford",
+     "domain": "manchestereveningnews.co.uk",
+     "url": "https://www.manchestereveningnews.co.uk/whats-on/whats-on-news/old-trafford-etihad-stadium-could-34955603",
+     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34955628.ece/ALTERNATES/s615/0_JS419214039.jpg",
+     "image_external": true,
+     "scope": "local"
+    },
+    {
      "title": "Full details of huge plans for Old Trafford, Stretford, Urmston, Altrincham, Sale and Timperley",
      "excerpt": "",
      "date": "20 Nov 2026",
@@ -970,15 +983,15 @@
      "scope": "nearby"
     },
     {
-     "title": "The M62, M56 and M61 motorways in Greater Manchester will all close this week",
+     "title": "Manchester trial RECAP as accused man admits raping woman drugged by her husband",
      "excerpt": "",
      "date": "23 Nov 2026",
      "tag": "Greater Manchester",
      "tone": "neutral",
      "source": "Manchester Evening News – Greater Manchester",
      "domain": "manchestereveningnews.co.uk",
-     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/m62-m56-m61-motorways-greater-34955155",
-     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34524111.ece/ALTERNATES/s615/4_JS149104792.jpg",
+     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/manchester-trial-live-nine-men-34843691",
+     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34891708.ece/ALTERNATES/s615/0_Courtcomp1.jpg",
      "image_external": true,
      "scope": "nearby"
     }
@@ -1026,7 +1039,7 @@
     }
    ],
    "scope": "local",
-   "local_count": 2,
+   "local_count": 3,
    "nearby_count": 4,
    "note": "Headlines and links only; RSS images are referenced from the publisher when supplied and are not copied."
   },
@@ -1582,6 +1595,17 @@
       "school": false
      },
      {
+      "number": "745",
+      "from": "Loreto College",
+      "to": "Roe Green",
+      "via": [],
+      "operators": [
+       "Bee Network"
+      ],
+      "trips": 4,
+      "school": true
+     },
+     {
       "number": "744",
       "from": "Loreto College",
       "to": "Eccles",
@@ -1603,17 +1627,6 @@
        "Bee Network"
       ],
       "trips": 4,
-      "school": true
-     },
-     {
-      "number": "745",
-      "from": "Loreto College",
-      "to": "Roe Green",
-      "via": [],
-      "operators": [
-       "Bee Network"
-      ],
-      "trips": 2,
       "school": true
      },
      {

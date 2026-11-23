@@ -716,6 +716,20 @@
      "scope": "local"
     },
     {
+     "title": "Old Trafford and Etihad Stadium could host Women's World Cup matches in 2035",
+     "excerpt": "",
+     "date": "23 Nov 2026",
+     "tag": "Nearby · Old Trafford",
+     "tone": "neutral",
+     "source": "Manchester Evening News – Trafford",
+     "domain": "manchestereveningnews.co.uk",
+     "url": "https://www.manchestereveningnews.co.uk/whats-on/whats-on-news/old-trafford-etihad-stadium-could-34955603",
+     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34955628.ece/ALTERNATES/s615/0_JS419214039.jpg",
+     "image_external": true,
+     "scope": "nearby",
+     "near": "Old Trafford"
+    },
+    {
      "title": "Nearly 200 affordable homes completed at former Kellogg's site in Old Trafford",
      "excerpt": "",
      "date": "20 Nov 2026",
@@ -753,19 +767,6 @@
      "domain": "manchestereveningnews.co.uk",
      "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/don-toliver-incident-live-co-34951457",
      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34952006.ece/ALTERNATES/s615/0_WhatsApp-Image-2026-11-23-at-081647-1jpeg.jpg",
-     "image_external": true,
-     "scope": "nearby"
-    },
-    {
-     "title": "The M62, M56 and M61 motorways in Greater Manchester will all close this week",
-     "excerpt": "",
-     "date": "23 Nov 2026",
-     "tag": "Greater Manchester",
-     "tone": "neutral",
-     "source": "Manchester Evening News – Greater Manchester",
-     "domain": "manchestereveningnews.co.uk",
-     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/m62-m56-m61-motorways-greater-34955155",
-     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34524111.ece/ALTERNATES/s615/4_JS149104792.jpg",
      "image_external": true,
      "scope": "nearby"
     }
