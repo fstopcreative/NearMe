@@ -95,26 +95,22 @@
   },
   "average_rent": {
    "value": {
-    "month": "2026-09",
-    "monthly": 1373,
-    "change_12m": 3,
+    "month": "2026-10",
+    "monthly": 1378,
+    "change_12m": 3.3,
     "by_beds": {
-     "one": 946,
-     "two": 1205,
-     "three": 1488,
-     "four_plus": 2113
+     "one": 948,
+     "two": 1209,
+     "three": 1494,
+     "four_plus": 2120
     },
     "by_type": {
-     "detached": 2051,
-     "semi": 1526,
-     "terraced": 1361,
-     "flat": 1122
+     "detached": 2059,
+     "semi": 1533,
+     "terraced": 1365,
+     "flat": 1125
     },
     "trend": [
-     {
-      "month": "2021-10",
-      "rent": 962
-     },
      {
       "month": "2021-11",
       "rent": 972
@@ -350,14 +346,18 @@
      {
       "month": "2026-09",
       "rent": 1373
+     },
+     {
+      "month": "2026-10",
+      "rent": 1378
      }
     ],
     "compare": {
-     "North West": 975,
-     "England": 1466
+     "North West": 979,
+     "England": 1472
     }
    },
-   "period": "September 2026 (provisional)",
+   "period": "October 2026 (provisional)",
    "geography": "Trafford (local authority)",
    "source": {
     "name": "ONS Price Index of Private Rents — Housing prices in your area",
@@ -883,10 +883,10 @@
   },
   "hpi_borough": {
    "value": {
-    "average": 393897,
-    "growth": 6.4
+    "average": 394017,
+    "growth": 4.7
    },
-   "period": "August 2026",
+   "period": "September 2026",
    "geography": "Trafford (local authority)",
    "source": {
     "name": "UK House Price Index (HM Land Registry / ONS)",
@@ -898,10 +898,10 @@
   },
   "hpi_uk": {
    "value": {
-    "average": 273037,
-    "growth": 0.9
+    "average": 272642,
+    "growth": 1.2
    },
-   "period": "August 2026",
+   "period": "September 2026",
    "geography": "United Kingdom",
    "source": {
     "name": "UK House Price Index (HM Land Registry / ONS)",
@@ -939,87 +939,100 @@
   "news": {
    "value": [
     {
-     "title": "Coronation Street and Hollyoaks stars revealed as Altrincham Christmas Lights Switch-On special guests",
+     "title": "Man in his 40s declared missing from Trafford found 'safe and well', police say",
      "excerpt": "",
-     "date": "16 Nov 2026",
+     "date": "23 Nov 2026",
      "tag": "Local news",
      "tone": "neutral",
-     "source": "Altrincham Today",
-     "domain": "altrincham.todaynews.co.uk",
-     "url": "https://altrincham.todaynews.co.uk/news/2026/11/16/coronation-street-and-hollyoaks-stars-revealed-as-altrincham-christmas-lights-switch-on-special-guests/",
-     "image": "https://storage.ghost.io/c/09/ce/09cee984-fa22-44f2-a16f-e4d816e662de/content/images/2026/11/Santa-on-Christmas-Lights-Switch-on-Stage--1--1.jpg",
+     "source": "Messenger Newspapers",
+     "domain": "messengernewspapers.co.uk",
+     "url": "https://www.messengernewspapers.co.uk/news/26754974.missing-trafford-man-found-safe-well-police-confirm/?ref=rss",
+     "image": "https://www.messengernewspapers.co.uk/resources/images/19213750/",
      "image_external": true,
      "scope": "local"
     },
     {
-     "title": "Global toy giant Lego buys Altrincham gaming studio",
+     "title": "Trafford residents celebrate after cul-de-sac postcode wins £1,000 lottery prize",
      "excerpt": "",
-     "date": "16 Nov 2026",
+     "date": "23 Nov 2026",
      "tag": "Local news",
      "tone": "neutral",
-     "source": "Altrincham Today",
-     "domain": "altrincham.todaynews.co.uk",
-     "url": "https://altrincham.todaynews.co.uk/news/2026/11/16/global-toy-giant-lego-buys-altrincham-gaming-studio/",
-     "image": "https://storage.ghost.io/c/09/ce/09cee984-fa22-44f2-a16f-e4d816e662de/content/images/2026/11/forthstar.jpg",
+     "source": "Messenger Newspapers",
+     "domain": "messengernewspapers.co.uk",
+     "url": "https://www.messengernewspapers.co.uk/news/26752745.residents-trafford-cul-de-sac-win-1-000-daily-draw/?ref=rss",
+     "image": "https://www.messengernewspapers.co.uk/resources/images/21750764/",
      "image_external": true,
      "scope": "local"
     },
     {
-     "title": "Man Utd’s 100,000-seat stadium dream faces a very awkward problem",
+     "title": "Plans unveiled for four new padel courts at Hale Barns hotel",
      "excerpt": "",
-     "date": "16 Nov 2026",
+     "date": "23 Nov 2026",
      "tag": "Planning",
      "tone": "accent",
-     "source": "Messenger Newspapers",
-     "domain": "messengernewspapers.co.uk",
-     "url": "https://www.messengernewspapers.co.uk/news/26729091.man-utd-100-000-seat-stadium-sparks-matchday-concerns/?ref=rss",
-     "image": "https://www.messengernewspapers.co.uk/resources/images/21717893/",
+     "source": "Altrincham Today",
+     "domain": "altrincham.todaynews.co.uk",
+     "url": "https://altrincham.todaynews.co.uk/news/2026/11/23/plans-unveiled-for-four-new-padel-courts-at-hale-barns-hotel/",
+     "image": "https://storage.ghost.io/c/09/ce/09cee984-fa22-44f2-a16f-e4d816e662de/content/images/2026/11/main--1-.jpg",
      "image_external": true,
      "scope": "local"
     },
     {
-     "title": "Trafford shoppers set to be paid for returning bottles",
+     "title": "Police want to speak to this man about a bike theft at Stretford Mall",
      "excerpt": "",
-     "date": "15 Nov 2026",
+     "date": "23 Nov 2026",
      "tag": "Local news",
      "tone": "neutral",
      "source": "Messenger Newspapers",
      "domain": "messengernewspapers.co.uk",
-     "url": "https://www.messengernewspapers.co.uk/news/26730437.morrisons-tesco-asda-shoppers-get-20p-bottles-cans/?ref=rss",
-     "image": "https://www.messengernewspapers.co.uk/resources/images/21693355/",
+     "url": "https://www.messengernewspapers.co.uk/news/26752348.police-appeal-following-bike-theft-stretford-mall/?ref=rss",
+     "image": "https://www.messengernewspapers.co.uk/resources/images/21750133/",
      "image_external": true,
      "scope": "local"
     },
     {
-     "title": "King Charles in Preston LIVE as monarch makes special visit to Lancashire - updates",
+     "title": "Don Toliver Co-op Live incident LIVE as police issue new statement as 89 people treated after suspected tear gas released",
      "excerpt": "",
-     "date": "16 Nov 2026",
+     "date": "23 Nov 2026",
      "tag": "Greater Manchester",
      "tone": "neutral",
      "source": "Manchester Evening News – Greater Manchester",
      "domain": "manchestereveningnews.co.uk",
-     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/king-charles-preston-live-monarch-34916485",
-     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34917551.ece/ALTERNATES/s615/0_Royal-visit-to-LancashirejpgThe-King-meets-young-members-of-local-uniformed-services.jpg",
+     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/don-toliver-incident-live-co-34951457",
+     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34952006.ece/ALTERNATES/s615/0_WhatsApp-Image-2026-11-23-at-081647-1jpeg.jpg",
      "image_external": true,
      "scope": "nearby"
     },
     {
-     "title": "2 lucky North West postcode wins in today's Postcode Lottery draw",
+     "title": "The M62, M56 and M61 motorways in Greater Manchester will all close this week",
      "excerpt": "",
-     "date": "16 Nov 2026",
+     "date": "23 Nov 2026",
+     "tag": "Greater Manchester",
+     "tone": "neutral",
+     "source": "Manchester Evening News – Greater Manchester",
+     "domain": "manchestereveningnews.co.uk",
+     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/m62-m56-m61-motorways-greater-34955155",
+     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34524111.ece/ALTERNATES/s615/4_JS149104792.jpg",
+     "image_external": true,
+     "scope": "nearby"
+    },
+    {
+     "title": "Rapper Don Toliver's next concert postponed after Co-op Live major incident",
+     "excerpt": "",
+     "date": "23 Nov 2026",
      "tag": "Greater Manchester",
      "tone": "neutral",
      "source": "Messenger Newspapers",
      "domain": "messengernewspapers.co.uk",
-     "url": "https://www.messengernewspapers.co.uk/news/26733053.2-lucky-north-west-postcode-wins-todays-postcode-lottery-draw/?ref=rss",
-     "image": "https://www.messengernewspapers.co.uk/resources/images/20737861/",
+     "url": "https://www.messengernewspapers.co.uk/news/26754892.don-toliver-reschedules-london-concert-co-op-live-evacuation/?ref=rss",
+     "image": "https://www.messengernewspapers.co.uk/resources/images/21751774/",
      "image_external": true,
      "scope": "nearby"
     },
     {
-     "title": "Manchester trial LIVE as court hears 'messages sent to husband who drugged and raped wife'",
+     "title": "Manchester trial LIVE as accused man admits raping woman drugged by her husband",
      "excerpt": "",
-     "date": "16 Nov 2026",
+     "date": "23 Nov 2026",
      "tag": "Greater Manchester",
      "tone": "neutral",
      "source": "Manchester Evening News – Greater Manchester",
@@ -1028,22 +1041,9 @@
      "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34891708.ece/ALTERNATES/s615/0_Courtcomp1.jpg",
      "image_external": true,
      "scope": "nearby"
-    },
-    {
-     "title": "Manchester Piccadilly delays RECAP after major disruption hits passengers and trains cancelled",
-     "excerpt": "",
-     "date": "16 Nov 2026",
-     "tag": "Greater Manchester",
-     "tone": "neutral",
-     "source": "Manchester Evening News – Greater Manchester",
-     "domain": "manchestereveningnews.co.uk",
-     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/manchester-piccadilly-delays-live-major-34916801",
-     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34916808.ece/ALTERNATES/s615/0_JRP_MEN_070826_train_006JPG.jpg",
-     "image_external": true,
-     "scope": "nearby"
     }
    ],
-   "period": "Publisher feeds checked 2026-11-16",
+   "period": "Publisher feeds checked 2026-11-23",
    "geography": "Trafford",
    "source": {
     "name": "Local publisher RSS feeds",
@@ -1511,6 +1511,17 @@
     ],
     "buses": [
      {
+      "number": "263",
+      "from": "Altrincham",
+      "to": "Manchester",
+      "via": [],
+      "operators": [
+       "Bee Network"
+      ],
+      "trips": 965,
+      "school": false
+     },
+     {
       "number": "250",
       "from": "Manchester",
       "to": "Trafford Centre",
@@ -1535,14 +1546,36 @@
       "school": false
      },
      {
-      "number": "263",
-      "from": "Altrincham",
-      "to": "Manchester",
+      "number": "249",
+      "from": "Wythenshawe",
+      "to": "Altrincham",
       "via": [],
       "operators": [
        "Bee Network"
       ],
-      "trips": 363,
+      "trips": 439,
+      "school": false
+     },
+     {
+      "number": "247",
+      "from": "Altrincham",
+      "to": "Trafford Centre",
+      "via": [],
+      "operators": [
+       "Bee Network"
+      ],
+      "trips": 424,
+      "school": false
+     },
+     {
+      "number": "245",
+      "from": "Trafford Centre",
+      "to": "Altrincham",
+      "via": [],
+      "operators": [
+       "Bee Network"
+      ],
+      "trips": 423,
       "school": false
      },
      {
@@ -1557,6 +1590,17 @@
        "Bee Network"
       ],
       "trips": 354,
+      "school": false
+     },
+     {
+      "number": "370",
+      "from": "Stockport",
+      "to": "Altrincham",
+      "via": [],
+      "operators": [
+       "Bee Network"
+      ],
+      "trips": 348,
       "school": false
      },
      {
@@ -1596,6 +1640,41 @@
       "school": false
      },
      {
+      "number": "288",
+      "from": "Manchester Airport",
+      "to": "Altrincham",
+      "via": [],
+      "operators": [
+       "Bee Network"
+      ],
+      "trips": 276,
+      "school": false
+     },
+     {
+      "number": "79",
+      "from": "Pendleton Salford Shopping Centre",
+      "to": "Media City UK",
+      "via": [],
+      "operators": [
+       "Bee Network"
+      ],
+      "trips": 261,
+      "school": false
+     },
+     {
+      "number": "280",
+      "from": "Altrincham",
+      "to": "Lymm",
+      "via": [
+       "Dunham Massey"
+      ],
+      "operators": [
+       "Bee Network"
+      ],
+      "trips": 258,
+      "school": false
+     },
+     {
       "number": "41",
       "from": "Middleton",
       "to": "Sale",
@@ -1632,6 +1711,17 @@
       "school": false
      },
      {
+      "number": "248",
+      "from": "Eccles",
+      "to": "Manchester Airport",
+      "via": [],
+      "operators": [
+       "Bee Network"
+      ],
+      "trips": 219,
+      "school": false
+     },
+     {
       "number": "150",
       "from": "The Trafford Centre",
       "to": "Gorton",
@@ -1640,17 +1730,6 @@
        "Bee Network"
       ],
       "trips": 207,
-      "school": false
-     },
-     {
-      "number": "370",
-      "from": "Stockport",
-      "to": "Altrincham",
-      "via": [],
-      "operators": [
-       "Bee Network"
-      ],
-      "trips": 190,
       "school": false
      },
      {
@@ -1678,36 +1757,17 @@
       "school": false
      },
      {
-      "number": "249",
-      "from": "Wythenshawe",
-      "to": "Altrincham",
-      "via": [],
+      "number": "87",
+      "from": "Manchester",
+      "to": "Chorlton Gr",
+      "via": [
+       "Withington",
+       "Merseybank"
+      ],
       "operators": [
        "Bee Network"
       ],
-      "trips": 159,
-      "school": false
-     },
-     {
-      "number": "245",
-      "from": "Trafford Centre",
-      "to": "Altrincham",
-      "via": [],
-      "operators": [
-       "Bee Network"
-      ],
-      "trips": 144,
-      "school": false
-     },
-     {
-      "number": "247",
-      "from": "Altrincham",
-      "to": "Trafford Centre",
-      "via": [],
-      "operators": [
-       "Bee Network"
-      ],
-      "trips": 144,
+      "trips": 167,
       "school": false
      },
      {
@@ -1722,6 +1782,28 @@
       "school": false
      },
      {
+      "number": "281",
+      "from": "Altrincham",
+      "to": "Sale",
+      "via": [],
+      "operators": [
+       "Bee Network"
+      ],
+      "trips": 141,
+      "school": false
+     },
+     {
+      "number": "287",
+      "from": "Altrincham",
+      "to": "Bowdon Vale circular",
+      "via": [],
+      "operators": [
+       "Bee Network"
+      ],
+      "trips": 140,
+      "school": false
+     },
+     {
       "number": "88",
       "from": "Altrincham",
       "to": "Knutsford",
@@ -1732,6 +1814,76 @@
        "D&G Bus"
       ],
       "trips": 140,
+      "school": false
+     },
+     {
+      "number": "282",
+      "from": "Altrincham",
+      "to": "Oldfield Brow circular",
+      "via": [],
+      "operators": [
+       "Bee Network"
+      ],
+      "trips": 126,
+      "school": false
+     },
+     {
+      "number": "371",
+      "from": "Stockport",
+      "to": "Altrincham",
+      "via": [],
+      "operators": [
+       "Bee Network"
+      ],
+      "trips": 123,
+      "school": false
+     },
+     {
+      "number": "285",
+      "from": "Altrincham",
+      "to": "Timperley circular",
+      "via": [],
+      "operators": [
+       "Bee Network"
+      ],
+      "trips": 100,
+      "school": false
+     },
+     {
+      "number": "283",
+      "from": "Altrincham",
+      "to": "Warburton Green circular",
+      "via": [
+       "Hale"
+      ],
+      "operators": [
+       "Bee Network"
+      ],
+      "trips": 98,
+      "school": false
+     },
+     {
+      "number": "286",
+      "from": "Altrincham",
+      "to": "Timperley circular",
+      "via": [],
+      "operators": [
+       "Bee Network"
+      ],
+      "trips": 98,
+      "school": false
+     },
+     {
+      "number": "284",
+      "from": "Altrincham",
+      "to": "Warburton Green circular",
+      "via": [
+       "Well Green"
+      ],
+      "operators": [
+       "Bee Network"
+      ],
+      "trips": 93,
       "school": false
      },
      {
@@ -1749,49 +1901,16 @@
       "school": false
      },
      {
-      "number": "248",
-      "from": "Eccles",
-      "to": "Manchester Airport",
-      "via": [],
-      "operators": [
-       "Bee Network"
-      ],
-      "trips": 79,
-      "school": false
-     },
-     {
-      "number": "288",
-      "from": "Manchester Airport",
-      "to": "Altrincham",
-      "via": [],
-      "operators": [
-       "Bee Network"
-      ],
-      "trips": 74,
-      "school": false
-     },
-     {
-      "number": "280",
-      "from": "Altrincham",
-      "to": "Lymm",
+      "number": "254",
+      "from": "Stretford",
+      "to": "Davyhulme circular",
       "via": [
-       "Dunham Massey"
+       "Humphrey Park"
       ],
       "operators": [
        "Bee Network"
       ],
-      "trips": 69,
-      "school": false
-     },
-     {
-      "number": "79",
-      "from": "Pendleton Salford Shopping Centre",
-      "to": "Media City UK",
-      "via": [],
-      "operators": [
-       "Bee Network"
-      ],
-      "trips": 69,
+      "trips": 60,
       "school": false
      },
      {
@@ -1809,64 +1928,6 @@
       "school": false
      },
      {
-      "number": "281",
-      "from": "Altrincham",
-      "to": "Sale",
-      "via": [],
-      "operators": [
-       "Bee Network"
-      ],
-      "trips": 47,
-      "school": false
-     },
-     {
-      "number": "282",
-      "from": "Altrincham",
-      "to": "Oldfield Brow circular",
-      "via": [],
-      "operators": [
-       "Bee Network"
-      ],
-      "trips": 47,
-      "school": false
-     },
-     {
-      "number": "87",
-      "from": "Manchester",
-      "to": "Chorlton Gr",
-      "via": [
-       "Withington",
-       "Merseybank"
-      ],
-      "operators": [
-       "Bee Network"
-      ],
-      "trips": 43,
-      "school": false
-     },
-     {
-      "number": "371",
-      "from": "Stockport",
-      "to": "Altrincham",
-      "via": [],
-      "operators": [
-       "Bee Network"
-      ],
-      "trips": 41,
-      "school": false
-     },
-     {
-      "number": "287",
-      "from": "Altrincham",
-      "to": "Bowdon Vale circular",
-      "via": [],
-      "operators": [
-       "Bee Network"
-      ],
-      "trips": 38,
-      "school": false
-     },
-     {
       "number": "86",
       "from": "Chorlton",
       "to": "Manchester",
@@ -1878,54 +1939,6 @@
       "school": false
      },
      {
-      "number": "285",
-      "from": "Altrincham",
-      "to": "Timperley circular",
-      "via": [],
-      "operators": [
-       "Bee Network"
-      ],
-      "trips": 36,
-      "school": false
-     },
-     {
-      "number": "283",
-      "from": "Altrincham",
-      "to": "Warburton Green circular",
-      "via": [
-       "Hale"
-      ],
-      "operators": [
-       "Bee Network"
-      ],
-      "trips": 35,
-      "school": false
-     },
-     {
-      "number": "286",
-      "from": "Altrincham",
-      "to": "Timperley circular",
-      "via": [],
-      "operators": [
-       "Bee Network"
-      ],
-      "trips": 35,
-      "school": false
-     },
-     {
-      "number": "284",
-      "from": "Altrincham",
-      "to": "Warburton Green circular",
-      "via": [
-       "Well Green"
-      ],
-      "operators": [
-       "Bee Network"
-      ],
-      "trips": 33,
-      "school": false
-     },
-     {
       "number": "67A",
       "from": "Manchester",
       "to": "Cadishead",
@@ -1934,19 +1947,6 @@
        "Bee Network"
       ],
       "trips": 23,
-      "school": false
-     },
-     {
-      "number": "254",
-      "from": "Stretford",
-      "to": "Davyhulme circular",
-      "via": [
-       "Humphrey Park"
-      ],
-      "operators": [
-       "Bee Network"
-      ],
-      "trips": 15,
       "school": false
      },
      {
@@ -1964,12 +1964,10 @@
       "school": false
      },
      {
-      "number": "253",
-      "from": "Partington",
-      "to": "Manchester",
-      "via": [
-       "Stretford"
-      ],
+      "number": "741",
+      "from": "King David HS",
+      "to": "Bowdon",
+      "via": [],
       "operators": [
        "Bee Network"
       ],
@@ -1977,8 +1975,8 @@
       "school": false
      },
      {
-      "number": "730",
-      "from": "Levenshulme",
+      "number": "754",
+      "from": "East Didsbury",
       "to": "Altrincham Schools",
       "via": [],
       "operators": [
@@ -2159,7 +2157,7 @@
     "tram_map": "https://tfgm.com/ways-to-travel/tram/network-map",
     "rail_reviewed": "2026-10-12"
    },
-   "period": "Timetable downloaded 2026-11-16",
+   "period": "Timetable downloaded 2026-11-23",
    "geography": "Stops within 1 km of each Trafford town centre",
    "source": {
     "name": "TfGM bus and Metrolink timetables (GTFS)",
@@ -2249,5 +2247,5 @@
    "note": "Access to jobs, education, healthcare, shops and leisure by walking, cycling, public transport and driving."
   }
  },
- "updated": "2026-11-16"
+ "updated": "2026-11-23"
 }

@@ -35,7 +35,7 @@
   },
   "annual_growth": {
    "value": 3.0,
-   "period": "August 2026 vs a year earlier",
+   "period": "September 2026 vs a year earlier",
    "geography": "Greater Manchester (UK HPI county series)",
    "source": {
     "name": "UK House Price Index (HM Land Registry / ONS)",
@@ -58,8 +58,8 @@
    "note": "Not compiled for the Greater Manchester overview — choose a borough or town."
   },
   "average_price": {
-   "value": 240865,
-   "period": "August 2026",
+   "value": 242102,
+   "period": "September 2026",
    "geography": "Greater Manchester (UK HPI county series)",
    "source": {
     "name": "UK House Price Index (HM Land Registry / ONS)",
@@ -72,26 +72,22 @@
   },
   "average_rent": {
    "value": {
-    "month": "2026-09",
-    "monthly": 1042,
-    "change_12m": 6.0,
+    "month": "2026-10",
+    "monthly": 1046,
+    "change_12m": 5.9,
     "by_beds": {
-     "one": 757,
-     "two": 957,
-     "three": 1151,
-     "four_plus": 1609
+     "one": 759,
+     "two": 961,
+     "three": 1157,
+     "four_plus": 1616
     },
     "by_type": {
-     "detached": 1474,
-     "semi": 1152,
-     "terraced": 1034,
-     "flat": 883
+     "detached": 1481,
+     "semi": 1158,
+     "terraced": 1039,
+     "flat": 886
     },
     "trend": [
-     {
-      "month": "2021-10",
-      "rent": 710
-     },
      {
       "month": "2021-11",
       "rent": 714
@@ -327,26 +323,30 @@
      {
       "month": "2026-09",
       "rent": 1042
+     },
+     {
+      "month": "2026-10",
+      "rent": 1046
      }
     ],
     "compare": {
-     "North West": 975,
-     "England": 1466
+     "North West": 979,
+     "England": 1472
     },
     "boroughs": {
-     "Bolton": 902,
-     "Bury": 970,
-     "Manchester": 1380,
-     "Oldham": 951,
-     "Rochdale": 859,
-     "Salford": 1173,
-     "Stockport": 1125,
-     "Tameside": 935,
-     "Trafford": 1373,
-     "Wigan": 749
+     "Bolton": 908,
+     "Bury": 976,
+     "Manchester": 1386,
+     "Oldham": 954,
+     "Rochdale": 863,
+     "Salford": 1177,
+     "Stockport": 1130,
+     "Tameside": 937,
+     "Trafford": 1378,
+     "Wigan": 754
     }
    },
-   "period": "September 2026 (provisional)",
+   "period": "October 2026 (provisional)",
    "geography": "Greater Manchester — mean of 10 borough averages",
    "source": {
     "name": "ONS Price Index of Private Rents — Housing prices in your area",
@@ -535,10 +535,10 @@
   },
   "hpi_borough": {
    "value": {
-    "average": 240865,
+    "average": 242102,
     "growth": 3.0
    },
-   "period": "August 2026",
+   "period": "September 2026",
    "geography": "Greater Manchester (county)",
    "source": {
     "name": "UK House Price Index (HM Land Registry / ONS)",
@@ -550,10 +550,10 @@
   },
   "hpi_uk": {
    "value": {
-    "average": 273037,
-    "growth": 0.9
+    "average": 272642,
+    "growth": 1.2
    },
-   "period": "August 2026",
+   "period": "September 2026",
    "geography": "United Kingdom",
    "source": {
     "name": "UK House Price Index (HM Land Registry / ONS)",
@@ -591,22 +591,35 @@
   "news": {
    "value": [
     {
-     "title": "King Charles in Preston LIVE as monarch makes special visit to Lancashire - updates",
+     "title": "Don Toliver Co-op Live incident LIVE as police issue new statement as 89 people treated after suspected tear gas released",
      "excerpt": "",
-     "date": "16 Nov 2026",
+     "date": "23 Nov 2026",
      "tag": "Local news",
      "tone": "neutral",
      "source": "Manchester Evening News – Greater Manchester",
      "domain": "manchestereveningnews.co.uk",
-     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/king-charles-preston-live-monarch-34916485",
-     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34917551.ece/ALTERNATES/s615/0_Royal-visit-to-LancashirejpgThe-King-meets-young-members-of-local-uniformed-services.jpg",
+     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/don-toliver-incident-live-co-34951457",
+     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34952006.ece/ALTERNATES/s615/0_WhatsApp-Image-2026-11-23-at-081647-1jpeg.jpg",
      "image_external": true,
      "scope": "local"
     },
     {
-     "title": "Manchester trial LIVE as court hears 'messages sent to husband who drugged and raped wife'",
+     "title": "The M62, M56 and M61 motorways in Greater Manchester will all close this week",
      "excerpt": "",
-     "date": "16 Nov 2026",
+     "date": "23 Nov 2026",
+     "tag": "Transport",
+     "tone": "info",
+     "source": "Manchester Evening News – Greater Manchester",
+     "domain": "manchestereveningnews.co.uk",
+     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/m62-m56-m61-motorways-greater-34955155",
+     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34524111.ece/ALTERNATES/s615/4_JS149104792.jpg",
+     "image_external": true,
+     "scope": "local"
+    },
+    {
+     "title": "Manchester trial LIVE as accused man admits raping woman drugged by her husband",
+     "excerpt": "",
+     "date": "23 Nov 2026",
      "tag": "Local news",
      "tone": "neutral",
      "source": "Manchester Evening News – Greater Manchester",
@@ -617,85 +630,72 @@
      "scope": "local"
     },
     {
-     "title": "Manchester Piccadilly delays RECAP after major disruption hits passengers and trains cancelled",
+     "title": "Manchester to host games at 2035 Women's World Cup",
      "excerpt": "",
-     "date": "16 Nov 2026",
+     "date": "23 Nov 2026",
+     "tag": "Local news",
+     "tone": "neutral",
+     "source": "BBC News – Manchester",
+     "domain": "bbc.co.uk",
+     "url": "https://www.bbc.co.uk/sport/football/articles/cx30g83716lzo?at_medium=RSS&at_campaign=rss",
+     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/042f/live/fe5449a0-e751-11f1-99a1-253766e7ad8b.jpg",
+     "image_external": true,
+     "scope": "local"
+    },
+    {
+     "title": "Co-op Live security slammed by Don Toliver fans as 'bags not checked' and 'flare brought in'",
+     "excerpt": "",
+     "date": "23 Nov 2026",
      "tag": "Local news",
      "tone": "neutral",
      "source": "Manchester Evening News – Greater Manchester",
      "domain": "manchestereveningnews.co.uk",
-     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/manchester-piccadilly-delays-live-major-34916801",
-     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34916808.ece/ALTERNATES/s615/0_JRP_MEN_070826_train_006JPG.jpg",
+     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/co-op-live-security-slammed-34954106",
+     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34954331.ece/ALTERNATES/s615/0_men_231126_Coop9jpeg.jpg",
      "image_external": true,
      "scope": "local"
     },
     {
-     "title": "Man pleads GUILTY to murder of woman found dead in Rochdale flats",
+     "title": "Urgent calls to improve Oldham park's security after double stabbing",
      "excerpt": "",
-     "date": "16 Nov 2026",
+     "date": "23 Nov 2026",
      "tag": "Local news",
      "tone": "neutral",
      "source": "Manchester Evening News – Greater Manchester",
      "domain": "manchestereveningnews.co.uk",
-     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/man-pleads-guilty-murder-woman-34918533",
-     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34013029.ece/ALTERNATES/s615/1_image-6.png",
+     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/council-faces-call-to-review-34954140",
+     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34954167.ece/ALTERNATES/s615/0_Alexandra-Park-scene.jpg",
      "image_external": true,
      "scope": "local"
     },
     {
-     "title": "UK airline that pledged to bring back 'golden age' at Manchester Airport goes bust",
+     "title": "'People were screaming in pain' during Co-op Live evacuation",
      "excerpt": "",
-     "date": "16 Nov 2026",
-     "tag": "Transport",
-     "tone": "info",
-     "source": "Manchester Evening News – Greater Manchester",
-     "domain": "manchestereveningnews.co.uk",
-     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/uk-airline-pledged-bring-back-34918463",
-     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34918515.ece/ALTERNATES/s615/0_Images-from-the-Global-Airlines-flight-from-Manchester-Airport-to-New-York-JFK-on-Wednesday-May-21.jpg",
+     "date": "23 Nov 2026",
+     "tag": "Local news",
+     "tone": "neutral",
+     "source": "BBC News – Manchester",
+     "domain": "bbc.co.uk",
+     "url": "https://www.bbc.co.uk/news/articles/cmgqx3ve732jo?at_medium=RSS&at_campaign=rss",
+     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/259e/live/9f625a00-e732-11f1-8294-033bd8ee7e95.png",
      "image_external": true,
      "scope": "local"
     },
     {
-     "title": "GMP officer struck off after grabbing woman by neck in Manchester city centre attack",
+     "title": "Home Office stops using 'inappropriate family home' in Horwich for asylum seekers after backlash",
      "excerpt": "",
-     "date": "16 Nov 2026",
+     "date": "23 Nov 2026",
      "tag": "Local news",
      "tone": "neutral",
      "source": "Manchester Evening News – Greater Manchester",
      "domain": "manchestereveningnews.co.uk",
-     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/gmp-officer-struck-after-grabbing-34918276",
-     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34918365.ece/ALTERNATES/s615/1_VCP_MEN_12062019_peter_street_011JPG.jpg",
-     "image_external": true,
-     "scope": "local"
-    },
-    {
-     "title": "The 'two-sided' estate on the edge of the M60 where a fatal fire has left locals heartbroken",
-     "excerpt": "",
-     "date": "16 Nov 2026",
-     "tag": "Transport",
-     "tone": "info",
-     "source": "Manchester Evening News – Greater Manchester",
-     "domain": "manchestereveningnews.co.uk",
-     "url": "https://www.manchestereveningnews.co.uk/news/two-sided-estate-edge-m60-34910443",
-     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34910454.ece/ALTERNATES/s615/0_Baguley-Crescent-street.jpg",
-     "image_external": true,
-     "scope": "local"
-    },
-    {
-     "title": "Jewish sports club slams protest against Israeli company hiring venue",
-     "excerpt": "",
-     "date": "16 Nov 2026",
-     "tag": "Local news",
-     "tone": "neutral",
-     "source": "Manchester Evening News – Greater Manchester",
-     "domain": "manchestereveningnews.co.uk",
-     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/jewish-sports-club-slams-protest-34917918",
-     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34918023.ece/ALTERNATES/s615/1_Untitled.jpg",
+     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/home-office-stops-using-inappropriate-34953993",
+     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34953989.ece/ALTERNATES/s615/0_brownlow3.jpg",
      "image_external": true,
      "scope": "local"
     }
    ],
-   "period": "Publisher feeds checked 2026-11-16",
+   "period": "Publisher feeds checked 2026-11-23",
    "geography": "Greater Manchester",
    "source": {
     "name": "Local publisher RSS feeds",
@@ -752,15 +752,6 @@
      "dist": "0.2 mi"
     },
     {
-     "name": "Piccadilly Gardens",
-     "addr": "Manchester, M60 1HX",
-     "type": "Park",
-     "dist_mi": 0.2,
-     "tone": "--ax-viz-emerald",
-     "ll": "53.48093,-2.23692",
-     "dist": "0.2 mi"
-    },
-    {
      "name": "Manchester Arndale",
      "addr": "Market Street, Manchester, M4 3AQ",
      "type": "Shopping centre",
@@ -776,6 +767,15 @@
      "dist_mi": 0.3,
      "tone": "--ax-viz-emerald",
      "ll": "53.48581,-2.24261",
+     "dist": "0.3 mi"
+    },
+    {
+     "name": "Parsonage Gardens",
+     "addr": "Greater Manchester",
+     "type": "Park",
+     "dist_mi": 0.3,
+     "tone": "--ax-viz-emerald",
+     "ll": "53.48257,-2.24849",
      "dist": "0.3 mi"
     },
     {
@@ -878,23 +878,23 @@
   "price_by_type": {
    "value": {
     "detached": {
-     "average": 423821,
-     "growth": 2.9
+     "average": 428346,
+     "growth": 3.3
     },
     "semi": {
-     "average": 274957,
+     "average": 276429,
      "growth": 3.9
     },
     "terraced": {
-     "average": 203067,
-     "growth": 3.7
+     "average": 203558,
+     "growth": 3.4
     },
     "flat": {
-     "average": 166548,
-     "growth": -0.5
+     "average": 167251,
+     "growth": -0.2
     }
    },
-   "period": "August 2026",
+   "period": "September 2026",
    "geography": "Greater Manchester (UK HPI county series)",
    "source": {
     "name": "UK House Price Index (HM Land Registry / ONS)",
@@ -945,7 +945,7 @@
     },
     {
      "year": 2025,
-     "average": 232980
+     "average": 233060
     }
    ],
    "period": "2016–2025, mean of monthly averages",
@@ -1127,6 +1127,17 @@
       "school": false
      },
      {
+      "number": "263",
+      "from": "Altrincham",
+      "to": "Manchester",
+      "via": [],
+      "operators": [
+       "Bee Network"
+      ],
+      "trips": 965,
+      "school": false
+     },
+     {
       "number": "464",
       "from": "Accrington",
       "to": "Ro",
@@ -1186,6 +1197,17 @@
       "school": false
      },
      {
+      "number": "132",
+      "from": "The Trafford Centre",
+      "to": "Wigan",
+      "via": [],
+      "operators": [
+       "Bee Network"
+      ],
+      "trips": 817,
+      "school": false
+     },
+     {
       "number": "203",
       "from": "Manchester",
       "to": "Stockport",
@@ -1233,6 +1255,17 @@
        "Bee Network"
       ],
       "trips": 663,
+      "school": false
+     },
+     {
+      "number": "313",
+      "from": "Stockport",
+      "to": "Manchester Airport",
+      "via": [],
+      "operators": [
+       "Bee Network"
+      ],
+      "trips": 660,
       "school": false
      },
      {
@@ -1352,41 +1385,6 @@
       ],
       "trips": 494,
       "school": false
-     },
-     {
-      "number": "582",
-      "from": "Bolton",
-      "to": "Leigh",
-      "via": [
-       "Atherton"
-      ],
-      "operators": [
-       "Bee Network"
-      ],
-      "trips": 489,
-      "school": false
-     },
-     {
-      "number": "38",
-      "from": "Manchester",
-      "to": "Logistics North",
-      "via": [],
-      "operators": [
-       "Bee Network"
-      ],
-      "trips": 483,
-      "school": false
-     },
-     {
-      "number": "11",
-      "from": "Stockport",
-      "to": "Altrincham",
-      "via": [],
-      "operators": [
-       "Bee Network"
-      ],
-      "trips": 474,
-      "school": false
      }
     ],
     "bus_total": 601,
@@ -1487,7 +1485,7 @@
     "tram_map": "https://tfgm.com/ways-to-travel/tram/network-map",
     "rail_reviewed": "2026-10-12"
    },
-   "period": "Timetable downloaded 2026-11-16",
+   "period": "Timetable downloaded 2026-11-23",
    "geography": "Whole Greater Manchester network",
    "source": {
     "name": "TfGM bus and Metrolink timetables (GTFS)",
@@ -1577,5 +1575,5 @@
    "note": "Access to jobs, education, healthcare, shops and leisure by walking, cycling, public transport and driving."
   }
  },
- "updated": "2026-11-16"
+ "updated": "2026-11-23"
 }

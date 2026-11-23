@@ -74,26 +74,22 @@
   },
   "average_rent": {
    "value": {
-    "month": "2026-09",
-    "monthly": 1373,
-    "change_12m": 3,
+    "month": "2026-10",
+    "monthly": 1378,
+    "change_12m": 3.3,
     "by_beds": {
-     "one": 946,
-     "two": 1205,
-     "three": 1488,
-     "four_plus": 2113
+     "one": 948,
+     "two": 1209,
+     "three": 1494,
+     "four_plus": 2120
     },
     "by_type": {
-     "detached": 2051,
-     "semi": 1526,
-     "terraced": 1361,
-     "flat": 1122
+     "detached": 2059,
+     "semi": 1533,
+     "terraced": 1365,
+     "flat": 1125
     },
     "trend": [
-     {
-      "month": "2021-10",
-      "rent": 962
-     },
      {
       "month": "2021-11",
       "rent": 972
@@ -329,14 +325,18 @@
      {
       "month": "2026-09",
       "rent": 1373
+     },
+     {
+      "month": "2026-10",
+      "rent": 1378
      }
     ],
     "compare": {
-     "North West": 975,
-     "England": 1466
+     "North West": 979,
+     "England": 1472
     }
    },
-   "period": "September 2026 (provisional)",
+   "period": "October 2026 (provisional)",
    "geography": "Trafford (local authority)",
    "source": {
     "name": "ONS Price Index of Private Rents — Housing prices in your area",
@@ -575,10 +575,10 @@
   },
   "hpi_borough": {
    "value": {
-    "average": 393897,
-    "growth": 6.4
+    "average": 394017,
+    "growth": 4.7
    },
-   "period": "August 2026",
+   "period": "September 2026",
    "geography": "Trafford (local authority)",
    "source": {
     "name": "UK House Price Index (HM Land Registry / ONS)",
@@ -590,10 +590,10 @@
   },
   "hpi_uk": {
    "value": {
-    "average": 273037,
-    "growth": 0.9
+    "average": 272642,
+    "growth": 1.2
    },
-   "period": "August 2026",
+   "period": "September 2026",
    "geography": "United Kingdom",
    "source": {
     "name": "UK House Price Index (HM Land Registry / ONS)",
@@ -631,59 +631,59 @@
   "news": {
    "value": [
     {
-     "title": "King Charles in Preston LIVE as monarch makes special visit to Lancashire - updates",
+     "title": "Don Toliver Co-op Live incident LIVE as police issue new statement as 89 people treated after suspected tear gas released",
      "excerpt": "",
-     "date": "16 Nov 2026",
+     "date": "23 Nov 2026",
      "tag": "Greater Manchester",
      "tone": "neutral",
      "source": "Manchester Evening News – Greater Manchester",
      "domain": "manchestereveningnews.co.uk",
-     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/king-charles-preston-live-monarch-34916485",
-     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34917551.ece/ALTERNATES/s615/0_Royal-visit-to-LancashirejpgThe-King-meets-young-members-of-local-uniformed-services.jpg",
+     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/don-toliver-incident-live-co-34951457",
+     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34952006.ece/ALTERNATES/s615/0_WhatsApp-Image-2026-11-23-at-081647-1jpeg.jpg",
      "image_external": true,
      "scope": "nearby"
     },
     {
-     "title": "2 lucky North West postcode wins in today's Postcode Lottery draw",
+     "title": "The M62, M56 and M61 motorways in Greater Manchester will all close this week",
      "excerpt": "",
-     "date": "16 Nov 2026",
+     "date": "23 Nov 2026",
+     "tag": "Greater Manchester",
+     "tone": "neutral",
+     "source": "Manchester Evening News – Greater Manchester",
+     "domain": "manchestereveningnews.co.uk",
+     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/m62-m56-m61-motorways-greater-34955155",
+     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34524111.ece/ALTERNATES/s615/4_JS149104792.jpg",
+     "image_external": true,
+     "scope": "nearby"
+    },
+    {
+     "title": "Man in his 40s declared missing from Trafford found 'safe and well', police say",
+     "excerpt": "",
+     "date": "23 Nov 2026",
      "tag": "Greater Manchester",
      "tone": "neutral",
      "source": "Messenger Newspapers",
      "domain": "messengernewspapers.co.uk",
-     "url": "https://www.messengernewspapers.co.uk/news/26733053.2-lucky-north-west-postcode-wins-todays-postcode-lottery-draw/?ref=rss",
-     "image": "https://www.messengernewspapers.co.uk/resources/images/20737861/",
+     "url": "https://www.messengernewspapers.co.uk/news/26754974.missing-trafford-man-found-safe-well-police-confirm/?ref=rss",
+     "image": "https://www.messengernewspapers.co.uk/resources/images/19213750/",
      "image_external": true,
      "scope": "nearby"
     },
     {
-     "title": "Manchester trial LIVE as court hears 'messages sent to husband who drugged and raped wife'",
+     "title": "Rapper Don Toliver's next concert postponed after Co-op Live major incident",
      "excerpt": "",
-     "date": "16 Nov 2026",
+     "date": "23 Nov 2026",
      "tag": "Greater Manchester",
      "tone": "neutral",
-     "source": "Manchester Evening News – Greater Manchester",
-     "domain": "manchestereveningnews.co.uk",
-     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/manchester-trial-live-nine-men-34843691",
-     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34891708.ece/ALTERNATES/s615/0_Courtcomp1.jpg",
-     "image_external": true,
-     "scope": "nearby"
-    },
-    {
-     "title": "Manchester Piccadilly delays RECAP after major disruption hits passengers and trains cancelled",
-     "excerpt": "",
-     "date": "16 Nov 2026",
-     "tag": "Greater Manchester",
-     "tone": "neutral",
-     "source": "Manchester Evening News – Greater Manchester",
-     "domain": "manchestereveningnews.co.uk",
-     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/manchester-piccadilly-delays-live-major-34916801",
-     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34916808.ece/ALTERNATES/s615/0_JRP_MEN_070826_train_006JPG.jpg",
+     "source": "Messenger Newspapers",
+     "domain": "messengernewspapers.co.uk",
+     "url": "https://www.messengernewspapers.co.uk/news/26754892.don-toliver-reschedules-london-concert-co-op-live-evacuation/?ref=rss",
+     "image": "https://www.messengernewspapers.co.uk/resources/images/21751774/",
      "image_external": true,
      "scope": "nearby"
     }
    ],
-   "period": "Publisher feeds checked 2026-11-16",
+   "period": "Publisher feeds checked 2026-11-23",
    "geography": "Warburton",
    "source": {
     "name": "Local publisher RSS feeds",
@@ -977,6 +977,19 @@
     "trams": [],
     "buses": [
      {
+      "number": "280",
+      "from": "Altrincham",
+      "to": "Lymm",
+      "via": [
+       "Dunham Massey"
+      ],
+      "operators": [
+       "Bee Network"
+      ],
+      "trips": 190,
+      "school": false
+     },
+     {
       "number": "5A",
       "from": "Warrington",
       "to": "Sale",
@@ -988,19 +1001,6 @@
        "Warrington's Own Buses"
       ],
       "trips": 53,
-      "school": false
-     },
-     {
-      "number": "280",
-      "from": "Altrincham",
-      "to": "Lymm",
-      "via": [
-       "Dunham Massey"
-      ],
-      "operators": [
-       "Bee Network"
-      ],
-      "trips": 49,
       "school": false
      },
      {
@@ -1042,7 +1042,7 @@
     "tram_map": "https://tfgm.com/ways-to-travel/tram/network-map",
     "rail_reviewed": "2026-10-12"
    },
-   "period": "Timetable downloaded 2026-11-16",
+   "period": "Timetable downloaded 2026-11-23",
    "geography": "Stops within 1 km of the centre of Warburton",
    "source": {
     "name": "TfGM bus and Metrolink timetables (GTFS)",
@@ -1182,5 +1182,5 @@
    "note": "Access to jobs, education, healthcare, shops and leisure by walking, cycling, public transport and driving."
   }
  },
- "updated": "2026-11-16"
+ "updated": "2026-11-23"
 }

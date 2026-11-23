@@ -83,26 +83,22 @@
   },
   "average_rent": {
    "value": {
-    "month": "2026-09",
-    "monthly": 1373,
-    "change_12m": 3,
+    "month": "2026-10",
+    "monthly": 1378,
+    "change_12m": 3.3,
     "by_beds": {
-     "one": 946,
-     "two": 1205,
-     "three": 1488,
-     "four_plus": 2113
+     "one": 948,
+     "two": 1209,
+     "three": 1494,
+     "four_plus": 2120
     },
     "by_type": {
-     "detached": 2051,
-     "semi": 1526,
-     "terraced": 1361,
-     "flat": 1122
+     "detached": 2059,
+     "semi": 1533,
+     "terraced": 1365,
+     "flat": 1125
     },
     "trend": [
-     {
-      "month": "2021-10",
-      "rent": 962
-     },
      {
       "month": "2021-11",
       "rent": 972
@@ -338,14 +334,18 @@
      {
       "month": "2026-09",
       "rent": 1373
+     },
+     {
+      "month": "2026-10",
+      "rent": 1378
      }
     ],
     "compare": {
-     "North West": 975,
-     "England": 1466
+     "North West": 979,
+     "England": 1472
     }
    },
-   "period": "September 2026 (provisional)",
+   "period": "October 2026 (provisional)",
    "geography": "Trafford (local authority)",
    "source": {
     "name": "ONS Price Index of Private Rents — Housing prices in your area",
@@ -580,10 +580,10 @@
   },
   "hpi_borough": {
    "value": {
-    "average": 393897,
-    "growth": 6.4
+    "average": 394017,
+    "growth": 4.7
    },
-   "period": "August 2026",
+   "period": "September 2026",
    "geography": "Trafford (local authority)",
    "source": {
     "name": "UK House Price Index (HM Land Registry / ONS)",
@@ -595,10 +595,10 @@
   },
   "hpi_uk": {
    "value": {
-    "average": 273037,
-    "growth": 0.9
+    "average": 272642,
+    "growth": 1.2
    },
-   "period": "August 2026",
+   "period": "September 2026",
    "geography": "United Kingdom",
    "source": {
     "name": "UK House Price Index (HM Land Registry / ONS)",
@@ -636,62 +636,62 @@
   "news": {
    "value": [
     {
-     "title": "Take a look inside this transformed three-bedroom family home in Sale",
+     "title": "Growing concerns for missing man last seen in Flixton",
      "excerpt": "",
-     "date": "15 Nov 2026",
-     "tag": "Nearby · Sale",
+     "date": "23 Nov 2026",
+     "tag": "Nearby · Urmston",
      "tone": "neutral",
      "source": "Messenger Newspapers",
      "domain": "messengernewspapers.co.uk",
-     "url": "https://www.messengernewspapers.co.uk/news/26726118.renovated-detached-house-sale-market-575-000/?ref=rss",
-     "image": "https://www.messengernewspapers.co.uk/resources/images/21712954/",
-     "image_external": true,
-     "scope": "nearby",
-     "near": "Sale"
-    },
-    {
-     "title": "Her parents were told she would never walk, now she's going down mountains at 80mph",
-     "excerpt": "",
-     "date": "15 Nov 2026",
-     "tag": "Nearby · Urmston",
-     "tone": "neutral",
-     "source": "Manchester Evening News – Trafford",
-     "domain": "manchestereveningnews.co.uk",
-     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/parents-were-told-would-never-34904232",
-     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34904377.ece/ALTERNATES/s615/656352843_18159401728437028_5420242844939975353_n.jpg",
+     "url": "https://www.messengernewspapers.co.uk/news/26752399.police-appeal-missing-man-last-seen-flixton/?ref=rss",
+     "image": "https://www.messengernewspapers.co.uk/resources/images/21750202/",
      "image_external": true,
      "scope": "nearby",
      "near": "Urmston"
     },
     {
-     "title": "Stretford set for festive fun as Christmas lights switch-on returns this weekend",
+     "title": "Full details of huge plans for Old Trafford, Stretford, Urmston, Altrincham, Sale and Timperley",
      "excerpt": "",
-     "date": "13 Nov 2026",
+     "date": "20 Nov 2026",
+     "tag": "Nearby · Urmston",
+     "tone": "neutral",
+     "source": "Manchester Evening News – Trafford",
+     "domain": "manchestereveningnews.co.uk",
+     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/full-details-huge-plans-old-34938496",
+     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34804295.ece/ALTERNATES/s615/0_GettyImages-2256708209.jpg",
+     "image_external": true,
+     "scope": "nearby",
+     "near": "Urmston"
+    },
+    {
+     "title": "Police want to speak to this man about a bike theft at Stretford Mall",
+     "excerpt": "",
+     "date": "23 Nov 2026",
      "tag": "Nearby · Stretford",
      "tone": "neutral",
      "source": "Messenger Newspapers",
      "domain": "messengernewspapers.co.uk",
-     "url": "https://www.messengernewspapers.co.uk/news/26723593.stretford-christmas-lights-switch-on-set-saturday/?ref=rss",
-     "image": "https://www.messengernewspapers.co.uk/resources/images/21639835/",
+     "url": "https://www.messengernewspapers.co.uk/news/26752348.police-appeal-following-bike-theft-stretford-mall/?ref=rss",
+     "image": "https://www.messengernewspapers.co.uk/resources/images/21750133/",
      "image_external": true,
      "scope": "nearby",
      "near": "Stretford"
     },
     {
-     "title": "Welcome to Altrincham's secret run club, where the sound of fireworks are a grim reminder",
+     "title": "Two ‘home from homes’ and an ‘exceptionally caring’ home care service in Greater Manchester's health inspection round-up",
      "excerpt": "",
-     "date": "14 Nov 2026",
+     "date": "22 Nov 2026",
      "tag": "Nearby news",
      "tone": "neutral",
      "source": "Manchester Evening News – Sale",
      "domain": "manchestereveningnews.co.uk",
-     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/welcome-altrinchams-secret-run-club-34875961",
-     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34876043.ece/ALTERNATES/s615/0_The-Refugee-Run-Club.jpg",
+     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/two-home-homes-exceptionally-caring-34944588",
+     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34944673.ece/ALTERNATES/s615/0_Wellfield-House-care-home-Whalley-Range.jpg",
      "image_external": true,
      "scope": "nearby"
     }
    ],
-   "period": "Publisher feeds checked 2026-11-16",
+   "period": "Publisher feeds checked 2026-11-23",
    "geography": "Ashton upon Mersey",
    "source": {
     "name": "Local publisher RSS feeds",
@@ -1077,7 +1077,7 @@
       "operators": [
        "Bee Network"
       ],
-      "trips": 159,
+      "trips": 439,
       "school": false
      },
      {
@@ -1088,7 +1088,18 @@
       "operators": [
        "Bee Network"
       ],
-      "trips": 76,
+      "trips": 212,
+      "school": false
+     },
+     {
+      "number": "281",
+      "from": "Altrincham",
+      "to": "Sale",
+      "via": [],
+      "operators": [
+       "Bee Network"
+      ],
+      "trips": 135,
       "school": false
      },
      {
@@ -1103,17 +1114,6 @@
        "Warrington's Own Buses"
       ],
       "trips": 53,
-      "school": false
-     },
-     {
-      "number": "281",
-      "from": "Altrincham",
-      "to": "Sale",
-      "via": [],
-      "operators": [
-       "Bee Network"
-      ],
-      "trips": 45,
       "school": false
      },
      {
@@ -1143,13 +1143,35 @@
      },
      {
       "number": "789",
-      "from": "Lostock",
-      "to": "Blessed Thomas Holford College",
+      "from": "Blessed Thomas Holford College",
+      "to": "Lostock",
       "via": [],
       "operators": [
        "Bee Network"
       ],
-      "trips": 6,
+      "trips": 8,
+      "school": true
+     },
+     {
+      "number": "746",
+      "from": "Altrincham Grammar School",
+      "to": "Brooklands",
+      "via": [],
+      "operators": [
+       "Bee Network"
+      ],
+      "trips": 4,
+      "school": true
+     },
+     {
+      "number": "759",
+      "from": "Altrincham Girls Grammar",
+      "to": "Loreto Gramma",
+      "via": [],
+      "operators": [
+       "Bee Network"
+      ],
+      "trips": 4,
       "school": true
      },
      {
@@ -1161,28 +1183,6 @@
        "Bee Network"
       ],
       "trips": 4,
-      "school": true
-     },
-     {
-      "number": "746",
-      "from": "Altrincham Grammar School",
-      "to": "Brooklands",
-      "via": [],
-      "operators": [
-       "Bee Network"
-      ],
-      "trips": 2,
-      "school": true
-     },
-     {
-      "number": "759",
-      "from": "Altrincham Girls Grammar",
-      "to": "Loreto Gramma",
-      "via": [],
-      "operators": [
-       "Bee Network"
-      ],
-      "trips": 2,
       "school": true
      },
      {
@@ -1257,7 +1257,7 @@
     "tram_map": "https://tfgm.com/ways-to-travel/tram/network-map",
     "rail_reviewed": "2026-10-12"
    },
-   "period": "Timetable downloaded 2026-11-16",
+   "period": "Timetable downloaded 2026-11-23",
    "geography": "Stops within 1 km of the centre of Ashton upon Mersey",
    "source": {
     "name": "TfGM bus and Metrolink timetables (GTFS)",
@@ -1404,5 +1404,5 @@
    "note": "Access to jobs, education, healthcare, shops and leisure by walking, cycling, public transport and driving."
   }
  },
- "updated": "2026-11-16"
+ "updated": "2026-11-23"
 }

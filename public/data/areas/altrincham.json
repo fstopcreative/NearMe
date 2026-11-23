@@ -83,26 +83,22 @@
   },
   "average_rent": {
    "value": {
-    "month": "2026-09",
-    "monthly": 1373,
-    "change_12m": 3,
+    "month": "2026-10",
+    "monthly": 1378,
+    "change_12m": 3.3,
     "by_beds": {
-     "one": 946,
-     "two": 1205,
-     "three": 1488,
-     "four_plus": 2113
+     "one": 948,
+     "two": 1209,
+     "three": 1494,
+     "four_plus": 2120
     },
     "by_type": {
-     "detached": 2051,
-     "semi": 1526,
-     "terraced": 1361,
-     "flat": 1122
+     "detached": 2059,
+     "semi": 1533,
+     "terraced": 1365,
+     "flat": 1125
     },
     "trend": [
-     {
-      "month": "2021-10",
-      "rent": 962
-     },
      {
       "month": "2021-11",
       "rent": 972
@@ -338,14 +334,18 @@
      {
       "month": "2026-09",
       "rent": 1373
+     },
+     {
+      "month": "2026-10",
+      "rent": 1378
      }
     ],
     "compare": {
-     "North West": 975,
-     "England": 1466
+     "North West": 979,
+     "England": 1472
     }
    },
-   "period": "September 2026 (provisional)",
+   "period": "October 2026 (provisional)",
    "geography": "Trafford (local authority)",
    "source": {
     "name": "ONS Price Index of Private Rents — Housing prices in your area",
@@ -710,10 +710,10 @@
   },
   "hpi_borough": {
    "value": {
-    "average": 393897,
-    "growth": 6.4
+    "average": 394017,
+    "growth": 4.7
    },
-   "period": "August 2026",
+   "period": "September 2026",
    "geography": "Trafford (local authority)",
    "source": {
     "name": "UK House Price Index (HM Land Registry / ONS)",
@@ -725,10 +725,10 @@
   },
   "hpi_uk": {
    "value": {
-    "average": 273037,
-    "growth": 0.9
+    "average": 272642,
+    "growth": 1.2
    },
-   "period": "August 2026",
+   "period": "September 2026",
    "geography": "United Kingdom",
    "source": {
     "name": "UK House Price Index (HM Land Registry / ONS)",
@@ -766,115 +766,114 @@
   "news": {
    "value": [
     {
-     "title": "Coronation Street and Hollyoaks stars revealed as Altrincham Christmas Lights Switch-On special guests",
+     "title": "Potential Altrincham Grammar School for Girls admissions policy change sparks concern",
      "excerpt": "",
-     "date": "16 Nov 2026",
-     "tag": "Local news",
-     "tone": "neutral",
-     "source": "Altrincham Today",
-     "domain": "altrincham.todaynews.co.uk",
-     "url": "https://altrincham.todaynews.co.uk/news/2026/11/16/coronation-street-and-hollyoaks-stars-revealed-as-altrincham-christmas-lights-switch-on-special-guests/",
-     "image": "https://storage.ghost.io/c/09/ce/09cee984-fa22-44f2-a16f-e4d816e662de/content/images/2026/11/Santa-on-Christmas-Lights-Switch-on-Stage--1--1.jpg",
+     "date": "21 Nov 2026",
+     "tag": "Schools",
+     "tone": "success",
+     "source": "Manchester Evening News – Trafford",
+     "domain": "manchestereveningnews.co.uk",
+     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/potential-altrincham-grammar-school-girls-34945355",
+     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article33003112.ece/ALTERNATES/s615/1_200825grammarschools5.jpg",
      "image_external": true,
      "scope": "local"
     },
     {
-     "title": "Global toy giant Lego buys Altrincham gaming studio",
+     "title": "Man in his 70s seriously injured after crash between car and pedestrian in Altrincham",
      "excerpt": "",
-     "date": "16 Nov 2026",
+     "date": "20 Nov 2026",
      "tag": "Local news",
      "tone": "neutral",
-     "source": "Altrincham Today",
-     "domain": "altrincham.todaynews.co.uk",
-     "url": "https://altrincham.todaynews.co.uk/news/2026/11/16/global-toy-giant-lego-buys-altrincham-gaming-studio/",
-     "image": "https://storage.ghost.io/c/09/ce/09cee984-fa22-44f2-a16f-e4d816e662de/content/images/2026/11/forthstar.jpg",
+     "source": "Messenger Newspapers",
+     "domain": "messengernewspapers.co.uk",
+     "url": "https://www.messengernewspapers.co.uk/news/26749608.man-70s-seriously-injured-following-altrincham-crash/?ref=rss",
+     "image": "https://www.messengernewspapers.co.uk/resources/images/21745791/",
      "image_external": true,
      "scope": "local"
     },
     {
-     "title": "Welcome to Altrincham's secret run club, where the sound of fireworks are a grim reminder",
+     "title": "Huge cordon in place as man in his 70s 'seriously hurt' in Altrincham",
      "excerpt": "",
-     "date": "14 Nov 2026",
+     "date": "20 Nov 2026",
      "tag": "Local news",
      "tone": "neutral",
      "source": "Manchester Evening News – Trafford",
      "domain": "manchestereveningnews.co.uk",
-     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/welcome-altrinchams-secret-run-club-34875961",
-     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34876043.ece/ALTERNATES/s615/0_The-Refugee-Run-Club.jpg",
+     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/huge-cordon-place-man-70s-34943924",
+     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34943943.ece/ALTERNATES/s615/0_JRP_MEN_201126_scene_001JPG.jpg",
      "image_external": true,
      "scope": "local"
     },
     {
-     "title": "Blackadder Goes Forth again as comedy classic returns to Altrincham Garrick",
+     "title": "Revive Skin & Hair wins Altrincham's Winter Windows competition – now vote for your favourite",
      "excerpt": "",
-     "date": "13 Nov 2026",
+     "date": "20 Nov 2026",
      "tag": "Local news",
      "tone": "neutral",
      "source": "Altrincham Today",
      "domain": "altrincham.todaynews.co.uk",
-     "url": "https://altrincham.todaynews.co.uk/news/2026/11/13/blackadder-goes-forth-again-as-comedy-classic-returns-to-altrincham-garrick/",
-     "image": "https://storage.ghost.io/c/09/ce/09cee984-fa22-44f2-a16f-e4d816e662de/content/images/2026/11/862748079_1258627519813300_6407424758431983705_n.jpg",
+     "url": "https://altrincham.todaynews.co.uk/news/2026/11/20/revive-skin-hair-wins-altrinchams-winter-windows-competition-now-vote-for-your-favourite/",
+     "image": "https://storage.ghost.io/c/09/ce/09cee984-fa22-44f2-a16f-e4d816e662de/content/images/2026/11/Revive-Skin---Hair--1-.jpg",
      "image_external": true,
      "scope": "local"
     },
     {
-     "title": "New operator sought to revive fortunes of historic Bowdon pub",
+     "title": "Woman fined £1,000 after being caught fly-tipping in Hale",
      "excerpt": "",
-     "date": "9 Nov 2026",
-     "tag": "Nearby · Bowdon",
+     "date": "17 Nov 2026",
+     "tag": "Nearby · Hale",
      "tone": "neutral",
      "source": "Altrincham Today",
      "domain": "altrincham.todaynews.co.uk",
-     "url": "https://altrincham.todaynews.co.uk/news/2026/11/09/new-operator-sought-to-revive-fortunes-of-historic-bowdon-pub/",
-     "image": "https://storage.ghost.io/c/09/ce/09cee984-fa22-44f2-a16f-e4d816e662de/content/images/2026/11/griffin.jpg",
+     "url": "https://altrincham.todaynews.co.uk/news/2026/11/17/woman-fined-1-000-after-being-caught-fly-tipping-in-hale/",
+     "image": "https://storage.ghost.io/c/09/ce/09cee984-fa22-44f2-a16f-e4d816e662de/content/images/2026/11/flytip-1.jpg",
      "image_external": true,
      "scope": "nearby",
-     "near": "Bowdon"
+     "near": "Hale"
     },
     {
-     "title": "'An exciting new chapter': Bowdon Prep head on the school's first term welcoming boys",
+     "title": "Blow for Timperley traders as bid to halt parking charges is defeated",
      "excerpt": "",
-     "date": "6 Nov 2026",
-     "tag": "Nearby · Bowdon",
-     "tone": "neutral",
-     "source": "Altrincham Today",
-     "domain": "altrincham.todaynews.co.uk",
-     "url": "https://altrincham.todaynews.co.uk/news/2026/11/06/an-exciting-new-chapter-bowdon-prep-head-on-the-schools-first-term-welcoming-boys/",
-     "image": "https://storage.ghost.io/c/09/ce/09cee984-fa22-44f2-a16f-e4d816e662de/content/images/2026/11/SMT-Co-Ed-Preferred--1---1-.jpg",
-     "image_external": true,
-     "scope": "nearby",
-     "near": "Bowdon"
-    },
-    {
-     "title": "Work to begin on Timperley junction badly hit by New Year's Day floods",
-     "excerpt": "",
-     "date": "10 Nov 2026",
+     "date": "20 Nov 2026",
      "tag": "Nearby · Timperley",
      "tone": "neutral",
      "source": "Altrincham Today",
      "domain": "altrincham.todaynews.co.uk",
-     "url": "https://altrincham.todaynews.co.uk/news/2026/11/10/work-to-begin-on-timperley-junction-badly-hit-by-new-years-day-floods/",
-     "image": "https://storage.ghost.io/c/09/ce/09cee984-fa22-44f2-a16f-e4d816e662de/content/images/2026/11/timpflood.jpg",
+     "url": "https://altrincham.todaynews.co.uk/news/2026/11/20/blow-for-timperley-traders-as-bid-to-halt-parking-charges-is-defeated/",
+     "image": "https://storage.ghost.io/c/09/ce/09cee984-fa22-44f2-a16f-e4d816e662de/content/images/2026/11/thorley-1.jpg",
      "image_external": true,
      "scope": "nearby",
      "near": "Timperley"
     },
     {
-     "title": "Boy, 15, arrested on suspicion of knife possession after Timperley incident",
+     "title": "Councillors to vote on calls to scrap planned Timperley parking charges",
      "excerpt": "",
-     "date": "10 Nov 2026",
+     "date": "18 Nov 2026",
      "tag": "Nearby · Timperley",
      "tone": "neutral",
      "source": "Altrincham Today",
      "domain": "altrincham.todaynews.co.uk",
-     "url": "https://altrincham.todaynews.co.uk/news/2026/11/10/boy-15-arrested-on-suspicion-of-knife-possession-after-timperley-incident/",
-     "image": "https://storage.ghost.io/c/09/ce/09cee984-fa22-44f2-a16f-e4d816e662de/content/images/2026/11/brook.png",
+     "url": "https://altrincham.todaynews.co.uk/news/2026/11/18/councillors-to-vote-on-calls-to-scrap-planned-timperley-parking-charges/",
+     "image": "https://storage.ghost.io/c/09/ce/09cee984-fa22-44f2-a16f-e4d816e662de/content/images/2026/11/thorley.jpg",
      "image_external": true,
      "scope": "nearby",
      "near": "Timperley"
+    },
+    {
+     "title": "Don Toliver Co-op Live incident LIVE as police issue new statement as 89 people treated after suspected tear gas released",
+     "excerpt": "",
+     "date": "23 Nov 2026",
+     "tag": "Greater Manchester",
+     "tone": "neutral",
+     "source": "Manchester Evening News – Greater Manchester",
+     "domain": "manchestereveningnews.co.uk",
+     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/don-toliver-incident-live-co-34951457",
+     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34952006.ece/ALTERNATES/s615/0_WhatsApp-Image-2026-11-23-at-081647-1jpeg.jpg",
+     "image_external": true,
+     "scope": "nearby"
     }
    ],
-   "period": "Publisher feeds checked 2026-11-16",
+   "period": "Publisher feeds checked 2026-11-23",
    "geography": "Altrincham",
    "source": {
     "name": "Local publisher RSS feeds",
@@ -886,7 +885,9 @@
     "Altrincham Today",
     "Messenger Newspapers",
     "Manchester Evening News – Trafford",
-    "Manchester Evening News – Altrincham"
+    "Manchester Evening News – Altrincham",
+    "Manchester Evening News – Greater Manchester",
+    "BBC News – Manchester"
    ],
    "feed_links": [
     {
@@ -904,6 +905,14 @@
     {
      "name": "Manchester Evening News – Altrincham",
      "url": "https://www.manchestereveningnews.co.uk/all-about/altrincham?service=rss"
+    },
+    {
+     "name": "Manchester Evening News – Greater Manchester",
+     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/?service=rss"
+    },
+    {
+     "name": "BBC News – Manchester",
+     "url": "https://feeds.bbci.co.uk/news/england/manchester/rss.xml"
     }
    ],
    "scope": "local",
@@ -1268,6 +1277,17 @@
     ],
     "buses": [
      {
+      "number": "263",
+      "from": "Altrincham",
+      "to": "Manchester",
+      "via": [],
+      "operators": [
+       "Bee Network"
+      ],
+      "trips": 965,
+      "school": false
+     },
+     {
       "number": "11",
       "from": "Stockport",
       "to": "Altrincham",
@@ -1279,28 +1299,6 @@
       "school": false
      },
      {
-      "number": "263",
-      "from": "Altrincham",
-      "to": "Manchester",
-      "via": [],
-      "operators": [
-       "Bee Network"
-      ],
-      "trips": 363,
-      "school": false
-     },
-     {
-      "number": "370",
-      "from": "Stockport",
-      "to": "Altrincham",
-      "via": [],
-      "operators": [
-       "Bee Network"
-      ],
-      "trips": 190,
-      "school": false
-     },
-     {
       "number": "249",
       "from": "Wythenshawe",
       "to": "Altrincham",
@@ -1308,7 +1306,7 @@
       "operators": [
        "Bee Network"
       ],
-      "trips": 159,
+      "trips": 439,
       "school": false
      },
      {
@@ -1319,7 +1317,75 @@
       "operators": [
        "Bee Network"
       ],
-      "trips": 144,
+      "trips": 398,
+      "school": false
+     },
+     {
+      "number": "370",
+      "from": "Stockport",
+      "to": "Altrincham",
+      "via": [],
+      "operators": [
+       "Bee Network"
+      ],
+      "trips": 348,
+      "school": false
+     },
+     {
+      "number": "245",
+      "from": "Trafford Centre",
+      "to": "Altrincham",
+      "via": [],
+      "operators": [
+       "Bee Network"
+      ],
+      "trips": 343,
+      "school": false
+     },
+     {
+      "number": "288",
+      "from": "Manchester Airport",
+      "to": "Altrincham",
+      "via": [],
+      "operators": [
+       "Bee Network"
+      ],
+      "trips": 276,
+      "school": false
+     },
+     {
+      "number": "280",
+      "from": "Altrincham",
+      "to": "Lymm",
+      "via": [
+       "Dunham Massey"
+      ],
+      "operators": [
+       "Bee Network"
+      ],
+      "trips": 258,
+      "school": false
+     },
+     {
+      "number": "281",
+      "from": "Altrincham",
+      "to": "Sale",
+      "via": [],
+      "operators": [
+       "Bee Network"
+      ],
+      "trips": 141,
+      "school": false
+     },
+     {
+      "number": "287",
+      "from": "Altrincham",
+      "to": "Bowdon Vale circular",
+      "via": [],
+      "operators": [
+       "Bee Network"
+      ],
+      "trips": 140,
       "school": false
      },
      {
@@ -1336,14 +1402,73 @@
       "school": false
      },
      {
-      "number": "245",
-      "from": "Trafford Centre",
+      "number": "282",
+      "from": "Altrincham",
+      "to": "Oldfield Brow circular",
+      "via": [],
+      "operators": [
+       "Bee Network"
+      ],
+      "trips": 126,
+      "school": false
+     },
+     {
+      "number": "371",
+      "from": "Stockport",
       "to": "Altrincham",
       "via": [],
       "operators": [
        "Bee Network"
       ],
-      "trips": 113,
+      "trips": 123,
+      "school": false
+     },
+     {
+      "number": "285",
+      "from": "Altrincham",
+      "to": "Timperley circular",
+      "via": [],
+      "operators": [
+       "Bee Network"
+      ],
+      "trips": 100,
+      "school": false
+     },
+     {
+      "number": "283",
+      "from": "Altrincham",
+      "to": "Warburton Green circular",
+      "via": [
+       "Hale"
+      ],
+      "operators": [
+       "Bee Network"
+      ],
+      "trips": 98,
+      "school": false
+     },
+     {
+      "number": "286",
+      "from": "Altrincham",
+      "to": "Timperley circular",
+      "via": [],
+      "operators": [
+       "Bee Network"
+      ],
+      "trips": 98,
+      "school": false
+     },
+     {
+      "number": "284",
+      "from": "Altrincham",
+      "to": "Warburton Green circular",
+      "via": [
+       "Well Green"
+      ],
+      "operators": [
+       "Bee Network"
+      ],
+      "trips": 93,
       "school": false
      },
      {
@@ -1361,119 +1486,25 @@
       "school": false
      },
      {
-      "number": "288",
-      "from": "Manchester Airport",
-      "to": "Altrincham",
+      "number": "754",
+      "from": "East Didsbury",
+      "to": "Altrincham Schools",
       "via": [],
       "operators": [
        "Bee Network"
       ],
-      "trips": 74,
+      "trips": 4,
       "school": false
      },
      {
-      "number": "280",
-      "from": "Altrincham",
-      "to": "Lymm",
-      "via": [
-       "Dunham Massey"
-      ],
-      "operators": [
-       "Bee Network"
-      ],
-      "trips": 69,
-      "school": false
-     },
-     {
-      "number": "281",
-      "from": "Altrincham",
-      "to": "Sale",
+      "number": "755",
+      "from": "Northern Moor",
+      "to": "Altrincham Schools",
       "via": [],
       "operators": [
        "Bee Network"
       ],
-      "trips": 47,
-      "school": false
-     },
-     {
-      "number": "282",
-      "from": "Altrincham",
-      "to": "Oldfield Brow circular",
-      "via": [],
-      "operators": [
-       "Bee Network"
-      ],
-      "trips": 47,
-      "school": false
-     },
-     {
-      "number": "371",
-      "from": "Stockport",
-      "to": "Altrincham",
-      "via": [],
-      "operators": [
-       "Bee Network"
-      ],
-      "trips": 41,
-      "school": false
-     },
-     {
-      "number": "287",
-      "from": "Altrincham",
-      "to": "Bowdon Vale circular",
-      "via": [],
-      "operators": [
-       "Bee Network"
-      ],
-      "trips": 38,
-      "school": false
-     },
-     {
-      "number": "285",
-      "from": "Altrincham",
-      "to": "Timperley circular",
-      "via": [],
-      "operators": [
-       "Bee Network"
-      ],
-      "trips": 36,
-      "school": false
-     },
-     {
-      "number": "283",
-      "from": "Altrincham",
-      "to": "Warburton Green circular",
-      "via": [
-       "Hale"
-      ],
-      "operators": [
-       "Bee Network"
-      ],
-      "trips": 35,
-      "school": false
-     },
-     {
-      "number": "286",
-      "from": "Altrincham",
-      "to": "Timperley circular",
-      "via": [],
-      "operators": [
-       "Bee Network"
-      ],
-      "trips": 35,
-      "school": false
-     },
-     {
-      "number": "284",
-      "from": "Altrincham",
-      "to": "Warburton Green circular",
-      "via": [
-       "Well Green"
-      ],
-      "operators": [
-       "Bee Network"
-      ],
-      "trips": 33,
+      "trips": 4,
       "school": false
      },
      {
@@ -1529,28 +1560,6 @@
        "Bee Network"
       ],
       "trips": 4,
-      "school": false
-     },
-     {
-      "number": "754",
-      "from": "East Didsbury",
-      "to": "Altrincham Schools",
-      "via": [],
-      "operators": [
-       "Bee Network"
-      ],
-      "trips": 2,
-      "school": false
-     },
-     {
-      "number": "755",
-      "from": "Northern Moor",
-      "to": "Altrincham Schools",
-      "via": [],
-      "operators": [
-       "Bee Network"
-      ],
-      "trips": 2,
       "school": false
      }
     ],
@@ -1617,7 +1626,7 @@
     "tram_map": "https://tfgm.com/ways-to-travel/tram/network-map",
     "rail_reviewed": "2026-10-12"
    },
-   "period": "Timetable downloaded 2026-11-16",
+   "period": "Timetable downloaded 2026-11-23",
    "geography": "Stops within 1 km of the centre of Altrincham",
    "source": {
     "name": "TfGM bus and Metrolink timetables (GTFS)",
@@ -1764,5 +1773,5 @@
    "note": "Access to jobs, education, healthcare, shops and leisure by walking, cycling, public transport and driving."
   }
  },
- "updated": "2026-11-16"
+ "updated": "2026-11-23"
 }

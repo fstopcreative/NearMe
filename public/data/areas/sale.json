@@ -87,26 +87,22 @@
   },
   "average_rent": {
    "value": {
-    "month": "2026-09",
-    "monthly": 1373,
-    "change_12m": 3,
+    "month": "2026-10",
+    "monthly": 1378,
+    "change_12m": 3.3,
     "by_beds": {
-     "one": 946,
-     "two": 1205,
-     "three": 1488,
-     "four_plus": 2113
+     "one": 948,
+     "two": 1209,
+     "three": 1494,
+     "four_plus": 2120
     },
     "by_type": {
-     "detached": 2051,
-     "semi": 1526,
-     "terraced": 1361,
-     "flat": 1122
+     "detached": 2059,
+     "semi": 1533,
+     "terraced": 1365,
+     "flat": 1125
     },
     "trend": [
-     {
-      "month": "2021-10",
-      "rent": 962
-     },
      {
       "month": "2021-11",
       "rent": 972
@@ -342,14 +338,18 @@
      {
       "month": "2026-09",
       "rent": 1373
+     },
+     {
+      "month": "2026-10",
+      "rent": 1378
      }
     ],
     "compare": {
-     "North West": 975,
-     "England": 1466
+     "North West": 979,
+     "England": 1472
     }
    },
-   "period": "September 2026 (provisional)",
+   "period": "October 2026 (provisional)",
    "geography": "Trafford (local authority)",
    "source": {
     "name": "ONS Price Index of Private Rents — Housing prices in your area",
@@ -604,10 +604,10 @@
   },
   "hpi_borough": {
    "value": {
-    "average": 393897,
-    "growth": 6.4
+    "average": 394017,
+    "growth": 4.7
    },
-   "period": "August 2026",
+   "period": "September 2026",
    "geography": "Trafford (local authority)",
    "source": {
     "name": "UK House Price Index (HM Land Registry / ONS)",
@@ -619,10 +619,10 @@
   },
   "hpi_uk": {
    "value": {
-    "average": 273037,
-    "growth": 0.9
+    "average": 272642,
+    "growth": 1.2
    },
-   "period": "August 2026",
+   "period": "September 2026",
    "geography": "United Kingdom",
    "source": {
     "name": "UK House Price Index (HM Land Registry / ONS)",
@@ -660,76 +660,63 @@
   "news": {
    "value": [
     {
-     "title": "Take a look inside this transformed three-bedroom family home in Sale",
+     "title": "Police want to speak to this man about a bike theft at Stretford Mall",
      "excerpt": "",
-     "date": "15 Nov 2026",
-     "tag": "Local news",
-     "tone": "neutral",
-     "source": "Messenger Newspapers",
-     "domain": "messengernewspapers.co.uk",
-     "url": "https://www.messengernewspapers.co.uk/news/26726118.renovated-detached-house-sale-market-575-000/?ref=rss",
-     "image": "https://www.messengernewspapers.co.uk/resources/images/21712954/",
-     "image_external": true,
-     "scope": "local"
-    },
-    {
-     "title": "Stretford set for festive fun as Christmas lights switch-on returns this weekend",
-     "excerpt": "",
-     "date": "13 Nov 2026",
+     "date": "23 Nov 2026",
      "tag": "Nearby · Stretford",
      "tone": "neutral",
      "source": "Messenger Newspapers",
      "domain": "messengernewspapers.co.uk",
-     "url": "https://www.messengernewspapers.co.uk/news/26723593.stretford-christmas-lights-switch-on-set-saturday/?ref=rss",
-     "image": "https://www.messengernewspapers.co.uk/resources/images/21639835/",
+     "url": "https://www.messengernewspapers.co.uk/news/26752348.police-appeal-following-bike-theft-stretford-mall/?ref=rss",
+     "image": "https://www.messengernewspapers.co.uk/resources/images/21750133/",
      "image_external": true,
      "scope": "nearby",
      "near": "Stretford"
     },
     {
-     "title": "Work to begin on Timperley junction badly hit by New Year's Day floods",
+     "title": "Full details of huge plans for Old Trafford, Stretford, Urmston, Altrincham, Sale and Timperley",
      "excerpt": "",
-     "date": "10 Nov 2026",
-     "tag": "Nearby · Timperley",
-     "tone": "neutral",
-     "source": "Altrincham Today",
-     "domain": "altrincham.todaynews.co.uk",
-     "url": "https://altrincham.todaynews.co.uk/news/2026/11/10/work-to-begin-on-timperley-junction-badly-hit-by-new-years-day-floods/",
-     "image": "https://storage.ghost.io/c/09/ce/09cee984-fa22-44f2-a16f-e4d816e662de/content/images/2026/11/timpflood.jpg",
-     "image_external": true,
-     "scope": "nearby",
-     "near": "Timperley"
-    },
-    {
-     "title": "Boy, 15, arrested on suspicion of knife possession after Timperley incident",
-     "excerpt": "",
-     "date": "10 Nov 2026",
-     "tag": "Nearby · Timperley",
-     "tone": "neutral",
-     "source": "Altrincham Today",
-     "domain": "altrincham.todaynews.co.uk",
-     "url": "https://altrincham.todaynews.co.uk/news/2026/11/10/boy-15-arrested-on-suspicion-of-knife-possession-after-timperley-incident/",
-     "image": "https://storage.ghost.io/c/09/ce/09cee984-fa22-44f2-a16f-e4d816e662de/content/images/2026/11/brook.png",
-     "image_external": true,
-     "scope": "nearby",
-     "near": "Timperley"
-    },
-    {
-     "title": "Her parents were told she would never walk, now she's going down mountains at 80mph",
-     "excerpt": "",
-     "date": "15 Nov 2026",
-     "tag": "Nearby · Urmston",
+     "date": "20 Nov 2026",
+     "tag": "Nearby · Stretford",
      "tone": "neutral",
      "source": "Manchester Evening News – Trafford",
      "domain": "manchestereveningnews.co.uk",
-     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/parents-were-told-would-never-34904232",
-     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34904377.ece/ALTERNATES/s615/656352843_18159401728437028_5420242844939975353_n.jpg",
+     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/full-details-huge-plans-old-34938496",
+     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34804295.ece/ALTERNATES/s615/0_GettyImages-2256708209.jpg",
      "image_external": true,
      "scope": "nearby",
-     "near": "Urmston"
+     "near": "Stretford"
+    },
+    {
+     "title": "Blow for Timperley traders as bid to halt parking charges is defeated",
+     "excerpt": "",
+     "date": "20 Nov 2026",
+     "tag": "Nearby · Timperley",
+     "tone": "neutral",
+     "source": "Altrincham Today",
+     "domain": "altrincham.todaynews.co.uk",
+     "url": "https://altrincham.todaynews.co.uk/news/2026/11/20/blow-for-timperley-traders-as-bid-to-halt-parking-charges-is-defeated/",
+     "image": "https://storage.ghost.io/c/09/ce/09cee984-fa22-44f2-a16f-e4d816e662de/content/images/2026/11/thorley-1.jpg",
+     "image_external": true,
+     "scope": "nearby",
+     "near": "Timperley"
+    },
+    {
+     "title": "Councillors to vote on calls to scrap planned Timperley parking charges",
+     "excerpt": "",
+     "date": "18 Nov 2026",
+     "tag": "Nearby · Timperley",
+     "tone": "neutral",
+     "source": "Altrincham Today",
+     "domain": "altrincham.todaynews.co.uk",
+     "url": "https://altrincham.todaynews.co.uk/news/2026/11/18/councillors-to-vote-on-calls-to-scrap-planned-timperley-parking-charges/",
+     "image": "https://storage.ghost.io/c/09/ce/09cee984-fa22-44f2-a16f-e4d816e662de/content/images/2026/11/thorley.jpg",
+     "image_external": true,
+     "scope": "nearby",
+     "near": "Timperley"
     }
    ],
-   "period": "Publisher feeds checked 2026-11-16",
+   "period": "Publisher feeds checked 2026-11-23",
    "geography": "Sale",
    "source": {
     "name": "Local publisher RSS feeds",
@@ -761,8 +748,8 @@
      "url": "https://altrincham.todaynews.co.uk/feed/"
     }
    ],
-   "scope": "local",
-   "local_count": 1,
+   "scope": "nearby",
+   "local_count": 0,
    "nearby_count": 4,
    "note": "Headlines and links only; RSS images are referenced from the publisher when supplied and are not copied."
   },
@@ -1133,7 +1120,29 @@
       "operators": [
        "Bee Network"
       ],
-      "trips": 363,
+      "trips": 965,
+      "school": false
+     },
+     {
+      "number": "249",
+      "from": "Wythenshawe",
+      "to": "Altrincham",
+      "via": [],
+      "operators": [
+       "Bee Network"
+      ],
+      "trips": 439,
+      "school": false
+     },
+     {
+      "number": "245",
+      "from": "Trafford Centre",
+      "to": "Altrincham",
+      "via": [],
+      "operators": [
+       "Bee Network"
+      ],
+      "trips": 343,
       "school": false
      },
      {
@@ -1151,28 +1160,6 @@
       "school": false
      },
      {
-      "number": "249",
-      "from": "Wythenshawe",
-      "to": "Altrincham",
-      "via": [],
-      "operators": [
-       "Bee Network"
-      ],
-      "trips": 159,
-      "school": false
-     },
-     {
-      "number": "245",
-      "from": "Trafford Centre",
-      "to": "Altrincham",
-      "via": [],
-      "operators": [
-       "Bee Network"
-      ],
-      "trips": 113,
-      "school": false
-     },
-     {
       "number": "248",
       "from": "Eccles",
       "to": "Manchester Airport",
@@ -1180,7 +1167,18 @@
       "operators": [
        "Bee Network"
       ],
-      "trips": 79,
+      "trips": 219,
+      "school": false
+     },
+     {
+      "number": "281",
+      "from": "Altrincham",
+      "to": "Sale",
+      "via": [],
+      "operators": [
+       "Bee Network"
+      ],
+      "trips": 141,
       "school": false
      },
      {
@@ -1195,17 +1193,6 @@
        "Warrington's Own Buses"
       ],
       "trips": 53,
-      "school": false
-     },
-     {
-      "number": "281",
-      "from": "Altrincham",
-      "to": "Sale",
-      "via": [],
-      "operators": [
-       "Bee Network"
-      ],
-      "trips": 47,
       "school": false
      },
      {
@@ -1267,6 +1254,17 @@
       "school": false
      },
      {
+      "number": "789",
+      "from": "Blessed Thomas Holford College",
+      "to": "Lostock",
+      "via": [],
+      "operators": [
+       "Bee Network"
+      ],
+      "trips": 8,
+      "school": true
+     },
+     {
       "number": "757",
       "from": "Eccles",
       "to": "Loreto Grammar School",
@@ -1278,14 +1276,36 @@
       "school": true
      },
      {
-      "number": "789",
-      "from": "Lostock",
-      "to": "Blessed Thomas Holford College",
+      "number": "746",
+      "from": "Altrincham Grammar School",
+      "to": "Brooklands",
       "via": [],
       "operators": [
        "Bee Network"
       ],
-      "trips": 6,
+      "trips": 4,
+      "school": true
+     },
+     {
+      "number": "759",
+      "from": "Altrincham Girls Grammar",
+      "to": "Loreto Gramma",
+      "via": [],
+      "operators": [
+       "Bee Network"
+      ],
+      "trips": 4,
+      "school": true
+     },
+     {
+      "number": "762",
+      "from": "St Ambrose College",
+      "to": "Chorlton",
+      "via": [],
+      "operators": [
+       "Bee Network"
+      ],
+      "trips": 4,
       "school": true
      },
      {
@@ -1355,31 +1375,9 @@
       "school": true
      },
      {
-      "number": "746",
-      "from": "Altrincham Grammar School",
-      "to": "Brooklands",
-      "via": [],
-      "operators": [
-       "Bee Network"
-      ],
-      "trips": 2,
-      "school": true
-     },
-     {
-      "number": "759",
-      "from": "Altrincham Girls Grammar",
-      "to": "Loreto Gramma",
-      "via": [],
-      "operators": [
-       "Bee Network"
-      ],
-      "trips": 2,
-      "school": true
-     },
-     {
-      "number": "762",
-      "from": "St Ambrose College",
-      "to": "Chorlton",
+      "number": "780",
+      "from": "Sale Grammar School",
+      "to": "Hale Barns",
       "via": [],
       "operators": [
        "Bee Network"
@@ -1396,17 +1394,6 @@
        "Bee Network"
       ],
       "trips": 2,
-      "school": true
-     },
-     {
-      "number": "780",
-      "from": "Sale Grammar School",
-      "to": "Hale Barns",
-      "via": [],
-      "operators": [
-       "Bee Network"
-      ],
-      "trips": 1,
       "school": true
      }
     ],
@@ -1434,7 +1421,7 @@
     "tram_map": "https://tfgm.com/ways-to-travel/tram/network-map",
     "rail_reviewed": "2026-10-12"
    },
-   "period": "Timetable downloaded 2026-11-16",
+   "period": "Timetable downloaded 2026-11-23",
    "geography": "Stops within 1 km of the centre of Sale",
    "source": {
     "name": "TfGM bus and Metrolink timetables (GTFS)",
@@ -1604,5 +1591,5 @@
    "note": "Access to jobs, education, healthcare, shops and leisure by walking, cycling, public transport and driving."
   }
  },
- "updated": "2026-11-16"
+ "updated": "2026-11-23"
 }

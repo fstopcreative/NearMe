@@ -87,26 +87,22 @@
   },
   "average_rent": {
    "value": {
-    "month": "2026-09",
-    "monthly": 1373,
-    "change_12m": 3,
+    "month": "2026-10",
+    "monthly": 1378,
+    "change_12m": 3.3,
     "by_beds": {
-     "one": 946,
-     "two": 1205,
-     "three": 1488,
-     "four_plus": 2113
+     "one": 948,
+     "two": 1209,
+     "three": 1494,
+     "four_plus": 2120
     },
     "by_type": {
-     "detached": 2051,
-     "semi": 1526,
-     "terraced": 1361,
-     "flat": 1122
+     "detached": 2059,
+     "semi": 1533,
+     "terraced": 1365,
+     "flat": 1125
     },
     "trend": [
-     {
-      "month": "2021-10",
-      "rent": 962
-     },
      {
       "month": "2021-11",
       "rent": 972
@@ -342,14 +338,18 @@
      {
       "month": "2026-09",
       "rent": 1373
+     },
+     {
+      "month": "2026-10",
+      "rent": 1378
      }
     ],
     "compare": {
-     "North West": 975,
-     "England": 1466
+     "North West": 979,
+     "England": 1472
     }
    },
-   "period": "September 2026 (provisional)",
+   "period": "October 2026 (provisional)",
    "geography": "Trafford (local authority)",
    "source": {
     "name": "ONS Price Index of Private Rents — Housing prices in your area",
@@ -578,10 +578,10 @@
   },
   "hpi_borough": {
    "value": {
-    "average": 393897,
-    "growth": 6.4
+    "average": 394017,
+    "growth": 4.7
    },
-   "period": "August 2026",
+   "period": "September 2026",
    "geography": "Trafford (local authority)",
    "source": {
     "name": "UK House Price Index (HM Land Registry / ONS)",
@@ -593,10 +593,10 @@
   },
   "hpi_uk": {
    "value": {
-    "average": 273037,
-    "growth": 0.9
+    "average": 272642,
+    "growth": 1.2
    },
-   "period": "August 2026",
+   "period": "September 2026",
    "geography": "United Kingdom",
    "source": {
     "name": "UK House Price Index (HM Land Registry / ONS)",
@@ -634,76 +634,76 @@
   "news": {
    "value": [
     {
-     "title": "New Waitrose opens in Hale Barns after multimillion-pound transformation creates 73 jobs",
+     "title": "Plans unveiled for four new padel courts at Hale Barns hotel",
      "excerpt": "",
-     "date": "12 Nov 2026",
-     "tag": "Local news",
-     "tone": "neutral",
+     "date": "23 Nov 2026",
+     "tag": "Planning",
+     "tone": "accent",
      "source": "Altrincham Today",
      "domain": "altrincham.todaynews.co.uk",
-     "url": "https://altrincham.todaynews.co.uk/news/2026/11/12/new-waitrose-opens-in-hale-barns-after-multimillion-pound-transformation-creates-73-jobs/",
-     "image": "https://storage.ghost.io/c/09/ce/09cee984-fa22-44f2-a16f-e4d816e662de/content/images/2026/11/waitrose1.jpg",
+     "url": "https://altrincham.todaynews.co.uk/news/2026/11/23/plans-unveiled-for-four-new-padel-courts-at-hale-barns-hotel/",
+     "image": "https://storage.ghost.io/c/09/ce/09cee984-fa22-44f2-a16f-e4d816e662de/content/images/2026/11/main--1-.jpg",
      "image_external": true,
      "scope": "local"
     },
     {
-     "title": "Work to begin on Timperley junction badly hit by New Year's Day floods",
+     "title": "Woman fined £1,000 after being caught fly-tipping in Hale",
      "excerpt": "",
-     "date": "10 Nov 2026",
+     "date": "17 Nov 2026",
+     "tag": "Nearby · Hale",
+     "tone": "neutral",
+     "source": "Altrincham Today",
+     "domain": "altrincham.todaynews.co.uk",
+     "url": "https://altrincham.todaynews.co.uk/news/2026/11/17/woman-fined-1-000-after-being-caught-fly-tipping-in-hale/",
+     "image": "https://storage.ghost.io/c/09/ce/09cee984-fa22-44f2-a16f-e4d816e662de/content/images/2026/11/flytip-1.jpg",
+     "image_external": true,
+     "scope": "nearby",
+     "near": "Hale"
+    },
+    {
+     "title": "Blow for Timperley traders as bid to halt parking charges is defeated",
+     "excerpt": "",
+     "date": "20 Nov 2026",
      "tag": "Nearby · Timperley",
      "tone": "neutral",
      "source": "Altrincham Today",
      "domain": "altrincham.todaynews.co.uk",
-     "url": "https://altrincham.todaynews.co.uk/news/2026/11/10/work-to-begin-on-timperley-junction-badly-hit-by-new-years-day-floods/",
-     "image": "https://storage.ghost.io/c/09/ce/09cee984-fa22-44f2-a16f-e4d816e662de/content/images/2026/11/timpflood.jpg",
+     "url": "https://altrincham.todaynews.co.uk/news/2026/11/20/blow-for-timperley-traders-as-bid-to-halt-parking-charges-is-defeated/",
+     "image": "https://storage.ghost.io/c/09/ce/09cee984-fa22-44f2-a16f-e4d816e662de/content/images/2026/11/thorley-1.jpg",
      "image_external": true,
      "scope": "nearby",
      "near": "Timperley"
     },
     {
-     "title": "Boy, 15, arrested on suspicion of knife possession after Timperley incident",
+     "title": "Full details of huge plans for Old Trafford, Stretford, Urmston, Altrincham, Sale and Timperley",
      "excerpt": "",
-     "date": "10 Nov 2026",
+     "date": "20 Nov 2026",
      "tag": "Nearby · Timperley",
      "tone": "neutral",
-     "source": "Altrincham Today",
-     "domain": "altrincham.todaynews.co.uk",
-     "url": "https://altrincham.todaynews.co.uk/news/2026/11/10/boy-15-arrested-on-suspicion-of-knife-possession-after-timperley-incident/",
-     "image": "https://storage.ghost.io/c/09/ce/09cee984-fa22-44f2-a16f-e4d816e662de/content/images/2026/11/brook.png",
+     "source": "Manchester Evening News – Trafford",
+     "domain": "manchestereveningnews.co.uk",
+     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/full-details-huge-plans-old-34938496",
+     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34804295.ece/ALTERNATES/s615/0_GettyImages-2256708209.jpg",
      "image_external": true,
      "scope": "nearby",
      "near": "Timperley"
     },
     {
-     "title": "Coronation Street and Hollyoaks stars revealed as Altrincham Christmas Lights Switch-On special guests",
+     "title": "Potential Altrincham Grammar School for Girls admissions policy change sparks concern",
      "excerpt": "",
-     "date": "16 Nov 2026",
+     "date": "21 Nov 2026",
      "tag": "Nearby · Altrincham",
      "tone": "neutral",
-     "source": "Altrincham Today",
-     "domain": "altrincham.todaynews.co.uk",
-     "url": "https://altrincham.todaynews.co.uk/news/2026/11/16/coronation-street-and-hollyoaks-stars-revealed-as-altrincham-christmas-lights-switch-on-special-guests/",
-     "image": "https://storage.ghost.io/c/09/ce/09cee984-fa22-44f2-a16f-e4d816e662de/content/images/2026/11/Santa-on-Christmas-Lights-Switch-on-Stage--1--1.jpg",
-     "image_external": true,
-     "scope": "nearby",
-     "near": "Altrincham"
-    },
-    {
-     "title": "Global toy giant Lego buys Altrincham gaming studio",
-     "excerpt": "",
-     "date": "16 Nov 2026",
-     "tag": "Nearby · Altrincham",
-     "tone": "neutral",
-     "source": "Altrincham Today",
-     "domain": "altrincham.todaynews.co.uk",
-     "url": "https://altrincham.todaynews.co.uk/news/2026/11/16/global-toy-giant-lego-buys-altrincham-gaming-studio/",
-     "image": "https://storage.ghost.io/c/09/ce/09cee984-fa22-44f2-a16f-e4d816e662de/content/images/2026/11/forthstar.jpg",
+     "source": "Manchester Evening News – Trafford",
+     "domain": "manchestereveningnews.co.uk",
+     "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/potential-altrincham-grammar-school-girls-34945355",
+     "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article33003112.ece/ALTERNATES/s615/1_200825grammarschools5.jpg",
      "image_external": true,
      "scope": "nearby",
      "near": "Altrincham"
     }
    ],
-   "period": "Publisher feeds checked 2026-11-16",
+   "period": "Publisher feeds checked 2026-11-23",
    "geography": "Hale Barns",
    "source": {
     "name": "Local publisher RSS feeds",
@@ -1074,6 +1074,17 @@
     "trams": [],
     "buses": [
      {
+      "number": "288",
+      "from": "Manchester Airport",
+      "to": "Altrincham",
+      "via": [],
+      "operators": [
+       "Bee Network"
+      ],
+      "trips": 276,
+      "school": false
+     },
+     {
       "number": "88",
       "from": "Altrincham",
       "to": "Knutsford",
@@ -1087,17 +1098,6 @@
       "school": false
      },
      {
-      "number": "288",
-      "from": "Manchester Airport",
-      "to": "Altrincham",
-      "via": [],
-      "operators": [
-       "Bee Network"
-      ],
-      "trips": 74,
-      "school": false
-     },
-     {
       "number": "283",
       "from": "Altrincham",
       "to": "Warburton Green circular",
@@ -1107,7 +1107,7 @@
       "operators": [
        "Bee Network"
       ],
-      "trips": 35,
+      "trips": 98,
       "school": false
      },
      {
@@ -1120,7 +1120,31 @@
       "operators": [
        "Bee Network"
       ],
-      "trips": 33,
+      "trips": 93,
+      "school": false
+     },
+     {
+      "number": "280",
+      "from": "Altrincham",
+      "to": "Lymm",
+      "via": [
+       "Dunham Massey"
+      ],
+      "operators": [
+       "Bee Network"
+      ],
+      "trips": 4,
+      "school": false
+     },
+     {
+      "number": "741",
+      "from": "King David HS",
+      "to": "Bowdon",
+      "via": [],
+      "operators": [
+       "Bee Network"
+      ],
+      "trips": 4,
       "school": false
      },
      {
@@ -1135,41 +1159,6 @@
       "school": false
      },
      {
-      "number": "761",
-      "from": "Heaton Mersey",
-      "to": "St Ambrose",
-      "via": [],
-      "operators": [
-       "Bee Network"
-      ],
-      "trips": 3,
-      "school": false
-     },
-     {
-      "number": "280",
-      "from": "Altrincham",
-      "to": "Lymm",
-      "via": [
-       "Dunham Massey"
-      ],
-      "operators": [
-       "Bee Network"
-      ],
-      "trips": 2,
-      "school": false
-     },
-     {
-      "number": "741",
-      "from": "King David HS",
-      "to": "Bowdon",
-      "via": [],
-      "operators": [
-       "Bee Network"
-      ],
-      "trips": 2,
-      "school": false
-     },
-     {
       "number": "287",
       "from": "Altrincham",
       "to": "Bowdon Vale circular",
@@ -1177,7 +1166,7 @@
       "operators": [
        "Bee Network"
       ],
-      "trips": 1,
+      "trips": 2,
       "school": false
      },
      {
@@ -1193,6 +1182,50 @@
       ],
       "trips": 1,
       "school": false
+     },
+     {
+      "number": "760",
+      "from": "Altrincham Grammar School for Boys",
+      "to": "Loreto Gramma",
+      "via": [],
+      "operators": [
+       "Bee Network"
+      ],
+      "trips": 4,
+      "school": true
+     },
+     {
+      "number": "762",
+      "from": "St Ambrose College",
+      "to": "Chorlton",
+      "via": [],
+      "operators": [
+       "Bee Network"
+      ],
+      "trips": 4,
+      "school": true
+     },
+     {
+      "number": "767",
+      "from": "St Ambrose College",
+      "to": "Didsbury",
+      "via": [],
+      "operators": [
+       "Bee Network"
+      ],
+      "trips": 4,
+      "school": true
+     },
+     {
+      "number": "769",
+      "from": "St Ambrose College",
+      "to": "Didsbury",
+      "via": [],
+      "operators": [
+       "Bee Network"
+      ],
+      "trips": 4,
+      "school": true
      },
      {
       "number": "763",
@@ -1239,47 +1272,14 @@
       "school": true
      },
      {
-      "number": "760",
-      "from": "Altrincham Grammar School for Boys",
-      "to": "Loreto Gramma",
+      "number": "761",
+      "from": "Heaton Mersey",
+      "to": "St Ambrose College",
       "via": [],
       "operators": [
        "Bee Network"
       ],
-      "trips": 2,
-      "school": true
-     },
-     {
-      "number": "762",
-      "from": "St Ambrose College",
-      "to": "Chorlton",
-      "via": [],
-      "operators": [
-       "Bee Network"
-      ],
-      "trips": 2,
-      "school": true
-     },
-     {
-      "number": "767",
-      "from": "St Ambrose College",
-      "to": "Didsbury",
-      "via": [],
-      "operators": [
-       "Bee Network"
-      ],
-      "trips": 2,
-      "school": true
-     },
-     {
-      "number": "769",
-      "from": "St Ambrose College",
-      "to": "Didsbury",
-      "via": [],
-      "operators": [
-       "Bee Network"
-      ],
-      "trips": 2,
+      "trips": 4,
       "school": true
      },
      {
@@ -1290,7 +1290,7 @@
       "operators": [
        "Bee Network"
       ],
-      "trips": 2,
+      "trips": 3,
       "school": true
      },
      {
@@ -1301,7 +1301,7 @@
       "operators": [
        "Bee Network"
       ],
-      "trips": 1,
+      "trips": 2,
       "school": true
      }
     ],
@@ -1350,7 +1350,7 @@
     "tram_map": "https://tfgm.com/ways-to-travel/tram/network-map",
     "rail_reviewed": "2026-10-12"
    },
-   "period": "Timetable downloaded 2026-11-16",
+   "period": "Timetable downloaded 2026-11-23",
    "geography": "Stops within 1 km of the centre of Hale Barns",
    "source": {
     "name": "TfGM bus and Metrolink timetables (GTFS)",
@@ -1498,5 +1498,5 @@
    "note": "Access to jobs, education, healthcare, shops and leisure by walking, cycling, public transport and driving."
   }
  },
- "updated": "2026-11-16"
+ "updated": "2026-11-23"
 }
